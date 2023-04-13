@@ -1,0 +1,390 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+@include newLayout_resp;
+
+
+
+/*#region Estilos windows Modales */
+
+.btnRed {
+        background-color: $Rojo;
+        border: 1px solid $Rojo;
+}
+.btnRed:hover {
+    background-color: $Rojo;
+    opacity:.8 !important;
+    border: 1px solid $Rojo;
+}
+
+.winRed {
+    .x-window-header-default {
+        background-color: $Rojo !important;
+        border-color: $Rojo !important;
+    }
+
+  
+}
+
+
+.btnAlertaRed{
+    margin-left: 2rem;
+}
+
+.minW {
+    min-width: 20px !important;
+}
+
+.outputDisable {
+    textarea {
+        font-size: 11px !important;
+        color: #9999A1 !important;
+    }
+}
+
+.ExitoLbl {
+    span {
+        font-size: 22px !important;
+        font-weight: bold !important;
+    }
+}
+
+
+
+
+/*#endregion */
+/*#region ESTILOS TITULO SUBTITULO TOOLBARS */
+.big-lbl-title {
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    padding-top: 0px;
+    display: contents;
+
+    span {
+        padding-top: 15px;
+        max-width: 75%;
+        display: block;
+        height: 3rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width:768px) {
+
+    .big-lbl-title {
+        font-size: 20px;
+    }
+}
+
+
+.subtitle-subcode {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #FFD9AA;
+    color: #74450D;
+    border-radius: 2px !important;
+    padding: .25rem .5rem;
+
+    span {
+        vertical-align: unset !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+
+    .grdcustomscroll {
+
+        .x-scroller {
+            -webkit-overflow-scrolling: touch;
+            background: rebeccapurple;
+        }
+    }
+}
+
+
+.ExpSubtitle {
+    padding-bottom: 1.5rem;
+    background-color:$Gris1Fondo;
+}
+/*#endregion */
+
+#ExpHeader .x-panel-body-default {
+    background-color: $Gris1Fondo !important;
+    max-width: 650px;
+}
+
+
+.ExpDescription {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align:center;
+}
+.x-panel-bodyWrap h1 {
+    text-align: center;
+}
+
+.Expbox {
+    background-color: $blanco;
+    padding: 20px;
+    border: 1px solid $Gris2 !important;
+    border-radius: 3px;
+    margin-top: 2rem;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+    min-width: 200px;
+    max-width: 300px;
+}
+.ExtIcon {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 20px;
+    width: 20px;
+    margin-left: calc(50% - 10px);
+}
+.ExpBoxDescription {
+    font-size: 11px;
+    font-weight: 300;
+    color: $Gris4;
+    line-height: .5em;
+
+}
+#ctMain1 .btn-ppal {
+    margin-top: 20px;
+    margin-left: calc(50% - 60px) !important;
+    margin-right: calc(50% - 60px) !important;
+    float: left;
+}
+.ExpTitleBox {
+    text-align:center;
+}
+
+
+.ctAsideR {
+    margin-top: 1rem;
+}
+
+#ctAsideR-innerCt {
+    display: flex;
+    justify-content: flex-start;
+}
+#mnAsideR {
+    flex: 0 0 40px;
+    border-right: 1px solid $Gris1 !important;
+}
+
+#mnAsideR-innerCt {
+    height: 100vh;
+}
+#pnGridsAsideR, #pnGridsAsideR2 {
+    flex: 1 1 90%;
+    //height: 100vh;
+    #pnGridsAsideR-innerCt, #pnGridsAsideR2-innerCt {
+        //height: 100vh;
+    }
+}
+
+.ExpSearch {
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-bottom: 0rem;
+    margin-top: .2rem;
+}
+.ExpSearchText {
+    margin-left: .5rem;
+    font-size: 12px;
+    font-weight: 500;
+    color:$Gris4;
+}
+
+.liNot {
+    display: flex;
+    justify-content: flex-start;
+    background-color: $blanco;
+    padding: .8rem;
+    border-radius: 3px;
+    align-items: center;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $Gris1;
+
+
+
+    &:hover {
+        .btnEdit-item {
+            display: block;
+        }
+    }
+}
+
+
+.chkNot {
+    flex: 0 0 15%;
+    margin-right: .8rem;
+}
+
+.cntNot {
+    flex: 1 0 70%;
+    margin-right: .8rem;
+}
+
+.btnEdit {
+    flex: 0 0 15%;
+}
+
+.titNot {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: $GrisNegro;
+    margin-bottom: .4rem;
+}
+
+.txtNot {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: $GrisNegro;
+    margin-bottom: .4rem;
+    height: 2.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dateNot, {
+    position: relative;
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: $colSec;
+    margin-left: 12px;
+}
+.version {
+    position: relative;
+    font-size: 11px;
+    font-weight: 400;
+    color: $colSec;
+    margin-left: 12px;
+}
+
+.dateNot:after {
+    position: absolute;
+    content: url('../../../ima/ico-calendar-min.svg');
+    left: -12px;
+    top: 1px;
+}
+ul {
+    padding-inline-start: 0px !important;
+}
+.liVbox {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+    font-weight: 400;
+    background: #FFD9AA;
+    color: #74450D;
+    border-radius: 2px !important;
+
+
+    span {
+        vertical-align: unset !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+
+    .grdcustomscroll {
+
+        .x-scroller {
+            -webkit-overflow-scrolling: touch;
+            background: rebeccapurple;
+        }
+    }
+}
+.btnDelete-item {
+    width: 32px;
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('../../../ima/ico-trash.svg') !important;
+    background-size: 16px;
+    border-radius: 50%;
+
+    &:hover {
+        background-image: url('../../../ima/ico-trash.svg');
+        background-color: $Gris1;
+    }
+}
+.btnDownload-item {
+    width: 32px;
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('../../../ima/btn_download_grid.svg') !important;
+    background-size: 16px;
+    border-radius: 50%;
+
+    &:hover {
+        background-image: url('../../../ima/btn_download_grid.svg');
+        background-color: $Gris1;
+    }
+}
+.x-form-trigger-wrap {
+    border: 1px solid $Gris1;
+    border-radius: 2px;
+    margin-bottom: -4px;
+}
+
+.ico-windows {
+    margin-right: 15px !important;
+    height: 100% !important;
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+}
+.WindowsHeader {
+    width: calc(100% - 40px);
+}
+.big-lbl-title-window {
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 0px;
+
+
+    span {
+        white-space: normal;
+        display: block;
+    }
+}
+.WindowsSubtitle {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+
+    span {
+        margin-top: 10px;
+        white-space: normal;
+        display: block;
+    }
+}
+.WindowsHeader .btn-ppal {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: calc(100% - 120px) !important;
+    
+}
+.formtitle {
+    font: 500 14px/16px "Roboto", sans-serif;
+    line-height: 1.4;
+    font-weight: bold;
+}
+#cmbTipe {
+    padding:10px;
+}

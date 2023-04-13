@@ -1,0 +1,29 @@
+<svg id="ico-elements" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_245" data-name="Rectángulo 245" width="20" height="20" fill="none"/>
+  <g id="Grupo_1657" data-name="Grupo 1657" transform="translate(-4304 -85)">
+    <g id="Elipse_124" data-name="Elipse 124" transform="translate(4304 85)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <g id="Elipse_126" data-name="Elipse 126" transform="translate(4304 99)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <g id="Elipse_125" data-name="Elipse 125" transform="translate(4318 85)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <g id="Elipse_127" data-name="Elipse 127" transform="translate(4318 99)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <g id="Elipse_128" data-name="Elipse 128" transform="translate(4309 90)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="4.25" fill="none"/>
+    </g>
+    <line id="Línea_225" data-name="Línea 225" x1="3" y1="3" transform="translate(4308.5 89.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_226" data-name="Línea 226" y1="3" x2="3" transform="translate(4316.5 89.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_227" data-name="Línea 227" x1="3" y2="3" transform="translate(4308.5 97.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_228" data-name="Línea 228" x2="3" y2="3" transform="translate(4316.5 97.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  </g>
+</svg>

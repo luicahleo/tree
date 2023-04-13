@@ -1,0 +1,185 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+@include layoutRes(100%, 50%, 60%, 40%, 40%, 30%);
+
+.x-btn-icon-left > .x-btn-icon-el-default-small,
+.x-btn-icon-right > .x-btn-icon-el-default-small {
+	width: 22px !important;
+}
+
+.TipodatoAlign{
+
+	float:right;
+	padding-right: 40px !important;
+}
+
+.pnlP1FullH {
+	@include grdPnColIcons;
+	//@include panel100Alto;
+	height: 100vh !important;
+
+	.x-panel-body, .x-autocontainer-innerCt {
+		height: 90vh !important;
+	}
+
+
+	.x-panel-body-default-framed, .x-panel-bodyWrap {
+		background-color: #ffffff !important;
+	}
+}
+
+
+#tbBotMain{
+	position:absolute !important;
+	bottom: 20px !important;
+	height:50px;
+}
+
+
+
+.CntAndTblFullH {
+	.x-autocontainer-innerCt {
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.CtWrap-H {
+		flex: 1 0 70%;
+		
+		.x-autocontainer-innerCt{
+			display:block;
+			height:auto;
+		}
+	}
+
+	.tlb-bottom {
+		flex: 0 0 120px;
+		margin-right: 1rem;
+	}
+}
+
+#ctTxt{
+	height: 300px;
+	h4{
+		margin-bottom: .5rem;
+	}
+	p{
+		margin-right: 1rem;
+	}
+	
+}
+
+
+
+.btnLocalizacion {
+
+		@include bgBtn-ico;
+		@include btn-transp;
+		background-image: url('/ima/ico-location.svg') !important;
+		background-size: 20px;
+		width: 20px;
+}
+
+
+/*#region ESTILOS TITULO SUBTITULO TOOLBARS */
+
+.big-lbl-title {
+	font-size: 22px;
+	font-weight: 900;
+	position: absolute;
+	padding-top: 0px;
+	display: contents;
+
+	span {
+		padding-top: 15px;
+	}
+}
+
+
+.subtitle-subcode {
+	margin-top:5px;
+	font-size: 12px;
+	background: #FFD9AA;
+	color: #74450D;
+	border-radius: 2px !important;
+
+
+	span {
+		vertical-align: unset !important;
+		padding-left: 2px !important;
+		padding-right: 2px !important;
+	}
+
+	.grdcustomscroll {
+
+		.x-scroller {
+			-webkit-overflow-scrolling: touch;
+			background: rebeccapurple;
+		}
+	}
+}
+
+.customCol1{
+	p{
+		margin-bottom: .3rem;
+	}
+}
+
+
+.TBSubtitle {
+	padding-bottom: 1.5rem;
+}
+/*#endregion */
+/*#region TOOLBARDONEUNDONE P2 */
+.btn-toggleGrid-Cntract {
+	font-weight: bold !important;
+
+	span {
+		color: black !important;
+		font-weight: bold;
+	}
+}
+
+/*#endregion */
+
+
+.Override100InnerH {
+
+	.x-autocontainer-innerCt {
+		height: 100% !important;
+	}
+}
+
+.OverlapIconUpF {
+	border-style: hidden !important;
+	background-image: url('/ima/ico-folder-16x16.svg');
+	background-size:22px !important;
+	width: 28px;
+	height: 22px;
+	background-color: transparent !important;
+
+}
+
+.x-btn-default-small {
+	border:hidden !important;
+	outline:hidden !important;
+	background-image: none;
+	background-color: transparent !important;
+	padding: 0px 0px 0px 5px !important;
+}
+
+
+.toolbar-noborder {
+	border:hidden !important;
+}
+
+
+.ctFormTask {
+	h4 {
+		margin-bottom: .5rem;
+	}
+	&.x-container{
+		margin-bottom: 1rem;
+	}
+}

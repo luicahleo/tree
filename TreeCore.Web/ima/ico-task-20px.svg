@@ -1,0 +1,15 @@
+<svg id="ico-task-20px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_1610" data-name="Rectángulo 1610" width="20" height="20" fill="none"/>
+  <rect id="Rectángulo_274" data-name="Rectángulo 274" width="20" height="20" fill="none"/>
+  <g id="Rectángulo_345" data-name="Rectángulo 345" transform="translate(2 1)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6">
+    <rect width="16" height="18.333" stroke="none"/>
+    <rect x="0.8" y="0.8" width="14.4" height="16.733" fill="none"/>
+  </g>
+  <line id="Línea_630" data-name="Línea 630" y1="4" transform="translate(7)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_631" data-name="Línea 631" y1="4" transform="translate(10)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_632" data-name="Línea 632" y1="4" transform="translate(13)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <g id="ico_checked" transform="translate(2 2)">
+    <rect id="Rectángulo_2582" data-name="Rectángulo 2582" width="16" height="16" fill="none"/>
+    <path id="Trazado_2502" data-name="Trazado 2502" d="M-2999.615,1503.854l2.857,3.333,5.143-6" transform="translate(3003.615 -1496.187)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="ico-code" xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20">
+  <g id="Rectángulo_176" data-name="Rectángulo 176" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="16" height="20" stroke="none"/>
+    <rect x="0.75" y="0.75" width="14.5" height="18.5" fill="none"/>
+  </g>
+  <path id="Trazado_1076" data-name="Trazado 1076" d="M2.562-1.265a.715.715,0,0,1-.334-.628.715.715,0,0,1,.334-.628L5.3-4.374a.309.309,0,0,1,.2-.056.691.691,0,0,1,.5.247.8.8,0,0,1,.237.572.478.478,0,0,1-.194.438l-1.9,1.279,1.21.815.688.464a.478.478,0,0,1,.194.438A.8.8,0,0,1,6,.4a.691.691,0,0,1-.5.247A.309.309,0,0,1,5.3.586ZM8-.177A.478.478,0,0,1,8.2-.615l1.9-1.279L8.2-3.173A.478.478,0,0,1,8-3.611a.8.8,0,0,1,.237-.572.691.691,0,0,1,.5-.247.309.309,0,0,1,.2.056l2.74,1.851a.715.715,0,0,1,.334.628.715.715,0,0,1-.334.628L8.941.586a.309.309,0,0,1-.2.056A.691.691,0,0,1,8.24.4.8.8,0,0,1,8-.177Z" transform="translate(0.93 8.97)" fill="#6a6b75"/>
+  <line id="Línea_257" data-name="Línea 257" x2="8.462" transform="translate(3.845 12.664)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_258" data-name="Línea 258" x2="8.462" transform="translate(3.845 15.599)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+</svg>

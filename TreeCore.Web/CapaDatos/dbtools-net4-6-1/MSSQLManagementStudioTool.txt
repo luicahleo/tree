@@ -1,0 +1,6 @@
+http://wahlnetwork.com/2015/12/21/how-to-upgrade-windows-powershell-to-version-5-0/
+
+MS SQL Server Management Studio Integration
+
+Command: powershell.exe 
+Arguments: -executionPolicy bypass -noexit -file "$Path\UpdateProjectDataContext.ps1"

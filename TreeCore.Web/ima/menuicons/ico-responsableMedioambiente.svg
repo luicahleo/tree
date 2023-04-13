@@ -1,0 +1,13 @@
+<svg id="ico-responsableMedioambiente" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_313" data-name="Rectángulo 313" width="20" height="20" fill="none" opacity="0.5"/>
+  <path id="Trazado_1268" data-name="Trazado 1268" d="M0,15.168v2.274" transform="translate(9.085 1.622)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1269" data-name="Trazado 1269" d="M0,10.86v6.582" transform="translate(9.085 -9.378)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1270" data-name="Trazado 1270" d="M4208.757,195.105l4.524,2.956" transform="translate(-4204.552 -189.662)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_1271" data-name="Trazado 1271" d="M4207.2,194.3l4.63,2.942" transform="translate(-4204.444 -184.952)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_1266" data-name="Trazado 1266" d="M1708.6-355.042a6.593,6.593,0,0,1-6.313-6.949c.1-5.309,6.726-8.854,6.8-8.838s4.646,2.566,6.319,6" transform="translate(-1700 372)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <g id="Elipse_172" data-name="Elipse 172" transform="translate(6.8 6.14)" fill="none" stroke="#666" stroke-width="1.5">
+    <ellipse cx="6.516" cy="6.516" rx="6.516" ry="6.516" stroke="none"/>
+    <ellipse cx="6.516" cy="6.516" rx="5.766" ry="5.766" fill="none"/>
+  </g>
+  <path id="Trazado_1267" data-name="Trazado 1267" d="M.624-5.027a.751.751,0,0,1,.227-.551.769.769,0,0,1,.568-.227.754.754,0,0,1,.552.232.747.747,0,0,1,.232.546.747.747,0,0,1-.232.546.754.754,0,0,1-.552.232.766.766,0,0,1-.562-.232A.747.747,0,0,1,.624-5.027ZM.655-11.08a.543.543,0,0,1,.212-.45.849.849,0,0,1,.542-.167.832.832,0,0,1,.531.167.543.543,0,0,1,.212.45q0,.606-.072,2.071T2.007-6.947a.365.365,0,0,1-.191.328.771.771,0,0,1-.408.116Q.8-6.5.8-6.947q0-.6-.072-2.061T.655-11.08Z" transform="translate(12.254 20.765)" fill="#666"/>
+</svg>

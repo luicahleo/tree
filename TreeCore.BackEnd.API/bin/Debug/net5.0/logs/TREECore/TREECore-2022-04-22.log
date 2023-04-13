@@ -1,0 +1,62 @@
+2022-04-22 08:29:33.1273||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 08:41:39.4870||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 10:15:45.3418||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 10:43:07.7163||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 12:46:45.1823||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 12:47:20.2420||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 15:43:36.5751||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: The connection is broken and recovery is not possible.  The connection is marked by the server as unrecoverable.  No attempt was made to restore the connection. | StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 138
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Data.SqlClient.SqlException (0x80131904): The connection is broken and recovery is not possible.  The connection is marked by the server as unrecoverable.  No attempt was made to restore the connection.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 138
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+ClientConnectionId:9551a7d0-3e57-493b-8c48-2f9edfede24f
+2022-04-22 15:44:35.6372||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 15:47:58.1780||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 15:49:49.4246||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 17:15:21.8747||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-22 17:42:58.2358||DEBUG|TreeCore.BackEnd.API.Program|init main 

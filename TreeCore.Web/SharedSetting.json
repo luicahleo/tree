@@ -1,0 +1,2568 @@
+﻿{
+  "PathRoot": {
+    "SharedValue": "c:\\Tree\\"
+  },
+  "APIRoute": "https://localhost:44327/api/",
+  "Modules": [
+
+    {
+      "Name": "Contacts",
+      "Code": "CNT",
+      "Route": "\\Modulos\\Contacts\\",
+      "UserInterfaces": [
+        {
+          "Code": "Contacts",
+          "Resource": [ "strContactos" ],
+          "Page": "Contactos.aspx",
+          "Icon": "ico-contactos.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Contacts@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contacts@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contacts@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contacts@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contacts@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ContactsTypes",
+          "Resource": [ "strContactos", "strTipos" ],
+          "Page": "ContactosTipos.aspx",
+          "Icon": "ico-categories.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ContactsTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContactsTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContactsTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContactsTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContactsTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "Contracts",
+      "Code": "CTR",
+      "Route": "\\Modulos\\Contracts\\",
+      "UserInterfaces": [
+        {
+          "Code": "Contracts",
+          "Resource": [ "strContratos" ],
+          "Page": "Contratos.aspx",
+          "Icon": "ico-regulaciones.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Contracts@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contracts@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contracts@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contracts@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contracts@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "RentsConcepts",
+          "Resource": [ "strCondiciones" ],
+          "Page": "AlquileresConceptos.aspx",
+          "Icon": "ico-concepts.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "RentsConcepts@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsConcepts@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsConcepts@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsConcepts@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsConcepts@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "RentsStatus",
+          "Resource": [ "strEstados" ],
+          "Page": "AlquileresEstados.aspx",
+          "Icon": "ico-estados.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "RentsStatus@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsStatus@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsStatus@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsStatus@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsStatus@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "RentsTypes",
+          "Resource": [ "strGrupos" ],
+          "Page": "AlquileresTiposContrataciones.aspx",
+          "Icon": "ico-rentals.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "RentsTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RentsTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ContractsTypes",
+          "Resource": [ "strTipos" ],
+          "Page": "AlquileresTiposContratos.aspx",
+          "Icon": "ico-categories.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ContractsTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContractsTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContractsTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContractsTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ContractsTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "FunctionalAreas",
+          "Resource": [ "strAreasFuncionales" ],
+          "Page": "AreasFuncionales.aspx",
+          "Icon": "ico-areas.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "FunctionalAreas@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalAreas@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalAreas@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalAreas@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalAreas@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "DataQuality",
+      "Route": "\\Modulos\\DataQuality\\",
+      "Code": "DQ",
+      "UserInterfaces": [
+        {
+          "Code": "DQCategories",
+          "Resource": [ "strCategorias" ],
+          "Page": "CalidadDQCategorias.aspx",
+          "Icon": "ico-categories.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DQCategories@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQCategories@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQCategories@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQCategories@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQCategories@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "DQDataSource",
+          "Resource": [ "strModeloDatos" ],
+          "Page": "CalidadDQDataSources.aspx",
+          "Icon": "ico-data-20px.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DQDataSource@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQDataSource@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQDataSource@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQDataSource@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQDataSource@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "DQGruopes",
+          "Resource": [ "strGrupos" ],
+          "Page": "CalidadDQGrupos.aspx",
+          "Icon": "ico-groups.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DQGruopes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQGruopes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQGruopes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQGruopes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQGruopes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "DQTrafficLights",
+          "Resource": [ "strSemaforos" ],
+          "Page": "CalidadDQSemaforos.aspx",
+          "Icon": "ico-criticidades-tareas.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DQTrafficLights@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQTrafficLights@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQTrafficLights@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQTrafficLights@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQTrafficLights@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "DQKPI",
+          "Resource": [ "strCalidadKPI" ],
+          "Page": "CalidadKPI.aspx",
+          "Icon": "ico-KPIs.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DQKPI@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQKPI@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQKPI@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQKPI@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DQKPI@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "Files",
+      "Code": "FIL",
+      "Route": "\\Modulos\\Files\\",
+      "UserInterfaces": [
+        {
+          "Code": "Files",
+          "Resource": [ "strDocumentos" ],
+          "Page": "DocumentosVista.aspx",
+          "Icon": "ico-docs.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Files@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Files@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Files@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Files@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Files@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "FilesStatus",
+          "Resource": [ "strEstados" ],
+          "Page": "DocumentalEstados.aspx",
+          "Icon": "ico-estados.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "FilesStatus@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesStatus@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesStatus@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesStatus@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesStatus@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "FilesExtensions",
+          "Resource": [ "strExtensiones" ],
+          "Page": "DocumentalExtensiones.aspx",
+          "Icon": "ico-OCRPlantillas.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "FilesExtensions@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesExtensions@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesExtensions@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesExtensions@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesExtensions@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "FilesTypes",
+          "Resource": [ "strTipos" ],
+          "Page": "DocumentalTiposDocumentos.aspx",
+          "Icon": "ico-categories.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "FilesTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FilesTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "ImportExport",
+      "Code": "IE",
+      "Route": "\\Modulos\\ImportExport\\",
+      "UserInterfaces": [
+        {
+          "Code": "DataImport",
+          "Resource": [ "strCargas" ],
+          "Page": "DataUploadGrid.aspx",
+          "Icon": "ico-import.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DataImport@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataImport@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataImport@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataImport@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataImport@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "DataExport",
+          "Resource": [ "strDescargas" ],
+          "Page": "ExportacionDatosPlantillas.aspx",
+          "Icon": "ico-export.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DataExport@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataExport@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataExport@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataExport@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataExport@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ConfigMigration",
+          "Resource": [ "strConfiguracion", "strMigraciones" ],
+          "Page": "ExpInicio.aspx",
+          "Icon": "ico-tipo-swapping.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ConfigMigration@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ConfigMigration@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ConfigMigration@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ConfigMigration@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ConfigMigration@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "Global",
+      "Code": "GLO",
+      "Route": "\\Modulos\\Global\\",
+      "UserInterfaces": [
+
+      ]
+    },
+    {
+      "Name": "Inventory",
+      "Code": "INV",
+      "Route": "\\Modulos\\Inventory\\",
+      "UserInterfaces": [
+        {
+          "Code": "Inventory",
+          "Resource": [ "strInventario" ],
+          "Page": "InventarioGestionContenedor.aspx",
+          "Icon": "ico-BoxStack.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Inventory@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inventory@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inventory@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inventory@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inventory@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Templates",
+          "Resource": [ "strPlantillas" ],
+          "Page": "InventarioCategoriasAtributosPlantillas.aspx",
+          "Icon": "ico-inventory.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Templates@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Templates@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Templates@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Templates@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Templates@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "RelationShipTypes",
+          "Resource": [ "strVinculaciones", "strTipos" ],
+          "Page": "InventarioTiposVinculaciones.aspx",
+          "Icon": "ico-elements.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "RelationShipTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RelationShipTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RelationShipTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RelationShipTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "RelationShipTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "InventoryStatus",
+          "Resource": [ "strInventario", "strEstados" ],
+          "Page": "InventarioElementosAtributosEstados.aspx",
+          "Icon": "ico-estados.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "InventoryStatus@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryStatus@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryStatus@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryStatus@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryStatus@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "InventoryDataModel",
+          "Resource": [ "strModeloDatos" ],
+          "Page": "InventarioCategoriasContenedor.aspx",
+          "Icon": "ico-data-20px.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "InventoryDataModel@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryDataModel@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryDataModel@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryDataModel@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "InventoryDataModel@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "Monitoring",
+      "Route": "\\Modulos\\Monitoring\\",
+      "Code": "MNT",
+      "UserInterfaces": [
+        {
+            "Code": "ContractHistory",
+            "Resource": [ "strContratos" ],
+            "Page": "ContractHistory.aspx",
+            "Icon": "ico-estadisticas.svg",
+            "UserFunctionalities": [
+                {
+                    "Code": "ContractHistory@Read",
+                    "Type": "Read",
+                    "APIFunctionalities": []
+                },
+                {
+                    "Code": "ContractHistory@Download",
+                    "Type": "Download",
+                    "APIFunctionalities": []
+                },
+                {
+                    "Code": "ContractHistory@Post",
+                    "Type": "Post",
+                    "APIFunctionalities": []
+                },
+                {
+                    "Code": "ContractHistory@Put",
+                    "Type": "Put",
+                    "APIFunctionalities": []
+                },
+                {
+                    "Code": "ContractHistory@Delete",
+                    "Type": "Delete",
+                    "APIFunctionalities": []
+                }
+            ]
+        },
+        {
+          "Code": "Statistics",
+          "Resource": [ "strEstadisticas" ],
+          "Page": "Estadisticas.aspx",
+          "Icon": "ico-estadisticas.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Statistics@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Statistics@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Statistics@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Statistics@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Statistics@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "UsersActivityHistory",
+          "Resource": [ "strMonitoringDiario" ],
+          "Page": "MonitoringDiario.aspx",
+          "Icon": "ico-user-history.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "UsersActivityHistory@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersActivityHistory@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersActivityHistory@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersActivityHistory@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersActivityHistory@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "EventsLogs",
+          "Resource": [ "strMonitoringLogs" ],
+          "Page": "MonitoringLog.aspx",
+          "Icon": "ico-estadisticas-actividad.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "EventsLogs@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "EventsLogs@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "EventsLogs@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "EventsLogs@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "EventsLogs@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ServicesLogs",
+          "Resource": [ "strLogsServicio" ],
+          "Page": "MonitoringLogServicio.aspx",
+          "Icon": "ico-tareasProgramadas.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ServicesLogs@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ServicesLogs@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ServicesLogs@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ServicesLogs@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ServicesLogs@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "UsersChangesHistory",
+          "Resource": [ "strMonitoringModificacionesUsuarios" ],
+          "Page": "MonitoringModificacionesUsuarios.aspx",
+          "Icon": "ico-mod-selfService-20px.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "UsersChangesHistory@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersChangesHistory@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersChangesHistory@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersChangesHistory@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "UsersChangesHistory@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "IntegrationsActivity",
+          "Resource": [ "strMonitoringServiciosWeb" ],
+          "Page": "MonitoringServiciosWeb.aspx",
+          "Icon": "ico-integration.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "IntegrationsActivity@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "IntegrationsActivity@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "IntegrationsActivity@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "IntegrationsActivity@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "IntegrationsActivity@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "Settings",
+      "Code": "STT",
+      "Route": "\\Modulos\\Settings\\",
+      "UserInterfaces": [
+        {
+          "Code": "Banks",
+          "Resource": [ "strBancos" ],
+          "Page": "Bancos.aspx",
+          "Icon": "ico-banks.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Banks@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Banks@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Banks@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Banks@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Banks@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Clients",
+          "Resource": [ "strClientes" ],
+          "Page": "Clientes.aspx",
+          "Icon": "ico-clients.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Clients@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Clients@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Clients@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Clients@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Clients@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "FunctionalityTypes",
+          "Resource": [ "strFuncionalidades", "strTipos" ],
+          "Page": "FuncionalidadesTipos.aspx",
+          "Icon": "ico-status.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "FunctionalityTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalityTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalityTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalityTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "FunctionalityTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "CodeGenerator",
+          "Resource": [ "strGeneradorCodigo" ],
+          "Page": "GeneradorCodigos.aspx",
+          "Icon": "ico-log.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "CodeGenerator@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CodeGenerator@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CodeGenerator@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CodeGenerator@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CodeGenerator@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "GlobalSettings",
+          "Resource": [ "strTituloControlAcceso" ],
+          "Page": "GlobalSettingsContenedor.aspx",
+          "Icon": "ico-cog.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "GlobalSettings@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "GlobalSettings@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "GlobalSettings@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "GlobalSettings@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "GlobalSettings@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Languages",
+          "Resource": [ "strIdiomas" ],
+          "Page": "Idiomas.aspx",
+          "Icon": "ico-language.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Languages@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Languages@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Languages@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Languages@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Languages@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Inflations",
+          "Resource": [ "strInflaciones" ],
+          "Page": "Inflaciones.aspx",
+          "Icon": "ico-inflacciones.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Inflations@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inflations@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inflations@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inflations@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Inflations@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "PaymentsMethods",
+          "Resource": [ "strMetodosPagos" ],
+          "Page": "MetodosPagos.aspx",
+          "Icon": "ico-payments-20px.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "PaymentsMethods@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsMethods@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsMethods@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsMethods@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsMethods@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Currencies",
+          "Resource": [ "strMonedas" ],
+          "Page": "Monedas.aspx",
+          "Icon": "ico-moneda.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Currencies@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Currencies@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Currencies@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Currencies@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Currencies@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Contries",
+          "Resource": [ "strPaises" ],
+          "Page": "Paises.aspx",
+          "Icon": "ico-regions.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Contries@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contries@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contries@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contries@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Contries@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Paramenters",
+          "Resource": [ "strParametros" ],
+          "Page": "Parametros.aspx",
+          "Icon": "ico-parametris.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Paramenters@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Paramenters@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Paramenters@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Paramenters@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Paramenters@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Profiles",
+          "Resource": [ "strPerfiles" ],
+          "Page": "Perfiles.aspx",
+          "Icon": "ico-department-20px.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Profiles@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Profiles@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Profiles@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Profiles@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Profiles@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Provinces",
+          "Resource": [ "strProvincias" ],
+          "Page": "ProvinciasMunicipios.aspx",
+          "Icon": "ico-town.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Provinces@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Provinces@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Provinces@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Provinces@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Provinces@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "CountryRegions",
+          "Resource": [ "strRegionesPaises" ],
+          "Page": "Regiones.aspx",
+          "Icon": "ico-region.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "CountryRegions@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CountryRegions@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CountryRegions@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CountryRegions@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CountryRegions@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "DataModelTables",
+          "Resource": [ "jsTablasModeloDatos" ],
+          "Page": "TablasModeloDatos.aspx",
+          "Icon": "ico-data-table.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DataModelTables@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataModelTables@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataModelTables@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataModelTables@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataModelTables@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "DataTypes",
+          "Resource": [ "strTiposDatos" ],
+          "Page": "TiposDatos.aspx",
+          "Icon": "ico-modalidades.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "DataTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "DataTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Users",
+          "Resource": [ "strUsuarios" ],
+          "Page": "Usuarios.aspx",
+          "Icon": "ico-usuario.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Users@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Users@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Users@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Users@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Users@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Taxes",
+          "Resource": [ "strImpuestos" ],
+          "Page": "Impuestos.aspx",
+          "Icon": "ico-billing.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Taxes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Taxes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Taxes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Taxes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Taxes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "Name": "Sites",
+      "Code": "SIT",
+      "Route": "\\Modulos\\Sites\\",
+      "UserInterfaces": [
+        {
+          "Code": "SitesSections",
+          "Resource": [ "strAtributos", "strCategorias" ],
+          "Page": "EmplazamientosAtributosCategorias.aspx",
+          "Icon": "ico-tipo-comparticiones.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesSections@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSections@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSections@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSections@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSections@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "SitesDataModel",
+          "Resource": [ "strModeloDatos" ],
+          "Page": "EmplazamientosAtributosConfiguracion.aspx",
+          "Icon": "ico-data-20px.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesDataModel@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesDataModel@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesDataModel@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesDataModel@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesDataModel@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "SitesCategories",
+          "Resource": [ "strCategorias" ],
+          "Page": "EmplazamientosCategoriasSitios.aspx",
+          "Icon": "ico-inventory.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesCategories@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesCategories@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesCategories@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesCategories@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesCategories@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "SitesTypes",
+          "Resource": [ "strTipos" ],
+          "Page": "EmplazamientosTipos.aspx",
+          "Icon": "ico-class.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "SitesSizes",
+          "Resource": [ "strTamanos" ],
+          "Page": "EmplazamientosTamanos.aspx",
+          "Icon": "ico-area-20px.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesSizes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSizes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSizes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSizes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesSizes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "SitesBuildingTypes",
+          "Resource": [ "strTiposEdificios" ],
+          "Page": "EmplazamientosTiposEdificios.aspx",
+          "Icon": "ico-tipo-edificios.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesBuildingTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesBuildingTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesBuildingTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesBuildingTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesBuildingTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "SitesStructureTypes",
+          "Resource": [ "strTiposEstructuras" ],
+          "Page": "EmplazamientosTiposEstructuras.aspx",
+          "Icon": "ico-tipo-estructuras.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesStructureTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStructureTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStructureTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStructureTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStructureTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "SitesStatus",
+          "Resource": [ "strEstadosGlobales" ],
+          "Page": "EstadosGlobales.aspx",
+          "Icon": "ico-estados.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "SitesStatus@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStatus@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStatus@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStatus@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "SitesStatus@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Sites",
+          "Resource": [ "strEmplazamientos" ],
+          "Page": "EmplazamientosContenedor.aspx",
+          "Icon": "ico-almacen.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Sites@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Sites@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Sites@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Sites@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Sites@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "ThirdParty",
+      "Code": "TP",
+      "Route": "\\Modulos\\ThirdParty\\",
+      "UserInterfaces": [
+        {
+          "Code": "Companies",
+          "Resource": [ "strEntidades" ],
+          "Page": "EntidadesV2.aspx",
+          "Icon": "ico-entidades.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Companies@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Companies@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Companies@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Companies@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Companies@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ProductCatalogs",
+          "Resource": [ "strProductsCatalogs" ],
+          "Page": "ProductCatalogServiciosContenedor.aspx",
+          "Icon": "ico-inventory.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ProductCatalogs@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogs@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogs@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogs@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogs@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "PaymentsTerms",
+          "Resource": [ "strCondicionesPagos" ],
+          "Page": "CondicionesPagos.aspx",
+          "Icon": "ico.financiero.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "PaymentsTerms@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsTerms@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsTerms@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsTerms@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "PaymentsTerms@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "CompaniesTypes",
+          "Resource": [ "strEntidades", "strTipos" ],
+          "Page": "EntidadesTipos.aspx",
+          "Icon": "ico-status.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "CompaniesTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CompaniesTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CompaniesTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CompaniesTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "CompaniesTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ProductCatalogsStatus",
+          "Resource": [ "strProductsCatalogs", "strEstados" ],
+          "Page": "ProductCatalogLifecycleStatus.aspx",
+          "Icon": "ico-estados.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ProductCatalogsStatus@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsStatus@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsStatus@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsStatus@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsStatus@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ProductCatalogsTypes",
+          "Resource": [ "strProductsCatalogs", "strTipos" ],
+          "Page": "ProductCatalogTipos.aspx",
+          "Icon": "ico-tipo-entidades.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ProductCatalogsTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductCatalogsTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ProductsTypes",
+          "Resource": [ "strProductos", "strTipos" ],
+          "Page": "ProductCatalogTiposServicios.aspx",
+          "Icon": "ico-tipos-de-servicios.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ProductsTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductsTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductsTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductsTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProductsTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "VATTypes",
+          "Resource": [ "strTiposNIF" ],
+          "Page": "SAPTiposNIF.aspx",
+          "Icon": "ico-accountElements.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "VATTypes@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "VATTypes@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "VATTypes@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "VATTypes@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "VATTypes@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "BusinessPartnerCategories",
+          "Resource": [ "strContribuyentes" ],
+          "Page": "TiposContribuyentes.aspx",
+          "Icon": "ico-contribuyentes.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "BusinessPartnerCategories@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessPartnerCategories@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessPartnerCategories@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessPartnerCategories@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessPartnerCategories@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "Name": "WorkOrders",
+      "Code": "WO",
+      "Route": "\\Modulos\\WorkOrder\\",
+      "UserInterfaces": [
+        {
+          "Code": "WorkFlows",
+          "Resource": [ "strWorkFlows" ],
+          "Page": "WorkFlows.aspx",
+          "Icon": "ico-subprocess.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "WorkFlows@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkFlows@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkFlows@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkFlows@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkFlows@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "WorkOrders",
+          "Resource": [ "strWorkOrders" ],
+          "Page": "WorkOrders.aspx",
+          "Icon": "ico-tareas.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "WorkOrders@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrders@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrders@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrders@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrders@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "WorkOrdersStatus",
+          "Resource": [ "strWorkOrders", "strEstados" ],
+          "Page": "CoreWorkOrdersEstados.aspx",
+          "Icon": "ico-tipo-entidades.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "WorkOrdersStatus@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrdersStatus@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrdersStatus@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrdersStatus@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "WorkOrdersStatus@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "Programs",
+          "Resource": [ "strProgamas" ],
+          "Page": "Programs.aspx",
+          "Icon": "ico-business-partners.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "Programs@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Programs@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Programs@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Programs@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "Programs@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "BusinessProcessType",
+          "Resource": [ "strBusinessProcess", "strTipos" ],
+          "Page": "BusinessProcessType.aspx",
+          "Icon": "ico-business-partners.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "BusinessProcessType@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessProcessType@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessProcessType@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessProcessType@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "BusinessProcessType@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        },
+        {
+          "Code": "ProjectLifeCycleStatus",
+          "Resource": [ "strProyecto", "strEstadosGlobales" ],
+          "Page": "ProjectLifeCycleStatus.aspx",
+          "Icon": "ico-estados.svg",
+          "UserFunctionalities": [
+            {
+              "Code": "ProjectLifeCycleStatus@Read",
+              "Type": "Read",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProjectLifeCycleStatus@Download",
+              "Type": "Download",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProjectLifeCycleStatus@Post",
+              "Type": "Post",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProjectLifeCycleStatus@Put",
+              "Type": "Put",
+              "APIFunctionalities": []
+            },
+            {
+              "Code": "ProjectLifeCycleStatus@Delete",
+              "Type": "Delete",
+              "APIFunctionalities": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "UserFuntionalityTypes": [
+    {
+      "Code": "Read",
+      "Resource": [ "strLectura" ]
+    },
+    {
+      "Code": "Download",
+      "Resource": [ "strDescarga" ]
+    },
+    {
+      "Code": "Post",
+      "Resource": [ "jsAgregar" ]
+    },
+    {
+      "Code": "Put",
+      "Resource": [ "jsEditar" ]
+    },
+    {
+      "Code": "Delete",
+      "Resource": [ "jsEliminar" ]
+    }
+  ]
+}

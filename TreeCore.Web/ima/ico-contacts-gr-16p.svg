@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.344" height="16" viewBox="0 0 16.344 16">
+  <g id="ico-contacts-gr-16p" transform="translate(0.344)">
+    <rect id="Rectángulo_2627" data-name="Rectángulo 2627" width="16" height="16" fill="none"/>
+    <g id="Rectángulo_2628" data-name="Rectángulo 2628" transform="translate(2)" fill="none" stroke="#05a086" stroke-width="1.5">
+      <rect width="14" height="16" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="12.5" height="14.5" rx="1.25" fill="none"/>
+    </g>
+    <line id="Línea_1037" data-name="Línea 1037" x1="2.735" transform="translate(0.406 5.031)" fill="none" stroke="#05a086" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_1038" data-name="Línea 1038" x1="2.735" transform="translate(0.406 11.531)" fill="none" stroke="#05a086" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_1039" data-name="Línea 1039" x1="2.735" transform="translate(0.406 8.281)" fill="none" stroke="#05a086" stroke-linecap="round" stroke-width="1.5"/>
+    <g id="Grupo_6394" data-name="Grupo 6394" transform="translate(6.027 3)">
+      <g id="Grupo_7036" data-name="Grupo 7036">
+        <path id="Trazado_65" data-name="Trazado 65" d="M-298.265,384.084h-6l2.253-3h1.662Z" transform="translate(304.265 -374.947)" fill="none" stroke="#05a086" stroke-width="1.5"/>
+        <g id="Rectángulo_35" data-name="Rectángulo 35" transform="translate(0.314)" fill="none" stroke="#05a086" stroke-width="1.5">
+          <rect width="5.295" height="6.704" rx="2.647" stroke="none"/>
+          <rect x="0.75" y="0.75" width="3.795" height="5.204" rx="1.897" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

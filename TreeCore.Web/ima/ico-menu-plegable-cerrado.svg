@@ -1,0 +1,13 @@
+<svg id="ico-menu-plegable" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3067" data-name="Rectángulo 3067" width="17.554" height="12" fill="#062743"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectángulo_3064" data-name="Rectángulo 3064" width="20" height="20" fill="none"/>
+  <g id="Grupo_7710" data-name="Grupo 7710" transform="translate(1 4)">
+    <g id="Grupo_7704" data-name="Grupo 7704" clip-path="url(#clip-path)">
+      <path id="Trazado_2701" data-name="Trazado 2701" d="M.77,12H9.231A.91.91,0,0,0,10,11a.91.91,0,0,0-.769-1H.77A.911.911,0,0,0,0,11a.911.911,0,0,0,.77,1M1.3,7H11.665a1.182,1.182,0,0,0,1.3-1,1.182,1.182,0,0,0-1.3-1H1.3A1.181,1.181,0,0,0,0,6,1.181,1.181,0,0,0,1.3,7M0,1H0A.911.911,0,0,0,.77,2H9.231A.91.91,0,0,0,10,1a.91.91,0,0,0-.769-1H.77A.911.911,0,0,0,0,1M12.262,3.13l2.88,2.88-2.88,2.88a1,1,0,0,0,1.41,1.41l3.589-3.59a1,1,0,0,0,0-1.41L13.672,1.71a1,1,0,0,0-1.41,0,1.017,1.017,0,0,0,0,1.42" fill="#062743"/>
+    </g>
+  </g>
+</svg>

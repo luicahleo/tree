@@ -1,0 +1,556 @@
+{
+  "Menus": {
+    "WorkOrders": {
+      "UserInterfaces": [
+        {
+          "UserInterface": "WorkOrders",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-tipos-de-gestion.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "WorkFlows",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "WorkOrdersStatus",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "BusinessProcessType",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "Programs",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "ProjectLifeCycleStatus",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        }
+      ]
+    },
+    "Sites": {
+      "UserInterfaces": [
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-tipos-de-gestion.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "SitesSections",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "SitesDataModel",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "SitesCategories",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "SitesTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "SitesSizes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "SitesBuildingTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "SitesStructureTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "SitesStatus",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        },
+        {
+          "UserInterface": "Sites",
+          "LocalName": "",
+          "Params": ""
+        }
+      ]
+    },
+    "Settings": {
+      "UserInterfaces": [
+        {
+          "Recurso": [
+            "strUsuarios"
+          ],
+          "LocalName": "",
+          "Icono": "ico-folder.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "Profiles",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "Users",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        },
+        {
+          "Recurso": [
+            "strFinanciero"
+          ],
+          "LocalName": "",
+          "Icono": "ico-folder.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "Banks",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "Inflations",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "Currencies",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "Taxes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "PaymentsMethods",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        },
+        {
+          "Recurso": [
+            "strLocalizacion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-folder.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "Contries",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "Provinces",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "CountryRegions",
+              "LocalName": "",
+              "Params": ""
+            }
+
+          ]
+        },
+        {
+          "Recurso": [
+            "strGeneral"
+          ],
+          "LocalName": "",
+          "Icono": "ico-folder.svg",
+          "UserInterfaces": [
+            //{
+            //  "UserInterface": "Clients",
+            //  "LocalName": "",
+            //  "Params": ""
+            //},
+            //{
+            //  "UserInterface": "FunctionalityTypes",
+            //  "LocalName": "",
+            //  "Params": ""
+            //},
+            {
+              "UserInterface": "CodeGenerator",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "GlobalSettings",
+              "LocalName": "",
+              "Params": ""
+            }
+            //{
+            //  "UserInterface": "Paramenters",
+            //  "LocalName": "",
+            //  "Params": ""
+            //}
+            //{
+            //  "UserInterface": "DataModelTables",
+            //  "LocalName": "",
+            //  "Params": ""
+            //},
+            //{
+            //  "UserInterface": "DataTypes",
+            //  "LocalName": "",
+            //  "Params": ""
+            //}
+
+          ]
+        }
+
+      ]
+    },
+    "Monitoring": {
+      "UserInterfaces": [
+        {
+          "UserInterface": "EventsLogs",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "Recurso": [
+            "strUsuarios"
+          ],
+          "LocalName": "",
+          "Icono": "ico-folder.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "Statistics",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "UsersChangesHistory",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "UsersActivityHistory",
+              "LocalName": "",
+              "Params": ""
+            }
+
+          ]
+        },
+        {
+          "Recurso": [
+            "strServiciosIntegraciones"
+          ],
+          "LocalName": "",
+          "Icono": "ico-folder.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "ServicesLogs",
+              "LocalName": "",
+              "Params": ""
+            },
+
+            {
+              "UserInterface": "IntegrationsActivity",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        }
+      ]
+    },
+    "Inventory": {
+      "UserInterfaces": [
+        {
+          "UserInterface": "Inventory",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "UserInterface": "Templates",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-cog.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "RelationShipTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "InventoryStatus",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "InventoryDataModel",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        }
+      ]
+    },
+    "ImportExport": {
+      "UserInterfaces": [
+
+        {
+          "UserInterface": "DataImport",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "UserInterface": "DataExport",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "UserInterface": "ConfigMigration",
+          "LocalName": "",
+          "Params": ""
+        }
+      ]
+    },
+    "Global": {
+      "UserInterfaces": [
+        {
+          "UserInterface": "Inventory",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "UserInterface": "Sites",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "UserInterface": "Contracts",
+          "LocalName": "",
+          "Params": ""
+        }
+      ]
+    },
+    "Files": {
+      "UserInterfaces": [
+        {
+          "UserInterface": "Files",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-gestionV2.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "FilesStatus",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "FilesExtensions",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "FilesTypes",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        }
+      ]
+    },
+    "DataQuality": {
+      "UserInterfaces": [
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-gestionV2.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "DQCategories",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "DQDataSource",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "DQGruopes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "DQTrafficLights",
+              "LocalName": "",
+              "Params": ""
+            },
+          ]
+        },
+        {
+          "UserInterface": "DQKPI",
+          "LocalName": "",
+          "Params": ""
+        },
+      ]
+    },
+    "Contracts": {
+      "UserInterfaces": [
+        {
+          "UserInterface": "Contracts",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-gestionV2.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "RentsConcepts",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "RentsStatus",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "RentsTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "ContractsTypes",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        }
+      ]
+    },
+    "Contacts": {
+      "UserInterfaces": [
+
+        {
+          "UserInterface": "Contacts",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-gestionV2.svg",
+          "UserInterfaces": [
+
+            {
+              "UserInterface": "ContactsTypes",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        }
+      ]
+    },
+    "ThirdParty": {
+      "UserInterfaces": [
+        {
+          "UserInterface": "Companies",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "UserInterface": "ProductCatalogs",
+          "LocalName": "",
+          "Params": ""
+        },
+        {
+          "Recurso": [
+            "strConfiguracion"
+          ],
+          "LocalName": "",
+          "Icono": "ico-gestionV2.svg",
+          "UserInterfaces": [
+            {
+              "UserInterface": "PaymentsTerms",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "CompaniesTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "ProductCatalogsStatus",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "ProductCatalogsTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "ProductsTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "VATTypes",
+              "LocalName": "",
+              "Params": ""
+            },
+            {
+              "UserInterface": "BusinessPartnerCategories",
+              "LocalName": "",
+              "Params": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

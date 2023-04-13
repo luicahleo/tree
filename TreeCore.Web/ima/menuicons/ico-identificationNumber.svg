@@ -1,0 +1,13 @@
+<svg id="ico-identificationNumber" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3111" data-name="Rectángulo 3111" width="20" height="20" fill="none"/>
+  <text id="_" data-name="***" transform="translate(4 18)" fill="#707070" font-size="10" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.06em"><tspan x="0" y="0">***</tspan></text>
+  <g id="Rectángulo_3112" data-name="Rectángulo 3112" transform="translate(1 8)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1.6">
+    <rect width="18" height="8" stroke="none"/>
+    <rect x="0.8" y="0.8" width="16.4" height="6.4" fill="none"/>
+  </g>
+  <path id="Unión_40" data-name="Unión 40" d="M138-265h-6v-2h3.17a3,3,0,0,1-.171-1,3,3,0,0,1,3-3,3,3,0,0,1,3,3,2.994,2.994,0,0,1-.171,1H144v2Z" transform="translate(-128 273)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1.6"/>
+  <g id="Elipse_563" data-name="Elipse 563" transform="translate(9 4)" fill="#fff" stroke="#707070" stroke-width="1">
+    <circle cx="1" cy="1" r="1" stroke="none"/>
+    <circle cx="1" cy="1" r="0.5" fill="none"/>
+  </g>
+</svg>

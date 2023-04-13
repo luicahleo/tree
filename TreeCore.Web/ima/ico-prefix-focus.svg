@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="27" viewBox="0 0 44 27">
+  <g id="Grupo_7808" data-name="Grupo 7808" transform="translate(-768 -2175)">
+    <rect id="Rectángulo_2765" data-name="Rectángulo 2765" width="44" height="27" rx="13.5" transform="translate(768 2175)" fill="#e8e8e8"/>
+    <g id="Grupo_7094" data-name="Grupo 7094" transform="translate(929 2413) rotate(180)">
+      <g id="Polígono_7" data-name="Polígono 7" transform="translate(131 227) rotate(180)" fill="#6a6b75">
+        <path d="M 7.065736293792725 5.5 L 0.9342631101608276 5.5 L 3.999999761581421 0.9013950228691101 L 7.065736293792725 5.5 Z" stroke="none"/>
+        <path d="M 3.999999761581421 1.802774906158447 L 1.868516445159912 5 L 6.13148307800293 5 L 3.999999761581421 1.802774906158447 M 3.999999761581421 0 L 8 6 L -4.76837158203125e-07 6 L 3.999999761581421 0 Z" stroke="none" fill="#6a6b75"/>
+      </g>
+    </g>
+    <g id="ico-grid-regiones" transform="translate(773 2179)">
+      <g id="Elipse_14" data-name="Elipse 14" fill="none" stroke="#5f606a" stroke-width="1.5">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="9.25" fill="none"/>
+      </g>
+      <path id="Trazado_675" data-name="Trazado 675" d="M360.589,395.823c.1.028-4.9,3.988-4.757,8.742s4.757,9.258,4.757,9.258,5.14-3.824,5.238-9.258S360.488,395.8,360.589,395.823Z" transform="translate(-350.828 -394.823)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+      <line id="Línea_32" data-name="Línea 32" x2="19" transform="translate(0 10)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+      <line id="Línea_33" data-name="Línea 33" y2="18" transform="translate(10 1)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #062743;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3428" data-name="Group 3428" transform="translate(-1148 -13)">
+    <g id="Group_3418" data-name="Group 3418" transform="translate(14 -1)">
+      <rect id="Rectangle_293" data-name="Rectangle 293" class="cls-1" width="6" height="6" rx="1" transform="translate(1138 18)"/>
+      <rect id="Rectangle_294" data-name="Rectangle 294" class="cls-1" width="6" height="6" rx="1" transform="translate(1146 18)"/>
+      <rect id="Rectangle_295" data-name="Rectangle 295" class="cls-1" width="6" height="6" rx="1" transform="translate(1154 18)"/>
+      <rect id="Rectangle_296" data-name="Rectangle 296" class="cls-1" width="6" height="6" rx="1" transform="translate(1138 26)"/>
+      <rect id="Rectangle_297" data-name="Rectangle 297" class="cls-1" width="6" height="6" rx="1" transform="translate(1146 26)"/>
+      <rect id="Rectangle_298" data-name="Rectangle 298" class="cls-1" width="6" height="6" rx="1" transform="translate(1154 26)"/>
+      <rect id="Rectangle_299" data-name="Rectangle 299" class="cls-1" width="6" height="6" rx="1" transform="translate(1138 26)"/>
+      <rect id="Rectangle_300" data-name="Rectangle 300" class="cls-1" width="6" height="6" rx="1" transform="translate(1146 26)"/>
+      <rect id="Rectangle_301" data-name="Rectangle 301" class="cls-1" width="6" height="6" rx="1" transform="translate(1154 26)"/>
+      <rect id="Rectangle_302" data-name="Rectangle 302" class="cls-1" width="6" height="6" rx="1" transform="translate(1138 34)"/>
+      <rect id="Rectangle_303" data-name="Rectangle 303" class="cls-1" width="6" height="6" rx="1" transform="translate(1146 34)"/>
+      <rect id="Rectangle_304" data-name="Rectangle 304" class="cls-1" width="6" height="6" rx="1" transform="translate(1154 34)"/>
+    </g>
+    <rect id="Rectangle_1606" data-name="Rectangle 1606" class="cls-2" width="30" height="30" transform="translate(1148 13)"/>
+  </g>
+</svg>

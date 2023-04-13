@@ -1,0 +1,8 @@
+<svg id="ico-integraciones" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_199" data-name="Rectángulo 199" width="20" height="20" fill="none"/>
+  <g id="Trazado_1172" data-name="Trazado 1172" transform="translate(6 6)" fill="none" stroke-linecap="round" stroke-linejoin="bevel">
+    <path d="M0,0H13V13H0Z" stroke="none"/>
+    <path d="M 1.5 1.5 L 1.5 11.5 L 11.5 11.5 L 11.5 1.5 L 1.5 1.5 M 0 0 L 13 0 L 13 13 L 0 13 L 0 0 Z" stroke="none" fill="#666"/>
+  </g>
+  <path id="Trazado_1173" data-name="Trazado 1173" d="M1056.542,53.263V43.471h-12v12h11.25" transform="translate(-1043.542 -42.471)" fill="none" stroke="#666" stroke-width="1.5"/>
+</svg>

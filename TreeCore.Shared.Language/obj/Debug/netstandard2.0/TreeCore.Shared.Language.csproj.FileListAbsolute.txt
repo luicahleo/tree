@@ -1,0 +1,10 @@
+C:\OLIVO\TreeCore.Shared.Language\bin\Debug\netstandard2.0\TreeCore.Shared.Language.deps.json
+C:\OLIVO\TreeCore.Shared.Language\bin\Debug\netstandard2.0\TreeCore.Shared.Language.dll
+C:\OLIVO\TreeCore.Shared.Language\bin\Debug\netstandard2.0\TreeCore.Shared.Language.pdb
+C:\OLIVO\TreeCore.Shared.Language\obj\Debug\netstandard2.0\TreeCore.Shared.Language.csproj.AssemblyReference.cache
+C:\OLIVO\TreeCore.Shared.Language\obj\Debug\netstandard2.0\TreeCore.Shared.Language.GeneratedMSBuildEditorConfig.editorconfig
+C:\OLIVO\TreeCore.Shared.Language\obj\Debug\netstandard2.0\TreeCore.Shared.Language.AssemblyInfoInputs.cache
+C:\OLIVO\TreeCore.Shared.Language\obj\Debug\netstandard2.0\TreeCore.Shared.Language.AssemblyInfo.cs
+C:\OLIVO\TreeCore.Shared.Language\obj\Debug\netstandard2.0\TreeCore.Shared.Language.csproj.CoreCompileInputs.cache
+C:\OLIVO\TreeCore.Shared.Language\obj\Debug\netstandard2.0\TreeCore.Shared.Language.dll
+C:\OLIVO\TreeCore.Shared.Language\obj\Debug\netstandard2.0\TreeCore.Shared.Language.pdb

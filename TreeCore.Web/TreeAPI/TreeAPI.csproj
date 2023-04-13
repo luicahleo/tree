@@ -1,0 +1,1253 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF9EAD3A-D2A1-43A7-A087-486FB77AD462}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TreeAPI</RootNamespace>
+    <AssemblyName>TreeAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44361</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <WebGreaseLibPath>..\..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TREEAPI</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>TreeAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'API_Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;TREEAPI</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.7.4137.9688, Culture=neutral, PublicKeyToken=a4292a325f69b123, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\BouncyCastle.1.7.0\lib\Net40-Client\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.12.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DocumentFormat.OpenXml.2.12.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=5.7.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EPPlus.5.7.3\lib\net45\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net, Version=5.3.0.0, Culture=neutral, PublicKeyToken=2e12ce3d0176cd87, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ext.NET.5.3.0\lib\net46\Ext.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ext.Net.Utilities, Version=2.5.0.0, Culture=neutral, PublicKeyToken=2c34ac34702a3c23, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ext.NET.Utilities.2.5.0\lib\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.37.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.11.37\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Authentication.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Authentication.Core.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authorization, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Authorization.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authorization.Policy, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Authorization.Policy.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.Policy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Hosting.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Http.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Http.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Extensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Http.Extensions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Http.Features.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.JsonPatch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.JsonPatch.1.0.0\lib\netstandard1.1\Microsoft.AspNetCore.JsonPatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Mvc.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Core, Version=2.2.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Mvc.Core.2.2.5\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Formatters.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Mvc.Formatters.Json.1.0.0\lib\net451\Microsoft.AspNetCore.Mvc.Formatters.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.ResponseCaching.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.ResponseCaching.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Routing.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Routing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.Routing.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Routing.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNetCore.WebUtilities.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.DotNet.PlatformAbstractions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.DotNet.PlatformAbstractions.2.1.0\lib\net45\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Configuration.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.2.2.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyModel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.DependencyModel.2.1.0\lib\net451\Microsoft.Extensions.DependencyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.FileProviders.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Hosting.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Logging.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.ObjectPool, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.ObjectPool.2.2.0\lib\netstandard2.0\Microsoft.Extensions.ObjectPool.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Options.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.Headers.2.2.0\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="NCrontab.Signed, Version=3.3.2.0, Culture=neutral, PublicKeyToken=5247b4370afff365, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NCrontab.Signed.3.3.2\lib\net35\NCrontab.Signed.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OC.Core, Version=2.0.0.17347, Culture=neutral, PublicKeyToken=21d5b409dafb75d2, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\OC.Core.2.0.0\lib\net40\OC.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OC.Core.Crypto, Version=1.4.13.38223, Culture=neutral, PublicKeyToken=21d5b409dafb75d2, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\OC.Core.Crypto.1.4.13\lib\net40\OC.Core.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSmtp, Version=1.11.0.34196, Culture=neutral">
+      <HintPath>..\..\packages\OpenSmtp.1.11.0.34196\lib\OpenSmtp.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Swashbuckle.Core.5.6.0\lib\net40\Swashbuckle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Collections.NonGeneric.4.0.1\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ComponentModel.Primitives.4.1.0\lib\net45\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ComponentModel.TypeConverter.4.1.0\lib\net462\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Diagnostics.DiagnosticSource.4.5.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Linq, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Linq.4.1.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.Extensions.4.1.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.Serialization.Primitives.4.1.1\lib\net46\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Text.Encodings.Web.4.5.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Threading.Tasks.Extensions.4.5.1\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Transformer.NET, Version=2.1.1.22883, Culture=neutral, PublicKeyToken=e274d618e7c603a7, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Transformer.NET.2.1.1\lib\net35\Transformer.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="TreeEngine">
+      <HintPath>..\Librerias\TreeEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="API\SitesService.asmx" />
+    <Content Include="App_Readme\Ext.NET.Utilities\BREAKING_CHANGES.txt" />
+    <Content Include="App_Readme\Ext.NET.Utilities\LICENSE.txt" />
+    <Content Include="App_Readme\Ext.NET.Utilities\README.txt" />
+    <Content Include="App_Readme\Transformer.NET\LICENSE.txt" />
+    <Content Include="App_Readme\Transformer.NET\README.txt" />
+    <Content Include="Content\Site.css" />
+    <Content Include="App_GlobalResources\MobileResources.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>MobileResources.en.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\MobileResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>MobileResources.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\MobileResources_GIS.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>MobileResources_GIS.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\MobileResources_GIS.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>MobileResources_GIS.en1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\MobileResources_GIS.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>MobileResources_GIS.es1.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Content\SwaggerHeader.css" />
+    <Content Include="Ext.NET.Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="MyFlow\css\common.css" />
+    <Content Include="MyFlow\css\explorer.css" />
+    <Content Include="MyFlow\images\button.gif" />
+    <Content Include="MyFlow\images\close.gif" />
+    <Content Include="MyFlow\images\collapsed.gif" />
+    <Content Include="MyFlow\images\error.gif" />
+    <Content Include="MyFlow\images\expanded.gif" />
+    <Content Include="MyFlow\images\maximize.gif" />
+    <Content Include="MyFlow\images\minimize.gif" />
+    <Content Include="MyFlow\images\normalize.gif" />
+    <Content Include="MyFlow\images\point.gif" />
+    <Content Include="MyFlow\images\resize.gif" />
+    <Content Include="MyFlow\images\separator.gif" />
+    <Content Include="MyFlow\images\submenu.gif" />
+    <Content Include="MyFlow\images\transparent.gif" />
+    <Content Include="MyFlow\images\warning.gif" />
+    <Content Include="MyFlow\images\warning.png" />
+    <Content Include="MyFlow\images\window-title.gif" />
+    <Content Include="MyFlow\images\window.gif" />
+    <Content Include="MyFlow\js\Actions.js" />
+    <Content Include="MyFlow\js\base64.js" />
+    <Content Include="MyFlow\js\canvas-toBlob.js" />
+    <Content Include="MyFlow\js\common.css" />
+    <Content Include="MyFlow\js\Dialogs.js" />
+    <Content Include="MyFlow\js\Editor.js" />
+    <Content Include="MyFlow\js\EditorUi.js" />
+    <Content Include="MyFlow\js\editor\mxDefaultKeyHandler.js" />
+    <Content Include="MyFlow\js\editor\mxDefaultPopupMenu.js" />
+    <Content Include="MyFlow\js\editor\mxDefaultToolbar.js" />
+    <Content Include="MyFlow\js\editor\mxEditor.js" />
+    <Content Include="MyFlow\js\explorer.css" />
+    <Content Include="MyFlow\js\FileSaver.js" />
+    <Content Include="MyFlow\js\Format.js" />
+    <Content Include="MyFlow\js\Graph.js" />
+    <Content Include="MyFlow\js\grapheditor.css" />
+    <Content Include="MyFlow\js\handler\mxCellHighlight.js" />
+    <Content Include="MyFlow\js\handler\mxCellMarker.js" />
+    <Content Include="MyFlow\js\handler\mxCellTracker.js" />
+    <Content Include="MyFlow\js\handler\mxConnectionHandler.js" />
+    <Content Include="MyFlow\js\handler\mxConstraintHandler.js" />
+    <Content Include="MyFlow\js\handler\mxEdgeHandler.js" />
+    <Content Include="MyFlow\js\handler\mxEdgeSegmentHandler.js" />
+    <Content Include="MyFlow\js\handler\mxElbowEdgeHandler.js" />
+    <Content Include="MyFlow\js\handler\mxGraphHandler.js" />
+    <Content Include="MyFlow\js\handler\mxHandle.js" />
+    <Content Include="MyFlow\js\handler\mxKeyHandler.js" />
+    <Content Include="MyFlow\js\handler\mxPanningHandler.js" />
+    <Content Include="MyFlow\js\handler\mxPopupMenuHandler.js" />
+    <Content Include="MyFlow\js\handler\mxRubberband.js" />
+    <Content Include="MyFlow\js\handler\mxSelectionCellsHandler.js" />
+    <Content Include="MyFlow\js\handler\mxTooltipHandler.js" />
+    <Content Include="MyFlow\js\handler\mxVertexHandler.js" />
+    <Content Include="MyFlow\js\Inicio.js" />
+    <Content Include="MyFlow\js\Init.js" />
+    <Content Include="MyFlow\js\io\mxCellCodec.js" />
+    <Content Include="MyFlow\js\io\mxChildChangeCodec.js" />
+    <Content Include="MyFlow\js\io\mxCodec.js" />
+    <Content Include="MyFlow\js\io\mxCodecRegistry.js" />
+    <Content Include="MyFlow\js\io\mxDefaultKeyHandlerCodec.js" />
+    <Content Include="MyFlow\js\io\mxDefaultPopupMenuCodec.js" />
+    <Content Include="MyFlow\js\io\mxDefaultToolbarCodec.js" />
+    <Content Include="MyFlow\js\io\mxEditorCodec.js" />
+    <Content Include="MyFlow\js\io\mxGenericChangeCodec.js" />
+    <Content Include="MyFlow\js\io\mxGraphCodec.js" />
+    <Content Include="MyFlow\js\io\mxGraphViewCodec.js" />
+    <Content Include="MyFlow\js\io\mxModelCodec.js" />
+    <Content Include="MyFlow\js\io\mxObjectCodec.js" />
+    <Content Include="MyFlow\js\io\mxRootChangeCodec.js" />
+    <Content Include="MyFlow\js\io\mxStylesheetCodec.js" />
+    <Content Include="MyFlow\js\io\mxTerminalChangeCodec.js" />
+    <Content Include="MyFlow\js\jscolor.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphAbstractHierarchyCell.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphHierarchyEdge.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphHierarchyModel.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphHierarchyNode.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxSwimlaneModel.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\mxHierarchicalLayout.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\mxSwimlaneLayout.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxCoordinateAssignment.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxHierarchicalLayoutStage.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxMedianHybridCrossingReduction.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxMinimumCycleRemover.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxSwimlaneOrdering.js" />
+    <Content Include="MyFlow\js\layout\mxCircleLayout.js" />
+    <Content Include="MyFlow\js\layout\mxCompactTreeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxCompositeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxEdgeLabelLayout.js" />
+    <Content Include="MyFlow\js\layout\mxFastOrganicLayout.js" />
+    <Content Include="MyFlow\js\layout\mxGraphLayout.js" />
+    <Content Include="MyFlow\js\layout\mxParallelEdgeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxPartitionLayout.js" />
+    <Content Include="MyFlow\js\layout\mxRadialTreeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxStackLayout.js" />
+    <Content Include="MyFlow\js\Menus.js" />
+    <Content Include="MyFlow\js\model\mxCell.js" />
+    <Content Include="MyFlow\js\model\mxCellPath.js" />
+    <Content Include="MyFlow\js\model\mxGeometry.js" />
+    <Content Include="MyFlow\js\model\mxGraphModel.js" />
+    <Content Include="MyFlow\js\mxAbstractCanvas2D.js" />
+    <Content Include="MyFlow\js\mxActor.js" />
+    <Content Include="MyFlow\js\mxAnimation.js" />
+    <Content Include="MyFlow\js\mxArrow.js" />
+    <Content Include="MyFlow\js\mxArrowConnector.js" />
+    <Content Include="MyFlow\js\mxAutoSaveManager.js" />
+    <Content Include="MyFlow\js\mxCell.js" />
+    <Content Include="MyFlow\js\mxCellCodec.js" />
+    <Content Include="MyFlow\js\mxCellEditor.js" />
+    <Content Include="MyFlow\js\mxCellHighlight.js" />
+    <Content Include="MyFlow\js\mxCellMarker.js" />
+    <Content Include="MyFlow\js\mxCellOverlay.js" />
+    <Content Include="MyFlow\js\mxCellPath.js" />
+    <Content Include="MyFlow\js\mxCellRenderer.js" />
+    <Content Include="MyFlow\js\mxCellState.js" />
+    <Content Include="MyFlow\js\mxCellStatePreview.js" />
+    <Content Include="MyFlow\js\mxCellTracker.js" />
+    <Content Include="MyFlow\js\mxChildChangeCodec.js" />
+    <Content Include="MyFlow\js\mxCircleLayout.js" />
+    <Content Include="MyFlow\js\mxClient.js" />
+    <Content Include="MyFlow\js\mxClipboard.js" />
+    <Content Include="MyFlow\js\mxCloud.js" />
+    <Content Include="MyFlow\js\mxCodec.js" />
+    <Content Include="MyFlow\js\mxCodecRegistry.js" />
+    <Content Include="MyFlow\js\mxCompactTreeLayout.js" />
+    <Content Include="MyFlow\js\mxCompositeLayout.js" />
+    <Content Include="MyFlow\js\mxConnectionConstraint.js" />
+    <Content Include="MyFlow\js\mxConnectionHandler.js" />
+    <Content Include="MyFlow\js\mxConnector.js" />
+    <Content Include="MyFlow\js\mxConstants.js" />
+    <Content Include="MyFlow\js\mxConstraintHandler.js" />
+    <Content Include="MyFlow\js\mxCoordinateAssignment.js" />
+    <Content Include="MyFlow\js\mxCylinder.js" />
+    <Content Include="MyFlow\js\mxDefaultKeyHandler.js" />
+    <Content Include="MyFlow\js\mxDefaultKeyHandlerCodec.js" />
+    <Content Include="MyFlow\js\mxDefaultPopupMenu.js" />
+    <Content Include="MyFlow\js\mxDefaultPopupMenuCodec.js" />
+    <Content Include="MyFlow\js\mxDefaultToolbar.js" />
+    <Content Include="MyFlow\js\mxDefaultToolbarCodec.js" />
+    <Content Include="MyFlow\js\mxDictionary.js" />
+    <Content Include="MyFlow\js\mxDivResizer.js" />
+    <Content Include="MyFlow\js\mxDoubleEllipse.js" />
+    <Content Include="MyFlow\js\mxDragSource.js" />
+    <Content Include="MyFlow\js\mxEdgeHandler.js" />
+    <Content Include="MyFlow\js\mxEdgeLabelLayout.js" />
+    <Content Include="MyFlow\js\mxEdgeSegmentHandler.js" />
+    <Content Include="MyFlow\js\mxEdgeStyle.js" />
+    <Content Include="MyFlow\js\mxEditor.js" />
+    <Content Include="MyFlow\js\mxEditorCodec.js" />
+    <Content Include="MyFlow\js\mxEffects.js" />
+    <Content Include="MyFlow\js\mxElbowEdgeHandler.js" />
+    <Content Include="MyFlow\js\mxEllipse.js" />
+    <Content Include="MyFlow\js\mxEvent.js" />
+    <Content Include="MyFlow\js\mxEventObject.js" />
+    <Content Include="MyFlow\js\mxEventSource.js" />
+    <Content Include="MyFlow\js\mxFastOrganicLayout.js" />
+    <Content Include="MyFlow\js\mxForm.js" />
+    <Content Include="MyFlow\js\mxGenericChangeCodec.js" />
+    <Content Include="MyFlow\js\mxGeometry.js" />
+    <Content Include="MyFlow\js\mxGraph.js" />
+    <Content Include="MyFlow\js\mxGraphAbstractHierarchyCell.js" />
+    <Content Include="MyFlow\js\mxGraphCodec.js" />
+    <Content Include="MyFlow\js\mxGraphHandler.js" />
+    <Content Include="MyFlow\js\mxGraphHierarchyEdge.js" />
+    <Content Include="MyFlow\js\mxGraphHierarchyModel.js" />
+    <Content Include="MyFlow\js\mxGraphHierarchyNode.js" />
+    <Content Include="MyFlow\js\mxGraphLayout.js" />
+    <Content Include="MyFlow\js\mxGraphModel.js" />
+    <Content Include="MyFlow\js\mxGraphSelectionModel.js" />
+    <Content Include="MyFlow\js\mxGraphView.js" />
+    <Content Include="MyFlow\js\mxGraphViewCodec.js" />
+    <Content Include="MyFlow\js\mxGuide.js" />
+    <Content Include="MyFlow\js\mxHandle.js" />
+    <Content Include="MyFlow\js\mxHexagon.js" />
+    <Content Include="MyFlow\js\mxHierarchicalLayout.js" />
+    <Content Include="MyFlow\js\mxHierarchicalLayoutStage.js" />
+    <Content Include="MyFlow\js\mxImage.js" />
+    <Content Include="MyFlow\js\mxImageBundle.js" />
+    <Content Include="MyFlow\js\mxImageExport.js" />
+    <Content Include="MyFlow\js\mxImageShape.js" />
+    <Content Include="MyFlow\js\mxKeyHandler.js" />
+    <Content Include="MyFlow\js\mxLabel.js" />
+    <Content Include="MyFlow\js\mxLayoutManager.js" />
+    <Content Include="MyFlow\js\mxLine.js" />
+    <Content Include="MyFlow\js\mxLog.js" />
+    <Content Include="MyFlow\js\mxMarker.js" />
+    <Content Include="MyFlow\js\mxMedianHybridCrossingReduction.js" />
+    <Content Include="MyFlow\js\mxMinimumCycleRemover.js" />
+    <Content Include="MyFlow\js\mxModelCodec.js" />
+    <Content Include="MyFlow\js\mxMorphing.js" />
+    <Content Include="MyFlow\js\mxMouseEvent.js" />
+    <Content Include="MyFlow\js\mxMultiplicity.js" />
+    <Content Include="MyFlow\js\mxObjectCodec.js" />
+    <Content Include="MyFlow\js\mxObjectIdentity.js" />
+    <Content Include="MyFlow\js\mxOutline.js" />
+    <Content Include="MyFlow\js\mxPanningHandler.js" />
+    <Content Include="MyFlow\js\mxPanningManager.js" />
+    <Content Include="MyFlow\js\mxParallelEdgeLayout.js" />
+    <Content Include="MyFlow\js\mxPartitionLayout.js" />
+    <Content Include="MyFlow\js\mxPerimeter.js" />
+    <Content Include="MyFlow\js\mxPoint.js" />
+    <Content Include="MyFlow\js\mxPolyline.js" />
+    <Content Include="MyFlow\js\mxPopupMenu.js" />
+    <Content Include="MyFlow\js\mxPopupMenuHandler.js" />
+    <Content Include="MyFlow\js\mxPrintPreview.js" />
+    <Content Include="MyFlow\js\mxRadialTreeLayout.js" />
+    <Content Include="MyFlow\js\mxRectangle.js" />
+    <Content Include="MyFlow\js\mxRectangleShape.js" />
+    <Content Include="MyFlow\js\mxResources.js" />
+    <Content Include="MyFlow\js\mxRhombus.js" />
+    <Content Include="MyFlow\js\mxRootChangeCodec.js" />
+    <Content Include="MyFlow\js\mxRubberband.js" />
+    <Content Include="MyFlow\js\mxSelectionCellsHandler.js" />
+    <Content Include="MyFlow\js\mxShape.js" />
+    <Content Include="MyFlow\js\mxStackLayout.js" />
+    <Content Include="MyFlow\js\mxStencil.js" />
+    <Content Include="MyFlow\js\mxStencilRegistry.js" />
+    <Content Include="MyFlow\js\mxStyleRegistry.js" />
+    <Content Include="MyFlow\js\mxStylesheet.js" />
+    <Content Include="MyFlow\js\mxStylesheetCodec.js" />
+    <Content Include="MyFlow\js\mxSvgCanvas2D.js" />
+    <Content Include="MyFlow\js\mxSwimlane.js" />
+    <Content Include="MyFlow\js\mxSwimlaneLayout.js" />
+    <Content Include="MyFlow\js\mxSwimlaneManager.js" />
+    <Content Include="MyFlow\js\mxSwimlaneModel.js" />
+    <Content Include="MyFlow\js\mxSwimlaneOrdering.js" />
+    <Content Include="MyFlow\js\mxTemporaryCellStates.js" />
+    <Content Include="MyFlow\js\mxTerminalChangeCodec.js" />
+    <Content Include="MyFlow\js\mxText.js" />
+    <Content Include="MyFlow\js\mxToolbar.js" />
+    <Content Include="MyFlow\js\mxTooltipHandler.js" />
+    <Content Include="MyFlow\js\mxTriangle.js" />
+    <Content Include="MyFlow\js\mxUndoableEdit.js" />
+    <Content Include="MyFlow\js\mxUndoManager.js" />
+    <Content Include="MyFlow\js\mxUrlConverter.js" />
+    <Content Include="MyFlow\js\mxUtils.js" />
+    <Content Include="MyFlow\js\mxVertexHandler.js" />
+    <Content Include="MyFlow\js\mxVmlCanvas2D.js" />
+    <Content Include="MyFlow\js\mxWindow.js" />
+    <Content Include="MyFlow\js\mxXmlCanvas2D.js" />
+    <Content Include="MyFlow\js\mxXmlRequest.js" />
+    <Content Include="MyFlow\js\pako.min.js" />
+    <Content Include="MyFlow\js\sanitizer.min.js" />
+    <Content Include="MyFlow\js\Shapes.js" />
+    <Content Include="MyFlow\js\shape\mxActor.js" />
+    <Content Include="MyFlow\js\shape\mxArrow.js" />
+    <Content Include="MyFlow\js\shape\mxArrowConnector.js" />
+    <Content Include="MyFlow\js\shape\mxCloud.js" />
+    <Content Include="MyFlow\js\shape\mxConnector.js" />
+    <Content Include="MyFlow\js\shape\mxCylinder.js" />
+    <Content Include="MyFlow\js\shape\mxDoubleEllipse.js" />
+    <Content Include="MyFlow\js\shape\mxEllipse.js" />
+    <Content Include="MyFlow\js\shape\mxHexagon.js" />
+    <Content Include="MyFlow\js\shape\mxImageShape.js" />
+    <Content Include="MyFlow\js\shape\mxLabel.js" />
+    <Content Include="MyFlow\js\shape\mxLine.js" />
+    <Content Include="MyFlow\js\shape\mxMarker.js" />
+    <Content Include="MyFlow\js\shape\mxPolyline.js" />
+    <Content Include="MyFlow\js\shape\mxRectangleShape.js" />
+    <Content Include="MyFlow\js\shape\mxRhombus.js" />
+    <Content Include="MyFlow\js\shape\mxShape.js" />
+    <Content Include="MyFlow\js\shape\mxStencil.js" />
+    <Content Include="MyFlow\js\shape\mxStencilRegistry.js" />
+    <Content Include="MyFlow\js\shape\mxSwimlane.js" />
+    <Content Include="MyFlow\js\shape\mxText.js" />
+    <Content Include="MyFlow\js\shape\mxTriangle.js" />
+    <Content Include="MyFlow\js\Sidebar.js" />
+    <Content Include="MyFlow\js\Toolbar.js" />
+    <Content Include="MyFlow\js\util\mxAbstractCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxAnimation.js" />
+    <Content Include="MyFlow\js\util\mxAutoSaveManager.js" />
+    <Content Include="MyFlow\js\util\mxClipboard.js" />
+    <Content Include="MyFlow\js\util\mxConstants.js" />
+    <Content Include="MyFlow\js\util\mxDictionary.js" />
+    <Content Include="MyFlow\js\util\mxDivResizer.js" />
+    <Content Include="MyFlow\js\util\mxDragSource.js" />
+    <Content Include="MyFlow\js\util\mxEffects.js" />
+    <Content Include="MyFlow\js\util\mxEvent.js" />
+    <Content Include="MyFlow\js\util\mxEventObject.js" />
+    <Content Include="MyFlow\js\util\mxEventSource.js" />
+    <Content Include="MyFlow\js\util\mxForm.js" />
+    <Content Include="MyFlow\js\util\mxGuide.js" />
+    <Content Include="MyFlow\js\util\mxImage.js" />
+    <Content Include="MyFlow\js\util\mxImageBundle.js" />
+    <Content Include="MyFlow\js\util\mxImageExport.js" />
+    <Content Include="MyFlow\js\util\mxLog.js" />
+    <Content Include="MyFlow\js\util\mxMorphing.js" />
+    <Content Include="MyFlow\js\util\mxMouseEvent.js" />
+    <Content Include="MyFlow\js\util\mxObjectIdentity.js" />
+    <Content Include="MyFlow\js\util\mxPanningManager.js" />
+    <Content Include="MyFlow\js\util\mxPoint.js" />
+    <Content Include="MyFlow\js\util\mxPopupMenu.js" />
+    <Content Include="MyFlow\js\util\mxRectangle.js" />
+    <Content Include="MyFlow\js\util\mxResources.js" />
+    <Content Include="MyFlow\js\util\mxSvgCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxToolbar.js" />
+    <Content Include="MyFlow\js\util\mxUndoableEdit.js" />
+    <Content Include="MyFlow\js\util\mxUndoManager.js" />
+    <Content Include="MyFlow\js\util\mxUrlConverter.js" />
+    <Content Include="MyFlow\js\util\mxUtils.js" />
+    <Content Include="MyFlow\js\util\mxVmlCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxWindow.js" />
+    <Content Include="MyFlow\js\util\mxXmlCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxXmlRequest.js" />
+    <Content Include="MyFlow\js\view\mxCellEditor.js" />
+    <Content Include="MyFlow\js\view\mxCellOverlay.js" />
+    <Content Include="MyFlow\js\view\mxCellRenderer.js" />
+    <Content Include="MyFlow\js\view\mxCellState.js" />
+    <Content Include="MyFlow\js\view\mxCellStatePreview.js" />
+    <Content Include="MyFlow\js\view\mxConnectionConstraint.js" />
+    <Content Include="MyFlow\js\view\mxEdgeStyle.js" />
+    <Content Include="MyFlow\js\view\mxGraph.js" />
+    <Content Include="MyFlow\js\view\mxGraphSelectionModel.js" />
+    <Content Include="MyFlow\js\view\mxGraphView.js" />
+    <Content Include="MyFlow\js\view\mxLayoutManager.js" />
+    <Content Include="MyFlow\js\view\mxMultiplicity.js" />
+    <Content Include="MyFlow\js\view\mxOutline.js" />
+    <Content Include="MyFlow\js\view\mxPerimeter.js" />
+    <Content Include="MyFlow\js\view\mxPrintPreview.js" />
+    <Content Include="MyFlow\js\view\mxStyleRegistry.js" />
+    <Content Include="MyFlow\js\view\mxStylesheet.js" />
+    <Content Include="MyFlow\js\view\mxSwimlaneManager.js" />
+    <Content Include="MyFlow\js\view\mxTemporaryCellStates.js" />
+    <Content Include="MyFlow\resources\editor.txt" />
+    <Content Include="MyFlow\resources\editor_de.txt" />
+    <Content Include="MyFlow\resources\editor_zh.txt" />
+    <Content Include="MyFlow\resources\graph.txt" />
+    <Content Include="MyFlow\resources\grapheditor.txt" />
+    <Content Include="MyFlow\resources\grapheditor_de.txt" />
+    <Content Include="MyFlow\resources\grapheditor_se.txt" />
+    <Content Include="MyFlow\resources\graph_de.txt" />
+    <Content Include="MyFlow\resources\graph_zh.txt" />
+    <Content Include="MyFlow\stencils\arrows.xml" />
+    <Content Include="MyFlow\stencils\basic.xml" />
+    <Content Include="MyFlow\stencils\bpmn.xml" />
+    <Content Include="MyFlow\stencils\flowchart.xml" />
+    <Content Include="MyFlow\stencils\myflow-old.xml" />
+    <Content Include="MyFlow\stencils\myflow.xml" />
+    <Content Include="MyFlow\styles\default.xml" />
+    <Content Include="MyFlow\styles\down.gif" />
+    <Content Include="MyFlow\styles\grapheditor.css" />
+    <Content Include="MyFlow\styles\help.css" />
+    <Content Include="MyFlow\styles\sprites.png" />
+    <Content Include="MyFlow\styles\thumb_horz.png" />
+    <Content Include="MyFlow\styles\thumb_vertical.png" />
+    <Content Include="MyFlow\styles\up.gif" />
+    <Content Include="TreeAPI.xml" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\App_GlobalResources\Comun.en.designer.cs">
+      <Link>App_GlobalResources\Comun.en.designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comun.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\App_GlobalResources\TBO.en.designer.cs">
+      <Link>App_GlobalResources\TBO.en.designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TBO.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\App_GlobalResources\TBO.designer.cs">
+      <Link>App_GlobalResources\TBO.designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TBO.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\App_GlobalResources\Comun.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comun.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\Clases\BasePageExtNet.cs">
+      <Link>Clases\BasePageExtNet.cs</Link>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="..\Clases\BaseUserControl.cs">
+      <Link>Clases\BaseUserControl.cs</Link>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="..\Clases\Comun.cs">
+      <Link>Clases\Comun.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\Cron.cs">
+      <Link>Clases\Cron.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\DirectoryMapping.cs">
+      <Link>Clases\DirectoryMapping.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\Export.cs">
+      <Link>Clases\Export.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\InfoResponse.cs">
+      <Link>Clases\InfoResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\InventarioFuncionesCargarStores.cs">
+      <Link>Clases\InventarioFuncionesCargarStores.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\InventarioFuncionesCargaStores.cs">
+      <Link>Clases\InventarioFuncionesCargaStores.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\LinkHandler.cs">
+      <Link>Clases\LinkHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\LinqEngine.cs">
+      <Link>Clases\LinqEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\ResponseCreateController.cs">
+      <Link>Clases\ResponseCreateController.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\ServicesCodes.cs">
+      <Link>Clases\ServicesCodes.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\Email.cs">
+      <Link>Clases\Email.cs</Link>
+    </Compile>
+    <Compile Include="..\Clases\Valores.cs">
+      <Link>Clases\Valores.cs</Link>
+    </Compile>
+    <Compile Include="..\Integraciones\LDAP\LDAP.cs">
+      <Link>Integraciones\LDAP\LDAP.cs</Link>
+    </Compile>
+    <Compile Include="..\Integraciones\LDAP\LDAPConexion.cs">
+      <Link>Integraciones\LDAP\LDAPConexion.cs</Link>
+    </Compile>
+    <Compile Include="..\Integraciones\LDAP\UsuarioLDAP.cs">
+      <Link>Integraciones\LDAP\UsuarioLDAP.cs</Link>
+    </Compile>
+    <Compile Include="API\Mobile\Crypto\AESCrypto.cs" />
+    <Compile Include="API\Mobile\Crypto\CryptoHandler.cs" />
+    <Compile Include="API\Mobile\DireccionAPI\JSON\DireccionAPIMobile.cs" />
+    <Compile Include="API\Mobile\DireccionAPI\MobileDireccionAPIHandler.cs" />
+    <Compile Include="API\Mobile\General\JSON\MapCircle.cs" />
+    <Compile Include="API\Mobile\General\JSON\MapElements.cs" />
+    <Compile Include="API\Mobile\General\JSON\MapIconImage.cs" />
+    <Compile Include="API\Mobile\General\JSON\MapMarker.cs" />
+    <Compile Include="API\Mobile\General\JSON\MapPolygon.cs" />
+    <Compile Include="API\Mobile\General\Locale.cs" />
+    <Compile Include="API\Mobile\General\Location.cs" />
+    <Compile Include="API\Mobile\General\MapRequest.cs" />
+    <Compile Include="API\Mobile\General\MobileResourceRequester.cs" />
+    <Compile Include="API\Mobile\General\SOAP\LocationRequestValidationSOAP.cs" />
+    <Compile Include="API\Mobile\General\SOAP\MapRequestSOAP.cs" />
+    <Compile Include="API\Mobile\General\SOAP\ModuloEmplazamientosActualizarSeguimientoSOAP.cs" />
+    <Compile Include="API\Mobile\General\SOAP\ModuloEmplazamientosSOAP.cs" />
+    <Compile Include="API\Mobile\Login\JSON\LoginMobile.cs" />
+    <Compile Include="API\Mobile\Login\MobileLoginHandler.cs" />
+    <Compile Include="API\Mobile\Login\MobileLoginV3Handler.cs" />
+    <Compile Include="API\Mobile\Login\MobileLoginV2Handler.cs" />
+    <Compile Include="API\SitesService.asmx.cs">
+      <DependentUpon>SitesService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\TBO\Global\SitesController.cs" />
+    <Compile Include="API\TBO\Interfaces\ApiBaseController.cs" />
+    <Compile Include="API\TBO\Interfaces\ICollective.cs" />
+    <Compile Include="API\TBO\Interfaces\ParentTBOWebService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\TBO\Interfaces\TBOResponse.cs" />
+    <Compile Include="API\TBO\Inventory\InventoryElementController.cs" />
+    <Compile Include="API\TBO\Maintenance\CorrectiveMaintenanceController.cs" />
+    <Compile Include="App_GlobalResources\MobileResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MobileResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\MobileResources.en.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MobileResources.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\MobileResources_GIS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MobileResources_GIS.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\MobileResources_GIS.en.designer.cs" />
+    <Compile Include="App_GlobalResources\MobileResources_GIS.en1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MobileResources_GIS.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\MobileResources_GIS.es.designer.cs" />
+    <Compile Include="App_GlobalResources\MobileResources_GIS.es1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MobileResources_GIS.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SwaggerConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="API\TBO\Maintenance\MaintenanceIncidentsController.cs" />
+    <Compile Include="DTO\Entrada\Global\SiteAttributes.cs" />
+    <Compile Include="DTO\Entrada\Global\Sites.cs" />
+    <Compile Include="DTO\Entrada\Inventory\InventoryTemplates.cs" />
+    <Compile Include="DTO\Interfaces\ListReturnTreeObject.cs" />
+    <Compile Include="DTO\Interfaces\TreeObject.cs" />
+    <Compile Include="DTO\Interfaces\TreeDataObject.cs" />
+    <Compile Include="DTO\Entrada\Inventory\InventoryAttributes.cs" />
+    <Compile Include="DTO\Entrada\Inventory\InventoryElementParent.cs" />
+    <Compile Include="DTO\Entrada\Inventory\InventoryElements.cs" />
+    <Compile Include="DTO\Entrada\Maintenance\MaintenanceIncidence.cs" />
+    <Compile Include="DTO\Entrada\Maintenance\SiteCorrectiveMaintenance.cs" />
+    <Compile Include="DTO\Salida\Global\SiteAttributes.cs" />
+    <Compile Include="DTO\Salida\Global\Sites.cs" />
+    <Compile Include="DTO\Salida\Inventory\InventoryAttributes.cs" />
+    <Compile Include="DTO\Salida\Inventory\InventoryElementParent.cs" />
+    <Compile Include="DTO\Salida\Inventory\InventoryElements.cs" />
+    <Compile Include="DTO\Salida\Inventory\InventoryTemplates.cs" />
+    <Compile Include="DTO\Salida\Maintenance\MaintenanceIncidence.cs" />
+    <Compile Include="DTO\Salida\Maintenance\SiteCorrectiveMaintenance.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MyFlow\canvas\mxBasicCanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxGdiCanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxGdiCanvas2D.cs" />
+    <Compile Include="MyFlow\canvas\mxICanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxICanvas2D.cs" />
+    <Compile Include="MyFlow\canvas\mxImageCanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxStencil.cs" />
+    <Compile Include="MyFlow\canvas\mxStencilRegistry.cs" />
+    <Compile Include="MyFlow\io\mxCellCodec.cs" />
+    <Compile Include="MyFlow\io\mxCodec.cs" />
+    <Compile Include="MyFlow\io\mxCodecRegistry.cs" />
+    <Compile Include="MyFlow\io\mxModelCodec.cs" />
+    <Compile Include="MyFlow\io\mxObjectCodec.cs" />
+    <Compile Include="MyFlow\io\mxStylesheetCodec.cs" />
+    <Compile Include="MyFlow\layout\mxFastOrganicLayout.cs" />
+    <Compile Include="MyFlow\layout\mxIGraphLayout.cs" />
+    <Compile Include="MyFlow\model\mxCell.cs" />
+    <Compile Include="MyFlow\model\mxCellPath.cs" />
+    <Compile Include="MyFlow\model\mxGeometry.cs" />
+    <Compile Include="MyFlow\model\mxGraphModel.cs" />
+    <Compile Include="MyFlow\model\mxICell.cs" />
+    <Compile Include="MyFlow\model\mxIGraphModel.cs" />
+    <Compile Include="MyFlow\reader\mxGraphViewImageReader.cs" />
+    <Compile Include="MyFlow\reader\mxGraphViewReader.cs" />
+    <Compile Include="MyFlow\reader\mxSaxOutputHandler.cs" />
+    <Compile Include="MyFlow\utils\mxCellRenderer.cs" />
+    <Compile Include="MyFlow\utils\mxConstants.cs" />
+    <Compile Include="MyFlow\utils\mxImageBundle.cs" />
+    <Compile Include="MyFlow\utils\mxPoint.cs" />
+    <Compile Include="MyFlow\utils\mxRectangle.cs" />
+    <Compile Include="MyFlow\utils\mxUtils.cs" />
+    <Compile Include="MyFlow\view\mxCellState.cs" />
+    <Compile Include="MyFlow\view\mxConnectionConstraint.cs" />
+    <Compile Include="MyFlow\view\mxEdgeStyle.cs" />
+    <Compile Include="MyFlow\view\mxGraph.cs" />
+    <Compile Include="MyFlow\view\mxGraphView.cs" />
+    <Compile Include="MyFlow\view\mxPerimeter.cs" />
+    <Compile Include="MyFlow\view\mxStyleRegistry.cs" />
+    <Compile Include="MyFlow\view\mxStylesheet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Clases\Util.cs">
+      <Link>Clases\Util.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CapaDatos\*.cs">
+      <Link>CapaDatos\*.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CapaNegocio\*.cs" />
+    <Compile Include="..\CapaNegocio\Access\*.cs">
+      <Link>CapaNegocio\Access\*.cs</Link>
+    </Compile>
+	<Compile Include="..\CapaNegocio\Global\Administracion\*.cs">
+      <Link>CapaNegocio\Global\Administracion\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Adquisiciones\*.cs">
+      <Link>CapaNegocio\Adquisiciones\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Ambiental\*.cs">
+      <Link>CapaNegocio\Ambiental\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Ampliaciones\*.cs">
+      <Link>CapaNegocio\Ampliaciones\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\AssetsPurchase\*.cs">
+      <Link>CapaNegocio\AssetsPurchase\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Audit\*.cs">
+      <Link>CapaNegocio\Audit\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\API\*.cs">
+      <Link>CapaNegocio\API\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Billing\*.cs">
+      <Link>CapaNegocio\Billing\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Calidad\*.cs">
+      <Link>CapaNegocio\Calidad\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\City\*.cs">
+      <Link>CapaNegocio\City\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Despliegue\*.cs">
+      <Link>CapaNegocio\Despliegue\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Documental\*.cs">
+      <Link>CapaNegocio\Documental\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Energy\*.cs">
+      <Link>CapaNegocio\Energy\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\ExportarImportar\*.cs">
+      <Link>CapaNegocio\ExportarImportar\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\FirmaDigital\*.cs">
+      <Link>CapaNegocio\FirmaDigital\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Global\*.cs">
+      <Link>CapaNegocio\Global\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Global\Gestion\*.cs">
+      <Link>CapaNegocio\Global\Gestion\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Global\AtributosDinamicos\*.cs">
+      <Link>CapaNegocio\Global\AtributosDinamicos\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Global\EmplazamientosAtributosDinamicos\*.cs">
+      <Link>CapaNegocio\Global\EmplazamientosAtributosDinamicos\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Indoor\*.cs">
+      <Link>CapaNegocio\Indoor\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Install\*.cs">
+      <Link>CapaNegocio\Install\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Inventario\*.cs">
+      <Link>CapaNegocio\Inventario\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Inventario\AtributosDinamicos\*.cs">
+      <Link>CapaNegocio\Inventario\AtributosDinamicos\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Legal\*.cs">
+      <Link>CapaNegocio\Legal\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Mantenimiento\*.cs">
+      <Link>CapaNegocio\Mantenimiento\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Monitoring\*.cs">
+      <Link>CapaNegocio\Monitoring\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Planning\*.cs">
+      <Link>CapaNegocio\Planning\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Saving\*.cs">
+      <Link>CapaNegocio\Saving\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Sharing\*.cs">
+      <Link>CapaNegocio\Sharing\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Space\*.cs">
+      <Link>CapaNegocio\Space\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\SSRR\*.cs">
+      <Link>CapaNegocio\SSRR\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Swapping\*.cs">
+      <Link>CapaNegocio\Swapping\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Tower\*.cs">
+      <Link>CapaNegocio\Tower\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Uninstall\*.cs">
+      <Link>CapaNegocio\Uninstall\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\Vandalismo\*.cs">
+      <Link>CapaNegocio\Vandalismo\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\WorkOrder\*.cs">
+      <Link>CapaNegocio\WorkOrder\*.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaNegocio\WorkFlow\*.cs">
+      <Link>CapaNegocio\WorkFlow\*.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Readme\Ext.NET\README.md" />
+    <Content Include="App_Readme\Ext.NET\LICENSE" />
+    <Content Include="App_Readme\Ext.NET\CHANGELOG.md" />
+    <None Include="packages.config" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\web.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web.Base.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.API_Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.API_Telenor_TiB.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.API_Telenor_Nube_Olivo.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.API_Telenor_Nube_TiB.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web._Desarrollador_Fran.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web._Desarrollador_Pedro.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\App_GlobalResources\TBO.en.resx">
+      <Link>App_GlobalResources\TBO.en.resx</Link>
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>TBO.en1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="..\App_GlobalResources\TBO.resx">
+      <Link>App_GlobalResources\TBO.resx</Link>
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>TBO1.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\App_GlobalResources\Comun.en.resx">
+      <Link>App_GlobalResources\Comun.en.resx</Link>
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Comun.en.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="..\App_GlobalResources\Comun.resx">
+      <Link>App_GlobalResources\Comun.resx</Link>
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Comun.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_LocalResources\" />
+    <Folder Include="CapaDatos\" />
+    <Folder Include="CapaNegocio\Access\" />
+    <Folder Include="CapaNegocio\Adquisiciones\" />
+    <Folder Include="CapaNegocio\Ambiental\" />
+    <Folder Include="CapaNegocio\Ampliaciones\" />
+    <Folder Include="CapaNegocio\API\" />
+    <Folder Include="CapaNegocio\AssetsPurchase\" />
+    <Folder Include="CapaNegocio\Audit\" />
+    <Folder Include="CapaNegocio\Billing\" />
+    <Folder Include="CapaNegocio\Calidad\" />
+    <Folder Include="CapaNegocio\City\" />
+    <Folder Include="CapaNegocio\Despliegue\" />
+    <Folder Include="CapaNegocio\Documental\" />
+    <Folder Include="CapaNegocio\Energy\" />
+    <Folder Include="CapaNegocio\ExportarImportar\" />
+    <Folder Include="CapaNegocio\FirmaDigital\" />
+    <Folder Include="CapaNegocio\Global\Administracion\" />
+    <Folder Include="CapaNegocio\Global\AtributosDinamicos\" />
+    <Folder Include="CapaNegocio\Global\EmplazamientosAtributosDinamicos\" />
+    <Folder Include="CapaNegocio\Global\Gestion\" />
+    <Folder Include="CapaNegocio\Indoor\" />
+    <Folder Include="CapaNegocio\Install\" />
+    <Folder Include="CapaNegocio\Inventario\AtributosDinamicos\" />
+    <Folder Include="CapaNegocio\Legal\" />
+    <Folder Include="CapaNegocio\Mantenimiento\" />
+    <Folder Include="CapaNegocio\Monitoring\" />
+    <Folder Include="CapaNegocio\Planning\" />
+    <Folder Include="CapaNegocio\Saving\" />
+    <Folder Include="CapaNegocio\Sharing\" />
+    <Folder Include="CapaNegocio\Space\" />
+    <Folder Include="CapaNegocio\SSRR\" />
+    <Folder Include="CapaNegocio\Swapping\" />
+    <Folder Include="CapaNegocio\Tower\" />
+    <Folder Include="CapaNegocio\Uninstall\" />
+    <Folder Include="CapaNegocio\Vandalismo\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="MyFlow\myflow\" />
+    <Folder Include="Views\CorrectiveMaintenance\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'API_Telenor_TiB|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;TREEAPI</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '_Desarrollador_Fran|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TREEAPI</DefineConstants>
+    <DocumentationFile>TreeAPI.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '_Desarrollador_Pedro|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TREEAPI</DefineConstants>
+    <DocumentationFile>TreeAPI.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'API_Telenor_Nube_Olivo|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;TREEAPI</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'API_Telenor_Nube_TiB|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;TREEAPI</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="BeforeBuild">
+    <TransformXml Source="Web.Base.config" Transform="Web.$(Configuration).config" Destination="Web.config" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54562</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44361/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="App_GlobalResources" AfterTargets="BeforeBuild">
+    <Copy SourceFiles="../App_GlobalResources/Comun.Designer.cs" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/Comun.en.designer.cs" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/Comun.en.resx" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/Comun.resx" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/TBO.designer.cs" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/TBO.en.designer.cs" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/TBO.en.resx" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/TBO.resx" DestinationFolder="App_GlobalResources" />
+  </Target>
+</Project>

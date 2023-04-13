@@ -1,0 +1,215 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+@include layoutRes(100%, 50%, 30%, 70%, 30%, 70%);
+
+#InvHeader .x-panel-body-default, #controles .x-panel-body-default {
+    background-color: $colBg !important;
+    //max-width: calc(50% - 4px);
+}
+
+.alturaPn {
+    height: min-content !important;
+}
+
+#pnGraficos3_Content {
+    height: calc(100% - 30px);
+}
+
+.image-title {
+    display: inline-block;
+}
+
+.cmb-config {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+}
+
+.btnChartsConfig {
+    &:hover {
+        background-color: darken($colBg, 20);
+    }
+}
+
+.btnChartsConfigI {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.cmbCharts {
+    .x-form-trigger-wrap {
+        border: none !important;
+
+        input {
+            color: $colPpal;
+            background-color: $colBg;
+            font: 500 14px "Roboto", sans-serif;
+        }
+
+        .x-form-arrow-trigger {
+            background-color: $colBg;
+            background-image: url('/ima/ico-moveDown.svg') !important;
+            width: 10px;
+            height: 10px;
+            background-size: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            &:before {
+                content: "";
+            }
+        }
+    }
+}
+
+.chart-container {
+    min-height: 200px;
+    /*width: 48%;*/
+    display: inline-block;
+
+    .title {
+        padding: 8px 16px;
+        font: bold 12px "Roboto", sans-serif;
+    }
+
+    .chart {
+        min-height: 150px;
+        height: 100%;
+
+        .padCharts {
+            padding: 1rem 3rem;
+            max-height: 300px !important;
+        }
+
+        .padChartsLine {
+            padding: 1rem 2rem;
+            height: 100% !important;
+            max-height: 300px !important;
+        }
+    }
+
+    .charts-kpi {
+        min-height: 150px;
+        height: 100%;
+    }
+
+    .charts-kpi {
+        background-color: $colBg !important;
+        display: grid;
+        grid-template-columns: repeat(3, calc(33% - 0.5rem));
+        grid-gap: 1rem;
+
+        .kpi-item {
+            display: inline-block;
+            min-width: 183px;
+            background-color: white;
+            padding: .5rem;
+            min-height: 100px;
+            max-height: 100px;
+
+            .text {
+                color: $Gris3;
+                font: bold 12px "Roboto", sans-serif;
+            }
+
+            .value {
+                display: inline-block;
+
+                .number {
+                    color: $Azul;
+                    font: bold 28px "Roboto", sans-serif;
+                }
+
+                .ico {
+                }
+            }
+
+            .chartIco {
+                margin: 0.8rem 0 0 5px;
+            }
+
+            .kpi-chart {
+                display: inline-block;
+                max-width: 100px;
+                height: 60%;
+                float: right;
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .chart {
+    }
+}
+
+.displayCharts {
+    .x-autocontainer-innerCt {
+        display: grid;
+        grid-template-columns: repeat(2, calc(50% - 10px));
+        grid-template-rows: 330px;
+        justify-content: stretch;
+        grid-column-gap: 20px;
+        grid-row-gap: 30px;
+
+        .x-autocontainer-innerCt {
+            display: block;
+        }
+    }
+}
+
+@media (max-width:1180px) {
+    .charts-kpi {
+        grid-template-columns: repeat(2, calc(50% - 0.5rem)) !important;
+
+        .kpi-item {
+            max-width: 282px;
+        }
+    }
+
+    .padCharts {
+        padding: 1rem 1.5rem !important;
+    }
+
+    .padChartsLine {
+        padding: 1rem 1rem !important;
+    }
+}
+
+@media (max-width:780px) {
+    .displayCharts {
+        .x-autocontainer-innerCt {
+            grid-template-rows: 216 repeat(3, minmax(100px, 75vh)) !important;
+
+            .x-autocontainer-innerCt {
+                display: block !important;
+            }
+        }
+    }
+
+    .charts-kpi {
+        grid-template-columns: 100% !important;
+    }
+}
+
+@media (max-width:667px) {
+    #InvHeader .x-panel-body-default, #controles .x-panel-body-default {
+        background-color: $colBg !important;
+        max-width: 100%;
+    }
+
+    .cmb-config {
+        margin: 0 0 8px 8px !important;
+    }
+
+    .displayCharts {
+        .x-autocontainer-innerCt {
+            grid-template-columns: 100% !important;
+            grid-template-rows: 216 repeat(3, minmax(100px, 75vh)) !important;
+
+            .x-autocontainer-innerCt {
+                display: block !important;
+            }
+        }
+    }
+}

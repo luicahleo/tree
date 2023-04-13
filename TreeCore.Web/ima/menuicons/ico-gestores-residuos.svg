@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.118" height="20" viewBox="0 0 20.118 20">
+  <g id="ico-gestores-residuos" transform="translate(0.059)">
+    <rect id="Rectángulo_254" data-name="Rectángulo 254" width="20" height="20" fill="none"/>
+    <g id="Grupo_1668" data-name="Grupo 1668" transform="translate(-4099 -220)">
+      <g id="Grupo_6" data-name="Grupo 6" transform="translate(3991 44)">
+        <path id="Trazado_20" data-name="Trazado 20" d="M815.955,276.334v8.855a1.861,1.861,0,0,0,2.1,2.135c2.406,0,10.274.022,10.363,0,0,0,1.581.09,1.526-2.135s0-8.855,0-8.855" transform="translate(-704.942 -92.334)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Trazado_19" data-name="Trazado 19" d="M814.6,265.805l9.07-8,8.93,8" transform="translate(-705.602 -80.805)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <path id="Trazado_936" data-name="Trazado 936" d="M0,2.032C-.021,1.422.067-.04,2.464,0s2.877,1.466,2.9,2.162" transform="matrix(-0.899, 0.438, -0.438, -0.899, 4112.698, 232.864)" fill="none" stroke="#666" stroke-width="1.5"/>
+      <path id="Trazado_937" data-name="Trazado 937" d="M0,2.195C-.021,1.536.067-.043,2.464,0s2.877,1.583,2.9,2.335" transform="matrix(0.899, -0.438, 0.438, 0.899, 4105.275, 230.003)" fill="none" stroke="#666" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

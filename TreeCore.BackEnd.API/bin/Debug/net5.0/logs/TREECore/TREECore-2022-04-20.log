@@ -1,0 +1,767 @@
+2022-04-20 08:55:14.6074||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 09:23:24.2457||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 09:23:49.2243||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: BeginExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized. | StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 138
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method21(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.InvalidOperationException: BeginExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 138
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method21(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 09:43:08.3823||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: Object reference not set to an instance of an object. | StackTrace:    at TreeCore.BackEnd.Service.Services.BusinessProcess.PutBusinessProcessType.ValidateEntity(BusinessProcessTypeDTO businessProcessType, Int32 client, String code, String email)
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 27
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 34
+   at TreeCore.BackEnd.Service.Services.PutObjectService`3.Update(DTO oEntidad, String sCode, Int32 clientID, String email, String parentCode)
+   at TreeCore.BackEnd.API.Controllers.Version1.BusinessProcess.BusinessProcessTypeController.Put(BusinessProcessTypeDTO BusinessProcessTypeDTO, String code) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\BusinessProcess\BusinessProcessTypeController.cs:line 61
+   at lambda_method36(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreeCore.BackEnd.Service.Services.BusinessProcess.PutBusinessProcessType.ValidateEntity(BusinessProcessTypeDTO businessProcessType, Int32 client, String code, String email)
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 27
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 34
+   at TreeCore.BackEnd.Service.Services.PutObjectService`3.Update(DTO oEntidad, String sCode, Int32 clientID, String email, String parentCode)
+   at TreeCore.BackEnd.API.Controllers.Version1.BusinessProcess.BusinessProcessTypeController.Put(BusinessProcessTypeDTO BusinessProcessTypeDTO, String code) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\BusinessProcess\BusinessProcessTypeController.cs:line 61
+   at lambda_method36(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 10:02:10.9077||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 10:37:21.7708||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 12:20:55.9614||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 12:21:27.7278||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: One or more errors occurred. (The connection does not support MultipleActiveResultSets.) | StackTrace:    at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at TreeCore.BackEnd.Service.Services.Project.ProjectLifeCycleStatus.PostProjectLifeCycleStatus.ValidateEntity(ProjectLifeCycleStatusDTO oEntidad, Int32 client, String email, String code) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Project\ProjectLifeCycleStatus\PostProjectLifeCycleStatus.cs:line 53
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 27
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 34
+   at TreeCore.BackEnd.Service.Services.PostObjectService`3.Create(DTO oEntidad, Int32 clientID, String email, String code) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Interfaces\PostObjectService.cs:line 35
+   at TreeCore.BackEnd.API.Controllers.Version1.Project.ProjectLifeCycleStatusController.Post(ProjectLifeCycleStatusDTO projectLifeCycleStatus) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Project\ProjectLifeCycleStatusController.cs:line 51
+   at lambda_method10(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.InvalidOperationException: The connection does not support MultipleActiveResultSets.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at TreeCore.BackEnd.Data.Repository.BaseRepository`1.GetList(Int32 Client, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\BaseRepository.cs:line 117
+   at TreeCore.BackEnd.ServiceDependencies.Services.GetDependencies`2.GetList(Int32 Client, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Interfaces\GetDependencies.cs:line 39
+2022-04-20 12:21:33.8004||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. | StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.MultiMapAsync[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, CommandDefinition command, Delegate map, String splitOn) in /_/Dapper/SqlMapper.Async.cs:line 912
+   at TreeCore.BackEnd.Data.Repository.ImportExport.ImportTaskRepository.GetList(Int32 client, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\ImportExport\ImportTaskRepository.cs:line 169
+   at TreeCore.BackEnd.ServiceDependencies.Services.GetDependencies`2.GetList(Int32 Client, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Interfaces\GetDependencies.cs:line 39
+   at TreeCore.BackEnd.Service.Services.GetObjectService`3.GetList(Int32 Client, String Email, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Interfaces\GetObjectService.cs:line 31
+   at TreeCore.BackEnd.API.Controllers.ApiControllerBase`3.GetList(QueryDTO query) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\ApiControllerBase.cs:line 62
+   at lambda_method58(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Tiempo de espera de la operación de espera agotado.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.MultiMapAsync[TFirst,TSecond,TThird,TFourth,TFifth,TSixth,TSeventh,TReturn](IDbConnection cnn, CommandDefinition command, Delegate map, String splitOn) in /_/Dapper/SqlMapper.Async.cs:line 912
+   at TreeCore.BackEnd.Data.Repository.ImportExport.ImportTaskRepository.GetList(Int32 client, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\ImportExport\ImportTaskRepository.cs:line 169
+   at TreeCore.BackEnd.ServiceDependencies.Services.GetDependencies`2.GetList(Int32 Client, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Interfaces\GetDependencies.cs:line 39
+   at TreeCore.BackEnd.Service.Services.GetObjectService`3.GetList(Int32 Client, String Email, List`1 filters, List`1 orders, String direction, Int32 pageSize, Int32 pageIndex) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Interfaces\GetObjectService.cs:line 31
+   at TreeCore.BackEnd.API.Controllers.ApiControllerBase`3.GetList(QueryDTO query) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\ApiControllerBase.cs:line 62
+   at lambda_method58(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+ClientConnectionId:0c606ab8-f7a4-49a9-919a-84de33763a5f
+Error Number:-2,State:0,Class:11
+2022-04-20 12:35:58.3933||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: Object reference not set to an instance of an object. | StackTrace:    at TreeCore.BackEnd.Service.Services.Project.ProjectLifeCycleStatus.PutProjectLifeCycleStatus.ValidateEntity(ProjectLifeCycleStatusDTO oEntidad, Int32 client, String code, String email) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Project\ProjectLifeCycleStatus\PutProjectLifeCycleStatus.cs:line 42
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 27
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 34
+   at TreeCore.BackEnd.Service.Services.PutObjectService`3.Update(DTO oEntidad, String sCode, Int32 clientID, String email, String parentCode) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Interfaces\PutObjectService.cs:line 36
+   at TreeCore.BackEnd.API.Controllers.Version1.Project.ProjectLifeCycleStatusController.Put(ProjectLifeCycleStatusDTO ProjectLifeCycleStatusDTO, String code) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Project\ProjectLifeCycleStatusController.cs:line 62
+   at lambda_method104(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.NullReferenceException: Object reference not set to an instance of an object.
+   at TreeCore.BackEnd.Service.Services.Project.ProjectLifeCycleStatus.PutProjectLifeCycleStatus.ValidateEntity(ProjectLifeCycleStatusDTO oEntidad, Int32 client, String code, String email) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Project\ProjectLifeCycleStatus\PutProjectLifeCycleStatus.cs:line 42
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 29
+   at TreeCore.Shared.ROP.Result_Bind.Bind[T,U](Task`1 result, Func`2 method) in C:\OLIVO\TreeCore.Shared.ROP\Result_Bind.cs:line 36
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 27
+   at TreeCore.Shared.ROP.Result_Map.MapAsync[T,U](Task`1 result, Func`2 mapper) in C:\OLIVO\TreeCore.Shared.ROP\Result_Map.cs:line 34
+   at TreeCore.BackEnd.Service.Services.PutObjectService`3.Update(DTO oEntidad, String sCode, Int32 clientID, String email, String parentCode) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Interfaces\PutObjectService.cs:line 36
+   at TreeCore.BackEnd.API.Controllers.Version1.Project.ProjectLifeCycleStatusController.Put(ProjectLifeCycleStatusDTO ProjectLifeCycleStatusDTO, String code) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Project\ProjectLifeCycleStatusController.cs:line 62
+   at lambda_method104(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:40:37.7083||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 13:48:10.5944||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 13:48:29.0783||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__NotifyConnectionOpened|2>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 83
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__NotifyConnectionOpened|2>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 83
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:49:27.0690||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:51:54.9520||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:52:28.9295||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:53:33.5018||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 13:55:14.5715||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 13:55:40.5264||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__NotifyConnectionOpened|2>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 83
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__NotifyConnectionOpened|2>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 83
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:56:03.9702||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:57:20.9821||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 13:57:43.4055||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__NotifyConnectionOpened|2>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 83
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__NotifyConnectionOpened|2>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 83
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:57:48.1096||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:58:35.0892||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:58:43.7967||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 13:58:51.0973||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 14:00:09.0115||ERROR|TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware|Message: A task was canceled. | StackTrace:    at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28 System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TreeCore.Shared.Data.ConnectionWrapper.<>c__DisplayClass7_0.<<GetOpenConnectionOrOpenNewConnectionAsync>g__BuildConnectionAsync|0>d.MoveNext() in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 70
+--- End of stack trace from previous location ---
+   at TreeCore.Shared.Data.ConnectionWrapper.GetConnectionAsync(CancellationToken c) in C:\OLIVO\TreeCore.Shared.Data\Db\ConnectionWrapper.cs:line 32
+   at TreeCore.BackEnd.Data.Repository.General.UserRepository.GetItemByCode(String code) in C:\OLIVO\TreeCore.BackEnd.Data\Repository\General\UserRepository.cs:line 135
+   at TreeCore.BackEnd.ServiceDependencies.Services.Auth.LoginDependence.Login(String email, String password) in C:\OLIVO\TreeCore.BackEnd.ServiceDependencies\Services\Auth\LoginDependence.cs:line 34
+   at TreeCore.BackEnd.Service.Services.Auth.LoginService.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.Service\Services\Auth\LoginService.cs:line 19
+   at TreeCore.BackEnd.API.Controllers.Version1.Auth.AuthController.Login(LoginDTO login) in C:\OLIVO\TreeCore.BackEnd.API\Controllers\Version1\Auth\AuthController.cs:line 43
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TreeCore.BackEnd.API.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in C:\OLIVO\TreeCore.BackEnd.API\Middleware\ExceptionHandlerMiddleware.cs:line 28
+2022-04-20 14:40:14.8259||DEBUG|TreeCore.BackEnd.API.Program|init main 
+2022-04-20 15:25:59.4005||DEBUG|TreeCore.BackEnd.API.Program|init main 

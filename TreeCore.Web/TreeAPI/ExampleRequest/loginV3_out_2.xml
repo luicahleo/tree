@@ -1,0 +1,14 @@
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <MobileLoginV3Response xmlns="http://sites.alteda.es/">
+         <MobileLoginV3Result>{
+  "RequestResult": true,
+  "RequestResultString": null,
+  "BlockSize": 262,
+  "BlockData": "JtFrjVfurTp05IpoLM3A4R4cs472BjibFGjGBclE6c5QVsnoNTNUqhjRpwsw/h5zfxhKDfCWvRDmPTf4fy2zVQlkWQ+3F8MqQXd7YSwSHpRbf6PysyHLcBEfP/vDSaLqMaRyHkmdYIaIQ82Gr69s9evqOmJACUocdPwcNM+hivqR43JNTr/uBzHWiFnATQVvQ93JKPGUlroaBBx4AH74nq1fQeswJGn8dDijlVdSb2grZ3CWSGIxn30wYE0opwEC0eoYJPL/ZDzO7QUuOauu3XR7OrgUBn0UJdM5b4mCg3mL19YfYCHl+W3ulSNAjtkraE7rEe/3DwytSQG3vqod7Kh23sHOPUNEZ+tdmltHtIc=",
+  "GeneratedCodeDevice": "Y032UH6XDQ6TO0L1HJHG123456"
+}</MobileLoginV3Result>
+      </MobileLoginV3Response>
+   </soap:Body>
+</soap:Envelope>

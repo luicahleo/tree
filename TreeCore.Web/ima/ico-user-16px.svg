@@ -1,0 +1,21 @@
+<svg id="ico-user-16px" xmlns="http://www.w3.org/2000/svg" width="16.26" height="16.296" viewBox="0 0 16.26 16.296">
+  <g id="ico-vendor">
+    <rect id="Rectángulo_209" data-name="Rectángulo 209" width="16" height="16" fill="none"/>
+    <path id="Trazado_1311" data-name="Trazado 1311" d="M2368.759-82.4l-2.5,2.449-1.58-1.947" transform="translate(-2360.859 91.87)" fill="none" stroke="#5f606a" stroke-width="1"/>
+    <path id="Trazado_1312" data-name="Trazado 1312" d="M2364.677-82.4l2.5,2.449,1.58-1.947" transform="translate(-2356.777 91.87)" fill="none" stroke="#5f606a" stroke-width="1"/>
+    <g id="Grupo_1766" data-name="Grupo 1766">
+      <rect id="Rectángulo_208" data-name="Rectángulo 208" width="16" height="16" fill="none"/>
+      <g id="Grupo_1597" data-name="Grupo 1597" transform="translate(0.832)">
+        <g id="Grupo_1598" data-name="Grupo 1598">
+          <path id="Trazado_65" data-name="Trazado 65" d="M-289.605,384.8c.014.018.013,1.559,0,1.592-.032,0,.111,1.218-1.545,1.218s-10.663.006-11.9,0a1.156,1.156,0,0,1-1.218-1.218V384.8c0-.943.2-1.064,1.218-1.65s4.18-2.176,4.18-2.176a5.905,5.905,0,0,0,1.89.349,6.371,6.371,0,0,0,1.935-.349s3.881,1.778,4.571,2.176A1.551,1.551,0,0,1-289.605,384.8Z" transform="translate(304.273 -372.064)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+          <g id="Rectángulo_35" data-name="Rectángulo 35" transform="translate(3.438)" fill="none" stroke="#5f606a" stroke-width="1.5">
+            <rect width="7.54" height="9.844" rx="3.77" stroke="none"/>
+            <rect x="0.75" y="0.75" width="6.04" height="8.344" rx="3.02" fill="none"/>
+          </g>
+          <path id="Trazado_70" data-name="Trazado 70" d="M-413.177,522.871l1.813-1.437,4.569.468" transform="translate(417.153 -517.932)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <path id="Trazado_1313" data-name="Trazado 1313" d="M2367.76-80.645l.771,1.146-.771,3.366h3.434l-.74-3.366.74-1.146-1.737-1.314Z" transform="translate(-2361.426 91.788)" fill="#5f606a"/>
+  </g>
+</svg>

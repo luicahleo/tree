@@ -1,0 +1,436 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+@include layoutRes(100%, 100%, 100%, 0%, 100%, 0%);
+
+
+#ctBtnSldr {
+    display: none !important;
+}
+
+
+#btnCategoryViewToGestionContent {
+    position: unset !important;
+    float: right;
+    margin-right:20px !important;
+
+}
+
+#btnGestionContentToCategoryView {
+    position: unset !important;
+    float: right;
+    margin-right: 20px !important;
+}
+
+.fondo {
+    .pnCentralWrap-body {
+        background: $Gris1Fondo !important;
+    }
+
+    #CenterPanelMain-body {
+        background: $Gris1Fondo !important;
+    }
+}
+
+
+
+
+#btnCollapseAsR {
+    margin-right: 20px;
+}
+/*#region PANEL ASIDE RIGHT  */
+#pnAsideR {
+    position: fixed;
+    width: 360px;
+    top: 0;
+    right: 0;
+    box-shadow: 2px 0px 4px 3px rgba(0,0,0,0.16);
+    z-index: 9;
+    transition: margin ease 0.3s;
+}
+
+#pnAsideR-innerCt {
+    height: 100vh !important;
+    background-color: $colBg;
+    padding: 0;
+}
+
+.lblHeadAside {
+    display: block;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    color: $colPpal;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.ctAsideR {
+    margin-top: 0;
+}
+
+#ctAsideR-innerCt {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#mnAsideR {
+    flex: 0 0 40px;
+    border-right: 1px solid $Gris1 !important;
+}
+
+#mnAsideR-innerCt {
+    height: 100vh;
+}
+
+#pnGridsAsideR {
+    flex: 1 1 90%;
+    height: 100vh;
+
+    #pnGridsAsideR-innerCt {
+        height: 100vh;
+    }
+}
+
+.tlbGrdAsR {
+    margin-top: 1rem;
+    padding-left: .5rem;
+}
+
+.lblRecordName {
+    display: block;
+    background-color: $Gris1;
+    font-size: 11px;
+    color: $GrisNegro;
+    text-transform: uppercase;
+    padding: .5rem .5rem .5rem 1.6rem;
+    height: 2rem;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        height: 1rem;
+        border-left: 4px solid $GrisNegro;
+        position: absolute;
+        left: 1rem;
+        top: 8px;
+    }
+}
+
+.grdIntoAside {
+    @include gridIntoAside;
+}
+
+/*#endregion */
+
+#grAsR1 .x-toolbar-default {
+    padding: 20px 0px 0px 0px;
+}
+
+#grAsR2 .x-toolbar-default {
+    padding: 20px 0px 0px 0px;
+}
+
+.grdPnColIcons {
+    @include grdPnColIcons;
+}
+
+.grdIntoAside {
+    @include gridIntoAside;
+}
+
+/*#region GRID SIDEBAR CREATE FILTERS */
+
+#pnCFiltersContainer, #pnMFiltersContainer {
+    margin-left: .7rem;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+
+    .btn-add {
+        @include baseBoton($colPpal, 14px, $blanco);
+        margin-left: .5rem;
+    }
+}
+
+.btn-end {
+    @include baseBoton($colPpal, 14px, $blanco);
+    float: right;
+    margin-left: .5rem;
+}
+
+.btn-save {
+    background-color: $blanco;
+    border: 1px solid $Verde2;
+    border-radius: 3px;
+    float: right;
+    margin-left: .5rem;
+
+    .x-btn-inner-default-small {
+        font-size: 14px;
+        color: $colPpal;
+    }
+
+    &:hover {
+        background-color: $Verde2;
+        Border: 1px solid $Verde2;
+    }
+}
+//CONTENT
+.chk-ctoTrck {
+    padding: 0 0rem;
+    border: 1px solid $Gris2;
+    border-radius: 2px;
+    margin-bottom: .7rem;
+    width: 100%;
+
+    label {
+        font: 500 12px/14px "Roboto", sans-serif;
+        color: #6a6b86 !important;
+    }
+}
+
+.checkboxes {
+    margin-left: 15rem;
+    margin-top: .5rem;
+}
+
+.chk-label {
+    position: absolute;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+#pnNewFilter {
+    float: left;
+    width: 58%;
+}
+
+#btnFilter {
+    float: left;
+    width: 38%;
+    margin-left: 4%;
+}
+
+.pnForm {
+    float: left;
+    width: 48%;
+
+    .x-form-trigger {
+        padding-top: 0rem;
+    }
+}
+
+#pnSearch {
+    margin-left: 4%;
+    margin-top: 0px;
+}
+
+#btnAdd {
+    float: right;
+    padding-right: .5rem;
+}
+
+#pnFiltersBox {
+    min-height: 100px;
+}
+
+#pnTagContainer {
+    padding-bottom: .5rem;
+    border: 1px solid $Gris2;
+    border-radius: 2px;
+    margin-bottom: .7rem;
+    width: 100%;
+    min-height: 100px;
+
+    label {
+        font: 500 12px/14px "Roboto", sans-serif;
+        color: #6a6b86 !important;
+    }
+}
+
+.pnTagField {
+    float: left;
+    margin-top: .5rem;
+    margin-left: 2%;
+    padding: .5rem;
+    width: 40%;
+    height: 30px;
+    background-color: #E4F0F8;
+    border-radius: 3px 0 0 3px;
+}
+
+.pnTagSearch {
+    float: left;
+    margin-top: .5rem;
+    padding: .5rem;
+    width: 40%;
+    height: 30px;
+    background-color: #E4F0F8;
+}
+
+#tagsContainer-outerCt {
+    background-color: $Gris1Fondo;
+}
+
+.btnCloseTag {
+    @include bgBtn-ico;
+    float: left;
+    margin-top: .5rem;
+    margin-right: 2%;
+    padding: .5rem;
+    width: 16%;
+    height: 30px;
+    background-color: #E4F0F8;
+    border: none;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+    border-radius: 0 3px 3px 0;
+}
+
+#tagsHeader {
+    height: 30px;
+    width: 100%
+}
+
+.tabsLabels {
+    font: 500 12px/14px "Roboto", sans-serif;
+    color: #6a6b86 !important;
+    float: left;
+    margin-top: .5rem;
+    margin-left: 2%;
+    padding: .5rem;
+    width: 38%;
+    height: 30px;
+}
+
+.btnCloseTag:hover {
+    background-color: #E4F0F8;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+#pnTagContainer .x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: #E4F0F8;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+.TagTempCatInv {
+    font: 600 12px/14px "Roboto", sans-serif;
+    color: $Negro !important;
+    float: left;
+    padding: .4rem !important;
+    padding-top: .1rem !important;
+    height: 26px !important;
+    background-color: darken(#FFD48E, 10) !important;
+    margin-bottom: 10px !important;
+    border-radius: 3px 0 0 3px !important;
+    border: solid 3px #FFD48E !important;
+    border-right: none !important;
+}
+
+.TagTempInv {
+    font: 600 12px/14px "Roboto", sans-serif;
+    color: $Negro !important;
+    float: left;
+    padding: .2rem !important;
+    padding-top: .3rem !important;
+    padding-right: 20px !important;
+    height: 26px !important;
+    background-color: #FFD48E;
+    margin-bottom: 10px !important;
+}
+
+.CloseTempInv {
+    @include bgBtn-ico;
+    float: left;
+    padding: .5rem !important;
+    width: 25px !important;
+    height: 26px !important;
+    margin-right: 20px !important;
+    background-color: #FFD48E;
+    border: none !important;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+    margin-bottom: 10px !important;
+    border-radius: 0 3px 3px 0 !important;
+}
+
+.CloseTempInv:hover {
+    background-color: #FFD48E;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+#tagContainersTemp-outerCt {
+    float: left;
+    background-color: $Gris1Fondo;
+    width: 0px;
+}
+
+#tagContainersTemp .x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: #FFD48E;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+.TagSavedCatInv {
+    font: 600 12px/14px "Roboto", sans-serif;
+    color: $Negro !important;
+    float: left;
+    padding: .4rem !important;
+    padding-top: .1rem !important;
+    height: 26px !important;
+    background-color: darken($Verde2, 10) !important;
+    margin-bottom: 10px !important;
+    border-radius: 3px 0 0 3px !important;
+    border: solid 3px $Verde2 !important;
+    border-right: none !important;
+}
+
+.TagSavedInv {
+    font: 600 12px/14px "Roboto", sans-serif;
+    color: $Negro !important;
+    float: left;
+    padding: .2rem !important;
+    padding-top: .3rem !important;
+    padding-right: 20px !important;
+    height: 26px !important;
+    background-color: $Verde2 !important;
+    margin-bottom: 10px !important;
+    border-radius: 0 !important;
+}
+
+.CloseSavedInv {
+    @include bgBtn-ico;
+    float: left;
+    padding: .5rem !important;
+    width: 25px !important;
+    height: 26px !important;
+    margin-right: 20px !important;
+    background-color: $Verde2 !important;
+    border: none !important;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+    margin-bottom: 10px !important;
+    border-radius: 0 3px 3px 0 !important;
+}
+
+.CloseSavedInv:hover {
+    background-color: $Verde2;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+#tagContainersSaved-outerCt {
+    float: left;
+    background-color: $Gris1Fondo;
+    width: 0px;
+}
+
+#tagContainersSaved .x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: #FFD48E;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+/*#endregion */
+
+@media(max-height:650px) {
+    #pnGridsAsideInfo-body {
+        height: calc(100% - 20px) !important;
+    }
+}

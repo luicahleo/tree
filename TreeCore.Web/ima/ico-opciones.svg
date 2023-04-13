@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="6" viewBox="0 0 19 6">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="19" height="6" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repetir_cuadrícula_25" data-name="Repetir cuadrícula 25" clip-path="url(#clip-path)">
+    <g transform="translate(3014 952)">
+      <circle id="Elipse_265" data-name="Elipse 265" cx="2" cy="2" r="2" transform="translate(-3014 -952)" fill="#6a6b75"/>
+    </g>
+    <g transform="translate(3021 952)">
+      <circle id="Elipse_265-2" data-name="Elipse 265" cx="2" cy="2" r="2" transform="translate(-3014 -952)" fill="#6a6b75"/>
+    </g>
+    <g transform="translate(3028 952)">
+      <circle id="Elipse_265-3" data-name="Elipse 265" cx="2" cy="2" r="2" transform="translate(-3014 -952)" fill="#6a6b75"/>
+    </g>
+  </g>
+</svg>

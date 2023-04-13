@@ -1,0 +1,10 @@
+C:\OLIVO\TreeCore.Shared.ROP\bin\Debug\netstandard2.0\TreeCore.Shared.ROP.deps.json
+C:\OLIVO\TreeCore.Shared.ROP\bin\Debug\netstandard2.0\TreeCore.Shared.ROP.dll
+C:\OLIVO\TreeCore.Shared.ROP\bin\Debug\netstandard2.0\TreeCore.Shared.ROP.pdb
+C:\OLIVO\TreeCore.Shared.ROP\obj\Debug\netstandard2.0\TreeCore.Shared.ROP.GeneratedMSBuildEditorConfig.editorconfig
+C:\OLIVO\TreeCore.Shared.ROP\obj\Debug\netstandard2.0\TreeCore.Shared.ROP.AssemblyInfoInputs.cache
+C:\OLIVO\TreeCore.Shared.ROP\obj\Debug\netstandard2.0\TreeCore.Shared.ROP.AssemblyInfo.cs
+C:\OLIVO\TreeCore.Shared.ROP\obj\Debug\netstandard2.0\TreeCore.Shared.ROP.csproj.CoreCompileInputs.cache
+C:\OLIVO\TreeCore.Shared.ROP\obj\Debug\netstandard2.0\TreeCore.Shared.ROP.dll
+C:\OLIVO\TreeCore.Shared.ROP\obj\Debug\netstandard2.0\TreeCore.Shared.ROP.pdb
+C:\OLIVO\TreeCore.Shared.ROP\obj\Debug\netstandard2.0\TreeCore.Shared.ROP.csproj.AssemblyReference.cache

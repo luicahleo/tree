@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CodeContractDate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="strBusinessProcess" xml:space="preserve">
+    <value>Business Process</value>
+  </data>
+  <data name="strBusinessProcessType" xml:space="preserve">
+    <value>Business Process Type</value>
+  </data>
+  <data name="strCatalogType" xml:space="preserve">
+    <value>Tipo Catalogo</value>
+  </data>
+  <data name="strCode" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="strCodeBank" xml:space="preserve">
+    <value>Codigo Banco</value>
+  </data>
+  <data name="strCodeBankAccount" xml:space="preserve">
+    <value>Codigo Cuenta Bancaria</value>
+  </data>
+  <data name="strCodeCatalogLifecycleStatus" xml:space="preserve">
+    <value>Código Catálogo Estados Globales</value>
+  </data>
+  <data name="strCodeCatalogType" xml:space="preserve">
+    <value>Código Tipo Catalogo</value>
+  </data>
+  <data name="strCodeCodeContractCurrentRenewalNumber" xml:space="preserve">
+    <value>Prorrogas Actuales</value>
+  </data>
+  <data name="strCodeCompany" xml:space="preserve">
+    <value>Codigo Entidad</value>
+  </data>
+  <data name="strCodeCompanyAddress" xml:space="preserve">
+    <value>Codigo Direccion de Entidad</value>
+  </data>
+  <data name="strCodeCompanyType" xml:space="preserve">
+    <value>Codigo Tipo Entidad</value>
+  </data>
+  <data name="strCodeContract" xml:space="preserve">
+    <value>Codigo Contrato</value>
+  </data>
+  <data name="strCodeContractDate" xml:space="preserve">
+    <value>La fecha introducido no cumple con la fecha calculada</value>
+  </data>
+  <data name="strCodeContractFrequencyMonth" xml:space="preserve">
+    <value>Cadencias Prorrogas(meses)</value>
+  </data>
+  <data name="strCodeContractGroup" xml:space="preserve">
+    <value>Codigo Tipo Contratacion</value>
+  </data>
+  <data name="strCodeContractLine" xml:space="preserve">
+    <value>Codigo Contrato Detalle</value>
+  </data>
+  <data name="strCodeContractLineEntidad" xml:space="preserve">
+    <value>Codigo Contracto Detalle Beneficiario</value>
+  </data>
+  <data name="strCodeContractLineTaxes" xml:space="preserve">
+    <value>Codigo Contracto Detalle Impuesto</value>
+  </data>
+  <data name="strCodeContractLineType" xml:space="preserve">
+    <value>Codigo Tipo Concepto</value>
+  </data>
+  <data name="strCodeContractRenewalDate" xml:space="preserve">
+    <value>Fecha Prorroga</value>
+  </data>
+  <data name="strCodeContractRenewalNumber" xml:space="preserve">
+    <value>Total Prorrogas</value>
+  </data>
+  <data name="strCodeContractState" xml:space="preserve">
+    <value>Codigo Estado Contrato</value>
+  </data>
+  <data name="strCodeContractType" xml:space="preserve">
+    <value>Codigo Contrato Tipo</value>
+  </data>
+  <data name="strCodeCurrency" xml:space="preserve">
+    <value>Codigo Moneda</value>
+  </data>
+  <data name="strCodeInflationTipo" xml:space="preserve">
+    <value>Tipo Inflacion</value>
+  </data>
+  <data name="strCodePaymentMethods" xml:space="preserve">
+    <value>Codigo Metodo Pago</value>
+  </data>
+  <data name="strCodePaymentTerm" xml:space="preserve">
+    <value>Codigo Condicion pago</value>
+  </data>
+  <data name="strCodeProductType" xml:space="preserve">
+    <value>Código Tipo Producto</value>
+  </data>
+  <data name="strCodeSAPTypeNIF" xml:space="preserve">
+    <value>Codigo SAP Tipo NIF</value>
+  </data>
+  <data name="strCodeSite" xml:space="preserve">
+    <value>Codigo Site</value>
+  </data>
+  <data name="strCodeTaxes" xml:space="preserve">
+    <value>Codigo Impuesto</value>
+  </data>
+  <data name="strCodeTaxpayerType" xml:space="preserve">
+    <value>Codigo Tipo Contribuyente</value>
+  </data>
+  <data name="strCodeView" xml:space="preserve">
+    <value>Código Vista</value>
+  </data>
+  <data name="strCodeWorkFlowStatus" xml:space="preserve">
+    <value>Codigo estado del WorkFlow</value>
+  </data>
+  <data name="strCodeWorkFlowStatusGroup" xml:space="preserve">
+    <value>Codigo Estado Agrupacion</value>
+  </data>
+  <data name="strCodeWorkOrderTrakingStatus" xml:space="preserve">
+    <value>Codigo Estado del Seguimiento</value>
+  </data>
+  <data name="strCompany" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="strCurrency" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="strDefecto" xml:space="preserve">
+    <value>Solo puede haber uno por defecto</value>
+  </data>
+  <data name="strImportTask" xml:space="preserve">
+    <value>Importacion</value>
+  </data>
+  <data name="strImportType" xml:space="preserve">
+    <value>Tipo Importacion</value>
+  </data>
+  <data name="strInflation" xml:space="preserve">
+    <value>Inflacion</value>
+  </data>
+  <data name="strIsPack" xml:space="preserve">
+    <value>es pack</value>
+  </data>
+  <data name="strNameCountry" xml:space="preserve">
+    <value>Nombre Pais</value>
+  </data>
+  <data name="strProduct" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="strProductWithCode" xml:space="preserve">
+    <value>Producto con código</value>
+  </data>
+  <data name="strProfile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="strProgram" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="strProjectLifeCycleStatus" xml:space="preserve">
+    <value>ProjectLifeCycleStatus</value>
+  </data>
+  <data name="strProrrogas" xml:space="preserve">
+    <value>Tipo de prorroga</value>
+  </data>
+  <data name="strRol" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="strUser" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="strWorkflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="strWorkOrder" xml:space="preserve">
+    <value>Work Order</value>
+  </data>
+  <data name="strWorkOrderTrackingStatus" xml:space="preserve">
+    <value>Tracking Status</value>
+  </data>
+</root>

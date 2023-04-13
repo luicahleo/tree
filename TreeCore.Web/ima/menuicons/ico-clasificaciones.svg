@@ -1,0 +1,18 @@
+<svg id="ico-clasificaciones" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_189" data-name="Rectángulo 189" width="20" height="20" fill="none"/>
+  <g id="Trazado_1089" data-name="Trazado 1089" transform="translate(0 9)" fill="none" stroke-linecap="round">
+    <path d="M0,0H11V11H0Z" stroke="none"/>
+    <path d="M 1.5 1.5 L 1.5 9.5 L 9.5 9.5 L 9.5 1.5 L 1.5 1.5 M 0 0 L 11 0 L 11 11 L 0 11 L 0 0 Z" stroke="none" fill="#666"/>
+  </g>
+  <g id="Rectángulo_190" data-name="Rectángulo 190" transform="translate(9 9)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="11" height="11" stroke="none"/>
+    <rect x="0.75" y="0.75" width="9.5" height="9.5" fill="none"/>
+  </g>
+  <g id="Rectángulo_191" data-name="Rectángulo 191" transform="translate(4.355)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="11" height="10.526" stroke="none"/>
+    <rect x="0.75" y="0.75" width="9.5" height="9.026" fill="none"/>
+  </g>
+  <line id="Línea_278" data-name="Línea 278" x1="3.158" transform="translate(3.684 13.158)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_276" data-name="Línea 276" x1="3.158" transform="translate(13.158 13.158)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_277" data-name="Línea 277" x1="3" transform="translate(8.421 4.211)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg id="ico-transmision" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_262" data-name="Rectángulo 262" width="20" height="20" fill="none"/>
+  <circle id="Elipse_169" data-name="Elipse 169" cx="2.683" cy="2.683" r="2.683" transform="translate(7.438 7.292)" fill="#666"/>
+  <path id="Trazado_1186" data-name="Trazado 1186" d="M0,4.292A7.808,7.808,0,0,1,7.157,0,7.517,7.517,0,0,1,13.95,4.292" transform="translate(1 16.949) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1198" data-name="Trazado 1198" d="M0,0A7.808,7.808,0,0,0,7.157,4.292,7.517,7.517,0,0,0,13.95,0" transform="translate(14.949 16.949) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1194" data-name="Trazado 1194" d="M0,2.146A4.2,4.2,0,0,1,3.825,0,4.1,4.1,0,0,1,7.511,2.146" transform="translate(4.219 13.73) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1199" data-name="Trazado 1199" d="M0,0A4.2,4.2,0,0,0,3.825,2.146,4.1,4.1,0,0,0,7.511,0" transform="translate(13.876 13.73) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg id="ico-powerpoint" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rectángulo_2808" data-name="Rectángulo 2808" fill="none" stroke="#f7bb74" stroke-width="2">
+    <rect width="20" height="20" rx="3" stroke="none"/>
+    <rect x="1" y="1" width="18" height="18" rx="2" fill="none"/>
+  </g>
+  <text id="PP" transform="translate(10 14)" fill="#f6b369" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-6.45" y="0">PP</tspan></text>
+</svg>

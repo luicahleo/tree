@@ -1,0 +1,19 @@
+<svg id="entorno-demo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="135" viewBox="0 0 150 135">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_3" data-name="Trazado 3" d="M0-96.833H76.25V-53.9H0Z" transform="translate(0 96.833)" fill="#58e5a9"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectángulo_3194" data-name="Rectángulo 3194" width="150" height="135" fill="#fff"/>
+  <g id="ico-logo" transform="translate(36.875 33.531)">
+    <g id="Grupo_3" data-name="Grupo 3" clip-path="url(#clip-path)">
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(30.742)">
+        <path id="Trazado_1" data-name="Trazado 1" d="M0-53.9V-74.067C0-83,6.445-96.833,22.574-96.833c14.486,0,22.934,11.1,22.934,20.173,0,14.119-8.127,22.764-21.567,22.764Z" transform="translate(0 96.833)" fill="#58e5a9"/>
+      </g>
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(0 15.272)">
+        <path id="Trazado_2" data-name="Trazado 2" d="M-33.988-34.725v-13c0-5.755-3.875-14.668-14.266-14.668-9.333,0-14.638,7.149-14.638,13,0,9.1,5.375,14.666,14.035,14.666Z" transform="translate(62.892 62.39)" fill="#58e5a9"/>
+      </g>
+    </g>
+  </g>
+  <text id="Entorno_Demo" data-name="Entorno Demo" transform="translate(77 98.469)" fill="#c6c6c6" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-44.55" y="0">Entorno Demo</tspan></text>
+</svg>

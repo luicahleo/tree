@@ -1,0 +1,12 @@
+<svg id="ico-no-vigente" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3138" data-name="Rectángulo 3138" width="20" height="20" fill="none"/>
+  <g id="Grupo_7883" data-name="Grupo 7883" transform="translate(-306.215 -517.603)">
+    <rect id="Rectángulo_3139" data-name="Rectángulo 3139" width="2" height="1.5" transform="translate(315.215 526.854)" fill="#666"/>
+    <rect id="Rectángulo_3140" data-name="Rectángulo 3140" width="2" height="1.5" transform="translate(315.215 523.854)" fill="#666"/>
+    <rect id="Rectángulo_3141" data-name="Rectángulo 3141" width="2" height="1.5" transform="translate(311.215 523.854)" fill="#666"/>
+    <rect id="Rectángulo_3142" data-name="Rectángulo 3142" width="2" height="1.5" transform="translate(319.215 523.854)" fill="#666"/>
+    <path id="Trazado_2785" data-name="Trazado 2785" d="M321.215,519.6v-1.5h-2v1.5h-2v-1.5h-2v1.5h-2v-1.5h-2v1.5h-4V529.63a4.99,4.99,0,1,0,8.577,4.974h9.423v-15Zm-7.638,13.947a1,1,0,1,1-1.414,1.414l-.949-.948-.948.948a1,1,0,1,1-1.414-1.414l.948-.948-.948-.949a1,1,0,1,1,1.414-1.414l.948.948.949-.948a1,1,0,0,1,1.414,1.414l-.948.949Zm10.138-.447h-7.551a4.856,4.856,0,0,0,.051-.5,4.956,4.956,0,0,0-.177-1.249h1.177v-1.5h-1.829a5.006,5.006,0,0,0-2.171-1.829v-1.171h-2v.749a4.952,4.952,0,0,0-2.5.693V521.1h2.5V522.4h2V521.1h2V522.4h2V521.1h2V522.4h2V521.1h2.5Z" fill="#666"/>
+    <rect id="Rectángulo_3143" data-name="Rectángulo 3143" width="2" height="1.5" transform="translate(319.215 526.854)" fill="#666"/>
+    <rect id="Rectángulo_3144" data-name="Rectángulo 3144" width="2" height="1.5" transform="translate(319.215 529.854)" fill="#666"/>
+  </g>
+</svg>

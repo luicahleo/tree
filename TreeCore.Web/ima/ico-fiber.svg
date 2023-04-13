@@ -1,0 +1,15 @@
+<svg id="ico_mod_fiber" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_334" data-name="Rectángulo 334" width="20" height="20" fill="none"/>
+  <g id="Trazado_1311" data-name="Trazado 1311" transform="translate(3 8.624)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0,0H14L12.727,11H1.273Z" stroke="none"/>
+    <path d="M 1.683561325073242 1.5 L 2.609183311462402 9.5 L 11.3908166885376 9.5 L 12.31643867492676 1.5 L 1.683561325073242 1.5 M 0 0 L 14 0 L 12.72727012634277 11 L 1.272729873657227 11 L 0 0 Z" stroke="none" fill="#3a3a40"/>
+  </g>
+  <g id="Rectángulo_335" data-name="Rectángulo 335" transform="translate(5 5)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="10" height="5" stroke="none"/>
+    <rect x="0.75" y="0.75" width="8.5" height="3.5" fill="none"/>
+  </g>
+  <line id="Línea_323" data-name="Línea 323" y1="5" transform="translate(10 1.5)" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+  <line id="Línea_325" data-name="Línea 325" y1="5" transform="translate(7 1.5)" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+  <line id="Línea_326" data-name="Línea 326" y1="4" transform="translate(13 1.5)" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+  <path id="Trazado_1313" data-name="Trazado 1313" d="M-1096.59,413.276l-.41,4.531" transform="translate(1109 -402)" fill="none" stroke="#3a3a40" stroke-width="1"/>
+</svg>

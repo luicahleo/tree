@@ -1,0 +1,20 @@
+<svg id="ico-search-TOPBAR" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_2899" data-name="Rectángulo 2899" width="5.021" height="5.021" fill="none" stroke="#58e5a9" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <circle id="Elipse_506" data-name="Elipse 506" cx="15" cy="15" r="15" fill="#062743"/>
+  <rect id="Rectángulo_2624" data-name="Rectángulo 2624" width="20" height="20" transform="translate(6 6)" fill="none"/>
+  <g id="Elipse_489" data-name="Elipse 489" transform="translate(6 6)" fill="none" stroke="#58e5a9" stroke-width="3">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="7.5" fill="none"/>
+  </g>
+  <line id="Línea_1032" data-name="Línea 1032" x2="5" y2="5" transform="translate(20.5 20.5)" fill="none" stroke="#58e5a9" stroke-width="3"/>
+  <g id="Grupo_7573" data-name="Grupo 7573" transform="translate(14.515 10.515)">
+    <g id="Grupo_7572" data-name="Grupo 7572" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Trazado_2623" data-name="Trazado 2623" d="M1,1A2.806,2.806,0,0,1,3.806,3.806" transform="translate(0.107 0.107)" fill="none" stroke="#58e5a9" stroke-width="1"/>
+      <path id="Trazado_2624" data-name="Trazado 2624" d="M1,1A2.806,2.806,0,0,1,3.806,3.806" transform="translate(0.107 0.107)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

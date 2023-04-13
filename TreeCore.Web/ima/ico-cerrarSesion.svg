@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        stroke: #333;
+      }
+    </style>
+  </defs>
+  <g id="power" transform="translate(-23.063 -42.353)">
+    <g id="Group_932" data-name="Group 932" transform="translate(23.563 45.68)">
+      <g id="Group_931" data-name="Group 931" transform="translate(0 0)">
+        <path id="Path_665" data-name="Path 665" class="cls-1" d="M40.635,109.43a.9.9,0,0,0-1.258,0,.876.876,0,0,0,0,1.247,8.093,8.093,0,0,1,0,11.52,8.283,8.283,0,0,1-11.625,0,8.1,8.1,0,0,1,0-11.518.876.876,0,0,0,0-1.247.9.9,0,0,0-1.258,0,9.845,9.845,0,0,0,0,14.011,9.981,9.981,0,0,0,7.071,2.9h0a9.981,9.981,0,0,0,7.07-2.9,9.845,9.845,0,0,0,0-14.013Z" transform="translate(-23.563 -109.172)"/>
+      </g>
+    </g>
+    <g id="Group_934" data-name="Group 934" transform="translate(32.678 42.853)">
+      <g id="Group_933" data-name="Group 933" transform="translate(0 0)">
+        <path id="Path_666" data-name="Path 666" class="cls-1" d="M236.325,42.853a.886.886,0,0,0-.89.882v8.2a.89.89,0,0,0,1.78,0v-8.2A.886.886,0,0,0,236.325,42.853Z" transform="translate(-235.435 -42.853)"/>
+      </g>
+    </g>
+  </g>
+</svg>

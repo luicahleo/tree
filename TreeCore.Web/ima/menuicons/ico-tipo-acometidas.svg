@@ -1,0 +1,11 @@
+<svg id="ico-tipo-acometidas" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_321" data-name="Rectángulo 321" width="20" height="20" fill="none"/>
+  <g id="Grupo_1739" data-name="Grupo 1739" transform="translate(-4408 -392)">
+    <line id="Línea_188" data-name="Línea 188" x2="3" transform="translate(4409 402)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_318" data-name="Línea 318" x2="3" transform="translate(4424 402)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <g id="Elipse_88" data-name="Elipse 88" transform="translate(4412 396)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5.25" fill="none"/>
+    </g>
+  </g>
+</svg>

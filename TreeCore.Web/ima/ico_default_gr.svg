@@ -1,0 +1,10 @@
+<svg id="btn_byDefault_grid" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_1353" data-name="Rectángulo 1353" width="20" height="20" transform="translate(20) rotate(90)" fill="none"/>
+  <g id="Grupo_2904" data-name="Grupo 2904" transform="translate(1 2)">
+    <g id="Grupo_1298" data-name="Grupo 1298" transform="translate(0 0)">
+      <path id="Trazado_831" data-name="Trazado 831" d="M1775.96,232.311l-2.08,3.284,6.267,1,2.3-4.286Z" transform="translate(-1773.88 -232.311)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Trazado_832" data-name="Trazado 832" d="M1776.052,235.469l-.042,9.36.061.018,7.08,2.087,7.047-2.1.019-4.26.023-5.1" transform="translate(-1774.145 -231.183)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Trazado_833" data-name="Trazado 833" d="M1782.94,232.311l2.5,4.286,6.068-1.368-2.177-2.917Z" transform="translate(-1773.511 -232.311)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

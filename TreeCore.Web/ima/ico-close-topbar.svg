@@ -1,0 +1,8 @@
+<svg id="ico_-_close_-_topbar" data-name="ico - close - topbar" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <circle id="Elipse_506" data-name="Elipse 506" cx="15" cy="15" r="15" fill="#062743"/>
+  <rect id="Rectángulo_2624" data-name="Rectángulo 2624" width="20" height="20" transform="translate(5 5)" fill="none"/>
+  <g id="btn_clean_box" transform="translate(10 10)">
+    <line id="Línea_909" data-name="Línea 909" y1="10" x2="10" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="3"/>
+    <line id="Línea_910" data-name="Línea 910" y1="10" x2="10" transform="translate(10) rotate(90)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>

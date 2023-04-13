@@ -1,0 +1,602 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*#region CABECERA */
+.logo {
+    cursor: pointer;
+}
+
+
+#logoTree {
+    img {
+        width: 167px;
+        margin-right: .5rem;
+    }
+}
+
+.logo-only {
+    display: none;
+}
+
+#menuCabecera {
+    //width:200px;
+    margin-right: 0;
+    padding-right: 0;
+    //padding-top: 1rem;
+    height: 56px;
+}
+
+[id*="_lblModulo_Container"] {
+    align-self: center;
+}
+
+#ComponenteHeader_lblModulo {
+    padding-left: .5rem;
+    border-left: 1px solid $AzulNegro;
+    margin-bottom: 0 !important;
+
+    .x-label-value {
+        vertical-align: top;
+    }
+}
+
+
+#ulMenuCabecera {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    li {
+        height: auto;
+
+
+        div { //boton
+            align-self: center;
+        }
+    }
+}
+
+#liUsuarios, #liModulos {
+    position: relative;
+}
+
+#mnModulos {
+    display: none;
+    position: absolute;
+    padding: .8rem;
+    width: 17rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: $blanco;
+    top: 56px;
+    right: 0px;
+    z-index: 99;
+    box-shadow: 1px 4px 8px $Gris1;
+    border-radius: 3px;
+    min-height: 400px;
+    max-height: 450px;
+    height: 0;
+    overflow-y: auto;
+
+    .btnMostrar {
+        height: 34px;
+        width: 50%;
+        background: #06A086;
+        border-radius: 3px;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+
+        &:hover {
+            background: #046f5d;
+        }
+    }
+}
+
+[id*="ctMenuModulos_Container"] {
+    top: 0px;
+    position: absolute;
+    padding-left: 10px;
+    min-height: 325px;
+    max-height: 375px;
+    height: 0;
+    overflow: auto;
+
+    [id*="ctMenuModulos-innerCt"] {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+#ComponenteHeader_ctlBotonMostrar-innerCt {
+    text-align: center !important;
+}
+
+#mnUsuarios {
+    display: none;
+    padding: 0;
+    background-color: $blanco;
+    height: auto;
+    position: absolute;
+    top: 56px;
+    right: 0px;
+    z-index: 99;
+    box-shadow: 1px 4px 8px $Gris2;
+    border-radius: 3px;
+    width: 250px;
+    padding-bottom:3rem;
+
+    li {
+        width: 100%;
+        padding: .6rem 1.5rem .6rem .6rem;
+        color: $colSec;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $Gris1;
+        }
+    }
+}
+
+#mnUsuarios li:first-child {
+   padding-bottom: 1rem;
+    border-bottom: 1px solid $Gris1;
+    cursor: default;
+    //padding-bottom: 0;
+
+
+
+    &:hover {
+        background-color: $blanco;
+    }
+}
+
+#mnUsuarios li:last-child {
+    font-weight: 700;
+}
+
+#mnUsuarios span a {
+    text-decoration: none;
+    color: $colSec;
+    margin-left: .2rem;
+}
+
+#liModulos:hover #mnModulos {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-auto-rows: 80px;
+
+    [id*="_ctlBotonMostrar_Container"] {
+        position: absolute;
+        bottom: 0px;
+        grid-column-start: span 3;
+    }
+}
+
+#liUsuarios:hover #mnUsuarios {
+    display: block;
+}
+
+/*#endregion */
+
+#hdDefault {
+    position: absolute;
+    top: 0;
+    height: 56px;
+    width: 100%;
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    padding-left: 1rem;
+    overflow: visible;
+    border-bottom: 2px solid #144D7E;
+}
+
+.layout {
+    border: 0px;
+    margin: 0;
+}
+
+.mn-itemLnk{
+   padding-left: .5rem;
+   a{
+       padding-left:0;
+
+   }
+  
+}
+/*#region COMBO SEARCH DEFAULT */
+.SearchBarGlobal {
+    margin: 15px 10px 15px 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #D8D8D8;
+    padding-bottom: 10px;
+}
+
+.TitleResult {
+    font-size: 14px;
+    font-weight: normal !important;
+    margin-bottom: 0px !important;
+}
+
+#liSearchTB {
+    margin-right: 7px;
+}
+
+#App\.ComponenteHeader_btnSearchTB_Container {
+    width: 300px;
+    float: left !important;
+    margin-right: -30px !important;
+}
+
+#ComponenteHeader_btnSearchTB-inputEl {
+    border-radius: 20px;
+}
+
+.Search-ico {
+    float: right;
+    height: 100%;
+    z-index: 99;
+    position: sticky;
+    cursor: pointer !important;
+}
+
+.cmbExtendTest {
+    transition: width 0.5s;
+    border-radius: 10px;
+}
+
+.cmbExtendTest {
+    opacity: 1;
+}
+
+
+#ComponenteHeader_btnSearchTB-triggerWrap {
+    border-style: hidden !important;
+}
+
+
+#ComponenteHeader_btnSearchTB-bodyEl {
+    opacity: 0;
+}
+
+
+#ComponenteHeader_btnSearchTB-trigger-picker {
+    display: none;
+}
+
+
+.OrangBack {
+    color: $Marron;
+    background-color: $Amarillo4;
+    border-radius: 5px;
+    padding: 0px 8px 0px 8px;
+    margin: 0px 4px 0px 4px;
+    transition: 0.5s;
+}
+
+.OrangBack:hover {
+    background-color: $Amarillo;
+}
+
+
+.Search-Tipo-ico {
+    position: absolute;
+    top: 11px;
+    right: 158px;
+    //width: 20px !important;
+    z-index: 999 !important;
+}
+
+#ComponenteHeader_ComboTipoSearch-picker {
+    width: 150px !important;
+}
+
+.icon-combo-item {
+    background-repeat: no-repeat !important;
+    padding-left: 24px !important;
+}
+
+.x-boundlist-item {
+    min-height: 35px;
+    margin-top: 3px;
+}
+
+#ComponenteHeader_ComboTipoSearch {
+    width: 40px !important;
+}
+
+
+#ComponenteHeader_ComboTipoSearch-trigger-picker {
+    background-color: transparent;
+    background-image: url("/ima/ico-columnas-yesno.svg");
+    background-size: 16px !important;
+    background-position: 29%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    border-radius: 41px;
+    text-align: right;
+    width: 34px;
+    height: 28px;
+    padding-top: 0px;
+    //padding-bottom: 27px;
+    margin-bottom: 7px;
+    margin-top: 3px !important;
+}
+
+
+#ComponenteHeader_btnSearchTB-trigger-_trigger1 {
+    display: none;
+}
+
+#ComponenteHeader_ComboTipoSearch-inputEl {
+    display: none;
+}
+
+#ComponenteHeader_ComboTipoSearch-trigger-picker:hover {
+    background-color: $Gris2;
+}
+
+#ComponenteHeader_ComboTipoSearch-triggerWrap {
+    border-style: hidden !important;
+}
+
+/*#endregion */
+
+/*#region MENU USER */
+#ComponenteHeader_imgUser {
+    margin-left: 0px !important;
+    margin-bottom: 12px !important;
+}
+
+.UserCont1 {
+    //margin-bottom: 15px !important;
+    //border-bottom: thin !important;
+}
+
+.bigSubtitle {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    height: min-content;
+
+    span {
+        width: 220px;
+        display: inline-block;
+        line-height: 1.8rem;
+        overflow: hidden;
+        margin-bottom: .4rem;
+        word-wrap: break-word;
+    }
+}
+.mnUser-lblEmail span {
+    width: 220px;
+    max-height: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+
+.btnedituser {
+    span {
+        font-weight: bold !important;
+    }
+
+    margin-top: 12px !important;
+}
+
+.imgUser {
+    border-radius: 50px;
+    border: 1px solid #d8d8d8 !important;
+    object-fit: cover;
+}
+
+/*#endregion */
+
+/*#region BOTONES POR ID */
+
+#btnAgregar {
+    background-image: url('/ima/ico-nuevoItem.svg');
+}
+
+#ComponenteHeader_btnDesplegar {
+    background-image: url('/ima/ico-desplegarItem.svg');
+}
+
+#btnDocPdte {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-documentos.svg');
+}
+
+#btnEliminar {
+    background-image: url('/ima/ico-eliminarItem.svg');
+}
+
+.btnAlertas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-notificaciones.svg');
+}
+
+.btnFiltrosMapas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-filtros-mapas.svg');
+}
+
+.btnAlertas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-notificaciones.svg');
+}
+
+#ComponenteHeader_btnModulos {
+    @include bgBtn-ico;
+    @include btn-cabecera ('/ima/ico-modulos.svg', '/ima/ico-modulos2.svg');
+}
+
+#ComponenteHeader_btnSearchTB {
+    @include bgBtn-ico;
+    width: 20%;
+    height: 56px;
+    background-position: center right !important;
+
+    &:hover {
+        background-color: transparent !important;
+        border-style: hidden !important;
+    }
+}
+
+#ComponenteHeader_btnUsuarios {
+    @include bgBtn-ico;
+    @include btn-cabecera ('/ima/ico-mnuUsuarios.svg', '/ima/ico-mnuUsuarios.svg');
+}
+/*#endregion */
+
+/*#region RESPONSIVE*/
+
+@media (max-width:1024px) {
+    .logo {
+        display: inherit;
+       
+    }
+
+    .logo-only {
+        display: none;
+    }
+    #App\.ComponenteHeader_btnSearchTB_Container {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .logo {
+        display: inherit;
+    }
+
+    .logo-only {
+        display: none;
+    }
+
+    #App\.ComponenteHeader_btnSearchTB_Container {
+        width: 100%;
+        padding-left: 10%;
+    }
+}
+
+@media (max-width:480px) {
+    #logoTree {
+        img {
+            width: 45px;
+            height: 15px;
+            margin-right: .5rem;
+        }
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-only {
+        display: inherit;
+    }
+
+    #ulMenuCabecera {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #App\.ComponenteHeader_btnSearchTB_Container {
+        width: 100%;
+        padding-left: 0%;
+    }
+}
+
+@media (max-width:320px) {
+    #ComponenteHeader_lblModulo {
+        display: none;
+    }
+
+    .Search-Tipo-ico {
+        right: 16.5%;
+    }
+}
+
+/*#endregion*/
+
+/*#region Botones Modulos Header*/
+
+.btnGlobal {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modMonitoring.svg');
+}
+.btnSettings {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modSwapping.svg');
+}
+.btnSites {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modGIS.svg');
+}
+.btnInventory {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modInventario.svg');
+}
+.btnFiles {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modDocumental.svg');
+}
+.btnMonitoring {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modMonitoring.svg');
+}
+.btnDataQuality {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modCalidad.svg');
+}
+.btnThirdParty {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modThirdparties.svg');
+}
+.btnImportExport {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/ic_modulos_exportImport.svg');
+}
+.btnWorkOrders {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modWorkOrders.svg');
+}
+.btnContracts {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modLegalizaciones.svg');
+}
+.btnContacts {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/modulos/modSharing.svg');
+}
+
+.modulos-icon-disable {
+    opacity: 0.4;
+    background-color: transparent !important;
+}
+
+/*#endregion*/
+
+#ComponenteHeader_winacerca-bodyWrap .x-toolbar-footer {
+    background-color: $colBg;
+}
+
+.abouttitles {
+    display: block;
+    margin-left: 25px;
+    margin-top: 5px;
+    color: #6A6B75;
+    font: 500 12px/15px "Roboto", sans-serif, helvetica, arial, verdana, sans-serif;
+}
+.aboutcontent {
+    margin-left: 25px;
+    color: #6A6B75;
+    font: 300 12px/15px "Roboto", sans-serif, helvetica, arial, verdana, sans-serif;
+}

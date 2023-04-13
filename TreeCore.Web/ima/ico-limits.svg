@@ -1,0 +1,28 @@
+<svg id="ico-limits" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_260" data-name="Rectángulo 260" width="20" height="20" fill="none"/>
+  <g id="Grupo_1680" data-name="Grupo 1680" transform="translate(-4303 -84)">
+    <g id="Rectángulo_171" data-name="Rectángulo 171" transform="translate(4305.8 96.412)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="4.5" height="6.588" stroke="none"/>
+      <rect x="0.75" y="0.75" width="3" height="5.088" fill="none"/>
+    </g>
+    <g id="Rectángulo_172" data-name="Rectángulo 172" transform="translate(4305.8 87)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="4.5" height="2.824" stroke="none"/>
+      <rect x="0.75" y="0.75" width="3" height="1.324" fill="none"/>
+    </g>
+    <g id="Rectángulo_173" data-name="Rectángulo 173" transform="translate(4315.7 87)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="4.5" height="2.824" stroke="none"/>
+      <rect x="0.75" y="0.75" width="3" height="1.324" fill="none"/>
+    </g>
+    <g id="Rectángulo_174" data-name="Rectángulo 174" transform="translate(4315.7 96.412)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="4.5" height="6.588" stroke="none"/>
+      <rect x="0.75" y="0.75" width="3" height="5.088" fill="none"/>
+    </g>
+    <g id="Trazado_1174" data-name="Trazado 1174" transform="translate(4304 89.882)" fill="none" stroke-linecap="round">
+      <path d="M0-1H18V7.471H0Z" stroke="none"/>
+      <path d="M 1.5 0.5000033378601074 L 1.5 5.970583438873291 L 16.5 5.970583438873291 L 16.5 0.5000033378601074 L 1.5 0.5000033378601074 M 0 -0.9999966621398926 L 18 -0.9999966621398926 L 18 7.470583438873291 L 0 7.470583438873291 L 0 -0.9999966621398926 Z" stroke="none" fill="#666"/>
+    </g>
+    <line id="Línea_253" data-name="Línea 253" y1="7.147" x2="5.15" transform="translate(4305.5 89.353)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_1175" data-name="Trazado 1175" d="M0,6.525,5.382-.49" transform="translate(4309.75 90.358)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_255" data-name="Línea 255" y1="7" x2="5" transform="translate(4315 90)" fill="none" stroke="#666" stroke-width="1.5"/>
+  </g>
+</svg>

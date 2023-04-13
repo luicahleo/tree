@@ -1,0 +1,12 @@
+<svg id="ico-remove-20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_191" data-name="Trazado 191" d="M0-16H20V4H0Z" transform="translate(0 16)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_355" data-name="Grupo 355" clip-path="url(#clip-path)">
+    <g id="Grupo_354" data-name="Grupo 354" transform="translate(0 0)">
+      <path id="Trazado_190" data-name="Trazado 190" d="M2.75,1.75h-7.5A1.25,1.25,0,0,0-6,3,1.25,1.25,0,0,0-4.75,4.25h7.5a1.25,1.25,0,0,0,0-2.5M-1,11.75A8.75,8.75,0,0,1-9.75,3,8.75,8.75,0,0,1-1-5.75,8.75,8.75,0,0,1,7.75,3,8.75,8.75,0,0,1-1,11.75M-1-7A10,10,0,0,0-11,3,10,10,0,0,0-1,13,10,10,0,0,0,9,3,10,10,0,0,0-1-7" transform="translate(11 7)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

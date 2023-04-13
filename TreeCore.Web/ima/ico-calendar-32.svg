@@ -1,0 +1,26 @@
+<svg id="ico-calendar-32" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Grupo_7584" data-name="Grupo 7584" transform="translate(-1130 -196)">
+    <g id="Grupo_7627" data-name="Grupo 7627" transform="translate(-46)">
+      <rect id="Rectángulo_3029" data-name="Rectángulo 3029" width="32" height="32" rx="2" transform="translate(1176 196)" fill="#06a086"/>
+    </g>
+  </g>
+  <g id="btn_calendar_grid" transform="translate(6 6)">
+    <rect id="Rectángulo_2583" data-name="Rectángulo 2583" width="20" height="20" fill="none"/>
+    <g id="Rectángulo_2584" data-name="Rectángulo 2584" transform="translate(1 3)" fill="none" stroke="#fff" stroke-width="1.5">
+      <rect width="18" height="15" stroke="none"/>
+      <rect x="0.75" y="0.75" width="16.5" height="13.5" fill="none"/>
+    </g>
+    <line id="Línea_962" data-name="Línea 962" y2="4.293" transform="translate(6 1.5)" fill="none" stroke="#fff" stroke-width="2"/>
+    <line id="Línea_963" data-name="Línea 963" y2="4.293" transform="translate(10 1.5)" fill="none" stroke="#fff" stroke-width="2"/>
+    <line id="Línea_964" data-name="Línea 964" y2="4.293" transform="translate(14 1.5)" fill="none" stroke="#fff" stroke-width="2"/>
+    <line id="Línea_965" data-name="Línea 965" x2="2" transform="translate(5 8)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <line id="Línea_970" data-name="Línea 970" x2="2" transform="translate(5 11)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <line id="Línea_972" data-name="Línea 972" x2="2" transform="translate(5 14)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <line id="Línea_966" data-name="Línea 966" x2="2" transform="translate(9 8)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <line id="Línea_969" data-name="Línea 969" x2="2" transform="translate(9 11)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <line id="Línea_971" data-name="Línea 971" x2="2" transform="translate(9 14)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <line id="Línea_967" data-name="Línea 967" x2="2" transform="translate(13 8)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <path id="Trazado_2503" data-name="Trazado 2503" d="M0,0H2" transform="translate(13 11)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <path id="Trazado_2504" data-name="Trazado 2504" d="M0,0H2" transform="translate(13 14)" fill="none" stroke="#fff" stroke-width="1.5"/>
+  </g>
+</svg>

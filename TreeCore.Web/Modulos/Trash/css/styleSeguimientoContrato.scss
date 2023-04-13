@@ -1,0 +1,1021 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+//LAYOUT
+#vwSeguimiento-innerCt {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formMaxHeight{
+	max-height:58px !important;
+}
+
+/*#region Region grid responsive FORM */
+
+#ContWrapMain {
+	@include ctForm-auto;
+
+	.x-autocontainer-innerCt {
+		margin-right: 20px !important;
+		grid-gap:0.7rem;
+	}
+}
+
+
+
+
+
+#pnMainCt {
+	padding: 1.5rem;
+	//flex: 1 0 600px;
+	height: 100vh;
+
+	#pnMainCt .x-panel-body {
+		background-color: #f6f6f6;
+	}
+}
+
+#PanelP1.x-panel-body{
+	margin-left:10px;
+}
+
+#pnAsideR {
+	flex: 0 0 400px;
+	height: 100vh !important;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+	.x-panel-body, .x-panel-bodyWrap {
+		background-color: $Gris1;
+	}
+
+	.x-panel-body {
+		padding: 1rem;
+	}
+}
+
+
+//--checklist layout
+#cntPanelChecklist-innerCt {
+	display: flex !important;
+	flex-wrap: wrap;
+	
+}
+
+#GridPanel2{
+	width: 400px;
+	flex: 0 0 400px;
+	height: 600px !important;
+	margin-right: 1rem;
+
+
+
+	.x-grid-view{
+		overflow-x: hidden !important;
+	}
+
+}
+
+#ContP1 {
+	background-color:white!important;
+	flex: 0 0 300px;
+	margin-right: 1rem;
+	
+}
+
+#ContP2 {
+	flex: 0 0 400px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+//--fin checklist layout
+
+
+//LAYOUT TEST RENT
+#RentContPadre-innerCt.x-autocontainer-innerCt {
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+#RentCont1 {
+	width:200px;
+}
+
+#RentCont2 {
+	width: 200px;
+}
+
+#RentCont3 {
+	width: 200px;
+}
+
+#RentCont4 {
+	width: 200px;
+}
+// FIN LAYOUT
+//WINDOW COMMENT
+#winComm {
+	.x-window-body {
+		padding: 1rem;
+	}
+}
+
+#txaComment {
+	margin-right: 1rem;
+}
+
+#cmbConflictivity{
+	margin-top: 1.4rem !important;
+}
+
+//FIN WINDOW COMMENT
+//GRID
+.grdOneCol {
+	.x-grid-item-container {
+		width: 100% !important;
+	}
+
+	.x-grid-item {
+		width: 100% !important;
+	}
+
+	.x-grid-cell-inner {
+		white-space: normal;
+		background-color: white;
+		border-bottom: 1px solid $Gris1;
+	}
+}
+
+.dvTrack {
+	margin-top: .4rem;
+	margin-bottom: .4rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dvCntComm{
+	flex: 1 0 auto;
+
+}
+
+.dvCntState {
+	flex: 0 0 auto;
+
+	button {
+		margin-right: .5rem;
+	}
+
+	button:last-child {
+		margin-right: 0;
+	}
+}
+
+
+.dvUser{
+	display:flex;
+}
+
+.dvUser img {
+	width: 30px;
+	margin-right: .2rem;
+}
+
+.userName{
+	font-size: 13px;
+	font-weight: bold;
+	color: $colPpal;
+	display:block;
+	margin-top: 2px;
+}
+
+.dvComm {
+	min-width:500px;
+	p {
+		font-size: 12px;
+		line-height: 18px;
+		max-width: 500px;
+		overflow-wrap: break-word;
+	}
+}
+
+.stateName {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	position: relative;
+	display: block;
+	padding: .5rem .6rem .5rem 2rem;
+	font-size: 12px;
+	font-weight: 500;
+	width: 160px !important;
+	border-radius: 2px;
+	background-color: lighten($Azul,35);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.stateName:before{
+	position: absolute;
+	content: URL('../../ima/ico-estados.svg');
+	height: 16px;
+	left: 8px;
+	top: 5px;
+}
+
+.btnDocUploaded {
+	width: 24px;
+	height: 24px;
+	background-color: $colPpal;
+	background-image: url('../../ima/ico-docs-bl-16px.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px solid $colPpal;
+	border-radius: 2px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: darken($colPpal, 10);
+		border: 1px solid darken($colPpal, 10);
+	}
+}
+
+.btnChangesTrack {
+	width: 24px;
+	height: 24px;
+	background-color: $blanco;
+	background-image: url('../../ima/ico-changes-gr-16px.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px solid $colPpal;
+	border-radius: 2px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: darken($blanco, 10);
+		border: 1px solid darken($colPpal, 10);
+	}
+}
+
+
+.ico-inactivo{
+	float:right;
+	margin-top:.3rem;
+	margin-right: .3rem;
+}
+
+.dateComm{
+	position: relative;
+	display: block;
+	margin-top: 1rem;
+	width: 140px;
+	overflow:hidden;
+	white-space: nowrap;
+	padding-left: 12px;
+}
+
+.dateComm:before{
+	position: absolute;
+	content: url('../../ima/ico-calendario-min.svg');
+	width: 10px;
+	left: 0;
+	top: 1px;
+	
+}
+
+//ASIDE RIGHT PANEL DERECHO
+#lblHeadSite, #lblHeadCto {
+	font-weight: 700;
+	color: $colPpal;
+}
+
+#lblHeadSite{
+	display:inline-block;
+	margin-top:6px;
+}
+
+#headAsideR{
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+
+	.x-panel-body{
+		padding:0;
+	}
+}
+
+
+#btnCto, #btnSite{
+	float:right;
+	//margin-right: 1rem;
+	width:30px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: $Gris3;
+	border:1px solid $Gris3;
+
+	&:hover{
+
+	}
+}
+
+#pnAverage {
+	.x-panel-body {
+		border-radius: 2px;
+		background-color: $colBg;
+		padding-top: 0.3rem;
+	}
+}
+
+#btnClosePn {
+	//float: right;
+	position: absolute;
+	top: 0px;
+	right: 2px;
+	display: block;
+}
+
+#ctAverage{
+	margin-top: 1rem;
+}
+
+#lblAverage{
+	clear: right;
+}
+#btnComplete {
+	//margin-right: 1rem;
+	position: absolute;
+	right: .6rem;
+	top: 12px;
+}
+
+.mrg-b{
+	margin-bottom: 1rem;
+}
+
+.ct-data{
+	margin-right: 1rem;
+	margin-top: 1rem;
+}
+
+
+
+//FIN ASIDE RIGHT PANEL DERECHO
+
+
+
+//WINDOW POPUP TRACKING
+
+.WinTrackDocum .x-title-text {
+	color: #06a086;
+}
+
+
+.WinTrackDocum .x-window-header-default {
+	background-color: white;
+	border-color: #DDD;
+}
+.WinTrackDocum .x-window-header-default-top {
+	background-color: white;
+	border-style: hidden;
+	border-bottom-style: solid !important;
+	border-bottom-width: thick;
+}
+
+
+.WinTrackChanges .x-title-text {
+	color: #06a086;
+}
+
+.WinTrackChanges .x-window-header-default {
+	background-color: white;
+	border: 1px solid $Gris1;
+}
+
+.WinTrackChanges .x-window-header-default-top {
+	background-color: white;
+	
+	border: 1px solid $Gris2 !important;
+}
+
+
+.sep-subtitulos-trackchanges {
+	margin: 0.25rem;
+}
+
+.WinTrackChanges .x-fieldset {
+	background-color: $blanco;
+	border: none !important;
+	margin-bottom: 0;
+}
+
+.fielset-noborder {
+	border-style: hidden;
+}
+
+#FormPanel1 {
+	margin-left: -1px;
+}
+
+#GridPanel1 {
+	border: hidden !important;
+}
+
+
+/*#region ESTILOS DIAGRAMA FLUJO */
+
+#pnShowWorkflow { //diagrama workflow página
+	position: fixed;
+	top: 10px;
+	left: 500px;
+	background-color: $blanco;
+	z-index: 99;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+	.x-panel-body {
+		padding: 1.5rem;
+	}
+
+
+	#dvTypo {
+		width: max-content;
+		margin: 0 auto;
+		display: flex;
+		align-content: center;
+	}
+
+	#dvTypo > span {
+		font-size: 12px;
+		color: $colSec;
+		font-weight: 500;
+	}
+
+	#lblTypo {
+		font-weight: 500;
+		display: block;
+		height: 1.2rem;
+		background-color: lighten($Amarillo, 8);
+		padding: 1px .8rem;
+		margin-left: .3rem;
+		border-radius: 10px;
+		text-align: center;
+
+		span {
+			display: block;
+			color: $Negro;
+		}
+	}
+
+
+	.dvAllStates {
+		width: 80%;
+		margin: 2rem auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	.dvCntState {
+		height: 6rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.dvState {
+		margin-top: .2rem;
+	}
+
+
+	#currentState {
+		padding-top: .6rem;
+	}
+
+	.lblStatesFlow {
+		span {
+			font-size: 12px;
+		}
+	}
+
+	.dotCurrent {
+		display: block;
+		margin: 0 auto .3rem auto;
+		height: 48px;
+		width: 48px;
+		background-color: $Verde2;
+		border-radius: 50%;
+	}
+
+	.dotFlow {
+		display: inline-block;
+		height: 10px;
+		width: 10px;
+		background-color: $colSec;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+
+	#dotFlowCurrent {
+		margin: 19px 19px;
+	}
+
+
+	.lineFlow:after {
+		position: absolute;
+		display: block;
+		top: 4px;
+		left: 12px;
+		content: '';
+		width: 128px;
+		border: 1px dashed $colSec;
+		z-index: 9;
+	}
+}
+
+
+/*#endregion */
+
+
+
+
+/*#region Tab panel contract */
+
+
+.tabPnlCon {
+	background-color: white;
+
+	.x-tab-inner-default {
+		font-weight: bold;
+	}
+
+	.x-tab-bar-default {
+		background-color: white;
+		border-bottom: thick;
+		border-bottom-color: $Gris4;
+	}
+
+	.x-panel-body-default {
+		background-color: white !important;
+	}
+
+
+	.x-panel .x-tabpanel-child.x-panel-default {
+		border-top: thick !important;
+	}
+
+	.x-tab-bar-default {
+		border-top-width: 3px !important;
+		border-top-style: solid;
+		border-style: solid;
+		border-width: 3px 0 0 0 !important;
+		border-bottom-color: $Gris4;
+	}
+
+	.x-toolbar-footer {
+		background-color: white;
+	}
+
+	.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+		color: $colPpal;
+	}
+
+	.x-tab-inner-default {
+		color: #6a6b84;
+	}
+
+	.x-tab-over {
+		background-color: white !important;
+		background-image: url('../../ima/ico-bola.svg') !important;
+		background-size: 6px;
+		background-repeat: no-repeat;
+		background-position: 50% 90%;
+	}
+
+
+	
+
+	.x-tab-active {
+		background-image: url('../../ima/ico-bola.svg');
+		background-size: 6px;
+		background-repeat: no-repeat;
+		background-position: 50% 90%;
+	}
+
+
+	.x-tab-bar-default-top > .x-tab-bar-body-default {
+		padding: 4px 4px 0 8px;
+	}
+}
+
+.x-keyboard-mode .x-tab-focus.x-tab-default {
+	outline: none !important;
+	background-image: url('../../ima/ico-bola.svg');
+	background-size: 6px;
+	background-repeat: no-repeat;
+	background-position: 50% 90%;
+}
+
+
+
+.ico-download {
+	background-image: url('/ima/ico-download.svg');
+	width: 16px;
+	height: 16px;
+
+}
+
+
+.chk-ctoTrck {
+	padding: 0 .5rem;
+	border: 1px solid $Gris2;
+	border-radius: 2px;
+	margin-top: 25px;
+
+
+	label {
+		font: 500 12px/14px "Roboto", sans-serif;
+		color: #6a6b86 !important;
+	}
+}
+
+
+.RdGroupForm{
+	margin-top:-10px !important;
+	margin-bottom:-10px !important;
+}
+
+.txtReadJustURDG {
+	margin-top: -6px !important;
+}
+
+.txtReadJustURDG2 {
+	margin-top: -2px !important;
+}
+
+
+.radio-cto {
+	width: 10.6rem;
+	margin-top: 1.8rem;
+	padding: 0 .5rem;
+	border: 1px solid $Gris2;
+	border-radius: 2px;
+	margin: 0 0 0 0;
+
+
+	label {
+		font: 500 12px/14px "Roboto", sans-serif;
+		color: #6a6b86 !important;
+	}
+}
+
+.radio-title {
+	color: #6a6b86 !important;
+	padding-bottom: 6px;
+}
+
+
+.btn-download-con {
+	position: absolute;
+	top: 10px !important;
+	right: 30px !important;
+	background: white !important;
+	border: none !important;
+	box-shadow: none !important;
+	z-index:99 !important;
+
+	span {
+		color: $colPpal !important;
+		font: 500 12px/14px "Roboto", sans-serif;
+	}
+}
+
+
+
+.testbod .x-grid-cell-inner div {
+	border:hidden !important;
+}
+
+
+
+.TopBordr {
+	border-top:solid !important;
+	border-top-width:1px;
+}
+
+
+
+
+.TBBluebck.x-toolbar-default {
+	background-color: $AzulOsc !important;
+	color: white;
+	font-weight: 300 !important;
+	padding-bottom: 12px;
+}
+
+
+
+
+
+.topbodercontainer {
+	padding-top: 2px;
+}
+
+
+.x-toolbar-footer {
+	background-color: white !important;
+}
+
+
+// ICON FONDO BLANCO
+
+.OverlapIconUpF {
+	border-style: hidden !important;
+	background-image: url('/ima/ico-folder-16x16.svg');
+	width: 16px;
+	height: 16px;
+	background-color: transparent !important;
+}
+
+.x-form-trigger-triton.x-form-trigger-default {
+	background: transparent !important;
+
+	.x-btn-default-small {
+		border-style: hidden;
+		background-color: white !important;
+	}
+}
+
+
+.btn-toggleGrid-Cntract {
+	position: absolute !important;
+	top: 84.767px;
+	right: 22px;
+	font-weight: bold !important;
+
+	span {
+		color: black !important;
+		font-weight:bold;
+	}
+}
+
+.bld-cnt-fonts {
+	font-weight: 500 !important;
+	border-top-width: 3px !important;
+	border-bottom-width: 3px !important;
+	border-color: #f6f6f6 !important;
+}
+
+
+#btnAddMeds {
+	@include bgBtn-ico;
+	@include btn-toolBar('/ima/ico-anadir.svg');
+}
+
+#btnEditMeds {
+	@include bgBtn-ico;
+	@include btn-toolBar('/ima/ico-editar.svg');
+}
+
+#btnDeleteMeds {
+	@include bgBtn-ico;
+	@include btn-toolBar('/ima/ico-eliminar.svg');
+}
+
+
+
+.pgrid-topborderblue {
+	border-top-width: 4px !important;
+	border-top-style: solid !important;
+	border-radius: 5px;
+
+	
+}
+
+.pgrid-topborderblue.x-panel-default {
+	border-color: $AzulOsc !important;
+	padding: 0;
+}
+
+
+/*#region CustomCOL */
+
+.customCol1 {
+
+	p {
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: small;
+	}
+
+	.customColDiv1 {
+		margin-top: 8px;
+		background-color: white;
+		padding: 5px 8px 5px 8px;
+		border: thin;
+		border-color:black;
+		border-radius: 3px;
+	}
+}
+
+
+/*#endregion */
+
+
+.toolbarbotContract {
+	position:unset !important;
+	display:inline-flex !important;
+	float:right !important;
+	padding-top: 80px !important;
+	padding-bottom: 20px !important;
+	padding-right: 10px !important;
+}
+
+
+
+
+.btn-accept.x-btn-default-toolbar-small {
+	@include baseBoton($colPpal, 14px, $blanco);
+	
+	span {
+		font: 400 14px/16px $font-ppal !important;
+		color:white;
+	}
+}
+
+.btn-cancel.x-btn-default-toolbar-small {
+	@include baseBoton($Gris3, 14px, $GrisNegro);
+	display: block;
+
+	span {
+		font: 400 14px/16px $font-ppal !important;
+		color: $GrisNegro;
+	}
+}
+
+
+
+
+#toolbarLocation.toolbarbotContract {
+	margin: 0px 5px 0px 0px !important;
+}
+
+//Cambia el flujo del container al llegar a esa anchura minima
+@media (max-width: 768px) {
+
+	#LastCont {
+		clear:both !important;
+	}
+}
+
+#toolbarAdditional.toolbarbotContract {
+	margin: 0px 5px 0px 0px !important;
+}
+
+
+.FormCont12Marg {
+	margin: 0px 12px 0px 12px;
+}
+
+
+
+.PnMaps1 {
+	flex: 0 0 600px;
+}
+
+
+.bold-label{
+	margin-bottom: 10px;
+	font-weight:bold !important;
+}
+
+
+/*#endregion */
+
+
+
+
+
+.label-con {
+	margin-top: 31px;
+	padding-top: 10px;
+	display: table;
+	padding-bottom: 14px;
+}
+
+.btn-align-right {
+	@include bgBtn-ico;
+	@include btn-transp;
+	background-image: url('/ima/ico-geolocation.svg');
+	background-color: rgba(0,0,0,0) !important;
+	position: unset !important;
+	background-position: left !important;
+	float: right;
+	padding-right: 7px;
+	margin-right: 10px;
+	margin-right: 8px;
+	width: 110px;
+	border: hidden;
+
+	.x-btn-inner-default-toolbar-small {
+		font-weight: bold !important;
+	}
+}
+
+.btn-align-right.x-btn-pressed {
+	@include bgBtn-ico;
+	@include btn-transp;
+	background-image: url('/ima/ico-geolocation-green.svg') !important;
+	background-color: rgba(0,0,0,0) !important;
+	font-weight: bold !important;
+	background-position: left !important;
+	width: 110px;
+
+
+	.x-btn-inner-default-toolbar-small {
+		color: $Verde2 !important;
+		background-image: url('/ima/ico-geolocation-green.svg') !important;
+		font-weight: bold;
+	}
+
+	.x-toolbar-default .x-toolbar-item {
+		margin: 0 8px 0 0;
+		background-image: url('/ima/ico-geolocation-green.svg') !important;
+	}
+}
+
+
+
+
+.clear-over {
+	background-color: transparent !important;
+}
+
+.clear-focus {
+	background-color: transparent !important;
+
+	.x-btn-inner-default-toolbar-small {
+		color: $Verde2 !important;
+	}
+}
+
+.green-pressed-loc {
+	background-color: transparent !important;
+	background-image: url('/ima/ico-geolocation-green.svg') !important;
+
+
+	.x-btn-inner-default-toolbar-small {
+		color: $Verde2 !important;
+	}
+}
+
+
+.big-lbl-title {
+	font-size: 22px;
+	font-weight: 900;
+	position: absolute;
+	padding-top: 0px;
+	display: contents;
+
+	span {
+		padding-top: 15px;
+	}
+}
+
+
+.subtitle-code {
+	top: 35px !important;
+	left: 0px !important;
+}
+
+
+.subtitle-subcode {
+	top: 36px !important;
+	left: 87px !important;
+	font-size: 9px;
+	background: #FFD9AA;
+	color: #74450D;
+	border-radius: 2px !important;
+
+
+	span {
+		vertical-align: unset !important;
+		padding-left: 2px !important;
+		padding-right: 2px !important;
+	}
+
+	.grdcustomscroll {
+
+		.x-scroller {
+			-webkit-overflow-scrolling: touch;
+			background: rebeccapurple;
+		}
+	}
+}
+
+
+
+
+
+.x-toolbar-default{
+	padding-right:65px !important;
+	padding-bottom:45px !important;
+}

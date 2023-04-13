@@ -1,0 +1,38 @@
+<svg id="ic_modulos_Monitoring" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.615" height="53.496" viewBox="0 0 70.615 53.496">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_239" data-name="Trazado 239" d="M0-50H70.615V3.5H0Z" transform="translate(0 50)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_105" data-name="Grupo 105" clip-path="url(#clip-path)">
+    <g id="Grupo_104" data-name="Grupo 104" transform="translate(101.643 0)">
+      <path id="Trazado_238" data-name="Trazado 238" d="M4.335,2.447V-27.83a1.8,1.8,0,0,0-1.753-1.82H-54.431c-1.531,0-3.289,1.214-3.289,2.8V2.447ZM-57.72,11.419c0,1.024,1.305,1.728,2.3,1.728h58a1.666,1.666,0,0,0,1.753-1.793v-5.7H-57.72Zm1.239,7.078A5.664,5.664,0,0,1-62,12.975v-42.81A5.339,5.339,0,0,1-56.481-35H3.451a5.033,5.033,0,0,1,5.163,5.166v42.81A5.362,5.362,0,0,1,3.451,18.5Z" transform="translate(62 35)" fill="#333"/>
+    </g>
+  </g>
+  <g id="Rectángulo_76" data-name="Rectángulo 76" fill="none" stroke="#5b5c64" stroke-width="2">
+    <rect width="70.615" height="53.496" rx="3" stroke="none"/>
+    <rect x="1" y="1" width="68.615" height="51.496" rx="2" fill="none"/>
+  </g>
+  <line id="Línea_23" data-name="Línea 23" x2="68.475" transform="translate(0.535 36.912)" fill="none" stroke="#5b5c64" stroke-width="1"/>
+  <g id="Grupo_106" data-name="Grupo 106" transform="translate(34.787 11.306)">
+    <path id="Trazado_232" data-name="Trazado 232" d="M.037,0A.573.573,0,0,0-.536.572V2.722A.573.573,0,0,0,.037,3.3a.574.574,0,0,0,.573-.573V.572A.573.573,0,0,0,.037,0" transform="translate(0.536)" fill="#5b5c64"/>
+  </g>
+  <g id="Grupo_107" data-name="Grupo 107" transform="translate(41.804 14.654)">
+    <path id="Trazado_233" data-name="Trazado 233" d="M.134.011a.57.57,0,0,0-.809,0l-1.07,1.068a.575.575,0,0,0,0,.812.57.57,0,0,0,.406.168.576.576,0,0,0,.406-.168L.134.821a.571.571,0,0,0,0-.81" transform="translate(1.913 0.157)" fill="#5b5c64"/>
+  </g>
+  <g id="Grupo_108" data-name="Grupo 108" transform="translate(26.702 14.654)">
+    <path id="Trazado_234" data-name="Trazado 234" d="M.134.081-.936-.987a.571.571,0,0,0-.81,0,.571.571,0,0,0,0,.81L-.676.893a.573.573,0,0,0,.4.168A.574.574,0,0,0,.134.893a.575.575,0,0,0,0-.812" transform="translate(1.914 1.155)" fill="#5b5c64"/>
+  </g>
+  <g id="Grupo_109" data-name="Grupo 109" transform="translate(23.065 18.021)">
+    <path id="Trazado_235" data-name="Trazado 235" d="M1.161.647a6.9,6.9,0,0,0,.881-3.379A6.836,6.836,0,0,0,1.017-6.36,18.385,18.385,0,0,1,6.154-2.825,18.44,18.44,0,0,1,1.161.647M-6.4,1.657A4.948,4.948,0,0,1-8.92-2.732,4.9,4.9,0,0,1-5.766-7.41,11.834,11.834,0,0,1-4.18-7.52a11.8,11.8,0,0,1,1.193.064,4.924,4.924,0,0,1,3.3,4.724A4.982,4.982,0,0,1-2.326,1.721a11.764,11.764,0,0,1-1.854.15A11.839,11.839,0,0,1-6.4,1.657M-9.729-6.2a6.918,6.918,0,0,0-.922,3.465A6.947,6.947,0,0,0-9.871.481a18.657,18.657,0,0,1-4.642-3.306A18.576,18.576,0,0,1-9.729-6.2M-4.18-9.25C-10.2-9.25-14.7-5.173-16.362-3.42a.865.865,0,0,0,0,1.191C-14.7-.477-10.2,3.6-4.18,3.6S6.344-.477,8-2.229A.867.867,0,0,0,8-3.42C6.343-5.173,1.836-9.25-4.18-9.25" transform="translate(16.6 9.25)" fill="#5b5c64"/>
+  </g>
+  <g id="Grupo_110" data-name="Grupo 110" transform="translate(33.164 22.347)">
+    <path id="Trazado_236" data-name="Trazado 236" d="M.287.143a2.195,2.195,0,0,1-2.2-2.192A2.2,2.2,0,0,0-4.1.143a2.194,2.194,0,0,0,2.2,2.192A2.194,2.194,0,0,0,.287.143" transform="translate(4.104 2.049)" fill="#5b5c64"/>
+  </g>
+  <rect id="Rectángulo_77" data-name="Rectángulo 77" width="61" height="10" rx="4" transform="translate(5 39.496)" fill="#58e5a9"/>
+  <g id="Elipse_34" data-name="Elipse 34" transform="translate(33.098 41.727)" fill="none" stroke="#5c5c5c" stroke-width="1">
+    <circle cx="2.675" cy="2.675" r="2.675" stroke="none"/>
+    <circle cx="2.675" cy="2.675" r="2.175" fill="none"/>
+  </g>
+  <line id="Línea_24" data-name="Línea 24" y2="7" transform="translate(61.5 8.996)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="2"/>
+</svg>

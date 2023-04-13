@@ -1,0 +1,12 @@
+<svg id="ic_modulos_Accesos" xmlns="http://www.w3.org/2000/svg" width="74" height="58" viewBox="0 0 74 58">
+  <g id="Grupo_1102" data-name="Grupo 1102" transform="translate(-403.615 -482)">
+    <path id="Trazado_816" data-name="Trazado 816" d="M2234.194,409.461l5.059-5.015v-7.193s6.718.471,6.845,0,0-7.08,0-7.08h6.978l3.568-3.537c.085-.084,6.177,0,6.177,0v7.849s-21.571,21.8-21.536,21.964c1.387,6.762.428,12.264-3,16.357a15.6,15.6,0,0,1-11.5,5.776,15.428,15.428,0,0,1-11.184-4.026c-5.891-5.272-6.842-16.177.687-22.951S2234.194,409.461,2234.194,409.461Z" transform="translate(-1796.207 98.402)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Sustracción_10" data-name="Sustracción 10" d="M11.637,23.33a11.733,11.733,0,0,1-1.8-.139,8.331,8.331,0,1,0-9.7-9.718A11.808,11.808,0,0,1,0,11.665,11.637,11.637,0,1,1,11.637,23.33Z" transform="translate(419.052 509.345)" fill="#58e5a9"/>
+    <g id="Elipse_47" data-name="Elipse 47" transform="translate(420.064 518.475)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <ellipse cx="6.578" cy="6.594" rx="6.578" ry="6.594" stroke="none"/>
+      <ellipse cx="6.578" cy="6.594" rx="5.578" ry="5.594" fill="none"/>
+    </g>
+    <path id="Trazado_1443" data-name="Trazado 1443" d="M0,19.273,19.227,0" transform="translate(442.834 490.579)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="3"/>
+  </g>
+  <rect id="Rectángulo_509" data-name="Rectángulo 509" width="74" height="58" fill="none"/>
+</svg>

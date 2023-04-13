@@ -1,0 +1,24 @@
+﻿@import 'variables.scss';
+@import 'mixins.scss';
+
+@include layoutRes(100%, 50%, 30%, 70%, 30%, 70%);
+
+.HeaderInicio .x-panel-body-default {
+    background-color: $colBg !important;
+    //max-width: calc(50% - 4px);
+}
+
+.alturaPn {
+    height: min-content !important;
+}
+
+.image-title {
+    display: inline-block;
+}
+
+@media (max-width:667px) {
+    .HeaderInicio .x-panel-body-default {
+        background-color: $colBg !important;
+        max-width: 100%;
+    }
+}

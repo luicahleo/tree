@@ -1,0 +1,331 @@
+﻿.x-mask-msg-text.containerConfigTemplate {
+  position: relative;
+  top: 50%;
+  left: 50%; }
+
+table .celda {
+  border: solid 1px #D8D8D8;
+  vertical-align: initial;
+  max-width: 205px; }
+
+table .header {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 8px;
+  min-width: 170px; }
+  table .header .nomCategory {
+    display: grid;
+    grid-template-columns: 90% 15px;
+    min-height: 39px; }
+    table .header .nomCategory div {
+      grid-row: span 2;
+      align-self: center;
+      justify-content: center; }
+  table .header:hover .ico-eliminar-tabla {
+    display: inline-flex !important; }
+
+table .col-id {
+  width: 50px;
+  max-width: 50px;
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 8px; }
+  table .col-id:hover .ico-eliminar-tabla {
+    display: inline-flex !important; }
+
+.winSelectCampoVinculado .x-window-header {
+  background-color: #062743;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 1px solid #062743;
+  background-image: url("/ima/line-rojaHeader.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 5px 30px; }
+
+.heigPanel {
+  height: inherit !important; }
+
+.contenedorNombreCol {
+  display: grid;
+  grid-template-columns: 90% 15px;
+  min-height: 39px; }
+  .contenedorNombreCol div {
+    min-height: 27px;
+    grid-row: span 2;
+    align-self: center; }
+
+.separador .textS {
+  background-color: #58E5A9;
+  min-width: 20px;
+  width: 30px;
+  min-height: 20px;
+  padding: 5px 8px 2px;
+  margin-left: 5px;
+  text-align: center;
+  border-radius: 3px;
+  position: relative;
+  top: 5px; }
+
+.btnTextFixed {
+  display: none;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: #06A086; }
+  .btnTextFixed:hover {
+    color: #046f5d; }
+
+.atributte-area {
+  border: none;
+  padding: 5px 5px 18px 5px;
+  margin: 5px;
+  vertical-align: top; }
+  .atributte-area select {
+    border: none;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px; }
+  .atributte-area:hover {
+    padding-bottom: 18px !important; }
+    .atributte-area:hover .ico-eliminar-tabla {
+      display: inline-block !important;
+      padding-top: 2px; }
+    .atributte-area:hover .btnWithSeparador {
+      display: inline-block !important;
+      margin-top: .8rem !important; }
+    .atributte-area:hover .btnTextFixed {
+      display: block; }
+
+.background-area {
+  background-color: #E4F0F8;
+  border-radius: 3px; }
+  .background-area select {
+    background-color: #E4F0F8; }
+
+.dvFixedText {
+  padding-bottom: 37px !important; }
+
+.ico-expandOption {
+  position: relative;
+  float: right;
+  top: -6px;
+  right: -5.5px; }
+
+.add-item-cel {
+  display: block;
+  margin-left: 5px; }
+
+.addTipoFila, .addColum, .RemoveColum {
+  border: none;
+  background-color: #f6f6f6;
+  justify-self: flex-end; }
+
+.addTipoFila, .addColum {
+  display: inline-block; }
+
+.addTipoFila {
+  justify-content: flex-end; }
+
+.col-categoria {
+  vertical-align: initial;
+  padding: 5px; }
+
+.selectCategory {
+  border: none;
+  width: 100%; }
+
+.divAttrib {
+  border: 1px solid #D8D8D8;
+  border-radius: 3px;
+  margin: 5px 0;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 18px;
+  white-space: nowrap;
+  width: 100%;
+  min-width: 184px;
+  max-width: 205px; }
+
+.transformationRules {
+  padding-left: 0px; }
+  .transformationRules:hover .divAttrib {
+    grid-template-columns: 15% 55% 15% 15%; }
+  .transformationRules:hover .colSpanHover {
+    grid-column: span 2; }
+  .transformationRules:hover .btnEditRules, .transformationRules:hover .btnDeleteRules {
+    display: inline-block !important;
+    justify-self: end; }
+
+.btnEditRules, .btnDeleteRules {
+  display: none; }
+
+.valueSelect {
+  display: inline-flex; }
+
+.TagBorRad {
+  border-radius: 3px !important; }
+
+.pnPreviewIE .x-autocontainer-outerCt {
+  height: inherit !important; }
+  .pnPreviewIE .x-autocontainer-outerCt .x-autocontainer-innerCt {
+    height: inherit !important; }
+
+.gridPreviewIE {
+  height: inherit !important;
+  overflow: auto; }
+  .gridPreviewIE .x-panel-bodyWrap {
+    width: fit-content;
+    overflow-y: auto; }
+    .gridPreviewIE .x-panel-bodyWrap .x-grid-body {
+      width: fit-content !important; }
+  .gridPreviewIE .x-grid-header-ct, .gridPreviewIE .x-grid-view {
+    width: fit-content !important; }
+
+.top0 {
+  top: 0 !important; }
+
+.noBorder-background {
+  border: none;
+  background-color: transparent; }
+
+.dateIE {
+  font: 500 12px /14px "Roboto", sans-serif;
+  padding-left: 20px;
+  background-image: url("/ima/ico-calendar-min.svg");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: center left; }
+
+.gridHistoricoIE {
+  height: fit-content !important; }
+  .gridHistoricoIE .x-panel-body {
+    height: fit-content !important; }
+    .gridHistoricoIE .x-panel-body .x-grid-item-selected, .gridHistoricoIE .x-panel-body .x-grid-item-focused {
+      background-color: transparent !important;
+      border-color: #D8D8D8 !important; }
+  .gridHistoricoIE .x-grid-cell-inner:before {
+    border: none !important; }
+  .gridHistoricoIE .x-grid-item {
+    background-color: white !important;
+    border: solid 1px #D8D8D8 !important;
+    margin: 10px 0; }
+  .gridHistoricoIE .x-grid-with-row-lines .x-grid-item:first-child {
+    background-color: white !important; }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.pnDatosPlantilla {
+  padding-top: 0 !important;
+  padding-right: 0 !important; }
+
+.line-grid-template .texto-template {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
+option .btn-addlinkedfield {
+  background-color: green; }
+
+/* START TOOLTIP STYLES */
+[tooltip] {
+  position: relative;
+  /* opinion 1 */ }
+
+/* Applies to all tooltips */
+[tooltip]::before,
+[tooltip]::after {
+  text-transform: none;
+  /* opinion 2 */
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
+  opacity: 0; }
+
+[tooltip]::before {
+  content: '';
+  border: 5px solid transparent;
+  /* opinion 4 */
+  z-index: 1001;
+  /* absurdity 1 */ }
+
+[tooltip]::after {
+  content: attr(tooltip);
+  /* magic! */
+  /* most of the rest of this is opinion */
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  /* 
+    Let the content set the size of the tooltips 
+    but this will also keep them from being obnoxious
+    */
+  min-width: 3em;
+  max-width: 21em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
+  background: #555;
+  color: #fff;
+  z-index: 1000;
+  /* absurdity 2 */ }
+
+/* Make the tooltips respond to hover */
+[tooltip]:hover::before,
+[tooltip]:hover::after {
+  display: block; }
+
+/* don't show empty tooltips */
+[tooltip='']::before,
+[tooltip='']::after {
+  display: none !important; }
+
+/* FLOW: UP */
+[tooltip]:not([flow])::before,
+[tooltip][flow^="up"]::before {
+  bottom: 100%;
+  border-bottom-width: 0;
+  border-top-color: #333; }
+
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::after {
+  bottom: calc(100% + 5px); }
+
+[tooltip]:not([flow])::before,
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::before,
+[tooltip][flow^="up"]::after {
+  left: 50%;
+  transform: translate(-50%, -0.5em); }
+
+/* KEYFRAMES */
+@keyframes tooltips-vert {
+  to {
+    opacity: .9;
+    transform: translate(-50%, 0); } }
+
+@keyframes tooltips-horz {
+  to {
+    opacity: .9;
+    transform: translate(0, -50%); } }
+
+/* FX All The Things */
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="up"]:hover::before,
+[tooltip][flow^="up"]:hover::after,
+[tooltip][flow^="down"]:hover::before,
+[tooltip][flow^="down"]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards; }
+
+[tooltip][flow^="left"]:hover::before,
+[tooltip][flow^="left"]:hover::after,
+[tooltip][flow^="right"]:hover::before,
+[tooltip][flow^="right"]:hover::after {
+  animation: tooltips-horz 300ms ease-out forwards; }

@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TreeCore.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Produccion" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EscribeEstadistica" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SMTP_Clave" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Tree_SMTP_Clave</Value>
+    </Setting>
+    <Setting Name="SMTP_Mail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Tree_SMTP_Mail</Value>
+    </Setting>
+    <Setting Name="SMTP_Servidor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Tree_SMTP_Servidor</Value>
+    </Setting>
+    <Setting Name="SMTP_Usuario" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Tree_SMTP_Usuario</Value>
+    </Setting>
+    <Setting Name="TiempoSesionMinutos" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="RutaRaiz" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\Tree\</Value>
+    </Setting>
+    <Setting Name="Nombre_Entorno" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Miguel Ángel Environment</Value>
+    </Setting>
+    <Setting Name="Conexion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">data source=atrebo2.ddns.net;initial catalog=treeolivobase;persist security info=true;user id=desarrollo;password=Atrebo.2021</Value>
+    </Setting>
+    <Setting Name="Version" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5.5.0.21</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,21 @@
+<svg id="ic_modulos_Sistemas_radiantes" xmlns="http://www.w3.org/2000/svg" width="64" height="50" viewBox="0 0 64 50">
+  <rect id="Rectángulo_544" data-name="Rectángulo 544" width="64" height="50" fill="none"/>
+  <g id="Grupo_2065" data-name="Grupo 2065" transform="translate(-1102 -405)">
+    <path id="Trazado_1424" data-name="Trazado 1424" d="M3744.151-475.361H3772.3s2.8.406,2.8,4.064-2.8,3.845-2.8,3.845h-33.357s-2.9.352-2.863,4,2.863,3.71,2.863,3.71h2.656" transform="translate(-2622.079 889.552)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_1425" data-name="Trazado 1425" d="M3738.942-474.361H3772.3s2.774.387,2.773,4.045-2.773,3.864-2.773,3.864h-33.357s-2.9.352-2.863,4,2.863,3.71,2.863,3.71h28.218" transform="translate(-2622.079 904.177)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <g id="Trazado_1427" data-name="Trazado 1427" transform="translate(1113 409)" fill="none">
+      <path d="M5,0A5,5,0,1,1,0,5,5,5,0,0,1,5,0Z" stroke="none"/>
+      <path d="M 5.000000476837158 2.000000953674316 C 3.345790386199951 2.000000953674316 2.000000953674316 3.345790386199951 2.000000953674316 5.000000476837158 C 2.000000953674316 6.654210567474365 3.345790386199951 8 5.000000476837158 8 C 6.654210567474365 8 8 6.654210567474365 8 5.000000476837158 C 8 3.345790386199951 6.654210567474365 2.000000953674316 5.000000476837158 2.000000953674316 M 5.000000476837158 9.5367431640625e-07 C 7.761420249938965 9.5367431640625e-07 10 2.238580703735352 10 5.000000476837158 C 10 7.761420249938965 7.761420249938965 10 5.000000476837158 10 C 2.238580703735352 10 9.5367431640625e-07 7.761420249938965 9.5367431640625e-07 5.000000476837158 C 9.5367431640625e-07 2.238580703735352 2.238580703735352 9.5367431640625e-07 5.000000476837158 9.5367431640625e-07 Z" stroke="none" fill="#5b5c64"/>
+    </g>
+    <g id="Trazado_1430" data-name="Trazado 1430" transform="translate(1144 440)" fill="none">
+      <path d="M5,0A5,5,0,1,1,0,5,5,5,0,0,1,5,0Z" stroke="none"/>
+      <path d="M 5 2 C 3.345789909362793 2 2 3.345789909362793 2 5 C 2 6.654210090637207 3.345789909362793 8 5 8 C 6.654210090637207 8 8 6.654210090637207 8 5 C 8 3.345789909362793 6.654210090637207 2 5 2 M 5 0 C 7.761420249938965 0 10 2.238580226898193 10 5 C 10 7.761420249938965 7.761420249938965 10 5 10 C 2.238580226898193 10 0 7.761420249938965 0 5 C 0 2.238580226898193 2.238580226898193 0 5 0 Z" stroke="none" fill="#5b5c64"/>
+    </g>
+    <circle id="Elipse_178" data-name="Elipse 178" cx="2" cy="2" r="2" transform="translate(1116 412)" fill="#58e5a9"/>
+    <path id="Trazado_1426" data-name="Trazado 1426" d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" transform="translate(1147 443)" fill="#58e5a9"/>
+    <path id="Trazado_1431" data-name="Trazado 1431" d="M-.8,0H24.411" transform="translate(1118.686 426.022)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="2.5"/>
+    <line id="Línea_393" data-name="Línea 393" x2="24.411" transform="translate(1124.319 434.533)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="2.5"/>
+    <path id="Trazado_1428" data-name="Trazado 1428" d="M0,0V4.284" transform="translate(1149.01 419.058) rotate(90)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="2"/>
+    <path id="Trazado_1429" data-name="Trazado 1429" d="M0,0V4.3" transform="translate(1122.308 442) rotate(90)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg id="btn_importexport_grid" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rectángulo_2279" data-name="Rectángulo 2279" fill="none" stroke="#6a6b75" stroke-width="1.6">
+    <rect width="20" height="20" rx="10" stroke="none"/>
+    <rect x="0.8" y="0.8" width="18.4" height="18.4" rx="9.2" fill="none"/>
+  </g>
+  <g id="Grupo_5900" data-name="Grupo 5900" transform="translate(4 7.5)">
+    <line id="Línea_393" data-name="Línea 393" y2="5.801" transform="translate(3 0.5)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+    <path id="Trazado_1386" data-name="Trazado 1386" d="M-204.6-1242.716l3.049,3.366,2.951-3.192" transform="translate(204.597 1245.851)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  </g>
+  <g id="Grupo_5899" data-name="Grupo 5899" transform="translate(9.833 5.833)">
+    <line id="Línea_392" data-name="Línea 392" y2="6" transform="translate(3.167 6.167) rotate(180)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+    <path id="Trazado_1385" data-name="Trazado 1385" d="M0,0,2.89,3.333,6,0" transform="translate(6 3.333) rotate(180)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  </g>
+</svg>

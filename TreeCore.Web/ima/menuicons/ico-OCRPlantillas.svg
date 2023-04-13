@@ -1,0 +1,13 @@
+<svg id="ico-OCRPlantillas" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_286" data-name="Rectángulo 286" width="20" height="20" fill="none" opacity="0.5"/>
+  <line id="Línea_311" data-name="Línea 311" x2="8" transform="translate(6 4)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_312" data-name="Línea 312" x2="6" transform="translate(6 7)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <g id="Rectángulo_287" data-name="Rectángulo 287" transform="translate(0 9)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="20" height="8" stroke="none"/>
+    <rect x="0.75" y="0.75" width="18.5" height="6.5" fill="none"/>
+  </g>
+  <path id="Trazado_1230" data-name="Trazado 1230" d="M0,0H4.388" transform="translate(6 13)" fill="none" stroke="#666" stroke-linecap="square" stroke-width="1.5"/>
+  <circle id="Elipse_170" data-name="Elipse 170" cx="1" cy="1" r="1" transform="translate(13 12)" fill="#666"/>
+  <path id="Trazado_1229" data-name="Trazado 1229" d="M1385.822,27.605V19.078h14.431v8.527" transform="translate(-1383 -18)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_1231" data-name="Trazado 1231" d="M1385.822,36v2.519h14.41V36" transform="translate(-1383 -19.457)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

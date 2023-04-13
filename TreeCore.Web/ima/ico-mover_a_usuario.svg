@@ -1,0 +1,12 @@
+<svg id="Componente_3376_10" data-name="Componente 3376 – 10" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3211" data-name="Rectángulo 3211" width="20" height="20" fill="none"/>
+  <g id="Grupo_3680" data-name="Grupo 3680" transform="translate(1.45 0.896)">
+    <g id="Grupo_3679" data-name="Grupo 3679">
+      <path id="Trazado_2506" data-name="Trazado 2506" d="M431.127,254.129l-.039-2.189,4.126,3.37-4.006,3.512-.038-2.19a2.807,2.807,0,0,0-2.731.439A10.3,10.3,0,0,0,426,260.023l-.5-.5s-.144-3.009,1.851-4.505A4.313,4.313,0,0,1,431.127,254.129Z" transform="translate(-425.498 -251.94)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="isolation: isolate"/>
+    </g>
+    <path id="Trazado_2507" data-name="Trazado 2507" d="M437.443,264.7h-1.2l-4.173,2.834s-1.069.7-1.069,1.479c0,1.355,1.069,1.355,1.069,1.355h10.686s1.069,0,1.069-1.355c0-.782-1.069-1.479-1.069-1.479L438.52,264.7Z" transform="translate(-426.723 -252.259)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    <g id="Rectángulo_35" data-name="Rectángulo 35" transform="translate(8.342 5.917)">
+      <path id="Trazado_2509" data-name="Trazado 2509" d="M437.321,258.6h0a2.516,2.516,0,0,1,2.515,2.517v1.459a2.516,2.516,0,0,1-2.515,2.517h0a2.516,2.516,0,0,1-2.517-2.517v-1.459A2.517,2.517,0,0,1,437.321,258.6Z" transform="translate(-434.804 -258.595)" fill="none" stroke="#707070" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

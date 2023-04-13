@@ -1,0 +1,15 @@
+<svg id="ico_flow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_6326" data-name="Grupo 6326" transform="translate(-317 -290)">
+    <path id="Trazado_2377" data-name="Trazado 2377" d="M3386-1683h-9.487v10.714h8.719" transform="translate(-3058.175 1978.286)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="Rectángulo_2429" data-name="Rectángulo 2429" width="20" height="20" transform="translate(317 290)" fill="none"/>
+    <g id="Elipse_442" data-name="Elipse 442" transform="translate(327 302)" fill="none" stroke="#6a6b75" stroke-width="2">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="3" fill="none"/>
+    </g>
+    <g id="Rectángulo_2430" data-name="Rectángulo 2430" transform="translate(326.293 294.95) rotate(-45)" fill="none" stroke="#6a6b75" stroke-width="2">
+      <rect width="7" height="7" stroke="none"/>
+      <rect x="1" y="1" width="5" height="5" fill="none"/>
+    </g>
+    <line id="Línea_950" data-name="Línea 950" y2="6" transform="translate(331 297)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  </g>
+</svg>

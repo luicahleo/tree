@@ -1,0 +1,18 @@
+<svg id="ico-fiscalizadores" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_252" data-name="Rectángulo 252" width="20" height="20" fill="none"/>
+  <g id="Grupo_1664" data-name="Grupo 1664" transform="translate(-892.144 -493.184)">
+    <g id="Grupo_1154" data-name="Grupo 1154" transform="translate(893.144 494.184)">
+      <path id="Trazado_65" data-name="Trazado 65" d="M-286.161,385.425c.018.021.017,1.812,0,1.85-.005.367.136,1.286-1.918,1.349s-14.686,0-14.686,0-1.362-.052-1.362-1.323c-.039.014-.014-1.86,0-1.875,0-.569.105-1.237,1.362-1.918s5.178-2.423,5.178-2.423h4.885a44.939,44.939,0,0,1,5.507,2.423A2.547,2.547,0,0,1-286.161,385.425Z" transform="translate(304.148 -370.651)" fill="none" stroke="#666" stroke-width="1.5"/>
+      <g id="Rectángulo_35" data-name="Rectángulo 35" transform="translate(4.394)" fill="none" stroke="#666" stroke-width="1.5">
+        <rect width="9.071" height="11.718" rx="4.535" stroke="none"/>
+        <rect x="0.75" y="0.75" width="7.571" height="10.218" rx="3.785" fill="none"/>
+      </g>
+      <path id="Trazado_752" data-name="Trazado 752" d="M2209.72,496.285s1.115-2.287,2.953-2.269a2.847,2.847,0,0,1,2.542,2.015" transform="translate(-2203.761 -486.694)" fill="none" stroke="#666" stroke-width="1.5"/>
+      <path id="Trazado_753" data-name="Trazado 753" d="M2210.819,496.5a3.748,3.748,0,0,1,1.748-.672,10.853,10.853,0,0,1,2.111.672l-2.111,1.085Z" transform="translate(-2203.698 -486.807)" fill="#666" stroke="#666" stroke-width="1"/>
+      <path id="Trazado_754" data-name="Trazado 754" d="M832.8,457.619l1.65,2.736,2.964-2.879.042-.04,3.217,2.919,1.653-2.919-2.342-.9h-4.906Z" transform="translate(-828.584 -446.137)" fill="#666" stroke="#666" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Trazado_755" data-name="Trazado 755" d="M835.9,459.1l1,1.155-1.245,3.734H840l-1.276-3.734.613-1.155-1.512-1.46Z" transform="translate(-828.848 -446.247)" fill="#666"/>
+    </g>
+    <line id="Línea_161" data-name="Línea 161" y2="1.82" transform="translate(897.541 498.559)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1"/>
+    <line id="Línea_162" data-name="Línea 162" y2="1.82" transform="translate(906.619 498.559)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

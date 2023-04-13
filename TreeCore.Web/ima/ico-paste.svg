@@ -1,0 +1,15 @@
+<svg id="Componente_1931_4" data-name="Componente 1931 – 4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2442" data-name="Rectángulo 2442" width="20" height="20" fill="none"/>
+  <g id="Grupo_7817" data-name="Grupo 7817" transform="translate(-396.326 -144.301)">
+    <g id="Rectángulo_345" data-name="Rectángulo 345">
+      <path id="Trazado_2716" data-name="Trazado 2716" d="M403.289,161.162h-5.235V145.939h13.1v2.638" fill="rgba(0,0,0,0)" stroke="#707070" stroke-linejoin="round" stroke-width="1.6"/>
+    </g>
+    <line id="Línea_630" data-name="Línea 630" y1="3.639" transform="translate(401.875 144.301)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Línea_631" data-name="Línea 631" y1="3.639" transform="translate(404.604 144.301)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Línea_632" data-name="Línea 632" y1="3.639" transform="translate(407.334 144.301)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <path id="Trazado_2704" data-name="Trazado 2704" d="M414.562,152.274l-2.322-2.318a1.332,1.332,0,0,0-.934-.39h-5.64a1.331,1.331,0,0,0-1.326,1.329v11.5a1.325,1.325,0,0,0,1.326,1.326h7.959a1.326,1.326,0,0,0,1.326-1.326v-9.181A1.341,1.341,0,0,0,414.562,152.274Zm-1.045.832h-2.1v-2.1Zm-7.851,9.285V150.9h4.422v2.871a.661.661,0,0,0,.661.663h2.876v7.958Z" fill="#707070" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <line id="Línea_359" data-name="Línea 359" x2="1.968" transform="translate(400.965 153.915)" fill="none" stroke="#707070" stroke-width="1.6"/>
+    <line id="Línea_362" data-name="Línea 362" x2="1.968" transform="translate(400.965 151.185)" fill="none" stroke="#707070" stroke-width="1.6"/>
+    <line id="Línea_361" data-name="Línea 361" x2="1.968" transform="translate(400.965 156.644)" fill="none" stroke="#707070" stroke-width="1.6"/>
+  </g>
+</svg>

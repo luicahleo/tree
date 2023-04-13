@@ -1,0 +1,14 @@
+<svg id="ico-chrono" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2624" data-name="Rectángulo 2624" width="20" height="20" fill="none"/>
+  <g id="Elipse_489" data-name="Elipse 489" transform="translate(2 3)" fill="none" stroke="#6a6b75" stroke-width="1.6">
+    <circle cx="8" cy="8" r="8" stroke="none"/>
+    <circle cx="8" cy="8" r="7.2" fill="none"/>
+  </g>
+  <rect id="Rectángulo_2887" data-name="Rectángulo 2887" width="4" height="1.6" transform="translate(8 1)" fill="#6a6b75"/>
+  <rect id="Rectángulo_2890" data-name="Rectángulo 2890" width="4.209" height="1.6" transform="translate(8.791 11)" fill="#6a6b75"/>
+  <rect id="Rectángulo_2891" data-name="Rectángulo 2891" width="4" height="1.6" transform="translate(8.791 12) rotate(-90)" fill="#6a6b75"/>
+  <g id="Grupo_7559" data-name="Grupo 7559" transform="translate(-164.707 -234)">
+    <rect id="Rectángulo_2888" data-name="Rectángulo 2888" width="1.6" height="1.6" transform="translate(179.507 235.707) rotate(30)" fill="#6a6b75"/>
+    <rect id="Rectángulo_2889" data-name="Rectángulo 2889" width="1.6" height="1.6" transform="translate(170.093 235.707) rotate(60)" fill="#6a6b75"/>
+  </g>
+</svg>

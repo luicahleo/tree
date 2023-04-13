@@ -1,0 +1,27 @@
+<svg id="ico-tipo-estructuras" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3103" data-name="Rectángulo 3103" width="20" height="20" fill="none"/>
+  <g id="Rectángulo_3104" data-name="Rectángulo 3104" transform="translate(3 13)" fill="none" stroke="#707070" stroke-width="1.6">
+    <path d="M0,0H5A0,0,0,0,1,5,0V4A2,2,0,0,1,3,6H2A2,2,0,0,1,0,4V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M1.6.8H3.4a.8.8,0,0,1,.8.8V4A1.2,1.2,0,0,1,3,5.2H2A1.2,1.2,0,0,1,.8,4V1.6A.8.8,0,0,1,1.6.8Z" fill="none"/>
+  </g>
+  <g id="Rectángulo_3107" data-name="Rectángulo 3107" transform="translate(3 4)" fill="none" stroke="#707070" stroke-width="1.6">
+    <rect width="5" height="7" stroke="none"/>
+    <rect x="0.8" y="0.8" width="3.4" height="5.4" fill="none"/>
+  </g>
+  <g id="Rectángulo_3108" data-name="Rectángulo 3108" transform="translate(1 10)" fill="none" stroke="#707070" stroke-width="1.6">
+    <rect width="18" height="4" rx="2" stroke="none"/>
+    <rect x="0.8" y="0.8" width="16.4" height="2.4" rx="1.2" fill="none"/>
+  </g>
+  <g id="Rectángulo_3109" data-name="Rectángulo 3109" transform="translate(1 1)" fill="none" stroke="#707070" stroke-width="1.6">
+    <rect width="18" height="4" rx="2" stroke="none"/>
+    <rect x="0.8" y="0.8" width="16.4" height="2.4" rx="1.2" fill="none"/>
+  </g>
+  <g id="Rectángulo_3105" data-name="Rectángulo 3105" transform="translate(12 13)" fill="none" stroke="#707070" stroke-width="1.6">
+    <path d="M0,0H5A0,0,0,0,1,5,0V4A2,2,0,0,1,3,6H2A2,2,0,0,1,0,4V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M1.6.8H3.4a.8.8,0,0,1,.8.8V4A1.2,1.2,0,0,1,3,5.2H2A1.2,1.2,0,0,1,.8,4V1.6A.8.8,0,0,1,1.6.8Z" fill="none"/>
+  </g>
+  <g id="Rectángulo_3106" data-name="Rectángulo 3106" transform="translate(12 4)" fill="none" stroke="#707070" stroke-width="1.6">
+    <rect width="5" height="7" stroke="none"/>
+    <rect x="0.8" y="0.8" width="3.4" height="5.4" fill="none"/>
+  </g>
+</svg>

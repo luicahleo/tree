@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #6a6b75;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        fill: #333;
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_4042" data-name="Group 4042" transform="translate(-97 636)">
+    <g id="Group_4041" data-name="Group 4041">
+      <path id="Path_2078" data-name="Path 2078" class="cls-1" d="M0,0H12V12H0Z" transform="translate(97 -636)"/>
+    </g>
+    <g id="Rectangle_1897" data-name="Rectangle 1897" class="cls-2" transform="translate(98 -634)">
+      <rect class="cls-4" width="10" height="10" rx="2"/>
+      <rect class="cls-1" x="0.75" y="0.75" width="8.5" height="8.5" rx="1.25"/>
+    </g>
+    <path id="Path_2077" data-name="Path 2077" class="cls-3" d="M0,0V4.093" transform="translate(101 -635.212)"/>
+    <path id="Path_2079" data-name="Path 2079" class="cls-3" d="M0,0V4.093" transform="translate(105 -635.212)"/>
+  </g>
+</svg>

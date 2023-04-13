@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnActivar.ToolTip" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="btnAgregarInformacionAdicional.ToolTip" xml:space="preserve">
+    <value>Add Additional Information</value>
+  </data>
+  <data name="btnAnadir.ToolTip" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnAreasOYM.ToolTip" xml:space="preserve">
+    <value>OYM Areas</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnDefecto.ToolTip" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="btnDescargar.ToolTip" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="btnEditar.ToolTip" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnEliminar.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnGuardar.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnRadio.ToolTip" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="btnRefrescar.ToolTip" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="chkAno.FieldLabel" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="chkdimIntegral.FieldLabel" xml:space="preserve">
+    <value>DIM Integral</value>
+  </data>
+  <data name="chkEstimado.FieldLabel" xml:space="preserve">
+    <value>Is it estimated?</value>
+  </data>
+  <data name="cmbClientes.EmptyText" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="cmbClientes.FieldLabel" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="cmbMunicipalidad.EmptyText" xml:space="preserve">
+    <value>Select Municipality</value>
+  </data>
+  <data name="cmbMunicipio.EmptyText" xml:space="preserve">
+    <value>Select Municipality</value>
+  </data>
+  <data name="cmbPais.EmptyText" xml:space="preserve">
+    <value>Select Country</value>
+  </data>
+  <data name="cmbPais.FieldLabel" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="cmbPartido.EmptyText" xml:space="preserve">
+    <value>Select Party</value>
+  </data>
+  <data name="cmbPartido.FieldLabel" xml:space="preserve">
+    <value>Party</value>
+  </data>
+  <data name="cmbProvincia.EmptyText" xml:space="preserve">
+    <value>Select Province</value>
+  </data>
+  <data name="cmbProvincia.FieldLabel" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="cmbRegion.EmptyText" xml:space="preserve">
+    <value>Select Region</value>
+  </data>
+  <data name="cmbRegionPais.EmptyText" xml:space="preserve">
+    <value>Select Region</value>
+  </data>
+  <data name="colAnio.Header" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="colCabeceraComercial.Header" xml:space="preserve">
+    <value>Commercial Header</value>
+  </data>
+  <data name="colCabeceraOYM.Header" xml:space="preserve">
+    <value>O&amp;M Header</value>
+  </data>
+  <data name="colCantidadHabitantes.Header" xml:space="preserve">
+    <value>Number of inhabitants</value>
+  </data>
+  <data name="colCodigo.Header" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="colCodigoEnacom.Header" xml:space="preserve">
+    <value>Enacom Code</value>
+  </data>
+  <data name="colCodigoMunicipalidad.Header" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="colDDN.Header" xml:space="preserve">
+    <value>DDN</value>
+  </data>
+  <data name="colDefecto.Header" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="colDescSubalm.Header" xml:space="preserve">
+    <value>DescSubalm</value>
+  </data>
+  <data name="colDimIntegral.Header" xml:space="preserve">
+    <value>DIM Integral</value>
+  </data>
+  <data name="colEsEstimado.Header" xml:space="preserve">
+    <value>Is it estimated?</value>
+  </data>
+  <data name="colLatitud.Header" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="colLocalidad.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="colLocalidadCentroPoblado.Header" xml:space="preserve">
+    <value>Town Centre Location</value>
+  </data>
+  <data name="colLongitud.Header" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="colNBI.Header" xml:space="preserve">
+    <value>NBI %.</value>
+  </data>
+  <data name="colRangoEtario.Header" xml:space="preserve">
+    <value>Etarian Range</value>
+  </data>
+  <data name="colRegionComercial.Header" xml:space="preserve">
+    <value>Commercial Region</value>
+  </data>
+  <data name="colSubalm.Header" xml:space="preserve">
+    <value>Subalm</value>
+  </data>
+  <data name="colSubregionComercial.Header" xml:space="preserve">
+    <value>Commercial Sub-Region</value>
+  </data>
+  <data name="columAreaOYM.Header" xml:space="preserve">
+    <value>AreaOYM</value>
+  </data>
+  <data name="columCodigo.Header" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="columOrdenacion.SortAscText" xml:space="preserve">
+    <value>Sort &amp; Increasing</value>
+  </data>
+  <data name="columOrdenacion.SortDescText" xml:space="preserve">
+    <value>Sort Decreasing</value>
+  </data>
+  <data name="columRadio.Header" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="colZIC.Header" xml:space="preserve">
+    <value>ZIC</value>
+  </data>
+  <data name="colZona.Header" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="grid.Header" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="grid.Title" xml:space="preserve">
+    <value>etiqgridTitle</value>
+  </data>
+  <data name="GridFilters.MenuFilterText" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="jsActivar" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="jsAgregar" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="jsAgregarInformacionAdicional" xml:space="preserve">
+    <value>Add Additional Information</value>
+  </data>
+  <data name="jsAnadir" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="jsAreasOYM" xml:space="preserve">
+    <value>OYM Areas</value>
+  </data>
+  <data name="jsAsignarRadio" xml:space="preserve">
+    <value>Assign Radius</value>
+  </data>
+  <data name="jsAsignarRadioSeleccionados" xml:space="preserve">
+    <value>Assign Selected Radius</value>
+  </data>
+  <data name="jsAsignarRadioTodos" xml:space="preserve">
+    <value>Assign Radius All</value>
+  </data>
+  <data name="jsAtencion" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="jsDefecto" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="jsDesactivar" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="jsEditar" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="jsEliminar" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="jsInfo" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="jsInformacionAdicional" xml:space="preserve">
+    <value>Additional Information</value>
+  </data>
+  <data name="jsMensajeEliminar" xml:space="preserve">
+    <value>Do you want to delete the selected record?</value>
+  </data>
+  <data name="jsMensajeProcesando" xml:space="preserve">
+    <value>Procesing</value>
+  </data>
+  <data name="jsPorDefecto" xml:space="preserve">
+    <value>Cannot delete a record by default</value>
+  </data>
+  <data name="jsRadio" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="jsTieneRegistros" xml:space="preserve">
+    <value>It cannot be deleted, it has associated records.</value>
+  </data>
+  <data name="jsTituloModulo" xml:space="preserve">
+    <value>Locality</value>
+  </data>
+  <data name="jsYaExiste" xml:space="preserve">
+    <value>A record with that name already exists.</value>
+  </data>
+  <data name="nbrLatitud.FieldLabel" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="nbrLongitud.FieldLabel" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="nbrNumeroHabitnates.FieldLabel" xml:space="preserve">
+    <value>Number of inhabitants</value>
+  </data>
+  <data name="nbrRangoEtario.FieldLabel" xml:space="preserve">
+    <value>Etarian Range</value>
+  </data>
+  <data name="numRadio.FieldLabel" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="PorcentajeNBI.FieldLabel" xml:space="preserve">
+    <value>NBI %.</value>
+  </data>
+  <data name="strEliminar" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="strMensanjeGenerico" xml:space="preserve">
+    <value>Failed to perform the operation</value>
+  </data>
+  <data name="Title.winGestion" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="txtCabeceraComercial.FieldLabel" xml:space="preserve">
+    <value>Commercial Header</value>
+  </data>
+  <data name="txtCabeceraOM.FieldLabel" xml:space="preserve">
+    <value>Header of O&amp;M</value>
+  </data>
+  <data name="txtCodigo.FieldLabel" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="txtcodigoenacom.FieldLabel" xml:space="preserve">
+    <value>Enacom code</value>
+  </data>
+  <data name="txtDDN.FieldLabel" xml:space="preserve">
+    <value>DDN</value>
+  </data>
+  <data name="txtDescSubalm.FieldLabel" xml:space="preserve">
+    <value>DescSubalm</value>
+  </data>
+  <data name="txtLocalidad.FieldLabel" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="txtLocalidadCentroPoblado.FieldLabel" xml:space="preserve">
+    <value>Town Center Town</value>
+  </data>
+  <data name="txtRegionComercial.FieldLabel" xml:space="preserve">
+    <value>Commercial Region</value>
+  </data>
+  <data name="txtSubalm.FieldLabel" xml:space="preserve">
+    <value>Subalm</value>
+  </data>
+  <data name="txtSubregionComercial.FieldLabel" xml:space="preserve">
+    <value>Commercial Subregion</value>
+  </data>
+  <data name="txtZIC.FieldLabel" xml:space="preserve">
+    <value>ZIC</value>
+  </data>
+  <data name="txtZona.FieldLabel" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="winAreasOYM.Title" xml:space="preserve">
+    <value>Áreas OYM</value>
+  </data>
+  <data name="winAreasOYMLibres.Title" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="winRadio.Title" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+</root>

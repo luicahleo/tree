@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAcceder.Text" xml:space="preserve">
+    <value>Acceder</value>
+  </data>
+  <data name="btnCambiar.Text" xml:space="preserve">
+    <value>Cambiar</value>
+  </data>
+  <data name="btnCerrarCodigo.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Iniciar Sesión</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="CambioIdioma" xml:space="preserve">
+    <value>Ha Cambiado el Idioma a {0}</value>
+  </data>
+  <data name="jsAccediendo" xml:space="preserve">
+    <value>Accediendo al Site Por favor espere...</value>
+  </data>
+  <data name="jsAvisos" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="jsInfo" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="jsMensajeProcesando" xml:space="preserve">
+    <value>Cargando</value>
+  </data>
+  <data name="lblClave.Text" xml:space="preserve">
+    <value>Clave:</value>
+  </data>
+  <data name="lblModulo.Text" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="lblOlvidadoClave.Text" xml:space="preserve">
+    <value>¿Ha olvidado su clave?</value>
+  </data>
+  <data name="lblUsuario.Text" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="lnkOlvidado.Text" xml:space="preserve">
+    <value>¿Has olvidado tu contraseña?</value>
+  </data>
+  <data name="srtIndicaciones" xml:space="preserve">
+    <value>Para cambiar su contraseña, pinche en el link inferior.
+Este link llevará a una página dónde deberá introducir la nueva clave que desee para su usuario.
+Una vez haya cambiado la contraseña, será redirigido al Login y podrá iniciar sesión normalmente con su nueva contraseña.
+
+URL:
+</value>
+  </data>
+  <data name="strAccesoDenegadoTitulo" xml:space="preserve">
+    <value>Acceso Denegado</value>
+  </data>
+  <data name="strCambioContraseña" xml:space="preserve">
+    <value>Recupere su contraseña.</value>
+  </data>
+  <data name="strClaveIncorrecta" xml:space="preserve">
+    <value>Clave Incorrecta</value>
+  </data>
+  <data name="strConexionCerrada" xml:space="preserve">
+    <value>Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. </value>
+  </data>
+  <data name="strDobleFactorCorrecto" xml:space="preserve">
+    <value>Doble Factor Correcto</value>
+  </data>
+  <data name="strDobleFactorIncorrecto" xml:space="preserve">
+    <value>Doble Factor Incorrecto</value>
+  </data>
+  <data name="strErrorIPContext" xml:space="preserve">
+    <value>No se ha podido obtener la IP del Context</value>
+  </data>
+  <data name="strImposibleAutentificar" xml:space="preserve">
+    <value>Imposible autentificar usuario</value>
+  </data>
+  <data name="strLicenciaNoActiva" xml:space="preserve">
+    <value>No dispone de ninguna licencia activa para este módulo</value>
+  </data>
+  <data name="strNoEsUser" xml:space="preserve">
+    <value>Este correo no pertenece a ningún perfil.</value>
+  </data>
+  <data name="strNoSePudoEnviar" xml:space="preserve">
+    <value>El mensaje no ha podido ser enviado.</value>
+  </data>
+  <data name="strPageTitle" xml:space="preserve">
+    <value>TREE</value>
+  </data>
+  <data name="strPrimerIntento" xml:space="preserve">
+    <value>Primer Intento</value>
+  </data>
+  <data name="strReviseCorreo" xml:space="preserve">
+    <value>Correo enviado con éxito. Revise su bandeja de entrada y siga las indicaciones.</value>
+  </data>
+  <data name="strSegundoIntento" xml:space="preserve">
+    <value>Segundo Intento</value>
+  </data>
+  <data name="strTercerIntento" xml:space="preserve">
+    <value>Tercer Intento</value>
+  </data>
+  <data name="strUsuarioCaducado" xml:space="preserve">
+    <value>El usuario está caducado, contacte con un administrador.</value>
+  </data>
+  <data name="strUsuarioInactivo" xml:space="preserve">
+    <value>Usuario desactivado. Comuníquese con su administrador para la reactivación.</value>
+  </data>
+  <data name="strUsuarioNoExiste" xml:space="preserve">
+    <value>El usuario no existe</value>
+  </data>
+  <data name="strUsuarioSinRoles" xml:space="preserve">
+    <value>Este usuario no tiene ningún rol asignado aún. Por favor, contacte con su administrador.</value>
+  </data>
+  <data name="txtClave.FieldLabel" xml:space="preserve">
+    <value>Clave</value>
+  </data>
+  <data name="txtCode.EmptyText" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="txtEmail.FieldLabel" xml:space="preserve">
+    <value>Introduzca su correo</value>
+  </data>
+  <data name="txtPassword.EmptyText" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="txtSeguridad.MaxLengthText" xml:space="preserve">
+    <value>Ha superado el máximo número de caracteres</value>
+  </data>
+  <data name="txtUsername.EmptyText" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="txtUserName.FieldLabel" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="txtUserName.Text" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="txtUsuario.FieldLabel" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="winCambiarClave.Title" xml:space="preserve">
+    <value>¿Olvidó su contraseña?</value>
+  </data>
+  <data name="winCodigo.Title" xml:space="preserve">
+    <value>Código de Seguridad</value>
+  </data>
+</root>

@@ -1,0 +1,202 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+@include layoutRes(100%, 50%, 60%, 40%, 40%, 30%);
+
+
+.grdPnColIcons {
+	@include grdPnColIcons;
+}
+
+.grJustOne {
+	@include grdPnColIcons;
+
+	.x-grid-cell-inner {
+		background-color: $blanco;
+		padding-top: 0;
+	}
+
+	.ul100w {
+		margin-top: 0;
+		width: 100%;
+		padding: 0;
+
+		h5 {
+			margin: 0;
+		}
+	}
+
+	li {
+		border-bottom: 1px solid $Gris1;
+	}
+
+	li:last-child {
+		border-bottom: 0;
+	}
+
+
+	li span {
+		align-self: center;
+		margin-right: .2rem;
+		line-height: 1.5rem;
+	}
+
+	li h5 {
+		align-self: center;
+		line-height: 1.5rem;
+		padding-bottom: 2px;
+	}
+
+
+	.autoH {
+		line-height: unset;
+	}
+
+
+	p {
+		margin: 0;
+	}
+}
+
+#grdTime {
+	@include grLiHeight(40px);
+
+}
+
+#spDays {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.5rem;
+	margin-left: .1rem;
+	align-self: center;
+	padding-bottom: 2px;
+}
+
+#grdPenalties {
+	@include grLiHeight(60px);
+
+	li {
+		margin-top: 1rem;
+	}
+	span{
+		margin-right: 1rem;
+	}
+}
+
+
+#liToOk {
+	position: relative;
+	padding-left: 18px;
+
+	&:before {
+		position: absolute;
+		content: url('../../ima/ico-pointGr.svg');
+		width: 14px;
+		left: 0px;
+		top: 12px;
+	}
+}
+
+#liToWarning {
+	position: relative;
+	padding-left: 18px;
+
+	&:before {
+		position: absolute;
+		content: url('../../ima/ico-pointYe.svg');
+		width: 14px;
+		left: 0px;
+		top: 12px;
+	}
+}
+
+#liTime {
+	position: relative;
+	padding-left: 22px;
+
+	span{
+		padding-top: 2px;
+	}
+
+	&:before {
+		position: absolute;
+		content: url('../../ima/ico-historial.svg');
+		width: 14px;
+		left: -2px;
+		top: 10px;
+	}
+}
+
+.radioGr {
+	.x-form-cb-label-default{
+		color: $colPpal;
+		font-weight: 700;
+	}
+}
+
+#ctRadioTime{
+	margin-right: 1rem !important;
+}
+
+#radDays {
+	margin-left: 1rem;
+}
+
+.progBar-wr {
+	width: 80px;
+	height: 14px;
+	background-color: $Gris1;
+	border-radius: 10px;
+
+	.progBar {
+		height: 14px;
+		border-radius: 10px;
+		background-color: $colPpal;
+	}
+}
+
+#grdProjects {
+	@include grid100Alto;
+}
+
+#grdPhases {
+	margin-bottom: 1rem;
+}
+
+#grdPenalties {
+	margin-top: 1rem;
+}
+
+.grBodyNoborder {
+	.x-grid-body {
+		border-width: 0px !important;
+	}
+}
+
+.ctCardSlider {
+	@include ctCardSlider;
+
+}
+
+.pageTitle{
+	margin-bottom: 1rem;
+	position:relative;
+}
+
+
+#pnNotifications {
+	//margin-top: 1rem;
+}
+
+.btnPrev, .btnNext {
+	@include btn-transp;
+	background-color: $Gris1 !important;
+	border-radius: 50px;
+	display: inline-block;
+	min-width: 30px !important;
+	width: 30px !important;
+	height: 30px;
+
+	.x-btn-tooltip {
+		pointer-events: unset;
+	}
+}

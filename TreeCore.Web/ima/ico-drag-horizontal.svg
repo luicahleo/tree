@@ -1,0 +1,22 @@
+<svg id="ico-drag-horizontal" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Polígono_26" data-name="Polígono 26" transform="translate(0 13) rotate(-90)" fill="#c6c6c6">
+    <path d="M 4.792900085449219 2.5 L 1.207100033760071 2.5 L 3 0.707099974155426 L 4.792900085449219 2.5 Z" stroke="none"/>
+    <path d="M 3 1.414219975471497 L 2.414220094680786 2 L 3.585779905319214 2 L 3 1.414219975471497 M 3 0 L 6 3 L 0 3 L 3 0 Z" stroke="none" fill="#c6c6c6"/>
+  </g>
+  <g id="ico-dra-horizontal">
+    <rect id="Rectángulo_3314" data-name="Rectángulo 3314" width="20" height="20" fill="none"/>
+    <path id="Polígono_25" data-name="Polígono 25" d="M3,0,6,3H0Z" transform="translate(20 7) rotate(90)" fill="#c6c6c6"/>
+    <g id="Rectángulo_3315" data-name="Rectángulo 3315" transform="translate(5 5)" fill="#fff" stroke="#c6c6c6" stroke-width="1">
+      <rect width="10" height="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="1" fill="none"/>
+    </g>
+    <g id="Rectángulo_3316" data-name="Rectángulo 3316" transform="translate(5 9)" fill="#fff" stroke="#c6c6c6" stroke-width="1">
+      <rect width="10" height="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="1" fill="none"/>
+    </g>
+    <g id="Rectángulo_3317" data-name="Rectángulo 3317" transform="translate(5 13)" fill="#fff" stroke="#c6c6c6" stroke-width="1">
+      <rect width="10" height="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="1" fill="none"/>
+    </g>
+  </g>
+</svg>

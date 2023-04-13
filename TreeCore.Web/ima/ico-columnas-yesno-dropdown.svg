@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="20" viewBox="0 0 33 20">
+  <g id="Grupo_7094" data-name="Grupo 7094" transform="translate(-98 -213)">
+    <g id="Componente_1017" data-name="Componente 1017" transform="translate(98 213)">
+      <rect id="Rectángulo_339" data-name="Rectángulo 339" width="20" height="20" fill="none"/>
+      <g id="Grupo_1789" data-name="Grupo 1789" transform="translate(-412 -226)">
+        <line id="Línea_351" data-name="Línea 351" x2="7.5" transform="translate(413 241.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+        <line id="Línea_353" data-name="Línea 353" x2="7.5" transform="translate(424 239)" fill="none" stroke="#707070" stroke-width="1.5"/>
+        <line id="Línea_355" data-name="Línea 355" x2="7.5" transform="translate(424 242.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+        <line id="Línea_352" data-name="Línea 352" x2="7.5" transform="translate(413 237.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+        <line id="Línea_354" data-name="Línea 354" x2="7.5" transform="translate(424 235.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+        <g id="Grupo_1788" data-name="Grupo 1788" transform="translate(31.999 -37.001)">
+          <line id="Línea_331" data-name="Línea 331" y1="0.428" x2="5.228" transform="translate(382.682 264) rotate(45)" fill="none" stroke="#707070" stroke-width="1.5"/>
+          <line id="Línea_332" data-name="Línea 332" x2="5.228" y2="0.428" transform="translate(386.379 264.303) rotate(135)" fill="none" stroke="#707070" stroke-width="1.5"/>
+        </g>
+        <g id="Grupo_1787" data-name="Grupo 1787" transform="translate(-138.495 -12.078)">
+          <path id="Trazado_1314" data-name="Trazado 1314" d="M.393.5,2.975,2.965" transform="translate(563.102 240.114)" fill="none" stroke="#707070" stroke-width="1.5"/>
+          <line id="Línea_334" data-name="Línea 334" x1="3" y2="3.067" transform="translate(565.5 239.5)" fill="none" stroke="#707070" stroke-width="1.5"/>
+        </g>
+        <g id="Rectángulo_340" data-name="Rectángulo 340" transform="translate(412 232)" fill="none" stroke="#707070" stroke-width="1.5">
+          <rect width="9" height="14" stroke="none"/>
+          <rect x="0.75" y="0.75" width="7.5" height="12.5" fill="none"/>
+        </g>
+        <g id="Rectángulo_341" data-name="Rectángulo 341" transform="translate(423 232)" fill="none" stroke="#707070" stroke-width="1.5">
+          <rect width="9" height="14" stroke="none"/>
+          <rect x="0.75" y="0.75" width="7.5" height="12.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Polígono_7" data-name="Polígono 7" transform="translate(131 227) rotate(180)" fill="#6a6b75">
+      <path d="M 7.065736293792725 5.5 L 0.9342631101608276 5.5 L 3.999999761581421 0.9013950228691101 L 7.065736293792725 5.5 Z" stroke="none"/>
+      <path d="M 3.999999761581421 1.802774906158447 L 1.868516445159912 5 L 6.13148307800293 5 L 3.999999761581421 1.802774906158447 M 3.999999761581421 0 L 8 6 L -4.76837158203125e-07 6 L 3.999999761581421 0 Z" stroke="none" fill="#6a6b75"/>
+    </g>
+  </g>
+</svg>

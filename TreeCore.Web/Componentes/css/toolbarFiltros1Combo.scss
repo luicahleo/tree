@@ -1,0 +1,141 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+/*#region COMPORTAMIENTO FLOAT DEFINIDO CON CORTES SEGUN ITEMS (2COMBOS) */
+
+.txtSearchTBCls {
+    min-width: 275px !important;
+}
+
+#toolbarFiltros_wrapFilterCmbNBtns {
+    max-width: 277px ;
+}
+
+.UnsetFloatR {
+    position: unset !important;
+    float: right !important;
+}
+
+
+
+@media (max-width:477px) { //Resize 2º corte
+
+    .UnsetFloatR {
+        float: left !important;
+        margin-top: 8px !important;
+    }
+
+    .txtSearchTBCls {
+        min-width: 275px !important;
+    }
+
+    .cmbProyectosF {
+        margin-top: 8px !important;
+        min-width: 260px !important;
+    }
+
+
+    /*#region ESTIRAR AL BORDE EN MIN RES */
+
+    .txtSearchTBCls {
+        width: calc(100% - 8px) !important;
+        min-width: 275px !important;
+    }
+
+    .cmbProyectosF {
+        width: 100% !important;
+    }
+
+    .wrapFilterCmbNBtns {
+        width: 100% !important;
+        min-width: 260px !important;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns-innerCt {
+        width: 100% !important;
+        min-width: 260px !important;
+    }
+
+    .ClscmbMisFiltros {
+        width: calc(100% - 85px) !important;
+        min-width: 170px !important;
+        padding-right: 6px;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns-targetEl {
+        width: 100% !important;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns {
+        max-width: none !important;
+    }
+
+    /*#endregion */
+  
+}
+
+@media (max-width:387px) { //Resize 3º corte
+    .UnsetFloatR {
+        float: left !important;
+        margin-top: 8px !important;
+    }
+
+
+
+}
+
+/*#endregion */
+
+
+/*#region DEFINICION PARA 1 COMBO, HIDDEN PROYECTOS ACTIVAR PARA 1 SOLO COMBO */
+
+
+@media (max-width:576px) { //Resize 1º corte (PARA 1 COMBO)
+
+    .UnsetFloatR {
+        float: left !important;
+        margin-top: 8px !important;
+    }
+
+    #toolbarFiltros_ContButtonsd {
+        width: 100% !important;
+    }
+    #toolbarFiltros_ContButtonsd-outerCt {
+        width: 100% !important;
+    }
+    #toolbarFiltros_ContButtonsd-innerCt {
+        width: 100% !important;
+    }
+
+    .txtSearchTBCls {
+        width: calc(100% - 8px) !important;
+        min-width: 275px !important;
+    }
+
+    .wrapFilterCmbNBtns {
+        width: calc(100% - 8px) !important;
+        min-width: 275px !important;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns-innerCt {
+        width: 100% !important;
+        min-width: 260px !important;
+    }
+
+    .ClscmbMisFiltros {
+        width: calc(100% - 85px) !important;
+        min-width: 170px !important;
+        padding-right: 6px;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns-targetEl {
+        width: 100% !important;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns {
+        max-width: none !important;
+    }
+}
+
+
+/*#endregion */

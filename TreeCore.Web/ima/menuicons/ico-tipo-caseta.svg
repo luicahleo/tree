@@ -1,0 +1,17 @@
+<svg id="ico-tipo-caseta" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_323" data-name="Rectángulo 323" width="20" height="20" fill="none"/>
+  <g id="Grupo_1741" data-name="Grupo 1741" transform="translate(-4304 -85)">
+    <g id="Rectángulo_139" data-name="Rectángulo 139" transform="translate(4307 94)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="14" height="11" stroke="none"/>
+      <rect x="0.75" y="0.75" width="12.5" height="9.5" fill="none"/>
+    </g>
+    <g id="Trazado_976" data-name="Trazado 976" transform="translate(4307 86)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0-1H14L17,9.457H-3Z" stroke="none"/>
+      <path d="M 1.130162239074707 0.499997615814209 L -1.009145736694336 7.956697940826416 L 15.00914573669434 7.956697940826416 L 12.86983776092529 0.499997615814209 L 1.130162239074707 0.499997615814209 M 0 -1.000001907348633 L 14 -1.000001907348633 L 17 9.456697463989258 L -3 9.456697463989258 L 0 -1.000001907348633 Z" stroke="none" fill="#666"/>
+    </g>
+    <line id="Línea_189" data-name="Línea 189" x1="12" transform="translate(4308 100)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_979" data-name="Trazado 979" d="M0,.442V9" transform="translate(4314 85)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_977" data-name="Trazado 977" d="M.087.487-1.188,9.668" transform="translate(4310 85)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_978" data-name="Trazado 978" d="M-.906.547C-.92.663,1.03,9.829,1.03,9.829" transform="translate(4318 85)" fill="none" stroke="#666" stroke-width="1.5"/>
+  </g>
+</svg>

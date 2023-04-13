@@ -1,0 +1,67 @@
+[
+  {
+    "outputFile": "CSS/tCore.css",
+    "inputFile": "CSS/tCore.scss",
+    "sourceMap": false
+  },  
+  {
+    "outputFile": "Componentes/css/windowModalForm.css",
+    "inputFile": "Componentes/css/windowModalForm.scss",
+    "sourceMap": false
+  },  
+  {
+    "outputFile": "Componentes/css/toolbarFiltros1Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros1Combo.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/styleMenu.css",
+    "inputFile": "Componentes/css/styleMenu.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/GridEmplazamientos.css",
+    "inputFile": "Componentes/css/GridEmplazamientos.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/Header.css",
+    "inputFile": "Componentes/css/Header.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/toolbarFiltros2Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros2Combo.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/toolbarFiltros4Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros4Combo.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/toolbarFiltros3Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros3Combo.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/FormEmplazamientos.css",
+    "inputFile": "Componentes/css/FormEmplazamientos.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/FormContactos.css",
+    "inputFile": "Componentes/css/FormContactos.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "Componentes/css/geoposicion.css",
+    "inputFile": "Componentes/css/geoposicion.scss",
+    "sourceMap": false
+  },
+  {
+    "outputFile": "CSS/icons.css",
+    "inputFile": "CSS/icons.scss",
+    "sourceMap": false
+  }
+]

@@ -1,0 +1,15 @@
+<svg id="ico-planificacioes" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_253" data-name="Rectángulo 253" width="20" height="20" fill="none"/>
+  <g id="Grupo_1666" data-name="Grupo 1666" transform="translate(-1579 -205)">
+    <g id="Rectángulo_75" data-name="Rectángulo 75" transform="translate(1581 205)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="16" height="20" stroke="none"/>
+      <rect x="0.75" y="0.75" width="14.5" height="18.5" fill="none"/>
+    </g>
+    <path id="Trazado_718" data-name="Trazado 718" d="M1785.521,207.464l.952,1.044,1.048-2" transform="translate(-200.521 2.492)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_719" data-name="Trazado 719" d="M1785.521,207.464l.952,1.044,1.048-2" transform="translate(-200.521 7.492)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_720" data-name="Trazado 720" d="M1785.521,207.464l.952,1.044,1.048-2" transform="translate(-200.521 12.492)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Línea_65" data-name="Línea 65" x2="4" transform="translate(1590 210)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_66" data-name="Línea 66" x2="4" transform="translate(1590 215)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_67" data-name="Línea 67" x2="4" transform="translate(1590 220)" fill="none" stroke="#666" stroke-width="1.5"/>
+  </g>
+</svg>

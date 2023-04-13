@@ -1,0 +1,1 @@
+<%@ WebHandler Language="C#" CodeBehind="SeguimientoDocumentos.ashx.cs" Class="TreeCore.PaginasComunes.SeguimientosDocumentosFileUpload" %>

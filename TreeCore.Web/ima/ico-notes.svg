@@ -1,0 +1,14 @@
+<svg id="ico_notes" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_1610" data-name="Rectángulo 1610" width="20" height="20" fill="none"/>
+  <rect id="Rectángulo_274" data-name="Rectángulo 274" width="20" height="20" fill="none"/>
+  <line id="Línea_359" data-name="Línea 359" x2="8" transform="translate(6 10.567)" fill="none" stroke="#6a6b75" stroke-width="1.6"/>
+  <line id="Línea_362" data-name="Línea 362" x2="8" transform="translate(6 7.567)" fill="none" stroke="#6a6b75" stroke-width="1.6"/>
+  <line id="Línea_361" data-name="Línea 361" x2="8" transform="translate(6 13.567)" fill="none" stroke="#6a6b75" stroke-width="1.6"/>
+  <g id="Rectángulo_345" data-name="Rectángulo 345" transform="translate(2 1)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6">
+    <rect width="16" height="18.333" stroke="none"/>
+    <rect x="0.8" y="0.8" width="14.4" height="16.733" fill="none"/>
+  </g>
+  <line id="Línea_630" data-name="Línea 630" y1="4" transform="translate(7)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_631" data-name="Línea 631" y1="4" transform="translate(10)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_632" data-name="Línea 632" y1="4" transform="translate(13)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="ico-licencias" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_332" data-name="Rectángulo 332" width="20" height="20" fill="none"/>
+  <path id="Trazado_45" data-name="Trazado 45" d="M141.9,590.019s-.033-3.776,0-3.816c0-3.015-2.825-2.454-3.467-1.237" transform="translate(-136.899 -581.991)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_11" data-name="Línea 11" x2="2.132" transform="translate(7.368 8.502)" fill="none" stroke="#666" stroke-width="1"/>
+  <line id="Línea_321" data-name="Línea 321" x2="2.132" transform="translate(7.368 11.502)" fill="none" stroke="#666" stroke-width="1"/>
+  <line id="Línea_12" data-name="Línea 12" x2="3.132" transform="translate(7.368 5.503)" fill="none" stroke="#666" stroke-width="1"/>
+  <g id="Elipse_36" data-name="Elipse 36" transform="translate(9 6)" fill="none" stroke="#666" stroke-width="1.5">
+    <circle cx="4" cy="4" r="4" stroke="none"/>
+    <circle cx="4" cy="4" r="3.25" fill="none"/>
+  </g>
+  <path id="Trazado_1300" data-name="Trazado 1300" d="M2413.857-406.309s-2.151.059-4.605,0-2.084-3.365-2.084-3.365v-7.356H2403.6v-3.582s-.1-1.673,3.237-1.673,10.594.008,10.7,0c1.545,0,3.061-.022,3.061,2.716s.006,9.985,0,9.894c0,2.146-.574,3.365-2.747,3.365" transform="translate(-2402.168 424)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <path id="Trazado_1301" data-name="Trazado 1301" d="M1792.876,219.714v6.012l2-2.514,2,2.514v-6.012" transform="translate(-1781.876 -206.726)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

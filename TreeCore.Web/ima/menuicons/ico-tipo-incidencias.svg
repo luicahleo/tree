@@ -1,0 +1,12 @@
+<svg id="ico-tipo-incidencias" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_206" data-name="Rectángulo 206" width="20" height="20" fill="none"/>
+  <path id="Trazado_1299" data-name="Trazado 1299" d="M0,0H1.708" transform="translate(6 10)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_168" data-name="Línea 168" x2="2" transform="translate(6 14)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1298" data-name="Trazado 1298" d="M0,0H5.29" transform="translate(6 6)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <g id="Elipse_75" data-name="Elipse 75" transform="translate(7 5)" fill="none" stroke="#666" stroke-width="1.5">
+    <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+    <circle cx="6.5" cy="6.5" r="5.75" fill="none"/>
+  </g>
+  <path id="Trazado_907" data-name="Trazado 907" d="M.624-6.323a.6.6,0,0,1,.183-.444.62.62,0,0,1,.457-.183.607.607,0,0,1,.445.187.6.6,0,0,1,.187.44.6.6,0,0,1-.187.44.607.607,0,0,1-.445.187.617.617,0,0,1-.453-.187A.6.6,0,0,1,.624-6.323ZM.649-11.2a.437.437,0,0,1,.17-.362.684.684,0,0,1,.436-.134.67.67,0,0,1,.428.134.437.437,0,0,1,.17.362q0,.488-.058,1.669T1.738-7.87a.294.294,0,0,1-.154.265.621.621,0,0,1-.328.094q-.491,0-.491-.358,0-.48-.058-1.661T.649-11.2Z" transform="translate(12.376 20.696)" fill="#666"/>
+  <path id="Trazado_1297" data-name="Trazado 1297" d="M2059.537,115.047v-6.4h-15v18h15v-3.2" transform="translate(-2042 -107.646)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

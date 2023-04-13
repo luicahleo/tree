@@ -1,0 +1,23 @@
+<svg id="ico-categories" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_185" data-name="Rectángulo 185" width="20" height="20" fill="none"/>
+  <g id="Grupo_1564" data-name="Grupo 1564" transform="translate(-533 -144)">
+    <g id="Elipse_5" data-name="Elipse 5" transform="translate(540 144)" fill="none" stroke="#6a6b75" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <g id="Elipse_6" data-name="Elipse 6" transform="translate(540 158)" fill="none" stroke="#6a6b75" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <g id="Elipse_7" data-name="Elipse 7" transform="translate(533 158)" fill="none" stroke="#6a6b75" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <g id="Elipse_8" data-name="Elipse 8" transform="translate(547 158)" fill="none" stroke="#6a6b75" stroke-width="1.5">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.25" fill="none"/>
+    </g>
+    <path id="Trazado_93" data-name="Trazado 93" d="M383,185.349v9.759" transform="translate(160 -36)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    <path id="Trazado_94" data-name="Trazado 94" d="M376,194.276v-2.69c0-1.168.578-1.543,1.69-1.565s9.638,0,10.666,0a1.376,1.376,0,0,1,1.565,1.565v3.3" transform="translate(160 -36)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  </g>
+</svg>

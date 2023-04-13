@@ -1,0 +1,12 @@
+<svg id="ic_modulos_Adquisiciones" xmlns="http://www.w3.org/2000/svg" width="74" height="58" viewBox="0 0 74 58">
+  <g id="Grupo_1060" data-name="Grupo 1060" transform="translate(-234 -97)">
+    <path id="Trazado_50" data-name="Trazado 50" d="M-615.461,364.268l10.175,9.881" transform="translate(904.286 -245.979)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-width="2"/>
+    <path id="Trazado_51" data-name="Trazado 51" d="M-655.955,378.344l27.625-29.365,5.488,4.905" transform="translate(898.955 -249.978)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Trazado_52" data-name="Trazado 52" d="M-594.9,388.125v28.588s0,4.249,3.851,4.249,29.622.507,34.234,0,4.386-5.05,4.386-5.05V389.477" transform="translate(845.166 -267.187)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Intersección_1" data-name="Intersección 1" d="M0,7.044V0H13.413V7.044A6.706,6.706,0,0,1,0,7.044Z" transform="translate(277.406 148.5) rotate(180)" fill="#58e5a9"/>
+    <path id="Trazado_56" data-name="Trazado 56" d="M1617.663,113.235l12.125-11.917,12.7,11.917" transform="translate(-1359.033 13.265)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <path id="Trazado_57" data-name="Trazado 57" d="M-616,349.472v12.009" transform="translate(899.425 -245.025)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-width="3"/>
+    <path id="Trazado_58" data-name="Trazado 58" d="M0,0V13.456" transform="translate(290.153 110.452) rotate(90)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-width="3"/>
+  </g>
+  <rect id="Rectángulo_507" data-name="Rectángulo 507" width="74" height="58" fill="none"/>
+</svg>

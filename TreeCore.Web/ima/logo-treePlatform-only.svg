@@ -1,0 +1,15 @@
+<svg id="ico-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.25" height="14.937" viewBox="0 0 26.25 14.937">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_3" data-name="Trazado 3" d="M0-96.833H26.25V-81.9H0Z" transform="translate(0 96.833)" fill="#062743"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_3" data-name="Grupo 3" clip-path="url(#clip-path)">
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(10.583)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M0-81.9v-7.017c0-3.108,2.219-7.92,7.771-7.92,4.987,0,7.9,3.86,7.9,7.018,0,4.912-2.8,7.919-7.425,7.919Z" transform="translate(0 96.833)" fill="#062743"/>
+    </g>
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(0 5.313)">
+      <path id="Trazado_2" data-name="Trazado 2" d="M-52.942-52.766v-4.521a4.924,4.924,0,0,0-4.911-5.1,4.822,4.822,0,0,0-5.039,4.522c0,3.165,1.85,5.1,4.832,5.1Z" transform="translate(62.892 62.39)" fill="#062743"/>
+    </g>
+  </g>
+</svg>

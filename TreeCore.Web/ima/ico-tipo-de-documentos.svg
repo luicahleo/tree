@@ -1,0 +1,13 @@
+<svg id="ico-tipo-de-documentos" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_328" data-name="Rectángulo 328" width="20" height="20" fill="none"/>
+  <g id="Grupo_1747" data-name="Grupo 1747" transform="translate(-3641.095 -320)">
+    <g id="Rectángulo_125" data-name="Rectángulo 125" transform="translate(3645 324)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="14" height="16" stroke="none"/>
+      <rect x="0.75" y="0.75" width="12.5" height="14.5" fill="none"/>
+    </g>
+    <line id="Línea_164" data-name="Línea 164" x2="6" transform="translate(3649 332)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_165" data-name="Línea 165" x2="6" transform="translate(3649 335)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_166" data-name="Línea 166" x2="6" transform="translate(3649 329)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Trazado_905" data-name="Trazado 905" d="M3180.095,242.617V226.435h14.7" transform="translate(463 95)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

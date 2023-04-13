@@ -1,0 +1,10 @@
+<svg id="Componente_3680" data-name="Componente 3680" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3099" data-name="Rectángulo 3099" width="20" height="20" fill="none"/>
+  <path id="Rectángulo_3100" data-name="Rectángulo 3100" d="M.917,0H5.928a.917.917,0,0,1,.917.917V4.343a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V.917A.917.917,0,0,1,.917,0Z" transform="translate(10.11 3.833)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.6"/>
+  <rect id="Rectángulo_3101" data-name="Rectángulo 3101" width="10.061" height="0.055" transform="translate(8.653 8.781)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.6"/>
+  <path id="Trazado_2754" data-name="Trazado 2754" d="M283.036,482.441a4.06,4.06,0,0,1,4.06-4.06" transform="translate(-280.942 -475.187)" fill="none" stroke="#666" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <path id="Trazado_2755" data-name="Trazado 2755" d="M286.156,476.374l2.6,1.554-1.554,2.6" transform="translate(-280.942 -475.187)" fill="none" stroke="#666" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <path id="Trazado_2756" data-name="Trazado 2756" d="M298.8,486.417a4.06,4.06,0,0,1-4.06,4.059" transform="translate(-280.942 -475.187)" fill="none" stroke="#666" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <path id="Trazado_2757" data-name="Trazado 2757" d="M295.682,492.483l-2.6-1.554,1.554-2.6" transform="translate(-280.942 -475.187)" fill="none" stroke="#666" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <circle id="Elipse_560" data-name="Elipse 560" cx="4.007" cy="4.007" r="4.007" transform="translate(1.859 9.212)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.6"/>
+</svg>

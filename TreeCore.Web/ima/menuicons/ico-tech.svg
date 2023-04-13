@@ -1,0 +1,27 @@
+<svg id="ico-tech" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_317" data-name="Rectángulo 317" width="20" height="20" fill="none"/>
+  <g id="Grupo_1728" data-name="Grupo 1728" transform="translate(-1838.599 -479.598)">
+    <g id="Grupo_1128" data-name="Grupo 1128" transform="translate(1840 481)">
+      <g id="Rectángulo_76" data-name="Rectángulo 76" transform="translate(2.58 2.579)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        <rect width="12.038" height="12.038" stroke="none"/>
+        <rect x="0.75" y="0.75" width="10.538" height="10.538" fill="none"/>
+      </g>
+      <line id="Línea_68" data-name="Línea 68" y1="2.579" transform="translate(5.159 0)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_79" data-name="Línea 79" y1="2.579" transform="translate(5.159 14.617)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_69" data-name="Línea 69" y1="2.579" transform="translate(8.599 0)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_78" data-name="Línea 78" y1="2.579" transform="translate(8.599 14.617)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_70" data-name="Línea 70" y1="2.579" transform="translate(12.038 0)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_77" data-name="Línea 77" y1="2.579" transform="translate(12.038 14.617)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_71" data-name="Línea 71" x1="2.58" transform="translate(14.617 6.019)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_74" data-name="Línea 74" x1="2.58" transform="translate(0 6.019)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Trazado_727" data-name="Trazado 727" d="M2.58,0H0" transform="translate(14.617 8.598)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_75" data-name="Línea 75" x1="2.58" transform="translate(0 8.598)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_73" data-name="Línea 73" x1="2.58" transform="translate(14.617 11.178)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_76" data-name="Línea 76" x1="2.58" transform="translate(0 11.178)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <g id="Rectángulo_77" data-name="Rectángulo 77" transform="translate(6.019 6.019)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        <rect width="5.159" height="5.159" stroke="none"/>
+        <rect x="0.75" y="0.75" width="3.659" height="3.659" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

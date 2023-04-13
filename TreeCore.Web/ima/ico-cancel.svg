@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Grupo_6325" data-name="Grupo 6325" transform="translate(-838 -589)">
+    <g id="ico-noOk_1" data-name="ico-noOk – 1" transform="translate(838 589)">
+      <g id="Elipse_172" data-name="Elipse 172" fill="#ef5970" stroke="#ce475c" stroke-width="1.5">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7.25" fill="none"/>
+      </g>
+      <g id="Grupo_2376" data-name="Grupo 2376" transform="translate(-413 -738)">
+        <line id="Línea_334" data-name="Línea 334" x2="4" y2="4" transform="translate(419 744)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <line id="Línea_335" data-name="Línea 335" x2="4" y2="4" transform="translate(423 744) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Grupo_6324" data-name="Grupo 6324" transform="translate(425 -149)">
+      <line id="Línea_334-2" data-name="Línea 334" x2="4" y2="4" transform="translate(419 744)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Línea_335-2" data-name="Línea 335" x2="4" y2="4" transform="translate(423 744) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

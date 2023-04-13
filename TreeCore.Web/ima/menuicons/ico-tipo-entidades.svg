@@ -1,0 +1,21 @@
+<svg id="ico-tipo-entidades" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="Trazado_2773" data-name="Trazado 2773" d="M0,0H20V20H0Z" fill="none"/>
+  <circle id="Elipse_572" data-name="Elipse 572" cx="1.876" cy="1.876" r="1.876" transform="translate(6.65 2.124) rotate(90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  <g id="Rectángulo_3125" data-name="Rectángulo 3125" transform="translate(11 3)" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="6" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="5" height="1" fill="none"/>
+  </g>
+  <g id="Rectángulo_3126" data-name="Rectángulo 3126" transform="translate(11 9)" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="6" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="5" height="1" fill="none"/>
+  </g>
+  <g id="Rectángulo_3127" data-name="Rectángulo 3127" transform="translate(11 15)" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="6" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="5" height="1" fill="none"/>
+  </g>
+  <rect id="Rectángulo_3128" data-name="Rectángulo 3128" width="3" height="3" transform="translate(3.274 8.5)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1.5"/>
+  <g id="Polígono_23" data-name="Polígono 23" transform="translate(3 15)" fill="none" stroke-linejoin="round">
+    <path d="M1.5,0,3,2H0Z" stroke="none"/>
+    <path d="M 1.5 0 L 0 2 L 3 2 L 1.5 0 M 1.5 -1.5 C 1.972139954566956 -1.5 2.416719913482666 -1.2777099609375 2.700000047683716 -0.9000000953674316 L 4.199999809265137 1.100000023841858 C 4.540889739990234 1.554530024528503 4.595729827880859 2.16264009475708 4.341639995574951 2.670819997787476 C 4.087550163269043 3.178999900817871 3.568160057067871 3.5 3 3.5 L 0 3.5 C -0.5681600570678711 3.5 -1.087550163269043 3.178999900817871 -1.341639995574951 2.670819997787476 C -1.595729827880859 2.16264009475708 -1.540890216827393 1.554530024528503 -1.199999809265137 1.100000023841858 L 0.2999999523162842 -0.9000000953674316 C 0.583280086517334 -1.2777099609375 1.027860045433044 -1.5 1.5 -1.5 Z" stroke="none" fill="#707070"/>
+  </g>
+</svg>

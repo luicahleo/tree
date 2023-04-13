@@ -1,0 +1,585 @@
+﻿/*@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+
+//LAYOUT
+
+
+#vwInicio-innerCt {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#pnMainCt {
+	padding: 1.5rem;
+	flex: 1 0 800px;
+	height: 100vh;
+
+	.x-panel-body {
+		background-color: $colBg;
+	}
+}
+
+#pnBlkTop-innerCt{
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+#pnFav {
+	height: 166px;
+	width: 960px;
+
+	.x-panel-body {
+		background-color: $colBg;
+	}
+}
+
+@media only screen and (max-width: 1527px) {
+	#pnFav {
+		width: 714px;
+	}
+}
+
+@media only screen and (max-width: 1224px){
+	#pnFav{
+		width: 480px;
+	}
+}
+
+
+
+#pnChart{
+	margin-left: 1rem;
+}
+
+#pnAsideR {
+	position: relative;
+	padding: 1rem .8rem;
+	height: 100vh !important;
+	width: 340px;
+	flex: 0 0 340px;
+	background-color: $Gris1;
+
+	.x-panel-body {
+		height: 100vh !important;
+		background-color: $Gris1;
+	}
+}
+
+@media only screen and (max-width: 1224px) {
+	#pnMainCt {
+		flex: 1 0 600px;
+		}
+		
+		#pnAsideR {
+			width: 280px;
+		}
+	}
+
+
+#frmEditNot {
+	position: absolute !important;
+	top: 2.6rem;
+	z-index: 999;
+	width: 99%;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 1px 2px 8px $Gris3;
+
+	.x-panel-body {
+		background-color: $blanco;
+	}
+}
+
+
+// FIN LAYOUT
+//MIS FAVORITOS
+#dvHeadFav {
+	height: 25px;
+	background-color: $colBg;
+	display: flex;
+	justify-content: space-between;
+}
+
+#lblMyFav {
+	display: block;
+	color: $colPpal;
+	font-weight: 700;
+}
+
+#ctBtnFav{
+	width: 50px;
+}
+
+#btnPrev, #btnNext {
+	@include btn-transp;
+	background-color: $Gris1 !important;
+	border-radius: 50px;
+	display: inline-block;
+
+	&:hover {
+		background-color: darken($Gris1, 6) !important;
+	}
+}
+
+#btnPrev{
+	margin-right: .3rem;
+}
+#btnPrev.x-btn-default-small, #btnNext.x-btn-default-small {
+	padding: 2px 2px 2px 2px;
+}
+
+//----Slider
+
+#ulFav {
+	padding-left: 0;
+	height: 120px;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+	transition: margin ease-in-out .6s;
+}
+
+.blkFavorite{
+	width: 235px;
+	margin-right: .3rem;
+}
+
+.labelBlkFav{
+	font-size: 14px;
+	font-weight: 700;
+	color: $GrisNegro;
+	margin-left: .8rem;
+	margin-bottom: .3rem;
+	display:block;
+}
+
+.favSlider {
+	background-color: $blanco;
+	width: 235px;
+	padding: .5rem;
+	height: 72px;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+
+
+	ul {
+		padding: 0;
+	}
+
+	.liCtSlide {
+		transition: margin ease-in-out .6s;
+	}
+
+	.ulSlide {
+		margin-right: .5rem;
+	}
+
+
+	.liFav {
+		width: 220px;
+		flex-shrink: 0;
+	}
+}
+
+.starFav {
+	display: none;
+	@include btn-transp;
+	@include bgBtn-ico;
+	width: 20px;
+	height: 20px;
+	background-image: url('../../../ima/ico-star-filled.svg');
+	background-repeat: no-repeat;
+
+	&:hover {
+		background-image: url('../../../ima/ico-star-filled.svg') !important;
+	}
+}
+
+.liFav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .4rem;
+	padding: 2px;
+	border-radius: 3px;
+
+	&:hover {
+		background-color: $colBg;
+		cursor: pointer;
+	
+		.starFav{
+			display:block !important;
+		}
+		
+	}
+}
+
+.liFav:last-child {
+	margin-bottom: 0;
+}
+
+.lnkFav {
+	text-decoration: none;
+	color: $GrisNegro;
+	font-size: 13px;
+	font-weight: 700;
+	
+	
+}
+
+
+
+.navDot {
+	display: flex;
+	width: max-content;
+	margin:.5rem auto 0 auto;
+
+	.btnDot {
+		margin-right: .3rem;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: $colPpal;
+		border-color: $colPpal;
+
+		&:hover {
+			background-color: darken($colPpal,10);
+			border-color: darken($colPpal,10);
+		}
+	}
+
+	.btnDot-activo {
+		background-color: $Gris2;
+		border-color: $Gris2;
+		pointer-events: none;
+		cursor: not-allowed;
+	}
+}
+
+.navDot div:last-child a {
+	margin-right: 0;
+}
+
+.btnDot.x-btn-default-small {
+	padding: 0 !important;
+}
+
+
+//FIN MIS FAVORITOS
+
+//CHART PERCENT GRAFICO TAREAS COMPLETADAS COMPLETED TASK
+
+#pnChart {
+	width: 160px;
+	background-color: $Gris1;
+
+	
+}
+
+#dvChart {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: .4rem auto .4rem auto;
+}
+
+#lblChart span{
+	display: block;
+	text-align: center;
+	color: $colPpal;
+	font-weight: 700;
+}
+
+#canvasChart{
+	
+}
+span#percent {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 18px;
+	font-weight: 700;
+	transform: translate(-50%, -50%);
+	color: $Azul;
+}
+
+span#percent::after {
+	content: '%';
+}
+
+
+
+#cmbModChart {
+	width: 120px;
+	margin: 0 auto;
+
+	.x-form-text-wrap {
+		height: 1.4rem !important;
+	}
+
+	.x-form-text-default {
+		height: 1.25rem !important;
+		font: 300 11px/21px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+		min-height: 1.25rem !important;
+		padding-top: .3rem;
+	}
+
+	.x-form-trigger-wrap {
+		height: 1.4rem !important;
+	}
+
+	.x-form-trigger-default {
+		position: relative;
+	}
+
+	.x-form-trigger-default:before {
+		position: absolute;
+		top: -5px;
+		left: 5px;
+	}
+}
+
+//FIN CHART PERCENT GRAFICO TAREAS COMPLETADAS COMPLETED TASK
+//ASIDE NOTIFICATIONS
+#headAsR {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+}
+
+#tlbNotifications, #tlbNotes {
+	background-color: $Gris1;
+}
+
+
+#lblHeadNotes{
+	position:absolute;
+	left:0;
+	top:5px;
+}
+
+#lblHeadNotif, #lblHeadNotes {
+	//display: block;
+	font-weight: 700;
+	color: $colPpal;
+}
+
+#btnNotes{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index:99;
+}
+
+#btnNotes, #btnNotif {
+	@include bgBtn-ico;
+	width: 30px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: lighten($Gris2, 02);
+
+	&.x-btn-default-small {
+		border-color: rgba(0,0,0,0);
+	}
+
+	&:hover {
+		background-color: darken($Gris2, 03);
+	}
+}
+
+#pnNotifications, #pnNotes{
+	margin-top: 1.5rem;
+}
+
+#tlbNotifications-targetEl, #tlbNotes-targetEl{
+	padding-right: .3rem;
+
+}
+
+#ctnLnkNotif.x-box-item, #ctnLnkNotes.x-box-item{
+	position: static !important;
+
+}
+
+#ctnLnkNotif, #ctnLnkNotes{
+	float: right;
+}
+
+.lnkNot{
+	font-size: 11px;
+	color: $Gris4;
+
+	&:hover{
+		color: darken($Gris4, 10);
+	}
+}
+
+#lnkNoChecked, #lnkNoNoteChecked {
+	margin-right: .5rem;
+}
+
+
+#addNotific, #addNote {
+
+	.x-btn-inner-default-toolbar-small {
+		color: $blanco;
+	}
+}
+
+#ulNotif, #ulNote{
+	width: 100%;
+	padding: 0;
+	height: 100vh;
+}
+
+
+.btnEdit-item {
+	display: none;
+
+		
+}
+
+
+.x-keyboard-mode .x-btn-focus.x-btn-default-small { // color navegación teclado default
+	border-color: darken( $Gris1, 10) !important;
+	background-color: darken( $Gris1, 10) !important;
+
+}
+
+.liNot {
+	display: flex;
+	justify-content: flex-start;
+	background-color: $blanco;
+	padding: .8rem;
+	border-radius: 3px;
+	align-items: center;
+	margin-bottom: .5rem;
+
+
+&:hover{
+	.btnEdit-item{
+		display:block;
+	}
+}
+
+}
+
+
+.chkNot{
+	flex:0 0 15%;
+	margin-right: .8rem;
+}
+
+.cntNot {
+	flex: 1 0 70%;
+	margin-right: .8rem;
+}
+
+.btnEdit {
+	flex: 0 0 15%;
+}
+
+.titNot {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	color: $GrisNegro;
+	margin-bottom: .4rem;
+}
+
+.txtNot {
+	display: block;
+	font-size: 13px;
+	font-weight: 400;
+	color: $GrisNegro;
+	margin-bottom: .4rem;
+	height: 2.5rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.dateNot {
+	position:relative;
+	display: block;
+	font-size: 11px;
+	font-weight: 400;
+	color: $colSec;
+	margin-left: 12px;
+}
+
+.dateNot:after {
+	position: absolute;
+	content: url('../../../ima/ico-calendar-min.svg');
+	left:-12px;
+	top: 1px;
+}
+
+.btnEdit-item {
+	width: 32px;
+	@include bgBtn-ico;
+	@include btn-transp;
+	background-image: url('../../../ima/ico-edit-item.svg') !important;
+	background-size: 16px;
+	border-radius: 50%;
+
+	&:hover {
+		background-image: url('../../../ima/ico-edit-item.svg');
+		background-color: $Gris1;
+		
+	}
+}
+
+//----FORM
+#frmEditNot-innerCt {
+	padding: 1rem;
+}
+
+#closeF {
+	@include btn-transp;
+	background-color: $colBg !important;
+	border-radius: 50%;
+	float: right;
+
+	&:hover {
+		background-color: darken($colBg, 6) !important;
+	}
+}
+
+#txtTitle {
+	margin-top: 2rem;
+}
+
+.x-btn-group-default-framed {
+	border-color: rgba(0,0,0,0);
+}
+
+
+#btnForm {
+	margin-top: 1rem;
+}
+
+#btnForm-table {
+	float: right;
+}
+
+#btnSave {
+	min-width: 4rem;
+	.x-btn-inner-default-toolbar-small {
+		color: $blanco;
+		}
+}
+
+#btnDelete {
+	min-width: 4rem;
+}
+//FIN FORM
+
+//FIN ASIDE NOTIFICATIONS
+
+
+*/

@@ -1,0 +1,19 @@
+<svg id="ico-templateValue-20px" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Grupo_8332" data-name="Grupo 8332" transform="translate(-0.443 -0.048)">
+    <g id="Rectángulo_121" data-name="Rectángulo 121" transform="translate(0.443 0.048)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="18" height="18" stroke="none"/>
+      <rect x="0.75" y="0.75" width="16.5" height="16.5" fill="none"/>
+    </g>
+  </g>
+  <path id="Línea_1629" data-name="Línea 1629" d="M2,1H0V-1H2Z" transform="translate(4 9)" fill="#06a086"/>
+  <path id="Línea_1630" data-name="Línea 1630" d="M6,1H0V-1H6Z" transform="translate(8 9)" fill="#06a086"/>
+  <rect id="Rectángulo_3466" data-name="Rectángulo 3466" width="10" height="2" transform="translate(4 12)" fill="#06a086"/>
+  <g id="Rectángulo_3467" data-name="Rectángulo 3467" transform="translate(4 4)" fill="#06a086" stroke="#06a086" stroke-width="1">
+    <rect width="5" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="4" height="1" fill="none"/>
+  </g>
+  <g id="Rectángulo_3468" data-name="Rectángulo 3468" transform="translate(11 4)" fill="none" stroke="#06a086" stroke-width="1">
+    <rect width="3" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="2" height="1" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,332 @@
+1.Category;2.Code;3.Name;4.Creation Date;5.Date last modification;6.Operational Status;7.Company name;8. User/Email;9.User/Full Name;10. User/Name;11.User/Phone;12.User/Surname;13;14;15;16;17;18;19;20
+ANT-Antenna;COD0171ANTeACTrON;AC01/Offic-ANT-0000181;08/09/2021;09/02/2021;ON;ATREBO;jesus.rosa@atrebo.com;Jes?s Rosa;Jes?s;+34 684684;Rosa;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AC01/Offic-ANT-0000181
+ANT-Antenna;COD0173ANTeACTrON;AC01/Offic-ANT-0000182;08/09/2021;10/07/2021;ON;ATREBO;jesus.rosa@atrebo.com;Jes?s Rosa;Jes?s;+34 684684;Rosa;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AC01/Offic-ANT-0000182
+ANT-Antenna;TestAntenna001;TestAntenna001;08/10/2021;08/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;Arag?n;;ON-AIR;ON;TestAntenna001
+ANT-Antenna;COD0223ANNaADTrON;AD02/Offic-ANT-0000251ANT035;08/12/2021;08/12/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Castilla Y Le?n;;ON-AIR;ON;AD02/Offic-ANT-0000251ANT035
+ANT-Antenna;AntCG57/22ON002;AntCG57/22ON001;17/08/2021;28/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON001
+ANT-Antenna;AntCG57/22ON003;AntCG57/22ON002;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON002
+ANT-Antenna;AntCG57/22ON004;AntCG57/22ON003;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON003
+ANT-Antenna;AntCG57/22ON005;AntCG57/22ON004;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON004
+ANT-Antenna;AntCG57/22ON006;AntCG57/22ON005;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON005
+ANT-Antenna;AntCG57/22ON007;AntCG57/22ON006;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON006
+ANT-Antenna;AntCG57/22ON008;AntCG57/22ON007;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON007
+ANT-Antenna;AntCG57/22ON009;AntCG57/22ON008;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON008
+ANT-Antenna;AntCG57/22ON010;AntCG57/22ON009;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON009
+ANT-Antenna;AntCG57/22ON011;AntCG57/22ON010;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON010
+ANT-Antenna;AntCG57/22ON102;AntCG57/22ON101;17/08/2021;11/02/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON101
+ANT-Antenna;AntCG57/22ON103;AntCG57/22ON102;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON102
+ANT-Antenna;AntCG57/22ON104;AntCG57/22ON103;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON103
+ANT-Antenna;AntCG57/22ON105;AntCG57/22ON104;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON104
+ANT-Antenna;AntCG57/22ON106;AntCG57/22ON105;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON105
+ANT-Antenna;AntCG57/22ON107;AntCG57/22ON106;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON106
+ANT-Antenna;AntCG57/22ON108;AntCG57/22ON107;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON107
+ANT-Antenna;AntCG57/22ON109;AntCG57/22ON108;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON108
+ANT-Antenna;AntCG57/22ON110;AntCG57/22ON109;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON109
+ANT-Antenna;AntCG57/22ON111;AntCG57/22ON110;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AntCG57/22ON110
+ANT-Antenna;TestAnt/TestNuevaCarga010001;TestAnt/TestNuevaCarga010001;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Arag?n;;ON-AIR;ON;TestAnt/TestNuevaCarga010001
+ANT-Antenna;TestAnt/TestNuevaCarga010002;TestAnt/TestNuevaCarga010002;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;TestAnt/TestNuevaCarga010002
+ANT-Antenna;TestAnt/TestNuevaCarga010003;TestAnt/TestNuevaCarga010003;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;EURO;EUR;Andaluc?a;;ON-AIR;ON;TestAnt/TestNuevaCarga010003
+ANT-Antenna;TestAnt/TestNuevaCarga010004;TestAnt/TestNuevaCarga010004;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Catalu?a;;ON-AIR;ON;TestAnt/TestNuevaCarga010004
+ANT-Antenna;COD0237ANDPDPATON;DP92-56ONa-ANT-0000265ANT049;09/08/2021;09/08/2021;ON;ATREBO;francisco.gonzalez@atrebo.com;Francisco Gonz?lez;Francisco;+34 646544;Gonz?lez;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;DP92-56ONa-ANT-0000265ANT049
+ANT-Antenna;COD0238ANDPDPATON;DP92-56ONa-ANT-0000266ANT050;09/08/2021;09/08/2021;ON;ATREBO;francisco.gonzalez@atrebo.com;Francisco Gonz?lez;Francisco;+34 646544;Gonz?lez;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;DP92-56ONa-ANT-0000266ANT050
+ANT-Antenna;EO100-81ONaaaaa-ANT-0250;ANT-AAAJ=>ON;15/09/2021;15/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;Arag?n;;ON-AIR;ON;ANT-AAAJ=>ON
+ANT-Antenna;EO100-81ONaaaaa-ANT-0251;ANT-AAAK=>ON;15/09/2021;15/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;ANT-AAAK=>ON
+ANT-Antenna;EC_1609;Site 0104;16/09/2021;16/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;Site 0104
+ANT-Antenna;LSTSIT 0102-ANT-0253;ANT-AAAM=>ON;16/09/2021;16/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT-AAAM=>ON
+ANT-Antenna;EP100-82ONaaaaa-ANT-0255;ANT-AAAO=>ON;16/09/2021;16/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;ANT-AAAO=>ON
+ANT-Antenna;TestFormatoFecha;TestFormatoFecha;16/09/2021;16/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;TestFormatoFecha
+ANT-Antenna;EV101-88Offi-ANT-0266;ANT-AAAZ=>OFFEV10;24/09/2021;24/09/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;ANT-AAAZ=>OFFEV10
+ANT-Antenna;FA106-93Offi-ANT-0273;ANT-AABG=>MA_ONFA10;10/04/2021;10/04/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;DOLAR;$;Andaluc?a;;ON-AIR;ON;ANT-AABG=>MA_ONFA10
+ANT-Antenna;EZ105-92Offi-ANT-0276;ANT-AABG=>ONEZ10;10/05/2021;10/05/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;DOLAR;$;Andaluc?a;;ON-AIR;ON;ANT-AABG=>ONEZ10
+ANT-Antenna;LSTSIT 0104-ANT-0277;ANT-AABH=>ONLSTS;10/05/2021;10/05/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Greenfield;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT-AABH=>ONLSTS
+ANT-Antenna;LSTSIT 0104-ANT-0278;ANT-AABI=>ONLSTS;10/05/2021;10/05/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Greenfield;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT-AABI=>ONLSTS
+ANT-Antenna;LSTSIT 0104-ANT-0279;ANT-AABJ=>ONLSTS;10/05/2021;10/05/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Greenfield;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT-AABJ=>ONLSTS
+ANT-Antenna;LSTSIT 0104-ANT-0280;ANT-AABK=>ONLSTS;10/05/2021;10/05/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Greenfield;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT-AABK=>ONLSTS
+ANT-Antenna;MA_TSTFGP20210914-2-ANT-0285;MA_ANT-AABP=>ONTSTF;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;MA_ANT-AABP=>ONTSTF
+ANT-Antenna;MA_FB107-94Offi-ANT-0287;MA_ANT-AABP=>ONMA_F;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;MA_ANT-AABP=>ONMA_F
+ANT-Antenna;MA_SITE 0030006-ANT-0288;MA_ANT-AABP=>ONSITE;10/07/2021;18/10/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;MA_ANT-AABP=>ONSITE
+ANT-Antenna;MA_SITE 0030006-ANT-0289;MA_ANT-AABP=>ONSITE;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;MA_ANT-AABP=>ONSITE
+ANT-Antenna;TSTFGP20210914-ANT-0298;ANT-AABY=>ONTSTF;13/10/2021;11/02/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Arag?n;;ON-AIR;ON;ANT-AABY=>ONTSTF
+ANT-Antenna;TSTFGP20210914-ANT-0299;ANT-AABZ=>ONTSTF;13/10/2021;11/02/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;ANT-AABZ=>ONTSTF
+ANT-Antenna;TSTFGP20210914-ANT-0300;ANT-AACA=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;ANT-AACA=>ONTSTF
+ANT-Antenna;TSTFGP20210914-ANT-0301;ANT-AACB=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;ANT-AACB=>ONTSTF
+ANT-Antenna;TestErrorFormatoFecha0002;TestErrorFormatoFecha0002;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;TestErrorFormatoFecha0002
+ANT-Antenna;TestErrorFormatoFecha0004;TestErrorFormatoFecha0004;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;TestErrorFormatoFecha0004
+ANT-Antenna;TestErrorFormatoFecha0006;TestErrorFormatoFecha0006;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;TestErrorFormatoFecha0006
+ANT-Antenna;TestErrorFormatoFecha1002;TestErrorFormatoFecha1002;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;TestErrorFormatoFecha1002
+ANT-Antenna;TestErrorFormatoFecha1004;TestErrorFormatoFecha1004;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;TestErrorFormatoFecha1004
+ANT-Antenna;TestErrorFormatoFecha1006;TestErrorFormatoFecha1006;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;TestErrorFormatoFecha1006
+ANT-Antenna;TSTFGP20210914-2-ANT-0306;ANT-AACG=>ONTSTF;21/10/2021;21/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;ANT-AACG=>ONTSTF
+ANT-Antenna;117FL-15Gree00004-ANT-0313;ANT-AACQ=>ON117F;26/10/2021;26/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Greenfield;EURO;EUR;Madrid;;ON-AIR;ON;ANT-AACQ=>ON117F
+ANT-Antenna;TestNuevaCarga006-ANT-0318;ANT0;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT0
+ANT-Antenna;TestNuevaCarga006-ANT-0319;ANT1;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT1
+ANT-Antenna;TestNuevaCarga006-ANT-0320;ANT2;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT2
+ANT-Antenna;TestNuevaCarga006-ANT-0321;ANT3;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT3
+ANT-Antenna;TestNuevaCarga006-ANT-0322;ANT4;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT4
+ANT-Antenna;TestNuevaCarga006-ANT-0323;ANT5;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT5
+ANT-Antenna;TestNuevaCarga006-ANT-0324;ANT6;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT6
+ANT-Antenna;TestNuevaCarga006-ANT-0325;ANT7;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT7
+ANT-Antenna;TestNuevaCarga006-ANT-0332;ANT8;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT8
+ANT-Antenna;TestNuevaCarga006-ANT-0333;ANT9;28/10/2021;28/10/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;ANT9
+ANT-Antenna;Test_Antena_001;Test_Antena_001;28/10/2021;28/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;Test_Antena_001
+ANT-Antenna;TSTFGP20210914-Antenna-0337;AAAAD004TEST-Calle Doctor Bernardo Igles;11/02/2021;11/02/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;AAAAD004TEST-Calle Doctor Bernardo Igles
+ANT-Antenna;TestNuevaCarga010-T-0364;AAABD030TEST-Test ;11/04/2021;11/04/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Catalu?a;;ON-AIR;ON;AAABD030TEST-Test 
+ANT-Antenna;TestNuevaCarga010-T-0384O;AAABW049TEST-Test ON;11/09/2021;11/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Catalu?a;;ON-AIR;ON;AAABW049TEST-Test ON
+ANT-Antenna;TestNuevaCarga010-T-0385O;AAABX050TEST-Test ON;11/10/2021;11/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;ON-AIR;ON;AAABX050TEST-Test ON
+ANT-Antenna;135GD-33Gree00022;135GD-33Gree00022;11/11/2021;11/11/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;135GD-33Gree00022
+ANT-Antenna;Antena_111121_01;Antena_111121_01;11/11/2021;11/11/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;Antena_111121_01
+ANT-Antenna;135GD-33Gree00023;135GD-33Gree00023;11/12/2021;11/12/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;135GD-33Gree00023
+ANT-Antenna;Antena_111121_03;Antena_111121_03;11/12/2021;11/12/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;Antena_111121_03
+ANT-Antenna;Antena_111121_05;Antena_111121_05;11/12/2021;11/12/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;ON-AIR;ON;Antena_111121_05
+ANT-Antenna;Antenna00000000;TSTFGP2021091400000000;15/11/2021;15/11/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Arag?n;;ON-AIR;ON;TSTFGP2021091400000000
+ANT-Antenna;Antenna00000001;TSTFGP2021091400000001;15/11/2021;15/11/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;TSTFGP2021091400000001
+ANT-Antenna;Antenna00000002;TSTFGP2021091400000002;15/11/2021;15/11/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;TSTFGP2021091400000002
+ANT-Antenna;Antenna00000003;TSTFGP2021091400000003;15/11/2021;15/11/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;ON-AIR;ON;TSTFGP2021091400000003
+CAT001-Property;COD0108CATeACTrON;AC01/Offic-CAT001-0000089;30/06/2021;10/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0113CASiACTrXX;AC01/Offic-CAT001-0000094;07/05/2021;30/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;COD0122CASiACTrON;AC01/Offic-CAT001-0000110;07/05/2021;07/05/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;Code_Property_001;AC01/Offic-CAT001-0000135;07/06/2021;07/06/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;COD0136CASiACTrON;AC01/Offic-CAT001-0000137;07/06/2021;07/06/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;ImportPRO01;ImportPRO01;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO02;ImportPRO02;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO03;ImportPRO03;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO04;ImportPRO04;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO05;ImportPRO05;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO06;ImportPRO06;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO07;ImportPRO07;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO08;ImportPRO08;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ImportPRO09;ImportPRO09;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0137CASiACTrON;AC01/Offic-CAT001-0000139;07/08/2021;07/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;COD0138CASiACTrON;AC01/Offic-CAT001-0000140;07/08/2021;07/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;Test_API_01;Test_API_10;07/08/2021;07/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;Element_Service_01;Name_Service_01;07/08/2021;07/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;Element_Service_02;Name_Service_02;07/08/2021;07/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;Element_Service_03;Name_Service_03;07/08/2021;07/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Indoor;DOLAR;$;Arag?n;;;;
+CAT001-Property;COD0140CAAnAFTrON;AF04/Offic-CAT001-0000142;07/08/2021;07/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0151CATeACTrON;AC01/Offic-CAT001-0000157;13/07/2021;13/07/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0165CABZSiTrON;Site_Test-CAT001-0000175;19/07/2021;19/07/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON001;PropCG57/22ON001;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON002;PropCG57/22ON002;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON003;PropCG57/22ON003;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON004;PropCG57/22ON004;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON005;PropCG57/22ON005;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON006;PropCG57/22ON006;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON007;PropCG57/22ON007;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON008;PropCG57/22ON008;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON009;PropCG57/22ON009;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON010;PropCG57/22ON010;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON102;PropCG57/22ON101;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON103;PropCG57/22ON102;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON104;PropCG57/22ON103;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON105;PropCG57/22ON104;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON106;PropCG57/22ON105;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON107;PropCG57/22ON106;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON108;PropCG57/22ON107;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON109;PropCG57/22ON108;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON110;PropCG57/22ON109;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;PropCG57/22ON111;PropCG57/22ON110;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;TestProp/TestNuevaCarga010001;TestProp/TestNuevaCarga010001;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010002;TestProp/TestNuevaCarga010002;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010003;TestProp/TestNuevaCarga010003;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010004;TestProp/TestNuevaCarga010004;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010005;TestProp/TestNuevaCarga010005;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010006;TestProp/TestNuevaCarga010006;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010007;TestProp/TestNuevaCarga010007;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010008;TestProp/TestNuevaCarga010008;17/08/2021;30/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TestProp/TestNuevaCarga010009;TestProp/TestNuevaCarga010009;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;COD0230CATeCKTrON;CK61-25ON-CAT001-0000258CAT001042;24/08/2021;24/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0235CADLDLATON;DL88-52ONa-CAT001-0000263CAT001047;09/07/2021;09/07/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0236CADPDTATON;DT96-60ONa-CAT001-0000264CAT001048;09/07/2021;09/07/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0239CADLDLATON;DL88-52ONa-CAT001-0000263CAT001047;09/08/2021;09/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;COD0240CADLDLATON;DL88-52ONa-CAT001-0000268CAT001052;09/08/2021;09/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EK100-77ONaaaaa-CAT001-0252;CAT001-AAAL=>ON;15/09/2021;15/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Greenfield;Rupia;%;Andaluc?a;;;;
+CAT001-Property;ES100-85ONaaaaa-CAT001-0258;CAT001-AAAR=>ON;21/09/2021;21/09/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ES100-85ONaaaaa-CAT001-0259;CAT001-AAAS=>ON;21/09/2021;21/09/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EU100-86ONaaaaa-CAT001-0263;CAT001-AAAW=>ONEU10;23/09/2021;23/09/2021;OFF;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EU100-86ONaaaaa-CAT001-0264;CAT001-AAAX=>ONEU10;23/09/2021;23/09/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;ET100-86ONaaaaa-CAT001-0265;CAT001-AAAY=>ONET10;23/09/2021;23/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EV101-88Offi-CAT001-0267;CAT001-AABA=>ONEV10;24/09/2021;24/09/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EO100-81ONaaaaa-CAT001-0269;CAT001-AABC=>ONEO10;30/09/2021;30/09/2021;ON;ATREBO;francisco.gonzalez@atrebo.com;Francisco Gonz?lez;Francisco;+34 646544;Gonz?lez;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EU100-86ONaaaaa-CAT001-0270;CAT001-AABD=>ONEU10;10/01/2021;10/01/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EU100-86ONaaaaa-CAT001-0271;CAT001-AABE=>ONEU10;10/01/2021;10/01/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;Inv_011021_01;Inv_011021_01;10/01/2021;10/01/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;Inv_011021_02;Inv_011021_02;10/01/2021;10/01/2021;OFF;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;EZ105-92Offi-CAT001-0272;CAT001-AABF=>ONEZ10;10/01/2021;10/01/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;FA106-93Offi-CAT001-0274;CAT001-AABG=>MA_ONFA10;10/04/2021;10/05/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;MA_FA106-93Offi-CAT001-0281;CAT001-AABL=>ONMA_F;10/06/2021;10/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;LSTSIT 0104-CAT001-0282;CAT001-AABM=>ONLSTS;10/06/2021;10/06/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Greenfield;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;TSTFGP20210914-2-CAT001-0283;CAT001-AABN=>ONTSTF;10/06/2021;10/06/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;TSTFGP20210914-2-CAT001-0284;CAT001-AABO=>ONTSTF;10/06/2021;10/06/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;MA_TSTFGP20210914-2-CAT001-0285;MA_CAT001-AABP=>ONTSTF;10/07/2021;10/11/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;MA_FB107-94Offi-CAT001-0285;MA_CAT001-AABP=>ONMA_F;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;MA_SITE 0030006-CAT001-0288;MA_CAT001-AABP=>ONSITE;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;El_Cod_001;Invent-001;13/10/2021;20/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_002;Invent-002;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_003;Invent-003;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_004;Invent-004;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_005;Invent-005;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_006;Invent-006;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_007;Invent-007;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_008;Invent-008;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_009;Invent-009;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;El_Cod_010;Invent-010;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Andaluc?a;;;;
+CAT001-Property;TSTFGP20210914-CAT001-0289;CAT001-AABP=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;TSTFGP20210914-CAT001-0290;CAT001-AABQ=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;TSTFGP20210914-CAT001-0291;CAT001-AABR=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;TSTFGP20210914-CAT001-0292;CAT001-AABS=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;TSTFGP20210914-CAT001-0293;CAT001-AABT=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;Andaluc?a;;;;
+CAT001-Property;El_Cod_101;Invent-101;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;Castilla Y Le?n;;;;
+CAT001-Property;El_Cod_102;Invent-102;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Indoor;DOLAR;$;Cantabria;;;;
+CAT001-Property;El_Cod_103;Invent-103;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Indoor;DOLAR;$;Cantabria;;;;
+CAT001-Property;El_Cod_104;Invent-104;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Indoor;DOLAR;$;Cantabria;;;;
+CAT001-Property;El_Cod_105;Invent-105;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Indoor;DOLAR;$;Cantabria;;;;
+CAT001-Property;El_Cod_106;Invent-106;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Indoor;DOLAR;$;Cantabria;;;;
+CAT001-Property;El_Cod_107;Invent-107;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;El_Cod_108;Invent-108;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;El_Cod_110;Invent-110;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_006;Carga_Inventario_1810_006;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_007;Carga_Inventario_1810_007;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_008;Carga_Inventario_1810_008;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_009;Carga_Inventario_1810_009;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_010;Carga_Inventario_1810_010;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_011;Carga_Inventario_1810_011;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_012;Carga_Inventario_1810_012;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_013;Carga_Inventario_1810_013;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_014;Carga_Inventario_1810_014;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_016;Carga_Inventario_1810_016;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_017;Carga_Inventario_1810_017;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_020;Carga_Inventario_1810_020;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_021;Carga_Inventario_1810_021;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_028;Carga_Inventario_1810_028;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_034;Carga_Inventario_1810_034;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_038;Carga_Inventario_1810_038;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_040;Carga_Inventario_1810_040;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1810_041;Carga_Inventario_1810_041;18/10/2021;18/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_006;Carga_Inventario_1910_006;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_007;Carga_Inventario_1910_007;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_008;Carga_Inventario_1910_008;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_009;Carga_Inventario_1910_009;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_010;Carga_Inventario_1910_010;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_011;Carga_Inventario_1910_011;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_012;Carga_Inventario_1910_012;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_013;Carga_Inventario_1910_013;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_014;Carga_Inventario_1910_014;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_016;Carga_Inventario_1910_016;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_017;Carga_Inventario_1910_017;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_020;Carga_Inventario_1910_020;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_021;Carga_Inventario_1910_021;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_040;Carga_Inventario_1910_040;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Element_Invent_1910_041;Carga_Inventario_1910_041;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1006;Carga_Inventario_1910_1006;19/10/2021;20/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1007;Carga_Inventario_1910_1007;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1008;Carga_Inventario_1910_1008;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1009;Carga_Inventario_1910_1009;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1010;Carga_Inventario_1910_1010;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1011;Carga_Inventario_1910_1011;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1012;Carga_Inventario_1910_1012;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1013;Carga_Inventario_1910_1013;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1014;Carga_Inventario_1910_1014;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1016;Carga_Inventario_1910_1016;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1017;Carga_Inventario_1910_1017;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1020;Carga_Inventario_1910_1020;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1021;Carga_Inventario_1910_1021;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1040;Carga_Inventario_1910_1040;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;Carga_Inventario_1910_1041;Carga_Inventario_1910_1041;19/10/2021;19/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;Pa?s Vasco;;;;
+CAT001-Property;117FL-15Gree00004-CAT001-0314;CAT001-AACR=>ON117F;26/10/2021;26/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Greenfield;EURO;EUR;Madrid;;;;
+TOW-Tower;Prueabqawsoiuhde1292932.;SITE/00048-TOW-0000100;07/05/2021;07/05/2021;ON;ATREBO;jesus.rosa@atrebo.com;Jes?s Rosa;Jes?s;+34 684684;Rosa;Indoor;DOLAR;$;;;;;
+TOW-Tower;COD0120TOSiACTrON;AC01/Offic-TOW-0000108;07/05/2021;28/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;;;;;
+TOW-Tower;COD0121TOSiACTrON;AC01/Offic-TOW-0000109;07/05/2021;30/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;;;;;
+TOW-Tower;COD0130TOSiACTrON;AC01/Offic-TOW-0000127;07/06/2021;21/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;;;;;
+TOW-Tower;COD0131TOSiACTrON;AC01/Offic-TOW-0000128;07/06/2021;21/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;;;;;
+TOW-Tower;COD0134TOSiACTrON;AC01/Offic-TOW-0000131;07/06/2021;23/09/2021;OFF;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;;;;;
+TOW-Tower;COD0135TOSiACTrON;AC01/Offic-TOW-0000131;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Indoor;DOLAR;$;;;;;
+TOW-Tower;ImportTOW01;ImportTOW01;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW02;ImportTOW02;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW03;ImportTOW03;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW04;ImportTOW04;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW05;ImportTOW05;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW06;ImportTOW06;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW07;ImportTOW07;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW08;ImportTOW08;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;ImportTOW09;ImportTOW09;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;TestSubAPI01;TestSubAPI01;07/06/2021;07/06/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;TestSubAPI02;TestSubAPI01;07/06/2021;10/01/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;COD0179TOTeACTrON;AC01/Offic-TOW-0000188;08/09/2021;08/09/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;COD0218TOTeACTrON;AC01/Offic-TOW-0000245TOW029;08/11/2021;08/11/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;COD0224TONaADTrON;AD02/Offic-TOW-0000252TOW036;08/12/2021;10/01/2021;ON;ATREBO;elena.rodriguez@atrebo.com;Elena  Rodriguez;Elena ;+34 66666;Rodriguez;Office;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010001;TestTow/TestNuevaCarga010001;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010002;TestTow/TestNuevaCarga010002;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010003;TestTow/TestNuevaCarga010003;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010004;TestTow/TestNuevaCarga010004;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010005;TestTow/TestNuevaCarga010005;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010006;TestTow/TestNuevaCarga010006;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010007;TestTow/TestNuevaCarga010007;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010008;TestTow/TestNuevaCarga010008;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;TestTow/TestNuevaCarga010009;TestTow/TestNuevaCarga010009;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+TOW-Tower;COD0225TOTECJTrON;CJ60-24ON-TOW-0000253TOW037;24/08/2021;24/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;COD0232TOCKCKTrON;CK61-250N-TOW-0000260TOW044;24/08/2021;24/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+TOW-Tower;COD0233TOTeACTrON;AC01/Offic-TOW-0000261TOW045;31/08/2021;31/08/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;;;;;
+TOW-Tower;DA77-41ONaaaaa-TOW-0241;TOW-AAAA;13/09/2021;13/09/2021;ON;ATREBO;francisco.gonzalez@atrebo.com;Francisco Gonz?lez;Francisco;+34 646544;Gonz?lez;Greenfield;DOLAR;$;;;;;
+TOW-Tower;DA77-41ONaaaaa-TOW-0242;TOW-AAAB;13/09/2021;13/09/2021;ON;ATREBO;francisco.gonzalez@atrebo.com;Francisco Gonz?lez;Francisco;+34 646544;Gonz?lez;Greenfield;DOLAR;$;;;;;
+TOW-Tower;EJ100-76Praaaaa_Edit-TOW-0244;TOW-AAAD=>ON;15/09/2021;15/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;;;;;
+TOW-Tower;EM100-79ONaaaaa-TOW-0245;TOW-AAAE=>ON;15/09/2021;15/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;;;;;
+TOW-Tower;EN100-80ONaaaaa-TOW-0247;TOW-AAAG=>ON;15/09/2021;15/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;;;;;
+TOW-Tower;EO100-81ONaaaaa-TOW-0249;TOW-AAAI=>ON;15/09/2021;15/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;;;;;
+TOW-Tower;EN100-80Praaaaa-TOW-0256;TOW-AAAP=>ON;17/09/2021;17/09/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+TOW-Tower;EO100-81ONaaaaa-TOW-0268;TOW-AABB=>ONEO10;30/09/2021;30/09/2021;ON;ATREBO;francisco.gonzalez@atrebo.com;Francisco Gonz?lez;Francisco;+34 646544;Gonz?lez;Office;EURO;EUR;;;;;
+TOW-Tower;Inv_011021_03;Inv_011021_03;10/01/2021;10/01/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;Inv_011021_04;Inv_011021_04;10/01/2021;10/01/2021;OFF;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;FA106-93Offi-TOW-0275;TOW-AABG=>MA_ONFA10;10/04/2021;10/05/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;DOLAR;$;;;;;
+TOW-Tower;MA_TSTFGP20210914-2-TOW-0285;MA_TOW-AABP=>ONTSTF;10/07/2021;28/10/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Rooftop;DOLAR;$;;;;;
+TOW-Tower;MA_FB107-94Offi-TOW-0286;MA_TOW-AABP=>ONMA_F;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;;;;;
+TOW-Tower;MA_SITE 0030006-TOW-0288;MA_TOW-AABP=>ONSITE;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;;;;;
+TOW-Tower;SITE 0030006-TOW-0288;MA_TOW-AABP=>ONSITE;10/07/2021;10/07/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;;;;;
+TOW-Tower;TSTFGP20210914-TOW-0294;TOW-AABU=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;TSTFGP20210914-TOW-0295;TOW-AABV=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;TSTFGP20210914-TOW-0296;TOW-AABW=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;TSTFGP20210914-TOW-0297;TOW-AABX=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;TSTFGP20210914-2-TOW-0307;TOW-AACH=>ONTSTF;21/10/2021;21/10/2021;ON;ATREBO;mohamed.herba@atrebo.com;Mohamed Herba;Mohamed;+34 601601600;Herba;Rooftop;DOLAR;$;;;;;
+TOW-Tower;TSTFGP20210914-2-TOW-0308;TOW-AACI=>ONTSTF;21/10/2021;21/10/2021;ON;ATREBO;mohamed.herba@atrebo.com;Mohamed Herba;Mohamed;+34 601601600;Herba;Rooftop;DOLAR;$;;;;;
+TOW-Tower;SITE 0030006-TOW-0309;TOW-AACJ=>ONSITE;26/10/2021;26/10/2021;ON;ATREBO;miguelangel.gonzalez@atrebo.com;Miguel ?ngel Gonz?lez Hern?ndez;Miguel ?ngel;+34 684684;Gonz?lez Hern?ndez;Office;EURO;EUR;;;;;
+TOW-Tower;TestNuevaCarga002-TOW-0311;TOW-AACL=>ONTest;26/10/2021;27/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;TestNuevaCarga001-TOW-0312;TOW-AACM=>ONTest;26/10/2021;26/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+TOW-Tower;TSTFGP20210914-2-Tower-0334;AAAAA001TEST-ON;29/10/2021;29/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+TOW-Tower;TestNuevaCarga010-T-0363;AAABD030TEST-Test ;11/04/2021;11/04/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+REQUP-Radio Equipment2;COD0217RETeACTrON;AC01/Offic-REQUP-0000244REQUP028;08/11/2021;08/11/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Office;EURO;EUR;;;;;
+REQUP-Radio Equipment2;EJ100-76Praaaaa_Edit-REQUP-0243;REQUP-AAAC=>ON;15/09/2021;15/09/2021;ON;ATREBO;martagarcia@riasport.es;Marta Garc?a;Marta;+34 6016062;Garc?a;Greenfield;EURO;EUR;;;;;
+REQUP-Radio Equipment2;El_Cod_013;Invent-013;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;El_Cod_014;Invent-014;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;El_Cod_011;Invent-011;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;El_Cod_012;Invent-012;13/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;TSTFGP20210914-REQUP-0302;REQUP-AACC=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+REQUP-Radio Equipment2;TSTFGP20210914-REQUP-0303;REQUP-AACD=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+REQUP-Radio Equipment2;TSTFGP20210914-REQUP-0304;REQUP-AACE=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+REQUP-Radio Equipment2;TSTFGP20210914-REQUP-0305;REQUP-AACF=>ONTSTF;13/10/2021;13/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+REQUP-Radio Equipment2;Ele0000001;Ele0000001;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;Ele0000002;Ele0000002;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;Ele0000003;Ele0000003;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;Ele0000004;Ele0000004;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;Ele0000005;Ele0000005;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;Ele0000006;Ele0000006;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;Ele0000008;Ele0000008;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;Ele0000010;Ele0000010;14/10/2021;14/10/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;El_Cod_111;Invent-111;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;;;;;
+REQUP-Radio Equipment2;El_Cod_112;Invent-112;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;;;;;
+REQUP-Radio Equipment2;El_Cod_113;Invent-113;14/10/2021;14/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;EURO;EUR;;;;;
+REQUP-Radio Equipment2;TestNuevaCarga002-REQUP-0316;REQUP-AACT=>ONTest;27/10/2021;27/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Office;EURO;EUR;;;;;
+REQUP-Radio Equipment2;TSTFGP20210914-2-REQUP-0317;REQUP-AACU=>ONTSTF;28/10/2021;28/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;TSTFGP20210914-2-Radio Equipment2-0335;AAAAB002TEST-9/28/2021 12:00:00 AM;29/10/2021;29/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;TSTFGP20210914-2-Radio Equipment2-0336;AAAAC003TEST-9/28/2021 12:00:00 AM;29/10/2021;29/10/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+REQUP-Radio Equipment2;SITE/00002-S-0362;AAABC029TEST-C/ Falsa, n?87, Villaveza d;11/04/2021;11/04/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010001;TestElec/TestNuevaCarga010001;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010002;TestElec/TestNuevaCarga010002;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010003;TestElec/TestNuevaCarga010003;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010004;TestElec/TestNuevaCarga010004;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010005;TestElec/TestNuevaCarga010005;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010006;TestElec/TestNuevaCarga010006;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010007;TestElec/TestNuevaCarga010007;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010008;TestElec/TestNuevaCarga010008;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;TestElec/TestNuevaCarga010009;TestElec/TestNuevaCarga010009;17/08/2021;17/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Rooftop;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;COD0227ElCKCKTrON;CK61-250N-Electr-0000255Electric039;24/08/2021;24/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;COD0228ElCKCKTrON;CK61-250N-Electr-0000256Electric040;24/08/2021;24/08/2021;ON;ATREBO;pedro.cortes@atrebo.com;Pedro Cort?s;Pedro;+34 68464;Cort?s;Office;EURO;EUR;;;;;
+Electric Power Intake and Dist-Electric Power Intake and Dist;SITE/00002-S-0361;AAABB028TEST-C/ Falsa, n?87, Villaveza d;11/04/2021;11/04/2021;ON;ATREBO;ramon.poch@atrebo.com;Ramon Poch;Ramon;+34 605605605;Poch;Rooftop;DOLAR;$;;;;;

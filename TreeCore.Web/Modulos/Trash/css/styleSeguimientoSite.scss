@@ -1,0 +1,442 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+#TabPanelSite.tabPnlCon {
+    max-width: 605px !important;
+}
+
+
+/*#region Tab panel contract */
+
+
+.tabPnlCon {
+    background-color: white;
+    max-width: 795px !important;
+    min-width: 250px !important;
+
+    .x-tab-inner-default {
+        font-weight: bold;
+    }
+
+    .x-tab-bar-default {
+        background-color: white;
+        border-bottom: thick;
+        border-bottom-color: $Gris4;
+    }
+
+    .x-panel-body-default {
+        background-color: white !important;
+    }
+
+
+    .x-panel .x-tabpanel-child.x-panel-default {
+        border-top: thick !important;
+    }
+
+    .x-tab-bar-default {
+        border-top-width: 3px !important;
+        border-top-style: solid;
+        border-style: solid;
+        border-width: 3px 0 0 0 !important;
+        border-bottom-color: $Gris4;
+    }
+
+    .x-toolbar-footer {
+        background-color: white;
+    }
+
+    .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+        color: $colPpal;
+    }
+
+    .x-tab-inner-default {
+        color: #6a6b84;
+    }
+
+    .x-tab-over {
+        background-color: white !important;
+        background-image: url('../../ima/ico-bola.svg') !important;
+        background-size: 6px;
+        background-repeat: no-repeat;
+        background-position: 50% 90%;
+    }
+
+
+
+
+    .x-tab-active {
+        background-image: url('../../ima/ico-bola.svg');
+        background-size: 6px;
+        background-repeat: no-repeat;
+        background-position: 50% 90%;
+    }
+
+
+    .x-tab-bar-default-top > .x-tab-bar-body-default {
+        padding: 4px 4px 0 8px;
+    }
+}
+
+.x-keyboard-mode .x-tab-focus.x-tab-default {
+    outline: none !important;
+    //background-color: white !important;
+    background-image: url('../../ima/ico-bola.svg');
+    background-size: 6px;
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+}
+
+
+
+.ico-download {
+    background-image: url('/ima/ico-download.svg');
+    width: 16px;
+    height: 16px;
+}
+
+
+.chk-ctoTrck {
+    width: 10.6rem;
+    margin-top: 36px;
+    padding: 0 .5rem;
+    border: 1px solid $Gris2;
+    border-radius: 2px;
+
+
+    label {
+        //font-weight: bold !important;
+        font: 500 12px/14px "Roboto", sans-serif;
+        color: #6a6b86 !important;
+    }
+}
+
+
+.radio-cto {
+    width: 10.6rem;
+    margin-top: 1.8rem;
+    padding: 0 .5rem;
+    border: 1px solid $Gris2;
+    border-radius: 2px;
+    margin: 0 0 0 0;
+
+
+    label {
+        //font-weight: bold !important;
+        font: 500 12px/14px "Roboto", sans-serif;
+        color: #6a6b86 !important;
+    }
+}
+
+.radio-title {
+    color: #6a6b86 !important;
+    padding-bottom: 6px;
+}
+
+
+.btn-download-con {
+    position: absolute;
+    top: 10px !important;
+    right: 30px !important;
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    z-index: 99 !important;
+
+    span {
+        color: $colPpal !important;
+        font: 500 12px/14px "Roboto", sans-serif;
+    }
+}
+
+
+
+.testbod .x-grid-cell-inner div {
+    border: hidden !important;
+}
+
+
+
+.TopBordr {
+    border-top: solid !important;
+    border-top-width: 1px;
+}
+
+
+
+
+.TBBluebck.x-toolbar-default {
+    background-color: $AzulOsc !important;
+    color: white;
+    font-weight: 300 !important;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+.topbodercontainer {
+    padding-top: 2px;
+    //background-color:white !important;
+}
+
+
+.x-toolbar-footer {
+    background-color: white !important;
+}
+
+
+/*.OverlapIconUpF {
+	width: 21rem !important;
+
+	
+}*/
+
+// ICON FONDO BLANCO
+
+.OverlapIconUpF {
+    border-style: hidden !important;
+    background-image: url('/ima/ico-folder-16x16.svg');
+    width: 16px;
+    height: 16px;
+    background-color: transparent !important;
+}
+
+.x-form-trigger-triton.x-form-trigger-default {
+    background: transparent !important;
+
+    .x-btn-default-small {
+        border-style: hidden;
+        background-color: white !important;
+    }
+}
+
+
+.btn-toggleGrid-Cntract {
+    position: absolute !important;
+    top: 84.767px;
+    right: 22px;
+    font-weight: bold !important;
+
+    span {
+        color: black !important;
+        font-weight: bold;
+    }
+}
+
+.bld-cnt-fonts {
+    font-weight: 500 !important;
+    border-top-width: 3px !important;
+    border-bottom-width: 3px !important;
+    border-color: #f6f6f6 !important;
+}
+
+
+#btnAddMeds {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anadir.svg');
+}
+
+#btnEditMeds {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-editar.svg');
+}
+
+#btnDeleteMeds {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-eliminar.svg');
+}
+
+
+
+.pgrid-topborderblue {
+    border-top-width: 4px !important;
+    border-top-style: solid !important;
+    border-radius: 5px;
+}
+
+.pgrid-topborderblue.x-panel-default {
+    border-color: $AzulOsc !important;
+    padding: 0;
+}
+
+
+/*#region CustomCOL */
+
+.customCol1 {
+
+    p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: small;
+    }
+
+    .customColDiv1 {
+        margin-top: 8px;
+        background-color: white;
+        padding: 5px 8px 5px 8px;
+        border: thin;
+        border-color: black;
+        border-radius: 3px;
+    }
+}
+
+
+/*#endregion */
+
+
+.toolbarbotContract {
+    position: unset !important;
+    display: inline-flex !important;
+    float: right !important;
+    padding-top: 50px;
+}
+
+
+#cntTabPanelSite.tabPnlCon {
+    max-width: 605px !important;
+}
+
+
+.btn-accept.x-btn-default-toolbar-small {
+    @include baseBoton($colPpal, 14px, $blanco);
+
+    span {
+        font: 400 14px/16px $font-ppal !important;
+        color: white;
+    }
+}
+
+.btn-cancel.x-btn-default-toolbar-small {
+    @include baseBoton($Gris3, 14px, $GrisNegro);
+    display: block;
+
+    span {
+        font: 400 14px/16px $font-ppal !important;
+        color: $GrisNegro;
+    }
+}
+
+
+
+#toolbarSite.toolbarbotContract {
+    margin: 0px 5px 0px 0px;
+}
+
+
+#toolbarLocation.toolbarbotContract {
+    margin: 0px 5px 0px 0px !important;
+}
+
+//Cambia el flujo del container al llegar a esa anchura minima
+@media (max-width: 768px) {
+
+    #LastCont {
+        clear: both !important;
+    }
+}
+
+#toolbarAdditional.toolbarbotContract {
+    margin: 0px 5px 0px 0px !important;
+}
+
+
+.FormCont12Marg {
+    margin: 0px 12px 0px 12px;
+}
+
+#chkDegrees.chk-ctoTrck {
+    margin-top: 38px !important;
+}
+
+
+.PnMaps1 {
+    flex: 0 0 600px;
+}
+
+
+.bold-label {
+    margin-bottom: 10px;
+    font-weight: bold !important;
+}
+
+
+/*#endregion */
+
+
+
+
+.label-con {
+    margin-top: 31px;
+    padding-top: 10px;
+    display: table;
+    padding-bottom: 14px;
+}
+
+.btn-align-right {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-geolocation.svg');
+    background-color: rgba(0,0,0,0) !important;
+    position: unset !important;
+    background-position: left !important;
+    float: right;
+    padding-right: 7px;
+    margin-right: 10px;
+    margin-right: 8px;
+    width: 110px;
+    border: hidden;
+
+    .x-btn-inner-default-toolbar-small {
+        //color: $Verde2 !important;
+        font-weight: bold !important;
+    }
+}
+
+.btn-align-right.x-btn-pressed {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-geolocation-green.svg') !important;
+    background-color: rgba(0,0,0,0) !important;
+    font-weight: bold !important;
+    background-position: left !important;
+    width: 110px;
+
+
+    .x-btn-inner-default-toolbar-small {
+        color: $Verde2 !important;
+        background-image: url('/ima/ico-geolocation-green.svg') !important;
+        font-weight: bold;
+    }
+
+    .x-toolbar-default .x-toolbar-item {
+        margin: 0 8px 0 0;
+        background-image: url('/ima/ico-geolocation-green.svg') !important;
+    }
+}
+
+
+
+
+.clear-over {
+    background-color: transparent !important;
+}
+
+.clear-focus {
+    background-color: transparent !important;
+
+    .x-btn-inner-default-toolbar-small {
+        color: $Verde2 !important;
+    }
+}
+
+.green-pressed-loc {
+    background-color: transparent !important;
+    background-image: url('/ima/ico-geolocation-green.svg') !important;
+
+
+    .x-btn-inner-default-toolbar-small {
+        color: $Verde2 !important;
+    }
+}
+

@@ -1,0 +1,148 @@
+﻿.pnSecundario {
+
+    #pnSecundario_Content {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-column-gap: .5rem;
+        /*border-top: solid;
+        border-top-color: #d0d0d0;*/
+    }
+}
+
+.pnColumnaTraducciones {
+    height: inherit !important;
+
+    .x-panel-body {
+        border-top: none !important;
+        height: inherit !important;
+    }
+
+    .x-grid-body {
+        border-width: 0px !important;
+    }
+
+    .x-grid-item-alt {
+        background-color: rgba(6, 160, 134, 0.05) !important;
+    }
+
+    .x-grid-item, .x-grid-item-focused {
+        border: none;
+
+        .x-grid-cell-inner::before {
+            border: none;
+        }
+    }
+
+    .x-grid-item-alt:hover {
+        background-color: #eaeff4 !important;
+        border: none;
+    }
+
+    .x-grid-item-selected {
+        background-color: transparent;
+    }
+
+    .x-grid-cell-inner {
+        font-weight: bold;
+        float: right;
+    }
+
+    .x-grid-with-row-lines {
+        .x-grid-item.x-grid-item-selected, .x-grid-item.x-grid-item-over {
+            border: none;
+        }
+    }
+
+    .x-grid-with-row-lines {
+        .x-grid-item-selected + .x-grid-item, .x-grid-item-over + .x-grid-item {
+            border-top-style: none;
+        }
+    }
+}
+
+.historico_columna {
+    display: inline-block;
+    margin: 0 .5rem;
+    min-width: 150px;
+    max-width: 200px;
+
+    table {
+        min-width: 150px;
+        border-collapse: collapse;
+
+        th {
+            padding: 0 15px;
+            background-color: #fff;
+        }
+
+        tr {
+            height: 41px;
+            cursor: default;
+
+            td {
+                padding: 0 15px;
+                /*border-top: 1px solid #d8d8d8;
+                border-bottom: 1px solid #d8d8d8;*/
+            }
+        }
+
+        td:focus-visible {
+            background-color: aqua;
+        }
+
+        tr:hover {
+            color: #404040;
+            background-color: #eaeff4;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f6f6f6;
+        }
+
+        tr:nth-child(odd):hover {
+            background-color: #eaeff4;
+        }
+    }
+}
+
+.historico_contenedor {
+    display: inline-flex;
+}
+
+.columna_historico_estado_actual {
+}
+
+.historico_columna_cabecera {
+    text-align: left;
+    font-weight: normal;
+
+    tr:hover {
+        background-color: #d0d0d0;
+    }
+}
+
+.historico_columna_cuerpo {
+    font-weight: bold;
+}
+
+.historico_columna_valor_diferente {
+    color: #06A086 !important;
+}
+
+.historico_columna_dinamico {
+}
+
+.boton_cerrar_historico {
+    float: right !important;
+    background-image: url(/ima/ico-close-16-gr.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: #fff;
+
+    &:hover {
+        cursor: pointer;
+        background-image: url(/ima/ico-close-16.svg);
+    }
+}

@@ -1,0 +1,13 @@
+<svg id="ico_subprocess" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rectángulo_2427" data-name="Rectángulo 2427" transform="translate(5 1)" fill="none" stroke="#6a6b75" stroke-width="2">
+    <rect width="14" height="8" rx="2" stroke="none"/>
+    <rect x="1" y="1" width="12" height="6" rx="1" fill="none"/>
+  </g>
+  <g id="Rectángulo_2428" data-name="Rectángulo 2428" transform="translate(5 11)" fill="none" stroke="#6a6b75" stroke-width="2">
+    <rect width="14" height="8" rx="2" stroke="none"/>
+    <rect x="1" y="1" width="12" height="6" rx="1" fill="none"/>
+  </g>
+  <path id="Trazado_2377" data-name="Trazado 2377" d="M3379.175-1683h-2.666v9.518h2.45" transform="translate(-3374.175 1688.286)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="Línea_949" data-name="Línea 949" x1="2" transform="translate(0 10.5)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  <rect id="Rectángulo_2429" data-name="Rectángulo 2429" width="20" height="20" fill="none"/>
+</svg>

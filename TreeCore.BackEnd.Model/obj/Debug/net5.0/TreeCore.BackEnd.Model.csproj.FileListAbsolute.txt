@@ -1,0 +1,12 @@
+C:\OLIVO\TreeCore.BackEnd.Model\bin\Debug\net5.0\TreeCore.BackEnd.Model.deps.json
+C:\OLIVO\TreeCore.BackEnd.Model\bin\Debug\net5.0\TreeCore.BackEnd.Model.dll
+C:\OLIVO\TreeCore.BackEnd.Model\bin\Debug\net5.0\ref\TreeCore.BackEnd.Model.dll
+C:\OLIVO\TreeCore.BackEnd.Model\bin\Debug\net5.0\TreeCore.BackEnd.Model.pdb
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\TreeCore.BackEnd.Model.csproj.AssemblyReference.cache
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\TreeCore.BackEnd.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\TreeCore.BackEnd.Model.AssemblyInfoInputs.cache
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\TreeCore.BackEnd.Model.AssemblyInfo.cs
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\TreeCore.BackEnd.Model.csproj.CoreCompileInputs.cache
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\TreeCore.BackEnd.Model.dll
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\ref\TreeCore.BackEnd.Model.dll
+C:\OLIVO\TreeCore.BackEnd.Model\obj\Debug\net5.0\TreeCore.BackEnd.Model.pdb

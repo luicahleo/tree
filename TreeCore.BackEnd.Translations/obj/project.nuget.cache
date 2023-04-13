@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "vh0LihexMS8jVazSxBAcq0zHZMu9SrnTSoW6FsQQbMK6QcDzHJDvvK51nfiBFyxdmCu/OvUgCxlOqWEcZ8/eVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis.Cahuana\\source\\repos\\olivov1\\TreeCore.BackEnd.Translations\\TreeCore.BackEnd.Translations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.extensions.localization\\6.0.1\\microsoft.extensions.localization.6.0.1.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\6.0.1\\microsoft.extensions.localization.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

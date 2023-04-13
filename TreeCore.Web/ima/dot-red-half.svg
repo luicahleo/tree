@@ -1,0 +1,8 @@
+<svg id="dot-red-half" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectángulo_3152" data-name="Rectángulo 3152" width="16" height="16" fill="none"/>
+  <g id="Elipse_573" data-name="Elipse 573" fill="none" stroke="#ef5970" stroke-width="1">
+    <circle cx="8" cy="8" r="8" stroke="none"/>
+    <circle cx="8" cy="8" r="7.5" fill="none"/>
+  </g>
+  <path id="Sustracción_21" data-name="Sustracción 21" d="M-515-255a7.967,7.967,0,0,1-6.246-3h12.491A7.967,7.967,0,0,1-515-255Z" transform="translate(523 271)" fill="#ef5970"/>
+</svg>

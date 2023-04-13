@@ -1,0 +1,829 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+
+#pnShowWorkflow {//diagrama workflow página
+	position: fixed;
+	top: 10px;
+	left: 500px;
+	background-color: $blanco;
+	z-index: 99;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+	.x-panel-body {
+		padding: 1.5rem;
+	}
+
+
+	#dvTypo {
+		width: max-content;
+		margin: 0 auto;
+		display: flex;
+		align-content: center;
+	}
+
+	#dvTypo > span {
+		font-size: 12px;
+		color: $colSec;
+		font-weight: 500;
+	}
+
+	#lblTypo {
+		font-weight: 500;
+		display: block;
+		height: 1.2rem;
+		background-color: lighten($Amarillo, 8);
+		padding: 1px .8rem;
+		margin-left: .3rem;
+		border-radius: 10px;
+		text-align: center;
+
+		span {
+			display: block;
+			color: $Negro;
+		}
+	}
+
+
+	.dvAllStates {
+		width: 80%;
+		margin: 2rem auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	.dvCntState {
+		height: 6rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.dvState {
+		margin-top: .2rem;
+	}
+
+
+	#currentState {
+		padding-top: .6rem;
+	}
+
+	.lblStatesFlow {
+		span {
+			font-size: 12px;
+		}
+	}
+
+	.dotCurrent {
+		display: block;
+		margin: 0 auto .3rem auto;
+		height: 48px;
+		width: 48px;
+		background-color: $Verde2;
+		border-radius: 50%;
+	}
+
+	.dotFlow {
+		display: inline-block;
+		height: 10px;
+		width: 10px;
+		background-color: $colSec;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+
+	#dotFlowCurrent {
+		margin: 19px 19px;
+	}
+
+
+	.lineFlow:after {
+		position: absolute;
+		display: block;
+		top: 4px;
+		left: 12px;
+		content: '';
+		width: 128px;
+		border: 1px dashed $colSec;
+		z-index: 9;
+	}
+}
+
+.pnDiagramFlow { //diagrama workflow form
+	height: 140px !important;
+	width: 590px;
+	padding-top: .5rem;
+
+	.dvTypoForm {
+		width: max-content;
+		margin: 0 auto;
+		display: flex;
+		align-content: center;
+	}
+
+	.dvTypoForm > span {
+		font-size: 11px;
+		color: $colSec;
+		font-weight: 500;
+	}
+
+	#dvTypoLnkF {
+		margin: 0 3rem;
+	}
+
+	.lblTypoForm {
+		font-weight: 500;
+		display: block;
+		height: 1.2rem;
+		background-color: lighten($Amarillo, 8);
+		padding: 1px .8rem;
+		margin-left: .3rem;
+		border-radius: 10px;
+		text-align: center;
+
+		span {
+			display: block;
+			color: $Negro;
+		}
+	}
+
+	.lblLnkModulo {
+		position: relative;
+		font-weight: 500;
+		display: block;
+		height: 1.2rem;
+		background-color: lighten($Azul, 35);
+		padding: 1px .8rem;
+		margin-left: 4rem;
+		border-radius: 10px;
+		text-align: center;
+
+		span {
+			display: block;
+			color: $Negro;
+		}
+	}
+
+	.lblLnkModulo:after{
+		position: absolute;
+		content: url('../../ima/ico-clip.svg');
+		left: -20px;
+		top: 0;
+	}
+
+	.dvAllStates {
+		width: 80%;
+		margin: 1rem auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#dvCntStatesLnksF {
+		justify-content: flex-start;
+	}
+
+	.dvCntState {
+		height: 6rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.dvState {
+		margin-top: .2rem;
+	}
+
+
+	#currentStateForm, #currentStateLnkF {
+		padding-top: .6rem;
+	}
+
+	#currentStateLnkF {
+		width: 100px;
+		margin-right: 4rem;
+	}
+
+	.lblStatesFlow {
+		span {
+			font-size: 11px;
+		}
+	}
+
+
+	#lblCurrentLnkF {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.dotCurrent {
+		display: block;
+		margin: 0 auto .3rem auto;
+		height: 48px;
+		width: 48px;
+		background-color: $Verde2;
+		border-radius: 50%;
+	}
+
+	#dotCurrentLnkF {
+		margin: 0 auto;
+	}
+
+	.dotFlow {
+		display: inline-block;
+		height: 10px;
+		width: 10px;
+		background-color: $colSec;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+
+	#dotFlowCurrentForm, #dotFlowCurrentLnkF {
+		margin: 19px 19px;
+	}
+
+
+	.lineFlow:after {
+		position: absolute;
+		display: block;
+		top: 4px;
+		left: 14px;
+		content: '';
+		width: 138px;
+		border: 1px dashed $colSec;
+		z-index: 9;
+	}
+
+	#dotFlowCurrentLnkF:after {
+		width: 100px;
+	}
+}
+
+
+#pnDiagramFlow0{
+	height:80px !important;
+
+	.x-panel-body{
+		height: 50px !important;
+	}
+}
+
+
+//PANEL LATERAL DERECHO ATRIBUTOS 
+
+#pnAsideRight {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh !important;
+	z-index: 999;
+	box-shadow: -2px 0px 6px rgba(0, 0, 0, 0.10);
+	transition: width ease-in-out .8s;
+
+	.x-panel-body {
+		height: 100vh !important;
+		background-color: $colBg;
+		padding: 1rem;
+	}
+}
+
+
+#btnMoveRight{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	@include bgBtn-ico;
+	background-image: url(../../ima/btn-moveRight.svg);
+	background-size: 20px;
+	z-index: 9;
+	transition: all .5s ease-out;
+
+
+}
+
+#btnMoveRight.x-btn-default-small {
+	border-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+}
+
+#lblRegSelect{
+	position:relative;
+	display:block;
+	margin-left: 8px;
+	margin-top: 1.2rem;
+	font-size: 18px;
+	font-weight: 500;
+	color: $Verde3;
+	margin-bottom: .5rem;
+
+}
+
+#lblRegSelect:before{
+	position: absolute;
+	display: block;
+	content: url('../../ima/line-verdeHeader.svg');
+	left: -8px;
+	width: 3px;
+
+}
+
+#lblGroup{
+	margin-left: 8px;
+}
+
+.slider {
+	position: relative;
+	margin-top: 2rem;
+
+
+	h5 {
+		color: $colPpal;
+		margin-bottom: .6rem;
+		margin-left: 16px;
+		font-weight:500;
+		margin-top:0;
+	}
+
+	ul {
+		padding: 0;
+		display: flex;
+		justify-content: flex-start;
+		transition: margin ease-in-out .6s;
+	}
+
+	li {
+		width: 340px;
+		flex-shrink: 0;
+	}
+
+	.labelSlide {
+		display: block;
+		font-size: 12px;
+		color: $Gris4;
+		margin-top: .5rem;
+	}
+
+	.labelSlide:first-child {
+		margin-top: 0;
+	}
+
+	label{
+		display: block;
+		max-width: 330px;
+	}
+
+	.navDot {
+		display: flex;
+		width: max-content;
+		margin: 0 auto;
+
+		.btnDot {
+			margin-right: .5rem;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background-color: $colPpal;
+			border-color: $colPpal;
+
+			&:hover {
+				background-color: darken($colPpal,10);
+				border-color: darken($colPpal,10);
+			}
+		}
+
+		.btnDot-activo {
+			background-color: $Gris2;
+			border-color: $Gris2;
+			pointer-events: none;
+			cursor:not-allowed;
+		}
+	}
+
+	.navDot div:last-child a {
+		margin-right: 0;
+	}
+
+	.btnDot.x-btn-default-small {
+		padding: 0 !important;
+	}
+}
+
+.btnDot-activo > a {
+	background-color: $Gris2;
+	border-color: $Gris2;
+	pointer-events: none;
+	cursor: not-allowed !important;
+
+	
+}
+
+
+.slider::after {
+	position:absolute;
+	content: '';
+	display: block;
+	border: 1px solid $Gris1;
+	width: 100%;
+	margin-top: .8rem;
+}
+
+.slider:last-child::after{
+	border:none;
+}
+
+
+#SliderLinks{
+	h5{
+		position:relative;
+	}
+
+	h5:before{
+		position:absolute;
+		content: url('../../ima/ico-clipDataGrid.svg');
+		left:-18px;
+	}
+
+	li{
+		margin-right: 50px;
+	}
+}
+
+#SliderNotifications {
+	h5 {
+		position: relative;
+	}
+
+	h5:before {
+		position: absolute;
+		content: url('../../ima/ico-emailDataGrid.svg');
+		left: -18px;
+	}
+}
+
+
+#btnMoreRecipients {
+	position: absolute;
+	width: 24px;
+	top: 12px;
+	left: 342px;
+}
+
+#btnMoreMessage {
+	position: absolute;
+	width: 24px;
+	top: 110px;
+	left: 342px;
+}
+
+
+#lblMessage, #lblRecipients {
+	height: 2rem;
+	overflow: hidden;
+
+	span {
+		height: 2rem;
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	
+}
+
+#lblRecipients{
+	height: 1rem;
+}
+
+#dvAllRecipients {
+	position: absolute;
+	width: 200px;
+	padding: .5rem 1rem 1.5rem 1rem;
+	background-color: $blanco;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.16);
+	border-radius: 3px;
+	top: 20px;
+	left: 165px;
+	z-index: 9;
+	line-height: 1.5rem;
+
+	h5{
+		line-height: 1rem;
+	}
+}
+
+#dvEntireMessage {
+	position: absolute;
+	width: 300px;
+	padding: .5rem 1rem 1.5rem 1rem;
+	background-color: $blanco;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.16);
+	border-radius: 3px;
+	top: 110px;
+	left: 62px;
+	z-index: 9;
+}
+
+#aCloseMessage{
+	font-size: 10px;
+	float:right;
+	display:block;
+	margin-bottom: .2rem;
+	margin-right: .4rem;
+	color: $Gris4;
+}
+
+#hEntireMessage{
+	display: block;
+	color: $colPpal;
+	clear: right;
+}
+
+#lblSendTo {
+	margin-left: 16px;
+	position: relative;
+	font-weight: bold;
+}
+
+#lblSendTo:before {
+	position: absolute;
+	content: url('../../ima/ico-sent.svg');
+	left: -18px;
+	top: 1px;
+}
+
+.lblAttribDoc{
+	display: inline !important;
+	width: 100px;
+}
+
+#SliderDocuments {
+	margin-top: 2.8rem;
+
+	h5 {
+		position: relative;
+	}
+
+	h5:before {
+		position: absolute;
+		content: url('../../ima/ico-docsDataGrid.svg');
+		left: -18px;
+	}
+
+	.lblDocumento {
+		margin-bottom: .5rem;
+	}
+
+	#lblRequired {
+		margin-left: -4px;
+		margin-right: .5rem;
+	}
+
+	li {
+		margin-right: 50px;
+	}
+}
+
+
+
+#SliderFunctionalities {
+	h5 {
+		position: relative;
+	}
+
+	h5:before {
+		position: absolute;
+		content: url('../../ima/ico-functionalityDataGrid.svg');
+		left: -18px;
+	}
+}
+
+
+
+
+
+//FIN PANEL LATERAL DERECHO
+//WINDOW GESTION
+#winGestion {
+	.x-window-body {
+		padding: .8rem 2rem;
+	}
+
+	.x-panel-body-default {
+		background: $colBg;
+	}
+}
+
+	#pnVistasForm{
+		margin-top:0;
+	}
+
+// FIN WINDOW GESTION
+
+
+// FORM GESTION ESTADOS FORM STATES
+
+#pnContent{
+	width: 640px;
+}
+
+
+.formWorkflow {
+	height: 300px !important;
+
+	.x-panel-body {
+		padding: .5rem;
+	}
+
+	.x-form-item {
+		margin-right: 2rem;
+	}
+
+	.x-form-item:last-child {
+		margin-right: 0;
+	}
+}
+
+
+#txtRed, #txtAmarillo {
+	margin-right: 1.6rem !important;
+}
+
+#chkComplete{
+	margin-top: 1rem;
+}
+
+#cntBtnForm{
+	text-align: right;
+	padding-right: 3.8rem;
+	margin-top: 2rem;
+}
+
+
+#btnPrev {
+	margin-right: 1rem;
+}
+
+
+.btnAdd{
+	float:right;
+	margin-right: 3.5rem;
+}
+
+
+.x-form-cb-label-default { // tamaño texto en checkbox
+	font: 300 11px/14px $font-ppal;
+	color: $colSec;
+}
+
+#flCntChkNots{
+	height: 2.2rem;
+
+	label{
+		margin-top: .6rem
+	}
+}
+
+#chkGroupSend {
+	height: 2.2rem;
+}
+
+
+#chkValidated {
+	margin-top: 1.75rem;
+	height: 2.2rem;
+
+	label {
+		margin-top: .6rem
+	}
+}
+
+
+#gridFuncs {
+	.x-grid-header-ct {
+		display: none;
+	}
+
+	.x-panel-body-default{
+		background-color: $blanco;
+	}
+}
+
+#dvCntFuncsList{
+	
+	height:80px;
+}
+
+
+#formFuncs, #formState, #formSubP, #formNots, #formDocs, #formFunc {
+	height: 350px !important
+}
+
+
+#formNext, #formLinks {
+	height: 290px !important
+}
+
+
+
+
+#btnAddFunc {
+	
+	margin-top: .3rem;
+}
+
+
+.lblGridFuncs {
+	display:block;
+	font-size: 12px;
+	font-weight: 500;
+	color: #6A6B75;
+}
+
+#flLlbFuncs {
+	padding-left: 3rem;
+	margin-bottom: 3px;
+
+}
+
+#lblFuncsFuncs {
+	left: 240px !important;
+
+	span {
+		font-size: 12px;
+		font-weight: 500;
+		color: #6A6B75;
+	}
+}
+
+#lblModuleFuncs span {
+	font-size: 12px;
+	font-weight: 500;
+	color: #6A6B75;
+}
+
+
+// contenedor pila elementos lista elementos
+.pnListF {
+	width: 580px !important;
+	padding-top: .5rem;
+
+	.x-panel-body {
+		padding: 0;
+	}
+}
+
+.dvLbls-listF{
+	display:flex;
+	padding-left: .5rem;
+}
+
+.flx-1 {
+	display: block;
+	flex: 0 0 calc(50% - .5rem );
+}
+
+.flx-2{
+	display: block;
+	flex: 0 0 calc(40% - .5rem );
+}
+
+.flx-3 {
+	display: block;
+	flex: 0 0 calc(30% - .5rem );
+}
+
+.flx-4 {
+	display: block;
+	flex: 0 0 calc(16% - .5rem );
+}
+
+
+.cntListF {
+	width: 570px;
+	height: 135px;
+	background-color: $blanco;
+	border: 1px solid $Gris2;
+}
+
+.ulListF{
+	padding:.5rem .5rem;
+	margin:0;
+}
+
+.liListF {
+	display: flex;
+	background-color: lighten($Azul, 38);
+	padding: .3rem .3rem .3rem .5rem;
+	border-radius: 3px;
+}
+
+.lblBox {
+	display: block;
+	margin-right: .5rem;
+}
+
+
+
+
+
+//fin contenedor pila elementos lista elementos
+
+// FIN FORM GESTION ESTADOS FORM STATES

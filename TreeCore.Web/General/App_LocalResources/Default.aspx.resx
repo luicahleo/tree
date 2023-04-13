@@ -1,0 +1,975 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAcometidasTipos.Text" xml:space="preserve">
+    <value>Tipos de Acometidas</value>
+  </data>
+  <data name="btnActaTecnicaFabricantes.Text" xml:space="preserve">
+    <value>Acta Tecnica Fabricantes Modelos</value>
+  </data>
+  <data name="btnActivosClases.Text" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="btnActivosEstados.Text" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="btnActivosGrupo.Text" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="btnAdquisiciones.Text" xml:space="preserve">
+    <value>Adquisiciones</value>
+  </data>
+  <data name="btnAgencias.Text" xml:space="preserve">
+    <value>Agencias</value>
+  </data>
+  <data name="btnAlquieleresHistoricosEstados.Text" xml:space="preserve">
+    <value>Estado Historico</value>
+  </data>
+  <data name="btnAlquileresClasesActivos.Text" xml:space="preserve">
+    <value>Alquiler Clase Activo</value>
+  </data>
+  <data name="btnAlquileresConceptos.Text" xml:space="preserve">
+    <value>Alquileres Conceptos</value>
+  </data>
+  <data name="btnAlquileresEstados.Text" xml:space="preserve">
+    <value>Alquileres Estados</value>
+  </data>
+  <data name="btnAlquileresGrupo.Text" xml:space="preserve">
+    <value>Alquileres</value>
+  </data>
+  <data name="btnAlquileresMetodosPagos.Text" xml:space="preserve">
+    <value>Alquileres Métodos Pagos</value>
+  </data>
+  <data name="btnAlquileresTiposContratos.Text" xml:space="preserve">
+    <value>Alquileres Tipos Contratos</value>
+  </data>
+  <data name="btnAlquileresTiposContratosSAP.Text" xml:space="preserve">
+    <value>Alquileres Tipos Contratos SAP</value>
+  </data>
+  <data name="btnAlquileresTiposPropietarios.Text" xml:space="preserve">
+    <value>Alquileres Tipos Propietarios</value>
+  </data>
+  <data name="btnAlquilereTiposContrataciones.Text" xml:space="preserve">
+    <value>Alquileres Tipos Contrataciones</value>
+  </data>
+  <data name="btnAreasFuncionales.Text" xml:space="preserve">
+    <value>Areas Funcionales</value>
+  </data>
+  <data name="btnBancos.Text" xml:space="preserve">
+    <value>Bancos</value>
+  </data>
+  <data name="btnBillingImpuestos.Text" xml:space="preserve">
+    <value>Impuestos Contribuyentes</value>
+  </data>
+  <data name="btnCalidad.Text" xml:space="preserve">
+    <value>Calidad</value>
+  </data>
+  <data name="btnCandidatos.Text" xml:space="preserve">
+    <value>Candidatos</value>
+  </data>
+  <data name="btnCategorias.Text" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="btnCentroCostes.Text" xml:space="preserve">
+    <value>Centro de Costes</value>
+  </data>
+  <data name="btnCentrosOperativos.Text" xml:space="preserve">
+    <value>Centros Operativos</value>
+  </data>
+  <data name="btnClasificaciones.Text" xml:space="preserve">
+    <value>Clasificaciones</value>
+  </data>
+  <data name="btnClaveClasificaciones.Text" xml:space="preserve">
+    <value>Claves Clasificaciones</value>
+  </data>
+  <data name="btnClientes.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="btnColumnas.Text" xml:space="preserve">
+    <value>Columnas</value>
+  </data>
+  <data name="btnComponentes.Text" xml:space="preserve">
+    <value>Componentes</value>
+  </data>
+  <data name="btnConceptosPagos.Text" xml:space="preserve">
+    <value>Conceptos Pagos</value>
+  </data>
+  <data name="btnCondicionesPagos.Text" xml:space="preserve">
+    <value>Condiciones de Pagos</value>
+  </data>
+  <data name="btnConexiones.Text" xml:space="preserve">
+    <value>Conexiones</value>
+  </data>
+  <data name="btnConfiguracionMaxima.Text" xml:space="preserve">
+    <value>Configuración Máxima</value>
+  </data>
+  <data name="btnConflictividad.Text" xml:space="preserve">
+    <value>Conflictividad</value>
+  </data>
+  <data name="btnCuentasAsociadas.Text" xml:space="preserve">
+    <value>Cuentas Asociadas</value>
+  </data>
+  <data name="btnDepartamentos.Text" xml:space="preserve">
+    <value>Departamentos</value>
+  </data>
+  <data name="btnDesinstalaciones.Text" xml:space="preserve">
+    <value>Desinstalaciones</value>
+  </data>
+  <data name="btnDespliegue.Text" xml:space="preserve">
+    <value>Despliegue</value>
+  </data>
+  <data name="btnDireccionesAccesos.Text" xml:space="preserve">
+    <value>Accesos</value>
+  </data>
+  <data name="btnDireccionesEstadosCaminos.Text" xml:space="preserve">
+    <value>Estados Caminos</value>
+  </data>
+  <data name="btnDireccionesGrupo.Text" xml:space="preserve">
+    <value>Direcciones</value>
+  </data>
+  <data name="btnDireccionesLugaresRetirosAccesos.Text" xml:space="preserve">
+    <value>Lugares Retiros Accesos</value>
+  </data>
+  <data name="btnDireccionesTipos.Text" xml:space="preserve">
+    <value>Tipos Direcciones</value>
+  </data>
+  <data name="btnDireccionesTiposCaminos.Text" xml:space="preserve">
+    <value>Tipos de Caminos</value>
+  </data>
+  <data name="btnDireccionesTiposLlavesAccesos.Text" xml:space="preserve">
+    <value>Tipos Llaves Accesos</value>
+  </data>
+  <data name="btnDispositivosCategorias.Text" xml:space="preserve">
+    <value>Categorías</value>
+  </data>
+  <data name="btnDispositivosEstados.Text" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="btnDispositivosFabricantes.Text" xml:space="preserve">
+    <value>Fabricantes</value>
+  </data>
+  <data name="btnDispositivosGrupo.Text" xml:space="preserve">
+    <value>Dispositivos</value>
+  </data>
+  <data name="btnDispositivosTipos.Text" xml:space="preserve">
+    <value>Tipos</value>
+  </data>
+  <data name="btnDispositivosUnidades.Text" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="btnDocumental.Text" xml:space="preserve">
+    <value>Documental</value>
+  </data>
+  <data name="btnElementosContablesGrupo.Text" xml:space="preserve">
+    <value>Elementos Contables</value>
+  </data>
+  <data name="btnEmplazamientosCategoriasSitios.Header" xml:space="preserve">
+    <value>Categorias Sitios</value>
+  </data>
+  <data name="btnEmplazamientosGrupo.Text" xml:space="preserve">
+    <value>Emplazamientos</value>
+  </data>
+  <data name="btnEmplazamientosRiesgos.Text" xml:space="preserve">
+    <value>Riesgos</value>
+  </data>
+  <data name="btnEmplazamientosTamanos.Text" xml:space="preserve">
+    <value>Emplazamientos Tamaños</value>
+  </data>
+  <data name="btnEmplazamientosTiposEstructuras.Text" xml:space="preserve">
+    <value>Tipos Estructuras</value>
+  </data>
+  <data name="btnEmpresasProveedoras.Text" xml:space="preserve">
+    <value>Empresas Proveedoras</value>
+  </data>
+  <data name="btnEntornos.Text" xml:space="preserve">
+    <value>Mapas</value>
+  </data>
+  <data name="btnEspacios.Text" xml:space="preserve">
+    <value>Espacios</value>
+  </data>
+  <data name="btnEstados.Text" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="btnEstadosGlobales.Text" xml:space="preserve">
+    <value>Estados Globales</value>
+  </data>
+  <data name="btnEstudiosJuridicos.Text" xml:space="preserve">
+    <value>Estudios Juridicos</value>
+  </data>
+  <data name="btnFases.Text" xml:space="preserve">
+    <value>Fases</value>
+  </data>
+  <data name="btnFrecuenciasTelco.Text" xml:space="preserve">
+    <value>Frecuencias Telco</value>
+  </data>
+  <data name="btnFrecuenciasTelco.ToolTip" xml:space="preserve">
+    <value>Frecuencias Telco</value>
+  </data>
+  <data name="btnGlobalAntenasTipos.Text" xml:space="preserve">
+    <value>Tipos de Antenas</value>
+  </data>
+  <data name="btnGlobalAreasOyM.Text" xml:space="preserve">
+    <value>Areas O&amp;M</value>
+  </data>
+  <data name="btnGlobalBalizamiento" xml:space="preserve">
+    <value>Balizamientos</value>
+  </data>
+  <data name="btnGlobalCasetasTipos.Text" xml:space="preserve">
+    <value>Tipos de Casetas</value>
+  </data>
+  <data name="btnGlobalCerradurasTipos.Text" xml:space="preserve">
+    <value>Tipos de Cerraduras</value>
+  </data>
+  <data name="btnGlobalConstruccionesTipos.Text" xml:space="preserve">
+    <value>Tipos de Construcciones</value>
+  </data>
+  <data name="btnGlobalLineasVidasTipos.Text" xml:space="preserve">
+    <value>Tipos de Linea de vida</value>
+  </data>
+  <data name="btnGlobalMotivosAdendas.Text" xml:space="preserve">
+    <value>Motivos de Adendas</value>
+  </data>
+  <data name="btnGlobalMotorGeneradorTipo.Text" xml:space="preserve">
+    <value>Tipos de Motor Generador</value>
+  </data>
+  <data name="btnGlobalParcelasTipos.Text" xml:space="preserve">
+    <value>Tipos de Parcelas</value>
+  </data>
+  <data name="btnGlobalSoportesAntenasTipos.Text" xml:space="preserve">
+    <value>Tipos Soportes Antenas</value>
+  </data>
+  <data name="btnGlobalTiposGases.Text" xml:space="preserve">
+    <value>Tipos de Gases</value>
+  </data>
+  <data name="btnGlobalTiposServicios.Text" xml:space="preserve">
+    <value>Tipos Servicios</value>
+  </data>
+  <data name="btnGlobalTiposTransmisiones.Text" xml:space="preserve">
+    <value>Tipos de Trasmisiones</value>
+  </data>
+  <data name="btnGruposAccesosWeb.Text" xml:space="preserve">
+    <value>Grupos Accesos Web</value>
+  </data>
+  <data name="btnGruposAutorizaciones.Text" xml:space="preserve">
+    <value>Grupos Autorizaciones</value>
+  </data>
+  <data name="btnGruposCuentas.Text" xml:space="preserve">
+    <value>Grupos de Cuentas</value>
+  </data>
+  <data name="btnGruposTesorerias.Text" xml:space="preserve">
+    <value>Grupos de Tesorería</value>
+  </data>
+  <data name="btnIdiomas.Text" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="btnImpuestos.Text" xml:space="preserve">
+    <value>Impuestos</value>
+  </data>
+  <data name="btnImpuestos.ToolTip" xml:space="preserve">
+    <value>Impuestos</value>
+  </data>
+  <data name="btnInflaciones.Text" xml:space="preserve">
+    <value>Por Países</value>
+  </data>
+  <data name="btnInflacionesAplicacionesTipos.Text" xml:space="preserve">
+    <value>Inflaciones Tipos</value>
+  </data>
+  <data name="btnInflacionesGrupo.Text" xml:space="preserve">
+    <value>Inflaciones</value>
+  </data>
+  <data name="btnInfraestructura.Text" xml:space="preserve">
+    <value>Infraestructura</value>
+  </data>
+  <data name="btnInfraestructuras.Text" xml:space="preserve">
+    <value>Infraestructuras</value>
+  </data>
+  <data name="btnInfraestructurasGestion.Text" xml:space="preserve">
+    <value>Infraestructuras Gestión</value>
+  </data>
+  <data name="btnInfraestructurasGrupo.Text" xml:space="preserve">
+    <value>Infraestructuras</value>
+  </data>
+  <data name="btnInfraestructurasSubServicios.Text" xml:space="preserve">
+    <value>SubElementos</value>
+  </data>
+  <data name="btnInstalaciones.Text" xml:space="preserve">
+    <value>Instalaciones</value>
+  </data>
+  <data name="btnIntegracionesGrupo.Text" xml:space="preserve">
+    <value>Integraciones</value>
+  </data>
+  <data name="btnIntercambios.Text" xml:space="preserve">
+    <value>Intercambios</value>
+  </data>
+  <data name="btnLegalizaciones.Text" xml:space="preserve">
+    <value>Legalizaciones</value>
+  </data>
+  <data name="btnLicencias.Text" xml:space="preserve">
+    <value>Licencias</value>
+  </data>
+  <data name="btnLimites.Text" xml:space="preserve">
+    <value>Limites</value>
+  </data>
+  <data name="btnLocalidades.Text" xml:space="preserve">
+    <value>Localidades</value>
+  </data>
+  <data name="btnLocalizacionesGrupo.Text" xml:space="preserve">
+    <value>Localizaciones</value>
+  </data>
+  <data name="btnMediosTransmisiones.Text" xml:space="preserve">
+    <value>Medios de Transmisión</value>
+  </data>
+  <data name="btnMenusModulos.Text" xml:space="preserve">
+    <value>Menus Modulos</value>
+  </data>
+  <data name="btnMetodos.Text" xml:space="preserve">
+    <value>Métodos</value>
+  </data>
+  <data name="btnMetodosPagos.Text" xml:space="preserve">
+    <value>Metodos Pagos</value>
+  </data>
+  <data name="btnModulos.Text" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="btnMonedas.Text" xml:space="preserve">
+    <value>Monedas</value>
+  </data>
+  <data name="btnNotificacionesCadencias.Text" xml:space="preserve">
+    <value>Cadencias</value>
+  </data>
+  <data name="btnNotificacionesCriterios.Text" xml:space="preserve">
+    <value>Criterios</value>
+  </data>
+  <data name="btnNotificacionesGestion.Text" xml:space="preserve">
+    <value>Gestión</value>
+  </data>
+  <data name="btnNotificacionesGrupo.Text" xml:space="preserve">
+    <value>Notificaciones</value>
+  </data>
+  <data name="btnOperadores.Text" xml:space="preserve">
+    <value>Operadores</value>
+  </data>
+  <data name="btnPaises.Text" xml:space="preserve">
+    <value>Países</value>
+  </data>
+  <data name="btnParametros.Text" xml:space="preserve">
+    <value>Parametros</value>
+  </data>
+  <data name="btnPartesRescisoras.Text" xml:space="preserve">
+    <value>Partes Rescisoras</value>
+  </data>
+  <data name="btnPlanning.Text" xml:space="preserve">
+    <value>Planning</value>
+  </data>
+  <data name="btnPropietarios.Text" xml:space="preserve">
+    <value>Propietarios</value>
+  </data>
+  <data name="btnProteccionesIndividuales.Text" xml:space="preserve">
+    <value>Protecciones Individuales</value>
+  </data>
+  <data name="btnProveedores.Text" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="btnProvinciasMunicipios.Text" xml:space="preserve">
+    <value>Provincias/Municipios</value>
+  </data>
+  <data name="btnRadio.Text" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="btnRegiones.Text" xml:space="preserve">
+    <value>Regiones</value>
+  </data>
+  <data name="btnRegionesPaises.Text" xml:space="preserve">
+    <value>Regiones/Paises</value>
+  </data>
+  <data name="btnSAPGrupo.Text" xml:space="preserve">
+    <value>SAP</value>
+  </data>
+  <data name="btnSAPIFRS16TratamientosPrevios.Text" xml:space="preserve">
+    <value>Tratamientos Previos</value>
+  </data>
+  <data name="btnSAPTiposNIF.Text" xml:space="preserve">
+    <value>Alquileres Tipos NIF</value>
+  </data>
+  <data name="btnSAPTratamientos.Text" xml:space="preserve">
+    <value>Tratamientos</value>
+  </data>
+  <data name="btnServicios.Text" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="btnServiciosInfraestructuras.Text" xml:space="preserve">
+    <value>Servicios Infraestructuras</value>
+  </data>
+  <data name="btnSociedades.Text" xml:space="preserve">
+    <value>Sociedades</value>
+  </data>
+  <data name="btnTecnologiasGrupo.Text" xml:space="preserve">
+    <value>Tecnologías</value>
+  </data>
+  <data name="btnTipologias.Text" xml:space="preserve">
+    <value>Tipologias</value>
+  </data>
+  <data name="btnTiposAccesos.Text" xml:space="preserve">
+    <value>Tipos Accesos</value>
+  </data>
+  <data name="btnTiposContribuyentes.Text" xml:space="preserve">
+    <value>Tipos de Contribuyentes</value>
+  </data>
+  <data name="btnTiposDatos.Text" xml:space="preserve">
+    <value>Tipos de Datos</value>
+  </data>
+  <data name="btnTiposEdificios.Text" xml:space="preserve">
+    <value>Tipos de Edificios</value>
+  </data>
+  <data name="btnTiposEmplazamientos.Text" xml:space="preserve">
+    <value>Tipos de Emplazamientos</value>
+  </data>
+  <data name="btnTiposProyectos.Text" xml:space="preserve">
+    <value>Tipos de Proyectos</value>
+  </data>
+  <data name="btnTiposTecTelco.Text" xml:space="preserve">
+    <value>Tipos Tec. Telco.</value>
+  </data>
+  <data name="btnTiposTecTelco.ToolTip" xml:space="preserve">
+    <value>Tipos Tec. Telco.</value>
+  </data>
+  <data name="btnTransmision.Text" xml:space="preserve">
+    <value>Transmisión</value>
+  </data>
+  <data name="btnVex.Text" xml:space="preserve">
+    <value>Vex</value>
+  </data>
+  <data name="btnVexCriticidades.Text" xml:space="preserve">
+    <value>Criticidades</value>
+  </data>
+  <data name="btnVexProyectosSecciones.Text" xml:space="preserve">
+    <value>Proyectos/Secciones</value>
+  </data>
+  <data name="btnZonasCluster.Text" xml:space="preserve">
+    <value>Zonas Cluster</value>
+  </data>
+  <data name="Global" xml:space="preserve">
+    <value>GLOBAL</value>
+  </data>
+  <data name="jsAccesos" xml:space="preserve">
+    <value>Accesos</value>
+  </data>
+  <data name="jsAcometidasTipos" xml:space="preserve">
+    <value>Tipos de Acometidas</value>
+  </data>
+  <data name="jsActaTecnicaFabricantes" xml:space="preserve">
+    <value>Acta Tecnica Fabricantes Modelos</value>
+  </data>
+  <data name="jsActivosClases" xml:space="preserve">
+    <value>Clases</value>
+  </data>
+  <data name="jsActivosEstados" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="jsAlquileresClasesActivos" xml:space="preserve">
+    <value>Alquiler Clase Activo</value>
+  </data>
+  <data name="jsAlquileresConceptos" xml:space="preserve">
+    <value>Alquileres Conceptos</value>
+  </data>
+  <data name="jsAlquileresEstados" xml:space="preserve">
+    <value>Alquileres Estados</value>
+  </data>
+  <data name="jsAlquileresHistoricosEstados" xml:space="preserve">
+    <value>Estado Historico</value>
+  </data>
+  <data name="jsAlquileresMetodosPagos" xml:space="preserve">
+    <value>Alquileres Métodos Pagos</value>
+  </data>
+  <data name="jsAlquileresTiposContrataciones" xml:space="preserve">
+    <value>Alquileres Tipos Contrataciones</value>
+  </data>
+  <data name="jsAlquileresTiposContratos" xml:space="preserve">
+    <value>Alquileres Tipos Contratos</value>
+  </data>
+  <data name="jsAlquileresTiposContratosSAP" xml:space="preserve">
+    <value>Alquileres Tipos Contratos SAP</value>
+  </data>
+  <data name="jsAlquileresTiposPropietarios" xml:space="preserve">
+    <value>Alquileres Tipos Propietarios</value>
+  </data>
+  <data name="jsAreasFuncionales" xml:space="preserve">
+    <value>Areas Funcionales</value>
+  </data>
+  <data name="jsAtencion" xml:space="preserve">
+    <value>Atención</value>
+  </data>
+  <data name="jsBancos" xml:space="preserve">
+    <value>Bancos</value>
+  </data>
+  <data name="jsBillingImpuestos" xml:space="preserve">
+    <value>Impuestos Contribuyentes</value>
+  </data>
+  <data name="jsBusquedaGlobal" xml:space="preserve">
+    <value>Busqueda Global</value>
+  </data>
+  <data name="jsCalidad" xml:space="preserve">
+    <value>Calidad</value>
+  </data>
+  <data name="jsCentroCostes" xml:space="preserve">
+    <value>Centro Costes</value>
+  </data>
+  <data name="jsClavesClasificaciones" xml:space="preserve">
+    <value>Claves Clasificaciones</value>
+  </data>
+  <data name="jsClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="jsColumnas" xml:space="preserve">
+    <value>Columnas</value>
+  </data>
+  <data name="jsComponentes" xml:space="preserve">
+    <value>Componentes</value>
+  </data>
+  <data name="jsConceptosPagos" xml:space="preserve">
+    <value>Conceptos Pagos</value>
+  </data>
+  <data name="jsCondicionesPagos" xml:space="preserve">
+    <value>Condiciones de Pago</value>
+  </data>
+  <data name="jsConexiones" xml:space="preserve">
+    <value>Conexiones</value>
+  </data>
+  <data name="jsConfiguracionMaxima" xml:space="preserve">
+    <value>Configuración Máxima</value>
+  </data>
+  <data name="jsConflictividad" xml:space="preserve">
+    <value>Conflictividad</value>
+  </data>
+  <data name="jsCriticidades" xml:space="preserve">
+    <value>Criticidades</value>
+  </data>
+  <data name="jsCuentasAsociadas" xml:space="preserve">
+    <value>Cuentas Asociadas</value>
+  </data>
+  <data name="jsDepartamentos" xml:space="preserve">
+    <value>Departamentos</value>
+  </data>
+  <data name="jsDireccionesEstadosCaminos" xml:space="preserve">
+    <value>Estados Caminos</value>
+  </data>
+  <data name="jsDireccionesLugaresRetirosAccesos" xml:space="preserve">
+    <value>Lugares Retiros Accesos</value>
+  </data>
+  <data name="jsDireccionesTipos" xml:space="preserve">
+    <value>Tipos Direcciones</value>
+  </data>
+  <data name="jsDireccionesTiposCaminos" xml:space="preserve">
+    <value>Tipos de Caminos</value>
+  </data>
+  <data name="jsDireccionesTiposLlavesAccesos" xml:space="preserve">
+    <value>Tipos Llaves Accesos</value>
+  </data>
+  <data name="jsDispositivosCategorias" xml:space="preserve">
+    <value>Dispositivos Categorías</value>
+  </data>
+  <data name="jsDispositivosEstados" xml:space="preserve">
+    <value>Dispositivos Estados</value>
+  </data>
+  <data name="jsDispositivosFabricantes" xml:space="preserve">
+    <value>Fabricantes</value>
+  </data>
+  <data name="jsDispositivosTipos" xml:space="preserve">
+    <value>Dispositivos Tipos</value>
+  </data>
+  <data name="jsDispositivosUnidades" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="jsEmplazamientos" xml:space="preserve">
+    <value>Emplazamientos</value>
+  </data>
+  <data name="jsEmplazamientosCategoriasSitios" xml:space="preserve">
+    <value>Categorías Sitios</value>
+  </data>
+  <data name="jsEmplazamientosRiesgos" xml:space="preserve">
+    <value>Riesgos</value>
+  </data>
+  <data name="jsEmplazamientosTamanos" xml:space="preserve">
+    <value>Emplazamientos Tamaños</value>
+  </data>
+  <data name="jsEmplazamientosTiposEstructuras" xml:space="preserve">
+    <value>Tipos Estructuras</value>
+  </data>
+  <data name="jsEmpresasProveedoras" xml:space="preserve">
+    <value>Empresas Proveedoras</value>
+  </data>
+  <data name="jsEstados" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="jsEstadosGlobales" xml:space="preserve">
+    <value>Estados Globales</value>
+  </data>
+  <data name="jsGlobalAntenasTipos" xml:space="preserve">
+    <value>Antenas Tipos</value>
+  </data>
+  <data name="jsGlobalAreasOyM" xml:space="preserve">
+    <value>Areas O&amp;M</value>
+  </data>
+  <data name="jsGlobalBalizamientoTipos" xml:space="preserve">
+    <value>Balizamientos</value>
+  </data>
+  <data name="jsGlobalCasetasTipos" xml:space="preserve">
+    <value>Tipos de Casetas</value>
+  </data>
+  <data name="jsGlobalCentrosOperativos" xml:space="preserve">
+    <value>Centros Operativos</value>
+  </data>
+  <data name="jsGlobalCerradurasTipos" xml:space="preserve">
+    <value>Tipos de Cerraduras</value>
+  </data>
+  <data name="jsGlobalConstruccionesTipos" xml:space="preserve">
+    <value>Tipos de Construcciones</value>
+  </data>
+  <data name="jsGlobalFrecuenciasTelco" xml:space="preserve">
+    <value>Frecuencias Telco</value>
+  </data>
+  <data name="jsGlobalLineasVidasTipos" xml:space="preserve">
+    <value>Tipos de Linea de Vida</value>
+  </data>
+  <data name="jsGlobalMotivosAdendas" xml:space="preserve">
+    <value>Motivos de Adendas</value>
+  </data>
+  <data name="jsGlobalMotorGeneradorTipo" xml:space="preserve">
+    <value>Tipos de Motor Generador</value>
+  </data>
+  <data name="jsGlobalParcelasTipos" xml:space="preserve">
+    <value>Tipos de Parcelas</value>
+  </data>
+  <data name="jsGlobalSoportesAntenasTipos" xml:space="preserve">
+    <value>Soportes Antenas Tipos</value>
+  </data>
+  <data name="jsGlobalTiposGases" xml:space="preserve">
+    <value>Tipos de Gases</value>
+  </data>
+  <data name="jsGlobalTiposServicios" xml:space="preserve">
+    <value>Tipos Servicios</value>
+  </data>
+  <data name="jsGlobalTiposTecnologiasTelco" xml:space="preserve">
+    <value>Tipos Tec. Telco.</value>
+  </data>
+  <data name="jsGlobalTiposTransmisiones" xml:space="preserve">
+    <value>Tipos de Transmisiones</value>
+  </data>
+  <data name="jsGruposAccesosWeb" xml:space="preserve">
+    <value>Grupos Accesos Web</value>
+  </data>
+  <data name="jsGruposAutorizaciones" xml:space="preserve">
+    <value>Grupos Autorizaciones</value>
+  </data>
+  <data name="jsGruposCuentas" xml:space="preserve">
+    <value>Grupos de Cuentas</value>
+  </data>
+  <data name="jsGruposTesorerias" xml:space="preserve">
+    <value>Grupos de Tesorerías</value>
+  </data>
+  <data name="jsIdiomas" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="jsImpuestos" xml:space="preserve">
+    <value>Impuestos</value>
+  </data>
+  <data name="jsInflaciones" xml:space="preserve">
+    <value>Inflaciones por países</value>
+  </data>
+  <data name="jsInflacionesAplicacionesTipos" xml:space="preserve">
+    <value>Inflaciones Aplicaciones Tipos</value>
+  </data>
+  <data name="jsInfraestructuras" xml:space="preserve">
+    <value>Infraestructuras</value>
+  </data>
+  <data name="jsInfraestructurasGestion" xml:space="preserve">
+    <value>Infraestructuras Gestión</value>
+  </data>
+  <data name="jsInfraestructurasSubServicios" xml:space="preserve">
+    <value>SubElementos</value>
+  </data>
+  <data name="jsInicioMainTab" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="jsLicencias" xml:space="preserve">
+    <value>Licencias</value>
+  </data>
+  <data name="jsLimites" xml:space="preserve">
+    <value>Limites</value>
+  </data>
+  <data name="jsLocalidades" xml:space="preserve">
+    <value>Localidades</value>
+  </data>
+  <data name="jsMapas" xml:space="preserve">
+    <value>Mapas</value>
+  </data>
+  <data name="jsMediosTransmisiones" xml:space="preserve">
+    <value>Medios de Transmisión</value>
+  </data>
+  <data name="jsMensajeProcesando" xml:space="preserve">
+    <value>Procesando</value>
+  </data>
+  <data name="jsMenusModulos" xml:space="preserve">
+    <value>Menus Modulos</value>
+  </data>
+  <data name="jsMetodos" xml:space="preserve">
+    <value>Métodos</value>
+  </data>
+  <data name="jsMetodosPagos" xml:space="preserve">
+    <value>Metodos Pagos</value>
+  </data>
+  <data name="jsModulos" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="jsMonedas" xml:space="preserve">
+    <value>Monedas</value>
+  </data>
+  <data name="jsNavUsuarios" xml:space="preserve">
+    <value>Datos Usuario</value>
+  </data>
+  <data name="jsNotificacionesCadencias" xml:space="preserve">
+    <value>Cadencias</value>
+  </data>
+  <data name="jsNotificacionesCriterios" xml:space="preserve">
+    <value>Criterios</value>
+  </data>
+  <data name="jsNotificacionesGestion" xml:space="preserve">
+    <value>Gestión</value>
+  </data>
+  <data name="jsOperadores" xml:space="preserve">
+    <value>Operadores</value>
+  </data>
+  <data name="jsPaises" xml:space="preserve">
+    <value>Países</value>
+  </data>
+  <data name="jsParametros" xml:space="preserve">
+    <value>Parametros</value>
+  </data>
+  <data name="jsPartesRescisoras" xml:space="preserve">
+    <value>Partes Rescisoras</value>
+  </data>
+  <data name="jsPropietarios" xml:space="preserve">
+    <value>Propietarios</value>
+  </data>
+  <data name="jsProteccionesIndividuales" xml:space="preserve">
+    <value>Protecciones Individuales</value>
+  </data>
+  <data name="jsProveedores" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="jsProvinciasMunicipios" xml:space="preserve">
+    <value>Provincias/Municipio</value>
+  </data>
+  <data name="jsProyectosAgrupaciones" xml:space="preserve">
+    <value>Agrupaciones</value>
+  </data>
+  <data name="jsProyectosTipos" xml:space="preserve">
+    <value>Tipos de Proyectos</value>
+  </data>
+  <data name="jsRegiones" xml:space="preserve">
+    <value>Regiones</value>
+  </data>
+  <data name="jsRegionesPaises" xml:space="preserve">
+    <value>Regiones/Paises</value>
+  </data>
+  <data name="jsSAPIFRS16TratamientosPrevios" xml:space="preserve">
+    <value>Tratamientos Previos</value>
+  </data>
+  <data name="jsSAPTiposNIF" xml:space="preserve">
+    <value>Alquileres Tipos NIF</value>
+  </data>
+  <data name="jsSAPTratamientos" xml:space="preserve">
+    <value>Tratamientos</value>
+  </data>
+  <data name="jsServicios" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="jsSociedades" xml:space="preserve">
+    <value>Sociedades</value>
+  </data>
+  <data name="jsTipologias" xml:space="preserve">
+    <value>Tipologias</value>
+  </data>
+  <data name="jsTiposAccesos" xml:space="preserve">
+    <value>Tipos Accesos</value>
+  </data>
+  <data name="jsTiposContribuyentes" xml:space="preserve">
+    <value>Tipos de Contribuyentes</value>
+  </data>
+  <data name="jsTiposDatos" xml:space="preserve">
+    <value>Tipos de Datos</value>
+  </data>
+  <data name="jsTiposEdificios" xml:space="preserve">
+    <value>Tipos de Edificios</value>
+  </data>
+  <data name="jsTiposEmplazamientos" xml:space="preserve">
+    <value>Tipos de Emplazamientos</value>
+  </data>
+  <data name="jsTituloModulo" xml:space="preserve">
+    <value>TREE CORE</value>
+  </data>
+  <data name="jsVexProyectosSecciones" xml:space="preserve">
+    <value>Proyectos/Secciones</value>
+  </data>
+  <data name="jsZonasCluster" xml:space="preserve">
+    <value>Zonas Cluster</value>
+  </data>
+  <data name="lblEntorno.Text" xml:space="preserve">
+    <value>Entorno Demo</value>
+  </data>
+  <data name="lblNombreCliente.Text" xml:space="preserve">
+    <value>Nombre Cliente</value>
+  </data>
+  <data name="lblNombreUsuario.Text" xml:space="preserve">
+    <value>Nombre de Usuario</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>Versión 5.0.0.0</value>
+  </data>
+  <data name="lnkAcerca.Text" xml:space="preserve">
+    <value>Acerca</value>
+  </data>
+  <data name="lnkAvisos.Text" xml:space="preserve">
+    <value>Avisos</value>
+  </data>
+  <data name="lnkCerrar.Text" xml:space="preserve">
+    <value>Cerrar Sesión</value>
+  </data>
+  <data name="lnkConfiguracion.Text" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="lnkDatosUsuario.Text" xml:space="preserve">
+    <value>Datos Usuario</value>
+  </data>
+  <data name="lnkSoporte.Text" xml:space="preserve">
+    <value>Soporte</value>
+  </data>
+  <data name="mnuAdministracion.Title" xml:space="preserve">
+    <value>Administración</value>
+  </data>
+  <data name="mnuGestion.Title" xml:space="preserve">
+    <value>Gestión</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>TREE CORE</value>
+  </data>
+  <data name="pnInicio.Title" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+</root>

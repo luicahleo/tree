@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_8260" data-name="Grupo 8260" transform="translate(-365 -284)">
+    <g id="Grupo_8251" data-name="Grupo 8251" transform="translate(385 289) rotate(90)">
+      <g id="Grupo_8250" data-name="Grupo 8250">
+        <path id="Trazado_2966" data-name="Trazado 2966" d="M5.6,12.5h-1.7V10.625H5.6A2.335,2.335,0,0,0,8,8.371V4.13A2.335,2.335,0,0,0,5.6,1.876H4.4A2.335,2.335,0,0,0,2,4.13V6.719L0,7.894V4.13A4.279,4.279,0,0,1,4.4,0H5.6A4.278,4.278,0,0,1,10,4.13V8.371A4.277,4.277,0,0,1,5.6,12.5Z" fill="#6a6b75"/>
+        <path id="Trazado_2967" data-name="Trazado 2967" d="M4.4,0H6.376V1.876H4.4A2.335,2.335,0,0,0,2,4.13V8.37a2.336,2.336,0,0,0,2.4,2.255H5.6A2.335,2.335,0,0,0,8,8.37V5.783l2-1.175V8.37A4.278,4.278,0,0,1,5.6,12.5H4.4A4.279,4.279,0,0,1,0,8.37V4.13A4.279,4.279,0,0,1,4.4,0Z" transform="translate(0 7.5)" fill="#6a6b75"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_3442" data-name="Rectángulo 3442" width="20" height="20" rx="2" transform="translate(385 284) rotate(90)" fill="none"/>
+  </g>
+</svg>

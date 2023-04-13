@@ -1,0 +1,304 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+/*@include layoutRes(100%, 50%, 60%, 40%, 40%, 30%);*/
+
+
+.grdPnColIcons {
+	@include grdPnColIcons;
+}
+
+
+
+.progBar-wr {
+	width: 100px;
+	height: 8px;
+	background-color: $Gris1;
+	border-radius: 10px;
+	margin-right: .5rem;
+
+	.progBar {
+		height: 8px;
+		border-radius: 10px;
+		background-color: $colPpal;
+	}
+}
+
+#grdProjects {
+	@include grid100Alto;
+}
+
+#grdPhases{
+	margin-bottom: 1rem;
+}
+
+#grdSuppliers {
+	@include grid100Alto;
+}
+
+.grBodyNoborder {
+	.x-grid-body{
+		border-width: 0px !important;
+	}
+}
+
+
+
+//WINDOW FORM
+
+.ctForm-resp-project {
+	//@include ctForm-auto; //N Columnas de forma automática
+	@include ctForm-nCol(3); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-phases {
+	//@include ctForm-auto; //N Columnas de forma automática
+	@include ctForm-nCol(1); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-zones {
+	//@include ctForm-auto; //N Columnas de forma automática
+	@include ctForm-nCol(1); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-suppliers {
+	//@include ctForm-auto; //N Columnas de forma automática
+	@include ctForm-nCol(1); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-notifications {
+	//@include ctForm-auto; //N Columnas de forma automática
+	@include ctForm-nCol(1); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-addNotification {
+	//@include ctForm-auto; //N Columnas de forma automática
+	@include ctFormOverForm-nCol(1); //fijas el número máximo de columnas
+}
+
+@media (max-width:670px) {
+
+	[class*="ctForm-resp-"] {
+
+		.x-autocontainer-innerCt {
+			display: grid !important;
+			grid-template-columns: repeat(1, 1fr);
+			justify-content: stretch;
+			grid-column-gap: 1rem;
+		}
+
+		.x-box-inner {
+			width: 100% !important;
+		}
+	}
+}
+
+
+#pnVistasForm {
+	margin-left: 0;
+	margin-bottom: 1.5rem;
+}
+
+.ctRowForm-resp {
+	.x-box-inner, .x-box-target {
+		width: 100% !important;
+	}
+
+	.x-box-target {
+		display: flex;
+	}
+
+	.x-box-item {
+		position: static !important;
+		width: calc(50% - 0.5rem);
+	}
+}
+
+#fldCtZones {
+	@include ctRowForm-resp(50%); //pasar ancho de columnas (por ej,50% para 2)
+}
+
+#fldCtSuppliers {
+	@include ctRowForm-resp(50%); //pasar ancho de columnas (por ej,50% para 2)
+}
+
+#txtContact {
+	margin-left: 1rem !important;
+}
+
+#cmbSuppliers {
+	margin-left: 1rem !important;
+}
+
+.btnTog {
+	padding-left: 0;
+}
+
+#cntBtnForm {
+	text-align: right;
+	//padding-right: 3.8rem;
+	margin-top: 2rem;
+}
+
+#btnPrev {
+	margin-right: 1rem;
+}
+
+.btnAdd {
+	max-width: 4rem;
+	justify-self: end;
+}
+
+.grdFormElAdded {
+
+	&.x-panel {
+		width: 100% !important;
+	}
+
+	.x-column-header {
+		background-color: $colBg;
+		border-width: 0;
+	}
+
+
+
+	.x-column-header-text {
+		color: #6A6B75;
+		font: 500 12px/14px "Roboto", sans-serif;
+	}
+
+	.x-grid-body {
+		border: none;
+	}
+
+
+	.x-panel-body {
+		border: 1px solid $Gris2 !important;
+		border-radius: 3px;
+		background-color: $blanco !important;
+		width: 100% !important;
+	}
+
+	.x-grid-view {
+		width: 100% !important;
+	}
+
+
+	.x-grid-item-container {
+		margin: .2rem auto;
+		width: 99% !important;
+	}
+
+	table {
+		width: unset !important;
+		width: 99% !important;
+		table-layout: fixed;
+		position: static;
+		margin-bottom: .2rem;
+		margin: .2rem auto;
+	}
+
+	tr {
+		display: block;
+		width: 99% !important;
+	}
+
+
+
+	.x-grid-item {
+		background-color: lighten($Azul, 35);
+		border-radius: 3px;
+		border: 1px solid lighten($Azul, 35);
+	}
+
+	.x-grid-item.x-grid-item-selected {
+		border-style: solid;
+		border-color: lighten($Azul, 35) !important;
+	}
+
+	.x-btn-default-toolbar-small {
+		border-color: rgba(0,0,0,0);
+	}
+
+
+	.x-btn-over {
+		border-radius: 30px;
+		background-color: $Gris1;
+	}
+}
+
+.grdNotificationsF {
+	background-color: $blanco;
+	border: 1px solid $Gris1;
+	border-radius: 3px;
+	margin-top: .5rem;
+
+	.x-grid-body {
+		border-top-color: $blanco;
+	}
+
+	.x-grid-item-alt, .x-panel-body {
+		background-color: $blanco !important;
+	}
+
+	.x-grid-item-selected {
+		background-color: $Amarillo3 !important;
+	}
+
+	.ulGrid {
+		padding: 0;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		width: 95%;
+	}
+
+
+	h5 {
+		margin-top: .2rem;
+		margin-bottom: .2rem;
+		max-width: 600px;
+		overflow: hidden;
+		font-size: 14px;
+		text-overflow: ellipsis;
+	}
+
+	p {
+		margin: 0;
+		max-width: 600px;
+		overflow: hidden;
+		padding-right: .5rem;
+		text-overflow: ellipsis;
+		font-size: 13px;
+	}
+}
+
+.x-grid-cell-inner {
+	padding: unset !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.x-keyboard-mode .x-grid-item-focused .x-grid-cell-inner::before {
+	border-width: 0px !important;
+}
+
+#btCerrarAddNotif {
+	@include bgBtn-ico;
+	@include btn-transp;
+	justify-self: end;
+}
+
+#pnFormAddNotif {
+	border: 1px solid $Gris1;
+	border-radius: 3px;
+}
+
+.wrapBotonesYcmbFiltros {
+	display: flex;
+	justify-content: flex-end;
+    width: 100%;
+}
+
+.wrapFilterCmbNBtns2 {
+	text-align: center;
+}
+// FIN WINDOW FORM

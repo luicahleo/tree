@@ -1,0 +1,10 @@
+<svg id="ico-SLA" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_204" data-name="Rectángulo 204" width="20" height="20" fill="none"/>
+  <g id="Grupo_1590" data-name="Grupo 1590" transform="translate(1 1)">
+    <path id="Trazado_671" data-name="Trazado 671" d="M237.687,592.8l-.086,13.132h1.8c.669,0,1.171-.176,1.149-1.386s0-10.727,0-10.727.148-1.019-.826-1.019Z" transform="translate(-237.6 -588.069)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_672" data-name="Trazado 672" d="M246.607,585.008c.022,1.841-.169,13.953-.254,13.986-.109,1.966,1.495,2.519,2.85,2.516-.04-.017,6.626,0,6.626,0a1.854,1.854,0,0,0,1.3-1.409c.268-1.177,2.037-10.233,2.037-10.233s.126-1.445-1.235-1.482-7.009,0-7.009,0-1.086-3.3-1.105-3.378a1.832,1.832,0,0,0-1.679-1.5C246.979,583.51,246.6,584.15,246.607,585.008Z" transform="translate(-241.173 -583.51)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_29" data-name="Línea 29" x1="1.78" transform="translate(15.364 8.249)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_30" data-name="Línea 30" x1="1.78" transform="translate(14.77 11.589)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_31" data-name="Línea 31" x1="1.78" transform="translate(14.177 14.929)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

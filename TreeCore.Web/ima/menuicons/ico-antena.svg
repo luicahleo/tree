@@ -1,0 +1,14 @@
+<svg id="Componente_1926" data-name="Componente 1926" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_258" data-name="Rectángulo 258" width="20" height="20" fill="none"/>
+  <g id="Grupo_1675" data-name="Grupo 1675" transform="translate(-4393.5 -313.949)">
+    <path id="Trazado_961" data-name="Trazado 961" d="M0,.011C2.187-.1,14.491-.327,14.491-.327s-1.971,5.375-7.139,5.5S0,.011,0,.011Z" transform="translate(4400.898 315.586) rotate(45)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_962" data-name="Trazado 962" d="M-1.048,2.77c.03-.048,3.5-2.83,3.5-2.83l.859,3.891" transform="translate(4406.792 317.074) rotate(30)" fill="none" stroke="#666" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Elipse_84" data-name="Elipse 84" transform="translate(4409.029 314.949) rotate(30)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="1.921" cy="1.921" r="1.921" stroke="none"/>
+      <circle cx="1.921" cy="1.921" r="1.171" fill="none"/>
+    </g>
+    <path id="Trazado_963" data-name="Trazado 963" d="M4210.087,200.17l-5.545,8.471" transform="translate(192.031 124.008)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_964" data-name="Trazado 964" d="M4203.653,199.6l2.451,6.6" transform="translate(202.697 126.75)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_187" data-name="Línea 187" x2="16.243" transform="translate(4394.5 332.923)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

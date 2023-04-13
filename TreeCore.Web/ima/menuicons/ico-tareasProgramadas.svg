@@ -1,0 +1,13 @@
+<svg id="ico-tareasProgramadas" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_316" data-name="Rectángulo 316" width="20" height="20" fill="none"/>
+  <line id="Línea_112" data-name="Línea 112" x2="3" transform="translate(11 6)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_843" data-name="Trazado 843" d="M0,0H3.485" transform="translate(5 15)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_844" data-name="Trazado 844" d="M345.624,481.89l1.335,1.836,2.665-5" transform="translate(-340.624 -474.726)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_845" data-name="Trazado 845" d="M0,0H3.978" transform="translate(5 12)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <g id="Elipse_62" data-name="Elipse 62" transform="translate(8 8)" fill="none" stroke="#666" stroke-width="1.5">
+    <circle cx="6" cy="6" r="6" stroke="none"/>
+    <circle cx="6" cy="6" r="5.25" fill="none"/>
+  </g>
+  <path id="Trazado_846" data-name="Trazado 846" d="M1787.5,236v3h2" transform="translate(-1773.5 -224)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_1285" data-name="Trazado 1285" d="M1721.569-343.354v-10.377h-17.547v17.016h10.107" transform="translate(-1702.804 355.19)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

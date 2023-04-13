@@ -1,0 +1,22 @@
+<svg id="ico-administrative" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_219" data-name="Rectángulo 219" width="20" height="20" transform="translate(0)" fill="none"/>
+  <g id="Unión_13" data-name="Unión 13" transform="translate(-109 -911)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M124,931H109V918h5v-2h10v2h5v13Z" stroke="none"/>
+    <path d="M 127.4997100830078 929.4996337890625 L 127.4997100830078 919.5 L 124.0001983642578 919.5 C 123.1717681884766 919.5 122.5001983642578 918.8284301757812 122.5001983642578 918 L 122.5001983642578 917.500244140625 L 115.5003051757812 917.500244140625 L 115.5003051757812 918 C 115.5003051757812 918.8284301757812 114.8287353515625 919.5 114.0003051757812 919.5 L 110.4999008178711 919.5 L 110.4999008178711 929.4996337890625 L 114.0003051757812 929.4996337890625 L 124.0001983642578 929.4996337890625 L 127.4997100830078 929.4996337890625 M 128.9997100830078 930.9996337890625 L 124.0001983642578 930.9996337890625 L 114.0003051757812 930.9996337890625 L 108.9999008178711 930.9996337890625 L 108.9999008178711 918 L 114.0003051757812 918 L 114.0003051757812 916.000244140625 L 124.0001983642578 916.000244140625 L 124.0001983642578 918 L 128.9997100830078 918 L 128.9997100830078 930.9996337890625 Z" stroke="none" fill="#666"/>
+  </g>
+  <line id="Línea_298" data-name="Línea 298" y2="12" transform="translate(5.5 7.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_290" data-name="Línea 290" y2="12" transform="translate(14.5 7.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_299" data-name="Línea 299" x2="3" transform="translate(0 16)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_295" data-name="Línea 295" x2="2" transform="translate(7 8)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_291" data-name="Línea 291" x2="3" transform="translate(17 16)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_292" data-name="Línea 292" x2="2" transform="translate(11 8)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_300" data-name="Línea 300" x2="3" transform="translate(0 13)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_289" data-name="Línea 289" x2="3" transform="translate(17 13)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_301" data-name="Línea 301" x2="3" transform="translate(0 10)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_288" data-name="Línea 288" x2="3" transform="translate(17 10)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_296" data-name="Línea 296" x2="2" transform="translate(7 11)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_293" data-name="Línea 293" x2="2" transform="translate(11 11)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_297" data-name="Línea 297" x2="2" transform="translate(7 14)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_294" data-name="Línea 294" x2="2" transform="translate(11 14)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <path id="Trazado_1105" data-name="Trazado 1105" d="M3182.868,229.283V227.93l4-2.93,4,2.93v1.352" transform="translate(-3176.868 -224)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="ico-radiofrecuencia" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_336" data-name="Rectángulo 336" width="20" height="20" fill="none"/>
+  <g id="Elipse_169" data-name="Elipse 169" transform="translate(13 7.438) rotate(90)" fill="none" stroke="#666" stroke-width="1.5">
+    <circle cx="3" cy="3" r="3" stroke="none"/>
+    <circle cx="3" cy="3" r="2.25" fill="none"/>
+  </g>
+  <path id="Trazado_1186" data-name="Trazado 1186" d="M0,4.292A7.808,7.808,0,0,1,7.157,0,7.517,7.517,0,0,1,13.95,4.292" transform="translate(3.051 1)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1194" data-name="Trazado 1194" d="M0,2.146A4.2,4.2,0,0,1,3.825,0,4.1,4.1,0,0,1,7.511,2.146" transform="translate(6.27 4.219)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_327" data-name="Línea 327" x1="3" y2="7" transform="translate(5.5 12.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_328" data-name="Línea 328" x1="3" y1="7" transform="translate(11.5 12.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+</svg>

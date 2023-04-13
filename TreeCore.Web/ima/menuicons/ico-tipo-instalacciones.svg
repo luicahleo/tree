@@ -1,0 +1,11 @@
+<svg id="ico-tipo-instalacciones" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rectángulo_79" data-name="Rectángulo 79" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="20" height="20" stroke="none"/>
+    <rect x="0.75" y="0.75" width="18.5" height="18.5" fill="none"/>
+  </g>
+  <line id="Línea_88" data-name="Línea 88" x2="18" transform="translate(0.5 5.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_89" data-name="Línea 89" y2="14" transform="translate(4 5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_90" data-name="Línea 90" y2="14" transform="translate(16 5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_91" data-name="Línea 91" x2="18" transform="translate(0.5 15.5)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_92" data-name="Línea 92" y2="14" transform="translate(10 5)" fill="none" stroke="#666" stroke-width="1.5"/>
+</svg>

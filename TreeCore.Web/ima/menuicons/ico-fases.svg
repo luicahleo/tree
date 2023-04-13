@@ -1,0 +1,14 @@
+<svg id="ico-fases" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_200" data-name="Rectángulo 200" width="20" height="20" fill="none"/>
+  <g id="Grupo_1582" data-name="Grupo 1582" transform="translate(-104 -380)">
+    <g id="Elipse_3" data-name="Elipse 3" transform="translate(104 388.182)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5">
+      <circle cx="5.909" cy="5.909" r="5.909" stroke="none"/>
+      <circle cx="5.909" cy="5.909" r="5.159" fill="none"/>
+    </g>
+    <g id="Elipse_4" data-name="Elipse 4" transform="translate(115.818 380)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5">
+      <circle cx="4.091" cy="4.091" r="4.091" stroke="none"/>
+      <circle cx="4.091" cy="4.091" r="3.341" fill="none"/>
+    </g>
+    <line id="Línea_4" data-name="Línea 4" y1="3.636" x2="3.636" transform="translate(113.545 386.818)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

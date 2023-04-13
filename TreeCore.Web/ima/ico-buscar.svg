@@ -1,0 +1,8 @@
+<svg id="ico-search" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2624" data-name="Rectángulo 2624" width="20" height="20" fill="none"/>
+  <g id="Elipse_489" data-name="Elipse 489" transform="translate(1 1)" fill="none" stroke="#6a6b76" stroke-width="1.6">
+    <circle cx="8" cy="8" r="8" stroke="none"/>
+    <circle cx="8" cy="8" r="7.2" fill="none"/>
+  </g>
+  <line id="Línea_1032" data-name="Línea 1032" x2="4" y2="4" transform="translate(14.5 14.5)" fill="none" stroke="#6a6b76" stroke-width="3"/>
+</svg>

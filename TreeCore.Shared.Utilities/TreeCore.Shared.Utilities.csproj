@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="ncrontab" Version="3.3.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NLog" Version="4.7.13" />
+    <PackageReference Include="System.Text.Json" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TreeCore.Shared.Data\TreeCore.Shared.Data.csproj" />
+    <ProjectReference Include="..\TreeCore.Shared.DTO\TreeCore.Shared.DTO.csproj" />
+    <ProjectReference Include="..\TreeCore.Shared.Language\TreeCore.Shared.Language.csproj" />
+    <ProjectReference Include="..\TreeCore.Shared.ROP\TreeCore.Shared.ROP.csproj" />
+  </ItemGroup>
+
+</Project>

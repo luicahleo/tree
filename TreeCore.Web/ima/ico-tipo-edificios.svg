@@ -1,0 +1,23 @@
+<svg id="ico-tipo-edificios" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_330" data-name="Rectángulo 330" width="20" height="20" fill="none"/>
+  <rect id="Rectángulo_135" data-name="Rectángulo 135" width="10" height="17" transform="translate(9 1)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Línea_170" data-name="Línea 170" x2="2.146" transform="translate(6.466 10.162)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_181" data-name="Línea 181" x2="2.286" transform="translate(1.606 10.162)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_171" data-name="Línea 171" x2="2.146" transform="translate(6.466 12.737)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_182" data-name="Línea 182" x2="2.286" transform="translate(1.606 12.737)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_172" data-name="Línea 172" x2="2.146" transform="translate(6.466 15.312)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_183" data-name="Línea 183" x2="2.286" transform="translate(1.606 15.312)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <g id="Grupo_7090" data-name="Grupo 7090" transform="translate(-1886 -584.583)">
+    <line id="Línea_174" data-name="Línea 174" x2="1.5" transform="translate(1900.5 589.583)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    <g id="Grupo_7089" data-name="Grupo 7089" transform="translate(1898 589.583)">
+      <line id="Línea_173" data-name="Línea 173" x2="1.5" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_175" data-name="Línea 175" x2="1.5" transform="translate(0 2.667)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_176" data-name="Línea 176" x2="1.5" transform="translate(2.5 2.667)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_177" data-name="Línea 177" x2="1.5" transform="translate(0 5.333)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_178" data-name="Línea 178" x2="1.5" transform="translate(2.5 5.333)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_179" data-name="Línea 179" x2="1.5" transform="translate(0 8)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_180" data-name="Línea 180" x2="1.5" transform="translate(2.5 8)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    </g>
+  </g>
+  <path id="Trazado_1295" data-name="Trazado 1295" d="M2064.592-85.208h-8v11h8" transform="translate(-2055.592 92.208)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

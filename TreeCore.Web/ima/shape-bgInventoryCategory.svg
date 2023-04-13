@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="26" viewBox="0 0 168 26">
+  <g id="Grupo_8264" data-name="Grupo 8264" transform="translate(-481 -612)">
+    <g id="Rectángulo_3358" data-name="Rectángulo 3358" transform="translate(481 612)" fill="#fff" stroke="#ef5970" stroke-width="1">
+      <rect width="168" height="26" rx="13" stroke="none"/>
+      <rect x="0.5" y="0.5" width="167" height="25" rx="12.5" fill="none"/>
+    </g>
+    <text id="Category" transform="translate(516.826 615.5)" fill="#212121" font-size="13" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="14">Category</tspan></text>
+    <g id="Grupo_8262" data-name="Grupo 8262" transform="translate(-9)">
+      <g id="ico-tipo-soportes" transform="translate(499 616.515)">
+        <rect id="Rectángulo_336" data-name="Rectángulo 336" width="16" height="16" transform="translate(0 0.485)" fill="none"/>
+        <g id="Grupo_1462" data-name="Grupo 1462" transform="translate(0.824 1.236)">
+          <g id="Rectángulo_153" data-name="Rectángulo 153" transform="translate(0 8.975)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <rect width="14.836" height="5.449" stroke="none"/>
+            <rect x="0.75" y="0.75" width="13.336" height="3.949" fill="none"/>
+          </g>
+          <g id="Rectángulo_155" data-name="Rectángulo 155" transform="translate(0.742 6.251)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <rect width="13.353" height="3.892" stroke="none"/>
+            <rect x="0.75" y="0.75" width="11.853" height="2.392" fill="none"/>
+          </g>
+          <line id="Línea_216" data-name="Línea 216" y1="6.623" x2="10.472" transform="translate(2.304 0)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Línea_217" data-name="Línea 217" x1="10.678" y1="6.598" transform="translate(1.855 0.025)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Línea_218" data-name="Línea 218" y2="6.598" transform="translate(1.562 0.025)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="Línea_219" data-name="Línea 219" y2="6.598" transform="translate(13.274 0.025)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <path id="Trazado_2970" data-name="Trazado 2970" d="M12.035,0H28.46V24.07H12.035a12.035,12.035,0,0,1,0-24.07Z" transform="translate(482 612.964)" fill="#f6f6f6"/>
+    <g id="ico-tipo-edificios" transform="translate(490.174 617)">
+      <rect id="Rectángulo_330" data-name="Rectángulo 330" width="16" height="16" fill="none"/>
+      <rect id="Rectángulo_135" data-name="Rectángulo 135" width="7.876" height="13.637" transform="translate(7.336 0.788)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Línea_170" data-name="Línea 170" x2="1.69" transform="translate(5.183 8.13)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_181" data-name="Línea 181" x2="1.8" transform="translate(1.265 8.13)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_171" data-name="Línea 171" x2="1.69" transform="translate(5.183 10.19)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_182" data-name="Línea 182" x2="1.8" transform="translate(1.265 10.19)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_172" data-name="Línea 172" x2="1.69" transform="translate(5.183 12.25)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <line id="Línea_183" data-name="Línea 183" x2="1.8" transform="translate(1.265 12.25)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+      <g id="Grupo_7090" data-name="Grupo 7090" transform="translate(9.637 4.041)">
+        <line id="Línea_174" data-name="Línea 174" x2="1.181" transform="translate(1.969)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+        <g id="Grupo_7089" data-name="Grupo 7089">
+          <line id="Línea_173" data-name="Línea 173" x2="1.181" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+          <line id="Línea_175" data-name="Línea 175" x2="1.181" transform="translate(0 2.1)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+          <line id="Línea_176" data-name="Línea 176" x2="1.181" transform="translate(1.969 2.1)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+          <line id="Línea_177" data-name="Línea 177" x2="1.181" transform="translate(0 4.201)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+          <line id="Línea_178" data-name="Línea 178" x2="1.181" transform="translate(1.969 4.201)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+          <line id="Línea_179" data-name="Línea 179" x2="1.181" transform="translate(0 6.301)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+          <line id="Línea_180" data-name="Línea 180" x2="1.181" transform="translate(1.969 6.301)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+        </g>
+      </g>
+      <path id="Trazado_1295" data-name="Trazado 1295" d="M2062.893-85.208h-6.3v8.664h6.3" transform="translate(-2055.804 90.969)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+C:\OLIVO\TreeCore.Shared.DTO\bin\Debug\netstandard2.0\TreeCore.Shared.DTO.deps.json
+C:\OLIVO\TreeCore.Shared.DTO\bin\Debug\netstandard2.0\TreeCore.Shared.DTO.dll
+C:\OLIVO\TreeCore.Shared.DTO\bin\Debug\netstandard2.0\TreeCore.Shared.DTO.pdb
+C:\OLIVO\TreeCore.Shared.DTO\bin\Debug\netstandard2.0\TreeCore.Shared.ROP.dll
+C:\OLIVO\TreeCore.Shared.DTO\bin\Debug\netstandard2.0\TreeCore.Shared.ROP.pdb
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.csproj.AssemblyReference.cache
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.AssemblyInfoInputs.cache
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.AssemblyInfo.cs
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.csproj.CoreCompileInputs.cache
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.csproj.CopyComplete
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.dll
+C:\OLIVO\TreeCore.Shared.DTO\obj\Debug\netstandard2.0\TreeCore.Shared.DTO.pdb

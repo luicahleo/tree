@@ -1,0 +1,8 @@
+<svg id="ico-moverow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2781" data-name="Rectángulo 2781" width="20" height="20" fill="none"/>
+  <g id="Grupo_7106" data-name="Grupo 7106" transform="translate(2 5)">
+    <line id="Línea_808" data-name="Línea 808" x2="16" fill="none" stroke="#06a086" stroke-width="1"/>
+    <line id="Línea_809" data-name="Línea 809" x2="16" transform="translate(0 5)" fill="none" stroke="#06a086" stroke-width="1"/>
+    <line id="Línea_810" data-name="Línea 810" x2="16" transform="translate(0 10)" fill="none" stroke="#06a086" stroke-width="1"/>
+  </g>
+</svg>

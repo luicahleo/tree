@@ -1,0 +1,22 @@
+<svg id="ico-cadencias" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_318" data-name="Rectángulo 318" width="20" height="20" fill="none"/>
+  <rect id="Rectángulo_213" data-name="Rectángulo 213" width="20" height="20" fill="none"/>
+  <rect id="Rectángulo_184" data-name="Rectángulo 184" width="20" height="20" fill="none"/>
+  <g id="Rectángulo_2" data-name="Rectángulo 2" transform="translate(1 2)" fill="none" stroke="#666" stroke-width="1.5">
+    <rect width="18" height="18" rx="2" stroke="none"/>
+    <rect x="0.75" y="0.75" width="16.5" height="16.5" rx="1.25" fill="none"/>
+  </g>
+  <line id="Línea_1" data-name="Línea 1" y2="2" transform="translate(6 2)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_2" data-name="Línea 2" y2="2" transform="translate(10 2)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_3" data-name="Línea 3" y2="2" transform="translate(14 2)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_798" data-name="Trazado 798" d="M0,0H18" transform="translate(1 7)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <path id="Trazado_799" data-name="Trazado 799" d="M0,0H1.871" transform="translate(4.55 10)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_805" data-name="Trazado 805" d="M0,0H1.871" transform="translate(4.55 13)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_808" data-name="Trazado 808" d="M0,0H1.871" transform="translate(4.55 16)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_803" data-name="Trazado 803" d="M0,0H1.914" transform="translate(9.228 10)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_806" data-name="Trazado 806" d="M0,0H1.914" transform="translate(9.228 13)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_809" data-name="Trazado 809" d="M0,0H1.914" transform="translate(9.228 16)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_804" data-name="Trazado 804" d="M0,0H1.871" transform="translate(13.906 10)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_807" data-name="Trazado 807" d="M0,0H1.871" transform="translate(13.906 13)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_810" data-name="Trazado 810" d="M0,0H1.871" transform="translate(13.906 16)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+</svg>

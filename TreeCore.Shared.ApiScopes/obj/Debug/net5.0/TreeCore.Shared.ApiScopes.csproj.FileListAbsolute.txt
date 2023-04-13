@@ -1,0 +1,12 @@
+C:\OLIVO\TreeCore.Shared.ApiScopes\bin\Debug\net5.0\TreeCore.Shared.ApiScopes.deps.json
+C:\OLIVO\TreeCore.Shared.ApiScopes\bin\Debug\net5.0\TreeCore.Shared.ApiScopes.dll
+C:\OLIVO\TreeCore.Shared.ApiScopes\bin\Debug\net5.0\ref\TreeCore.Shared.ApiScopes.dll
+C:\OLIVO\TreeCore.Shared.ApiScopes\bin\Debug\net5.0\TreeCore.Shared.ApiScopes.pdb
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\TreeCore.Shared.ApiScopes.csproj.AssemblyReference.cache
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\TreeCore.Shared.ApiScopes.GeneratedMSBuildEditorConfig.editorconfig
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\TreeCore.Shared.ApiScopes.AssemblyInfoInputs.cache
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\TreeCore.Shared.ApiScopes.AssemblyInfo.cs
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\TreeCore.Shared.ApiScopes.csproj.CoreCompileInputs.cache
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\TreeCore.Shared.ApiScopes.dll
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\ref\TreeCore.Shared.ApiScopes.dll
+C:\OLIVO\TreeCore.Shared.ApiScopes\obj\Debug\net5.0\TreeCore.Shared.ApiScopes.pdb

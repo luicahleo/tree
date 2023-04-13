@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #333;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3444" data-name="Group 3444" transform="translate(-575 -352)">
+    <rect id="Rectangle_336" data-name="Rectangle 336" class="cls-1" width="20" height="20" transform="translate(575 352)"/>
+    <g id="Ellipse_169" data-name="Ellipse 169" class="cls-2" transform="translate(588 359.438) rotate(90)">
+      <circle class="cls-4" cx="3" cy="3" r="3"/>
+      <circle class="cls-1" cx="3" cy="3" r="2.25"/>
+    </g>
+    <path id="Path_1186" data-name="Path 1186" class="cls-3" d="M0,4.292A7.808,7.808,0,0,1,7.157,0,7.517,7.517,0,0,1,13.95,4.292" transform="translate(578.05 353)"/>
+    <path id="Path_1194" data-name="Path 1194" class="cls-3" d="M0,2.146A4.2,4.2,0,0,1,3.825,0,4.1,4.1,0,0,1,7.511,2.146" transform="translate(581.27 356.219)"/>
+    <line id="Line_327" data-name="Line 327" class="cls-2" x1="3" y2="7" transform="translate(580.5 364.5)"/>
+    <line id="Line_328" data-name="Line 328" class="cls-2" x1="3" y1="7" transform="translate(586.5 364.5)"/>
+  </g>
+</svg>

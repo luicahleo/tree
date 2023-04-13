@@ -1,0 +1,15 @@
+<svg id="ico-notificaciones" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_658" data-name="Trazado 658" d="M0-32H20v20H0Z" transform="translate(0 32)" fill="#666"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectángulo_273" data-name="Rectángulo 273" width="20" height="20" fill="none"/>
+  <g id="Grupo_1696" data-name="Grupo 1696" transform="translate(0 32)">
+    <g id="Grupo_920" data-name="Grupo 920" transform="translate(0 -32)" clip-path="url(#clip-path)">
+      <g id="Grupo_919" data-name="Grupo 919" transform="translate(0)">
+        <path id="Trazado_657" data-name="Trazado 657" d="M-1.6-9.75c.927-.612,1.429-3.054,1.429-4V-18.5a5.106,5.106,0,0,1,3.848-4.721,6.512,6.512,0,0,1,1.152-.234v-.67a.674.674,0,0,1,.714-.625.674.674,0,0,1,.714.625v.67a6.511,6.511,0,0,1,1.152.234A5.106,5.106,0,0,1,11.253-18.5v4.747c0,.949.6,3.312,1.429,4Zm7.143,2.5A1.349,1.349,0,0,1,4.11-8.5H6.968A1.348,1.348,0,0,1,5.539-7.25m9.286-2.589c-1.23-.279-2.143-2.751-2.143-3.914V-18.5a6.418,6.418,0,0,0-5.041-5.974A2.084,2.084,0,0,0,5.539-26a2.084,2.084,0,0,0-2.1,1.526A6.418,6.418,0,0,0-1.6-18.5v4.747c0,1.163-.913,3.635-2.143,3.914,0,0-.714.177-.714.714a.674.674,0,0,0,.714.625H2.682A2.7,2.7,0,0,0,5.539-6,2.7,2.7,0,0,0,8.4-8.5h6.429a.674.674,0,0,0,.714-.625c0-.547-.714-.714-.714-.714" transform="translate(4.461 26)" fill="#666"/>
+      </g>
+    </g>
+  </g>
+</svg>

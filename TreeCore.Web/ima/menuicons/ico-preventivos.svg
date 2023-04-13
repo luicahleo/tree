@@ -1,0 +1,11 @@
+<svg id="ico-preventivos" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_1713" data-name="Grupo 1713" transform="translate(-2346.658 -423.658)">
+    <path id="Trazado_820" data-name="Trazado 820" d="M1772.993,231.7c0,7.486,8.511,9.641,8.615,9.638s8.342-2.118,8.342-9.638c-.131-.029-.046-7.552,0-7.468.027-.032-3.579,0-3.579,0v2.944h-2.684v-2.944h-4.474v2.944h-2.684v-2.944h-3.536S1772.9,231.745,1772.993,231.7Z" transform="translate(575.05 200.778)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Elipse_59" data-name="Elipse 59" transform="translate(2351.579 429.474)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="4.921" cy="4.921" r="4.921" stroke="none"/>
+      <circle cx="4.921" cy="4.921" r="4.171" fill="none"/>
+    </g>
+    <path id="Trazado_822" data-name="Trazado 822" d="M1780.449,234.125c.446.434,1.486,1.228,1.486,1.228l1.91-2.264" transform="translate(574.353 199.727)" fill="none" stroke="#666" stroke-width="1.5"/>
+  </g>
+  <rect id="Rectángulo_307" data-name="Rectángulo 307" width="20" height="20" fill="none" opacity="0.5"/>
+</svg>

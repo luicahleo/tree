@@ -1,0 +1,5789 @@
+﻿@import 'variables';
+@import 'mixins';
+
+/* -- BOTONES -- */
+
+/*BOTONES TOOLBAR*/
+
+/*#region BOTONES TOOLBAR BÁSICO */
+
+#btnDocPdte {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-documentos.svg');
+}
+
+.btnLista {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-btnLista.svg');
+    background-color: $colPpal !important;
+    border-radius: 3px !important;
+    background-size: 28px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnCalendar-grey {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/btn_calendar_grid.svg');
+}
+
+.btnCalendar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-calendar-32.svg');
+    background-color: $colPpal !important;
+    border-radius: 3px !important;
+    background-size: 28px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnVisual {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-btnVisual.svg');
+    background-color: $colPpal !important;
+    border-radius: 3px !important;
+    background-size: 28px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnFlow {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-btnFlow.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnStateDetails {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-stateDetails.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+    background-size: 18px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnAcceso {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-acceso.svg');
+}
+
+.btnActivar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-activar.svg');
+}
+
+.btnMoveLeft {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-moveLeft.svg');
+}
+
+.btnAreas {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-areas.svg');
+}
+
+.btnAddState {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-addState.svg');
+}
+
+
+.btnAddTransition {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-addTransition.svg');
+}
+
+.btnSAP {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-sap.svg');
+}
+
+.btnDocumentos {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-document.svg');
+}
+
+.btnLaunch {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-launch-gr.svg');
+}
+
+.btnCopiarConfig {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-copiar-config.svg');
+}
+
+.btnLinkBroken {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-broken-20px.svg');
+}
+
+.btnCopiarUser {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-copiar-usuario.svg');
+}
+
+.btnAnadir {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anadir.svg');
+}
+
+.btnDatamodelgreen {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-datamodelblue.svg');
+}
+.btnDatamodel {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-datamodel.svg');
+    background-color: unset;
+    border: unset;
+}
+
+.btnNoRescindido {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-no-rescindido.svg');
+}
+
+.btnRescindido {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-rescindido.svg');
+}
+
+.btnNoVigente {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-no-vigente.svg');
+}
+
+.btnVigente {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vigente.svg');
+}
+
+.btnDetalleKPI {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-KPIs.svg');
+}
+
+.btnActivate {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/btn_activate_grid.svg');
+}
+
+.btnChart {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-chart.svg');
+}
+
+.btnChrono {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-chrono.svg');
+}
+
+.btnTime {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-time-20px.svg');
+}
+
+.btnAnadirComm {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anadirComm.svg');
+}
+
+
+
+.btnAnonimo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anonymous.svg');
+}
+
+
+.btnBloquear {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-blocked.svg');
+}
+
+.btnBuscar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-buscar.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnClip {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-clip.svg');
+}
+
+.btnColumnas {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-columns.svg');
+}
+
+.btnCompartido {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-compartidos.svg');
+}
+
+.btnContactos {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-contactos.svg');
+}
+
+.btnContrLine {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-line.svg');
+    background-color: unset;
+    border: unset;
+}
+
+.btnContrLineBlue {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-line-blue.svg');
+}
+
+.btnContratos {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-contratos.svg');
+}
+
+.btnContribuyentes {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-contribuyentes.svg');
+}
+
+.btnCoste {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-coste.svg');
+}
+
+.btnDescargar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-descargar.svg');
+}
+
+.btnControlPanel {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-menu-plegable-cerrado.svg');
+}
+
+.btnControlPanel.x-btn-pressed {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-menu-plegable-abierto.svg');
+    background-color: transparent !important;
+}
+
+.btnSubcategoria {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-template-20px.svg');
+}
+
+
+.btnDescargarTodo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-descargar-todo.svg');
+    background-size: 24px !important;
+}
+
+.btnExcel {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-excelF.svg');
+}
+
+.btnImage {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-image.svg');
+}
+
+.btnPaginaDoc {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-paginadoc.svg');
+}
+
+
+.btnReset {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-reset-bl.svg');
+}
+
+.btnSubir {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-descargar.svg');
+    transform: rotate(-180deg) !important;
+}
+
+.btnVisible {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-visible.svg');
+}
+
+.btnInfo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-info-dark.svg');
+}
+
+.btnMoreOptions {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-masMenu-grey.svg');
+}
+
+.btnConfig {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-masInfo.svg');
+}
+
+.btnConvertirCorrectivo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-convertir-correctivo.svg');
+}
+
+.btnAlertaRed {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-alert-red.svg');
+}
+
+.btnDescargar-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-descargar.svg');
+}
+
+.btnReinversion-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-reinversion.svg');
+}
+
+.btnAnadir-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-anadir.svg');
+}
+
+.btnDefecto {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-default.svg');
+}
+
+.btnDirecciones {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-direcciones.svg');
+}
+
+.btnDuplicar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-duplicate.svg');
+}
+
+.btnTiposComparticiones {
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-tipo-comparticiones.svg');
+}
+
+.btnTiposDocs {
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-tipo-de-documentos.svg');
+}
+
+.btnDocs {
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-docs.svg');
+}
+
+.btnDesactivarLight {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-deactivate-bulb.svg');
+}
+
+.btnDownloadContent {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-content-download.svg');
+}
+
+.btnEditar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-editar.svg');
+}
+
+.btnAddComment {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-addComment-20px.svg');
+}
+
+.btnCopiar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-copy-20px.svg');
+}
+
+.btnClonar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-clone-20px.svg');
+}
+
+.btnMover {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-move-20px.svg');
+}
+
+.btnCompartir {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-link.svg');
+}
+
+.btnEdificios {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-edificios.svg');
+}
+
+.btnEliminar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-eliminar.svg');
+}
+
+.bntBasura {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-trash-bl-16p.svg');
+}
+
+.bntBasuraGrey {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-trash.svg');
+}
+
+.btnEnviar {
+    @include bgBtn-ico;
+    width: 32px;
+    height: 32px;
+    background-image: url('/ima/ico-email.svg') !important;
+    background-size: 20px;
+    transition: background-color 0.4s ease-out;
+
+    &:hover {
+        background-color: $Gris1;
+        border-color: $Gris1;
+        background-image: url('/ima/ico-email.svg');
+    }
+
+    &.x-btn-default-toolbar-small {
+        border-color: $blanco;
+    }
+
+    &.x-btn.x-btn-disabled.x-btn-default-toolbar-small {
+        background-image: url('/ima/ico-email.svg') !important;
+    }
+}
+
+.btnExport {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-export.svg');
+}
+
+.btnExpired {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-expired.svg');
+}
+
+.btnFiltros {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-filtros.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnFiltroNegativo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-ocultar.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnGeoposicion {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-filtros-mapas.svg');
+}
+
+.btnGeoposicionBlanco {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-place-16x16-blanco.svg');
+}
+
+.btnPasswordKey {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-key.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+
+.btnFiltroNegativo16 {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-ocultar.svg');
+    @include toggFltr-Pressed-grid;
+    background-size: 16px !important;
+}
+
+.btnImportarExportar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-importExport.svg');
+}
+
+.btnHistorial {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-historial.svg');
+}
+
+.btnImport {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-import.svg');
+}
+
+
+.btnJoinOrders {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-joinorders.svg');
+}
+
+.btnLocation {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-location.svg');
+}
+
+
+.btnMoneda {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-moneda.svg');
+}
+
+.btnMoverFila {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-moverow.svg');
+}
+
+.btnNoFiltros {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-noFilters.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnNuevoDoc {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-nuevoDoc.svg');
+}
+
+.btnNuevoEstado {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-anadir.svg');
+}
+
+.btnPlay {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-play.svg');
+}
+
+.btnEstadosWorkFlow-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-states.svg');
+}
+
+.btnOpciones {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-opciones.svg');
+}
+
+.btnOpciones-Mnu {
+
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-opciones.svg');
+}
+
+.btnOpciones-MnuV2 {
+
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnuV2('/ima/ico-opciones.svg');
+}
+
+.btnProfile {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-profile-20px.svg');
+}
+
+.btnProjects {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-projects.svg');
+}
+
+.btnRadiofrecuencia {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-radiofrecuencia.svg');
+}
+
+.btnRefrescar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-refrescar.svg');
+}
+
+.btnReinversion {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-reinversion.svg');
+}
+
+.btnReinversion-merge {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-reinversion-merge.svg');
+}
+
+
+.btnSyndates {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-syncdates.svg');
+}
+
+.btnArrowUser {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-arrow-user.svg');
+}
+
+.btndebug {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-debug.svg');
+}
+
+.btnerror {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-error.svg');
+}
+
+.btnfatal {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-fatal.svg');
+}
+
+.btnalert {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-alert.svg');
+}
+
+.btnRegion {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-region.svg');
+}
+
+.btnRemoveFilters {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-noFilters.svg');
+}
+
+.btnReparacion {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-repair.svg');
+}
+
+.btnMovefolder-ToolB {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-move-folder.svg');
+    border-style: hidden !important;
+}
+
+.btnMantenimiento {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-maintenance.svg');
+    border-style: hidden !important;
+}
+
+
+.btnArrowleft-ToolB {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-arrow-left.svg');
+    border-style: hidden !important;
+}
+
+.btnEstructuras {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-infraestructuras.svg');
+}
+
+.btnTiposLicencia {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-licenciasGrid.svg');
+}
+
+
+.btnRenta {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-rentas.svg');
+}
+
+.btnVandalismo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vandalismo.svg');
+}
+
+.btnSemaforo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-semaforo.svg');
+}
+
+.btnKPI {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-kpi-gris.svg');
+}
+
+.btnVerWorkFlow {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-showWorkFlow.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnWorkFlow {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-states.svg');
+}
+
+.btnDuplicarTipologia, .DuplicarTipologiaDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-duplicateTypology.svg');
+}
+
+.btnColWorkFlow {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-states-gr-20px.svg');
+    @include toggFltr-Pressed-grid;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btnListView {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/List-view-dis.svg');
+}
+
+.btnListView-Active {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/List-view-active.svg');
+}
+
+.btnGridView {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/Grid-view-dis.svg');
+}
+
+.btnGridView-Active {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/grid-view-active.svg');
+}
+
+#btnActivar, #btnActivarDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-activar.svg');
+}
+
+#btnAnadir, #btnAnadirDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anadir.svg');
+}
+
+#btnAnadirComm, #btnAnadirCommDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anadirComm.svg');
+}
+
+#btnAnonimizar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anonymous.svg');
+}
+
+
+#btnBloquear, #btnBloquearDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-blocked.svg');
+}
+
+#btnBuscar, #btnBuscarDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-buscar.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+#btnColumnas, #btnColumnasDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-columns.svg');
+}
+
+#btnCompartido, #btnCompartidoDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-compartidos.svg');
+}
+
+#btnContactos, #btnContactosDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-contactos.svg');
+}
+
+#btnContratos, #btnContratosDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-contratos.svg');
+}
+
+#btnCosteDesmantelamiento, #btnCosteDesmantelamientoDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-coste.svg');
+}
+
+#btnDesactivar, #btnDesactivarDetalle, .btnDesactivar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-deactivate.svg');
+}
+
+#btnDefecto, #btnDefectoDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-default.svg');
+}
+
+#btnDirecciones, #btnDireccionesDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-direcciones.svg');
+}
+
+#btnDuplicar, #btnDuplicarDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-duplicate.svg');
+}
+
+#btnDuplicarTipologia, #DuplicarTipologiaDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-duplicateTypology.svg');
+}
+
+#btnEliminar, #btnEliminarDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-eliminar.svg');
+}
+
+#btnTiposEdificios, #btnTiposEdificiosDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-edificios.svg');
+}
+
+#btnEditar, #btnEditarDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-editar.svg');
+}
+
+#btnExport, #btnExportDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-export.svg');
+}
+
+#btnFiltros, #btnFiltrosDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-filtros.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+#btnFiltroNegativo, #btnFiltroNegativo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-ocultar.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+#btnGenerarCodigo, #btnGenerarCodigoDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-acceso.svg');
+}
+
+#btnImportarExportar, #btnImportarExportarDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-importExport.svg');
+}
+
+#btnHistorial, #btnHistorialDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-historial.svg');
+}
+
+#btnImport, #btnImportDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-import.svg');
+}
+
+#btnNoFiltros, #btnNoFiltrosDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-noFilters.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+#btnNuevoDoc, #btnNuevoDocDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-nuevoDoc.svg');
+}
+
+#btnNuevoEstado, #btnNuevoEstadoDetalle {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-anadir.svg');
+}
+
+#btnOpciones, #btnOpcionesDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-opciones.svg');
+}
+
+#btnProjects, #btnProjectsDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-projects.svg');
+}
+
+#btnRefrescar, #btnRefrescarDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-refrescar.svg');
+}
+
+#btnRemoveFilters, #btnRemoveFiltersDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-noFilters.svg');
+}
+
+#btnTiposEstructuras, #btnTiposEstructurasLicencia {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-infraestructuras.svg');
+}
+
+
+#btnTiposLicencia, #btnTiposLicenciaDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-licenciasGrid.svg');
+}
+
+
+#btnRenta, #btnActualizarRenta {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-rentas.svg');
+}
+
+#btnVandalismo, #btnVandalismoDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vandalismo.svg');
+}
+
+#btnVerWorkFlow, #btnVerWorkFlowDetalle {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-showWorkFlow.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnUploadFldGrid {
+    width: 35px;
+
+    .x-btn.x-btn-disabled.x-btn-default-small {
+        background-image: url('/ima/ico-import.svg');
+        background-color: rgba(0,0,0,0);
+    }
+
+    .x-btn-default-small {
+        width: 32px;
+        border-radius: 50%;
+        border-color: rgba(0,0,0,0);
+        background-color: rgba(0,0,0,0);
+        @include bgBtn-ico;
+        @include btn-toolBar('/ima/ico-import.svg');
+    }
+
+    #FileUploadImportar-button-btnInnerEl {
+        display: none;
+    }
+
+    .x-btn-focus, .x-btn-pressed {
+        background-image: url('/ima/ico-import.svg') !important;
+        background-color: rgba(0,0,0,0) !important;
+    }
+}
+
+
+
+.btnUploadFolderGrid {
+    width: 35px;
+
+    .x-btn.x-btn-disabled.x-btn-default-small {
+        background-image: url('/ima/ico-folder-16x16.svg');
+        background-color: rgba(0,0,0,0);
+    }
+
+    .x-btn-default-small {
+        width: 32px;
+        border-radius: 50%;
+        border-color: rgba(0,0,0,0);
+        background-color: rgba(0,0,0,0);
+        @include bgBtn-ico;
+        @include btn-toolBar('/ima/ico-folder-16x16.svg');
+    }
+
+    #FileUploadImportar-button-btnInnerEl {
+        display: none;
+    }
+
+    .x-btn-focus, .x-btn-pressed {
+        background-image: url('/ima/ico-folder-16x16.svg') !important;
+        background-color: rgba(0,0,0,0) !important;
+    }
+}
+/*#endregion */
+
+/*#region BOTONES TOGGLES */
+
+
+.btnActivarDesactivarV2 {
+    border: hidden;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url("/ima/ico-toggle-off.svg") !important;
+    background-color: transparent !important;
+
+    span {
+        color: black;
+        font-weight: bold;
+    }
+}
+
+
+.btnActivarDesactivarV2Pressed {
+    background-image: url("/ima/ico-toggle-on.svg") !important;
+
+    span {
+        color: $colPpal !important;
+    }
+}
+
+.btnActivarDesactivarV3 {
+    border: hidden;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-image: url("/ima/ico-toggle-off.svg") !important;
+
+    span {
+        color: black;
+        font-weight: bold;
+    }
+}
+
+.btnActivarDesactivarV3Pressed {
+    background-image: url("/ima/ico-toggle-on.svg") !important;
+
+    span {
+        color: $colPpal !important;
+    }
+}
+
+.btn-toggleGrid {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-toggle-off.svg') !important;
+    border: none !important;
+    font-weight: bold !important;
+
+    span {
+        font-weight: bold;
+        color: black !important;
+    }
+}
+
+.btn-ok-blanco {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-ok-blanco.svg') !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+
+.btn-close-blanco {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-close-white.svg') !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+
+.btn-add-plus-gr {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/btn-add-plus-gr.svg') !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+
+
+.btn-toggleGrid-withLabel {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-toggle-off.svg') !important;
+    border: none !important;
+    font-weight: bold !important;
+    background-position: center right !important;
+
+    span {
+        font-weight: bold;
+        color: black !important;
+    }
+}
+
+.togRedOff {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-toggle-off-red.svg') !important;
+}
+
+.btn-toggleGrid-Cntract {
+    @include bgBtn-ico;
+    @include btn-transp;
+    margin-top: 12.5px !important;
+    background-image: url('/ima/ico-toggle-off-red.svg') !important;
+    border: none !important;
+    background-position: 130px;
+    font-weight: bold;
+
+    span {
+        font-weight: bold;
+        color: black !important;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btn-toggleGrid-Cntract-Small {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-toggle-off-red.svg') !important;
+    border: none !important;
+    background-position: right !important;
+    font-weight: bold;
+
+    span {
+        font-weight: bold;
+        color: black !important;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btn-toggleGrid-Cntract.x-btn-default-toolbar-small-focus.x-btn-over {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid-Cntract.x-btn-default-toolbar-small-focus {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid-Cntract.x-btn-over.x-btn-default-toolbar-small {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+
+.btn-toggleGrid-Cntract.x-btn-over.x-btn-default-toolbar-small-focus {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+
+.btn-toggleGrid-Cntract.x-btn-pressed {
+    background-image: url('/ima/ico-toggle-on.svg') !important;
+    background-color: rgba(0,0,0,0) !important;
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btn-toggleGrid-Cntract-Small.x-btn-pressed {
+    background-image: url('/ima/ico-toggle-on.svg') !important;
+    background-color: rgba(0,0,0,0) !important;
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btn-toggleGrid-OR {
+    @include bgBtn-ico;
+    @include btn-transp;
+    margin-top: 12.5px !important;
+    background-image: url('/ima/ico-toggle-or.svg') !important;
+    border: none !important;
+    background-position: 130px;
+    font-weight: bold;
+
+    span {
+        font-weight: bold;
+        color: black !important;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btn-toggleGrid-OR-Small {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-toggle-or.svg') !important;
+    border: none !important;
+    background-position: right !important;
+    font-weight: bold;
+
+    span {
+        font-weight: bold;
+        color: black !important;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btn-toggleGrid-OR.x-btn-default-toolbar-small-focus.x-btn-over {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid-OR.x-btn-default-toolbar-small-focus {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid-OR.x-btn-over.x-btn-default-toolbar-small {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+
+.btn-toggleGrid-OR.x-btn-over.x-btn-default-toolbar-small-focus {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+
+.btn-toggleGrid-OR.x-btn-pressed {
+    background-image: url('/ima/ico-toggle-and.svg') !important;
+    background-color: rgba(0,0,0,0) !important;
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btn-toggleGrid-OR-Small.x-btn-pressed {
+    background-image: url('/ima/ico-toggle-and.svg') !important;
+    background-color: rgba(0,0,0,0) !important;
+
+    .x-btn-inner-default-toolbar-small {
+        font-weight: bold;
+    }
+}
+
+.btnfiltGridconicon {
+    background-color: $colPpal !important;
+    border-radius: 3px;
+
+
+
+    span {
+        color: white;
+        font-weight: 400;
+        font-size: 10px;
+    }
+}
+
+.btnfiltGridconicon.x-btn-pressed {
+    background-color: $AzulOsc !important;
+}
+
+/*#endregion */
+
+/*#region BOTONES TOOLBAR VISTAS */
+.btnVisual {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-btnVisual.svg');
+    background-color: $colPpal !important;
+    border-radius: 3px !important;
+    background-size: 28px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnStateDetails {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-stateDetails.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+    background-size: 18px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnvistaGrid {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vistaGrid.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+    background-size: 28px !important;
+
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+
+
+.btnvistaTree {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vistaTree.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+    background-size: 28px !important;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnVerFlowWork {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-workwlow-bl.svg');
+    background-color: $colPpal !important;
+    border-radius: 3px !important;
+    background-size: 28px !important;
+
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+/*#endregion */
+
+/*BOTONES GRID*/
+
+/*#region botones grid */
+
+
+.btnLista {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-btnLista.svg');
+    background-color: $colPpal !important;
+    border-radius: 3px !important;
+    background-size: 28px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnVisual {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-btnVisual.svg');
+    background-color: $colPpal !important;
+    border-radius: 3px !important;
+    background-size: 28px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnFlow {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-btnFlow.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+
+.btnvistaGrid {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vistaGrid.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+    background-size: 28px !important;
+
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+
+
+.btnvistaTree {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vistaTree.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+    background-size: 28px !important;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+
+.btnStateDetails {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-stateDetails.svg');
+    background-color: $colPpal;
+    border-radius: 3px !important;
+    background-size: 18px;
+
+    &:hover {
+        background-color: $Verde2 !important;
+    }
+
+    &:active {
+        background-color: $colSec !important;
+    }
+}
+
+.btnAcceso {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-acceso.svg');
+}
+
+.btnActivar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-activar.svg');
+}
+
+.btnAreas {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-areas.svg');
+}
+
+.btnAddState {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-addState.svg');
+}
+
+
+.btnAddTransition {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-addTransition.svg');
+}
+
+.btnSAP {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-sap.svg');
+}
+
+.btnDocumentos {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-document.svg');
+}
+
+.btnCopiarConfig {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-copiar-config.svg');
+}
+
+.btnCopiarUser {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-copiar-usuario.svg');
+}
+
+.btnAnadir {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anadir.svg');
+}
+
+.btnNoRescindido {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-no-rescindido.svg');
+}
+
+.btnRescindido {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-rescindido.svg');
+}
+
+.btnNoVigente {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-no-vigente.svg');
+}
+
+.btnVigente {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-vigente.svg');
+}
+
+.btnActivate {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/btn_activate_grid.svg');
+}
+
+.btnChart {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-chart.svg');
+}
+
+.btnChrono {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-chrono.svg');
+}
+
+.btnTime {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-time-20px.svg');
+}
+
+.btnAnadirComm {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anadirComm.svg');
+}
+
+
+
+.btnAnonimo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-anonymous.svg');
+}
+
+
+.btnBloquear {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-blocked.svg');
+}
+
+.btnBuscar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-buscar.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnColumnas {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-columns.svg');
+}
+
+.btnCompartido {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-compartidos.svg');
+}
+
+.btnContactos {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-contactos.svg');
+}
+
+.btnContratos {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-contratos.svg');
+}
+
+.btnCoste {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-coste.svg');
+}
+
+.btnDescargar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-descargar.svg');
+}
+
+
+.btnDescargarTodo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-descargar-todo.svg');
+    background-size: 24px !important;
+}
+
+.btnExcel {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-excelF.svg');
+}
+
+
+.btnPaginaDoc {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-paginadoc.svg');
+}
+
+.btnPosition {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-ico-position-20px.svg');
+}
+
+
+.btnReset {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-reset-bl.svg');
+}
+
+.btnReset16p {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico_reset_16p.svg');
+}
+
+.btnNoDoc16p {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-noDoc-16p.svg');
+}
+
+.btnSubir {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-descargar.svg');
+    transform: rotate(-180deg) !important;
+}
+
+.btnVisible {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-visible.svg');
+}
+
+.btnInfo {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-info-dark.svg');
+}
+
+.btnConfig {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-masInfo.svg');
+}
+
+.btnAlertaRed {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-alert-red.svg');
+}
+
+.btnDescargar-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-descargar.svg');
+}
+
+.btnArrowRight-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-arrow-right.svg');
+}
+
+.btnArrowUser-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-arrow-user.svg');
+}
+
+
+.btnAnadir-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-anadir.svg');
+}
+
+.btnMoverAUsuario-subM {
+    @include bgBtn-ico-mnu;
+    @include btn-toolBar-mnu('/ima/ico-mover_a_usuario.svg');
+}
+
+.btnDefecto {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-default.svg');
+}
+
+.btnDirecciones {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-direcciones.svg');
+}
+
+.btnDuplicar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-duplicate.svg');
+}
+
+.btnTiposDocs {
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-tipo-de-documentos.svg');
+}
+
+.btnDocs {
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-docs.svg');
+}
+
+.btnDesactivarLight {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-deactivate-bulb.svg');
+}
+
+.btnDownloadContent {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-content-download.svg');
+}
+
+.btnEditar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-editar.svg');
+}
+
+.btnEdificios {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-edificios.svg');
+}
+
+.btnEliminar {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-eliminar.svg');
+}
+
+
+
+.bntBasura {
+
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-trash-bl-16p.svg');
+}
+
+
+
+
+.bntBasuraGrey {
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-trash.svg');
+}
+
+.bntContentUpload {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-content-upload.svg');
+}
+
+.bntBasuraGrey-Grid {
+
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-trash.svg');
+    background-color: transparent;
+    border: none !important;
+}
+
+
+.btnEnviar {
+    @include bgBtn-ico;
+    width: 32px;
+    height: 32px;
+    background-image: url('/ima/ico-email.svg') !important;
+    background-size: 20px;
+    transition: background-color 0.4s ease-out;
+
+    &:hover {
+        background-color: $Gris1;
+        border-color: $Gris1;
+        background-image: url('/ima/ico-email.svg');
+    }
+
+    &.x-btn-default-toolbar-small {
+        border-color: $blanco;
+    }
+
+    &.x-btn.x-btn-disabled.x-btn-default-toolbar-small {
+        background-image: url('/ima/ico-email.svg') !important;
+    }
+}
+
+.btnExport {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-export.svg');
+}
+
+.btnExpired {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-expired.svg');
+}
+
+.btnFiltros {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-filtros.svg');
+    @include toggFltr-Pressed-grid;
+}
+
+.btnStop {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-stop-20px.svg');
+}
+
+.btnStopRed {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-stop.svg');
+}
+
+
+
+
+.ico-compartir {
+    background-image: url('/ima/ico-link.svg');
+    width: 26px !important;
+}
+
+.ico-visible {
+    background-image: url('/ima/ico-visible.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-Piechart-ctxMnu {
+    background-image: url('/ima/ico-Piechart.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-Visible-ctxMnu {
+    background-image: url('/ima/ico-visible.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-geolocalizacion-ctxMnu {
+    background-image: url('/ima/ico-location.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-historial-ctxMnu {
+    background-image: url('/ima/ico-historial.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-Inventory-ctxMnu {
+    background-image: url('/ima/ico-BoxStack.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-Documents-ctxMnu {
+    background-image: url('/ima/ico-documentos.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-trash-ctxMnu {
+    background-image: url('/ima/ico-trash.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-movefolder-ctxMnu {
+    background-image: url('/ima/ico-move-folder.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-cut-ctxMnu {
+    background-image: url('/ima/ico-cut.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-paste-ctxMnu {
+    background-image: url('/ima/ico-paste.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-subcategoria {
+    background-image: url('/ima/ico-template-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-docs-white {
+    background-image: url('/ima/ico-docs-white.svg');
+    background-size: 18px !important;
+    /*   width: 24px !important;
+    height: 24px !important;*/
+}
+
+.ico-Contratos-ctxMnu {
+    background-image: url('/ima/ico-contrato.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+
+
+
+.btnDescargarCtxMenu {
+    background-image: url('/ima/ico-descargar.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.btnVersiones {
+    background-image: url('/ima/ico-tipo-de-documentos.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.btnBasura-ctxMenu {
+    background-image: url('/ima/ico-trash-bl-16p.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.btnBasura-ctNotification {
+    background-image: url('/ima/ico-trash-bl-16p.svg') !important;
+    width: 26px;
+    height: 26px;
+    background: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+
+
+
+/*#endregion */
+
+/*BOTONES PANEL LATERAL*/
+
+/*#region COLLAPSE ASIDER*/
+#btnCollapseAsR {
+    position: fixed;
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    right: 8px;
+    z-index: 99;
+    background-color: transparent !important;
+    border: none !important;
+    @include bgBtn-ico;
+    background-image: url('/ima/ico-menu-plegable-cerrado.svg');
+    transition: all 0.3s ease-out;
+
+    &.x-btn-default-small {
+        border-color: rgba(0,0,0,0);
+    }
+}
+
+
+#btnCollapseAsRClosed {
+    position: fixed;
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    right: 8px;
+    z-index: 99;
+    background-color: transparent !important;
+    border: none !important;
+    @include bgBtn-ico;
+    background-image: url('/ima/ico-menu-plegable-cerrado.svg');
+    transition: all 0.3s ease-out;
+    transform: rotate(180deg);
+
+    &.x-btn-default-small {
+        border-color: rgba(0,0,0,0);
+    }
+}
+
+.btnCollapseAsRClosedv2 {
+
+    @include bgBtn-ico;
+    background-image: url(/ima/ico-menu-plegable-cerrado.svg) !important;
+    background-color: transparent !important;
+
+    &.x-btn-default-small {
+        //border-color: rgba(0,0,0,0);
+    }
+}
+
+
+
+
+.btnCollapseAsRClosedv3 {
+    margin-top: 26px !important;
+    margin-right: 15px !important;
+    @include bgBtn-ico;
+    background-image: url(/ima/ico-menu-plegable-cerrado.svg) !important;
+    background-color: transparent !important;
+
+    &.x-btn-default-small {
+        //border-color: rgba(0,0,0,0);
+    }
+}
+
+
+
+.btnCollapseAsROpenv2 {
+
+    @include bgBtn-ico;
+    background-image: url(/ima/ico-menu-plegable-abierto.svg) !important;
+    background-color: transparent !important;
+
+    &.x-btn-default-small {
+        //border-color: rgba(0,0,0,0);
+    }
+}
+/*#endregion*/
+
+/*BOTONES MISCELANEA*/
+
+/*#region BOTONES SIN ICONO*/
+
+.btnVerCambios {
+    span {
+        color: $Rojo !important;
+        font-weight: 700;
+    }
+
+    .x-btn-inner-default-small {
+        padding-left: 0;
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+}
+
+.x-btn-default-small.btnVerCambios {
+    background-color: $blanco;
+    border: 2px solid $Rojo;
+    border-radius: 20px;
+    height: 1.5rem;
+    margin-left: 1rem;
+    margin-top: .8rem;
+    color: $Rojo;
+}
+
+.btnNuevoSeg {
+    float: right;
+    margin-right: 1rem;
+    background-color: $colPpal;
+    border-color: $colPpal;
+
+    &:hover {
+        background-color: darken($colPpal, 10);
+        border-color: darken($colPpal, 10);
+    }
+}
+
+#btnMasNotas {
+    width: 80px;
+    padding: .2rem;
+}
+
+#btnGuardarNota {
+    float: right;
+    margin-right: .8rem;
+    z-index: 1;
+}
+
+#btnBorrarTarea {
+    margin-left: .8rem;
+}
+
+#btnLimpiarTareas {
+    width: 120px;
+    margin-right: .5rem;
+}
+
+#btnOcultarTareas {
+    width: 120px;
+}
+
+.ctBtnFltr-grid {
+    position: static !important;
+    margin-right: 1rem !important;
+    float: right;
+}
+
+.btnFloatRInGrid {
+    position: static !important;
+    float: right;
+}
+
+.btn-toggleGrid.x-btn-default-toolbar-small-focus.x-btn-over {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid.x-btn-default-toolbar-small-focus {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid.x-btn-over.x-btn-default-toolbar-small {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid.x-btn-over.x-btn-default-toolbar-small-focus {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid.x-btn-pressed {
+    background-image: url('/ima/ico-toggle-on.svg') !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.btn-toggleGrid-withLabel.x-btn-pressed {
+    background-image: url('/ima/ico-toggle-on.svg') !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+//---Botones formulario ventana modal Form Buttons Modal Windows
+
+.btn-ppal-winForm {
+    min-width: 100px;
+    border-radius: 3px;
+    border: 1px solid $colPpal;
+    background-color: $colPpal !important;
+
+    .x-btn-inner-default-toolbar-small {
+        color: $blanco !important;
+    }
+}
+
+.btn-ppal-winForm.x-btn-over {
+    background-color: darken($colPpal, 10) !important;
+    border: 1px solid darken($colPpal, 10);
+}
+
+.btn-secondary-winForm {
+    min-width: 100px;
+    border: 1px solid $Gris3;
+    border-radius: 3px;
+    background-color: $Gris3 !important;
+}
+
+.btn-secondary-winForm.x-btn-over {
+    background-color: darken($Gris3, 10) !important;
+    border: 1px solid darken($Gris3, 10);
+}
+
+//---FIN Botones formulario ventana modal Form Buttons Modal Windows
+
+.btn-splt-trans { //splitbuttons transparentes
+    background-color: rgba(225, 225, 225,0);
+    border-color: rgba(225, 225, 225,0);
+
+    .x-btn-inner-default-small {
+        color: $colSec;
+        font-weight: 500;
+    }
+
+    .x-btn-wrap-default-small.x-btn-split-right > .x-btn-button::after {
+        border-right: 1px solid rgba(225, 225, 225,0);
+    }
+
+    .x-btn-wrap-default-small.x-btn-split-right::after {
+        width: 20px;
+        content: '\f107';
+        font: 16px/1 'Font Awesome 5 Free';
+        color: $colSec;
+        padding-left: 7px;
+    }
+
+    .x-btn-wrap-default-small.x-btn-arrow-right::after {
+        width: 20px;
+        content: '\f107';
+        font: 16px/1 'Font Awesome 5 Free';
+        color: $colSec;
+        padding-left: 7px;
+    }
+
+    &:hover {
+        border-width: 1px;
+        border-style: solid;
+        background-color: rgba(6,39,67,0);
+        border-color: rgba(225, 225, 225,0);
+    }
+}
+
+.x-keyboard-mode .x-btn-focus.btn-splt-trans { //split transparente estado focus / pressed
+    background-image: none;
+    background-color: $blanco;
+}
+
+.x-keyboard-mode .x-btn-menu-active.x-btn-default-small { //split al entrar en el menú desplegado
+    background-color: $Gris1;
+    border-color: $Verde3;
+}
+
+.btn-soloIco-m {
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center center;
+    border: none;
+}
+
+.btn-filtGrid { //--filtros en botón toggle Grid
+    border-radius: 3px;
+}
+
+.btn-filtGrid.x-btn.x-btn-pressed.x-btn-default-toolbar-small { //--filtros en botón toggle Grid
+    border-color: $colPpal;
+    box-shadow: none !important;
+}
+
+.btn-filtGrid.x-btn.x-btn-focus.x-btn-default-toolbar-small {
+    box-shadow: none !important;
+}
+
+
+
+.btn-trans { //boton transparente
+    background-color: rgba(225, 225, 225,0);
+    border-color: rgba(225, 225, 225,0);
+
+    &:hover {
+        border-width: 0px !important;
+        cursor: pointer !important;
+        border-style: solid;
+        background-color: rgba(6,39,67,0);
+        border-color: rgba(225, 225, 225,0);
+    }
+}
+
+
+.x-keyboard-mode .x-btn-focus.btn-trans { // transparente estado focus / pressed
+    background-image: none;
+    background-color: rgba(6,39,67,0);
+}
+
+.btn-cerrarItem {
+    width: 14px;
+    height: 14px;
+}
+
+.x-window.x-message-box .x-box-target {
+
+    a:nth-child(2) {
+
+        @include baseBoton($colPpal, 14px, $blanco);
+        width: 100px;
+
+        .x-btn-inner-default-small {
+            font: 400 14px/16px $font-ppal;
+        }
+
+        .x-btn-inner-default-toolbar-small {
+            font: 400 14px/16px $font-ppal !important;
+            color: $blanco !important;
+            padding: 0 5px;
+            max-width: 100%;
+        }
+    }
+
+    a:nth-child(3) {
+
+        @include baseBoton($Gris3, 14px, $GrisNegro);
+        display: block;
+        width: 100px;
+
+        .x-btn-inner-default-small {
+            font: 400 14px/16px $font-ppal;
+        }
+
+        .x-btn-inner-default-toolbar-small {
+            font: 400 14px/16px $font-ppal !important;
+            padding: 0 5px;
+            max-width: 100%;
+        }
+    }
+}
+
+.btn-mini-secundario {
+    &.x-btn-default-toolbar-small {
+        background-color: $Gris3;
+    }
+
+    @include baseBoton($Gris3, 11px, $Negro);
+    padding: 0.2rem;
+
+    &.x-btn-focus.x-btn-default-toolbar-small {
+        background-color: darken($Gris3, 10) !important;
+    }
+}
+
+.btn-error {
+    @include baseBoton($Rojo, 12px, $blanco);
+    min-width: 120px;
+}
+
+
+.x-btn.x-btn-pressed.x-btn-default-small { // color al presionar default
+    border-color: darken( $colPpal, 10);
+    //background-image: none;
+    background-color: darken( $colPpal, 10);
+}
+
+.x-keyboard-mode .x-btn-focus.x-btn-default-small { // color navegación teclado default
+    border-color: darken( $colPpal, 10);
+    //background-image: none;
+    background-color: darken( $colPpal, 10);
+}
+
+#UpldDocs-button .x-keyboard-mode .x-btn-focus.x-btn-default-small { // color navegación teclado default
+    border-color: darken( $colPpal, 10);
+    //background-image: none;
+    background-color: darken( white, 10) !important;
+}
+
+.button {
+    border-width: 0px;
+    border-style: solid;
+    background-color: rgba(6,39,67,0);
+
+
+    &:hover {
+        border-width: 0px;
+        border-style: solid;
+        background-color: rgba(6,39,67,0);
+    }
+}
+
+//botones Si/No en ventana modal
+
+.x-window.x-message-box .x-window-body, .x-window.x-message-box .x-toolbar-footer {
+    background-color: $colBg;
+}
+
+
+.x-btn-default-toolbar-small {
+    background-image: none;
+    background-color: rgba(0,0,0,0);
+    -webkit-box-shadow: rgba(0,0,0,0) 0 1px 0px 0 inset, rgba(0,0,0,0) 0 -1px 0px 0 inset, rgba(0,0,0,0) -1px 0 0px 0 inset, rgba(0,0,0,0) 1px 0 0px 0 inset !important;
+    -moz-box-shadow: rgba(0,0,0,0) 0 1px 0px 0 inset, rgba(0,0,0,0) 0 -1px 0px 0 inset, rgba(0,0,0,0) -1px 0 0px 0 inset, rgba(0,0,0,0) 1px 0 0px 0 inset !important;
+    box-shadow: rgba(0,0,0,0) 0 1px 0px 0 inset, rgba(0,0,0,0) 0 -1px 0px 0 inset, rgba(0,0,0,0) -1px 0 0px 0 inset, rgba(0,0,0,0) 1px 0 0px 0 inset !important;
+}
+
+
+.btn-ppal {
+    @include baseBoton($colPpal, 14px, $blanco);
+    min-width: 120px;
+
+    .x-btn-inner-default-small {
+        font: 400 14px/16px $font-ppal;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font: 400 14px/16px $font-ppal !important;
+        color: $blanco !important;
+        padding: 0 5px;
+        max-width: 100%;
+        font-weight: bold !important;
+    }
+}
+
+
+.btn-green-menu {
+    @include baseBoton($colPpal, 14px, $blanco);
+    min-width: 120px;
+
+    .x-btn-inner-default-toolbar-small {
+        font: 400 14px/16px $font-ppal !important;
+        color: $blanco !important;
+        padding: 0 5px;
+        max-width: 100%;
+        font-weight: bold !important;
+    }
+
+    .x-btn-wrap-default-toolbar-small.x-btn-arrow-right::after {
+        color: $blanco;
+    }
+
+    &.x-btn-focus.x-btn-default-toolbar-small {
+        background-color: $colPpal !important;
+    }
+}
+
+
+.btn-secondary {
+    @include baseBoton($Gris3, 14px, $GrisNegro);
+    min-width: 120px;
+    font-weight: 700;
+
+    .x-btn-inner-default-small {
+        font: 400 14px/16px $font-ppal;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font: 400 14px/16px $font-ppal !important;
+        padding: 0 5px;
+        max-width: 100%;
+    }
+}
+
+.btn-accept {
+    @include baseBoton($colPpal, 14px, $blanco);
+    width: 100px;
+
+    .x-btn-inner-default-small {
+        font: 400 14px/16px $font-ppal;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font: 400 14px/16px $font-ppal !important;
+        color: $blanco !important;
+        padding: 0 5px;
+        max-width: 100%;
+    }
+}
+
+
+
+.btn-accept.x-btn.x-btn-disabled.x-btn-default-small { //disabled
+    background-color: $colPpal;
+}
+
+.btn-cancel {
+    @include baseBoton($Gris3, 14px, $GrisNegro);
+    display: block;
+    width: 100px;
+
+    .x-btn-inner-default-small {
+        font: 400 14px/16px $font-ppal;
+    }
+
+    .x-btn-inner-default-toolbar-small {
+        font: 400 14px/16px $font-ppal !important;
+        padding: 0 5px;
+        max-width: 100%;
+    }
+}
+
+.btn-cancel.x-btn.x-btn-disabled.x-btn-default-small { //disabled
+    background-color: $Gris3;
+}
+
+.btn-mini-ppal {
+    &.x-btn-default-toolbar-small {
+        background-color: $colPpal;
+    }
+
+    @include baseBoton($colPpal, 11px, $blanco);
+    padding: 0.2rem;
+
+
+    &.x-btn-focus.x-btn-default-toolbar-small {
+        background-color: darken($colPpal, 10) !important;
+    }
+}
+
+.btnBold {
+    .x-btn-inner-default-small {
+        font-weight: bold !important;
+    }
+}
+
+.btnRed {
+    background-color: $Rojo !important;
+    border: 1px solid $Rojo !important;
+}
+
+.btnRed:hover {
+    background-color: $Rojo !important;
+    opacity: .8 !important;
+    border: 1px solid $Rojo !important;
+}
+
+.winRed {
+    .x-window-header-default {
+        background-color: $Rojo !important;
+        border-color: $Rojo !important;
+    }
+}
+
+.x-tab-default .x-tab-close-btn {
+    color: #C6C6C6;
+}
+
+.btnNoBorder {
+    border: hidden !important;
+}
+
+.BasebtnCard {
+    width: 35px !important;
+    height: 35px !important;
+    background-size: 21px;
+    border-style: none;
+    transition: all 0.3s ease;
+}
+
+.StreetViewSize {
+    background-size: 14px !important;
+}
+
+.BasebtnCard:hover {
+    background-color: $Gris3;
+}
+
+#BtnsFooter {
+    margin-top: 25px;
+}
+
+.btnMoverAtributo {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-ppal btn-acceso {
+    height: 30px;
+    color: $blanco;
+}
+
+.btn-acceso {
+    margin-top: 15px !important;
+}
+
+.SliderBtn {
+    border-color: transparent !important;
+    box-shadow: transparent 0 1px 0 inset !important;
+    background-color: #062743 !important;
+    border-radius: 4px !important;
+    display: inline-block;
+    padding: 2px 3px 3px 3px !important;
+
+    span {
+        color: white !important;
+    }
+}
+
+.whiteBckBtn {
+    background-color: white !important;
+    border-radius: 30px;
+    border-style: hidden;
+    transition: 0.3s ease-in;
+}
+
+.whiteBckBtn:hover {
+    background-color: $colBg !important;
+}
+
+
+.transBckBtn {
+    background-color: transparent !important;
+    border-radius: 30px;
+    border-style: hidden;
+    transition: 0.3s ease-in;
+}
+
+.transBckBtn:hover {
+    background-color: $colBg !important;
+}
+
+/*#endregion*/
+
+/*#region MÁS BOTONES*/
+
+.btnPrev {
+    border-style: hidden;
+    height: 22px;
+    width: 22px;
+    margin-bottom: .4rem;
+    margin-right: .2rem;
+    border-radius: 20px;
+    background-image: url("/ima/ico-moveLeft.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.btnPrev:hover {
+    background-color: $Gris3;
+}
+
+.btnNext {
+    border-style: hidden;
+    height: 22px;
+    width: 22px;
+    margin-bottom: .4rem;
+    margin-right: .2rem;
+    border-radius: 20px;
+    background-image: url("/ima/ico-moveRight.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.btnNext:hover {
+    background-color: $Gris3;
+}
+
+.btnNext-blue {
+    background-image: url("/ima/ico-moveRight-bl.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*#endregion*/
+
+
+/* -- ICONOS -- */
+
+
+/*ICONOS GRID*/
+
+/*#region ICONOS COLUMNAS GRID */
+.col-activo .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-activoGrid.svg);
+}
+
+.col-default .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-default.svg);
+}
+
+.col-doc .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-docs.svg);
+}
+
+.col-functionalities .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-functionality.svg);
+}
+
+.col-link .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-clip.svg);
+}
+
+.col-notification .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-email.svg);
+}
+
+.col-notes .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-notes.svg);
+}
+
+.col-parallel .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-subprocess.svg);
+}
+
+.col-red .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-redGrid.svg);
+}
+
+.col-yellow .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-yellowGrid.svg);
+}
+
+.col-workflow .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-states.svg);
+}
+
+.col-lectura .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-lectura.svg);
+}
+
+.col-escritura .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-escrituraa.svg);
+}
+
+.col-completo .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-complete.svg);
+}
+
+.col-offering .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-offering.svg);
+}
+
+.col-purchasing .x-column-header-text-inner {
+    @include colIcon;
+    background-image: url(/ima/ico-purchasing.svg);
+}
+/*#endregion */
+
+/*#region ICONO DATOS GRIDS */
+.ico-bitYes {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-accept.svg);
+    background-size: 16px;
+}
+
+.ico-bitNo {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-cancel.svg);
+    background-size: 16px;
+}
+
+.ico-download-grid {
+    width: 20px;
+    height: 20px;
+    background-image: url(/ima/btn_download_grid.svg);
+}
+
+.ico-upload-grid {
+    width: 20px;
+    height: 20px;
+    background-image: url(/ima/btn_download_grid.svg);
+    transform: rotate(180deg);
+}
+
+.ico-completado {
+    width: 20px;
+    height: 20px;
+    background-image: url(/ima/ico-complete.svg);
+    transform: rotate(180deg);
+}
+
+.ico-privado {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background-image: url(/ima/ico-privado.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+}
+
+.ico-publico {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background-image: url(/ima/ico-public.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+}
+
+.ico-download-grid-16 {
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/btn_download_grid.svg);
+    background-size: 16px;
+}
+
+.ico-codeGrid {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-code-20px.svg);
+    background-size: 16px;
+}
+
+.ico-defaultGrid {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    //background-image: url(/ima/ico-defaultGrid.svg);
+    background-image: url(/ima/ico-defaultGrid.svg);
+    background-size: 16px;
+}
+
+.uploadgrid {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-upload-16px.svg);
+    background-size: 16px;
+}
+
+.green {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-green.svg);
+    background-size: 16px;
+}
+
+.green-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-green-emp.svg);
+    background-size: 16px;
+}
+
+.yellow {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-yellow.svg);
+    background-size: 16px;
+}
+
+.yellow-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-yellow-emp.svg);
+    background-size: 16px;
+}
+
+.yellow-half {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-yellow-half.svg);
+    background-size: 16px;
+}
+
+.red {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-red.svg);
+    background-size: 16px;
+}
+
+.red-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-red-emp.svg);
+    background-size: 16px;
+}
+
+.red-half {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/dot-red-half.svg);
+    background-size: 16px;
+}
+
+.ico-launchGrid {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-chrono.svg);
+    background-size: 16px;
+}
+
+.ico-gotopageGrid {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-gotopage.svg);
+    background-size: 16px;
+}
+
+.ico-docsGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-docsDataGrid.svg);
+    background-size: 16px;
+}
+
+
+.ico-functionalityGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-functionalityDataGrid.svg);
+    background-size: 16px;
+}
+
+
+.ico-hidden {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-hidden.svg);
+    background-size: 16px;
+}
+
+
+.ico-linkGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-clipDataGrid.svg);
+    background-size: 16px;
+}
+
+
+
+
+
+.ico-notificationGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-emailDataGrid.svg);
+    background-size: 16px;
+}
+
+.ico-positionGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-position-gr-20px.svg);
+    background-size: 16px;
+}
+
+
+.ico-readOnly {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-readOnly.svg);
+    background-size: 16px;
+}
+
+.ico-disabled-render {
+    display: block;
+    width: 16px;
+    margin-top: -4px !important;
+    height: 16px;
+    background-image: url(/ima/ico-disabled-16-grey.svg);
+    background-size: 16px;
+}
+
+
+.ico-checked-16-greyInv {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: -4px !important;
+    background-image: url(/ima/ico-checked-16-grey.svg);
+    background-size: 16px;
+}
+
+.ico-subprocessGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-subprocessDataGrid.svg);
+    background-size: 16px;
+}
+
+.ico-alertGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-alert-red.svg);
+    background-size: 16px;
+}
+
+.ico-contactGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-contacts-gr-16p.svg);
+    background-size: 16px;
+}
+
+.ico-locationGrid {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/ima/ico-location-gr.svg);
+    background-size: 16px;
+}
+
+/*#endregion */
+
+/*#region MÁS ICONOS GRID */
+.btnColMore {
+    border-style: hidden !important;
+    background-color: transparent !important;
+    display: block;
+    background-image: url(/ima/ico-moreInfo.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    margin-left: calc(50% - 10px); // la columna aspx con Align = center
+    &:hover {
+        background-image: url(/ima/ico-moreInfo-gr.svg);
+    }
+}
+
+.btnColMoreX {
+    margin-left: -16px;
+    border-style: hidden !important;
+    background-color: transparent !important;
+    display: block;
+    background-image: url(/ima/ico-moreInfo.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center !important;
+
+    span.x-btn-inner-default-small {
+        color: $Negro;
+        margin-left: -34px;
+        font: 400 11px/16px $font-ppal, 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    }
+}
+
+.btnColCerrar {
+    border-style: hidden !important;
+    background-color: transparent !important;
+    display: block;
+    background-image: url(/ima/ico-close.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left !important;
+    margin-left: calc(50% - 8px); // la columna aspx con Align = center
+}
+
+.btnColLaunch {
+    border-style: hidden !important;
+    background-color: transparent !important;
+    display: block;
+    background-image: url(/ima/ico-launch-gr.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left !important;
+    margin-left: calc(50% - 8px); // la columna aspx con Align = center
+}
+
+/*#endregion */
+
+/*ICONOS MISCELANEA*/
+
+/*#region ICONOS MENU PPAL */
+.ico-menu-plegable-abierto {
+    background-image: url('/ima/ico-menu-plegable-abierto.svg');
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ico-menu-plegable-cerrado {
+    background-image: url('/ima/ico-menu-plegable-cerrado.svg');
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ico-cluster {
+    @include iconoMenuPpal('/ima/ico-cluster.svg');
+}
+
+.ico-infraestructuras {
+    @include iconoMenuPpal('/ima/ico-infraestructuras.svg');
+}
+
+.ico-tipos-de-servicios {
+    @include iconoMenuPpal('/ima/ico-tipos-de-servicios.svg');
+}
+
+.ico-tipos-de-proyecto {
+    @include iconoMenuPpal('/ima/ico-tipos-de-proyecto.svg');
+}
+
+.ico-tech {
+    @include iconoMenuPpal('/ima/ico-tech.svg');
+}
+
+.ico-sap {
+    @include iconoMenuPpal('/ima/ico-sap.svg');
+}
+
+.ico-risks {
+    @include iconoMenuPpal('/ima/ico-risks.svg');
+}
+
+.ico-providers {
+    @include iconoMenuPpal('/ima/ico-providers.svg');
+}
+
+.ico-partes-res {
+    @include iconoMenuPpal('/ima/ico-partes-res.svg');
+}
+
+.ico-tipos-de-gestion {
+    @include iconoMenuPpal('/ima/ico-tipos-de-gestion.svg');
+}
+
+.ico-operators {
+    @include iconoMenuPpal('/ima/ico-operators.svg');
+}
+
+.ico-notificaciones {
+    @include iconoMenuPpal('/ima/ico-notificaciones.svg');
+}
+
+.ico-addendas {
+    @include iconoMenuPpal('/ima/ico-addendas.svg');
+}
+
+.ico-grid-regiones {
+    @include iconoMenuPpal('/ima/ico-grid-regiones.svg');
+}
+
+.ico-limits {
+    @include iconoMenuPpal('/ima/ico-limits.svg');
+}
+
+.ico-integraciones {
+    @include iconoMenuPpal('/ima/ico-integraciones.svg');
+}
+
+.ico-contribuyentes {
+    @include iconoMenuPpal('/ima/ico-contribuyentes.svg');
+}
+
+.ico-taxes {
+    @include iconoMenuPpal('/ima/ico-taxes.svg');
+}
+
+.ico-vex {
+    @include iconoMenuPpal('/ima/ico-vex.svg');
+}
+
+.ico-activos {
+    @include iconoMenuPpal('/ima/ico-activos.svg');
+}
+
+.ico-agencias {
+    @include iconoMenuPpal('/ima/ico-agencias.svg');
+}
+
+.ico-alquileres {
+    @include iconoMenuPpal('/ima/ico-rentals.svg');
+}
+
+.ico-areas {
+    @include iconoMenuPpal('/ima/ico-areas.svg');
+}
+
+.ico-bancos {
+    @include iconoMenuPpal('/ima/ico-banks.svg');
+}
+
+.ico-billing {
+    @include iconoMenuPpal('/ima/ico-billing.svg');
+}
+
+.ico-candidatos {
+    @include iconoMenuPpal('/ima/ico-candidatos.svg');
+}
+
+.ico-categorias {
+    @include iconoMenuPpal('/ima/ico-categorias.svg');
+}
+
+.ico-clasificaciones {
+    @include iconoMenuPpal('/ima/ico-clasificaciones.svg');
+}
+
+.ico-colocation {
+    @include iconoMenuPpal('/ima/ico-colocation.svg');
+}
+
+.ico-columnas {
+    @include iconoMenuPpal('/ima/ico-columns.svg');
+}
+
+.ico-columnas-yesno {
+    @include iconoMenuPpal('/ima/ico-columnas-yesno.svg');
+}
+
+.ico-columnas-yesno-dropdown {
+    @include iconoMenuPpal('/ima/ico-columnas-yesno-dropdown.svg');
+}
+
+.ico-conceptos {
+    @include iconoMenuPpal('/ima/ico-concepts.svg');
+}
+
+.ico-conflictividad {
+    @include iconoMenuPpal('/ima/ico-conflictividad.svg');
+}
+
+.ico-datos {
+    @include iconoMenuPpal('/ima/ico-data.svg');
+}
+
+.ico-departamento {
+    @include iconoMenuPpal('/ima/ico-department.svg');
+}
+
+.ico-despliegue {
+    @include iconoMenuPpal('/ima/ico-despliegue.svg');
+}
+
+.ico-dispositivo {
+    @include iconoMenuPpal('/ima/ico-device.svg');
+}
+
+.ico-elemContables {
+    @include iconoMenuPpal('/ima/ico-accountElements.svg');
+}
+
+.ico-emplazamientos {
+    @include iconoMenuPpal('/ima/ico-sites.svg');
+}
+
+.ico-entornos {
+    @include iconoMenuPpal('/ima/ico-entornos.svg');
+}
+
+.ico-estados {
+    @include iconoMenuPpal('/ima/ico-estados.svg');
+}
+
+.ico-subprocess {
+    @include iconoMenuPpal('/ima/ico-subprocess.svg');
+}
+
+.ico-esJuridicos {
+    @include iconoMenuPpal('/ima/ico-esJuridicos.svg');
+}
+
+.ico-fases {
+    @include iconoMenuPpal('/ima/ico-fases.svg');
+}
+
+.ico-grupos {
+    @include iconoMenuPpal('/ima/ico-grupos.svg');
+}
+
+.ico-historico {
+    @include iconoMenuPpal('/ima/ico-history.svg');
+}
+
+.ico-inflaciones {
+    @include iconoMenuPpal('/ima/ico-inflaciones.svg');
+}
+
+.ico-infraestructuras {
+    @include iconoMenuPpal('/ima/ico-infraestructuras.svg');
+}
+
+
+.ico-calidad {
+    @include iconoMenuPpal('/ima/ico-quality.svg');
+}
+
+.ico-localizacion {
+    @include iconoMenuPpal('/ima/ico-location.svg');
+}
+
+.ico-licencias {
+    @include iconoMenuPpal('/ima/ico-licencias.svg');
+}
+
+.ico-moneda {
+    @include iconoMenuPpal('/ima/ico-moneda.svg');
+}
+
+.ico-pagos {
+    @include iconoMenuPpal('/ima/ico-payments.svg');
+}
+
+.ico-paisaje {
+    @include iconoMenuPpal('/ima/ico-paisaje.svg');
+}
+
+
+.ico-propietario {
+    @include iconoMenuPpal('/ima/ico-owner.svg');
+}
+
+.ico-radiofrecuencia {
+    @include iconoMenuPpal('/ima/ico-radiofrecuencia.svg');
+}
+
+.ico-transmision {
+    @include iconoMenuPpal('/ima/ico-transmision.svg');
+}
+
+.ico-reload.x-form-trigger-triton::before {
+    content: '\f2f9' !important;
+}
+
+.ico-reset {
+    background-image: url('/ima/ico-reset.svg');
+    width: 20px !important;
+    height: 20px !important;
+}
+/*#endregion */
+
+/*#region MÁS ICONOS */
+.ico-success-gr {
+    background-image: url(/ima/ico-success-gr.svg);
+    width: 20px;
+    height: 20px;
+}
+
+.ico-exclamacion-10px-grey {
+    .x-form-item-label-text {
+        position: relative !important;
+        margin-left: 0px;
+
+        &:before {
+            position: absolute;
+            content: "";
+            left: -12px;
+            background-image: url(/ima/ico_exclamacion-10px-grey.svg);
+            top: 2px;
+            display: block;
+            background-size: 10px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .x-label-value {
+        position: relative !important;
+        margin-left: 0px;
+
+        &:before {
+            position: absolute;
+            content: "";
+            left: -12px;
+            background-image: url(/ima/ico_exclamacion-10px-grey.svg);
+            top: 2px;
+            display: block;
+            background-size: 10px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+.ico-exclamacion-10px-red {
+    .x-form-item-label-text {
+        position: relative !important;
+        margin-left: 0px;
+
+        &:before {
+            position: absolute;
+            content: "";
+            left: -12px;
+            background-image: url(/ima/ico_exclamacion-10px-red.svg);
+            top: 2px;
+            display: block;
+            background-size: 10px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .x-label-value {
+        position: relative !important;
+        margin-left: 0px;
+
+        &:before {
+            position: absolute;
+            content: "";
+            left: -12px;
+            background-image: url(/ima/ico_exclamacion-10px-red.svg);
+            top: 2px;
+            display: block;
+            background-size: 10px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+.ico-visible {
+    background-image: url('/ima/ico-visible.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-Piechart-ctxMnu {
+    background-image: url('/ima/ico-Piechart.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-Visible-ctxMnu {
+    background-image: url('/ima/ico-visible.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-geolocalizacion-ctxMnu {
+    background-image: url('/ima/ico-location.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-Inventory-ctxMnu {
+    background-image: url('/ima/ico-BoxStack.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-Documents-ctxMnu {
+    background-image: url('/ima/ico-documentos.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-trash-ctxMnu {
+    background-image: url('/ima/ico-trash.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-movefolder-ctxMnu {
+    background-image: url('/ima/ico-move-folder.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-cut-ctxMnu {
+    background-image: url('/ima/ico-cut.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-paste-ctxMnu {
+    background-image: url('/ima/ico-paste.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-docs-white {
+    background-image: url('/ima/ico-docs-white.svg');
+    background-size: 18px !important;
+    /*   width: 24px !important;
+    height: 24px !important;*/
+}
+
+.ico-Contratos-ctxMnu {
+    background-image: url('/ima/ico-contrato.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.SearchIcoTxt {
+    background-image: url("/ima/ico-buscar.svg");
+    width: 26px;
+    height: 30px;
+}
+
+.ico-plus-green {
+    background-image: url('/ima/ico-plus-green.svg');
+    width: 16px;
+}
+
+.ico-gestionV2 {
+    background-image: url('/ima/ico-gestionV2.svg');
+    width: 16px;
+}
+
+.ico-checkedV2 {
+    background-image: url('/ima/ico-checkedV2.svg');
+    width: 16px;
+}
+
+.ico-group {
+    background-image: url('/ima/ico-group.svg');
+    width: 16px;
+}
+
+.ico-editar {
+    background-image: url('/ima/ico-editar.svg');
+    width: 16px;
+}
+
+.ico-editar-menu {
+    background-image: url('/ima/ico-editar.svg');
+    width: 26px;
+}
+
+.ico-trash {
+    background-image: url('/ima/ico-trash.svg');
+    width: 16px;
+}
+
+.ico-trash-red {
+    background-image: url('/ima/ico-trash-red.svg');
+    width: 16px;
+}
+
+.ico-operator-plus {
+    background-image: url('/ima/ico-operator-plus.svg');
+    width: 16px;
+}
+
+
+.ico-trigger-reload {
+    background-image: url('/ima/ico-refrescar.svg') !important;
+    background-size: 16px;
+    background-position: center center !important;
+}
+
+
+.ico-functionality {
+    background-image: url('/ima/ico-functionality.svg');
+    width: 16px;
+}
+
+
+.ico-acerca {
+    background-image: url('/ima/ico-acerca.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-addBtn {
+    background-image: url('/ima/ico-add-btn.svg');
+    width: 12px;
+}
+
+.ico-head-less {
+    background-image: url('/ima/ico-menos.svg');
+    width: 12px;
+}
+
+.ico-expand-combo-up {
+    background-image: url('/ima/ico_expand_combo.svg');
+    width: 12px;
+    transform: rotate(0.5turn);
+}
+
+.ico-expand-combo {
+    background-image: url('/ima/ico_expand_combo.svg');
+    width: 12px;
+}
+
+.ico-more-info {
+    background-image: url('/ima/btn_moreInfo.svg');
+    width: 20px;
+}
+
+.ico-addFile {
+    background-image: url('/ima/ico-file-bl.svg');
+    width: 20px;
+}
+
+.ico-antena {
+    @include iconoMenuPpal('/ima/ico-antena.svg');
+}
+
+.ico-admin {
+    background-image: url('/ima/ico-admin.svg');
+    width: 28px;
+    height: 28px;
+}
+
+.ico-avisos {
+    background-image: url('/ima/ico-avisos.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-blocked {
+    background-image: url('/ima/ico-blocked.svg');
+    width: 16px;
+}
+
+
+.ico-BoxStack {
+    background-image: url('/ima/ico-BoxStack.svg');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-cambios {
+    background-image: url('/ima/ico-cambios.svg');
+    width: 16px;
+    margin-top: -3px;
+}
+
+.ico-cancel {
+    background-image: url('/ima/ico-cancel.svg');
+    width: 16px;
+}
+
+.ico-visible-16 {
+    background-image: url('/ima/ico-visible.svg');
+    width: 16px;
+}
+
+.ico-edit-16 {
+    background-image: url('/ima/ico-edit-item.svg');
+    width: 16px;
+}
+
+.ico-x-16-red {
+    background-image: url('/ima/ico-x-16-red.svg');
+    width: 16px;
+}
+
+.ico-checked-16-gr {
+    background-image: url('/ima/ico_checked-16-gr.svg');
+    width: 16px;
+}
+
+.ico-download-16 {
+    background-image: url('/ima/ico-download-16.svg');
+    width: 16px;
+}
+
+.ico-cerrarSesion {
+    background-image: url('/ima/ico-cerrarSesion.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-clave {
+    background-image: url('/ima/ico-clave.png');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-close-gr {
+    @include btn-transp;
+    background-image: url('/ima/ico-close-gr.svg');
+    width: 10px;
+}
+
+.ico-hide-menu {
+    @include btn-transp;
+    background-image: url('/ima/ico-hideMenu.svg');
+    width: 10px;
+}
+
+.ico-moverow-gr {
+    @include btn-transp;
+    background-image: url('/ima/ico-moverow-gr.svg');
+    width: 10px;
+}
+
+.ico-close {
+    @include btn-transp;
+    background-image: url('/ima/ico-close.svg');
+    width: 10px;
+}
+
+.ico-configuracion {
+    background-image: url('/ima/ico-configuracion.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+
+.ico-contact {
+    background-image: url('/ima/ico-contacts-gr-16p.svg');
+    background-size: 16px;
+    width: 20px;
+    height: 20px;
+}
+
+.ico-contrato {
+    background-image: url('/ima/ico-contrato.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-contrato-gr {
+    background-image: url('/ima/ico-contracts-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-image {
+    background-image: url('/ima/ico-image.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-folder-bl {
+    background-image: url('/ima/ico-folder-16x16-bl.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-outofservice {
+    background-image: url('/ima/ico-outofservice.svg');
+    width: 16px;
+}
+
+#cmbImagen {
+    .x-textfield-icon {
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        width: 20px;
+        height: 20px;
+        top: .3rem;
+        left: .2rem;
+    }
+}
+
+#FileImagen-triggerWrap .x-btn-default-small {
+    border: none !important;
+    background-color: $Gris1Fondo;
+    padding-top: 4px !important;
+}
+
+#btnAgregar {
+    background-image: url('/ima/ico-nuevoItem.svg');
+}
+
+#btnDesplegar {
+    background-image: url('/ima/ico-desplegarItem.svg');
+}
+
+
+
+#btnEliminar {
+    background-image: url('/ima/ico-eliminarItem.svg');
+}
+
+
+
+#btnIntercambios {
+    @include bgBtn-ico;
+    @include btn-modulos('/ima/ico-modIntercambios.svg');
+}
+
+#btnModulos {
+    @include bgBtn-ico;
+    @include btn-cabecera ('/ima/ico-modulos.svg', '/ima/ico-modulos2.svg');
+}
+
+
+#btnReporting {
+    @include bgBtn-ico;
+    @include btn-cabecera ('/ima/ico-reporting.svg', '/ima/ico-reporting2.svg');
+}
+
+
+#btnSearchTB {
+    @include bgBtn-ico;
+    width: 52px;
+    height: 56px;
+    background-position: center right !important;
+
+    &:hover {
+        background-color: transparent !important;
+        border-style: hidden !important;
+    }
+}
+
+
+#btnUsuarios {
+    @include bgBtn-ico;
+    @include btn-cabecera ('/ima/ico-mnuUsuarios.svg', '/ima/ico-mnuUsuarios.svg');
+}
+
+.ico-acquisitions {
+    background-image: url('/ima/ico-acquisitions.svg');
+    background-size: 16px;
+}
+
+.ico-checked-16-grey {
+    background-image: url('/ima/ico-checked-16-grey.svg');
+    background-size: 16px;
+}
+
+.ico-disabled-16-grey {
+    background-image: url('/ima/ico-disabled-16-grey.svg');
+    background-size: 16px;
+}
+
+.ico-hidden-16-grey {
+    background-image: url(/ima/ico-hidden.svg);
+    background-size: 16px;
+}
+
+.ico-drag-horizontal {
+    background-image: url('/ima/ico-drag-horizontal.svg');
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.ico-drag-vertical {
+    background-image: url('/ima/ico-drag-vertical.svg');
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.ico-accept {
+    background-image: url('/ima/ico-accept.svg');
+    width: 16px;
+}
+
+.ico-plus-green {
+    background-image: url('/ima/ico-plus-green.svg');
+    width: 16px;
+}
+
+.ico-gestionV2 {
+    background-image: url('/ima/ico-gestionV2.svg');
+    width: 16px;
+}
+
+.ico-checkedV2 {
+    background-image: url('/ima/ico-checkedV2.svg');
+    width: 16px;
+}
+
+.ico-group {
+    background-image: url('/ima/ico-group.svg');
+    width: 16px;
+}
+
+.ico-editar {
+    background-image: url('/ima/ico-editar.svg');
+    width: 16px;
+}
+
+.ico-trash {
+    background-image: url('/ima/ico-trash.svg');
+    width: 16px;
+}
+
+.ico-trash-red {
+    background-image: url('/ima/ico-trash-red.svg');
+    width: 16px;
+}
+
+.ico-operator-plus {
+    background-image: url('/ima/ico-operator-plus.svg');
+    width: 16px;
+}
+
+
+.ico-trigger-reload {
+    background-image: url('/ima/ico-refrescar.svg') !important;
+    background-size: 16px;
+    background-position: center center !important;
+}
+
+
+.ico-functionality {
+    background-image: url('/ima/ico-functionality.svg');
+    width: 16px;
+}
+
+.ico-criticidad {
+    background-image: url('/ima/menuicons/ico-criticidades-tareas.svg');
+    width: 16px;
+}
+
+.ico-acerca {
+    background-image: url('/ima/ico-acerca.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-addBtn {
+    background-image: url('/ima/ico-add-btn.svg');
+    width: 12px;
+}
+
+.ico-head-less {
+    background-image: url('/ima/ico-menos.svg');
+    width: 12px;
+}
+
+.ico-expand-combo-up {
+    background-image: url('/ima/ico_expand_combo.svg');
+    width: 12px;
+    transform: rotate(0.5turn);
+}
+
+.ico-expand-combo {
+    background-image: url('/ima/ico_expand_combo.svg');
+    width: 12px;
+}
+
+.ico-more-info {
+    background-image: url('/ima/btn_moreInfo.svg');
+    width: 20px;
+}
+
+.ico-addFile {
+    background-image: url('/ima/ico-file-bl.svg');
+    width: 20px;
+}
+
+.ico-antena {
+    @include iconoMenuPpal('/ima/ico-antena.svg');
+}
+
+.ico-admin {
+    background-image: url('/ima/ico-admin.svg');
+    width: 28px;
+    height: 28px;
+}
+
+.ico-avisos {
+    background-image: url('/ima/ico-avisos.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-blocked {
+    background-image: url('/ima/ico-blocked.svg');
+    width: 16px;
+}
+
+
+.ico-BoxStack {
+    background-image: url('/ima/ico-BoxStack.svg');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-cambios {
+    background-image: url('/ima/ico-cambios.svg');
+    width: 16px;
+    margin-top: -3px;
+}
+
+.ico-cancel {
+    background-image: url('/ima/ico-cancel.svg');
+    width: 16px;
+}
+
+.ico-cerrarSesion {
+    background-image: url('/ima/ico-cerrarSesion.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-clave {
+    background-image: url('/ima/ico-clave.png');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-close-gr {
+    @include btn-transp;
+    background-image: url('/ima/ico-close-gr.svg');
+    width: 10px;
+}
+
+.ico-moverow-gr {
+    @include btn-transp;
+    background-image: url('/ima/ico-moverow-gr.svg');
+    width: 10px;
+}
+
+.ico-close {
+    @include btn-transp;
+    background-image: url('/ima/ico-close.svg');
+    width: 10px;
+}
+
+.ico-chart-up {
+    background-image: url('/ima/arrow-trend-gr.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.ico-chart-down {
+    background-image: url('/ima/arrow-trend-red.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.ico-chart-equals {
+    background-image: url('/ima/arrow-trend-gr.svg');
+    width: 16px;
+    height: 16px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.ico-configuracion {
+    background-image: url('/ima/ico-configuracion.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+
+.ico-contact {
+    background-image: url('/ima/ico-contacts-gr-16p.svg');
+    background-size: 16px;
+    width: 20px;
+    height: 20px;
+}
+
+.ico-contrato {
+    background-image: url('/ima/ico-contrato.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-contrato-gr {
+    background-image: url('/ima/ico-contracts-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-image {
+    background-image: url('/ima/ico-image.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-checked {
+    background-image: url('/ima/ico-checked.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-cambio-viejo {
+    background-image: url('/ima/ico-cambiosViejo.svg');
+    width: 16px;
+    height: 16px;
+}
+
+
+.ico-cambio-nuevo {
+    background-image: url('/ima/ico-cambiosNuevo.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.ico-company-grid {
+    background-image: url('/ima/ico-company-gr.svg');
+    background-size: 16px;
+    height: 16px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-damaged {
+    background-image: url('/ima/ico-damaged.svg');
+    width: 16px;
+}
+
+.ico-desarrolladorAdmin {
+    background-image: url('/ima/ico-desarrolladorAdmin.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+    left: .5rem;
+}
+
+.ico-desarrolladorSuper {
+    background-image: url('/ima/ico-desarrolladorSuper.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+    left: .5rem;
+}
+
+.ico-detalleRegistro {
+    background-image: url('/ima/ico-detalleRegistro.svg');
+    width: 22px;
+    height: 22px;
+}
+
+.ico-documentaciontracking {
+    background-image: url('/ima/ico-docsDataGrid.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.ico-documentacion-simple {
+    background-image: url('/ima/ico-docs-simple.svg');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.ico-filters-maps {
+    background-image: url("/ima/ico-filtros.svg");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+.ico-masInfoGrey {
+    background-image: url("/ima/ico-masMenu-grey.svg");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.ico-cambiostracking {
+    background-image: url('/ima/ico-cambios.svg');
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.ico-entornoDemo {
+    background-image: url('/ima/ico-entornoDemo.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.ico-menu {
+    background-image: url('/ima/ico-menu.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-menu-gr {
+    background-image: url('/ima/ico-menu-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-sites {
+    background-image: url('/ima/ico-emplazamientos.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.ico-seguimiento {
+    background-image: url('/ima/ico-estados.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.ico-favorites {
+    background-image: url('/ima/ico-favorites.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-filter {
+    background-image: url('/ima/ico-filtros.svg');
+    width: 20px;
+}
+
+
+.ico-folder {
+    background-image: url('/ima/ico-folder.svg');
+    width: 20px;
+    height: 20px;
+    background-color: white !important;
+}
+
+
+.ico-folder-gr {
+    background-image: url('/ima/ico-folder-gr.svg');
+    width: 20px;
+    height: 20px;
+    background-color: white !important;
+}
+
+.ico-nav-folder-gr {
+    background-image: url('/ima/ico-nav-folder-gr.svg');
+    width: 20px;
+    height: 20px;
+    background-color: transparent !important;
+}
+
+.ico-nav-folder-gr-16 {
+    background-image: url('/ima/ico-nav-folder-16x16-gr.svg');
+    width: 20px;
+    height: 20px;
+    background-color: transparent !important;
+}
+
+.ico-link-vertical {
+    background-image: url('/ima/ico-link-vertical.svg');
+    width: 20px;
+    height: 20px;
+    background-color: transparent !important;
+}
+
+.ico-filter-white {
+    background-image: url('/ima/ico-filter-white.svg');
+    width: 16px;
+    height: 16px;
+    background-size: 16px !important;
+}
+
+.ico-filter-16 {
+    background-image: url('/ima/ico-filter-bl-16.svg');
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.ico-geolocalizacion {
+    background-image: url('/ima/ico-location.svg');
+    width: 28px;
+    height: 28px;
+}
+
+.ico-geolocalizacion-gr {
+    background-image: url('/ima/ico-location-gr.svg');
+    width: 28px;
+    height: 28px;
+}
+
+.ico-geolocalizacion-grey {
+    background-image: url('/ima/ico-location.svg');
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.ico-gestion {
+    background-image: url('/ima/ico-gestion.svg');
+    width: 28px;
+    height: 28px;
+}
+
+.ico-GoogleMStreetVw {
+    background-image: url('/ima/ico-GoogleMStreetVw.svg');
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-listaTareas {
+    background-image: url('/ima/ico-listaTareas.svg');
+    width: 22px;
+    height: 22px;
+}
+
+.ico-lnkFile {
+    background-image: url('/ima/ico-clip.svg');
+    width: 20px;
+    height: 20px;
+}
+
+
+.ico-masInfo {
+    background-image: url('/ima/ico-masInfo.svg');
+    background-size: 20px;
+}
+
+.ico-masInfo-widget {
+    background-image: url('/ima/ico-masInfo.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent !important;
+    border-style: hidden !important;
+    border-radius: 20px;
+}
+
+.ico-movistar-map {
+    background-image: url('/ima/ico-movistar-map.svg');
+    width: 32px;
+}
+
+.ico-map-sites {
+    background-image: url('/ima/ico-entornos.svg');
+    width: 24px;
+    height: 24px;
+}
+
+
+.ico-next {
+    background-image: url('/ima/ico-moveRight.svg');
+    background-size: 10px;
+}
+
+.ico-buscar {
+    background-image: url('/ima/ico-buscar.svg');
+    background-size: 10px;
+}
+
+.ico-moveDown {
+    background-image: url('/ima/ico-moveDown.svg');
+    background-size: 10px;
+}
+
+
+
+.ico-next-w {
+    background-image: url('/ima/ico-moveright-w.svg');
+    background-size: 10px;
+}
+
+.ico-position {
+    background-image: url('/ima/ico-position-20px.svg');
+    background-size: 16px;
+}
+
+.ico-prev-w {
+    background-image: url('/ima/ico-moveright-w.svg');
+    transform: rotate(-180deg);
+    background-size: 10px;
+}
+
+.ico-notes {
+    background-image: url('/ima/ico-notes.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-notif {
+    background-image: url('/ima/ico-notifications.svg');
+    width: 22px;
+    height: 22px;
+}
+
+.ico-head-filters {
+    background-image: url('/ima/ico-filters-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+
+.ico-head-word {
+    background-image: url('/ima/ico-word.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-docs-gr {
+    background-image: url('/ima/ico-docs-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+
+.ico-head-tag-gr {
+    background-image: url('/ima/ico-tag-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-columns-gr {
+    background-image: url('/ima/ico-columns-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-my-filters {
+    background-image: url('/ima/ico-Myfilters-gr.svg');
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+}
+
+.ico-head-my-filtersB {
+    background-image: url('/ima/ico-Myfilters.svg');
+    width: 20px;
+    height: 20px;
+}
+
+
+.ico-head-elementos {
+    background-image: url('/ima/ico-elementos-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-cog-gr {
+    background-image: url('/ima/ico-cog-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-clip-gr {
+    background-image: url('/ima/ico-clip-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-Notif {
+    background-image: url('/ima/ico-notifications-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-info {
+    background-image: url('/ima/ico-info-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-Note {
+    background-image: url('/ima/ico-notes-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-search {
+    background-image: url('/ima/ico-buscar-gr.svg');
+    width: 20px !important;
+    height: 20px;
+}
+
+.ico-head-site {
+    background-image: url('/ima/ico-location-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-users {
+    background-image: url('/ima/ico-contacts-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-reloj-gr {
+    background-image: url('/ima/ico-reloj-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-direcciones {
+    background-image: url('/ima/ico-direcciones.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-direcciones-gr {
+    background-image: url('/ima/ico-direcciones-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-inventaryElement-gr {
+    background-image: url('/ima/ico-InventoryElement-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-torre-gr {
+    background-image: url('/ima/ico-operators-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-additional-gr {
+    background-image: url('/ima/ico-attachedDoc-20px-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-onAir {
+    background-image: url('/ima/ico-onAir.svg');
+    width: 16px;
+}
+
+.ico-operator-grid {
+    background-image: url('/ima/ico-operator-gr.svg');
+    background-size: 16px;
+    height: 16px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-owner-grid {
+    background-image: url('/ima/ico-owner-gr.svg');
+    background-size: 16px;
+    height: 16px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-prev {
+    background-image: url('/ima/ico-moveLeft.svg');
+    background-size: 10px;
+}
+
+.icoprefix {
+    background-image: url(/ima/ico-prefix.svg);
+    background-position: center center !important;
+    background-size: 41px !important;
+    width: 55px !important;
+    transition: .3s ease-in;
+}
+
+
+.icoprefix.x-form-trigger-click {
+    background-image: url(/ima/ico-prefix-focus.svg) !important;
+}
+
+
+.ico-Piechart {
+    background-image: url('/ima/ico-Piechart.svg');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-sharing {
+    background-image: url('/ima/ico-sharing.svg');
+    background-size: 16px;
+}
+
+.ico-soporte {
+    background-image: url('/ima/ico-soporte.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+
+
+.ico-showFlow {
+    background-image: url('/ima/ico-showWorkflow.svg');
+    width: 20px;
+    height: 20px;
+    top: .45rem;
+}
+
+.ico-supplier-grid {
+    background-image: url('/ima/ico-supplier-gr.svg');
+    background-size: 16px;
+    height: 16px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-tic-wh {
+    background-image: url('/ima/ico-tic-wh.svg');
+    background-size: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico-formview-mandatory {
+    background-image: url('/ima/ico-formview-mandatory.svg');
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: top;
+    align-self: flex-start !important;
+}
+
+.ico-tipoFile {
+    background-image: url('/ima/ico-tipoDocumento.svg');
+    width: 16px;
+}
+
+.ico-towers {
+    background-image: url('/ima/ico-towers.svg');
+    background-size: 16px;
+}
+
+.ico-energy-16 {
+    background-image: url('/ima/ico-energy-16px.svg');
+    background-size: 16px;
+}
+
+.ico-indoor-16 {
+    background-image: url('/ima/ico-indoor-16px.svg');
+    background-size: 16px;
+}
+
+.ico-saving-16 {
+    background-image: url('/ima/ico-saving-16px.svg');
+    background-size: 16px;
+}
+
+.ico-status-16 {
+    background-image: url('/ima/ico-status.svg');
+    background-size: 16px;
+}
+
+.ico-sharing-16 {
+    background-image: url('/ima/ico-sharing-16px.svg');
+    background-size: 16px;
+}
+
+.ico-legal-16 {
+    background-image: url('/ima/ico-legal-16px.svg');
+    background-size: 16px;
+}
+
+.btn-CFilter {
+    background-image: url('/ima/btn-CFilter-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btn-columns-gr {
+    background-image: url('/ima/ico-columns-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btn-QuickFilters {
+    background-image: url('/ima/ico-quickfilters.svg');
+    width: 20px;
+    height: 20px;
+}
+
+
+.btn-MapFilterGr {
+    background-image: url('/ima/ico-filtros-mapas-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btn-MFilter {
+    background-image: url('/ima/btn-MFilter-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btn-add-plus-gr {
+    background-image: url('/ima/btn-add-plus-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-CntxMenuExcel {
+    background-image: url('/ima/ico-excelF.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-CntxMenuReinversion {
+    background-image: url('/ima/ico-reinversion.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-CntxMenuReinversion-Merge {
+    background-image: url('/ima/ico-reinversion-merge.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-DescargarTodo {
+    background-image: url('/ima/ico-descargar-todo.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-CntxPaginaDoc {
+    background-image: url('/ima/ico-paginadoc.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-CntxMenuExcelBasic {
+    background-image: url('/ima/ico-excel.svg');
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.ico-CntxMenuEstados {
+    background-image: url('/ima/ico-states.svg');
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.ico-gotoPage {
+    background-image: url('/ima/ico-gotopage.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.ico-CntxMenuFileUp {
+    background-image: url('/ima/ico-file-up.svg');
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+
+.ico-CntxMenuFileDown {
+    background-image: url('/ima/ico-file-down.svg');
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.ico-CntxMenuTraffic {
+    background-image: url('/ima/ico-transmit.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-CntxMenuImposLegal {
+    background-image: url('/ima/ico-noDoc.svg');
+    width: 26px;
+    height: 26px;
+}
+
+
+.ico-CntxMenuAddInfoExcel {
+    background-image: url('/ima/ico-addInfo.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.ico-compartir-tabla {
+    width: 10px;
+    height: 10px;
+    background-image: url(/ima/ico-link-gr.svg) !important;
+    background-size: 10px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.4s ease-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    &:hover {
+        //background-color: $Gris1;
+        border-color: $Gris1;
+        background-image: url(/ima/ico-link.svg) !important;
+    }
+
+    &.x-btn-default-toolbar-small {
+        border-color: transparent;
+    }
+
+    &.x-btn.x-btn-disabled.x-btn-default-toolbar-small {
+        background-image: url(/ima/ico-link.svg) !important;
+    }
+}
+
+.ico-add-tabla {
+    width: 10px;
+    height: 10px;
+    background-image: url(/ima/ico-operator-plus.svg) !important;
+    background-size: 10px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.4s ease-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5px 0;
+
+    &:hover {
+        border-color: $Gris1;
+        background-image: url(/ima/ico-plus-green.svg) !important;
+    }
+
+    &.x-btn-default-toolbar-small {
+        border-color: transparent;
+    }
+
+    &.x-btn.x-btn-disabled.x-btn-default-toolbar-small {
+        background-image: url(/ima/ico-operator-plus.svg) !important;
+    }
+}
+
+
+.ico-eliminar-tabla {
+    display: none;
+    width: 12px;
+    height: 12px;
+    background-image: url(/ima/ico-trash.svg) !important;
+    background-size: 12px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.4s ease-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+
+    &:hover {
+        border-color: $Gris1;
+        background-image: url(/ima/ico-trash-red.svg) !important;
+    }
+
+    &.x-btn-default-toolbar-small {
+        border-color: transparent;
+    }
+
+    &.x-btn.x-btn-disabled.x-btn-default-toolbar-small {
+        background-image: url(/ima/ico-link.svg) !important;
+    }
+}
+
+.ico-eliminar-atributo {
+    width: 15px;
+    height: 15px;
+    background-image: url(/ima/ico-close-16.svg) !important;
+    background-size: 15px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.4s ease-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+
+    &:hover {
+        border-color: $Gris1;
+        background-image: url(/ima/ico-x-16-red.svg) !important;
+    }
+
+    &.x-btn-default-toolbar-small {
+        border-color: transparent;
+    }
+
+    &.x-btn.x-btn-disabled.x-btn-default-toolbar-small {
+        background-image: url(/ima/ico-close-16.svg) !important;
+    }
+}
+
+.ico-editar-atributo {
+    width: 15px;
+    height: 15px;
+    background-image: url(/ima/ico-editar.svg) !important;
+    background-size: 15px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.4s ease-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+
+    &:hover {
+        border-color: $Gris1;
+    }
+
+    &.x-btn-default-toolbar-small {
+        border-color: transparent;
+    }
+}
+
+.ico-expandOption {
+    width: 10px;
+    height: 10px;
+    background-image: url(/ima/Ico-expandOptions-10px.svg) !important;
+    background-size: 10px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.4s ease-out;
+    background-position: top right;
+    background-repeat: no-repeat;
+
+    &:hover {
+        background-image: url(/ima/Ico-expandOptions-gr-10px.svg) !important;
+    }
+
+    &:active {
+        background-image: url(/ima/Ico-expandOptions-gr-10px.svg) !important;
+    }
+}
+
+.ico-menu-atributo {
+    width: 15px;
+    height: 15px;
+    background-image: url(/ima/ico-menu.svg) !important;
+    background-size: 15px;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.4s ease-out;
+    background-position: top right;
+    background-repeat: no-repeat;
+
+    &:hover {
+        background-image: url(/ima/ico-menu-gr.svg) !important;
+    }
+
+    &:active {
+        background-image: url(/ima/ico-menu.svg) !important;
+    }
+}
+
+.ico-info-dark {
+    @include iconoMenuPpal('/ima/ico-info-dark.svg');
+    width: 20px;
+    height: 20px;
+    top: 7px;
+}
+/*#endregion */
+
+/*#region ICONOS ASIDER */
+.btnAlertas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-notificaciones.svg');
+}
+
+.btnFiltrosMapas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-filtros-mapas.svg');
+}
+
+
+
+.btnAlertas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-notificaciones.svg');
+}
+
+.btnActivos-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-activos.svg');
+}
+
+.location-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-location.svg');
+}
+
+.gear-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-tipos-de-gestion.svg');
+}
+
+
+.btnCandidatos-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-candidatos.svg');
+}
+
+.btnClose {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-close.svg');
+    height: 10px !important;
+    width: 10px !important;
+    opacity: .7;
+}
+
+
+.btnMyFilters-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-Myfilters.svg');
+}
+
+.btn-columns-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-columns.svg');
+}
+
+
+.btnquickFilters-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-quickfiltersGrey.svg');
+}
+
+.btnClip-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-clip.svg');
+}
+
+.btnFiltersPlus-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-Myfilters-Plus.svg');
+}
+
+.btnHistorial-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-historial.svg');
+}
+
+.btnAtributosCog-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-cog.svg');
+}
+
+
+.btnElementos-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-elementos.svg');
+}
+
+.btnAlertas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-notificaciones.svg');
+}
+
+.btnBancos-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-banks-20px.svg');
+}
+
+.btnBancos-asR-gr {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-banks-20px-green.svg');
+}
+
+.btnGeneralInfo-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-request-info.svg');
+}
+
+.btnGeneralInfo-asR-gr {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-request-info-green.svg');
+}
+
+.btnPagos-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-payments-20px.svg');
+}
+
+.btnPagos-asR-gr {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-payments-20px-green.svg');
+}
+
+.btnInfo-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-info-dark.svg');
+}
+
+.btnInfo-asR-gr {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-info-gr.svg');
+}
+
+.btnInventaryElement-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-InventoryElement-20px.svg');
+}
+
+.btnContratas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-contratas.svg');
+}
+
+.btnCompany-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-company.svg');
+}
+
+.btnDocs-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-docs.svg');
+}
+
+.btnDirecciones-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-direcciones.svg');
+}
+
+.btnDirecciones-asR-gr {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-direcciones-gr.svg');
+}
+
+.btnHistory-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-historial.svg');
+}
+
+.btnInfraestructuras-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-infraestructuras.svg');
+}
+
+.btnMetadata-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-tag.svg');
+}
+
+.btnNotas-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-notes.svg');
+}
+
+.btnOwner-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-owner.svg');
+}
+
+.btnExport-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/btn_download_grid.svg');
+}
+
+.btntime-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-time-20px.svg');
+}
+
+.btnsemaforo-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-semaforo.svg');
+}
+
+.btntask-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-task-20px.svg');
+}
+
+.btncalendar-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/btn_calendar_grid.svg');
+}
+
+.btnExportgreen-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/btn_download_green.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnImportgreen-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/btn_download_green.svg');
+    transform: rotate(180deg);
+    width: 20px;
+    height: 20px;
+}
+
+.btnImport-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/btn_download_grid.svg');
+    transform: rotate(180deg);
+}
+
+.btnDataGreen {
+    background-image: url('/ima/ico-data-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnHistorygreen {
+    background-image: url('/ima/btn_history_green.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnkpigreen {
+    background-image: url('/ima/ico-kpi-green.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btntimegreen {
+    background-image: url('/ima/ico-time-green.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnsemaforogreen {
+    background-image: url('/ima/ico-semaforo-green.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnreset16 {
+    background-image: url('/ima/ico-reset-16p.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.btnnodoc16 {
+    background-image: url('/ima/ico-noDoc-16p.svg');
+    width: 16px;
+    height: 16px;
+}
+
+.btninventory20 {
+    background-image: url('/ima/ico-inventory-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btndocs20 {
+    background-image: url('/ima/ico_docs_20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnformViewMandatory {
+    background-image: url('/ima/ico-formView-mandatory.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btndocs16 {
+    background-image: url('/ima/ico-docs-16px.svg');
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+}
+
+.btnfolder16 {
+    background-image: url('/ima/ico-folder-16x16.svg');
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+}
+
+.btnimportexport20 {
+    background-image: url('/ima/ico-importexport-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnCFilter-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/btn-CFilter.svg');
+}
+
+.btnFilters-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-filtros.svg');
+}
+
+.btnMFilter-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/btn-MFilter.svg');
+}
+
+.btn-cleanBox {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-cleanBox.svg') !important;
+    width: 10px;
+    height: 10px;
+}
+
+.btnMasInfo {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-masInfo.svg') !important;
+    background-size: 20px;
+    width: 20px;
+}
+
+
+.btn-closePn {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-closePn-bl.svg') !important;
+}
+
+.btnGeo {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-location.svg') !important;
+    background-size: 20px;
+    width: 20px;
+}
+
+.ico-filters-16px {
+    background-image: url('/ima/ico-filters-16px.svg') !important;
+    background-size: 16px;
+    width: 16px;
+    margin-top: 1px;
+}
+
+.ico-user-16px {
+    background-image: url('/ima/ico-lock-16px.svg') !important;
+    width: 16px;
+    height: 16px;
+    margin-top: -6px;
+}
+
+.ico-lock-16px {
+    background-image: url('/ima/ico-user-16px.svg') !important;
+    width: 16px;
+    height: 16px;
+    margin-top: -6px;
+}
+
+.btnEstado-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-states.svg');
+}
+
+.btnEstadoGlobal-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-globalStates-20px.svg');
+}
+
+.btnEstadoSiguiente-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-nextState-20px.svg');
+}
+
+.btnSubprocess-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-subprocess.svg');
+}
+
+.btnCompartir-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-clip-20px.svg');
+}
+
+.btnRoles-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-escritura.svg');
+}
+
+.btnRolesLectura-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-lectura.svg');
+}
+
+.btnDocsInfo-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-docs-20px.svg');
+}
+
+.btnDocument-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-document.svg');
+}
+
+.btnNotificaciones-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-mail-20px.svg');
+}
+
+.btnTorre-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-operators.svg');
+}
+
+.btnAdditional-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-attachedDoc-20px.svg');
+}
+
+.btnContacto-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-contactos.svg');
+}
+
+.btnServie-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-servicios.svg');
+}
+
+.btnCatalog-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-catalog-20px.svg');
+}
+
+.btnPrice-asR {
+    @include bgBtn-ico;
+    @include btn-mnAsideR('/ima/ico-price-20px.svg');
+}
+
+.btnPublicoPrivado {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-privado.svg') !important;
+    background-size: 20px;
+    width: 20px;
+    transition: all 0.2s;
+}
+
+.btnPublicoPrivado.x-btn-pressed {
+    background-image: url('/ima/ico-public.svg') !important;
+}
+
+.btnPublicoPrivadoHTML {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-privado.svg') !important;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    transition: all 0.2s;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.btnPublicoPrivadoHTML[publico='true'] {
+    background-image: url('/ima/ico-public.svg') !important;
+}
+
+.ico-estado-info {
+    background-image: url('/ima/ico-states-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-estadosGlobales-info {
+    background-image: url('/ima/ico-globalStates-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-subprocess-info {
+    background-image: url('/ima/ico-subprocess-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-estadoSiguiente-info {
+    background-image: url('/ima/ico-nextState-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-link-info {
+    background-image: url('/ima/ico-clip-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-Docs-info {
+    background-image: url('/ima/ico-docs-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-Rol-info {
+    background-image: url('/ima/ico-role-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-RolLectura-info {
+    background-image: url('/ima/ico-lectura.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-RolEscritura-info {
+    background-image: url('/ima/ico-escritura.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-Notificaciones-info {
+    background-image: url('/ima/ico-mail-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-service {
+    background-image: url('/ima/ico-services-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-catalog {
+    background-image: url('/ima/ico-catalog-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-company {
+    background-image: url('/ima/ico-company-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-owner {
+    background-image: url('/ima/ico-owner-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-operator {
+    background-image: url('/ima/ico-operator-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-supplier {
+    background-image: url('/ima/ico-supplier-gr.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.ico-head-price {
+    background-image: url('/ima/ico-price-gr-20px.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.btnSeccion {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-section-20px.svg');
+}
+
+.btnSubcategoria {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-SectionNoValue-20px.svg');
+}
+
+.btnSubcategoriaPlantilla {
+    @include bgBtn-ico;
+    @include btn-toolBar('/ima/ico-templateValue-20px.svg');
+}
+
+.ico-seccion {
+    background-image: url('/ima/ico-section-20px.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+}
+
+.ico-subcategoria {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-image: url('/ima/ico-SectionNoValue-20px.svg');
+}
+
+.ico-subcategoriaplantilla {
+    background-image: url('/ima/ico-templateValue-20px.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+}
+
+.ico-seccion-gr {
+    background-image: url('/ima/ico-section-gr-20px.svg');
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+}
+
+.ico-subcategoria-gr {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    background-image: url('/ima/ico-SectionNoValue-gr-20px.svg');
+}
+
+.ico-subcategoriaplantilla-gr {
+    background-image: url('/ima/ico-templateValue-gr-20px.svg');
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+}
+
+.ico-folder-grid-gr {
+    background-image: url('/ima/ico-folder-gr.svg');
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ico-folder-grid {
+    background-image: url('/ima/ico-folder.svg');
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*#endregion */
+
+.txtLblColorPicker {
+    color: #6a6b75;
+    font: 500 12px/14px "Roboto",sans-serif;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.gen_folder {
+    color: #06A086 !important;
+    background-image: url("/ima/ico-folder.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 2px;
+    min-width: 25px !important;
+}
+
+.gen_column {
+    color: #06A086 !important;
+    background-image: url("/ima/ico-detalleRegistro.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 2px;
+    min-width: 25px !important;
+}
+
+/*#region NEW ICONOS GRID*/
+
+.gen_isOwner {
+    color: $colPpal !important;
+    background-image: url( '/ima/Owner-small.svg' );
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 25px !important;
+    box-shadow: 5px 5px 11px rgba(33,33,33,.2);
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.gen_isSupplier {
+    color: $colPpal !important;
+    background-image: url("/ima/Supplier-small.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 25px !important;
+    box-shadow: 5px 5px 11px rgba(33,33,33,.2);
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.gen_isCustomer {
+    color: $colPpal !important;
+    background-image: url("/ima/Customer-small.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 25px !important;
+    box-shadow: 5px 5px 11px rgba(33,33,33,.2);
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.gen_Payee {
+    color: $colPpal !important;
+    background-image: url("/ima/Payee-small.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 25px !important;
+    box-shadow: 5px 5px 11px rgba(33,33,33,.2);
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.ico-iconPhone {
+    background-image: url("/ima/phone-handset-line.svg");
+}
+.ico-Email {
+    background-image: url("/ima/ico-mail-20px.svg");
+}
+.ico-LinkedPaymentMethodCode {
+    background-image: url("/ima/ico-billing-20px.svg");
+}
+.ico-TaxIdentificationNumberCategoryCode {
+    background-image: url("/ima/ico-taxes-20px.svg");
+}
+.ico-location {
+    background-image: url("/ima/ico-location.svg");
+}
+.ico-PaymentTermCode {
+    background-image: url("/ima/ico-billLines-20px.svg");
+}
+/*#endregion*/

@@ -1,0 +1,516 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+@include layoutRes(100%, 50%, 20%, 80%, 20%, 80%);
+
+#btnCollapseAsR {
+    background-image: url('../../../ima/ico-moveRight.svg') !important;
+}
+
+@media (min-width:480px) {
+
+    #ctBtnSldr {
+        display: none !important;
+    }
+}
+
+@media (max-width:670px) {
+
+    .btnCategory {
+        .x-btn-inner.x-btn-inner-default-toolbar-small {
+            font-size: 1.8vh;
+            font-weight: bold;
+        }
+    }
+
+    .mainContainer {
+        width: 210px !important;
+        height: 75px !important;
+    }
+
+    /*  .btnMoreAligned {
+        margin-right: -3% !important;
+    }*/
+
+    .txtContainerCategorias {
+        width: 80% !important;
+    }
+
+    .positionFirstButton {
+        margin-top: 9px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* .btnMoreAligned {
+        margin-right: % !important;
+    }*/
+
+    .sideButtons {
+        width: 20px !important;
+        margin-top: -6px !important;
+    }
+
+    .positionFirstButton {
+        margin-top: 5px !important;
+    }
+}
+
+
+/* estilos Panel  */
+.gridPanelInventario {
+    border-radius: 3px;
+    border: 1px solid $Gris2;
+    width: 75% !important;
+
+    .x-panel-default-outer-border-trl, .x-panel-default-outer-border-rl, .x-panel-default-outer-border-rbl {
+        //border: none !important;
+    }
+
+    .x-panel-default-outer-border-trl {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .x-panel-default-outer-border-rl {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .x-panel-default-outer-border-rbl {
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .x-title-text {
+        font-family: $font-ppal;
+        font-size: 15px;
+        font-weight: 500;
+        color: $blanco;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .x-panel-header-default {
+        background-image: none;
+        background-color: $colPpal;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border: 1px solid $AzulNegro;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 5px 30px;
+    }
+
+    .x-panel-header-title-default {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .x-grid-header-ct {
+        border: 1px solid $Gris1;
+    }
+}
+
+.toolbarHacked {
+    background-color: white !important;
+}
+
+#CategoryBtn {
+    margin-right: 23px;
+    color: white !important;
+}
+
+.btnArrow {
+    border: none !important;
+    width: 13px !important;
+}
+
+#CategoryBtn-btnInnerEl, #attributeText-btnInnerEl {
+    color: $blanco !important;
+    font-weight: bold;
+}
+
+.btnAdd {
+    max-width: 4rem;
+    justify-self: end;
+}
+
+#btnAdd {
+    float: right;
+    padding-right: .5rem;
+}
+
+#containerAttributes.x-fieldset {
+    border: none !important;
+    border-radius: 5px;
+
+    .x-toolbar-default {
+        padding: 6px 0 6px 8px;
+        border-style: solid;
+        border-color: #d0d0d0;
+        border-width: 1px;
+        background-image: none;
+        background-color: #f6f6f6 !important;
+    }
+}
+
+#pnConfigurador-innerCt {
+    padding: 1rem;
+}
+
+.menuWidth {
+    width: 180px !important;
+    height: auto !important;
+}
+
+.menuWidthV2 {
+    width: 182px !important;
+    height: 200px !important;
+    background-color: white;
+}
+
+.btnText {
+    background-color: $blanco !important;
+    left: 0px !important;
+    border: none !important;
+    width: 180px;
+
+    .x-btn-inner-default-small {
+        color: #06A086 !important;
+        font-size: 12px !important;
+        border: none !important;
+        font-weight: bold;
+    }
+}
+
+.btnTextV2 {
+    @include btn-transp;
+    background-color: $blanco !important;
+    left: -12px !important;
+    border: none !important;
+    /*width: 180px;*/
+    .x-btn-inner-default-small {
+        color: $Negro !important;
+        font-size: 12px !important;
+        border: none !important;
+        margin-right: -6px;
+        /*font-weight: bold;*/
+    }
+
+    .x-btn-text.x-btn-icon-left > .x-btn-icon-el-default-small {
+        margin-right: 12px;
+    }
+}
+
+.x-label.labelContent.x-box-item.x-label-default.x-menu-item-cmp.x-menu-item-cmp-default.x-menu-item-indent-default {
+    width: auto !important;
+    margin-top: 5px;
+    left: 16px !important;
+    color: #06A086 !important;
+    font-weight: bold;
+}
+
+.borderTop {
+    border-top: 0.5px solid $Gris1;
+    left: -20px !important;
+}
+
+.btnCategory {
+    border: none;
+
+    .x-btn-inner.x-btn-inner-default-toolbar-small {
+        font-size: 1.5vh;
+        font-weight: bold;
+    }
+}
+
+#btnCategory {
+    color: $blanco !important;
+}
+
+#flexContainer-innerCt {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(206px, 1fr));
+    justify-content: stretch !important;
+    grid-column-gap: 5rem;
+}
+
+.headerContainerFlex {
+    .x-autocontainer-innerCt {
+        display: flex;
+        justify-content: space-between !important;
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .x-autocontainer-innerCt:nth-child(1), .x-autocontainer-innerCt:nth-child(2) {
+        flex: 1 0 20%;
+    }
+}
+
+#containerRestrictions {
+    margin-top: 80px !important;
+}
+
+.recuadroBordes {
+    border: 2px solid $Gris2 !important;
+    padding: 0px 0px 2px 6px;
+    margin-top: 10px !important;
+    height: 37px !important;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 0px solid $Gris2;
+}
+
+.headerAligned {
+    margin-left: 10px;
+}
+
+.headerAlignedV2 {
+    margin-left: 10px;
+    font-weight: bold;
+    color: $Gris4;
+}
+
+.btnMoreAligned {
+    @include btn-transp;
+    margin-right: -4% !important;
+    /*  border: none !important;
+    width: 10px !important;
+    background-color: #F6F6F6 !important;
+    margin-top: -6px;*/
+}
+
+.flexItems {
+    .x-autocontainer-innerCt:first-child {
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+}
+
+.txtContainerCategorias {
+    width: 90% !important;
+}
+
+.sideButtons {
+    width: 20px !important;
+    margin-top: -4px !important;
+}
+
+.positionFirstButton {
+    @include btn-transp;
+    width: 5px !important;
+    height: 20px !important;
+    border: none !important;
+    transform: rotate(90deg);
+    margin-left: 6px !important;
+    outline: none !important;
+}
+
+.positionSecondButton {
+    @include btn-transp;
+    width: 5px !important;
+    height: 20px !important;
+    border: none !important;
+    transform: rotate(-90deg);
+    margin-top: 20px !important;
+    margin-left: -22px !important;
+    outline: none;
+}
+
+.containerGrid {
+    .x-autocontainer-innerCt {
+        box-sizing: border-box !important;
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-content: stretch;
+        grid-column-gap: 4rem;
+        align-content: center !important;
+    }
+}
+
+.headerGrey {
+    .x-toolbar-footer {
+        background-color: $Gris1Fondo !important;
+        padding: 0px 0 20px 0px;
+
+        .x-btn.btn-accept.x-unselectable.x-box-item.x-toolbar-item.x-btn-default-small {
+            margin-right: 25px !important;
+        }
+    }
+
+    .containerGrid {
+        padding: 1.5em !important;
+    }
+}
+
+.gridPanelSize {
+    /*background-color: $blanco !important;*/
+    z-index: 2;
+    border: 0.5px solid $Gris1;
+
+    .x-grid-item-alt {
+        /*background-color: $blanco !important;*/
+    }
+
+    .x-grid-item-alt:nth-child(even) {
+        background-color: $blanco !important;
+    }
+
+    .x-grid-item-alt:hover {
+        background-color: #eaeff4 !important;
+    }
+
+    .x-grid-item-selected:nth-child(even) {
+        background: #ffefbb !important;
+    }
+
+    .x-btn-default-toolbar-small {
+        border: none !important;
+    }
+
+    .x-grid-body {
+        border-top: 0.5px solid $Gris1;
+    }
+
+    .x-grid-cell-first.x-grid-item-focused {
+        border: none !important;
+    }
+}
+
+#btnAligned {
+    @include btn-transp;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+
+    .x-btn-inner-default-toolbar-small {
+        color: $colPpal !important;
+        font-weight: bold;
+        margin-right: 64px;
+    }
+}
+
+.btnAligned {
+    /*! border-color: transparent !important; */
+    background-color: transparent !important;
+    box-shadow: transparent 0 1px 0 inset !important;
+    /*width: 100% !important;*/
+    display: flex !important;
+    justify-content: flex-start !important;
+    text-align: center !important;
+    margin-left: -5px !important;
+}
+
+.btnAligned.x-btn-default-small {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.btnAligned:hover {
+    background-color: #c3c3c3;
+}
+
+.btnAligned .x-btn-inner-default-toolbar-small {
+    color: #06A086 !important;
+    font-weight: bold;
+    margin-right: 64px;
+}
+
+
+
+.toolBarInventario {
+    border-style: none !important;
+    border-top: 1px solid $Gris1 !important;
+}
+
+#searchElement {
+    width: 95% !important;
+}
+
+#toolbarButtons {
+    width: 100% !important;
+}
+
+#comboResponsive {
+    width: 100%;
+}
+
+#btnToolbar {
+    margin-left: 12px !important;
+}
+
+#btnToolbarRight {
+    margin-left: -21px !important;
+}
+
+#toolbarConditions {
+    background-color: #F6F6F6 !important;
+}
+
+#flexContainerCheck-innerCt {
+    margin-top: 30px !important;
+
+    #chkBoxPrimero {
+        .x-form-cb-wrap-default {
+            height: 32px;
+            min-width: 18px;
+            left: 66px !important;
+            position: absolute;
+        }
+    }
+
+    #chkBoxSegundo {
+        .x-form-cb-wrap-default {
+            height: 32px;
+            min-width: 18px;
+            left: 180px !important;
+            position: absolute;
+        }
+    }
+
+    grid-template-columns: 50px 50px;
+}
+
+// toolbar bottom color default
+#toolbarColorDefault.x-toolbar.x-docked.x-toolbar-default.x-docked-bottom.x-toolbar-docked-bottom.x-toolbar-default-docked-bottom.x-box-layout-ct.x-noborder-rbl {
+    padding: 6px 0 6px 8px;
+    border-style: solid;
+    border-color: #d0d0d0;
+    border-width: 1px;
+    background-image: none;
+    background-color: #f6f6f6;
+}
+
+#btnSaveElement {
+    background-color: $colPpal !important;
+}
+
+#btnSaveElement:hover {
+    background-color: $Verde3 !important;
+}
+
+.x-grid-with-row-lines .x-grid-item.x-grid-item-selected {
+    border-style: solid;
+    border-color: $blanco;
+}
+
+.x-grid-cell-inner:before {
+    border-style: none !important;
+}
+
+.x-grid-with-row-lines .x-grid-item-selected + .x-grid-item {
+    border-top-style: solid;
+    border-top-color: $Gris1;
+}
+
+.x-grid-item-selected {
+    border: 0.5px solid $Gris1 !important;
+    cursor: pointer;
+}
+/* Fin estilos Panel  */

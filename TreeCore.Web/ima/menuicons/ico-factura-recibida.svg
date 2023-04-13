@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.06" height="20" viewBox="0 0 20.06 20">
+  <g id="ico-factura-recibida" transform="translate(0.06)">
+    <rect id="Rectángulo_199" data-name="Rectángulo 199" width="20" height="20" fill="none"/>
+    <path id="Trazado_44" data-name="Trazado 44" d="M153.607,602.332l-9.8.029V605s.16,1.718-1.2,1.607" transform="translate(-136.237 -587.583)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_45" data-name="Trazado 45" d="M141.666,589.505s-.029-3.4,0-3.432c0-1.486-1.045-2.687-2.387-1.8" transform="translate(-137.889 -582.915)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_285" data-name="Línea 285" x2="3" transform="translate(6 8)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_1096" data-name="Trazado 1096" d="M0,0H5" transform="translate(6 11)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <g id="Elipse_171" data-name="Elipse 171" transform="translate(9 1)" fill="none" stroke="#666" stroke-width="1.5">
+      <circle cx="5.391" cy="5.391" r="5.391" stroke="none"/>
+      <circle cx="5.391" cy="5.391" r="4.641" fill="none"/>
+    </g>
+    <path id="Trazado_1324" data-name="Trazado 1324" d="M-970.186,317.141v4.6h2.345s.009.947,0,2.654-1.576,1.634-2.345,1.634c-.009-.006-7.4-.1-10.3,0a2.42,2.42,0,0,1-2.745-2.575V313.269H-986.3v-3.522s-.222-1.927,2.777-1.927h11.845s1.545.311,1.492,1.1" transform="translate(987 -307)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_1325" data-name="Trazado 1325" d="M1783,223.552v3.133" transform="translate(-1768.609 -219.268)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Trazado_1326" data-name="Trazado 1326" d="M1782.532,227.542l-1.317,1.269-1.222-1.269" transform="translate(-1766.871 -220.959)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

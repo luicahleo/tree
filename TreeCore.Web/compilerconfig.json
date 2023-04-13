@@ -1,0 +1,94 @@
+﻿[
+  {
+    "outputFile": "Componentes/css/windowModalForm.css",
+    "inputFile": "Componentes/css/windowModalForm.scss"
+  },
+  {
+    "outputFile": "Componentes/css/toolbarFiltros1Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros1Combo.scss"
+  },
+  {
+    "outputFile": "Componentes/css/styleMenu.css",
+    "inputFile": "Componentes/css/styleMenu.scss"
+  },
+  {
+    "outputFile": "Componentes/css/GridEmplazamientos.css",
+    "inputFile": "Componentes/css/GridEmplazamientos.scss"
+  },
+  {
+    "outputFile": "Componentes/css/Header.css",
+    "inputFile": "Componentes/css/Header.scss"
+  },
+  {
+    "outputFile": "Componentes/css/toolbarFiltros2Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros2Combo.scss"
+  },
+  {
+    "outputFile": "Componentes/css/toolbarFiltros4Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros4Combo.scss"
+  },
+  {
+    "outputFile": "Componentes/css/toolbarFiltros3Combo.css",
+    "inputFile": "Componentes/css/toolbarFiltros3Combo.scss"
+  },
+  {
+    "outputFile": "Componentes/css/FormEmplazamientos.css",
+    "inputFile": "Componentes/css/FormEmplazamientos.scss"
+  },
+  {
+    "outputFile": "Componentes/css/FormContactos.css",
+    "inputFile": "Componentes/css/FormContactos.scss"
+  },
+  {
+    "outputFile": "Componentes/css/geoposicion.css",
+    "inputFile": "Componentes/css/geoposicion.scss"
+  },
+  {
+    "outputFile": "CSS/icons.css",
+    "inputFile": "CSS/icons.scss"
+  },
+  {
+    "outputFile": "CSS/PlantillaGenericStyles.css",
+    "inputFile": "CSS/PlantillaGenericStyles.scss"
+  },
+  {
+    "outputFile": "CSS/formularios.css",
+    "inputFile": "CSS/formularios.scss"
+  },
+  {
+    "outputFile": "CSS/tCore.css",
+    "inputFile": "CSS/tCore.scss"
+  },
+  {
+    "outputFile": "Modulos/Settings/css/stylePerfiles.css",
+    "inputFile": "Modulos/Settings/css/stylePerfiles.scss"
+  },
+  {
+    "outputFile": "Modulos/ThirdParty/css/ThirdParty.css",
+    "inputFile": "Modulos/ThirdParty/css/ThirdParty.scss"
+  },
+  {
+    "outputFile": "CSS/HomeStyle.css",
+    "inputFile": "CSS/HomeStyle.scss"
+  },
+  {
+    "outputFile": "Modulos/ImportExport/css/styleDataUpload.css",
+    "inputFile": "Modulos/ImportExport/css/styleDataUpload.scss"
+  },
+  {
+    "outputFile": "Modulos/Contracts/css/styleContratos.css",
+    "inputFile": "Modulos/Contracts/css/styleContratos.scss"
+  },
+  {
+    "outputFile": "CSS/mainStyle.css",
+    "inputFile": "CSS/mainStyle.scss"
+  },
+  {
+    "outputFile": "Modulos/Contacts/css/styleContactos.css",
+    "inputFile": "Modulos/Contacts/css/styleContactos.scss"
+  },
+  {
+    "outputFile": "Modulos/WorkOrder/css/styleFormularioWorkFlow.css",
+    "inputFile": "Modulos/WorkOrder/css/styleFormularioWorkFlow.scss"
+  }
+]

@@ -1,0 +1,21 @@
+<svg id="ico-servicios-tree" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_3" data-name="Trazado 3" d="M0-96.833H14.413v8.648H0Z" transform="translate(0 96.833)" fill="none" stroke="#666" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1889" data-name="Grupo 1889" transform="translate(4.386 7.245)">
+    <g id="Grupo_3" data-name="Grupo 3" transform="translate(-1.592 -1.569)" clip-path="url(#clip-path)">
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(5.965 0.747)">
+        <path id="Trazado_1" data-name="Trazado 1" d="M0-89.717V-93.06a3.75,3.75,0,0,1,3.808-3.773A3.661,3.661,0,0,1,7.676-93.49a3.422,3.422,0,0,1-3.638,3.773Z" transform="translate(0 96.833)" fill="none" stroke="#666" stroke-width="1.4"/>
+      </g>
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(0.78 3.278)">
+        <path id="Trazado_2" data-name="Trazado 2" d="M-58.017-57.8v-2.154a2.373,2.373,0,0,0-2.406-2.431,2.335,2.335,0,0,0-2.469,2.154A2.222,2.222,0,0,0-60.525-57.8Z" transform="translate(62.892 62.39)" fill="none" stroke="#666" stroke-width="1.4"/>
+      </g>
+    </g>
+  </g>
+  <g id="Elipse_178" data-name="Elipse 178" fill="none" stroke="#666" stroke-width="1.5">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9.25" fill="none"/>
+  </g>
+</svg>

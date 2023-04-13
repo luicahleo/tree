@@ -1,0 +1,9 @@
+<svg id="ico-error" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2442" data-name="Rectángulo 2442" width="20" height="20" fill="none"/>
+  <g id="Polígono_20" data-name="Polígono 20" transform="translate(0 1)" fill="none">
+    <path d="M15,0l5,9-5,9H5L0,9,5,0Z" stroke="none"/>
+    <path d="M 6.176804542541504 2 L 2.28791618347168 9 L 6.176804542541504 16 L 13.8231954574585 16 L 17.71208381652832 9 L 13.8231954574585 2 L 6.176804542541504 2 M 5 0 L 15 0 L 20 9 L 15 18 L 5 18 L 0 9 L 5 0 Z" stroke="none" fill="#6a6b75"/>
+  </g>
+  <rect id="Rectángulo_3071" data-name="Rectángulo 3071" width="8" height="2" transform="translate(7.879 6.464) rotate(45)" fill="#6a6b75"/>
+  <rect id="Rectángulo_3072" data-name="Rectángulo 3072" width="8" height="2" transform="translate(6.464 12.121) rotate(-45)" fill="#6a6b75"/>
+</svg>

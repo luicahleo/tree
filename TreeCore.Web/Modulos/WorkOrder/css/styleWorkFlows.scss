@@ -1,0 +1,490 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+/*#region WORKFLOWS*/
+
+.ctRolesWF {
+    .btnActivarDesactivarV2 {
+        background-color: transparent;
+    }
+
+    .x-item-disabled {
+        opacity: .6;
+    }
+}
+
+.cnRolesAmsifyWF {
+    [id*="_Content"], .amsify-suggestags-area {
+        height: inherit;
+    }
+}
+
+.contCustomField {
+    overflow: hidden;
+
+    .contLabel {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .contLabelField {
+            font: bold 13px "Roboto",sans-serif;
+            color: $colSec;
+            padding-left: 20px;
+            background-image: url(/ima/ico-treegrid.svg);
+            background-repeat: no-repeat;
+            background-size: 16px;
+            background-position: left;
+            align-self: center;
+
+            &:hover {
+                color: darken($colBg, 20);
+                cursor: pointer;
+            }
+        }
+
+        .contLabelActive {
+            background-image: url(/ima/ico-dropdown.svg);
+            background-size: 10px;
+        }
+
+        .btnToggleWF {
+            display: inline-block;
+            margin: 0 7.5px;
+        }
+
+        .lblLabelField {
+            display: inline-block;
+        }
+    }
+
+
+    .contAmsify {
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+}
+
+.contCustomFieldActive {
+    .contAmsify {
+        height: min-content;
+        margin-bottom: 20px;
+    }
+
+    .contLabelField {
+        background-image: url(/ima/ico-dropdown.svg) !important;
+        background-size: 10px !important;
+    }
+}
+
+.dispFlex {
+    .lblHeadForm {
+        align-self: center;
+
+        span {
+            max-width: 300px;
+        }
+    }
+
+    .x-autocontainer-innerCt {
+        display: flex;
+        justify-content: space-between;
+
+        .x-autocontainer-innerCt {
+            display: block;
+            width: 150px !important;
+            float: right;
+        }
+    }
+}
+
+.txtAreaTask {
+
+    .x-form-textarea {
+        height: 113px;
+    }
+
+    .x-form-trigger-wrap-default {
+        height: auto !important;
+    }
+}
+
+/*#endregion*/
+
+/*#region BUSINESS PROCESS*/
+
+.tlbBusinessProcess {
+    border: solid 1px $Gris2 !important;
+    border-radius: 3px 3px 0 0 !important;
+
+    .boldPath {
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .btnNext:hover {
+        background-color: transparent !important;
+    }
+}
+
+.SubHeaderLblVisor {
+    color: $Azul !important;
+}
+
+.tlbWorkflowBP {
+    border-right: solid 1px $Gris2 !important;
+}
+
+.borderBottom {
+    border-bottom: solid 1px $Gris2 !important;
+}
+
+.lbWFInitial {
+    font: 500 12px "Roboto",sans-serif;
+    line-height: 16px;
+    color: $Gris4;
+}
+
+.btnWFInitial {
+    font: bold 14px "Roboto",sans-serif;
+    line-height: 19px;
+    color: $Gris4;
+    top: 4.5px !important;
+}
+
+#btnMasOpciones {
+    .x-btn-arrow-right:after {
+        display: none;
+    }
+}
+
+.mnuBusinesProcess {
+    .x-menu-item-text-default {
+        margin-left: 10px;
+    }
+}
+
+.pnBPActivo {
+    background-color: darken($colBg, 10);
+}
+
+.contBusinessProcess {
+    overflow: hidden;
+    //max-width: 450px;
+
+    .dispInline {
+        display: inline-flex;
+    }
+
+    .contLabel {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+
+        .contLabelWorkFlowBTN {
+            width: 20PX;
+            height: inherit;
+            background-image: url(/ima/ico-treegrid.svg);
+            background-repeat: no-repeat;
+            background-size: 16px;
+            background-position: left;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .btnMenuBP {
+            height: inherit;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+
+            &:hover {
+                cursor: pointer;
+                background-color: $Gris1;
+            }
+
+            ul {
+                display: none;
+                position: absolute;
+                background-color: $blanco;
+                border: 1px solid $Gris1;
+                box-shadow: 1px 4px 8px $Gris1;
+
+                &:hover {
+                    cursor: initial;
+                }
+
+                li {
+                    display: inline-flex;
+                    align-items: center;
+                    float: left;
+                    font: 500 13px "Roboto",sans-serif;
+                    padding: 0 15px 0 0;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: darken($colBg, 20);
+                    }
+                }
+            }
+
+            .ulActive {
+                display: grid !important;
+
+                li {
+                    position: relative;
+                }
+            }
+        }
+
+        .contLabelWorkFlowI {
+            font: bold 13px "Roboto",sans-serif;
+            color: $colSec;
+            align-self: center;
+            display: inline-block;
+
+            &:hover {
+                color: darken($colBg, 20);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .contNextState {
+        height: 0;
+        padding: 0;
+        margin-left: 32px;
+        width: calc(100% - 64px);
+        overflow: hidden;
+        transition: all .5s ease;
+        display: flex;
+        justify-content: space-between;
+
+        .contLabelWorkFlowN {
+            font: bold 13px "Roboto",sans-serif;
+            color: $colSec;
+            //padding-left: 2rem;
+            align-self: center;
+            display: inline-block;
+        }
+    }
+
+    .btnAdminStates {
+        display: inline-flex;
+
+        .selectState {
+            width: 200px;
+            border: none;
+            margin-right: .5rem;
+            font: 13px "Roboto",sans-serif;
+            color: $colPpal;
+        }
+    }
+}
+
+.contBusinessProcessActive {
+    margin-bottom: 8px;
+
+    .contNextState {
+        height: min-content;
+    }
+
+    .contLabelWorkFlowBTN {
+        background-image: url(/ima/ico-dropdown.svg) !important;
+        background-size: 10px !important;
+    }
+}
+
+.contBusinessProcessInfo {
+    overflow: hidden;
+    //max-width: 450px;
+
+    .contLabel {
+        display: flex;
+        height: 32px;
+        justify-content: space-between;
+        margin-bottom: 8px;
+
+        .contLabelWorkFlowI {
+            font: bold 13px "Roboto",sans-serif;
+            color: $colSec;
+            padding-left: 20px;
+            background-image: url(/ima/ico-treegrid.svg);
+            background-repeat: no-repeat;
+            background-size: 16px;
+            background-position: left;
+            align-self: center;
+            display: inline-block;
+
+            &:hover {
+                color: darken($colBg, 20);
+                cursor: pointer;
+            }
+        }
+
+        .contLabelWorkFlowN {
+            font: bold 13px "Roboto",sans-serif;
+            color: $colPpal;
+            align-self: center;
+            display: inline-block;
+        }
+    }
+
+    .contAmsify {
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+}
+
+.contBusinessProcessInfoActive {
+    .contAmsify {
+        height: min-content;
+        margin-bottom: 8px;
+    }
+
+    .contLabelWorkFlowI {
+        background-image: url(/ima/ico-dropdown.svg) !important;
+        background-size: 10px !important;
+    }
+}
+
+.btnAddNextWorkFlow {
+    border: 2px dotted $colPpal;
+    border-radius: 3px;
+    padding: .5rem;
+    //max-width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .btnAddWorkFlowsN {
+        width: fit-content;
+        font: bold 13px "Roboto",sans-serif;
+        color: $colPpal;
+        padding-left: 20px;
+        background-image: url(/ima/ico-plus-green.svg);
+        background-repeat: no-repeat;
+        background-size: 16px;
+        background-position: left;
+        align-self: center;
+    }
+}
+
+.amsiBP {
+    .x-autocontainer-innerCt {
+        display: block !important;
+        padding: 30px 0 !important;
+    }
+
+    .amsify-suggestags-area {
+        .form-control {
+            max-height: 150px;
+            overflow: auto;
+        }
+    }
+}
+
+@media (max-width:670px) {
+    .dosColumnas {
+        grid-row: span 3;
+    }
+}
+
+/*#endregion*/
+
+/*#region TOGGLE*/
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 41px;
+    height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    //background-color: $Gris2;
+    background-image: url(/ima/ico-toggle-off.svg);
+    //-webkit-transition: .4s;
+    //transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    display: none;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    //background-color: $colPpal;
+    background-image: url(/ima/ico-toggle-on.svg);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*#endregion*/
+
+.toast {
+    font-size: 0.8rem !important;
+}
+
+.search {
+    .txtSearchC {
+        max-width: 100% !important;
+    }
+}
+
+.btnPublicoPrivadoHTML {
+    position: absolute;
+    right: 0;
+}

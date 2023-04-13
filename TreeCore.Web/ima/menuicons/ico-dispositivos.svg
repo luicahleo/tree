@@ -1,0 +1,16 @@
+<svg id="ico-dispositivos" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_327" data-name="Rectángulo 327" width="20" height="20" fill="none"/>
+  <g id="Grupo_1745" data-name="Grupo 1745" transform="translate(-1806 -68.9)">
+    <g id="Grupo_1254" data-name="Grupo 1254" transform="translate(1807 69.9)">
+      <g id="Trazado_854" data-name="Trazado 854" transform="translate(0 9.026)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0,2.071A24.714,24.714,0,0,1,8.974,0a24.714,24.714,0,0,1,8.974,2.071v6.9H0Z" stroke="none"/>
+        <path d="M 8.973947525024414 1.500003814697266 C 5.995431900024414 1.500003814697266 2.950460433959961 2.515321254730225 1.499998092651367 3.074251174926758 L 1.499998092651367 7.473943710327148 L 16.44789695739746 7.473943710327148 L 16.44789695739746 3.072897911071777 C 15.00096893310547 2.513675689697266 11.96536540985107 1.500003814697266 8.973947525024414 1.500003814697266 M 8.973947525024414 3.814697265625e-06 C 13.46091747283936 3.814697265625e-06 17.94789695739746 2.070913791656494 17.94789695739746 2.070913791656494 L 17.94789695739746 8.973943710327148 L -1.9073486328125e-06 8.973943710327148 L -1.9073486328125e-06 2.070913791656494 C -1.9073486328125e-06 2.070913791656494 4.486977577209473 3.814697265625e-06 8.973947525024414 3.814697265625e-06 Z" stroke="none" fill="#666"/>
+      </g>
+      <line id="Línea_114" data-name="Línea 114" x2="6.333" transform="translate(8 14)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <circle id="Elipse_64" data-name="Elipse 64" cx="1.5" cy="1.5" r="1.5" transform="translate(2.5 12.5)" fill="#666"/>
+      <path id="Trazado_852" data-name="Trazado 852" d="M1773.207,233.822a12.552,12.552,0,0,1,16.1,0" transform="translate(-1772.115 -230.906)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Trazado_853" data-name="Trazado 853" d="M1772.586,233.368c3.191-3.09,9.453-3.016,12.666,0" transform="translate(-1769.872 -228.004)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Trazado_855" data-name="Trazado 855" d="M1772.586,232.422a8.993,8.993,0,0,1,8.974,0" transform="translate(-1768.063 -225.172)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

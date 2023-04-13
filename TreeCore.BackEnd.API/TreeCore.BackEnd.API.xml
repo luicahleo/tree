@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TreeCore.BackEnd.API</name>
+    </assembly>
+    <members>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ApiControllerBase`2.GetList(TreeCore.Shared.DTO.Query.QueryDTO)">
+            <summary>
+            Get list of objects
+            </summary>
+            <param name="query"></param>
+            <returns>List of objects</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ApiControllerBase`2.Get(System.String)">
+            <summary>
+            Get Catalog Type by code
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>Catalog type</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Companies.CompanyController">
+            <summary>
+            CompanyController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Companies.CompanyController.Post(TreeCore.Shared.DTO.Companies.CompanyDTO)">
+            <summary>
+            Post Company 
+            </summary>
+            <returns>Company</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Companies.CompanyController.GetDetails(System.String)">
+            <summary>
+            Get Details Company By Code
+            </summary>
+            <param name="code">Code of Company</param>
+            <returns>Details Company</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Companies.CompanyController.Put(TreeCore.Shared.DTO.Companies.CompanyDTO,System.String)">
+            <summary>
+            Put object of Company s
+            </summary>
+            <param name="code">Code of Company </param>
+            <returns>List of Company s</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Companies.CompanyController.Delete(System.String)">
+            <summary>
+            Delete object of Company
+            </summary>
+            <param name="code">Code of Company</param>
+            <returns>Company</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Companies.CompanyTypeController">
+            <summary>
+            CompanyTypeController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Companies.CompanyTypeController.Delete(System.String)">
+            <summary>
+            Delete object of Company Types
+            </summary>
+            <param name="code">Code of Company Type</param>
+            <returns>Company type</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Companies.CompanyTypeController.Post(TreeCore.Shared.DTO.Companies.CompanyTypeDTO)">
+            <summary>
+            Post Company Type
+            </summary>
+            <returns>Company Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Companies.CompanyTypeController.Put(TreeCore.Shared.DTO.Companies.CompanyTypeDTO,System.String)">
+            <summary>
+            Put object of Company Types
+            </summary>
+            <param name="code">Code of Company Type</param>
+            <returns>List of Company Types</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Contracts.ContractGroupController">
+            <summary>
+            ContractGroupController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractGroupController.Post(TreeCore.Shared.DTO.Contracts.ContractGroupDTO)">
+            <summary>
+            Post Contract Group
+            </summary>
+            <returns>List of Contract Group</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractGroupController.Put(TreeCore.Shared.DTO.Contracts.ContractGroupDTO,System.String)">
+            <summary>
+            Put object of Contract Group
+            </summary>
+            <param name="code">Code of Contract Group</param>
+            <returns>List of Contract Group</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractGroupController.Delete(System.String)">
+            <summary>
+            Delete object of Contract Group
+            </summary>
+            <param name="code">Code of Contract Group</param>
+            <returns>Contract Group</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Contracts.ContractLineTypeController">
+            <summary>
+            ContractLineTypeController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractLineTypeController.Post(TreeCore.Shared.DTO.Contracts.ContractLineTypeDTO)">
+            <summary>
+            Post Product Type
+            </summary>
+            <returns>List of Product Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractLineTypeController.Put(TreeCore.Shared.DTO.Contracts.ContractLineTypeDTO,System.String)">
+            <summary>
+            Put object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>List of Catalog Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractLineTypeController.Delete(System.String)">
+            <summary>
+            Delete object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>Catalog type</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Contracts.ContractStateController">
+            <summary>
+            ContractStateController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractStateController.Post(TreeCore.Shared.DTO.Contracts.ContractStateDTO)">
+            <summary>
+            Post Contract State
+            </summary>
+            <returns>List of Contract State</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractStateController.Put(TreeCore.Shared.DTO.Contracts.ContractStateDTO,System.String)">
+            <summary>
+            Put object of Contract State
+            </summary>
+            <param name="code">Code of Contract State</param>
+            <returns>List of Contract State</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractStateController.Delete(System.String)">
+            <summary>
+            Delete object of Contract State
+            </summary>
+            <param name="code">Code of Contract State</param>
+            <returns>Contract State</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Contracts.ContractTypeController">
+            <summary>
+            ContractTypeController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractTypeController.Post(TreeCore.Shared.DTO.Contracts.ContractTypeDTO)">
+            <summary>
+            Post Product Type
+            </summary>
+            <returns>List of Product Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractTypeController.Put(TreeCore.Shared.DTO.Contracts.ContractTypeDTO,System.String)">
+            <summary>
+            Put object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>List of Catalog Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.ContractTypeController.Delete(System.String)">
+            <summary>
+            Delete object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>Catalog type</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Contracts.FunctionalAreaController">
+            <summary>
+            FunctionalAreaController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.FunctionalAreaController.Post(TreeCore.Shared.DTO.Contracts.FunctionalAreaDTO)">
+            <summary>
+            Post Product Type
+            </summary>
+            <returns>List of Product Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.FunctionalAreaController.Put(TreeCore.Shared.DTO.Contracts.FunctionalAreaDTO,System.String)">
+            <summary>
+            Put object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>List of Catalog Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.Contracts.FunctionalAreaController.Delete(System.String)">
+            <summary>
+            Delete object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>Catalog type</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.General.CurrencyController">
+            <summary>
+            CurrencyController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.General.CurrencyController.Post(TreeCore.Shared.DTO.General.CurrencyDTO)">
+            <summary>
+            Post Currency
+            </summary>
+            <returns>List of Currencies</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.General.CurrencyController.Put(TreeCore.Shared.DTO.General.CurrencyDTO,System.String)">
+            <summary>
+            Put Currency 
+            </summary>
+            <param name="codeCurrency">Code of Currency</param>
+            <returns>List of Currencies</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.General.CurrencyController.Delete(System.String)">
+            <summary>
+            Delete object of Currency
+            </summary>
+            <param name="code">Code of Currency</param>
+            <returns>Currency</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.General.InflationController">
+            <summary>
+            InflationController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.General.InflationController.Post(TreeCore.Shared.DTO.General.InflationDTO)">
+            <summary>
+            Post Inflation
+            </summary>
+            <returns>List of Inflations</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.General.InflationController.Put(TreeCore.Shared.DTO.General.InflationDTO,System.String)">
+            <summary>
+            Put Inflation
+            </summary>
+            <param name="code">Code of Inflation</param>
+            <returns>List of Inflations</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.General.InflationController.Delete(System.String)">
+            <summary>
+            Delete object of Inflation
+            </summary>
+            <param name="code">Code of Inflation</param>
+            <returns>Inflation</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.ProductCatalog.CatalogTypeController">
+            <summary>
+            CatalogTypeController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.CatalogTypeController.Post(TreeCore.Shared.DTO.ProductCatalog.CatalogTypeDTO)">
+            <summary>
+            Post Product Type
+            </summary>
+            <returns>List of Product Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.CatalogTypeController.Put(TreeCore.Shared.DTO.ProductCatalog.CatalogTypeDTO,System.String)">
+            <summary>
+            Put object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>List of Catalog Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.CatalogTypeController.Delete(System.String)">
+            <summary>
+            Delete object of Catalog Types
+            </summary>
+            <param name="code">Code of Catalog Type</param>
+            <returns>Catalog type</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductController">
+            <summary>
+            ProductController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductController.GetDetails(System.String)">
+            <summary>
+            Get Details Product By Code
+            </summary>
+            <param name="code">Code of Product</param>
+            <returns>Details Product</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductController.Post(TreeCore.Shared.DTO.ProductCatalog.ProductDTO)">
+            <summary>
+            Post Product
+            </summary>
+            <returns>List of Products</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductController.Put(TreeCore.Shared.DTO.ProductCatalog.ProductDTO,System.String)">
+            <summary>
+            Put Product
+            </summary>
+            <param name="code">Code of Product</param>
+            <returns>List of Products</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductController.Delete(System.String)">
+            <summary>
+            Delete object of Product
+            </summary>
+            <param name="code">Code of Product</param>
+            <returns>Product</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductTypeController">
+            <summary>
+            ProductTypeController
+            </summary>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductTypeController.Post(TreeCore.Shared.DTO.ProductCatalog.ProductTypeDTO)">
+            <summary>
+            Post Product Type
+            </summary>
+            <returns>List of Product Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductTypeController.Put(TreeCore.Shared.DTO.ProductCatalog.ProductTypeDTO,System.String)">
+            <summary>
+            Put Product Type
+            </summary>
+            <param name="code">Code of Product Type</param>
+            <returns>List of Product Types</returns>
+        </member>
+        <member name="M:TreeCore.BackEnd.API.Controllers.ProductCatalog.ProductTypeController.Delete(System.String)">
+            <summary>
+            Delete object of Product Type
+            </summary>
+            <param name="code">Code of Product Type</param>
+            <returns>Product Type</returns>
+        </member>
+        <member name="T:TreeCore.BackEnd.API.Controllers.Version1.ProductCatalog.ProductCatalogServiceController">
+            <summary>
+            ProductCatalogServiceController
+            </summary>
+        </member>
+    </members>
+</doc>

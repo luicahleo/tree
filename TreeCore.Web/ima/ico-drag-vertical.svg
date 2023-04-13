@@ -1,0 +1,17 @@
+<svg id="ico-drag-vertical" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3318" data-name="Rectángulo 3318" width="20" height="20" fill="none"/>
+  <path id="Polígono_31" data-name="Polígono 31" d="M3,0,6,3H0Z" transform="translate(7)" fill="#c6c6c6"/>
+  <path id="Polígono_30" data-name="Polígono 30" d="M3,0,6,3H0Z" transform="translate(13 20) rotate(180)" fill="#c6c6c6"/>
+  <g id="Rectángulo_3321" data-name="Rectángulo 3321" transform="translate(5 5)" fill="#c6c6c6" stroke="#c6c6c6" stroke-width="1">
+    <rect width="10" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="9" height="1" fill="none"/>
+  </g>
+  <g id="Rectángulo_3319" data-name="Rectángulo 3319" transform="translate(5 9)" fill="#c6c6c6" stroke="#c6c6c6" stroke-width="1">
+    <rect width="10" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="9" height="1" fill="none"/>
+  </g>
+  <g id="Rectángulo_3320" data-name="Rectángulo 3320" transform="translate(5 13)" fill="#c6c6c6" stroke="#c6c6c6" stroke-width="1">
+    <rect width="10" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="9" height="1" fill="none"/>
+  </g>
+</svg>

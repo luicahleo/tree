@@ -1,0 +1,13 @@
+<mxGraphModel dx="783" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+<root>
+<mxCell id="0" ></mxCell><mxCell id="1" parent="0" ></mxCell><mxCell id="EL-1" value="TowerComun" style="image;html=1;image=" parent="1" vertex="1" ><mxGeometry width="80" height="80" as="geometry" />
+</mxCell><mxCell id="EL-2" value="Power Supply" style="image;html=1;image=" parent="1" vertex="1" ><mxGeometry width="80" height="80" as="geometry" />
+</mxCell><mxCell id="EL-3" value="Instalacion Deportiva" style="image;html=1;image=" parent="1" vertex="1" ><mxGeometry width="80" height="80" as="geometry" />
+</mxCell><mxCell id="EL-4" value="OLT Cabinet" style="image;html=1;image=" parent="1" vertex="1" ><mxGeometry width="80" height="80" as="geometry" />
+</mxCell><mxCell id="EL-5" value="Freecooling" style="image;html=1;image=" parent="1" vertex="1" ><mxGeometry width="80" height="80" as="geometry" />
+</mxCell><mxCell id="XC-6" style="edgeStyle = elbowEdgeStyle; elbow = horizontal; endArrow = classic; html = 1;" parent="1" edge="1" source="EL-3" target="EL-2" ><mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="XC-7" style="edgeStyle = elbowEdgeStyle; elbow = horizontal; endArrow = classic; html = 1;" parent="1" edge="1" source="EL-1" target="EL-2" ><mxGeometry relative="1" as="geometry"/>
+</mxCell>
+</root>
+</mxGraphModel>

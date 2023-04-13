@@ -1,0 +1,12 @@
+<svg id="ico-outofservice" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_6378" data-name="Grupo 6378" transform="translate(-788 -251)">
+    <g id="ico-info" transform="translate(789 252)">
+      <g id="Trazado_1467" data-name="Trazado 1467" fill="none">
+        <path d="M9,0A9,9,0,1,1,0,9,9,9,0,0,1,9,0Z" stroke="none"/>
+        <path d="M 9 2 C 5.140190124511719 2 2 5.140190124511719 2 9 C 2 12.85980987548828 5.140190124511719 16 9 16 C 12.85980987548828 16 16 12.85980987548828 16 9 C 16 5.140190124511719 12.85980987548828 2 9 2 M 9 0 C 13.97056007385254 0 18 4.029439926147461 18 9 C 18 13.97056007385254 13.97056007385254 18 9 18 C 4.029439926147461 18 0 13.97056007385254 0 9 C 0 4.029439926147461 4.029439926147461 0 9 0 Z" stroke="none" fill="#6a6b75"/>
+      </g>
+      <line id="Línea_1113" data-name="Línea 1113" x2="11" y2="11" transform="translate(3.5 3.5)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+    </g>
+  </g>
+  <rect id="Rectángulo_2442" data-name="Rectángulo 2442" width="20" height="20" fill="none"/>
+</svg>

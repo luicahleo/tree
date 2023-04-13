@@ -1,0 +1,11 @@
+<svg id="ico-success" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3322" data-name="Rectángulo 3322" width="20" height="20" fill="none"/>
+  <circle id="Elipse_598" data-name="Elipse 598" cx="1.5" cy="1.5" r="1.5" transform="translate(7.496 9.504)" fill="#06a086"/>
+  <path id="Trazado_2851" data-name="Trazado 2851" d="M265.7,587.474l-.534-2.295,3.536-3.536.534,2.295Z" transform="translate(-252.295 -580.874)" fill="#06a086"/>
+  <path id="Trazado_2852" data-name="Trazado 2852" d="M265.7,587.474l2.295.534,3.536-3.536-2.295-.534Z" transform="translate(-252.295 -580.874)" fill="#06a086"/>
+  <rect id="Rectángulo_3323" data-name="Rectángulo 3323" width="2" height="9.76" transform="translate(15.19 3.396) rotate(45)" fill="#06a086"/>
+  <g id="Grupo_8092" data-name="Grupo 8092" transform="translate(-252.295 -580.874)">
+    <path id="Trazado_2853" data-name="Trazado 2853" d="M269.4,588.007l-1.527,1.528a7,7,0,1,1-4.243-4.243l1.527-1.527a9,9,0,1,0,4.243,4.242Z" fill="#06a086"/>
+    <path id="Trazado_2854" data-name="Trazado 2854" d="M257.51,588.1a5.347,5.347,0,1,0,8.7,1.694l-1.614,1.614a3.348,3.348,0,1,1-2.829-2.828l1.615-1.615A5.351,5.351,0,0,0,257.51,588.1Z" fill="#06a086"/>
+  </g>
+</svg>

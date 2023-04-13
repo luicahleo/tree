@@ -1,0 +1,141 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+
+/*#region COMPORTAMIENTO FLOAT DEFINIDO CON CORTES SEGUN ITEMS (2COMBOS) */
+.txtSearchTBCls {
+    min-width: 275px !important;
+}
+
+#toolbarFiltros_wrapFilterCmbNBtns {
+    max-width: 277px;
+}
+
+.UnsetFloatR {
+    position: unset !important;
+    float: right !important;
+}
+
+@media (max-width:1132px) { //Resize 1º corte
+    .UnsetFloatR {
+        float: left !important;
+        margin-top: 8px !important;
+    }
+
+    .txtSearchTBCls {
+        //width: 446px !important;
+        width: 818px !important;
+    }
+}
+
+@media (max-width:849px) {
+
+    .txtSearchTBCls {
+        width: 446px !important;
+    }
+
+
+    .wrapFilterCmbNBtns2 {
+        margin-left: 90px;
+        margin-top: 8px;
+        .x-box-inner
+            {
+
+            height:36px !important;
+
+        }
+    }
+}
+
+
+
+@media (max-width:477px) { //Resize 2º corte
+
+    .UnsetFloatR {
+        float: left !important;
+        margin-top: 8px !important;
+    }
+
+    .txtSearchTBCls {
+        min-width: 275px !important;
+    }
+
+    .cmbProyectosF {
+        margin-top: 8px !important;
+        min-width: 260px !important;
+    }
+
+    .wrapFilterCmbNBtns2 {
+        margin-left: 0px !important;
+        margin-top: 8px;
+        width: 100%;
+
+        .x-box-inner {
+            height: 36px !important;
+            width: 100% !important;
+
+            .x-box-target {
+                width: 100% !important;
+                .x-form-item{
+                    width: calc(50% - 8.5px) !important;
+                }
+            }
+        }
+    }
+
+    /*#region ESTIRAR AL BORDE EN MIN RES */
+    .txtSearchTBCls {
+        width: calc(100% - 8px) !important;
+        min-width: 275px !important;
+    }
+
+    .cmbProyectosF {
+        width: 100% !important;
+    }
+
+    .wrapFilterCmbNBtns {
+        width: 100% !important;
+        min-width: 260px !important;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns-innerCt {
+        width: 100% !important;
+        min-width: 260px !important;
+    }
+
+    .ClscmbMisFiltros {
+        width: calc(100% - 85px) !important;
+        min-width: 90px !important;
+        padding-right: 6px;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns-targetEl {
+        width: 100% !important;
+    }
+
+    #toolbarFiltros_wrapFilterCmbNBtns {
+        max-width: none !important;
+    }
+
+
+    #toolbarFiltros_cmbMisFiltros-bodyEl {
+        min-width: 90px !important;
+    }
+
+
+    /*#endregion */
+
+}
+
+@media (max-width:387px) { //Resize 3º corte
+    .UnsetFloatR {
+        float: left !important;
+        margin-top: 8px !important;
+    }
+
+    
+}
+
+/*#endregion */
+
+

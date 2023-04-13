@@ -1,0 +1,476 @@
+<shapes name="mxgraph.myflow">
+<shape aspect="variable" h="953.68" name="ico-clip 16px" strokewidth="inherit" w="907.5">
+    <connections/>
+    <foreground>
+        <save/>
+        <strokecolor color="#c6c6c6"/>
+        <strokewidth width="1.6"/>
+        <linecap cap="round"/>
+        <path>
+            <move x="899.5" y="5.002"/>
+            <line x="899.5" y="10.195"/>
+            <arc large-arc-flag="0" rx="3.905" ry="3.905" sweep-flag="0" x="903.4" x-axis-rotation="0" y="13.941"/>
+            <curve x1="905.713" x2="907.5" x3="907.5" y1="13.965" y2="12.636" y3="10.185"/>
+            <line x="907.5" y="3.358"/>
+            <curve x1="907.5" x2="906.85" x3="904.765" y1="1.592" y2="0" y3="0"/>
+            <curve x1="902.971" x2="902.005" x3="902.005" y1="0" y2="1.161" y3="3.358"/>
+            <line x="902.005" y="8.278"/>
+            <curve x1="902.005" x2="902.436" x3="903.51" y1="9.767" y2="10.523" y3="10.523"/>
+            <curve x1="904.584" x2="904.928" x3="904.928" y1="10.523" y2="9.81" y3="8.278"/>
+            <line x="904.928" y="4.032"/>
+        </path>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <rect h="16" w="16" x="0" y="937.68"/>
+        <stroke/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="16" name="ico-docs 16px" strokewidth="inherit" w="16">
+    <connections/>
+    <foreground>
+        <save/>
+        <rect h="16" w="16" x="0" y="0"/>
+        <stroke/>
+        <strokecolor color="#c6c6c6"/>
+        <strokewidth width="1.6"/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="4" y="0"/>
+        </path>
+        <stroke/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="4" y="0"/>
+        </path>
+        <stroke/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="4" y="0"/>
+        </path>
+        <stroke/>
+        <linejoin join="round"/>
+        <linecap cap="round"/>
+        <rect h="14" w="12" x="0" y="0"/>
+        <strokecolor color="#c6c6c6"/>
+        <rect h="12.4" w="10.4" x="0.8" y="0.8"/>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <rect h="16" w="16" x="0" y="0"/>
+        <stroke/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="248.095" name="ico-email 16px" strokewidth="inherit" w="159.285">
+    <connections/>
+    <foreground>
+        <save/>
+        <strokewidth width="1.6"/>
+        <rect h="12" w="14" x="143.285" y="0"/>
+        <strokecolor color="#c6c6c6"/>
+        <rect h="10.4" w="12.4" x="144.085" y="0.8"/>
+        <stroke/>
+        <path>
+            <move x="0" y="242.857"/>
+            <line x="6.255" y="248.095"/>
+            <line x="12.798" y="242.857"/>
+        </path>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <rect h="16" w="16" x="143.285" y="0"/>
+        <stroke/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="1699" name="ico-subprocess 16px" strokewidth="inherit" w="3379.682">
+    <connections/>
+    <foreground>
+        <save/>
+        <save/>
+        <strokewidth width="2"/>
+        <roundrect arcsize="16.667" h="6" w="10" x="0" y="1683"/>
+        <strokecolor color="#c6c6c6"/>
+        <roundrect arcsize="12.5" h="4" w="8" x="1" y="1684"/>
+        <stroke/>
+        <roundrect arcsize="16.667" h="6" w="10" x="0" y="1683"/>
+        <strokecolor color="#c6c6c6"/>
+        <roundrect arcsize="12.5" h="4" w="8" x="1" y="1684"/>
+        <stroke/>
+        <linejoin join="round"/>
+        <linecap cap="round"/>
+        <path>
+            <move x="3379.682" y="0"/>
+            <line x="3376.51" y="0"/>
+            <line x="3376.51" y="7.548"/>
+            <line x="3379.426" y="7.548"/>
+        </path>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <strokecolor color="#c6c6c6"/>
+        <strokewidth width="2"/>
+        <path>
+            <move x="1.586" y="1683"/>
+            <line x="0" y="1683"/>
+        </path>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <rect h="16" w="16" x="0" y="1683"/>
+        <stroke/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="16" name="shape-bgLabel-decision" strokewidth="inherit" w="66">
+    <connections/>
+    <foreground>
+        <fillcolor color="#fbfbfb"/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="16"/>
+            <line x="2" y="16"/>
+            <line x="64" y="16"/>
+            <line x="66" y="16"/>
+            <line x="66" y="0"/>
+            <line x="64" y="0"/>
+            <line x="2" y="0"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <fill/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="22.294" name="shape-bgLabel-department" strokewidth="inherit" w="132">
+    <connections/>
+    <foreground>
+        <fillcolor color="#3b8fd9"/>
+        <path>
+            <move x="3.882" y="0.147"/>
+            <line x="128.118" y="0.147"/>
+            <arc large-arc-flag="0" rx="3.627" ry="3.627" sweep-flag="1" x="132" x-axis-rotation="0" y="3.447"/>
+            <line x="132" y="18.847"/>
+            <arc large-arc-flag="0" rx="3.627" ry="3.627" sweep-flag="1" x="128.118" x-axis-rotation="0" y="22.147"/>
+            <line x="3.882" y="22.147"/>
+            <arc large-arc-flag="0" rx="3.627" ry="3.627" sweep-flag="1" x="0" x-axis-rotation="0" y="18.847"/>
+            <line x="0" y="3.447"/>
+            <arc large-arc-flag="0" rx="3.627" ry="3.627" sweep-flag="1" x="3.882" x-axis-rotation="0" y="0.147"/>
+            <close/>
+        </path>
+        <fill/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="80" name="shape-bgStatusFlow" strokewidth="inherit" w="158">
+    <connections/>
+    <foreground>
+        <fillcolor color="#fff"/>
+        <strokewidth width="1"/>
+        <roundrect arcsize="1.875" h="80" w="158" x="0" y="0"/>
+        <fill/>
+        <strokecolor color="#06a086"/>
+        <roundrect arcsize="1.582" h="79" w="157" x="0.5" y="0.5"/>
+        <stroke/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="80" name="shape-bgStatusFlow-wFooter" strokewidth="inherit" w="158">
+    <connections/>
+    <foreground>
+        <save/>
+        <fillcolor color="#fff"/>
+        <strokewidth width="1"/>
+        <roundrect arcsize="1.875" h="80" w="158" x="0" y="0"/>
+        <fill/>
+        <strokecolor color="#06a086"/>
+        <roundrect arcsize="1.582" h="79" w="157" x="0.5" y="0.5"/>
+        <stroke/>
+        <strokecolor color="#ededed"/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="156" y="0"/>
+        </path>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <fillcolor color="#6a6b75"/>
+        <ellipse h="2" w="2" x="0" y="0"/>
+        <fill/>
+        <ellipse h="2" w="2" x="0" y="0"/>
+        <fill/>
+        <ellipse h="2" w="2" x="0" y="0"/>
+        <fill/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="80" name="shape-bgStatusFlow-wOptions" strokewidth="inherit" w="158">
+    <connections/>
+    <foreground>
+        <save/>
+        <fillcolor color="#fff"/>
+        <strokewidth width="1"/>
+        <roundrect arcsize="1.875" h="80" w="158" x="0" y="0"/>
+        <fill/>
+        <strokecolor color="#06a086"/>
+        <roundrect arcsize="1.582" h="79" w="157" x="0.5" y="0.5"/>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <fillcolor color="#6a6b75"/>
+        <ellipse h="2" w="2" x="0" y="0"/>
+        <fill/>
+        <ellipse h="2" w="2" x="0" y="0"/>
+        <fill/>
+        <ellipse h="2" w="2" x="0" y="0"/>
+        <fill/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="36" name="shape-endflow" strokewidth="inherit" w="36">
+    <connections/>
+    <foreground>
+        <save/>
+        <save/>
+        <fillcolor color="#fff"/>
+        <strokewidth width="1.5"/>
+        <ellipse h="36" w="36" x="0" y="0"/>
+        <fill/>
+        <strokecolor color="#ef5970"/>
+        <ellipse h="34.5" w="34.5" x="0.75" y="0.75"/>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="20"/>
+            <line x="20" y="20"/>
+            <line x="20" y="0"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <stroke/>
+        <strokecolor color="#ef5970"/>
+        <strokewidth width="2"/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="19"/>
+        </path>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <fillcolor color="#ef5970"/>
+        <path>
+            <move x="12.067" y="9"/>
+            <line x="1" y="9"/>
+            <line x="1" y="1"/>
+            <line x="12.106" y="1"/>
+            <line x="9.697" y="4.525"/>
+            <line x="9.305" y="5.1"/>
+            <line x="9.707" y="5.667"/>
+            <line x="12.067" y="9"/>
+            <close/>
+        </path>
+        <fill/>
+        <path>
+            <move x="2" y="2"/>
+            <line x="2" y="8"/>
+            <line x="10.133" y="8"/>
+            <line x="8.891" y="6.245"/>
+            <line x="8.087" y="5.11"/>
+            <line x="8.872" y="3.961"/>
+            <line x="10.211" y="2"/>
+            <line x="2" y="2"/>
+            <move x="0" y="0"/>
+            <line x="14" y="0"/>
+            <line x="10.523" y="5.089"/>
+            <line x="14" y="10"/>
+            <line x="0" y="10"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <fill/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="20" name="shape-not" strokewidth="inherit" w="20">
+    <connections/>
+    <foreground>
+        <fillcolor color="#ef5970"/>
+        <strokewidth width="1"/>
+        <ellipse h="20" w="20" x="0" y="0"/>
+        <fill/>
+        <strokecolor color="#931b2e"/>
+        <ellipse h="19" w="19" x="0.5" y="0.5"/>
+        <stroke/>
+        <strokecolor color="#fff"/>
+        <strokewidth width="2"/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="6" y="6"/>
+        </path>
+        <stroke/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="6" y="6"/>
+        </path>
+        <stroke/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="36" name="shape-startflow" strokewidth="inherit" w="36">
+    <connections/>
+    <foreground>
+        <save/>
+        <save/>
+        <fillcolor color="#fff"/>
+        <strokewidth width="1.5"/>
+        <ellipse h="36" w="36" x="0" y="0"/>
+        <fill/>
+        <strokecolor color="#06a086"/>
+        <ellipse h="34.5" w="34.5" x="0.75" y="0.75"/>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <rect h="20" w="20" x="0" y="0"/>
+        <stroke/>
+        <strokewidth width="1.6"/>
+        <ellipse h="16" w="16" x="0" y="0"/>
+        <strokecolor color="#06a086"/>
+        <ellipse h="14.4" w="14.4" x="0.8" y="0.8"/>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <fillcolor color="#06a086"/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="1.6"/>
+            <line x="4" y="1.6"/>
+            <line x="4" y="0"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <fill/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="1.6"/>
+            <line x="4.209" y="1.6"/>
+            <line x="4.209" y="0"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <fill/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="1.6"/>
+            <line x="4" y="1.6"/>
+            <line x="4" y="0"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <fill/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="1.6"/>
+            <line x="1.6" y="1.6"/>
+            <line x="1.6" y="0"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <fill/>
+        <path>
+            <move x="0" y="0"/>
+            <line x="0" y="1.6"/>
+            <line x="1.6" y="1.6"/>
+            <line x="1.6" y="0"/>
+            <line x="0" y="0"/>
+            <close/>
+        </path>
+        <fill/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="5" name="shape-status-btnOptions" strokewidth="inherit" w="5">
+    <connections/>
+    <foreground>
+        <fillcolor color="#6a6b75"/>
+        <ellipse h="2" w="2" x="1.5" y="1.5"/>
+        <fill/>
+        <ellipse h="2" w="2" x="1.5" y="1.5"/>
+        <fill/>
+        <ellipse h="2" w="2" x="1.5" y="1.5"/>
+        <fill/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="650.989" name="shape-transitionflow" strokewidth="inherit" w="4558.438">
+    <connections/>
+    <foreground>
+        <save/>
+        <fillcolor color="#fff"/>
+        <strokewidth width="2"/>
+        <linejoin join="round"/>
+        <rect h="32" w="32" x="0" y="0"/>
+        <fill/>
+        <strokecolor color="#06a086"/>
+        <rect h="30" w="30" x="1" y="1"/>
+        <stroke/>
+        <restore/>
+        <rect/>
+        <stroke/>
+        <strokecolor color="#06a086"/>
+        <strokewidth width="2"/>
+        <path>
+            <move x="4558.415" y="650.989"/>
+            <line x="4558.415" y="642.3"/>
+            <curve x1="9116.83" x2="4558.438" x3="4555.79" y1="1284.6" y2="639.066" y3="639.088"/>
+            <curve x1="4553.142" x2="4550.518" x3="4550.518" y1="639.11" y2="639.088" y3="639.088"/>
+        </path>
+        <stroke/>
+        <path>
+            <move x="4550.518" y="650.989"/>
+            <line x="4550.518" y="642.3"/>
+            <curve x1="9101.036" x2="4550.495" x3="4553.143" y1="1284.6" y2="639.066" y3="639.088"/>
+            <curve x1="4555.791" x2="4558.415" x3="4558.415" y1="639.11" y2="639.088" y3="639.088"/>
+        </path>
+        <stroke/>
+        <linejoin join="round"/>
+        <linecap cap="round"/>
+        <miterlimit limit="10"/>
+        <path>
+            <move x="223.6" y="577.118"/>
+            <line x="220.492" y="580.227"/>
+            <line x="223.6" y="583.336"/>
+        </path>
+        <stroke/>
+        <path>
+            <move x="3.108" y="0"/>
+            <line x="0" y="3.109"/>
+            <line x="3.108" y="6.217"/>
+        </path>
+        <stroke/>
+    </foreground>
+</shape>
+<shape aspect="variable" h="1505.187" name="shape-yes" strokewidth="inherit" w="3019.615">
+    <connections/>
+    <foreground>
+        <fillcolor color="#08967b"/>
+        <strokewidth width="1"/>
+        <ellipse h="20" w="20" x="2999.615" y="0"/>
+        <fill/>
+        <strokecolor color="#105548"/>
+        <ellipse h="19" w="19" x="3000.115" y="0.5"/>
+        <stroke/>
+        <strokecolor color="#fff"/>
+        <strokewidth width="2"/>
+        <linejoin join="round"/>
+        <linecap cap="round"/>
+        <path>
+            <move x="0" y="1502.965"/>
+            <line x="2.143" y="1505.187"/>
+            <line x="6" y="1501.187"/>
+        </path>
+        <stroke/>
+    </foreground>
+</shape>
+</shapes>

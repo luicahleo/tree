@@ -1,0 +1,23 @@
+<svg id="ic_modulos_Portal_Cliente" xmlns="http://www.w3.org/2000/svg" width="74" height="58" viewBox="0 0 74 58">
+  <rect id="Rectángulo_509" data-name="Rectángulo 509" width="74" height="58" fill="none"/>
+  <g id="Grupo_1111" data-name="Grupo 1111" transform="translate(275 425)">
+    <path id="Trazado_67" data-name="Trazado 67" d="M-248.332,393.853c.055.063.051,5.33,0,5.442-.016,1.081.419,3.782-5.922,3.967s-45.332,0-45.332,0-4.647.223-4.641-3.967c-.121.042-.043-5.4,0-5.442.1-1.719.762-3.638,4.641-5.642s15.985-7.127,15.985-7.127h15.08s14.78,5.344,17,7.127S-248.39,391.88-248.332,393.853Z" transform="translate(38.292 -772.344)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <g id="Rectángulo_38" data-name="Rectángulo 38" transform="translate(-251.839 -425)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <rect width="28.735" height="36.626" rx="14.367" stroke="none"/>
+      <rect x="1" y="1" width="26.735" height="34.626" rx="13.367" fill="none"/>
+    </g>
+    <path id="Trazado_150" data-name="Trazado 150" d="M1708.565,103.476s-2.36,8.081,0,14.34,10.054,5.682,14.357,5.217c.193.164-3.451,2.458-7.676,2.638s-8.859-2.875-10.694-6.608a13.106,13.106,0,0,1-1.385-6.953v-7.055Z" transform="translate(-1952.919 -516)" fill="#58e5a9"/>
+    <path id="Trazado_69" data-name="Trazado 69" d="M-218.207,384.372s3.537,6.072,13.015,5.571,11.172-6.918,11.172-6.918" transform="translate(-31.855 -773.354)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_74" data-name="Trazado 74" d="M1713.686,134.953c-.007-.009,0,8.3,0,8.3H1693s-2.659-.237-2.76-4.151,2.76-5.009,2.76-5.009l7.871-3.362A13.626,13.626,0,0,0,1713.686,134.953Z" transform="translate(-1952.893 -515)" fill="#58e5a9"/>
+    <path id="Trazado_841" data-name="Trazado 841" d="M-414.173,526.593l23.228-7.986" transform="translate(163.261 -937.641)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <g id="Rectángulo_126" data-name="Rectángulo 126" transform="translate(-255.907 -410)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <rect width="5.988" height="13" rx="2.994" stroke="none"/>
+      <rect x="1" y="1" width="3.988" height="11" rx="1.994" fill="none"/>
+    </g>
+    <g id="Rectángulo_127" data-name="Rectángulo 127" transform="translate(-224.97 -410)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <rect width="5.988" height="13" rx="2.994" stroke="none"/>
+      <rect x="1" y="1" width="3.988" height="11" rx="1.994" fill="none"/>
+    </g>
+    <path id="Trazado_839" data-name="Trazado 839" d="M0,.032H13.989s2.1.171,2.705-.89" transform="translate(-236.945 -398.032)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAcceder.Text" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="btnCambiar.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="btnCerrarCodigo.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CambioIdioma" xml:space="preserve">
+    <value>You have change to the {0} language</value>
+  </data>
+  <data name="jsAccediendo" xml:space="preserve">
+    <value>Loading {0}, please wait....</value>
+  </data>
+  <data name="jsAvisos" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="jsInfo" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="jsMensajeProcesando" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="lblClave.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblModulo.Text" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="lblOlvidadoClave.Text" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="lblUsuario.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lnkOlvidado.Text" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="srtIndicaciones" xml:space="preserve">
+    <value>To change your password, click on the link below. This link will take you to a page where you must enter the new password you want for your user. Once you have changed the password, you will be redirected to the Login and can log in normally with your new password. URL:</value>
+  </data>
+  <data name="strAccesoDenegadoTitulo" xml:space="preserve">
+    <value>Access denied</value>
+  </data>
+  <data name="strCambioContraseña" xml:space="preserve">
+    <value>Recover your password.</value>
+  </data>
+  <data name="strClaveIncorrecta" xml:space="preserve">
+    <value>Wrong Password</value>
+  </data>
+  <data name="strConexionCerrada" xml:space="preserve">
+    <value>Instance-specific or network-related error while establishing a connection to the SQL Server. The server was not found or it was not accessible. Verify that the instance name is correct and that SQL Server is configured to support remote connections.</value>
+  </data>
+  <data name="strDobleFactorCorrecto" xml:space="preserve">
+    <value>Correct Double Factor</value>
+  </data>
+  <data name="strDobleFactorIncorrecto" xml:space="preserve">
+    <value>Wrong Double Factor</value>
+  </data>
+  <data name="strErrorIPContext" xml:space="preserve">
+    <value>Could not get the IP of the Context</value>
+  </data>
+  <data name="strImposibleAutentificar" xml:space="preserve">
+    <value>Cannot authenticate user</value>
+  </data>
+  <data name="strLicenciaNoActiva" xml:space="preserve">
+    <value>No active license for this module</value>
+  </data>
+  <data name="strNoEsUser" xml:space="preserve">
+    <value>This email does not belong to any profile.</value>
+  </data>
+  <data name="strNoSePudoEnviar" xml:space="preserve">
+    <value>The message could not be sent.</value>
+  </data>
+  <data name="strPageTitle" xml:space="preserve">
+    <value>TREE</value>
+  </data>
+  <data name="strPrimerIntento" xml:space="preserve">
+    <value>First Attempt</value>
+  </data>
+  <data name="strReviseCorreo" xml:space="preserve">
+    <value>Mail sent successfully. Check your inbox and follow the prompts.</value>
+  </data>
+  <data name="strSegundoIntento" xml:space="preserve">
+    <value>Second Attempt</value>
+  </data>
+  <data name="strTercerIntento" xml:space="preserve">
+    <value>Third Attempt</value>
+  </data>
+  <data name="strUsuarioCaducado" xml:space="preserve">
+    <value>The user has expired, contact an administrator.</value>
+  </data>
+  <data name="strUsuarioInactivo" xml:space="preserve">
+    <value>User deactivated. Please contact your administrator for reactivation.</value>
+  </data>
+  <data name="strUsuarioNoExiste" xml:space="preserve">
+    <value>The username or password you entered was not valid.</value>
+  </data>
+  <data name="strUsuarioSinRoles" xml:space="preserve">
+    <value>This user has not been assigned any role yet. Please contact your administrator.</value>
+  </data>
+  <data name="txtClave.FieldLabel" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="txtCode.EmptyText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="txtEmail.FieldLabel" xml:space="preserve">
+    <value>Enter Your Email</value>
+  </data>
+  <data name="txtPassword.EmptyText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="txtSeguridad.MaxLengthText" xml:space="preserve">
+    <value>You have exceeded the maximum number of characters</value>
+  </data>
+  <data name="txtUsername.EmptyText" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="txtUserName.FieldLabel" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="txtUserName.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="txtUsuario.FieldLabel" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="winCambiarClave.Title" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="winCodigo.Title" xml:space="preserve">
+    <value>Security Code</value>
+  </data>
+</root>

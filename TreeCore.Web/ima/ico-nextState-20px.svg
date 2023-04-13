@@ -1,0 +1,22 @@
+<svg id="ico-nextState-20px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2429" data-name="Rectángulo 2429" width="20" height="20" fill="none"/>
+  <g id="Elipse_442" data-name="Elipse 442" transform="translate(-632.628 -298.946)">
+    <circle id="Elipse_619" data-name="Elipse 619" cx="4" cy="4" r="4" transform="translate(642.628 309.153)" fill="none"/>
+    <circle id="Elipse_620" data-name="Elipse 620" cx="3" cy="3" r="3" transform="translate(643.628 310.153)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  </g>
+  <g id="Elipse_504" data-name="Elipse 504" transform="translate(-632.628 -298.946)">
+    <circle id="Elipse_621" data-name="Elipse 621" cx="4" cy="4" r="4" transform="translate(644.628 299.153)" fill="none"/>
+    <circle id="Elipse_622" data-name="Elipse 622" cx="3" cy="3" r="3" transform="translate(645.628 300.153)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  </g>
+  <g id="Elipse_505" data-name="Elipse 505" transform="translate(-632.628 -298.946)">
+    <circle id="Elipse_623" data-name="Elipse 623" cx="4" cy="4" r="4" transform="translate(634.628 301.153)" fill="none"/>
+    <circle id="Elipse_624" data-name="Elipse 624" cx="3" cy="3" r="3" transform="translate(635.628 302.153)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  </g>
+  <line id="Línea_1204" data-name="Línea 1204" y1="1" x2="4" transform="translate(7.5 14.707)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  <line id="Línea_1205" data-name="Línea 1205" y1="1" x2="4" transform="translate(9.5 4.707)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  <line id="Línea_1206" data-name="Línea 1206" x1="4" y1="3" transform="translate(8.5 8.707)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+  <g id="Grupo_8117" data-name="Grupo 8117" transform="translate(-632.628 -298.946)">
+    <rect id="Rectángulo_3346" data-name="Rectángulo 3346" width="20" height="20" transform="translate(632.628 298.946)" fill="none"/>
+  </g>
+  <path id="Trazado_3004" data-name="Trazado 3004" d="M639.59,310.92h-5.77a1.116,1.116,0,0,0-1.11,1.12v5.76a1.116,1.116,0,0,0,1.11,1.12h5.77a1.125,1.125,0,0,0,1.12-1.12v-5.76A1.125,1.125,0,0,0,639.59,310.92Zm-1.23,4.46-2.01,2.35a.739.739,0,0,1-.57.27.75.75,0,0,1-.57-1.24l1.57-1.84-1.71-1.8a.755.755,0,0,1,.03-1.06.745.745,0,0,1,1.06.02l2.18,2.3A.749.749,0,0,1,638.36,315.38Z" transform="translate(-632.628 -298.946)" fill="#6a6b75"/>
+</svg>

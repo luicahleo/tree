@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Grupo_7834" data-name="Grupo 7834" transform="translate(-1177 -197)">
+    <g id="Grupo_7627" data-name="Grupo 7627">
+      <rect id="Rectángulo_3029" data-name="Rectángulo 3029" width="30" height="30" rx="2" transform="translate(1177 197)" fill="none"/>
+      <g id="Grupo_7626" data-name="Grupo 7626" transform="translate(-2732.048 3509.952)">
+        <rect id="Rectángulo_3025" data-name="Rectángulo 3025" width="20" height="20" transform="translate(3914.048 -3307.952)" fill="none"/>
+        <g id="Elipse_545" data-name="Elipse 545" transform="translate(3915.048 -3307.952)" fill="none" stroke="#fff" stroke-width="2">
+          <circle cx="9" cy="9" r="9" stroke="none"/>
+          <circle cx="9" cy="9" r="8" fill="none"/>
+        </g>
+        <line id="Línea_1435" data-name="Línea 1435" x2="4.025" y2="4.025" transform="translate(3929.582 -3292.418)" fill="none" stroke="#fff" stroke-width="3"/>
+        <path id="Sustracción_20" data-name="Sustracción 20" d="M5,6C2.243,6,0,4.654,0,3S2.243,0,5,0s5,1.346,5,3S7.758,6,5,6ZM5,1.5A1.592,1.592,0,0,0,3.334,3,1.592,1.592,0,0,0,5,4.5,1.592,1.592,0,0,0,6.667,3,1.592,1.592,0,0,0,5,1.5Z" transform="translate(3919.048 -3301.952)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

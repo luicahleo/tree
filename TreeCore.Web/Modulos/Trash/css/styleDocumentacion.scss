@@ -1,0 +1,459 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+@include layoutRes(100%, 50%, 30%, 70%, 30%, 70%);
+
+
+.x-btn-over {
+    background-color: transparent !important;
+}
+
+
+/*#region OVERRIDE A LOS BOTONES SLIDER PARA 2 PANELES */
+#ctBtnSldr {
+    display: none !important;
+}
+
+@media (max-width:480px) {
+
+    #ctBtnSldr {
+        display: block !important
+    }
+}
+
+
+/*#endregion */
+
+
+
+.customColDiv1{
+
+    padding-bottom:10px;
+
+}
+
+.pnlP1FullH {
+    @include grdPnColIcons;
+    //@include panel100Alto;
+    height: 100vh !important;
+
+    .x-panel-body, .x-autocontainer-innerCt {
+        height: 90vh !important;
+    }
+
+
+    .x-panel-body-default-framed, .x-panel-bodyWrap {
+        background-color: #ffffff !important;
+    }
+}
+
+
+#tbBotMain {
+    position: absolute !important;
+    bottom: 20px !important;
+    height: 50px;
+}
+
+
+
+.CntAndTblFullH {
+    .x-autocontainer-innerCt {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CtWrap-H {
+        flex: 1 0 70%;
+
+        .x-autocontainer-innerCt {
+            display: block;
+            height: auto;
+        }
+    }
+
+    .tlb-bottom {
+        flex: 0 0 120px;
+        margin-right: 1rem;
+    }
+}
+
+#ctTxt {
+    height: 300px;
+
+    h4 {
+        margin-bottom: .5rem;
+    }
+
+    p {
+        margin-right: 1rem;
+    }
+}
+
+
+
+.btnLocalizacion {
+
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-location.svg') !important;
+    background-size: 20px;
+    width: 20px;
+}
+
+
+/*#region ESTILOS TITULO SUBTITULO TOOLBARS */
+
+/*#TBTitle, #TBTitle-innerCt {
+    height: 3rem;
+}*/
+
+.big-lbl-title {
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    padding-top: 0px;
+    display: contents;
+
+    span {
+        padding-top: 15px;
+        max-width: 75%;
+        display: block;
+        height: 3rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width:768px) {
+
+    .big-lbl-title {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+.subtitle-subcode {
+    margin-top: 5px;
+    font-size: 12px;
+    background: #FFD9AA;
+    color: #74450D;
+    border-radius: 2px !important;
+
+
+    span {
+        vertical-align: unset !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+
+    .grdcustomscroll {
+
+        .x-scroller {
+            -webkit-overflow-scrolling: touch;
+            background: rebeccapurple;
+        }
+    }
+}
+
+
+.TBSubtitle {
+    padding-bottom: 1.5rem;
+}
+/*#endregion */
+/*#region TOOLBARDONEUNDONE P2 */
+.btn-toggleGrid-Cntract {
+    font-weight: bold !important;
+
+    span {
+        color: black !important;
+        font-weight: bold;
+    }
+}
+
+/*#endregion */
+
+
+.Override100InnerH {
+
+    .x-autocontainer-innerCt {
+        height: 100% !important;
+    }
+}
+
+.OverlapIconUpF {
+    border-style: hidden !important;
+    background-image: url('/ima/ico-folder-16x16.svg');
+    width: 16px;
+    height: 16px;
+    background-color: transparent !important;
+
+   .x-btn-over .x-btn-default-small {
+        border: hidden;
+        background-image: none;
+        background-color: transparent !important;
+    }
+}
+
+
+
+
+.toolbar-noborder {
+    border: hidden !important;
+}
+
+.TopTitleCustomCol1 {
+    margin-bottom: 5px;
+}
+
+.MainTitleCustomCol1 {
+    margin-top: 0px;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    white-space: normal !important;
+}
+
+.x-grid-editor .x-form-text {
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px !important;
+}
+
+#ResumenTotalPreciosG1 {
+}
+
+.x-grid-row-summary .x-grid-cell,
+.x-grid-row-summary .x-grid-rowwrap,
+.x-grid-row-summary .x-grid-cell-rowbody {
+    background-color: $AzulNegro !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+
+/*#region GRID TRACKING */
+
+
+.grdOneCol {
+    .x-grid-item-container {
+        width: 100% !important;
+    }
+
+    .x-grid-item {
+        width: 100% !important;
+    }
+
+    .x-grid-cell-inner {
+        white-space: normal;
+        background-color: white;
+        border-bottom: 1px solid $Gris1;
+    }
+}
+
+.dvTrack {
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.dvCntComm {
+    flex: 0 0 60%;
+}
+
+.dvCntState {
+    flex: 2 0 40%;
+
+    button {
+        margin-right: .5rem;
+    }
+
+    button:last-child {
+        margin-right: 0;
+    }
+}*/
+
+
+.dvUser {
+    display: flex;
+}
+
+.dvUser img {
+    width: 30px;
+    margin-right: .2rem;
+}
+
+.userName {
+    font-size: 13px;
+    font-weight: bold;
+    color: $colPpal;
+    display: block;
+    margin-top: 2px;
+}
+
+.dvComm {
+    padding-right: 20px;
+
+    p {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 500px;
+        overflow-wrap: break-word;
+    }
+}
+
+.stateName {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+    display: block;
+    padding: .5rem .6rem .5rem 2rem;
+    font-size: 12px;
+    font-weight: 500;
+    width: 160px !important;
+    border-radius: 2px;
+    background-color: lighten($Azul,35);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stateName:before {
+    position: absolute;
+    content: URL('../../ima/ico-estados.svg');
+    height: 16px;
+    left: 8px;
+    top: 5px;
+}
+
+.btnDocUploaded {
+    width: 24px;
+    height: 24px;
+    background-color: $colPpal;
+    background-image: url('../../ima/ico-docs-bl-16px.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid $colPpal;
+    border-radius: 2px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($colPpal, 10);
+        border: 1px solid darken($colPpal, 10);
+    }
+}
+
+.btnChangesTrack {
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+    background-color: $blanco;
+    background-image: url('../../ima/ico-changes-gr-16px.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid $colPpal;
+    border-radius: 2px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($blanco, 10);
+        border: 1px solid darken($colPpal, 10);
+    }
+}
+
+
+.ico-inactivo {
+    float: right;
+    margin-top: .3rem;
+    margin-right: .3rem;
+}
+
+.dateComm {
+    position: relative;
+    display: block;
+    margin-top: 1rem;
+    width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 12px;
+}
+
+.dateComm:before {
+    position: absolute;
+    content: url('../../ima/ico-calendario-min.svg');
+    width: 10px;
+    left: 0;
+    top: 1px;
+}
+
+/*#endregion */
+
+
+
+/*#region Estilos ventanas popup docum y cambios */
+
+
+
+//WINDOW POPUP TRACKING
+
+.WinTrackDocum .x-title-text {
+    color: #06a086;
+}
+
+
+.WinTrackDocum .x-window-header-default {
+    background-color: white;
+    border-color: #DDD;
+}
+
+.WinTrackDocum .x-window-header-default-top {
+    background-color: white;
+    border-style: hidden;
+  
+}
+
+
+.WinTrackChanges .x-title-text {
+    color: #06a086;
+}
+
+.WinTrackChanges .x-window-header-default {
+    background-color: white;
+    /*border-color: #DDD;*/
+    border: 1px solid $Gris1;
+}
+
+.WinTrackChanges .x-window-header-default-top {
+    background-color: white;
+    /*border-style: hidden;
+	border-bottom-style: solid !important;
+	border-bottom-width: thick;*/
+    border: 1px solid $Gris2 !important;
+}
+
+
+.sep-subtitulos-trackchanges {
+    margin: 0.25rem;
+}
+
+.WinTrackChanges .x-fieldset {
+    background-color: $blanco;
+    border: none !important;
+    //height: 25rem;
+    margin-bottom: 0;
+}
+
+/*#endregion */
+
+
+
+
+
+.LblElipsis{
+    overflow:no-display;
+    text-overflow:ellipsis !important;
+    white-space:nowrap;
+}

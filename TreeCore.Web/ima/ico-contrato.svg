@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #6a6b75;
+        stroke-width: 1.6px;
+      }
+    </style>
+  </defs>
+  <g id="Group_3689" data-name="Group 3689" transform="translate(-682 -241)">
+    <g id="Group_3688" data-name="Group 3688" transform="translate(219 -180)">
+      <rect id="Rectangle_199" data-name="Rectangle 199" class="cls-1" width="20" height="20" transform="translate(463 421)"/>
+      <path id="Path_43" data-name="Path 43" class="cls-2" d="M138.326,585.415a1.33,1.33,0,0,1,1.557-1.381c1.645.051,11.985-.065,12.609,0a1.974,1.974,0,0,1,1.926,2.246c0,1.921.023,11.443,0,11.456s1.9,0,1.9,0V600.7s.237,1.307-2.092,1.307H143.172s-2.116.141-2.005-1.842,0-11.156,0-11.156h-2.841Z" transform="translate(325.675 -162.014)"/>
+      <path id="Path_44" data-name="Path 44" class="cls-2" d="M153.607,602.332l-9.8.029v2.621s.16,1.7-1.2,1.594" transform="translate(326.763 -166.583)"/>
+      <path id="Path_45" data-name="Path 45" class="cls-2" d="M141.731,588.478s-.03-2.768,0-2.8c0-1.53-1.056-2.2-2.452-1.474" transform="translate(325.111 -161.881)"/>
+      <path id="Path_1096" data-name="Path 1096" class="cls-2" d="M0,0H7" transform="translate(470 432)"/>
+      <path id="Path_1346" data-name="Path 1346" class="cls-2" d="M0,0H7" transform="translate(470 429)"/>
+      <path id="Path_1347" data-name="Path 1347" class="cls-2" d="M0,0H7" transform="translate(470 426)"/>
+    </g>
+    <rect id="Rectangle_1737" data-name="Rectangle 1737" class="cls-1" width="20" height="20" transform="translate(682 241)"/>
+  </g>
+</svg>

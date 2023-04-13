@@ -1,0 +1,27 @@
+﻿.ctColsSel {
+  width: calc(100% - 160px);
+  margin: 20px 80px;
+  height: 80px;
+  border: solid 1px black; }
+
+#ctColumns {
+  position: relative;
+  margin: 30px; }
+
+.ctCol {
+  display: inline-block;
+  position: relative;
+  width: 125px;
+  margin-top: 15px; }
+  .ctCol .lblNombre {
+    margin-left: 25px; }
+
+.Hidden {
+  display: none; }
+
+.btnColumna {
+  background-color: transparent;
+  border: 0; }
+
+.gridGeneral .x-grid-item-over .Hidden {
+  display: block; }

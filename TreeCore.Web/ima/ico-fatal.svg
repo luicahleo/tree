@@ -1,0 +1,20 @@
+<svg id="ico-fatal" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2442" data-name="Rectángulo 2442" width="20" height="20" fill="none"/>
+  <g id="Rectángulo_3073" data-name="Rectángulo 3073" transform="translate(1 2)" fill="none" stroke="#6a6b75" stroke-width="2">
+    <rect width="18" height="12" stroke="none"/>
+    <rect x="1" y="1" width="16" height="10" fill="none"/>
+  </g>
+  <line id="Línea_1455" data-name="Línea 1455" x2="2.851" y2="2.851" transform="translate(12.074 5.074)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_1458" data-name="Línea 1458" x2="2.851" y2="2.851" transform="translate(5.074 5.074)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <path id="Trazado_2710" data-name="Trazado 2710" d="M0,2.851,2.851,0" transform="translate(12.074 5.074)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <line id="Línea_1457" data-name="Línea 1457" y1="2.851" x2="2.851" transform="translate(5.074 5.074)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  <circle id="Elipse_553" data-name="Elipse 553" cx="1" cy="1" r="1" transform="translate(9 9)" fill="#6a6b75"/>
+  <g id="Rectángulo_3074" data-name="Rectángulo 3074" transform="translate(8 14)" fill="#fff" stroke="#6a6b75" stroke-width="1.6">
+    <rect width="4" height="2" stroke="none"/>
+    <rect x="0.8" y="0.8" width="2.4" height="0.4" fill="none"/>
+  </g>
+  <g id="Rectángulo_3075" data-name="Rectángulo 3075" transform="translate(4 16)" fill="#fff" stroke="#6a6b75" stroke-width="1">
+    <rect width="12" height="2" stroke="none"/>
+    <rect x="0.5" y="0.5" width="11" height="1" fill="none"/>
+  </g>
+</svg>

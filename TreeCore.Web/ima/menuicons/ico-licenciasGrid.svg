@@ -1,0 +1,16 @@
+<svg id="ico-licencias" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2804" data-name="Rectángulo 2804" width="20" height="20" fill="none"/>
+  <g id="Grupo_7156" data-name="Grupo 7156" transform="translate(-502 -366)">
+    <path id="Unión_23" data-name="Unión 23" d="M-15,194.491-17,197v-2.75h-5A1.25,1.25,0,0,1-23.25,193v-7.75h-3V181A1.25,1.25,0,0,1-25,179.75h14A1.25,1.25,0,0,1-9.75,181v12A1.25,1.25,0,0,1-11,194.25h-2V197Z" transform="translate(530 188)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Elipse_496" data-name="Elipse 496" transform="translate(511 373)" fill="none" stroke="#6a6b75" stroke-width="1.5">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="3.25" fill="none"/>
+    </g>
+    <path id="Trazado_2573" data-name="Trazado 2573" d="M539.941,202.855v-3.948" transform="translate(-26.941 180.862)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    <path id="Trazado_2574" data-name="Trazado 2574" d="M539.941,202.855v-3.948" transform="translate(-23 180.862)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    <line id="Línea_1110" data-name="Línea 1110" x2="5.573" transform="translate(508.927 371.5)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    <line id="Línea_1111" data-name="Línea 1111" x2="3.073" transform="translate(508.927 375.5)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    <line id="Línea_1112" data-name="Línea 1112" x2="3.073" transform="translate(508.927 378.5)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+    <path id="Trazado_2575" data-name="Trazado 2575" d="M142.335,590.2v-6.019" transform="translate(364.419 -216.173)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  </g>
+</svg>

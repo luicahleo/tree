@@ -1,0 +1,565 @@
+using System;
+using System.Collections.Generic;
+using Ext.Net;
+using CapaNegocio;
+using log4net;
+using System.Data.SqlClient;
+using System.Reflection;
+using TreeCore.APIClient;
+using TreeCore.Shared.DTO.Contracts;
+using TreeCore.Shared.ROP;
+using TreeCore.Shared.DTO.Query;
+using System.Linq;
+
+namespace TreeCore.ModGlobal
+{
+    public partial class AlquileresEstados : TreeCore.Page.BasePageExtNet
+    {
+        private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+        public List<long> listaFuncionalidades = new List<long>();
+
+        #region EVENTOS DE PAGINA
+
+        private void Page_Init(object sender, EventArgs e)
+        {
+            if (!IsPostBack && !RequestManager.IsAjaxRequest)
+            {
+                listaFuncionalidades = ((List<long>)(this.Session["FUNCIONALIDADES"]));
+
+
+                ResourceManagerOperaciones(ResourceManagerTreeCore);
+
+                #region FILTROS
+
+                List<string> listaIgnore = new List<string>()
+                { };
+
+                Comun.CreateGridFilters(gridFilters, storePrincipal, grid.ColumnModel, listaIgnore, _Locale);
+                log.Info(GetGlobalResource(Comun.LogFiltrosPerfilesCreados));
+
+                #endregion
+
+                #region SELECCION COLUMNAS
+
+                Comun.Seleccionable(grid, storePrincipal, grid.ColumnModel, listaIgnore, _Locale);
+                log.Info(GetGlobalResource(Comun.LogSeleccionElementoGrilla));
+
+                #endregion
+
+                #region REGISTRO DE ESTADISTICAS
+
+                EstadisticasController cEstadisticas = new EstadisticasController();
+                cEstadisticas.EscribeEstadisticaAccion(Usuario.UsuarioID, ClienteID, Request.Url.Segments[Request.Url.Segments.Length - 1], true, GetGlobalResource(Comun.CommentEstadisticaPageInit), "strVisitarPagina");
+                log.Info(GetGlobalResource(Comun.LogEstadisticasAgregadas));
+
+                #endregion
+
+                if (!ClienteID.HasValue)
+                {
+                    hdCliID.Value = 0;
+                }
+                else
+                {
+                    hdCliID.Value = ClienteID;
+                }
+            }
+
+            #region EXCEL
+            if (Request.QueryString["opcion"] != null)
+            {
+                string sOpcion = Request.QueryString["opcion"];
+
+                if (sOpcion == "EXPORTAR")
+                {
+                    try
+                    {
+                        List<Data.Vw_AlquileresEstados> listaDatos = null;
+                        string sOrden = Request.QueryString["orden"];
+                        string sDir = Request.QueryString["dir"];
+                        string sFiltro = Request.QueryString["filtro"];
+                        long CliID = long.Parse(Request.QueryString["cliente"]);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        log.Error(ex.Message);
+                        Response.Write("ERROR: " + ex.Message);
+                    }
+
+                    Response.End();
+                }
+
+                ResourceManagerTreeCore.RegisterIcon(Icon.CogGo);
+            }
+            #endregion
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            sPagina = System.IO.Path.GetFileName(Request.Url.AbsolutePath);
+            funtionalities = new System.Collections.Hashtable() {
+            { "Read", new List<ComponentBase> { } },
+            { "Download", new List<ComponentBase> { btnDescargar }},
+            { "Post", new List<ComponentBase> { btnAnadir }},
+            { "Put", new List<ComponentBase> { btnEditar, btnActivar, btnDefecto }},
+            { "Delete", new List<ComponentBase> { btnEliminar }}
+        };
+
+        }
+
+        #endregion
+
+        #region STORES
+
+        #region PRINCIPAL
+
+        protected void storePrincipal_Refresh(object sender, Ext.Net.StoreReadDataEventArgs e)
+        {
+            if (RequestManager.IsAjaxRequest)
+            {
+                Store store = (Store)sender;
+                try
+                {
+                    BaseAPIClient<ContractStatusDTO> ApiClient = new BaseAPIClient<ContractStatusDTO>(TOKEN_API);
+                    var lista = ApiClient.GetList().Result;
+                    if (lista != null)
+                    {
+                        store.DataSource = lista.Value;
+                        store.DataBind();
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    log.Error(ex.Message);
+                }
+            }
+        }
+
+        #endregion
+
+        #endregion
+
+        #region DIRECT METHOD
+
+        [DirectMethod()]
+        public DirectResponse AgregarEditar(bool bAgregar)
+        {
+            DirectResponse direct = new DirectResponse();
+            BaseAPIClient<ContractStatusDTO> ApiClient = new BaseAPIClient<ContractStatusDTO>(TOKEN_API);
+            ContractStatusDTO oDato;
+
+            try
+            {
+                if (!bAgregar)
+                {
+                    string oCode = GridRowSelect.SelectedRecordID;
+
+                    oDato = ApiClient.GetByCode(oCode).Result.Value;
+
+                    var originalCode = oDato.Code;
+
+                    oDato.Name = txtEstado.Text;
+                    oDato.Code = txtCodigo.Text;
+                    oDato.Description = txtDescripcion.Text;
+
+                    var Result = ApiClient.UpdateEntity(originalCode, oDato).Result;
+
+                    if (Result.Success)
+                    {
+                        log.Info(GetGlobalResource(Comun.LogActualizacionRealizada));
+                    }
+                    else
+                    {
+                        direct.Success = false;
+                        direct.Result = Result.Errors[0].Message;
+                        return direct;
+                    }
+                }
+                else
+                {
+                    oDato = new ContractStatusDTO
+                    {
+                        Name = txtEstado.Text,
+                        Code = txtCodigo.Text,
+                        Description = txtDescripcion.Text,
+                        Active = true,
+                        Default = false
+                    };
+
+                    var Result = ApiClient.AddEntity(oDato).Result;
+
+                    if (Result.Success)
+                    {
+                        log.Info(GetGlobalResource(Comun.LogAgregacionRealizada));
+                    }
+                    else
+                    {
+                        direct.Success = false;
+                        direct.Result = Result.Errors[0].Message;
+                        return direct;
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                direct.Success = false;
+                direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                log.Error(ex.Message);
+                return direct;
+            }
+
+            direct.Success = true;
+            direct.Result = "";
+
+            return direct;
+        }
+
+        [DirectMethod()]
+        public DirectResponse MostrarEditar()
+        {
+            DirectResponse direct = new DirectResponse();
+            try
+            {
+                string oCode = GridRowSelect.SelectedRecordID;
+                BaseAPIClient<ContractStatusDTO> ApiClient = new BaseAPIClient<ContractStatusDTO>(TOKEN_API);
+                var oDato = ApiClient.GetByCode(oCode).Result;
+                txtEstado.Text = oDato.Value.Name;
+                txtCodigo.Text = oDato.Value.Code;
+                txtDescripcion.Text = oDato.Value.Description;
+                winGestion.Show();
+            }
+            catch (Exception ex)
+            {
+                direct.Success = false;
+                direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                log.Error(ex.Message);
+                return direct;
+            }
+
+            direct.Success = true;
+            direct.Result = "";
+
+            return direct;
+        }
+
+        [DirectMethod()]
+        public DirectResponse AsignarPorDefecto()
+        {
+            DirectResponse direct = new DirectResponse();
+            BaseAPIClient<ContractStatusDTO> ApiClient = new BaseAPIClient<ContractStatusDTO>(TOKEN_API);
+            ContractStatusDTO oDato;
+            ResultDto<ContractStatusDTO> oResult;
+
+            try
+            {
+                string oCode = GridRowSelect.SelectedRecordID;
+                oDato = ApiClient.GetByCode(oCode).Result.Value;
+                oDato.Default = true;
+                oDato.Active = true;
+
+                var Result = ApiClient.UpdateEntity(oDato.Code, oDato).Result;
+
+                if (Result.Success)
+                {
+                    log.Info(GetGlobalResource(Comun.LogCambioRegistroPorDefecto));
+                }
+                else
+                {
+                    direct.Success = false;
+                    direct.Result = Result.Errors[0].Message;
+                    return direct;
+                }
+            }
+            catch (Exception ex)
+            {
+                direct.Success = false;
+                direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                log.Error(ex.Message);
+                return direct;
+            }
+
+            direct.Success = true;
+            direct.Result = "";
+
+            return direct;
+        }
+        [DirectMethod()]
+        public DirectResponse Eliminar()
+        {
+            DirectResponse direct = new DirectResponse();
+            BaseAPIClient<ContractStatusDTO> ApiClient = new BaseAPIClient<ContractStatusDTO>(TOKEN_API);
+
+            var lID = GridRowSelect.SelectedRecordID;
+
+            try
+            {
+                var Result = ApiClient.DeleteEntity(lID).Result;
+
+                if (Result.Success)
+                {
+                    log.Info(GetGlobalResource(Comun.LogEliminacionRealizada));
+                }
+                else
+                {
+                    direct.Success = false;
+                    direct.Result = Result.Errors[0].Message;
+                    return direct;
+                }
+            }
+            catch (Exception ex)
+            {
+                if (ex is SqlException Sql)
+                {
+                    direct.Success = false;
+                    direct.Result = GetGlobalResource(Comun.jsTieneRegistros);
+                    log.Error(Sql.Message);
+                    return direct;
+                }
+                else
+                {
+                    direct.Success = false;
+                    direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                    log.Error(ex.Message);
+                    return direct;
+                }
+            }
+
+            return direct;
+        }
+
+        [DirectMethod()]
+        public DirectResponse Activar()
+        {
+            DirectResponse direct = new DirectResponse();
+            BaseAPIClient<ContractStatusDTO> ApiClient = new BaseAPIClient<ContractStatusDTO>(TOKEN_API);
+            ContractStatusDTO oDato;
+
+            try
+            {
+                string oCode = GridRowSelect.SelectedRecordID;
+                oDato = ApiClient.GetByCode(oCode).Result.Value;
+                oDato.Active = !oDato.Active;
+
+                var Result = ApiClient.UpdateEntity(oDato.Code, oDato).Result;
+
+                if (Result.Success)
+                {
+                    log.Info(GetGlobalResource(Comun.LogActivacionRealizada));
+                }
+                else
+                {
+                    direct.Success = false;
+                    direct.Result = Result.Errors[0].Message;
+                    return direct;
+                }
+            }
+            catch (Exception ex)
+            {
+                direct.Success = false;
+                direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                log.Error(ex.Message);
+                return direct;
+            }
+
+            direct.Success = true;
+            direct.Result = "";
+
+            return direct;
+        }
+
+        #endregion
+
+        #region FUNCTIONS
+
+        #region CONTRATO VIGENTE
+
+        [DirectMethod()]
+        public DirectResponse ContratoVigente()
+        {
+            DirectResponse direct = new DirectResponse();
+            AlquileresEstadosController cAlquileresEstados = new AlquileresEstadosController();
+
+            try
+            {
+                long lS = long.Parse(GridRowSelect.SelectedRecordID);
+                Data.AlquileresEstados oEstado;
+                Data.AlquileresEstados oEstadoVigente;
+
+                oEstado = cAlquileresEstados.GetItem(lS);
+
+                if (!oEstado.NoVigente)
+                {
+                    if (!oEstado.Vigente)
+                    {
+                        oEstado.Vigente = true;
+                    }
+                    else
+                    {
+                        oEstado.Vigente = false;
+                    }
+
+                    //Buscar si hay un Elemento por Defecto
+                    oEstadoVigente = cAlquileresEstados.GetEstadoVigente();
+                    //Si hay y es distinto al Seleccionado
+                    if ((oEstadoVigente != null))
+                    {
+                        oEstadoVigente.Vigente = false;
+                        cAlquileresEstados.UpdateItem(oEstadoVigente);
+                    }
+
+                    cAlquileresEstados.UpdateItem(oEstado);
+                }
+                else
+                {
+                    Ext.Net.Notification.Show(new Ext.Net.NotificationConfig
+                    {
+                        Title = Comun.SafeResourceLookup(this, "jsAtencion"),
+                        Icon = Icon.Information,
+                        Height = 100,
+                        Width = 300,
+                        PinEvent = "none",
+                        AlignCfg = new Ext.Net.NotificationAlignConfig
+                        {
+                            ElementAnchor = Ext.Net.AnchorPoint.Center,
+                            TargetAnchor = Ext.Net.AnchorPoint.Center,
+                        },
+
+                        Html = "<p>" + Comun.SafeResourceLookup(this, "jsMsgNoVigente") + "</p>"
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                direct.Success = false;
+                direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                log.Error(ex.Message);
+                return direct;
+
+            }
+
+            direct.Success = true;
+            direct.Result = "";
+
+            return direct;
+        }
+
+        #endregion
+
+        #region CONTRATO NO VIGENTE
+
+        [DirectMethod()]
+        public DirectResponse ContratoNoVigente()
+        {
+            DirectResponse direct = new DirectResponse();
+            AlquileresEstadosController cAlquileresEstados = new AlquileresEstadosController();
+
+            try
+            {
+                long lS = long.Parse(GridRowSelect.SelectedRecordID);
+                Data.AlquileresEstados oEstado;
+                Data.AlquileresEstados oEstadoNoVigente;
+
+                oEstado = cAlquileresEstados.GetItem(lS);
+
+                if (!oEstado.Vigente)
+                {
+                    if (!oEstado.NoVigente)
+                    {
+                        oEstado.NoVigente = true;
+                    }
+                    else
+                    {
+                        oEstado.NoVigente = false;
+                    }
+
+                    //Buscar si hay un Elemento por Defecto
+                    oEstadoNoVigente = cAlquileresEstados.GetEstadoNoVigente();
+                    //Si hay y es distinto al Seleccionado
+                    if ((oEstadoNoVigente != null))
+                    {
+                        oEstadoNoVigente.NoVigente = false;
+                        cAlquileresEstados.UpdateItem(oEstadoNoVigente);
+                    }
+
+                    cAlquileresEstados.UpdateItem(oEstado);
+                }
+                else
+                {
+                    Ext.Net.Notification.Show(new Ext.Net.NotificationConfig
+                    {
+                        Title = Resources.Comun.jsAtencion,
+                        Icon = Icon.Information,
+                        Height = 100,
+                        Width = 300,
+                        PinEvent = "none",
+                        AlignCfg = new Ext.Net.NotificationAlignConfig
+                        {
+                            ElementAnchor = Ext.Net.AnchorPoint.Center,
+                            TargetAnchor = Ext.Net.AnchorPoint.Center,
+                        },
+
+                        Html = "<p>" + Comun.SafeResourceLookup(this, "jsMsgNoVigente") + "</p>"
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                direct.Success = false;
+                direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                log.Error(ex.Message);
+                return direct;
+
+            }
+
+            direct.Success = true;
+            direct.Result = "";
+
+            return direct;
+        }
+
+        #endregion
+
+        #region CONTRATO RESCINDIDO
+
+        [DirectMethod()]
+        public DirectResponse Rescindir()
+        {
+            DirectResponse direct = new DirectResponse();
+            AlquileresEstadosController cAlquileresEstados = new AlquileresEstadosController();
+
+            try
+            {
+                long lS = long.Parse(GridRowSelect.SelectedRecordID);
+
+                Data.AlquileresEstados oDato;
+                oDato = cAlquileresEstados.GetItem(lS);
+                oDato.Rescindido = !oDato.Rescindido;
+
+                if (cAlquileresEstados.UpdateItem(oDato))
+                {
+                    storePrincipal.DataBind();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                direct.Success = false;
+                direct.Result = GetGlobalResource(Comun.strMensajeGenerico);
+                log.Error(ex.Message);
+                return direct;
+
+            }
+
+            direct.Success = true;
+            direct.Result = "";
+
+            return direct;
+        }
+
+        #endregion
+
+        #endregion
+    }
+}

@@ -1,0 +1,477 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+//Layout responsive
+
+//-- para cambiar tamaños, editar variables --// 
+$colSize768: 50%;
+$mobSize: 100%;
+
+$colPpal1440: 100%;
+$colSec1440: 0%;
+
+$colPpal1024: 100%;
+$colSec1024: 0%;
+
+//--no editar sin consultar --//
+#ctBtnSldr {
+	display:none;
+	width: 96%;
+	margin-bottom:.5rem;
+}
+#ctBtnSldr-innerCt{
+	float:right;
+	width: 80px;
+}
+
+#ctMain1-outerCt{
+	height:100% !important;
+}
+
+#btnPrevSldr, #btnNextSldr {
+	@include btn-transp;
+	background-color: $Gris1 !important;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+#btnPrevSldr {
+	margin-right: .3rem;
+}
+
+#btnPrevSldr.x-btn-default-small, #btnNextSldr.x-btn-default-small {
+	padding: 2px 2px 2px 2px;
+}
+
+.btnMainSldr-dis{
+	opacity: 0.5;
+	pointer-events: none !important;
+	cursor:none;
+}
+
+#ctSlider {
+	width: 96%;
+}
+
+#ctSlider-innerCt {
+	display: flex;
+	height: 100vh !important;
+	overflow:hidden;
+}
+
+#ctMain1 {
+	margin-right: 1rem;
+	//background-color: #fca7a7;
+	flex: 0 0 calc(#{$colPpal1440} - 1rem);
+}
+
+#ctMain2 {
+	margin-right: 1rem;
+	background-color: #b7fab7;
+	flex: 0 0 calc(#{$colSec1440} - 1rem);
+}
+#ctMain3 {
+	background-color: #a8e0f8;
+	flex: 0 0 calc(#{$colSec1440} - 1rem);
+}
+
+#btnCollapseAsR {
+	position: fixed;
+	display: block;
+	width: 20px;
+	height: 20px;
+	top: 8px;
+	right: 8px;
+	z-index: 99;
+	@include bgBtn-ico;
+	background-image: url('../../ima/ico-moveRight.svg');
+	background-color: $Gris2;
+	border-radius: 2px;
+	transition: all 0.3s ease-out;
+
+	&.x-btn-default-small {
+		border-color: rgba(0,0,0,0);
+		
+	}
+}
+
+#pnAsideR {
+	position: fixed;
+	width: 360px;
+	top: 0;
+	right: 0;
+	box-shadow: 2px 0px 4px 3px rgba(0,0,0,0.16);
+	z-index: 9;
+	transition: margin ease 0.3s;
+}
+
+#pnAsideR-innerCt {
+	height: 100vh !important;
+	background-color: $colBg;
+	padding: 1rem;
+}
+
+.lblHeadAside {
+	display:block;
+	margin-top: 2rem;
+	margin-left: 1rem;
+	color: $colPpal;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#hugeCt {
+background-color: $Amarillo3;
+width: 100%;
+height: 100vh;
+}
+
+#lblAqui{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+@media (max-width:1024px) {
+
+	#ctBtnSldr {
+		display: block;
+	}
+
+	#ctMain1 {
+		margin-right: 1rem;
+		flex: 0 0 calc(#{$colPpal1024} - 1rem);
+	}
+
+	#ctMain2 {
+		margin-right: 1rem;
+		flex: 0 0 calc(#{$colSec1024} - 1rem);
+	}
+
+	#ctMain3 {
+		flex: 0 0 calc(#{$colSec1024} - 1rem);
+	}
+}
+
+
+@media (max-width:768px) {
+	#ctMain1, #ctMain2, #ctMain3 {
+		flex: 0 0 calc($colSize768 - 1rem);
+	}
+}
+
+@media (max-width:480px) {
+	#ctSlider {
+		margin: 0 auto;
+	}
+
+	#ctMain1, #ctMain2, #ctMain3 {
+		flex: 0 0 $mobSize;
+	}
+}
+@media (max-width:320px) {
+	#ctSlider {
+		margin: 0 auto;
+	}
+
+	#ctMain1, #ctMain2, #ctMain3 {
+		flex: 0 0 $mobSize;
+	}
+}
+
+
+//Layout responsive
+
+
+/*#region PANEL DERECHO */
+
+
+#pnAsideR { ///_-------- Esto está en Tcore -------//
+	position: fixed;
+	width: 360px;
+	top: 0;
+	right: 0;
+	box-shadow: 2px 0px 4px 3px rgba(0,0,0,0.16);
+	z-index: 9;
+	transition: margin ease 0.3s;
+}
+
+#pnAsideR-innerCt {
+	height: 100vh !important;
+	background-color: $colBg;
+	padding: 0;
+	//padding: 1rem;
+}
+
+.lblHeadAside {
+	display: block;
+	margin-top: 1rem;
+	margin-left: .5rem;
+	color: $colPpal;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+///_--------  Fin Esto está en Tcore -------//
+
+.ctAsideR {
+	margin-top: 1rem;
+}
+
+#ctAsideR-innerCt {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#mnAsideR {
+	flex: 0 0 40px;
+	border-right: 1px solid $Gris1 !important;
+}
+
+#mnAsideR-innerCt {
+	height: 100vh;
+}
+
+#pnGridsAsideR {
+	flex: 1 1 90%;
+	height: 100vh;
+
+	#pnGridsAsideR-innerCt {
+		height: 100vh;
+	}
+}
+
+.tlbGrdAsR {
+	margin-top: 1rem;
+	padding-left: .5rem;
+}
+
+.lblRecordName {
+	display: block;
+	background-color: $Gris1;
+	font-size: 11px;
+	color: $GrisNegro;
+	text-transform: uppercase;
+	padding: .5rem .5rem .5rem 1.6rem;
+	height: 2rem;
+	position: relative;
+
+	&:before {
+		content: '';
+		display: block;
+		height: 1rem;
+		border-left: 4px solid $GrisNegro;
+		position: absolute;
+		left: 1rem;
+		top: 8px;
+	}
+}
+
+.grdIntoAside {
+	@include gridIntoAside;
+}
+
+
+/*#endregion */
+
+
+/*#region Custom Triggers */
+
+.SearchIcoTxtSpec {
+	background-image: url("/ima/ico-buscar.svg");
+	width: 30px;
+	height: 35px;
+}
+
+/*#endregion */
+
+
+.col-Docs-btn {
+	background-repeat:no-repeat !important;
+	background-color: transparent !important;
+	border-style:hidden !important;
+	background-position:center center;
+	display: inline-block;
+	width: 16px;
+	height: 37px !important;
+	background-image: url(../../ima/ico-docsDataGrid.svg);
+	background-size: 16px;
+}
+
+
+
+.OrangBack {
+	color: $Marron;
+	background-color: $Amarillo4;
+	border-radius: 5px;
+	padding: 0px 8px 0px 8px;
+	margin: 0px 4px 0px 4px;
+	transition: 0.5s;
+}
+
+.OrangBack:hover {
+	background-color: $Amarillo;
+}
+
+
+.ico-close-label {
+	background-image: url('/ima/ico-close.svg');
+	width: 12px;
+	background-repeat:no-repeat;
+}
+
+.lblFilters {
+
+	img {
+		margin-top: 10px !important;
+	}
+}
+
+.lblsearchCol {
+	font-size: 14px !important;
+	height: 21px;
+	display: inline-block;
+	text-align: end;
+	font-weight: normal;
+	cursor:pointer;
+}
+
+
+.icon-combo-item {
+	background-repeat: no-repeat !important;
+	background-position: 3px 50% !important;
+	padding-left: 30px !important;
+}
+
+
+.x-boundlist-item {
+	height: 35px;
+}
+
+.x-textfield-icon {
+	top: 8px !important;
+	padding-right:30px !important;
+}
+
+
+
+
+/*#region PANEL DERECHO */
+
+
+#pnAsideR { ///_-------- Esto está en Tcore -------//
+	position: fixed;
+	width: 360px;
+	top: 0;
+	right: 0;
+	box-shadow: 2px 0px 4px 3px rgba(0,0,0,0.16);
+	z-index: 9;
+	transition: margin ease 0.3s;
+}
+
+#pnAsideR-innerCt {
+	height: 100vh !important;
+	background-color: $colBg;
+	padding: 0;
+	//padding: 1rem;
+}
+
+.lblHeadAside {
+	display: block;
+	margin-top: 1rem;
+	margin-left: .5rem;
+	color: $colPpal;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+///_--------  Fin Esto está en Tcore -------//
+
+.ctAsideR {
+	margin-top: 1rem;
+}
+
+#ctAsideR-innerCt {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#mnAsideR {
+	flex: 0 0 40px;
+	border-right: 1px solid $Gris1 !important;
+}
+
+#mnAsideR-innerCt {
+	height: 100vh;
+}
+
+#pnGridsAsideR {
+	flex: 1 1 90%;
+	height: 100vh;
+
+	#pnGridsAsideR-innerCt {
+		height: 100vh;
+	}
+}
+
+.tlbGrdAsR {
+	margin-top: 1rem;
+	padding-left: .5rem;
+}
+
+.lblRecordName {
+	display: block;
+	background-color: $Gris1;
+	font-size: 11px;
+	color: $GrisNegro;
+	text-transform: uppercase;
+	padding: .5rem .5rem .5rem 1.6rem;
+	height: 2rem;
+	position: relative;
+
+	&:before {
+		content: '';
+		display: block;
+		height: 1rem;
+		border-left: 4px solid $GrisNegro;
+		position: absolute;
+		left: 1rem;
+		top: 8px;
+	}
+}
+
+.grdIntoAside {
+	@include gridIntoAside;
+}
+
+
+/*#endregion */
+
+
+.x-autocontainer-innerCt {
+	background: #F6F6F6;
+}
+
+
+.tbNobackground{
+	background-color:transparent !important;
+
+}
+
+
+
+.gridPanel {
+	border-top-width: 3px !important;
+	border-top-color: #062743;
+}
+
+.x-label-value {
+	vertical-align: sub;
+}
+
+.x-form-text-wrap {
+	height: 2.1rem !important;
+}
+
+.coincidencias-wrap {
+	padding-top: 3px;
+}

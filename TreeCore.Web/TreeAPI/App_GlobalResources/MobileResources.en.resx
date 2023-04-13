@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="srv_access_type_access" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="srv_auth_error" xml:space="preserve">
+    <value>Authentication error</value>
+  </data>
+  <data name="srv_auth_error_mac" xml:space="preserve">
+    <value>Authentication error, device is invalid</value>
+  </data>
+  <data name="srv_cliente_id_invalid" xml:space="preserve">
+    <value>Invalid ClientID</value>
+  </data>
+  <data name="srv_cod_error" xml:space="preserve">
+    <value>Customer code validation error</value>
+  </data>
+  <data name="srv_codigo_no_valido" xml:space="preserve">
+    <value>This code is not valid</value>
+  </data>
+  <data name="srv_default_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="srv_element_invalid_inactive" xml:space="preserve">
+    <value>Invalid or inactive element</value>
+  </data>
+  <data name="srv_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="srv_error_informacion_emplazamineto" xml:space="preserve">
+    <value>The location does not exist.</value>
+  </data>
+  <data name="srv_error_informacion_seguimiento" xml:space="preserve">
+    <value>There is no follow-up.</value>
+  </data>
+  <data name="srv_error_update" xml:space="preserve">
+    <value>Update error</value>
+  </data>
+  <data name="srv_estado_distinto" xml:space="preserve">
+    <value>The site has already been validated by another user.</value>
+  </data>
+  <data name="srv_exception" xml:space="preserve">
+    <value>Server exception</value>
+  </data>
+  <data name="srv_form_comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="srv_form_photos" xml:space="preserve">
+    <value>Photos Min: </value>
+  </data>
+  <data name="srv_form_photos_optional" xml:space="preserve">
+    <value>Photos (optional)</value>
+  </data>
+  <data name="srv_form_required_element" xml:space="preserve">
+    <value>Element required</value>
+  </data>
+  <data name="srv_form_send" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="srv_install_type_civil_work" xml:space="preserve">
+    <value>Civil Work</value>
+  </data>
+  <data name="srv_install_type_technical" xml:space="preserve">
+    <value>Technical</value>
+  </data>
+  <data name="srv_invalid_category_id" xml:space="preserve">
+    <value>Invalid CategoryID</value>
+  </data>
+  <data name="srv_invalid_form_data" xml:space="preserve">
+    <value>Invalid form data</value>
+  </data>
+  <data name="srv_invalid_inventory_element_id" xml:space="preserve">
+    <value>Invalid item ID</value>
+  </data>
+  <data name="srv_invalid_pais_id" xml:space="preserve">
+    <value>Invalid countryID</value>
+  </data>
+  <data name="srv_invalid_provincia_id" xml:space="preserve">
+    <value>Invalid ProvinceID</value>
+  </data>
+  <data name="srv_invalid_proyecto_tipo" xml:space="preserve">
+    <value>Project Invalid type</value>
+  </data>
+  <data name="srv_invalid_region_pais_id" xml:space="preserve">
+    <value>Invalid RegionCountryID</value>
+  </data>
+  <data name="srv_invalid_site_id" xml:space="preserve">
+    <value>Invalid siteID</value>
+  </data>
+  <data name="srv_invalid_user" xml:space="preserve">
+    <value>Invalid user</value>
+  </data>
+  <data name="srv_invalid_user_or_project_id" xml:space="preserve">
+    <value>Invalid user or project id</value>
+  </data>
+  <data name="srv_maintenance_type_corrective" xml:space="preserve">
+    <value>Corrective</value>
+  </data>
+  <data name="srv_maintenance_type_low_demand_service" xml:space="preserve">
+    <value>Low Demand Service</value>
+  </data>
+  <data name="srv_maintenance_type_preventive" xml:space="preserve">
+    <value>Preventive</value>
+  </data>
+  <data name="srv_maintenance_type_programmed_tasks" xml:space="preserve">
+    <value>Programmed Tasks</value>
+  </data>
+  <data name="srv_no_categorias_sitios" xml:space="preserve">
+    <value>No categories found</value>
+  </data>
+  <data name="srv_no_empresas_proveedoras" xml:space="preserve">
+    <value>No Provider Companies were found</value>
+  </data>
+  <data name="srv_no_existe_estado_siguiente" xml:space="preserve">
+    <value>There is no validation state.</value>
+  </data>
+  <data name="srv_no_inventario_categorias" xml:space="preserve">
+    <value>No Inventory Categories</value>
+  </data>
+  <data name="srv_no_inventory_elements" xml:space="preserve">
+    <value>No Inventory Elements found</value>
+  </data>
+  <data name="srv_no_municipios" xml:space="preserve">
+    <value>No municipalities were found</value>
+  </data>
+  <data name="srv_no_provincias" xml:space="preserve">
+    <value>No provinces found</value>
+  </data>
+  <data name="srv_no_regiones_paises" xml:space="preserve">
+    <value>No regions found</value>
+  </data>
+  <data name="srv_no_tamanos_emplazamientos" xml:space="preserve">
+    <value>No site sizes were found</value>
+  </data>
+  <data name="srv_no_tipos_edificios" xml:space="preserve">
+    <value>No building types found</value>
+  </data>
+  <data name="srv_no_tipos_emplazamientos" xml:space="preserve">
+    <value>No types of sites found</value>
+  </data>
+  <data name="srv_ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="srv_project_not_found" xml:space="preserve">
+    <value>Project not found</value>
+  </data>
+  <data name="srv_site_invalid_id" xml:space="preserve">
+    <value>Invalid SiteID</value>
+  </data>
+  <data name="srv_state_msg_tasks_complete" xml:space="preserve">
+    <value>Tasks Complete</value>
+  </data>
+  <data name="srv_uninstall_type_electrical" xml:space="preserve">
+    <value>Electrical</value>
+  </data>
+  <data name="srv_uninstall_type_technical" xml:space="preserve">
+    <value>Technical</value>
+  </data>
+  <data name="srv_user_invalid_inactive" xml:space="preserve">
+    <value>Invalid or inactive user</value>
+  </data>
+  <data name="state_ACCESO_DENEGADO_date" xml:space="preserve">
+    <value>Date of Denied Access</value>
+  </data>
+  <data name="state_ACCESO_DENEGADO_next" xml:space="preserve">
+    <value>Deny Access</value>
+  </data>
+  <data name="state_ACCESO_FINALIZADO_date" xml:space="preserve">
+    <value>Date of Access Finished</value>
+  </data>
+  <data name="state_ACCESO_FINALIZADO_next" xml:space="preserve">
+    <value>Access Finished</value>
+  </data>
+  <data name="state_BLOQUEADO_date" xml:space="preserve">
+    <value>Date of Revision</value>
+  </data>
+  <data name="state_BLOQUEADO_next" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="state_CANCELADO_CLIENTE_date" xml:space="preserve">
+    <value>Date of Cancellation by Customer</value>
+  </data>
+  <data name="state_CANCELADO_CLIENTE_next" xml:space="preserve">
+    <value>Cancellation by Customer</value>
+  </data>
+  <data name="state_CANCELADO_date" xml:space="preserve">
+    <value>Date Rejected</value>
+  </data>
+  <data name="state_CANCELADO_next" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="state_CARGA_INICIAL_date" xml:space="preserve">
+    <value>Initial Charge Date</value>
+  </data>
+  <data name="state_CARGA_INICIAL_next" xml:space="preserve">
+    <value>Initial load</value>
+  </data>
+  <data name="state_CERRADO_ABORT_date" xml:space="preserve">
+    <value>Date Dismissed</value>
+  </data>
+  <data name="state_CERRADO_ABORT_next" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="state_COMUNICACION_PREVIA_date" xml:space="preserve">
+    <value>Date of Previous Communication</value>
+  </data>
+  <data name="state_COMUNICACION_PREVIA_next" xml:space="preserve">
+    <value>Previous Communication</value>
+  </data>
+  <data name="state_CONTRATO_CANCELADO_date" xml:space="preserve">
+    <value>Date of Cancel Contract</value>
+  </data>
+  <data name="state_CONTRATO_CANCELADO_next" xml:space="preserve">
+    <value>Cancel Contract</value>
+  </data>
+  <data name="state_DESBLOQUEADO_date" xml:space="preserve">
+    <value>Date Unlocked</value>
+  </data>
+  <data name="state_DESBLOQUEADO_next" xml:space="preserve">
+    <value>Unlocked</value>
+  </data>
+  <data name="state_DESISTIDO_date" xml:space="preserve">
+    <value>Date Dismissed</value>
+  </data>
+  <data name="state_DESISTIDO_next" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="state_EN_REVISION_date" xml:space="preserve">
+    <value>Date of Review</value>
+  </data>
+  <data name="state_EN_REVISION_next" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="state_INTEGRACION_COMPLETADA_date" xml:space="preserve">
+    <value>Date of Integration</value>
+  </data>
+  <data name="state_INTEGRACION_COMPLETADA_next" xml:space="preserve">
+    <value>Close installation</value>
+  </data>
+  <data name="state_LANZADO_date" xml:space="preserve">
+    <value>Date of Launch</value>
+  </data>
+  <data name="state_LANZADO_next" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="state_MEDIDOR_CEDIDO_date" xml:space="preserve">
+    <value>Date of measurement</value>
+  </data>
+  <data name="state_MEDIDOR_CEDIDO_next" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="state_OBRA_CERTIFICADA_date" xml:space="preserve">
+    <value>Date of Certification work</value>
+  </data>
+  <data name="state_OBRA_CERTIFICADA_next" xml:space="preserve">
+    <value>Certify work</value>
+  </data>
+  <data name="state_OBRA_EN_CURSO_date" xml:space="preserve">
+    <value>Work Date</value>
+  </data>
+  <data name="state_OBRA_EN_CURSO_next" xml:space="preserve">
+    <value>Start work</value>
+  </data>
+  <data name="state_OBRA_FINALIZADA_date" xml:space="preserve">
+    <value>Date of Finished work</value>
+  </data>
+  <data name="state_OBRA_FINALIZADA_next" xml:space="preserve">
+    <value>Execute work</value>
+  </data>
+  <data name="state_PENDIENTE_ACCESO_date" xml:space="preserve">
+    <value>Date of Pending Access</value>
+  </data>
+  <data name="state_PENDIENTE_ACCESO_next" xml:space="preserve">
+    <value>Pending Access</value>
+  </data>
+  <data name="state_PENDIENTE_AMPLIACION_date" xml:space="preserve">
+    <value>Date of Pending Electrical Extension</value>
+  </data>
+  <data name="state_PENDIENTE_AMPLIACION_next" xml:space="preserve">
+    <value>Install Transmission</value>
+  </data>
+  <data name="state_PENDIENTE_APROBACION_ACCESO_date" xml:space="preserve">
+    <value>Date of Access Approval</value>
+  </data>
+  <data name="state_PENDIENTE_APROBACION_ACCESO_next" xml:space="preserve">
+    <value>Request Access</value>
+  </data>
+  <data name="state_PENDIENTE_AUTORIZACION_date" xml:space="preserve">
+    <value>Date of Pending Authorization</value>
+  </data>
+  <data name="state_PENDIENTE_AUTORIZACION_next" xml:space="preserve">
+    <value>Pending Authorization</value>
+  </data>
+  <data name="state_PENDIENTE_BAJA_date" xml:space="preserve">
+    <value>Date of Pending request</value>
+  </data>
+  <data name="state_PENDIENTE_BAJA_next" xml:space="preserve">
+    <value>Send Cancel Request</value>
+  </data>
+  <data name="state_PENDIENTE_DESINSTALACION_date" xml:space="preserve">
+    <value>Date of Pending Uninstall</value>
+  </data>
+  <data name="state_PENDIENTE_DESINSTALACION_next" xml:space="preserve">
+    <value>Authorize Uninstall</value>
+  </data>
+  <data name="state_PENDIENTE_DEVOLUCION_LLAVE_date" xml:space="preserve">
+    <value>Date of Pending Key Return</value>
+  </data>
+  <data name="state_PENDIENTE_DEVOLUCION_LLAVE_next" xml:space="preserve">
+    <value>Pending Key Return</value>
+  </data>
+  <data name="state_PENDIENTE_EQUIPOS_date" xml:space="preserve">
+    <value>Date of Equipment Installation</value>
+  </data>
+  <data name="state_PENDIENTE_EQUIPOS_next" xml:space="preserve">
+    <value>Authorize Teams</value>
+  </data>
+  <data name="state_PENDIENTE_INICIO_OBRA_date" xml:space="preserve">
+    <value>Date of Pending Work Start</value>
+  </data>
+  <data name="state_PENDIENTE_INICIO_OBRA_next" xml:space="preserve">
+    <value>Plan Start of Work</value>
+  </data>
+  <data name="state_PENDIENTE_LLAVE_date" xml:space="preserve">
+    <value>Date of Key request pending</value>
+  </data>
+  <data name="state_PENDIENTE_LLAVE_next" xml:space="preserve">
+    <value>Key request pending</value>
+  </data>
+  <data name="state_PENDIENTE_OBRA_CIVIL_date" xml:space="preserve">
+    <value>Work Date</value>
+  </data>
+  <data name="state_PENDIENTE_OBRA_CIVIL_next" xml:space="preserve">
+    <value>Apply for closing of civil work</value>
+  </data>
+  <data name="state_PENDIENTE_ON_AIR_date" xml:space="preserve">
+    <value>Date On Air</value>
+  </data>
+  <data name="state_PENDIENTE_ON_AIR_next" xml:space="preserve">
+    <value>On Air</value>
+  </data>
+  <data name="state_PENDIENTE_OPERADOR_date" xml:space="preserve">
+    <value>Date of Pending Operator</value>
+  </data>
+  <data name="state_PENDIENTE_OPERADOR_next" xml:space="preserve">
+    <value>Pending Operator</value>
+  </data>
+  <data name="state_PENDIENTE_PERMISOS_date" xml:space="preserve">
+    <value>Date Pending Permits</value>
+  </data>
+  <data name="state_PENDIENTE_PERMISOS_next" xml:space="preserve">
+    <value>Approve Budget</value>
+  </data>
+  <data name="state_PENDIENTE_PLANIFICAR_VISITA_TECNICA_date" xml:space="preserve">
+    <value>Visita pendente de planejamento técnico</value>
+  </data>
+  <data name="state_PENDIENTE_PLANIFICAR_VISITA_TECNICA_next" xml:space="preserve">
+    <value>Request Technical Visit</value>
+  </data>
+  <data name="state_PENDIENTE_PRESUPUESTO_date" xml:space="preserve">
+    <value>Date of Due Budget</value>
+  </data>
+  <data name="state_PENDIENTE_PRESUPUESTO_next" xml:space="preserve">
+    <value>Request a quote</value>
+  </data>
+  <data name="state_PENDIENTE_REPLANTEO_date" xml:space="preserve">
+    <value>Date Pending survey</value>
+  </data>
+  <data name="state_PENDIENTE_REPLANTEO_next" xml:space="preserve">
+    <value>Plan survey</value>
+  </data>
+  <data name="state_PENDIENTE_REVISION_PRESUPUESTO_date" xml:space="preserve">
+    <value>Date of Revision Budget</value>
+  </data>
+  <data name="state_PENDIENTE_REVISION_PRESUPUESTO_next" xml:space="preserve">
+    <value>Send Budget</value>
+  </data>
+  <data name="state_PENDIENTE_SOLICITUD_BAJA_date" xml:space="preserve">
+    <value>Date of Pending cancel request</value>
+  </data>
+  <data name="state_PENDIENTE_SOLICITUD_BAJA_next" xml:space="preserve">
+    <value>Request cancel</value>
+  </data>
+  <data name="state_PENDIENTE_SOLICITUD_DESINSTALACION_date" xml:space="preserve">
+    <value>Date of Pending Uninstall Request</value>
+  </data>
+  <data name="state_PENDIENTE_SOLICITUD_DESINSTALACION_next" xml:space="preserve">
+    <value>Pending uninstall request</value>
+  </data>
+  <data name="state_PENDIENTE_SUBSANACION_date" xml:space="preserve">
+    <value>Date of Rescheduling</value>
+  </data>
+  <data name="state_PENDIENTE_SUBSANACION_FINAL_next" xml:space="preserve">
+    <value>Pending Final Submission</value>
+  </data>
+  <data name="state_PENDIENTE_SUBSANACION_next" xml:space="preserve">
+    <value>Request Subsanation</value>
+  </data>
+  <data name="state_PENDIENTE_TRANSMISION_date" xml:space="preserve">
+    <value>Date of Installation Transmission</value>
+  </data>
+  <data name="state_PENDIENTE_TRANSMISION_next" xml:space="preserve">
+    <value>Request Transmission Installation</value>
+  </data>
+  <data name="state_PENDIENTE_VALIDACION_date" xml:space="preserve">
+    <value>Date of Validation</value>
+  </data>
+  <data name="state_PENDIENTE_VALIDACION_next" xml:space="preserve">
+    <value>Correct</value>
+  </data>
+  <data name="state_PENDIENTE_VISITA_TECNICA_date" xml:space="preserve">
+    <value>Technical Preview Date</value>
+  </data>
+  <data name="state_PENDIENTE_VISITA_TECNICA_next" xml:space="preserve">
+    <value>Propose Date Visit</value>
+  </data>
+  <data name="state_PRESUPUESTO_PRESENTADO_date" xml:space="preserve">
+    <value>Date of Budget Presentation</value>
+  </data>
+  <data name="state_PRESUPUESTO_PRESENTADO_next" xml:space="preserve">
+    <value>Submit a Quote</value>
+  </data>
+  <data name="state_PROPUESTA_PROPIEDAD_date" xml:space="preserve">
+    <value>Date of Proposed location</value>
+  </data>
+  <data name="state_PROPUESTA_PROPIEDAD_next" xml:space="preserve">
+    <value>Proposed location</value>
+  </data>
+  <data name="state_READY_TO_INSTALL_date" xml:space="preserve">
+    <value>Initial Start Date</value>
+  </data>
+  <data name="state_READY_TO_INSTALL_next" xml:space="preserve">
+    <value>Ready to Install</value>
+  </data>
+  <data name="state_RECHAZADO_date" xml:space="preserve">
+    <value>Date Rejected</value>
+  </data>
+  <data name="state_RECHAZADO_next" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="state_SEGUIMIENTO_date" xml:space="preserve">
+    <value>Date Flow</value>
+  </data>
+  <data name="state_SEGUIMIENTO_next" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="state_SITIO_DESINSTALADO_date" xml:space="preserve">
+    <value>Date of Uninstallation</value>
+  </data>
+  <data name="state_SITIO_DESINSTALADO_next" xml:space="preserve">
+    <value>Close Uninstall</value>
+  </data>
+  <data name="state_SOLICITUD_ACCESO_date" xml:space="preserve">
+    <value>Date of Request Access</value>
+  </data>
+  <data name="state_SOLICITUD_ACCESO_next" xml:space="preserve">
+    <value>Request Access</value>
+  </data>
+  <data name="state_VALIDACION_FINAL_date" xml:space="preserve">
+    <value>Date of Final Validation</value>
+  </data>
+  <data name="state_VALIDACION_FINAL_next" xml:space="preserve">
+    <value>Installation Certification</value>
+  </data>
+</root>

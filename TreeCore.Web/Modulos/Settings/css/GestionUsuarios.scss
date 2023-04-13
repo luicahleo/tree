@@ -1,0 +1,260 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+@include newLayout_resp;
+
+
+
+.GridSimple2Col .x-autocontainer-innerCt {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+}
+
+
+
+.lblBtnActivo {
+    margin-top:3px !important;
+    color: $colPpal !important;
+    font-weight: bold !important;
+}
+
+
+.grid1col {
+    grid-template-columns: calc(100% - 20px) !important;
+}
+
+
+.x-btn.x-btn-disabled.x-btn-default-toolbar-small {
+  //  background-color: #06A086 !important;
+}
+/*#region WinDates */
+.FormDates {
+    border-radius: 40px !important;
+
+    #FormDates-innerCt {
+        border: 2px solid $Gris1 !important;
+    }
+}
+
+.lblSpaced {
+    margin: 10px;
+}
+
+.WhiteBg {
+    background-color: white !important;
+}
+
+
+.margin20Win {
+    margin: 20px;
+}
+
+
+
+/*#endregion */
+
+
+
+/*#region WINDOW ADD NEW USERS */
+
+#Telefono-triggerWrap {
+    flex-direction: row-reverse !important;
+    direction:rtl!important;
+}
+
+#txtTelefono-bodyEl {
+    direction: rtl !important;
+
+    #txtTelefono-inputWrap {
+        direction: ltr !important;
+    }
+}
+
+.lblCheckNewUsers {
+    background-color: white !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    border: 1px #D8D8D8 solid;
+}
+
+.unsetPos {
+    position: unset !important;
+}
+
+.FormGrid {
+    .x-autocontainer-innerCt {
+        display: grid !important;
+        grid-template-columns: 50% calc(50% - 20px);
+        grid-column-gap: 1rem;
+    }
+
+    .x-panel-body {
+        width: unset !important;
+        min-width: unset !important;
+        max-width: unset !important;
+    }
+
+    .x-form-text-field-body-default {
+        min-width: unset !important;
+        max-width: unset !important;
+    }
+}
+
+.FormGrid:nth-child(4) {
+    grid-column: 2/1;
+}
+
+#pnNavVistasNewContactos-body {
+    width: 100% !important;
+}
+
+#conNavVistasNewContactos-innerCt {
+    display: flex;
+    height: 2rem;
+
+    span {
+        margin-right: 1rem;
+    }
+}
+
+
+
+.FullwContNoGrid {
+
+    .x-autocontainer-innerCt {
+        display: block !important;
+    }
+
+    #FullwCont_Content {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 10px;
+        padding-left: 30px;
+    }
+}
+
+.FullwContNoGrid2Col {
+    grid-template-columns: 1fr 1fr !important;
+    padding-left: 0px !important;
+}
+/*#endregion */
+/*#region Window ADD PERFILES */
+
+
+.GridSimple {
+    border-style:hidden !important;
+    .x-panel-bodyWrap {
+        .x-column-header{
+            border-style:hidden!important;
+            background-color:$colBg !important;
+            /*pointer-events:none !important;*/
+
+        }
+        
+        
+        .x-column-header-over {
+            //display: none !important;
+        }
+
+        .x-grid-header-ct {
+            background-color: transparent !important;
+            // display: none !important;
+        }
+    }
+
+    .x-grid-with-row-lines .x-grid-item.x-grid-item-selected {
+        background-color: #E4F0F8 !important;
+    }
+
+
+
+    .GridSimple .x-grid-with-row-lines .x-grid-item:first-child {
+        background-color: #E4F0F8 !important;
+    }
+
+    .x-grid-item {
+        margin-bottom: 8px !important;
+        background-color: #E4F0F8 !important;
+        border-radius: 3px;
+        // background-color: #E4F0F8 !important;
+        line-height: 22px !important;
+        width: auto !important;
+    }
+
+    .x-grid-body {
+        background-color: white !important;
+    }
+
+    .x-grid-item-focused {
+        background-color: #E4F0F8 !important;
+        border-color: transparent !important;
+    }
+
+    .x-grid-item-container {
+        width: 100% !important;
+    }
+
+    .x-grid-body {
+        padding: 15px !important;
+    }
+
+    .x-grid-cell-inner::before { // TODO FIX
+        border-radius: 4px;
+        border-color: transparent !important;
+    }
+}
+/*#endregion */
+/*#region WINDOW ADD/REMOVE DOCUMENTS */
+
+#gridAddRemoveDocumentos-body{
+    background-color:white!important;
+}
+
+
+.nowraplbl{
+    white-space:nowrap !important;
+}
+/*#endregion */
+/*#region Window PERMISOS USUARIO */
+
+
+.FormBorderGrey {
+    border: 1px solid #EAE8E8;
+}
+
+
+
+/*#endregion */
+
+/*#region Form */
+
+.ctForm-resp-col3 {
+    @include ctForm-nCol(3); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-col2 {
+    @include ctForm-nCol(2); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-col1 {
+    @include ctForm-nCol(1); //fijas el número máximo de columnas
+}
+
+@media (max-width:670px) {
+    [class*="ctForm-resp-"] {
+
+        .x-autocontainer-innerCt {
+            display: grid !important;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: stretch;
+            grid-column-gap: 1rem;
+        }
+
+        .x-box-inner {
+            width: 100% !important;
+        }
+    }
+
+}
+
+/*#endregion Form*/

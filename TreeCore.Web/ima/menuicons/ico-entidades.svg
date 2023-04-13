@@ -1,0 +1,14 @@
+<svg id="ico-entidades" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3121" data-name="Rectángulo 3121" width="20" height="20" fill="none"/>
+  <path id="Trazado_2764" data-name="Trazado 2764" d="M703.477,347.2a6.7,6.7,0,0,1,4.291-4.46" transform="translate(-763.255 -157.132) rotate(-14)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <path id="Trazado_2765" data-name="Trazado 2765" d="M707.905,355.462a6.7,6.7,0,0,1-4.387-4.369" transform="translate(-763.255 -157.132) rotate(-14)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <path id="Trazado_2766" data-name="Trazado 2766" d="M716.272,351.068a6.7,6.7,0,0,1-4.221,4.337" transform="translate(-763.255 -157.132) rotate(-14)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <path id="Trazado_2767" data-name="Trazado 2767" d="M711.85,342.692a6.7,6.7,0,0,1,4.4,4.336" transform="translate(-763.255 -157.132) rotate(-14)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <circle id="Elipse_564" data-name="Elipse 564" cx="1.876" cy="1.876" r="1.876" transform="translate(6.11 1.993) rotate(-14)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <circle id="Elipse_566" data-name="Elipse 566" cx="1.876" cy="1.876" r="1.876" transform="translate(1.243 10.092) rotate(-14)" fill="none" stroke="#707070" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.6"/>
+  <rect id="Rectángulo_3123" data-name="Rectángulo 3123" width="3" height="3" transform="translate(15 7)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="1.6"/>
+  <g id="Polígono_21" data-name="Polígono 21" transform="translate(9.813 14.363) rotate(-13)" fill="none" stroke-linejoin="round">
+    <path d="M1.5,0,3,2H0Z" stroke="none"/>
+    <path d="M 1.5 0 L 0 2 L 3 2 L 1.5 0 M 1.5 -1.599999904632568 C 2.003610134124756 -1.599999904632568 2.477829933166504 -1.362890005111694 2.779999971389771 -0.9600000381469727 L 4.279999732971191 1.039999961853027 C 4.643620014190674 1.524829983711243 4.702110290527344 2.173490047454834 4.431079864501953 2.715539932250977 C 4.160059928894043 3.257599830627441 3.606040000915527 3.599999904632568 3 3.599999904632568 L 0 3.599999904632568 C -0.6060400009155273 3.599999904632568 -1.160059928894043 3.257599830627441 -1.431079864501953 2.715539932250977 C -1.702109813690186 2.173490047454834 -1.643620014190674 1.524829983711243 -1.28000020980835 1.039999961853027 L 0.2200000286102295 -0.9600000381469727 C 0.5221700668334961 -1.362890005111694 0.9963901042938232 -1.599999904632568 1.5 -1.599999904632568 Z" stroke="none" fill="#707070"/>
+  </g>
+</svg>

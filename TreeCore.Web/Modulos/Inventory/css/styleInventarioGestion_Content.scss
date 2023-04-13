@@ -1,0 +1,862 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+
+
+
+//panel lateral derecho
+
+.ctAsideR {
+    margin-top: 1rem;
+}
+
+#ctAsideR-innerCt {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#pnAsideR-innerCt {
+    padding: 0 !important;
+}
+
+#mnAsideR {
+    flex: 0 0 40px;
+    border-right: 1px solid $Gris1 !important;
+}
+
+#mnAsideR-innerCt {
+    height: 100vh;
+}
+
+#pnGridsAsideR {
+    flex: 1 1 90%;
+    height: 100vh;
+
+    #pnGridsAsideR-innerCt {
+        height: 100vh;
+    }
+}
+
+.tlbGrdAsR {
+    margin-top: 1rem;
+    padding-left: .5rem;
+}
+
+.lblRecordName {
+    display: block;
+    background-color: $Gris1;
+    font-size: 11px;
+    color: $GrisNegro;
+    text-transform: uppercase;
+    padding: .5rem .5rem .5rem 1.6rem;
+    height: 2rem;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        height: 1rem;
+        border-left: 4px solid $GrisNegro;
+        position: absolute;
+        left: 1rem;
+        top: 8px;
+    }
+}
+
+.grdIntoAside {
+    @include gridIntoAside;
+}
+
+//Fin panel lateral derecho
+
+
+// componente grid panel
+.headerToolBar {
+    font-size: 13px;
+    font-weight: bold;
+    color: #06A086;
+    text-transform: uppercase;
+    height: auto;
+    border-bottom: 1px solid $Gris1 !important;
+    border-top: 4px solid $AzulNegro !important;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border: 0px solid $AzulNegro;
+}
+
+.headerButtons {
+    width: 90%;
+    display: grid;
+    justify-items: end;
+}
+
+#btnAligned {
+    @include btn-transp;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+
+    .x-btn-inner-default-toolbar-small {
+        color: $colPpal !important;
+        font-weight: bold;
+        margin-right: 64px;
+    }
+}
+
+.btnAligned {
+    @include btn-transp;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+
+    .x-btn-inner-default-toolbar-small {
+        color: $colPpal !important;
+        font-weight: bold;
+        margin-right: 64px;
+    }
+}
+
+
+.btnMoreAligned {
+    @include btn-transp;
+    margin-left: 35% !important;
+    border: none !important;
+    width: 10px !important;
+    background-color: #F6F6F6 !important;
+    margin-top: -6px;
+}
+
+.x-tree-icon-child {
+    color: transparent !important;
+    background-image: url( '../ima/ico-folder-16x16.svg' );
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.treePanel .x-grid-item {
+    font: 300 11px $font-ppal, 'Helvetica Neue', helvetica, arial, verdana, sans-serif
+}
+
+.btnRefrescar {
+    border-radius: 0px !important;
+}
+
+.gridPanelSize {
+    background-color: $blanco !important;
+    z-index: 2;
+    border: 0.5px solid $Gris1;
+
+    .x-grid-item-alt {
+        background-color: $blanco !important;
+    }
+
+    .x-btn-default-toolbar-small {
+        border: none !important;
+    }
+
+    .x-grid-body {
+        border-top: 0.5px solid $Gris1;
+    }
+
+    .x-grid-cell-first.x-grid-item-focused {
+        border: none !important;
+    }
+}
+
+#btnToolbar {
+    margin-left: 12px !important;
+}
+
+#btnToolbarRight {
+    margin-left: -21px !important;
+}
+
+.ckboxMandatory {
+    margin-top: 10px !important;
+    margin-left: 2px !important;
+}
+
+#containerRestrictions {
+    margin-top: 80px !important;
+}
+#comboResponsive {
+    width: 100%;
+}
+.recuadroBordes {
+    border: 2px solid $Gris2 !important;
+    padding: 0px 0px 2px 6px;
+    margin-top: 10px !important;
+    height: 37px !important;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 0px solid $Gris2;
+}
+
+@media (max-width:670px) {
+
+    [class*="ctForm-resp-"] {
+
+        .x-autocontainer-innerCt {
+            display: grid !important;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: stretch;
+            grid-column-gap: 1rem;
+        }
+
+        .x-box-inner {
+            width: 100% !important;
+        }
+    }
+
+    #btnSave {
+        width: 250px;
+        margin-left: -10px !important;
+    }
+
+
+    #btn1 {
+        margin-top: 4px !important;
+        width: 150px !important;
+    }
+
+
+    .grdFormElAdded {
+
+        &.x-panel {
+            width: 100% !important;
+        }
+
+        .x-column-header {
+            background-color: $colBg;
+            border-width: 0;
+        }
+
+
+
+        .x-column-header-text {
+            color: #6A6B75;
+            font: 500 12px/14px "Roboto", sans-serif;
+        }
+
+        .x-grid-body {
+            border: none;
+        }
+
+
+        .x-panel-body {
+            border: 1px solid $Gris2 !important;
+            border-radius: 3px;
+            background-color: $blanco !important;
+            width: 100% !important;
+        }
+
+        .x-grid-view {
+            width: 100% !important;
+        }
+
+
+        .x-grid-item-container {
+            margin: .2rem auto;
+            width: 99% !important;
+        }
+
+        table {
+            width: unset !important;
+            width: 99% !important;
+            table-layout: fixed;
+            position: static;
+            margin-bottom: .2rem;
+            margin: .2rem auto;
+        }
+
+        tr {
+            display: block;
+            width: 99% !important;
+        }
+
+        .x-grid-item {
+            background-color: lighten($Azul, 35);
+            border-radius: 3px;
+            border: 1px solid lighten($Azul, 35);
+        }
+
+        .x-grid-item.x-grid-item-selected {
+            border-style: solid;
+            border-color: lighten($Azul, 35) !important;
+        }
+
+        .x-btn-default-toolbar-small {
+            border-color: rgba(0,0,0,0);
+        }
+
+        .x-btn-over {
+            border-radius: 30px;
+            background-color: $Gris1;
+        }
+    }
+
+    .mainContainer {
+        width: 210px !important;
+        height: 75px !important;
+    }
+
+    .txtContainerCategorias {
+        width: 80% !important;
+    }
+
+    .positionFirstButton {
+        margin-top: 9px !important;
+    }
+
+    .btnArrow {
+        margin-left: -1px !important;
+        padding: 0 !important;
+        border: none !important;
+        background: none !important;
+    }
+
+    .btnMoreAligned {
+        margin-left: 20% !important;
+    }
+
+    .btnCategory {
+        .x-btn-inner.x-btn-inner-default-toolbar-small {
+            font-size: 1.8vh;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.txtContainerCategorias {
+    width: 80% !important;
+}
+
+
+@media (max-width: 1024px) {
+
+
+    .headerButtons {
+        width: 19%;
+    }
+
+    #containerOne-containerEl {
+        height: auto !important;
+    }
+
+    .containerTwo-containerEl {
+        height: auto !important;
+        position: absolute;
+        bottom: 204px;
+    }
+
+    #elto2 {
+        position: absolute !important;
+        top: 80px;
+        left: 50px !important;
+    }
+
+    #elto3 {
+        position: absolute !important;
+        top: 40px !important;
+    }
+
+    #fieldcontainer-1098-innerCt {
+        width: 746px !important;
+        height: 132px !important;
+        border: 20px solid red !important;
+    }
+
+    #chkbox1 {
+        position: absolute;
+        left: 50px;
+        top: 130px;
+    }
+
+    #chkbox2 {
+        position: absolute;
+        left: 230px;
+        top: 130px;
+    }
+
+    .sideButtons {
+        width: 20px !important;
+        margin-top: -6px !important;
+    }
+
+    .btnMoreAligned {
+        margin-left: 55px !important;
+    }
+
+    .positionFirstButton {
+        margin-top: 5px !important;
+    }
+}
+
+.toolBarInventario {
+    border-style: none !important;
+    border-top: 1px solid $Gris1 !important;
+}
+
+.gridPanelInventario {
+    border-radius: 3px;
+    border: 1px solid $Gris2;
+    width: 50% !important;
+
+    .x-panel-default-outer-border-trl, .x-panel-default-outer-border-rl, .x-panel-default-outer-border-rbl {
+        //border: none !important;
+    }
+
+    .x-panel-default-outer-border-trl {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .x-panel-default-outer-border-rl {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .x-panel-default-outer-border-rbl {
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .x-title-text {
+        font-family: $font-ppal;
+        font-size: 15px;
+        font-weight: 500;
+        color: $blanco;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .x-panel-header-default {
+        background-image: none;
+        background-color: $colPpal;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border: 1px solid $AzulNegro;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 5px 30px;
+    }
+
+    .x-panel-header-title-default {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .x-grid-header-ct {
+        border: 1px solid $Gris1;
+    }
+}
+
+
+
+
+
+/*#region GRID SIDEBAR CREATE FILTERS */
+
+
+#pnCFiltersContainer, #pnMFiltersContainer {
+    margin-left: .7rem;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+
+    .btn-add {
+        @include baseBoton($colPpal, 14px, $blanco);
+        margin-left: .5rem;
+    }
+}
+
+.btn-end {
+    @include baseBoton($colPpal, 14px, $blanco);
+    float: right;
+    margin-left: .5rem;
+}
+
+.btn-save {
+    background-color: $blanco;
+    border: 1px solid $Verde2;
+    border-radius: 3px;
+    float: right;
+    margin-left: .5rem;
+
+    .x-btn-inner-default-small {
+        font-size: 14px;
+        color: $colPpal;
+    }
+
+    &:hover {
+        background-color: $Verde2;
+        Border: 1px solid $Verde2;
+    }
+}
+//CONTENT
+.chk-ctoTrck {
+    padding: 0 0rem;
+    border: 1px solid $Gris2;
+    border-radius: 2px;
+    margin-bottom: .7rem;
+    width: 100%;
+
+    label {
+        font: 500 12px/14px "Roboto", sans-serif;
+        color: #6a6b86 !important;
+    }
+}
+
+.checkboxes {
+    margin-left: 15rem;
+    margin-top: .5rem;
+}
+
+.chk-label {
+    position: absolute;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+#pnNewFilter {
+    float: left;
+    width: 58%;
+}
+
+#btnFilter {
+    float: left;
+    width: 38%;
+    margin-left: 4%;
+}
+
+.pnForm {
+    float: left;
+    width: 48%;
+
+    .x-form-trigger {
+        padding-top: 0rem;
+    }
+}
+
+#pnSearch {
+    margin-left: 4%;
+    margin-top: 0px;
+}
+
+#btnAdd {
+    float: right;
+    padding-right: .5rem;
+}
+
+#pnFiltersBox {
+    min-height: 100px;
+}
+
+#pnTagContainer {
+    padding-bottom: .5rem;
+    border: 1px solid $Gris2;
+    border-radius: 2px;
+    margin-bottom: .7rem;
+    width: 100%;
+    min-height: 100px;
+
+    label {
+        font: 500 12px/14px "Roboto", sans-serif;
+        color: #6a6b86 !important;
+    }
+}
+
+.x-panel-body-default-framed, .x-panel-bodyWrap {
+    background-color: $blanco !important;
+}
+
+.pnTagField {
+    float: left;
+    margin-top: .5rem;
+    margin-left: 2%;
+    padding: .5rem;
+    width: 40%;
+    height: 30px;
+    background-color: #E4F0F8;
+    border-radius: 3px 0 0 3px;
+}
+
+.pnTagSearch {
+    float: left;
+    margin-top: .5rem;
+    padding: .5rem;
+    width: 40%;
+    height: 30px;
+    background-color: #E4F0F8;
+}
+
+#tagsContainer-outerCt {
+    background-color: $Gris1Fondo;
+}
+
+.btnCloseTag {
+    @include bgBtn-ico;
+    float: left;
+    margin-top: .5rem;
+    margin-right: 2%;
+    padding: .5rem;
+    width: 16%;
+    height: 30px;
+    background-color: #E4F0F8;
+    border: none;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+    border-radius: 0 3px 3px 0;
+}
+
+#tagsHeader {
+    height: 30px;
+    width: 100%
+}
+
+.tabsLabels {
+    font: 500 12px/14px "Roboto", sans-serif;
+    color: #6a6b86 !important;
+    float: left;
+    margin-top: .5rem;
+    margin-left: 2%;
+    padding: .5rem;
+    width: 38%;
+    height: 30px;
+}
+
+.btnCloseTag:hover, {
+    background-color: #E4F0F8;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+#pnTagContainer .x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: #E4F0F8;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+.TagTemp {
+    font: 600 12px/14px "Roboto", sans-serif;
+    color: $Negro !important;
+    float: left;
+    padding: .2rem;
+    padding-right: 60px;
+    height: 25px;
+    background-color: #FFD48E;
+    margin-bottom: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.CloseTemp {
+    @include bgBtn-ico;
+    float: left;
+    padding: .5rem;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    background-color: #FFD48E;
+    border: none;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+    margin-bottom: 10px;
+    border-radius: 0 3px 3px 0;
+}
+
+.CloseTemp:hover, {
+    background-color: #FFD48E;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+#tagContainersTemp-outerCt {
+    float: left;
+    background-color: $Gris1Fondo;
+    width: 0px;
+}
+
+#tagContainersTemp .x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: #FFD48E;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+.TagSaved {
+    font: 600 12px/14px "Roboto", sans-serif;
+    color: $Negro !important;
+    float: left;
+    padding: .2rem;
+    padding-right: 60px;
+    height: 25px;
+    background-color: $Verde2;
+    margin-bottom: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.CloseSaved {
+    @include bgBtn-ico;
+    float: left;
+    padding: .5rem;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    background-color: $Verde2;
+    border: none;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+    margin-bottom: 10px;
+    border-radius: 0 3px 3px 0;
+}
+
+.CloseSaved:hover, {
+    background-color: #FFD48E;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+#tagContainersSaved-outerCt {
+    float: left;
+    background-color: $Gris1Fondo;
+    width: 0px;
+}
+
+#tagContainersSaved .x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: #FFD48E;
+    background-image: url(../../../ima/ico-CleanBox.svg);
+}
+
+/*#endregion */
+
+
+
+/*#region Estilos Grid APPLY MYFILTERS */
+
+.GridMyFilters {
+
+    .x-grid-body {
+        border-top-width: 1px !important;
+    }
+
+    .BtnDeleteChk {
+        max-width: 25px;
+        max-height: 25px;
+        margin: 6px 5px 5px 5px !important;
+        border-style: hidden !important;
+        background-color: transparent !important;
+        background-image: url('/ima/ico-trash-bl-16p.svg') !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: opacity 0.4s ease-out;
+        opacity: 0.3;
+    }
+
+    .BtnDeleteChk:hover {
+        background-image: url('/ima/ico-trash-bl-16p.svg') !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 1;
+    }
+
+    .BtnEditChk {
+        max-width: 25px;
+        max-height: 25px;
+        margin: 6px 12px 5px 5px !important;
+        border-style: hidden !important;
+        background-color: transparent !important;
+        background-image: url("/ima/ico-editar.svg") !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: opacity 0.4s ease-out;
+        opacity: 0.3;
+    }
+
+    .BtnEditChk:hover {
+        background-image: url("/ima/ico-editar.svg") !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 1;
+    }
+
+
+
+    .CheckBoxesV2 {
+        top: 7px !important;
+    }
+
+    .x-form-cb-default {
+        margin-top: 4px !important;
+    }
+
+
+    .Grhover:hover {
+        transition: border-color 0.4s ease-out;
+        border-color: $colPpal !important;
+    }
+
+    .x-grid-item-alt {
+        background-color: transparent !important;
+    }
+
+
+    .x-grid-item {
+        margin: 5px;
+        margin-top: 10px !important;
+        border-radius: 5px;
+        margin-right: 40px;
+        border-color: #DEDEDE !important;
+        border-style: solid !important;
+        border-width: 1px !important;
+        max-width: 250px !important;
+        transition: border-color 0.4s ease-out;
+    }
+
+    .x-grid-item:hover {
+        background-color: white !important;
+        border-color: $colPpal !important;
+        border-color: #06A086 !important;
+    }
+
+
+    .x-grid-cell-inner {
+        top: 6px !important;
+    }
+
+    .x-keyboard-mode .x-grid-item-focused .x-grid-cell-inner::before {
+        border: hidden !important;
+    }
+
+    .chkNewAlign {
+        margin-top: -1px;
+        margin-bottom: 1px;
+    }
+
+
+    .x-grid-item-selected {
+        background-color: white !important;
+    }
+}
+
+/*#endregion */
+
+.containerGrid {
+    .x-autocontainer-innerCt {
+        box-sizing: border-box !important;
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-content: stretch;
+        grid-column-gap: 4rem;
+        align-content: center !important;
+    }
+}
+
+.headerGrey {
+    .x-toolbar-footer {
+        background-color: $Gris1Fondo !important;
+        padding: 0px 0 20px 0px;
+
+        .x-btn.btn-accept.x-unselectable.x-box-item.x-toolbar-item.x-btn-default-small {
+            margin-right: 25px !important;
+        }
+    }
+
+    .containerGrid {
+        padding: 1.5em !important;
+    }
+}

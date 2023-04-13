@@ -1,0 +1,1 @@
+<%@ WebHandler Language="C#" CodeBehind="DocumentosVista.ashx.cs" Class="TreeCore.PaginasComunes.DocumentosFileUpload" %>

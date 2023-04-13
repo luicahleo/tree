@@ -1,0 +1,19 @@
+<svg id="ico-arbol-decision" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_224" data-name="Rectángulo 224" width="20" height="20" fill="none"/>
+  <g id="Grupo_1620" data-name="Grupo 1620" transform="translate(-227 -292)">
+    <g id="Rectángulo_130" data-name="Rectángulo 130" transform="translate(228.965 305.733)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="6.026" height="4.267" stroke="none"/>
+      <rect x="-0.75" y="-0.75" width="7.526" height="5.767" fill="none"/>
+    </g>
+    <g id="Rectángulo_131" data-name="Rectángulo 131" transform="translate(239.009 305.733)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="6.026" height="4.267" stroke="none"/>
+      <rect x="-0.75" y="-0.75" width="7.526" height="5.767" fill="none"/>
+    </g>
+    <path id="Trazado_910" data-name="Trazado 910" d="M3944.611,272.5s-3.06-.388-3.06,1.7v5.772" transform="translate(-3711.582 24.727)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_1106" data-name="Trazado 1106" d="M3941.552,272.5s2.982-.378,2.982,1.653v5.626" transform="translate(-3700.565 24.821)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <g id="Rectángulo_132" data-name="Rectángulo 132" transform="translate(233.987 294)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="6" height="5" stroke="none"/>
+      <rect x="-0.75" y="-0.75" width="7.5" height="6.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,124 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+@include newLayout_resp;
+
+.btnAddDepartment{
+	margin-right: 1rem;
+}
+
+.btnAddDepartment .x-btn-wrap-default-toolbar-small.x-btn-arrow-right::after {
+	color: #fff;
+	
+}
+
+.lblTypologyName{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.ctDrawingFlow{
+	border-top: 1px dashed lighten($Amarillo2, 30);
+	padding: 1rem;
+}
+
+
+.btnFloatRInGrid{
+	margin-right: 1rem !important;
+}
+
+
+#btnVistaGrid{
+	margin-top: 1px;
+}
+
+#btnDisplayDetails {
+	margin-right: 1rem;
+	margin-top: 1px;
+	
+}
+
+#btnAddState {
+	position: relative !important;
+	overflow: visible;
+
+	> span {
+		position: absolute;
+		left: 24px;
+		top: 0;
+		width: auto;
+	}
+
+	.x-btn-inner-default-toolbar-small {
+		font: 700 12px/16px $font-ppal;
+	}
+}
+#btnAddTransition {
+	position: relative !important;
+	overflow: visible;
+	margin-left: 1rem;
+
+	> span {
+		position: absolute;
+		left: 22px;
+		top: 0;
+		width: auto;
+	}
+
+	.x-btn-inner-default-toolbar-small {
+		font: 700 12px/16px $font-ppal;
+	}
+}
+
+	#cmbZoom {
+		margin-right: 1rem;
+		width: 70px;
+
+		input {
+			min-height: 33px;
+			background-color: $colBg;
+		}
+
+		.x-form-trigger-default {
+			background-color: $colBg;
+		}
+	}
+
+	#cmbDepartmentBlock {
+		margin-left: -1.2rem;
+		@include btn-transp;
+
+		.x-btn-inner-default-small {
+			font: 700 12px/16px $font-ppal;
+			color: $Azul;
+			padding: 0 5px;
+			max-width: 100%;
+		}
+
+		.x-btn-wrap-default-small.x-btn-arrow-right::after {
+			color: $Azul;
+		}
+	}
+
+
+
+.x-menu-item-text-default.x-menu-item-indent-no-separator {
+	margin-left: 10px;
+}
+
+	.canvasWorkFlow {
+		width: 100%;
+		height: 100%;
+	}
+
+	.ctState {
+		width: 4rem;
+		background-color: $Azul;
+		padding: .2rem .5rem;
+
+		span {
+			color: $blanco;
+			font-size: 12px;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+	}

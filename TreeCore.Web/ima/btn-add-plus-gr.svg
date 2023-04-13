@@ -1,0 +1,9 @@
+<svg id="btn_smail_wIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22">
+  <g id="Grupo_4013" data-name="Grupo 4013">
+    <rect id="Rectángulo_442" data-name="Rectángulo 442" width="24" height="22" rx="3" fill="#06a086"/>
+  </g>
+  <g id="ico_add_btn" transform="translate(6 5)">
+    <line id="Línea_926" data-name="Línea 926" y2="12" transform="translate(6)" fill="none" stroke="#fff" stroke-width="2"/>
+    <line id="Línea_927" data-name="Línea 927" y2="12" transform="translate(12 6) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

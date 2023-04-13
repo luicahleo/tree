@@ -1,0 +1,15 @@
+<svg id="ico-documentos-caducados" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_1872" data-name="Grupo 1872" transform="translate(-1352 -353)">
+    <rect id="Rectángulo_346" data-name="Rectángulo 346" width="20" height="20" transform="translate(1352 353)" fill="none"/>
+    <line id="Línea_363" data-name="Línea 363" x2="8" transform="translate(1358.105 366.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_364" data-name="Línea 364" x2="4.395" transform="translate(1358.105 363.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_365" data-name="Línea 365" x2="2.395" transform="translate(1358.105 360.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_366" data-name="Línea 366" x2="2.395" transform="translate(1358.105 357.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <g id="Elipse_173" data-name="Elipse 173" transform="translate(1359.531 353.19)" fill="none" stroke="#666" stroke-width="1.5">
+      <ellipse cx="6.087" cy="6.087" rx="6.087" ry="6.087" stroke="none"/>
+      <ellipse cx="6.087" cy="6.087" rx="5.337" ry="5.337" fill="none"/>
+    </g>
+    <path id="Trazado_1351" data-name="Trazado 1351" d="M-303.613,373.8H-311.2V390.7h14v-8.3" transform="translate(1666.296 -19.291)" fill="none" stroke="#666" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+  <path id="Trazado_1357" data-name="Trazado 1357" d="M-303.806,375.067v3.057h2.322" transform="translate(317 -371)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+</svg>

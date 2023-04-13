@@ -1,0 +1,500 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+/*#region WO*/
+
+.HeaderLblVisor {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(100% - 60px);
+}
+
+.dataFecha {
+    .x-grid-cell-inner {
+        top: -31px;
+    }
+}
+
+.contGridFecha {
+
+    .ulGrid {
+        padding: 0;
+        margin-bottom: 0;
+
+        .liGridFecha {
+
+            .contFecha {
+
+                p {
+                    font: 500 11px "Roboto",sans-serif;
+                    line-height: 15px;
+                    margin-bottom: 5px;
+                    padding-left: 15px;
+                }
+
+                .fechaInicio {
+                    background-image: url(/ima/ico-calendar-10px-gr.svg);
+                    background-size: 10px;
+                    background-repeat: no-repeat;
+                    background-position-y: center;
+                    background-position-x: left;
+                }
+
+                .fechaFin {
+                    background-image: url(/ima/ico-calendar-10px-red.svg);
+                    background-size: 10px;
+                    background-repeat: no-repeat;
+                    background-position-y: center;
+                    background-position-x: left;
+                }
+            }
+        }
+    }
+}
+
+.ico-workflowGrid {
+    background-image: url(/ima/ico-block-16px.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left;
+    padding-left: 1.2rem;
+}
+
+.col-project {
+    background-image: url(/ima/ico-folder-16x16.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left;
+    padding-left: 1.5rem;
+}
+
+/*#endregion*/
+
+/*#region SITES*/
+
+.contGridData {
+
+    .ulGrid {
+        padding: 0;
+        margin-bottom: 5px;
+
+        .liGrid {
+
+            .contData {
+
+                .name {
+                    font: 500 13px "Roboto",sans-serif;
+                    line-height: 18px;
+                    margin-bottom: 0;
+                }
+
+                .code {
+                    font: 11px "Roboto",sans-serif;
+                    text-decoration-line: underline;
+                    line-height: 15px;
+                    margin-bottom: 5px;
+                }
+
+                .descriptionItem {
+                    font: 11px "Roboto",sans-serif;
+                    line-height: 15px;
+                    white-space: pre-wrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    margin-bottom: 0;
+                }
+
+                .projectItem {
+                    font: 12px "Roboto",sans-serif;
+                    line-height: 16px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+.ico-progressRedGrid {
+    width: 5px;
+    height: 10px;
+    background-image: url(/ima/ico-progress-mini-Red.svg);
+    background-size: 5px 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left;
+    padding-left: 1rem;
+}
+
+.ico-progressYellowGrid {
+    width: 8px;
+    height: 10px;
+    background-image: url(/ima/ico-progress-mini-Yellow.svg);
+    background-size: 8px 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left;
+    padding-left: 1rem;
+}
+
+.ico-progressBlueGrid {
+    width: 12px;
+    height: 10px;
+    background-image: url(/ima/ico-progress-mini-Blue.svg);
+    background-size: 12px 10px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left;
+    padding-left: 1rem;
+}
+
+/*#endregion*/
+
+/*#region TICKETS*/
+
+.btnSelectAll {
+    background-color: transparent !important;
+    border: none;
+
+    .x-btn-inner-default-toolbar-small {
+        font: 400 14px/16px $font-ppal !important;
+        color: $colPpal;
+        padding: 0 5px;
+        text-decoration: underline;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border: none;
+
+        .x-btn-inner-default-toolbar-small {
+            color: darken($colPpal, 10);
+        }
+    }
+}
+
+.contItem {
+    margin-bottom: 1.5rem;
+    border: solid 1px $BrVerde;
+    border-left: solid 3px $colPpal !important;
+
+    .contTickets {
+        display: grid;
+        grid-template-columns: minmax(220px, calc(100% - 225px)) 225px;
+        grid-template-rows: 64px calc(100% - 64px);
+
+        .contUsuario {
+            padding: 1rem 1rem 0 1rem;
+
+            .imgTickets {
+                width: 32px;
+                height: 32px;
+                background-size: cover;
+                background-position: center;
+                border-radius: 32px;
+                border: 1px solid;
+                display: inline-block;
+                border: none;
+            }
+
+            .contDetailsNombreUsuario {
+                display: inline-block;
+                padding-left: 1rem;
+                vertical-align: top;
+                width: calc(100% - 32px);
+
+                .nombreUsuario {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font: 500 12px "Roboto",sans-serif;
+                }
+
+                .correoUsuario {
+                    margin-bottom: 0;
+                    font: 11px "Roboto",sans-serif;
+                    margin-bottom: 8px;
+                }
+
+                .lineUnderUser {
+                    height: 1px;
+                    width: 36px;
+                    background-color: $Gris2;
+                }
+            }
+        }
+
+        .contDescription {
+            padding: 0rem 1rem 1rem 1rem;
+            grid-column-start: 1;
+            grid-row-start: 2;
+            display: grid;
+            grid-template-columns: 32px calc(100% - 48px);
+            grid-column-gap: 1rem;
+
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .chkTickets {
+                background-image: url(/ima/ico-checkbox.svg);
+                background-position: top;
+                background-position-y: 10px;
+                background-repeat: no-repeat;
+                background-size: 16px;
+            }
+
+            .cntDescType {
+                display: flex;
+                justify-content: space-between;
+
+                .contInfoDescription {
+                    padding-right: 1rem;
+
+                    .fechaTickets {
+                        background-image: url(/ima/ico-calendar-gr-16px.svg);
+                        background-position: left;
+                        background-repeat: no-repeat;
+                        background-size: 16px;
+                        padding-left: 25px;
+                        content: "";
+                        margin-bottom: 10px;
+                    }
+
+                    .tituloTickets {
+                        font: bold 18px "Roboto",sans-serif;
+                    }
+
+                    .descripcionTickets {
+                        font: 11px "Roboto",sans-serif;
+                        overflow-wrap: normal;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+
+                .cntTipoTickects {
+                    position: relative;
+                    text-align: -webkit-right;
+                    top: -3rem;
+                    width: fit-content;
+                    min-width: 140px;
+
+                    .tipoTickets {
+                        display: block;
+                        width: fit-content;
+                        max-width: 140px;
+                        overflow-x: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        font: 12px "Roboto",sans-serif;
+                        padding: 2px 8px;
+                        background-color: #AAD5FA;
+                        border-radius: 3px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+
+        .contDetails {
+            padding: 1rem;
+            border-left: solid 1px $BrVerde;
+            background-color: $BgVerde;
+            grid-column-start: 2;
+            grid-row: span 2;
+            display: grid;
+            grid-template-columns: calc(35% - 1rem) 65%;
+            grid-column-gap: 1rem;
+            grid-auto-rows: max-content;
+            justify-content: center;
+
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+                align-self: center;
+                padding: 7px 0;
+                font: 13px "Roboto",sans-serif;
+            }
+
+            .itemHeader {
+                font-weight: bold;
+                border-bottom: solid 1px $Gris2;
+            }
+
+            .itemData {
+            }
+
+            .underlineItem {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.contItemSelect {
+    border: solid 3px $Verde4;
+    margin: -2px -2px calc(1.5rem - 2px) 0;
+
+    .chkTickets {
+        background-image: url(/ima/ico-checkbox-ok.svg) !important;
+    }
+
+    .contUsuario, .contDescription {
+        background-color: $Amarillo4;
+    }
+}
+
+@media(max-width:600px) {
+    .contDetails {
+        justify-content: initial;
+    }
+
+    .cntDescType {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+
+        .cntTipoTickects {
+            margin-bottom: .5rem;
+            top: 0 !important;
+        }
+    }
+}
+
+/*#endregion*/
+
+/*#region SITES*/
+
+.lbCalendar {
+    font: 20px "Roboto",sans-serif;
+    top: 0 !important;
+    line-height: 26px !important;
+}
+
+.btnToday {
+    border-radius: 3px;
+    border-color: $Gris2;
+    font: 12px "Roboto",sans-serif;
+}
+
+.btnCollapsedCategory {
+    border: none;
+    position: absolute;
+    height: 21.5px;
+    z-index: 99999;
+
+    &:hover {
+        background-color: darken($colBg, 20) !important;
+    }
+}
+
+.chkCalendar {
+    margin-bottom: .5rem;
+}
+
+.lineUnderCHK {
+    height: 1px;
+    width: 36px;
+    background-color: $Gris2;
+    margin-bottom: .5rem;
+    margin-left: 1.4rem;
+}
+
+.pnWOCalendar {
+    [id*="_Content"] {
+        height: 100%;
+    }
+}
+
+.fullCalModal {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    background-color: $blanco;
+    width: 200px;
+    //height: 280px;
+    border: solid 1px lightgrey;
+    box-shadow: #888888 0px 0px 6px;
+    padding: 1rem;
+
+    .winClosePopup {
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+        background-size: 10px;
+        width: 16px !important;
+        height: 16px !important;
+
+        &:hover {
+            background-color: darken($colBg, 20);
+        }
+    }
+
+    span {
+        font: 12px "Roboto",sans-serif;
+        line-height: 16px;
+        margin-bottom: 3px;
+    }
+
+    .pbNoText {
+        .x-progress-text {
+            display: none;
+        }
+    }
+
+    .modalTitle {
+        font: 500 12px "Roboto",sans-serif;
+    }
+
+    .modalID {
+        text-decoration: underline;
+        color: $colPpal;
+    }
+
+    .pgDivCalendar {
+        display: flex;
+    }
+
+    .modalPercentage {
+        display: inline-block;
+        margin-right: .5rem;
+    }
+
+    .marginBot {
+        margin-bottom: 1.25rem;
+    }
+
+    .modalBtnInfo, .modalBtnDocument, .modalBtnLocation {
+        display: inline-block;
+        background-color: $colBg;
+        margin-right: .5rem;
+
+        &:hover {
+            background-color: darken($colBg, 20);
+            cursor: pointer;
+        }
+    }
+
+    .progressBarRed {
+        .x-progress-bar-default {
+            background-color: $Rojo;
+        }
+    }
+
+    .progressBarYellow {
+        .x-progress-bar-default {
+            background-color: $Amarillo;
+        }
+    }
+}
+
+/*#endregion*/

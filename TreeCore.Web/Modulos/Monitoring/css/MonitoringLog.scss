@@ -1,0 +1,9 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+@include newLayout_resp;
+
+.lblBtnOrdenacion {
+    margin-top: 3px !important;
+    color: $colPpal !important;
+    font-weight: bold !important;
+}

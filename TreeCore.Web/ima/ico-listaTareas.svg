@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #6a6b75;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: #6a6b75;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_4016" data-name="Group 4016" transform="translate(-579 672)">
+    <rect id="Rectangle_306" data-name="Rectangle 306" class="cls-1" width="20" height="20" transform="translate(579 -672)"/>
+    <path id="Path_2076" data-name="Path 2076" class="cls-2" d="M0,0H4.971" transform="translate(588.231 -662)"/>
+    <path id="Path_1284" data-name="Path 1284" class="cls-2" d="M0,0H6.769" transform="translate(588.231 -666.5)"/>
+    <path id="Path_686" data-name="Path 686" class="cls-2" d="M0,0H6.769" transform="translate(588.231 -657.5)"/>
+    <g id="Rectangle_66" data-name="Rectangle 66" class="cls-3" transform="translate(580.791 -670.209)">
+      <rect class="cls-5" width="16.419" height="16.419"/>
+      <rect class="cls-6" x="-0.75" y="-0.75" width="17.919" height="17.919"/>
+    </g>
+    <circle id="Ellipse_361" data-name="Ellipse 361" class="cls-4" cx="1.5" cy="1.5" r="1.5" transform="translate(583 -668)"/>
+    <circle id="Ellipse_362" data-name="Ellipse 362" class="cls-4" cx="1.5" cy="1.5" r="1.5" transform="translate(583 -663.5)"/>
+    <path id="Path_2075" data-name="Path 2075" class="cls-4" d="M1.5,0A1.5,1.5,0,1,1,0,1.5,1.5,1.5,0,0,1,1.5,0Z" transform="translate(583 -659)"/>
+  </g>
+</svg>

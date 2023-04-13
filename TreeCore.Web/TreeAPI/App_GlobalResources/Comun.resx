@@ -1,0 +1,4479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnActivar.ToolTip" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="btnActivos.ToolTip" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="btnAnadir.ToolTip" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="btnAnadirCondition.ToolTip" xml:space="preserve">
+    <value>Añadir Condición</value>
+  </data>
+  <data name="btnBloquear.ToolTip" xml:space="preserve">
+    <value>Bloquear</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnChart.ToolTip" xml:space="preserve">
+    <value>Gráfico</value>
+  </data>
+  <data name="btnChrono.ToolTip" xml:space="preserve">
+    <value>Chrono</value>
+  </data>
+  <data name="btnDefecto.ToolTip" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="btnDescargar.ToolTip" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="btnDescargarLog.Tooltip" xml:space="preserve">
+    <value>Descargar Log</value>
+  </data>
+  <data name="btnDescargarPlantilla.ToolTip" xml:space="preserve">
+    <value>Descargar Plantilla</value>
+  </data>
+  <data name="btnDescargarSinFiltro.ToolTip" xml:space="preserve">
+    <value>Descargar (Sin filtro)</value>
+  </data>
+  <data name="btnDuplicar.ToolTip" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="btnEditar.ToolTip" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="btnEditProj.Text" xml:space="preserve">
+    <value>Abrir Proyecto</value>
+  </data>
+  <data name="btnEliminar.ToolTip" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnExportarModeloContactos.ToolTip" xml:space="preserve">
+    <value>Exportar Modelo Contactos</value>
+  </data>
+  <data name="btnExportarModeloDatos.ToolTip" xml:space="preserve">
+    <value>Exportar Modelo Datos</value>
+  </data>
+  <data name="btnGenerarPlantilla.Tooltip" xml:space="preserve">
+    <value>Generar plantilla</value>
+  </data>
+  <data name="btnGuardar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnLimpiarLista" xml:space="preserve">
+    <value>Limpiar lista</value>
+  </data>
+  <data name="btnRecargarLista" xml:space="preserve">
+    <value>Recargar lista</value>
+  </data>
+  <data name="btnRefrescar.ToolTip" xml:space="preserve">
+    <value>Refrescar</value>
+  </data>
+  <data name="btnTime.ToolTip" xml:space="preserve">
+    <value>Tiempo</value>
+  </data>
+  <data name="cmbClientes.EmptyText" xml:space="preserve">
+    <value>Seleccione un Cliente</value>
+  </data>
+  <data name="cmbClientes.FieldLabel" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="colActivo.ToolTip" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="colCIF.Header" xml:space="preserve">
+    <value>CIF</value>
+  </data>
+  <data name="colDefecto.Header" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="colDefecto.ToolTip" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="colExito.ToolTip" xml:space="preserve">
+    <value>Exito</value>
+  </data>
+  <data name="colProcesado.ToolTip" xml:space="preserve">
+    <value>Procesado</value>
+  </data>
+  <data name="CommentEstadisticaPageInit" xml:space="preserve">
+    <value>Pagina visitada</value>
+  </data>
+  <data name="CommentEstadisticasAgregarProyectoTipo" xml:space="preserve">
+    <value>Asociar Proyectos Tipos a Estados Globales</value>
+  </data>
+  <data name="FormatFecha" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="Global" xml:space="preserve">
+    <value>GLOBAL</value>
+  </data>
+  <data name="GridFilters.MenuFilterText" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="jsActivar" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="jsActivo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="jsActTieneRegistros" xml:space="preserve">
+    <value>No se puede desactivar, tiene registros asociados</value>
+  </data>
+  <data name="jsAgregar" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="jsAgregarDeCampoVinculado" xml:space="preserve">
+    <value>+ Agregar de campo vinculado</value>
+  </data>
+  <data name="jsAgregarDocumento" xml:space="preserve">
+    <value>Agregar Documento</value>
+  </data>
+  <data name="jsAgregarEnPaginaNoPermitido" xml:space="preserve">
+    <value>No se pueden crear elementos hijos sobre una pagina</value>
+  </data>
+  <data name="jsAgregarPagFav" xml:space="preserve">
+    <value>Solamente se pueden agregar 4 páginas favoritas, por lo que solamente se escogeran las 4 primeras. ¿Desea continuar?</value>
+  </data>
+  <data name="jsAgregarPropiedad" xml:space="preserve">
+    <value>Agregar Propiedad</value>
+  </data>
+  <data name="jsAgregarReglaTransformacion" xml:space="preserve">
+    <value>Agregar regla de transformación</value>
+  </data>
+  <data name="jsAgrupacionEstados" xml:space="preserve">
+    <value>Agrupación de Estados</value>
+  </data>
+  <data name="jsAlias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="jsAnonimizar" xml:space="preserve">
+    <value>Anonimizar</value>
+  </data>
+  <data name="jsAreaOYM" xml:space="preserve">
+    <value>Área OYM</value>
+  </data>
+  <data name="jsAsignar" xml:space="preserve">
+    <value>Asignar</value>
+  </data>
+  <data name="jsAsignarImagen" xml:space="preserve">
+    <value>Asignar imagen</value>
+  </data>
+  <data name="jsAsignarRadioMensaje" xml:space="preserve">
+    <value>¿Estas seguro de asignar un radio al registro seleccionado?</value>
+  </data>
+  <data name="jsAsigneNombreYCampoFiltro" xml:space="preserve">
+    <value>Asigne un nombre al filtro y campos para filtrar</value>
+  </data>
+  <data name="jsAsigneNombreYCamposAFiltro" xml:space="preserve">
+    <value>Asigne un nombre al filtro y campos para filtrar</value>
+  </data>
+  <data name="jsAtencion" xml:space="preserve">
+    <value>Atención</value>
+  </data>
+  <data name="jsAtributo" xml:space="preserve">
+    <value>Atributo</value>
+  </data>
+  <data name="jsBarrio" xml:space="preserve">
+    <value>Barrio</value>
+  </data>
+  <data name="jsBloquear" xml:space="preserve">
+    <value>Bloquear</value>
+  </data>
+  <data name="jsBuscarDireccionMapa" xml:space="preserve">
+    <value>Buscar dirección...</value>
+  </data>
+  <data name="jsCadenaTexto" xml:space="preserve">
+    <value>Cadena Texto</value>
+  </data>
+  <data name="jsCalendario" xml:space="preserve">
+    <value>Ver Calendario</value>
+  </data>
+  <data name="jsCambiarColumnaCategoria" xml:space="preserve">
+    <value>¿Seguro que desea cambiar la categoría? Se perderá toda la configuración de la fila</value>
+  </data>
+  <data name="jsCambioEfectuado" xml:space="preserve">
+    <value>Cambio Efectuado</value>
+  </data>
+  <data name="jsCampoVacio" xml:space="preserve">
+    <value>No se puede guardar el campo vacío</value>
+  </data>
+  <data name="jsCaracteres" xml:space="preserve">
+    <value>Caracteres</value>
+  </data>
+  <data name="jsCargando" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="jsCargandoMapa" xml:space="preserve">
+    <value>Cargando Mapa...</value>
+  </data>
+  <data name="jsCargas" xml:space="preserve">
+    <value>Cargas</value>
+  </data>
+  <data name="jsCatalogosTipos" xml:space="preserve">
+    <value>Tipos de Catalogos</value>
+  </data>
+  <data name="jsCatalogosTiposServicios" xml:space="preserve">
+    <value>Tipos de Servicios</value>
+  </data>
+  <data name="jsCategoria" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="jsCategoriaExiste" xml:space="preserve">
+    <value>Ya existe un registro con esa categoria.</value>
+  </data>
+  <data name="jsCerrado" xml:space="preserve">
+    <value>Cerrado</value>
+  </data>
+  <data name="jsCerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="jsClaveDiferente" xml:space="preserve">
+    <value>Las claves introducidas no coinciden.</value>
+  </data>
+  <data name="jsClaveIncorrecta" xml:space="preserve">
+    <value>La contraseña introducida no sigue las reglas.</value>
+  </data>
+  <data name="jsClaveRepetida" xml:space="preserve">
+    <value>La clave indicada ya fue usada en anteriores ocasiones, por favor, utilice otra.</value>
+  </data>
+  <data name="jsCliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="jsClonar" xml:space="preserve">
+    <value>Clonar</value>
+  </data>
+  <data name="jsCodigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="jsCodigoAccion" xml:space="preserve">
+    <value>Código Acción</value>
+  </data>
+  <data name="jsCodigoExiste" xml:space="preserve">
+    <value>Ya existe un registro con ese código</value>
+  </data>
+  <data name="jsCodigoManual" xml:space="preserve">
+    <value>Cambiar el código manualmente</value>
+  </data>
+  <data name="jsCodigoPostal" xml:space="preserve">
+    <value>Código Postal</value>
+  </data>
+  <data name="jsColumnaAnadida" xml:space="preserve">
+    <value>Columna añadida correctamente</value>
+  </data>
+  <data name="jsColumnaYaAnadida" xml:space="preserve">
+    <value>Columna ya añadida</value>
+  </data>
+  <data name="jsComentario" xml:space="preserve">
+    <value>Comentario</value>
+  </data>
+  <data name="jsComprobarCodigoGenerado" xml:space="preserve">
+    <value>El código propuesto ya existe. ¿Qué desea hacer?</value>
+  </data>
+  <data name="jsComprobarEdicionObjeto" xml:space="preserve">
+    <value>Se ha seleccionado el Objeto pero no se ha seleccionado ninguna Formula.</value>
+  </data>
+  <data name="jsComprobarEdicionRegistro" xml:space="preserve">
+    <value>Se han producido cambios en el registro ¿Desea sobrescribir la información o recargar el formulario?</value>
+  </data>
+  <data name="jsComun" xml:space="preserve">
+    <value>Común</value>
+  </data>
+  <data name="jsConfiguracion" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="jsConfirmacionMover" xml:space="preserve">
+    <value>¿Estas seguro de mover los elementos de inventario a este emplazamiento?</value>
+  </data>
+  <data name="jsConfirmar" xml:space="preserve">
+    <value>¿Está seguro?</value>
+  </data>
+  <data name="jsContacto" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="jsContactoInactivo" xml:space="preserve">
+    <value>El contacto no está activado.</value>
+  </data>
+  <data name="jsContactos" xml:space="preserve">
+    <value>Contactos</value>
+  </data>
+  <data name="jsContraseña" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="jsControlCodigo" xml:space="preserve">
+    <value>Código Duplicado</value>
+  </data>
+  <data name="jsControlDuplicidad" xml:space="preserve">
+    <value>Registro Duplicado</value>
+  </data>
+  <data name="jsControlEdicion" xml:space="preserve">
+    <value>Control de Edición</value>
+  </data>
+  <data name="jsCopiar" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="jsCorrectos" xml:space="preserve">
+    <value>Correctos</value>
+  </data>
+  <data name="jsCriterio" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="jsDe" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="jsDebeSeleccionarOperador" xml:space="preserve">
+    <value>Debe seleccionar un operador</value>
+  </data>
+  <data name="jsDebug" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="jsDefecto" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="jsDepartamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="jsDesactivadoExito" xml:space="preserve">
+    <value>Documento desactivado con éxito.</value>
+  </data>
+  <data name="jsDesactivar" xml:space="preserve">
+    <value>Desactivar</value>
+  </data>
+  <data name="jsDesactivarPorDefecto" xml:space="preserve">
+    <value>No se puede desactivar el registro por defecto</value>
+  </data>
+  <data name="jsDesactivo" xml:space="preserve">
+    <value>Desactivo</value>
+  </data>
+  <data name="jsDescarga" xml:space="preserve">
+    <value>Descarga</value>
+  </data>
+  <data name="jsDescargar" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="jsDescargarLog" xml:space="preserve">
+    <value>Descargar Log</value>
+  </data>
+  <data name="jsDescargarPlantilla" xml:space="preserve">
+    <value>Descargar Plantilla</value>
+  </data>
+  <data name="jsDeseaDesvincularDispositivo" xml:space="preserve">
+    <value>¿Seguro que desea desvincular el dispositivo?</value>
+  </data>
+  <data name="jsDeseaEjecutarKPI" xml:space="preserve">
+    <value>¿Desea ejecutar el KPI para ver los resultados?</value>
+  </data>
+  <data name="jsDesvincularDispositivoMovil" xml:space="preserve">
+    <value>Desvincular dispositivo móvil</value>
+  </data>
+  <data name="jsDireccion" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="jsDireccionNoEncontrada" xml:space="preserve">
+    <value>No se puede determinar la dirección</value>
+  </data>
+  <data name="jsDocumento" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="jsDocumentoElegir" xml:space="preserve">
+    <value>O busque en su computadora para encontrarlos:</value>
+  </data>
+  <data name="jsDocumentoNoEncontrado" xml:space="preserve">
+    <value>Documento no encontrado</value>
+  </data>
+  <data name="jsDocumentos" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="jsDocumentosCargas" xml:space="preserve">
+    <value>Cargas Documentos</value>
+  </data>
+  <data name="jsDocumentosSinPermisoDescarga" xml:space="preserve">
+    <value>Algunos documentos no serán descargados porque no tiene permisos. ¿Desea continuar?</value>
+  </data>
+  <data name="jsDocumentoTamano0" xml:space="preserve">
+    <value>El documento no debe de estar vacío</value>
+  </data>
+  <data name="jsDocumentoTipo" xml:space="preserve">
+    <value>Tipos de Documento</value>
+  </data>
+  <data name="jsDocumentoTipoSinPermisoDescarga" xml:space="preserve">
+    <value>No tiene permiso para descargar un documento de este tipo</value>
+  </data>
+  <data name="jsDuplicar" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="jsDuplicarConfiguracion" xml:space="preserve">
+    <value>Duplicar Configuración</value>
+  </data>
+  <data name="jsDuplicarUsuario" xml:space="preserve">
+    <value>Duplicar Usuario</value>
+  </data>
+  <data name="jsDuplicidadAtributoTree" xml:space="preserve">
+    <value>El campo "Atributo Tree" ya ha sido utilizado anteriormente, ¿Desea guardar esta configuración?</value>
+  </data>
+  <data name="jsEditar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="jsEditarDocumento" xml:space="preserve">
+    <value>Editar Documento</value>
+  </data>
+  <data name="jsEditarPropiedad" xml:space="preserve">
+    <value>Editar Propiedad</value>
+  </data>
+  <data name="jsEjecucion" xml:space="preserve">
+    <value>Ejecución Realizada</value>
+  </data>
+  <data name="jsEjecucionFallida" xml:space="preserve">
+    <value>Se ha producido un fallo en la ejecución.</value>
+  </data>
+  <data name="jsEjecucionRealizada" xml:space="preserve">
+    <value>Se ha realizado la ejecución con éxito.</value>
+  </data>
+  <data name="jsEjecutar" xml:space="preserve">
+    <value>Ejecutar</value>
+  </data>
+  <data name="jsElementosHijos" xml:space="preserve">
+    <value>Elementos Hijos</value>
+  </data>
+  <data name="jsElementosPadres" xml:space="preserve">
+    <value>Elementos Padres</value>
+  </data>
+  <data name="jsEliminadoExito" xml:space="preserve">
+    <value>Documento eliminado con éxito.</value>
+  </data>
+  <data name="jsEliminar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="jsEliminarCelda" xml:space="preserve">
+    <value>¿Desea eliminar la configuración de la celda?</value>
+  </data>
+  <data name="jsEliminarColumna" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la columna? Se perderá toda la configuración de la columna</value>
+  </data>
+  <data name="jsEliminarFila" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la fila? Se perderá toda la configuración de la fila</value>
+  </data>
+  <data name="jsEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="jsEmailExiste" xml:space="preserve">
+    <value>Ya existe un registro con ese email.</value>
+  </data>
+  <data name="jsEmplazamiento" xml:space="preserve">
+    <value>Emplazamiento</value>
+  </data>
+  <data name="jsEmplazamientoAtributos" xml:space="preserve">
+    <value>Emplazamientos Atributos</value>
+  </data>
+  <data name="jsEmpresaProveedora" xml:space="preserve">
+    <value>EmpresaProveedora</value>
+  </data>
+  <data name="jsEmptyTextPerfiles" xml:space="preserve">
+    <value>Añadir Perfiles aqui</value>
+  </data>
+  <data name="jsEmptyTextValor" xml:space="preserve">
+    <value>Añade valores aqui</value>
+  </data>
+  <data name="jsEntidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="jsEntidadCliente" xml:space="preserve">
+    <value>Debe de haber una Entidad como cliente.</value>
+  </data>
+  <data name="jsEnviar" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="jsError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="jsErrores" xml:space="preserve">
+    <value>Errores</value>
+  </data>
+  <data name="jsErrorTimeout" xml:space="preserve">
+    <value>Ups, Algo ha ido mal!</value>
+  </data>
+  <data name="jsEscritura" xml:space="preserve">
+    <value>Escritura</value>
+  </data>
+  <data name="jsEspera" xml:space="preserve">
+    <value>Por favor, espera</value>
+  </data>
+  <data name="jsEstado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="jsEstadoActual" xml:space="preserve">
+    <value>Estado Actual</value>
+  </data>
+  <data name="jsEstadoGlobal" xml:space="preserve">
+    <value>Estado Global</value>
+  </data>
+  <data name="jsExcel" xml:space="preserve">
+    <value>Acción realizada: Exportación Excel</value>
+  </data>
+  <data name="jsExportar" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="jsExtensionNoPermitida" xml:space="preserve">
+    <value>Extensión No Permitida</value>
+  </data>
+  <data name="jsFase" xml:space="preserve">
+    <value>Fase</value>
+  </data>
+  <data name="jsFatal" xml:space="preserve">
+    <value>Fatal</value>
+  </data>
+  <data name="jsFecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="jsFechaCaducidadClave" xml:space="preserve">
+    <value>La fecha de caducidad de la clave es: </value>
+  </data>
+  <data name="jsFechaCreacion" xml:space="preserve">
+    <value>Fecha Creación</value>
+  </data>
+  <data name="jsFechaDesactivacion" xml:space="preserve">
+    <value>Fecha Desactivación</value>
+  </data>
+  <data name="jsFechaFin" xml:space="preserve">
+    <value>Fecha Fin</value>
+  </data>
+  <data name="jsFechaFinMenor" xml:space="preserve">
+    <value>La fecha fin no puede ser inferior a la fecha inicio.</value>
+  </data>
+  <data name="jsFechaFinRevision" xml:space="preserve">
+    <value>Fecha Fin Revision</value>
+  </data>
+  <data name="jsFechaHoraFin" xml:space="preserve">
+    <value>Fecha Hora Fin</value>
+  </data>
+  <data name="jsFechaHoraInicio" xml:space="preserve">
+    <value>Fecha Hora Inicio</value>
+  </data>
+  <data name="jsFechaIncorrecta" xml:space="preserve">
+    <value>El rango de fechas es incorrecto. Intentelo de nuevo.</value>
+  </data>
+  <data name="jsFechaInicio" xml:space="preserve">
+    <value>Fecha Inicio</value>
+  </data>
+  <data name="jsFechaInicioRevision" xml:space="preserve">
+    <value>Fecha Inicio Revisión</value>
+  </data>
+  <data name="jsFechaModificacion" xml:space="preserve">
+    <value>Fecha Modificación</value>
+  </data>
+  <data name="jsFechaProximaRevision" xml:space="preserve">
+    <value>Fecha Revision</value>
+  </data>
+  <data name="jsFicheroNoExiste" xml:space="preserve">
+    <value>El archivo no existe</value>
+  </data>
+  <data name="jsFijar" xml:space="preserve">
+    <value>Fijar</value>
+  </data>
+  <data name="jsFiltroAplicado" xml:space="preserve">
+    <value>Filtro aplicado</value>
+  </data>
+  <data name="jsFiltros" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="jsFiltroSinNombre" xml:space="preserve">
+    <value>Sin nombre</value>
+  </data>
+  <data name="jsFormatoImagenNoPermitido" xml:space="preserve">
+    <value>Formato de imagen no permitido</value>
+  </data>
+  <data name="jsFormularioNoValido" xml:space="preserve">
+    <value>Formulario No Valido</value>
+  </data>
+  <data name="jsFormulas" xml:space="preserve">
+    <value>Fórmulas</value>
+  </data>
+  <data name="jsFrecuencia" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="jsFuenteDatos" xml:space="preserve">
+    <value>Fuente de Datos</value>
+  </data>
+  <data name="jsGenerarCodigo" xml:space="preserve">
+    <value>Probar el siguiente código</value>
+  </data>
+  <data name="jsGestionUsuario" xml:space="preserve">
+    <value>Cuenta Usuario</value>
+  </data>
+  <data name="jsGrupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="jsGruposAccesosWeb" xml:space="preserve">
+    <value>Grupos Accesos</value>
+  </data>
+  <data name="jsGuardado" xml:space="preserve">
+    <value>Guardado!</value>
+  </data>
+  <data name="jsGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="jsHistorico" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="jsID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="jsIdentificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="jsInactividad" xml:space="preserve">
+    <value>Se ha superado el tiempo de inactividad, en 5 minutos seras deslogeado</value>
+  </data>
+  <data name="jsInflacion" xml:space="preserve">
+    <value>Inflacion</value>
+  </data>
+  <data name="jsInfo" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="jsInfoDoc" xml:space="preserve">
+    <value>Información Documento</value>
+  </data>
+  <data name="jsInformacionComarch" xml:space="preserve">
+    <value>Información Comarcal</value>
+  </data>
+  <data name="jsInicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="jsIntegracionNoEncontrada" xml:space="preserve">
+    <value>Integración no encontrada.</value>
+  </data>
+  <data name="jsInterno" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="jsInventario" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="jsInventarioElemento" xml:space="preserve">
+    <value>Inventario Elemento</value>
+  </data>
+  <data name="jsInventarioElementosCategoriasDistintas" xml:space="preserve">
+    <value>Las categorias padre no son del mismo tipo</value>
+  </data>
+  <data name="jsInventarioElementosCategoriasIguales" xml:space="preserve">
+    <value>Los elementos tienen el mismo tipo de categoria</value>
+  </data>
+  <data name="jsInventarioElementosSoloHojas" xml:space="preserve">
+    <value>Solo es posible mover elementos hoja aqui</value>
+  </data>
+  <data name="jsInventarioTiposVinculaciones" xml:space="preserve">
+    <value>Inventario Tipos Vinculaciones</value>
+  </data>
+  <data name="jsKPI" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="jsLatitud" xml:space="preserve">
+    <value>Latitud</value>
+  </data>
+  <data name="jsLectura" xml:space="preserve">
+    <value>Lectura</value>
+  </data>
+  <data name="jsLimiteIntentosCodigo" xml:space="preserve">
+    <value>No se ha encontrado ningún código disponible. Comuníquese con su administrador para verificar el patrón de generación de código.</value>
+  </data>
+  <data name="jsLista" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="jsLocalidad" xml:space="preserve">
+    <value>Ya existe el Municipio</value>
+  </data>
+  <data name="jsLocalizacion" xml:space="preserve">
+    <value>Localización</value>
+  </data>
+  <data name="jsLogVacio" xml:space="preserve">
+    <value>No hay eventos. El archivo de registro está vacío.</value>
+  </data>
+  <data name="jsLongitud" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="jsMaxCargaFavoritos" xml:space="preserve">
+    <value>Solamente se pueden cargar 4 páginas como favoritos.</value>
+  </data>
+  <data name="jsMaxCargaModulos" xml:space="preserve">
+    <value>No se puede cargar más de 3 módulos.</value>
+  </data>
+  <data name="jsMensajeAnonimizar" xml:space="preserve">
+    <value>¿Desea anonimizar el registro seleccionado?</value>
+  </data>
+  <data name="jsMensajeCerrar" xml:space="preserve">
+    <value>Sus cambios no se han guardado todavía. ¿Quiere guardarlos antes de cerrar este formulario?</value>
+  </data>
+  <data name="jsMensajeDesactivar" xml:space="preserve">
+    <value>¿Desea desactivar el registro seleccionado?</value>
+  </data>
+  <data name="jsMensajeEditarUsuario" xml:space="preserve">
+    <value>¿Desea realizar los cambios? Si es así, necesitará hacer login de nuevo.</value>
+  </data>
+  <data name="jsMensajeEliminar" xml:space="preserve">
+    <value>¿Desea eliminar el registro seleccionado?</value>
+  </data>
+  <data name="jsMensajeGenerico" xml:space="preserve">
+    <value>Error al realizar la operación</value>
+  </data>
+  <data name="jsMensajeProcesando" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="jsMensajeRestaurar" xml:space="preserve">
+    <value>¿Desea restaurar este documento como última versión?</value>
+  </data>
+  <data name="jsMenuLateral" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="jsMiembro" xml:space="preserve">
+    <value>Miembro</value>
+  </data>
+  <data name="jsMiembros" xml:space="preserve">
+    <value>Miembros</value>
+  </data>
+  <data name="jsMoneda" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="jsMonedasGlobales" xml:space="preserve">
+    <value>Monedas Globales</value>
+  </data>
+  <data name="jsMostrando" xml:space="preserve">
+    <value>Mostrando</value>
+  </data>
+  <data name="jsMostrarEmplazamientosOcultos" xml:space="preserve">
+    <value>Mostrar emplazamientos ocultos</value>
+  </data>
+  <data name="jsMostrarMas" xml:space="preserve">
+    <value>Mostrar Todo</value>
+  </data>
+  <data name="jsMostrarMenos" xml:space="preserve">
+    <value>Mostrar Menos</value>
+  </data>
+  <data name="jsMover" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="jsMultiflujo" xml:space="preserve">
+    <value>MultiFlujo</value>
+  </data>
+  <data name="jsMunicipalidades" xml:space="preserve">
+    <value>Municipalidades</value>
+  </data>
+  <data name="jsMunicipio" xml:space="preserve">
+    <value>Municipio</value>
+  </data>
+  <data name="jsNivelMenuNoPermitido" xml:space="preserve">
+    <value>No se puede crear elementos hijos del elemento seleccionado</value>
+  </data>
+  <data name="jsNoItemsSeleccionados" xml:space="preserve">
+    <value>No hay elementos seleccionados que agregar.</value>
+  </data>
+  <data name="jsNombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="jsNombreColumna" xml:space="preserve">
+    <value>Nombre Columna</value>
+  </data>
+  <data name="jsNombreCompletoModificador" xml:space="preserve">
+    <value>Nombre Completo Modificador</value>
+  </data>
+  <data name="jsNombreCompletoUsuario" xml:space="preserve">
+    <value>Nombre Completo Usuario</value>
+  </data>
+  <data name="jsNombreInvalido" xml:space="preserve">
+    <value>Nombre de atributo invalido</value>
+  </data>
+  <data name="jsNoResultados" xml:space="preserve">
+    <value>No se han encontrado resultados</value>
+  </data>
+  <data name="jsNoSeCumpleRequisitos" xml:space="preserve">
+    <value>No se cumplen los Requisitos</value>
+  </data>
+  <data name="jsNuevoCampoConcatenado" xml:space="preserve">
+    <value>Nuevo campo concatenado</value>
+  </data>
+  <data name="jsNumeroMaximoCaracteres" xml:space="preserve">
+    <value>El nombre del archivo no puede superar 200 caracteres.</value>
+  </data>
+  <data name="jsOculto" xml:space="preserve">
+    <value>Oculto</value>
+  </data>
+  <data name="jsOperacionRealizada" xml:space="preserve">
+    <value>Operación realizada</value>
+  </data>
+  <data name="jsOperador" xml:space="preserve">
+    <value>Operador</value>
+  </data>
+  <data name="jsOrdenExiste" xml:space="preserve">
+    <value>Ya existe un registro con ese orden.</value>
+  </data>
+  <data name="jsPagina" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="jsPaginaNoEncontrada" xml:space="preserve">
+    <value>Página no encontrada</value>
+  </data>
+  <data name="jsPartido" xml:space="preserve">
+    <value>Partido</value>
+  </data>
+  <data name="jsPatron" xml:space="preserve">
+    <value>Patron</value>
+  </data>
+  <data name="jsPerfiles" xml:space="preserve">
+    <value>Perfiles</value>
+  </data>
+  <data name="jsPeriodicidad" xml:space="preserve">
+    <value>Cadencia</value>
+  </data>
+  <data name="jsPlantilla" xml:space="preserve">
+    <value>Plantilla</value>
+  </data>
+  <data name="jsPonerPorDefecto" xml:space="preserve">
+    <value>¿Desea guardar este registro por defecto?</value>
+  </data>
+  <data name="jsPorcentaje" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="jsPorDefecto" xml:space="preserve">
+    <value>No se puede eliminar un registro por defecto</value>
+  </data>
+  <data name="jsPrecio" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="jsPrivacidadBloqueada" xml:space="preserve">
+    <value>No se puede cambiar la privacidad si hay roles asignados.</value>
+  </data>
+  <data name="jsPrivado" xml:space="preserve">
+    <value>Privado</value>
+  </data>
+  <data name="jsPropiedad" xml:space="preserve">
+    <value>Propiedad</value>
+  </data>
+  <data name="jsProvincia" xml:space="preserve">
+    <value>Provincia</value>
+  </data>
+  <data name="jsProyecto" xml:space="preserve">
+    <value>Proyecto</value>
+  </data>
+  <data name="jsProyectoEstado" xml:space="preserve">
+    <value>Proyecto Estado</value>
+  </data>
+  <data name="jsProyectosTipos" xml:space="preserve">
+    <value>Proyectos Tipos</value>
+  </data>
+  <data name="jsPublico" xml:space="preserve">
+    <value>Publico</value>
+  </data>
+  <data name="jsRadio" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="jsReanudarActividad" xml:space="preserve">
+    <value>Se ha reanudado la actividad</value>
+  </data>
+  <data name="jsRecargar" xml:space="preserve">
+    <value>Recargar</value>
+  </data>
+  <data name="jsRecargarFormulario" xml:space="preserve">
+    <value>Recargar Formulario</value>
+  </data>
+  <data name="jsRefrescar" xml:space="preserve">
+    <value>Refrescar</value>
+  </data>
+  <data name="jsRegexInvalido" xml:space="preserve">
+    <value>Formato Invalido</value>
+  </data>
+  <data name="jsRegion" xml:space="preserve">
+    <value>Región</value>
+  </data>
+  <data name="jsRegionPais" xml:space="preserve">
+    <value>Región País</value>
+  </data>
+  <data name="jsRegistroDuplicado" xml:space="preserve">
+    <value>Registro Duplicado</value>
+  </data>
+  <data name="jsRegistroInactivoPorDefecto" xml:space="preserve">
+    <value>Un registro inactivo no se puede asignar por defecto. ¿Desea activarlo?</value>
+  </data>
+  <data name="jsReglaTransformacion" xml:space="preserve">
+    <value>Regla de transformación</value>
+  </data>
+  <data name="jsRestauradoExito" xml:space="preserve">
+    <value>Documento restaurado con éxito.</value>
+  </data>
+  <data name="jsRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="jsSAPIndices" xml:space="preserve">
+    <value>SAP Indices</value>
+  </data>
+  <data name="jsSeccion" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="jsSeleccionaCampoValorFiltro" xml:space="preserve">
+    <value>Seleccione un campo y un valor para filtrar</value>
+  </data>
+  <data name="jsSeleccioneDocumento" xml:space="preserve">
+    <value>Seleccione Documento</value>
+  </data>
+  <data name="jsSeleccioneOpcion" xml:space="preserve">
+    <value>Seleccione una opción</value>
+  </data>
+  <data name="jsSemaforo" xml:space="preserve">
+    <value>Semáforo</value>
+  </data>
+  <data name="jsSeparador" xml:space="preserve">
+    <value>Separador</value>
+  </data>
+  <data name="jsServiciosFrecuencias" xml:space="preserve">
+    <value>Servicios Frecuencias</value>
+  </data>
+  <data name="jsSiguiente" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="jsSinDatosMostrar" xml:space="preserve">
+    <value>No hay datos que mostrar</value>
+  </data>
+  <data name="jsSobrescribir" xml:space="preserve">
+    <value>Guardar Datos</value>
+  </data>
+  <data name="jsSoloUnaVez" xml:space="preserve">
+    <value>Solo una vez</value>
+  </data>
+  <data name="jsSoporte" xml:space="preserve">
+    <value>Soporte</value>
+  </data>
+  <data name="jsStatusBar" xml:space="preserve">
+    <value>Resultados encontrados</value>
+  </data>
+  <data name="jsStatusBarNothingFound" xml:space="preserve">
+    <value>Ningún resultado</value>
+  </data>
+  <data name="jsSubcategoria" xml:space="preserve">
+    <value>Sección vacia</value>
+  </data>
+  <data name="jsSubcategoriaAtributos" xml:space="preserve">
+    <value>Sección atributos</value>
+  </data>
+  <data name="jsSubcategoriaPlantillas" xml:space="preserve">
+    <value>Sección Plantillas</value>
+  </data>
+  <data name="jsSubidaExito" xml:space="preserve">
+    <value>Subida correcta</value>
+  </data>
+  <data name="jsSubidaIncorrecta" xml:space="preserve">
+    <value>Subida fallida</value>
+  </data>
+  <data name="jsSubiendo" xml:space="preserve">
+    <value>Subiendo archivos</value>
+  </data>
+  <data name="jsTablasModeloDatos" xml:space="preserve">
+    <value>Tablas Modelo Datos</value>
+  </data>
+  <data name="jsTamanoCodigoExcedido" xml:space="preserve">
+    <value>Se ha alcanzado la longitud máxima. El codigo generado debe de tener menos de</value>
+  </data>
+  <data name="jsTamanoDocumentoExcedido" xml:space="preserve">
+    <value>Se ha excedido el tamaño máximo del documento</value>
+  </data>
+  <data name="jsTelefonoExiste" xml:space="preserve">
+    <value>Ya existe un registro con ese teléfono.</value>
+  </data>
+  <data name="jsTexto" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="jsTieneRegistros" xml:space="preserve">
+    <value>No se puede eliminar, tiene registros asociados.</value>
+  </data>
+  <data name="jsTieneRegistrosDeseaEliminar" xml:space="preserve">
+    <value>No se puede eliminar, tiene registros asociados. ¿Quiere desactivarlo?</value>
+  </data>
+  <data name="jsTieneVinculaciones" xml:space="preserve">
+    <value>No se puede eliminar tiene elementos vinculados</value>
+  </data>
+  <data name="jsTipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="jsTipoEdificio" xml:space="preserve">
+    <value>Tipo Edificio</value>
+  </data>
+  <data name="jsTipologia" xml:space="preserve">
+    <value>Tipología</value>
+  </data>
+  <data name="jsTipologias" xml:space="preserve">
+    <value>Tipologias</value>
+  </data>
+  <data name="jsTiposContratos" xml:space="preserve">
+    <value>Tipos Contratos</value>
+  </data>
+  <data name="jsTiposEdificios" xml:space="preserve">
+    <value>Tipos Edificios</value>
+  </data>
+  <data name="jsTituloDetalle" xml:space="preserve">
+    <value>Detalle</value>
+  </data>
+  <data name="jsTodasEntidades" xml:space="preserve">
+    <value>Todas las Entidades</value>
+  </data>
+  <data name="jsUltimaVinculacion" xml:space="preserve">
+    <value>Esta es la ultima vinculación del elemento, si la elimina eliminara el elemento</value>
+  </data>
+  <data name="jsUnidades" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="jsUsuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="jsUsuarios" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="jsValor" xml:space="preserve">
+    <value>Valor Fijo</value>
+  </data>
+  <data name="jsValorDefecto" xml:space="preserve">
+    <value>Valor defecto</value>
+  </data>
+  <data name="jsValorPorDefectoRegla" xml:space="preserve">
+    <value>Valor por defecto</value>
+  </data>
+  <data name="jsVariables" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="jsVista" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="jsVistaCategoria" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="jsVistaPrevia" xml:space="preserve">
+    <value>Vista previa</value>
+  </data>
+  <data name="jsWarn" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="jsWorkFlow" xml:space="preserve">
+    <value>WorkFlow</value>
+  </data>
+  <data name="jsYaExiste" xml:space="preserve">
+    <value>Ya existe un registro con ese nombre</value>
+  </data>
+  <data name="jsYaExisteFormOriginal" xml:space="preserve">
+    <value>El campo ya existe en el formulario original</value>
+  </data>
+  <data name="jsZona" xml:space="preserve">
+    <value>Zona</value>
+  </data>
+  <data name="LogActivacionRealizada" xml:space="preserve">
+    <value>Activación realizada</value>
+  </data>
+  <data name="LogActualizacionApellidos" xml:space="preserve">
+    <value>Se han modificado los apellidos</value>
+  </data>
+  <data name="LogActualizacionClave" xml:space="preserve">
+    <value>Se ha modificado la clave </value>
+  </data>
+  <data name="LogActualizacionEmail" xml:space="preserve">
+    <value>Se ha modificado el email</value>
+  </data>
+  <data name="LogActualizacionNombre" xml:space="preserve">
+    <value>Se ha modificado el nombre</value>
+  </data>
+  <data name="LogActualizacionRealizada" xml:space="preserve">
+    <value>Actualización realizada</value>
+  </data>
+  <data name="LogAgregacionRealizada" xml:space="preserve">
+    <value>Agregación realizada</value>
+  </data>
+  <data name="LogCambioAlmacen" xml:space="preserve">
+    <value>Se ha modificado el registro en Almacen</value>
+  </data>
+  <data name="LogCambioBaja" xml:space="preserve">
+    <value>Se ha modificado el registro en Baja</value>
+  </data>
+  <data name="LogCambioMantenimiento" xml:space="preserve">
+    <value>Se ha modificado el registro en Mantenimiento</value>
+  </data>
+  <data name="LogCambioRegistroPorDefecto" xml:space="preserve">
+    <value>Cambio de registro por defecto</value>
+  </data>
+  <data name="LogCambioReparacion" xml:space="preserve">
+    <value>Se ha modificado el registro en Reparación</value>
+  </data>
+  <data name="LogCambioTraslado" xml:space="preserve">
+    <value>Se ha modificado el registro en Traslado</value>
+  </data>
+  <data name="LogEliminacionRealizada" xml:space="preserve">
+    <value>Eliminación realizada</value>
+  </data>
+  <data name="LogErrorCampoImportacion" xml:space="preserve">
+    <value>El campo no puede estar vacio, o tiene un formato incorrecto</value>
+  </data>
+  <data name="LogErrorCampoNoCreado" xml:space="preserve">
+    <value>No existe en Tree</value>
+  </data>
+  <data name="LogErrorCargaElemento" xml:space="preserve">
+    <value>No se ha podido agregar el elemento</value>
+  </data>
+  <data name="LogErrorRule" xml:space="preserve">
+    <value>Regla no valida, compruebe si hay errores de valores</value>
+  </data>
+  <data name="LogEstadisticasAgregadas" xml:space="preserve">
+    <value>Agregadas estadisticas</value>
+  </data>
+  <data name="LogEstructuraActualizada" xml:space="preserve">
+    <value>Estructura Actualizada</value>
+  </data>
+  <data name="LogExcelExportado" xml:space="preserve">
+    <value>Excel exportado</value>
+  </data>
+  <data name="LogFiltrosEntidades" xml:space="preserve">
+    <value>Filtros de Entidades</value>
+  </data>
+  <data name="LogFiltrosInventarioGestion" xml:space="preserve">
+    <value>Filtros de Inventario Gestión</value>
+  </data>
+  <data name="LogFiltrosPerfilesCreados" xml:space="preserve">
+    <value>Creados los filtros de los perfiles</value>
+  </data>
+  <data name="LogRegistroExistente" xml:space="preserve">
+    <value>Ya existe el registro</value>
+  </data>
+  <data name="LogSeleccionElementoGrilla" xml:space="preserve">
+    <value>Seleccionado un elemento de la grilla</value>
+  </data>
+  <data name="LogTablaMigrada" xml:space="preserve">
+    <value>Tabla Migrada</value>
+  </data>
+  <data name="LogTablaMigradaRows" xml:space="preserve">
+    <value>Filas</value>
+  </data>
+  <data name="LogTablaMigradaWith" xml:space="preserve">
+    <value>Con</value>
+  </data>
+  <data name="msgCarpetaCreada" xml:space="preserve">
+    <value>Carpeta creada</value>
+  </data>
+  <data name="msgCreacionCorrecta" xml:space="preserve">
+    <value>Se ha creado correctamente.</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>TREE CORE</value>
+  </data>
+  <data name="regexEmail" xml:space="preserve">
+    <value>/^([\w\-\'\-]+)(\.[\w-\'\-]+)*@([\w\-]+\.){1,5}([A-Za-z]){2,4}$/</value>
+  </data>
+  <data name="regexNombre" xml:space="preserve">
+    <value>^[(^%\/|&lt;&gt;\\)]*$</value>
+  </data>
+  <data name="regexNombreText" xml:space="preserve">
+    <value>No puede contener ninguno de los siguientes caracteres " \ / &lt; &gt; ' |  ^ % $ &amp; # "</value>
+  </data>
+  <data name="sPrecio" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="stePropiedades" xml:space="preserve">
+    <value>Propiedades</value>
+  </data>
+  <data name="strAbril" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="strAbrirMenu" xml:space="preserve">
+    <value>Abrir menu</value>
+  </data>
+  <data name="strAccesoDenegadoMensaje" xml:space="preserve">
+    <value>No tienes permisos para acceder a esta página. Por favor, inicia sesión con otro usuario o habla con tu administrador.</value>
+  </data>
+  <data name="strAccesoDenegadoMultihomming" xml:space="preserve">
+    <value>Usuario Multihoming no cumple con la configuración </value>
+  </data>
+  <data name="strAccesoNoPermitido" xml:space="preserve">
+    <value>Acceso No permitido</value>
+  </data>
+  <data name="strAccesos" xml:space="preserve">
+    <value>Accesos</value>
+  </data>
+  <data name="strAccesoSoloLectura" xml:space="preserve">
+    <value>Solo Lectura</value>
+  </data>
+  <data name="strAccesoTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="strAccion" xml:space="preserve">
+    <value>Acción</value>
+  </data>
+  <data name="strAceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="strAcercaDe" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="strAcercaDeTree" xml:space="preserve">
+    <value>Acerca de ... TREE</value>
+  </data>
+  <data name="strActivo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="strActivoRepositorio" xml:space="preserve">
+    <value>Repositorio Activo</value>
+  </data>
+  <data name="strActivoRepositorioDuplicado" xml:space="preserve">
+    <value>Repositorio Activo Duplicado</value>
+  </data>
+  <data name="strActuaal" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="strActual" xml:space="preserve">
+    <value>Actual:</value>
+  </data>
+  <data name="strActualizado" xml:space="preserve">
+    <value>Actualizado</value>
+  </data>
+  <data name="strActualizar" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="strActualizarRentas" xml:space="preserve">
+    <value>Actualizar rentas</value>
+  </data>
+  <data name="strAdicional" xml:space="preserve">
+    <value>Adicional</value>
+  </data>
+  <data name="strAdmin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="strAdminAccess" xml:space="preserve">
+    <value>Admin Acceso</value>
+  </data>
+  <data name="strAdminAdquisiciones" xml:space="preserve">
+    <value>Admin Adquisiciones</value>
+  </data>
+  <data name="strAdminAudit" xml:space="preserve">
+    <value>Admin Auditoría</value>
+  </data>
+  <data name="strAdminCity" xml:space="preserve">
+    <value>Admin Ciudad</value>
+  </data>
+  <data name="strAdminMonitoring" xml:space="preserve">
+    <value>Admin Monitorización</value>
+  </data>
+  <data name="strAdminPlantilla" xml:space="preserve">
+    <value>Administración Plantillas</value>
+  </data>
+  <data name="strAdminUninstallTech" xml:space="preserve">
+    <value>Admin Desinstalación técnica</value>
+  </data>
+  <data name="strAdquisiciones" xml:space="preserve">
+    <value>Adquisiciones</value>
+  </data>
+  <data name="strAEV" xml:space="preserve">
+    <value>AEV</value>
+  </data>
+  <data name="strAEVCA" xml:space="preserve">
+    <value>AEVCA</value>
+  </data>
+  <data name="strAfterText" xml:space="preserve">
+    <value>Después</value>
+  </data>
+  <data name="strAgosto" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="strAgregarDocumento" xml:space="preserve">
+    <value>Agregar Documento</value>
+  </data>
+  <data name="strAgregarEliminarContactos" xml:space="preserve">
+    <value>Añadir/Eliminar Contactos</value>
+  </data>
+  <data name="strAgregarInformaciónDeComarca" xml:space="preserve">
+    <value>Agregar información de Comarca</value>
+  </data>
+  <data name="strAgregarReglaTransformacion" xml:space="preserve">
+    <value>Agregar regla de transformación</value>
+  </data>
+  <data name="strAjustesColumnas" xml:space="preserve">
+    <value>Ajustes Columnas</value>
+  </data>
+  <data name="strAlertas" xml:space="preserve">
+    <value>Alertas</value>
+  </data>
+  <data name="strAlfanumerico" xml:space="preserve">
+    <value>Alfanumérico</value>
+  </data>
+  <data name="strAlgunosDocumentosNoModificados" xml:space="preserve">
+    <value>Algunos documentos no han podido ser modificados</value>
+  </data>
+  <data name="strAlias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="strAltLogoCliente" xml:space="preserve">
+    <value>Logo Cliente</value>
+  </data>
+  <data name="strAmarillo" xml:space="preserve">
+    <value>Amarillo</value>
+  </data>
+  <data name="strAmbiental" xml:space="preserve">
+    <value>Medio Ambiente</value>
+  </data>
+  <data name="strAmpliaciones" xml:space="preserve">
+    <value>Ampliaciones</value>
+  </data>
+  <data name="strAnadir" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="strAnadirAProyecto" xml:space="preserve">
+    <value>Añadir a proyecto</value>
+  </data>
+  <data name="strAnadirNuevoCodigo" xml:space="preserve">
+    <value>Añadir Código Nuevo</value>
+  </data>
+  <data name="strAnadirReglaFormato" xml:space="preserve">
+    <value>Añadir regla formato</value>
+  </data>
+  <data name="strAnadirRestriccion" xml:space="preserve">
+    <value>Añadir Restricción</value>
+  </data>
+  <data name="strAnadirVinculacion" xml:space="preserve">
+    <value>Añadir vinculación</value>
+  </data>
+  <data name="strAnalizadas" xml:space="preserve">
+    <value>Analizadas</value>
+  </data>
+  <data name="strAnalytics" xml:space="preserve">
+    <value>Analítico</value>
+  </data>
+  <data name="strAnio" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="strAnonimizar" xml:space="preserve">
+    <value>Anonimizar</value>
+  </data>
+  <data name="strAntepenultimaVersion" xml:space="preserve">
+    <value>Antepenúltima versión</value>
+  </data>
+  <data name="strAnterior" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="strAnyo" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="strAnyoBase" xml:space="preserve">
+    <value>Año Base</value>
+  </data>
+  <data name="strAñadirCarpeta" xml:space="preserve">
+    <value>Añadir Carpeta</value>
+  </data>
+  <data name="strAñadirDesdePlantilla" xml:space="preserve">
+    <value>Añadir desde Plantilla</value>
+  </data>
+  <data name="strAñadirDocumento" xml:space="preserve">
+    <value>Añadir Documento</value>
+  </data>
+  <data name="strAñadirInformacionAdicional" xml:space="preserve">
+    <value>Añadir información adicional</value>
+  </data>
+  <data name="strAñadirPerfiles" xml:space="preserve">
+    <value>Añadir Perfiles</value>
+  </data>
+  <data name="strApellidos" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="strAplicaOrdendeCompra" xml:space="preserve">
+    <value>Aplica orden de compra</value>
+  </data>
+  <data name="strAplicar" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="strAplicarFiltro" xml:space="preserve">
+    <value>Aplicar filtro</value>
+  </data>
+  <data name="strAplicarVista" xml:space="preserve">
+    <value>Aplicar Vista</value>
+  </data>
+  <data name="strArchivo" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="strArchivoInexistente" xml:space="preserve">
+    <value>No existe el archivo a exportar</value>
+  </data>
+  <data name="strAreaOandM" xml:space="preserve">
+    <value>Área OYM</value>
+  </data>
+  <data name="strAsignarContribuyentes" xml:space="preserve">
+    <value>Asignar Tipos de Contribuyentes</value>
+  </data>
+  <data name="strAsignarImagen" xml:space="preserve">
+    <value>Asignar imagen</value>
+  </data>
+  <data name="strAsignarImagenOperador" xml:space="preserve">
+    <value>Asignar imagen operador</value>
+  </data>
+  <data name="strAsignarRolesTareasEstados" xml:space="preserve">
+    <value>Asignar los roles para realizar las tareas de estado</value>
+  </data>
+  <data name="strAssemblyFileVersion" xml:space="preserve">
+    <value>Versión de Archivo: </value>
+  </data>
+  <data name="strAssemblyVersion" xml:space="preserve">
+    <value>Nº de Versión: </value>
+  </data>
+  <data name="strAssetsPurchase" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="strAsunto" xml:space="preserve">
+    <value>Asunto</value>
+  </data>
+  <data name="strAtencion" xml:space="preserve">
+    <value>Atención</value>
+  </data>
+  <data name="strAtributo" xml:space="preserve">
+    <value>Atributo</value>
+  </data>
+  <data name="strAtributoMaximo" xml:space="preserve">
+    <value>Atributo Máximo</value>
+  </data>
+  <data name="strAtributos" xml:space="preserve">
+    <value>Atributos</value>
+  </data>
+  <data name="strAtributoTree" xml:space="preserve">
+    <value>Atributo Tree</value>
+  </data>
+  <data name="strAudit" xml:space="preserve">
+    <value>Auditoria</value>
+  </data>
+  <data name="strAutoCaracter" xml:space="preserve">
+    <value>Carácter Autoincrementable</value>
+  </data>
+  <data name="strAutofactura" xml:space="preserve">
+    <value>Autofactura</value>
+  </data>
+  <data name="strAutoNumerico" xml:space="preserve">
+    <value>Numérico Autoincrementable</value>
+  </data>
+  <data name="strAvisos" xml:space="preserve">
+    <value>Avisos</value>
+  </data>
+  <data name="strAyudaCargaVinculaciones" xml:space="preserve">
+    <value>Dejar el campo vacio es para vincular el elemento directamente al Emplazamiento</value>
+  </data>
+  <data name="strBanco" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="strBarrio" xml:space="preserve">
+    <value>Barrio</value>
+  </data>
+  <data name="strBaseDeDatos" xml:space="preserve">
+    <value>Base de Datos</value>
+  </data>
+  <data name="strBBDDVersion" xml:space="preserve">
+    <value>BBDD Versión: </value>
+  </data>
+  <data name="strBeforeText" xml:space="preserve">
+    <value>Antes</value>
+  </data>
+  <data name="strBilling" xml:space="preserve">
+    <value>Financiero</value>
+  </data>
+  <data name="strBloqueante" xml:space="preserve">
+    <value>Bloqueante</value>
+  </data>
+  <data name="strBooleano" xml:space="preserve">
+    <value>Booleano</value>
+  </data>
+  <data name="strBuscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="strBusqueda" xml:space="preserve">
+    <value>Búsqueda...</value>
+  </data>
+  <data name="strCA" xml:space="preserve">
+    <value>CA</value>
+  </data>
+  <data name="strCabeceraComercial" xml:space="preserve">
+    <value>Cabecera Comercial</value>
+  </data>
+  <data name="strCabeceraO&amp;M" xml:space="preserve">
+    <value>Cabecera O&amp;M</value>
+  </data>
+  <data name="strCadaAño" xml:space="preserve">
+    <value>Cada Año</value>
+  </data>
+  <data name="strCadaDia" xml:space="preserve">
+    <value>Cada Día</value>
+  </data>
+  <data name="strCadaDosMeses" xml:space="preserve">
+    <value>Cada Dos Meses</value>
+  </data>
+  <data name="strCadaMes" xml:space="preserve">
+    <value>Cada Mes</value>
+  </data>
+  <data name="strCadaSeisMeses" xml:space="preserve">
+    <value>Cada 6 Meses</value>
+  </data>
+  <data name="strCadaTresMeses" xml:space="preserve">
+    <value>Cada 3 Meses</value>
+  </data>
+  <data name="strCadenaTexto" xml:space="preserve">
+    <value>Cadena de Texto</value>
+  </data>
+  <data name="strCadencia" xml:space="preserve">
+    <value>Cadencia</value>
+  </data>
+  <data name="strCalidad" xml:space="preserve">
+    <value>Calidad</value>
+  </data>
+  <data name="strCalidadKPI" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="strCalidadKPIReport" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="strCalidadKPIResults" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="strCambiaModoGrid" xml:space="preserve">
+    <value>Cambia a Modo Grid</value>
+  </data>
+  <data name="strCambiaModoVisor" xml:space="preserve">
+    <value>Cambia a Modo Visor</value>
+  </data>
+  <data name="strCambiarContraseña" xml:space="preserve">
+    <value>Cambiar Clave</value>
+  </data>
+  <data name="strCambiarEstadoA" xml:space="preserve">
+    <value>Cambiar estado a</value>
+  </data>
+  <data name="strCambiarMetadatos" xml:space="preserve">
+    <value>Cambiar metadatos</value>
+  </data>
+  <data name="strCambiarNombre" xml:space="preserve">
+    <value>Cambiar nombre</value>
+  </data>
+  <data name="strCambioDolar" xml:space="preserve">
+    <value>Cambio a Dolar</value>
+  </data>
+  <data name="strCambioEfectuado" xml:space="preserve">
+    <value>Cambio Efectuado</value>
+  </data>
+  <data name="strCambioEuro" xml:space="preserve">
+    <value>Cambio a Euro</value>
+  </data>
+  <data name="strCambios" xml:space="preserve">
+    <value>Cambios</value>
+  </data>
+  <data name="strCampo" xml:space="preserve">
+    <value>Campo</value>
+  </data>
+  <data name="strCampoIntegracion" xml:space="preserve">
+    <value>Campo Integración</value>
+  </data>
+  <data name="strCampoTree" xml:space="preserve">
+    <value>Campo Tree</value>
+  </data>
+  <data name="strCanceladas" xml:space="preserve">
+    <value>Canceladas</value>
+  </data>
+  <data name="strCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="strCantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="strCantidadFija" xml:space="preserve">
+    <value>Cantidad Fija</value>
+  </data>
+  <data name="strCantidadHabitantes" xml:space="preserve">
+    <value>Cantidad Habitantes</value>
+  </data>
+  <data name="strCaracteresMaximo" xml:space="preserve">
+    <value>{0} caracteres máximo</value>
+  </data>
+  <data name="strCaracteresMaximos150" xml:space="preserve">
+    <value>150 caracteres máximos</value>
+  </data>
+  <data name="strCaracteresMaximos50" xml:space="preserve">
+    <value>50 caracteres máximos</value>
+  </data>
+  <data name="strCardinalidad" xml:space="preserve">
+    <value>Cardinalidad</value>
+  </data>
+  <data name="strCargas" xml:space="preserve">
+    <value>Cargas</value>
+  </data>
+  <data name="strCarpetaExistente" xml:space="preserve">
+    <value>Ya existe una carpeta con este nombre</value>
+  </data>
+  <data name="strCasoSensitivo" xml:space="preserve">
+    <value>Distinguir entre Mayúsculas y Minúsculas</value>
+  </data>
+  <data name="strCatalogos" xml:space="preserve">
+    <value>Catálogos</value>
+  </data>
+  <data name="strCatalogosTipos" xml:space="preserve">
+    <value>Tipos de Catalogos</value>
+  </data>
+  <data name="strCatalogosTipoServicios" xml:space="preserve">
+    <value>Tipos de Servicios</value>
+  </data>
+  <data name="strCategoria" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="strCategoriaContratos" xml:space="preserve">
+    <value>Categoría de Contrato</value>
+  </data>
+  <data name="strCategoriaDivipola" xml:space="preserve">
+    <value>Categoria Divipola</value>
+  </data>
+  <data name="strCategoriaInventario" xml:space="preserve">
+    <value>Categoria Inventario</value>
+  </data>
+  <data name="strCategorias" xml:space="preserve">
+    <value>Categorías</value>
+  </data>
+  <data name="strCategoriasAtributos" xml:space="preserve">
+    <value>Categorías Atributos</value>
+  </data>
+  <data name="strCategoriaSitio" xml:space="preserve">
+    <value>Categoría Sitio</value>
+  </data>
+  <data name="strCategoriasPadres" xml:space="preserve">
+    <value>Categorias padres</value>
+  </data>
+  <data name="strCategoriasSitios" xml:space="preserve">
+    <value>Categorias Sitios</value>
+  </data>
+  <data name="strCategoriasVinculaciones" xml:space="preserve">
+    <value>Categorias Vinculaciones</value>
+  </data>
+  <data name="strCerrado" xml:space="preserve">
+    <value>Cerrado</value>
+  </data>
+  <data name="strCerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="strCerrarSesion" xml:space="preserve">
+    <value>Cerrar Sesión</value>
+  </data>
+  <data name="strChecklist" xml:space="preserve">
+    <value>Checklist</value>
+  </data>
+  <data name="strCIF" xml:space="preserve">
+    <value>CIF</value>
+  </data>
+  <data name="strCity" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="strClase" xml:space="preserve">
+    <value>Clase</value>
+  </data>
+  <data name="strClaseActivo" xml:space="preserve">
+    <value>Clase activo</value>
+  </data>
+  <data name="strClausulas" xml:space="preserve">
+    <value>Clausulas</value>
+  </data>
+  <data name="strClaveClasificacion" xml:space="preserve">
+    <value>Clave de Clasificación</value>
+  </data>
+  <data name="strClaveExpiracion" xml:space="preserve">
+    <value>Clave Expiración</value>
+  </data>
+  <data name="strClaveRecurso" xml:space="preserve">
+    <value>Clave Recurso</value>
+  </data>
+  <data name="strClavesClasificaciones" xml:space="preserve">
+    <value>Claves de Clasificaciones</value>
+  </data>
+  <data name="strCliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="strClonar" xml:space="preserve">
+    <value>Clonar</value>
+  </data>
+  <data name="strClusters" xml:space="preserve">
+    <value>Clusters</value>
+  </data>
+  <data name="strCodigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="strCodigoAccion" xml:space="preserve">
+    <value>Código acción</value>
+  </data>
+  <data name="strCodigoActivo" xml:space="preserve">
+    <value>Código activo</value>
+  </data>
+  <data name="strCodigoCategoria" xml:space="preserve">
+    <value>Código categoría</value>
+  </data>
+  <data name="strCodigoContrato" xml:space="preserve">
+    <value>Código de Contrato</value>
+  </data>
+  <data name="strCodigoContratoMarcas" xml:space="preserve">
+    <value>Codigo de Contrato de Marcas</value>
+  </data>
+  <data name="strCodigoDuplicadoCategoria" xml:space="preserve">
+    <value>El nombre esta duplicado o ya se esta utilizando en una categoria asignada.</value>
+  </data>
+  <data name="strCodigoElemento" xml:space="preserve">
+    <value>Código Elemento</value>
+  </data>
+  <data name="strCodigoElementoPadre" xml:space="preserve">
+    <value>Código Elemento Padre</value>
+  </data>
+  <data name="strCodigoEmplazamiento" xml:space="preserve">
+    <value>Código Emplazamiento</value>
+  </data>
+  <data name="strCodigoEnacom" xml:space="preserve">
+    <value>Código Enacom</value>
+  </data>
+  <data name="strCodigoExcepcion100" xml:space="preserve">
+    <value>Código de Excepción 100</value>
+  </data>
+  <data name="strCodigoExcepcion110" xml:space="preserve">
+    <value>Código de Excepción 110</value>
+  </data>
+  <data name="strCodigoExcepcion111" xml:space="preserve">
+    <value>Código de Excepción 111</value>
+  </data>
+  <data name="strCodigoExcepcion112" xml:space="preserve">
+    <value>Código de Excepción 112</value>
+  </data>
+  <data name="strCodigoExcepcion113" xml:space="preserve">
+    <value>Código de Excepción 113</value>
+  </data>
+  <data name="strCodigoExcepcion114" xml:space="preserve">
+    <value>Código de Excepción 114</value>
+  </data>
+  <data name="strCodigoExcepcion120" xml:space="preserve">
+    <value>Código de Excepción 120</value>
+  </data>
+  <data name="strCodigoExcepcion121" xml:space="preserve">
+    <value>Código de Excepción 121</value>
+  </data>
+  <data name="strCodigoExcepcion122" xml:space="preserve">
+    <value>Código de Excepción 122</value>
+  </data>
+  <data name="strCodigoExcepcion130" xml:space="preserve">
+    <value>Código de Excepción 130</value>
+  </data>
+  <data name="strCodigoExcepcion131" xml:space="preserve">
+    <value>Código de Excepción 131</value>
+  </data>
+  <data name="strCodigoExcepcion132" xml:space="preserve">
+    <value>Código de Excepción 132</value>
+  </data>
+  <data name="strCodigoExcepcion140" xml:space="preserve">
+    <value>Código de Excepción 140</value>
+  </data>
+  <data name="strCodigoInventario" xml:space="preserve">
+    <value>Código Inventario</value>
+  </data>
+  <data name="strCodigoLocalidad" xml:space="preserve">
+    <value>Código Localidad</value>
+  </data>
+  <data name="strCodigoMunicipalidad" xml:space="preserve">
+    <value>Código Municipalidad</value>
+  </data>
+  <data name="strCodigoMunicipio" xml:space="preserve">
+    <value>Código Municipio</value>
+  </data>
+  <data name="strCodigoObjeto" xml:space="preserve">
+    <value>Código Objeto</value>
+  </data>
+  <data name="strCodigoPadre" xml:space="preserve">
+    <value>Código Padre</value>
+  </data>
+  <data name="strCodigoPartido" xml:space="preserve">
+    <value>Código Partido</value>
+  </data>
+  <data name="strCodigoPostal" xml:space="preserve">
+    <value>Código Postal</value>
+  </data>
+  <data name="strCodigoProductCatalog" xml:space="preserve">
+    <value>Codigo Catalogos</value>
+  </data>
+  <data name="strCodigoProductCatalogServicios" xml:space="preserve">
+    <value>Código Producto Calogo Servicios</value>
+  </data>
+  <data name="strCodigoProvincia" xml:space="preserve">
+    <value>Código Provincia</value>
+  </data>
+  <data name="strCodigoRegionPais" xml:space="preserve">
+    <value>Código Región País</value>
+  </data>
+  <data name="strCodigoSap" xml:space="preserve">
+    <value>Código SAP</value>
+  </data>
+  <data name="strCodigoSiguiente" xml:space="preserve">
+    <value>Código Siguiente:</value>
+  </data>
+  <data name="strCodigoSimulado" xml:space="preserve">
+    <value>Código Simulado:</value>
+  </data>
+  <data name="strCodigosReglas" xml:space="preserve">
+    <value>Códigos de las Reglas</value>
+  </data>
+  <data name="strColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="strColorForm" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="strColumna" xml:space="preserve">
+    <value>Columna</value>
+  </data>
+  <data name="strCOLUMNA_NO_TRADUCIDA" xml:space="preserve">
+    <value>COLUMNA_NO_TRADUCIDA</value>
+  </data>
+  <data name="strColumnaFormulario" xml:space="preserve">
+    <value>Columna Formulario</value>
+  </data>
+  <data name="strColumnasActuales" xml:space="preserve">
+    <value>Columnas actuales</value>
+  </data>
+  <data name="strColumnaTabla" xml:space="preserve">
+    <value>Columna Tabla</value>
+  </data>
+  <data name="strComentarios" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="strComienzoExportacion" xml:space="preserve">
+    <value>Comienza proceso de exportacion</value>
+  </data>
+  <data name="strCompartido" xml:space="preserve">
+    <value>Compartido</value>
+  </data>
+  <data name="strCompartir" xml:space="preserve">
+    <value>Compartir</value>
+  </data>
+  <data name="strCompletado" xml:space="preserve">
+    <value>Estado Completado</value>
+  </data>
+  <data name="strComponentes" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="strComprobarCaducidad" xml:space="preserve">
+    <value>Comrpobar Caducidad</value>
+  </data>
+  <data name="strComun" xml:space="preserve">
+    <value>Común</value>
+  </data>
+  <data name="strConceptosLargaDuracion" xml:space="preserve">
+    <value>Conceptos larga duración</value>
+  </data>
+  <data name="strCondicion" xml:space="preserve">
+    <value>Condición</value>
+  </data>
+  <data name="strCondiciones" xml:space="preserve">
+    <value>Condiciones</value>
+  </data>
+  <data name="strCondicionesCodigo" xml:space="preserve">
+    <value>Condiciones del Código</value>
+  </data>
+  <data name="strCondicionesPagos" xml:space="preserve">
+    <value>Condiciones de pago</value>
+  </data>
+  <data name="strCondicionPago" xml:space="preserve">
+    <value>Condicion de Pago</value>
+  </data>
+  <data name="strConexiones" xml:space="preserve">
+    <value>Conexiones</value>
+  </data>
+  <data name="strConfiguracion" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="strConfiguracionDatos" xml:space="preserve">
+    <value>Configuración de datos</value>
+  </data>
+  <data name="strConfigurador" xml:space="preserve">
+    <value>CONFIGURADOR DE FORMULARIOS</value>
+  </data>
+  <data name="strConfirmarContraseña" xml:space="preserve">
+    <value>Confirmar Contraseña</value>
+  </data>
+  <data name="strConstante" xml:space="preserve">
+    <value>Constante</value>
+  </data>
+  <data name="strContactos" xml:space="preserve">
+    <value>Contactos</value>
+  </data>
+  <data name="strContactosTipos" xml:space="preserve">
+    <value>Contactos Tipos</value>
+  </data>
+  <data name="strContactoTipo" xml:space="preserve">
+    <value>Contacto Tipo</value>
+  </data>
+  <data name="strContraseña" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="strContraseñaActual" xml:space="preserve">
+    <value>Contraseña Actual</value>
+  </data>
+  <data name="strContratos" xml:space="preserve">
+    <value>Contratos</value>
+  </data>
+  <data name="strContribuyente" xml:space="preserve">
+    <value>Tipo Contribuyente</value>
+  </data>
+  <data name="strContribuyentes" xml:space="preserve">
+    <value>Tipos Contribuyentes</value>
+  </data>
+  <data name="strControlador" xml:space="preserve">
+    <value>Controlador</value>
+  </data>
+  <data name="strControladorChecklist" xml:space="preserve">
+    <value>CONTROLADOR CHECKLIST</value>
+  </data>
+  <data name="strCoordenadasZonas" xml:space="preserve">
+    <value>Coordenadas Zonas</value>
+  </data>
+  <data name="strCopiar" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="strCortar" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+  <data name="strCPI" xml:space="preserve">
+    <value>CPI</value>
+  </data>
+  <data name="strCreacion" xml:space="preserve">
+    <value>Creación</value>
+  </data>
+  <data name="strCreadoPor" xml:space="preserve">
+    <value>Creado por</value>
+  </data>
+  <data name="strCreador" xml:space="preserve">
+    <value>Creador</value>
+  </data>
+  <data name="strCrearFiltro" xml:space="preserve">
+    <value>Crear filtro</value>
+  </data>
+  <data name="strCriterio" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="strCriticidad" xml:space="preserve">
+    <value>Criticidad</value>
+  </data>
+  <data name="strCronFormato" xml:space="preserve">
+    <value>Formato Cron</value>
+  </data>
+  <data name="strCuadroTexto" xml:space="preserve">
+    <value>Cuadro de Texto</value>
+  </data>
+  <data name="strCuenta" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="strCuentaAsociada" xml:space="preserve">
+    <value>Cuenta asociada</value>
+  </data>
+  <data name="strCuentasAsociadas" xml:space="preserve">
+    <value>Cuentas Asociadas</value>
+  </data>
+  <data name="strCustomField" xml:space="preserve">
+    <value>Custom Field</value>
+  </data>
+  <data name="strDataSource" xml:space="preserve">
+    <value>Fuente de Datos</value>
+  </data>
+  <data name="strDato" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="strDecimal" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="strDefecto" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="strDepartamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="strDependeDelCampo" xml:space="preserve">
+    <value>Depende del campo</value>
+  </data>
+  <data name="strDesactivar" xml:space="preserve">
+    <value>Desactivar</value>
+  </data>
+  <data name="strDesactivo" xml:space="preserve">
+    <value>Desactivo</value>
+  </data>
+  <data name="strDescarga" xml:space="preserve">
+    <value>Descarga</value>
+  </data>
+  <data name="strDescargaCorrecta" xml:space="preserve">
+    <value>Su exportación a XML ha sido correcta.</value>
+  </data>
+  <data name="strDescripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="strDescSubalm" xml:space="preserve">
+    <value>DescSubalm</value>
+  </data>
+  <data name="strDesinstalaciones" xml:space="preserve">
+    <value>Desinstalaciones</value>
+  </data>
+  <data name="strDesinstalado" xml:space="preserve">
+    <value>Desinstalado</value>
+  </data>
+  <data name="strDespliegue" xml:space="preserve">
+    <value>Despliegue</value>
+  </data>
+  <data name="strDesvincularDispositivoMovil" xml:space="preserve">
+    <value>Desvincular dispositivo móvil</value>
+  </data>
+  <data name="strDetalleKPI" xml:space="preserve">
+    <value>Información Detalle KPI</value>
+  </data>
+  <data name="strDetalles" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="strDetallesProductCatalog" xml:space="preserve">
+    <value>Detalles Productos &amp; Servicios</value>
+  </data>
+  <data name="strDiaCadaMes" xml:space="preserve">
+    <value>Día de cada (Nº de) Meses</value>
+  </data>
+  <data name="strDiaDelMes" xml:space="preserve">
+    <value>Dia del Mes</value>
+  </data>
+  <data name="strDiaLaborable" xml:space="preserve">
+    <value>Cada Día Laborable</value>
+  </data>
+  <data name="strDiario" xml:space="preserve">
+    <value>Diario</value>
+  </data>
+  <data name="strDias" xml:space="preserve">
+    <value>Días</value>
+  </data>
+  <data name="strDiaSemana" xml:space="preserve">
+    <value>Cada día de la semana</value>
+  </data>
+  <data name="strDiciembre" xml:space="preserve">
+    <value>Diciembre</value>
+  </data>
+  <data name="strDimensiones" xml:space="preserve">
+    <value>Dimensiones</value>
+  </data>
+  <data name="strDimIntegral" xml:space="preserve">
+    <value>Dim Integral</value>
+  </data>
+  <data name="strDireccion" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="strDirecciones" xml:space="preserve">
+    <value>Direcciones</value>
+  </data>
+  <data name="strDniCif" xml:space="preserve">
+    <value>DNI/CIF</value>
+  </data>
+  <data name="strDNN" xml:space="preserve">
+    <value>DNN</value>
+  </data>
+  <data name="strDobleFacto" xml:space="preserve">
+    <value>Doble Factor</value>
+  </data>
+  <data name="strDocTipoExistente" xml:space="preserve">
+    <value>Ya existe un tipo de documento con el mismo nombre.</value>
+  </data>
+  <data name="strDocumental" xml:space="preserve">
+    <value>Documental</value>
+  </data>
+  <data name="strDocumentalMetadatos" xml:space="preserve">
+    <value>DOCUMENTAL METADATOS</value>
+  </data>
+  <data name="strDocumento" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="strDocumentoAñadido" xml:space="preserve">
+    <value>Documento Tipo Añadido</value>
+  </data>
+  <data name="strDocumentoDuplicado" xml:space="preserve">
+    <value>Documento Tipo Duplicado</value>
+  </data>
+  <data name="strDocumentoElegir" xml:space="preserve">
+    <value>O busque en su computadora para encontrarlos:</value>
+  </data>
+  <data name="strDocumentoEstadoPorDefectoNoEncontrado" xml:space="preserve">
+    <value>No existe un estado de documento por defecto</value>
+  </data>
+  <data name="strDocumentoInicial" xml:space="preserve">
+    <value>Documento Inicial</value>
+  </data>
+  <data name="strDocumentoPadre" xml:space="preserve">
+    <value>Documento Padre</value>
+  </data>
+  <data name="strDocumentos" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="strDocumentosCargas" xml:space="preserve">
+    <value>Cargas Documentos</value>
+  </data>
+  <data name="strDocumentosEstados" xml:space="preserve">
+    <value>Documentos Estados</value>
+  </data>
+  <data name="strDocumentosHistoricos" xml:space="preserve">
+    <value>Documentos Historicos</value>
+  </data>
+  <data name="strDocumentosMovidosSatisfactorio" xml:space="preserve">
+    <value>Documentos movidos satisfactoriamente</value>
+  </data>
+  <data name="strDocumentosNoMovidosSatisfactorio" xml:space="preserve">
+    <value>Algunos documentos no se han movido</value>
+  </data>
+  <data name="strDocumentoTipo" xml:space="preserve">
+    <value>Tipo de Documento</value>
+  </data>
+  <data name="strDomingo" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="strDownloadLog" xml:space="preserve">
+    <value>Download Log</value>
+  </data>
+  <data name="strDuplicados" xml:space="preserve">
+    <value>Ya existe el registro</value>
+  </data>
+  <data name="strDuplicarConfiguracion" xml:space="preserve">
+    <value>Duplicar Configuración</value>
+  </data>
+  <data name="strDuplicarUsuario" xml:space="preserve">
+    <value>Duplicar Usuario</value>
+  </data>
+  <data name="strDuplicarWorkflow" xml:space="preserve">
+    <value>Duplicar Workflow</value>
+  </data>
+  <data name="strEditarCarpeta" xml:space="preserve">
+    <value>Editar Carpeta</value>
+  </data>
+  <data name="strEditarPerfil" xml:space="preserve">
+    <value>Editar Perfil</value>
+  </data>
+  <data name="strEditarTipoDoc" xml:space="preserve">
+    <value>Editar Tipo Documento</value>
+  </data>
+  <data name="strElegirCampoVinculado" xml:space="preserve">
+    <value>Elegir un campo vinculado</value>
+  </data>
+  <data name="strElemento" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="strElementos" xml:space="preserve">
+    <value>Elementos</value>
+  </data>
+  <data name="strElementosCreados" xml:space="preserve">
+    <value>Elementos creados</value>
+  </data>
+  <data name="strElementosInvalidos" xml:space="preserve">
+    <value>Codigos de los elementos invalidos: </value>
+  </data>
+  <data name="strElementosInventario" xml:space="preserve">
+    <value>INVENTARIO_ELEMENTOS</value>
+  </data>
+  <data name="strElementosPadres" xml:space="preserve">
+    <value>Elementos padres</value>
+  </data>
+  <data name="strElementosPorEstadoOperacional" xml:space="preserve">
+    <value>Elementos por estado operacional</value>
+  </data>
+  <data name="strElementosPorOperador" xml:space="preserve">
+    <value>Elementos por operador</value>
+  </data>
+  <data name="strElements" xml:space="preserve">
+    <value>Elementos</value>
+  </data>
+  <data name="strEliminar" xml:space="preserve">
+    <value>No se puede eliminar un registro por defecto</value>
+  </data>
+  <data name="strEliminarTipoDoc" xml:space="preserve">
+    <value>No se puede eliminar el tipo de documento porque tiene vinculaciones.</value>
+  </data>
+  <data name="strElseValorCeldaEs" xml:space="preserve">
+    <value>Si no, el valor de la celda es</value>
+  </data>
+  <data name="strEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="strEmailContacto" xml:space="preserve">
+    <value>Email contacto</value>
+  </data>
+  <data name="strEmplazamiento" xml:space="preserve">
+    <value>Emplazamiento</value>
+  </data>
+  <data name="strEmplazamientoCodigo" xml:space="preserve">
+    <value>Emplazamiento Código</value>
+  </data>
+  <data name="strEmplazamientoCompartido" xml:space="preserve">
+    <value>Emplazamiento Compartido</value>
+  </data>
+  <data name="strEmplazamientoHistoricos" xml:space="preserve">
+    <value>Emplazamientos Históricos</value>
+  </data>
+  <data name="strEmplazamientoNombre" xml:space="preserve">
+    <value>Nombre Emplazamiento</value>
+  </data>
+  <data name="strEmplazamientoPadre" xml:space="preserve">
+    <value>Emplazamiento Padre</value>
+  </data>
+  <data name="strEmplazamientos" xml:space="preserve">
+    <value>Emplazamientos</value>
+  </data>
+  <data name="strEmplazamientosAtributos" xml:space="preserve">
+    <value>Emplazamientos Atributos</value>
+  </data>
+  <data name="strEmplazamientosAtributosCategorias" xml:space="preserve">
+    <value>Emplazamientos Atributos Categorías</value>
+  </data>
+  <data name="strEmplazamientosAtributosConfiguracion" xml:space="preserve">
+    <value>Emplazamientos Atributos Configuración</value>
+  </data>
+  <data name="strEmplazamientosCliente" xml:space="preserve">
+    <value>Emplazamientos Cliente</value>
+  </data>
+  <data name="strEmplazamientosTamanos" xml:space="preserve">
+    <value>Emplazamientos Tamaños</value>
+  </data>
+  <data name="strEmplazamientosTipos" xml:space="preserve">
+    <value>Emplazamientos Tipos</value>
+  </data>
+  <data name="strEmplazamientosTiposEdificios" xml:space="preserve">
+    <value>Tipos Edificios</value>
+  </data>
+  <data name="strEmplazamientosTiposEstructuras" xml:space="preserve">
+    <value>Tipos Estructuras</value>
+  </data>
+  <data name="strEmpresaProveedora" xml:space="preserve">
+    <value>Empresa Proveedora</value>
+  </data>
+  <data name="strEmpresasProveedoras" xml:space="preserve">
+    <value>Empresas Proveedoras</value>
+  </data>
+  <data name="strEnergy" xml:space="preserve">
+    <value>Energía</value>
+  </data>
+  <data name="strEnero" xml:space="preserve">
+    <value>Enero</value>
+  </data>
+  <data name="strEnlace" xml:space="preserve">
+    <value>Enlace</value>
+  </data>
+  <data name="strEntero" xml:space="preserve">
+    <value>Entero</value>
+  </data>
+  <data name="strEntidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="strEntidadDatos" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="strEntidadEmpresaProveedora" xml:space="preserve">
+    <value>Entidad como Empresa Proveedora</value>
+  </data>
+  <data name="strEntidades" xml:space="preserve">
+    <value>Entidades</value>
+  </data>
+  <data name="strEntidadesDatos" xml:space="preserve">
+    <value>ENTIDADES</value>
+  </data>
+  <data name="strEntidadesTipos" xml:space="preserve">
+    <value>Tipos de entidades</value>
+  </data>
+  <data name="strEntidadOperador" xml:space="preserve">
+    <value>Entidad como Operador</value>
+  </data>
+  <data name="strEntidadPropietario" xml:space="preserve">
+    <value>Entidad como Propietario</value>
+  </data>
+  <data name="strEntidadProveedor" xml:space="preserve">
+    <value>Entidad como Proveedor</value>
+  </data>
+  <data name="strEntidadTipo" xml:space="preserve">
+    <value>Tipo de Entidad</value>
+  </data>
+  <data name="strEnTramite" xml:space="preserve">
+    <value>En trámite</value>
+  </data>
+  <data name="strErrorActualizarCodigoAutomatico" xml:space="preserve">
+    <value>Error al actualizar el código automático</value>
+  </data>
+  <data name="strErrorAnadirRolWFPublic" xml:space="preserve">
+    <value>No se puede añadir un rol a un WorkFlow de privacidad publica si se esta utilizando en informacion o estados</value>
+  </data>
+  <data name="strErrorCambiarCardinalidad" xml:space="preserve">
+    <value>No se puede cambiar la Cardinalidad de esta relacion debido a que hay elemento que no cumple con la nueva regla (revisar log para lista completa)</value>
+  </data>
+  <data name="strErrorEliminar" xml:space="preserve">
+    <value>Error: No ha sido posible eliminar el elemento</value>
+  </data>
+  <data name="strErrorEliminarRolWFPrivate" xml:space="preserve">
+    <value>No se puede eliminar un rol de un WorkFlow de privacidad privada que se esta utilizando en informacion o estados</value>
+  </data>
+  <data name="strErrores" xml:space="preserve">
+    <value>Errores</value>
+  </data>
+  <data name="strErrorGenerico" xml:space="preserve">
+    <value>Se ha producido un error mientras se realizaba el cambio, por favor, intentelo de nuevo más tarde</value>
+  </data>
+  <data name="strErrorImportacion" xml:space="preserve">
+    <value>Error en la importación.</value>
+  </data>
+  <data name="strEsCliente" xml:space="preserve">
+    <value>Es Cliente</value>
+  </data>
+  <data name="strEscritura" xml:space="preserve">
+    <value>Escritura</value>
+  </data>
+  <data name="strEsPlantilla" xml:space="preserve">
+    <value>Es Plantilla</value>
+  </data>
+  <data name="strEsServicioPropio" xml:space="preserve">
+    <value>Servicio Propio</value>
+  </data>
+  <data name="strEstadisticas" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="strEstado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="strEstadoAñadido" xml:space="preserve">
+    <value>Estado Añadido</value>
+  </data>
+  <data name="strEstadoDocumento" xml:space="preserve">
+    <value>Estado Documento</value>
+  </data>
+  <data name="strEstadoGlobal" xml:space="preserve">
+    <value>Estado Global</value>
+  </data>
+  <data name="strEstadoGlobalAñadido" xml:space="preserve">
+    <value>Estado Global Añadido</value>
+  </data>
+  <data name="strEstadoGlobalDuplicado" xml:space="preserve">
+    <value>Estado Global Duplicado</value>
+  </data>
+  <data name="strEstadoGlobalTitulo" xml:space="preserve">
+    <value>Estado Global</value>
+  </data>
+  <data name="strEstadoInventario" xml:space="preserve">
+    <value>Estado Inventario</value>
+  </data>
+  <data name="strEstados" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="strEstadosDetalles" xml:space="preserve">
+    <value>Estados Detalles</value>
+  </data>
+  <data name="strEstadosDuplicados" xml:space="preserve">
+    <value>Estados Duplicados</value>
+  </data>
+  <data name="strEstadosGlobales" xml:space="preserve">
+    <value>Estados Globales</value>
+  </data>
+  <data name="strEstadosHistoricos" xml:space="preserve">
+    <value>Historial Navegación Usuarios</value>
+  </data>
+  <data name="strEstadoSiguiente" xml:space="preserve">
+    <value>Estado Siguiente</value>
+  </data>
+  <data name="strEstadoSiguienteAñadido" xml:space="preserve">
+    <value>Estado Siguiente Añadido</value>
+  </data>
+  <data name="strEstadoSiguienteDuplicado" xml:space="preserve">
+    <value>Estado Siguiente Duplicado</value>
+  </data>
+  <data name="strEstadosSiguientes" xml:space="preserve">
+    <value>Estados Siguientes</value>
+  </data>
+  <data name="strEstatica" xml:space="preserve">
+    <value>Estática</value>
+  </data>
+  <data name="strEstimado" xml:space="preserve">
+    <value>¿Es Estimado?</value>
+  </data>
+  <data name="strExaminar" xml:space="preserve">
+    <value>Examinar</value>
+  </data>
+  <data name="strExisteZona" xml:space="preserve">
+    <value>Existe zona</value>
+  </data>
+  <data name="strExito" xml:space="preserve">
+    <value>Éxito</value>
+  </data>
+  <data name="strExpandido" xml:space="preserve">
+    <value>Expandido</value>
+  </data>
+  <data name="strExpInicio" xml:space="preserve">
+    <value>Exp Imp Configuración</value>
+  </data>
+  <data name="strExportacionDatosPlantillas" xml:space="preserve">
+    <value>Exportación datos plantillas</value>
+  </data>
+  <data name="strExportar" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="strExportarFlujos" xml:space="preserve">
+    <value>Exportar Flujos</value>
+  </data>
+  <data name="strExportarImportar" xml:space="preserve">
+    <value>Exportar / Importar</value>
+  </data>
+  <data name="strExportarInventario" xml:space="preserve">
+    <value>Exportar Inventario</value>
+  </data>
+  <data name="strExportarLog" xml:space="preserve">
+    <value>Exportar Log Cargas</value>
+  </data>
+  <data name="strExtension" xml:space="preserve">
+    <value>Extensión</value>
+  </data>
+  <data name="strExtensiones" xml:space="preserve">
+    <value>Extensiones</value>
+  </data>
+  <data name="strFabricante" xml:space="preserve">
+    <value>Fabricante</value>
+  </data>
+  <data name="strFactor" xml:space="preserve">
+    <value>Factor</value>
+  </data>
+  <data name="strFactorMunicipio" xml:space="preserve">
+    <value>Factor Municipio</value>
+  </data>
+  <data name="strFactorZona" xml:space="preserve">
+    <value>Factor Zona</value>
+  </data>
+  <data name="strFase" xml:space="preserve">
+    <value>Fase</value>
+  </data>
+  <data name="strFases" xml:space="preserve">
+    <value>Fases</value>
+  </data>
+  <data name="strFebrero" xml:space="preserve">
+    <value>Febrero</value>
+  </data>
+  <data name="strFecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="strFecha/Hora" xml:space="preserve">
+    <value>Fecha/Hora</value>
+  </data>
+  <data name="strFechaActivacion" xml:space="preserve">
+    <value>Fecha Activación</value>
+  </data>
+  <data name="strFechaActualizacion" xml:space="preserve">
+    <value>Fecha Cambio</value>
+  </data>
+  <data name="strFechaAdquisicion" xml:space="preserve">
+    <value>Fecha Adquisición</value>
+  </data>
+  <data name="strFechaAlta" xml:space="preserve">
+    <value>Fecha Alta</value>
+  </data>
+  <data name="strFechaAyudaFormato" xml:space="preserve">
+    <value>El fomato de fecha esperado es dd/MM/yyyy</value>
+  </data>
+  <data name="strFechaCaducidad" xml:space="preserve">
+    <value>Fecha de Caducidad</value>
+  </data>
+  <data name="strFechaCambio" xml:space="preserve">
+    <value>Fecha Cambio</value>
+  </data>
+  <data name="strFechaCarga" xml:space="preserve">
+    <value>Fecha Carga</value>
+  </data>
+  <data name="strFechaCreacion" xml:space="preserve">
+    <value>Fecha Creación</value>
+  </data>
+  <data name="strFechaDesactivacion" xml:space="preserve">
+    <value>Fecha Desactivacion</value>
+  </data>
+  <data name="strFechaDesinstalacion" xml:space="preserve">
+    <value>Fecha Desinstalación</value>
+  </data>
+  <data name="strFechaEjecucion" xml:space="preserve">
+    <value>Fecha Ejecución</value>
+  </data>
+  <data name="strFechaEnvio" xml:space="preserve">
+    <value>Fecha de Envio</value>
+  </data>
+  <data name="strFechaEstimada" xml:space="preserve">
+    <value>Fecha Estimada</value>
+  </data>
+  <data name="strFechaFin" xml:space="preserve">
+    <value>Fecha Fin</value>
+  </data>
+  <data name="strFechaFinReajuste" xml:space="preserve">
+    <value>Fecha Fin Reajuste</value>
+  </data>
+  <data name="strFechaFormatoIncorrecto" xml:space="preserve">
+    <value>Esta no es una fecha válida - debe tener el formato "dd/mm/aaaa"</value>
+  </data>
+  <data name="strFechaHora" xml:space="preserve">
+    <value>Fecha/Hora</value>
+  </data>
+  <data name="strFechaHoraFin" xml:space="preserve">
+    <value>Fecha Hora Fin</value>
+  </data>
+  <data name="strFechaHoraInicio" xml:space="preserve">
+    <value>Fecha Hora Inicio</value>
+  </data>
+  <data name="strFechaInicio" xml:space="preserve">
+    <value>Fecha Inicio</value>
+  </data>
+  <data name="strFechaInicioReajuste" xml:space="preserve">
+    <value>Fecha Inicio Reajuste</value>
+  </data>
+  <data name="strFechaInicioRevision" xml:space="preserve">
+    <value />
+  </data>
+  <data name="strFechaInstalacion" xml:space="preserve">
+    <value>Fecha instalación</value>
+  </data>
+  <data name="strFechaModificacion" xml:space="preserve">
+    <value>Fecha Modificación</value>
+  </data>
+  <data name="strFechaProximaRevision" xml:space="preserve">
+    <value>Fecha proxima revisión</value>
+  </data>
+  <data name="strFechas" xml:space="preserve">
+    <value>Fechas</value>
+  </data>
+  <data name="strFechaSubida" xml:space="preserve">
+    <value>Fecha Subida</value>
+  </data>
+  <data name="strFechaUltimaModificacion" xml:space="preserve">
+    <value>Fecha última modificación</value>
+  </data>
+  <data name="strFechaUltimaRevision" xml:space="preserve">
+    <value />
+  </data>
+  <data name="strFechaUltimoAcceso" xml:space="preserve">
+    <value>Fecha Último Acceso</value>
+  </data>
+  <data name="strFestivo" xml:space="preserve">
+    <value>Festivo</value>
+  </data>
+  <data name="strFijar" xml:space="preserve">
+    <value>Fijar</value>
+  </data>
+  <data name="strFilaPrevia" xml:space="preserve">
+    <value>Buscar fila previa</value>
+  </data>
+  <data name="strFilaSiguiente" xml:space="preserve">
+    <value>Buscar siguiente fila</value>
+  </data>
+  <data name="strFiltrarProyecto" xml:space="preserve">
+    <value>Filtrar por proyecto</value>
+  </data>
+  <data name="strFiltro" xml:space="preserve">
+    <value>Introduzca el filtro</value>
+  </data>
+  <data name="strFiltros" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="strFiltrosRapidos" xml:space="preserve">
+    <value>Filtros Rápidos</value>
+  </data>
+  <data name="strFinal" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="strFinalizadas" xml:space="preserve">
+    <value>Finalizadas</value>
+  </data>
+  <data name="strFloat" xml:space="preserve">
+    <value>Float</value>
+  </data>
+  <data name="strForeignKey" xml:space="preserve">
+    <value>Clave Externa</value>
+  </data>
+  <data name="strFormato" xml:space="preserve">
+    <value>Reglas</value>
+  </data>
+  <data name="strFormatoCron" xml:space="preserve">
+    <value>Formato Cron</value>
+  </data>
+  <data name="strFormatoFecha" xml:space="preserve">
+    <value>Formato de fecha</value>
+  </data>
+  <data name="strFormatoIncorrecto" xml:space="preserve">
+    <value>Formato de archivo incorrecto.</value>
+  </data>
+  <data name="strFormula" xml:space="preserve">
+    <value>Formula</value>
+  </data>
+  <data name="strFormulario" xml:space="preserve">
+    <value>Formulario</value>
+  </data>
+  <data name="strFormulas" xml:space="preserve">
+    <value>Fórmulas</value>
+  </data>
+  <data name="strFormulasDescripcionAtributos" xml:space="preserve">
+    <value>Para escribir un valor externo como la altura o la distancia basta con empezar a escribirlo para ver las recomendaciones o escribir un espacio en blanco para leer todo</value>
+  </data>
+  <data name="strFormulasDescripcionNumeros" xml:space="preserve">
+    <value>Puede utilizar cualquier número y añadir un porcentaje (%)</value>
+  </data>
+  <data name="strFormulasDescripcionOperadores" xml:space="preserve">
+    <value>Utiliza diferentes operadores como sumar o igual para crear esta fórmula</value>
+  </data>
+  <data name="strFrecuencia" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="strFrecuenciaMeses" xml:space="preserve">
+    <value>Frecuencia Mensual</value>
+  </data>
+  <data name="strFrecuencias" xml:space="preserve">
+    <value>Frecuencias</value>
+  </data>
+  <data name="strFrecuenciasLibres" xml:space="preserve">
+    <value>Frecuencias Libres</value>
+  </data>
+  <data name="strFrecuenciaUnidad" xml:space="preserve">
+    <value>Frencuencia/Unidad</value>
+  </data>
+  <data name="strFriendly" xml:space="preserve">
+    <value>Friendly</value>
+  </data>
+  <data name="strFuncion" xml:space="preserve">
+    <value>Función</value>
+  </data>
+  <data name="strFuncionalidad" xml:space="preserve">
+    <value>Funcionalidad</value>
+  </data>
+  <data name="strFuncionalidadTipo" xml:space="preserve">
+    <value>Tipo Funcionalidad</value>
+  </data>
+  <data name="strFunciones" xml:space="preserve">
+    <value>Funciones</value>
+  </data>
+  <data name="strGeneracionCodigoFallida" xml:space="preserve">
+    <value>Se ha producido un error en la generación del código. Verifique el patrón de generación de código definido.</value>
+  </data>
+  <data name="strGeneracionNombreFallida" xml:space="preserve">
+    <value>Se ha producido un error en la generación del nombre. Verifique el patrón de generación de nombre definido.</value>
+  </data>
+  <data name="strGeneracionSinRegla" xml:space="preserve">
+    <value>No se ha creado ningún patrón de generación de código.</value>
+  </data>
+  <data name="strGeneradorCodigo" xml:space="preserve">
+    <value>Generación Códigos</value>
+  </data>
+  <data name="strGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="strGestFav" xml:space="preserve">
+    <value>Gestión Favoritos</value>
+  </data>
+  <data name="strGestion" xml:space="preserve">
+    <value>Gestión</value>
+  </data>
+  <data name="strGestionAdicional" xml:space="preserve">
+    <value>Gestión Adicional</value>
+  </data>
+  <data name="strGestionSubContrata" xml:space="preserve">
+    <value>Gestión SubContrata</value>
+  </data>
+  <data name="strGlobal" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="strGrados" xml:space="preserve">
+    <value>Formato Grados </value>
+  </data>
+  <data name="strGrupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="strGrupoCuenta" xml:space="preserve">
+    <value>Cuenta de grupo</value>
+  </data>
+  <data name="strGrupos" xml:space="preserve">
+    <value>Grupos</value>
+  </data>
+  <data name="strGruposAccesosWeb" xml:space="preserve">
+    <value>Grupos Accesos</value>
+  </data>
+  <data name="strGruposCuentas" xml:space="preserve">
+    <value>Grupos de Cuentas</value>
+  </data>
+  <data name="strGruposTesorerias" xml:space="preserve">
+    <value>Grupos de Tesorería</value>
+  </data>
+  <data name="strGrupoTesoreria" xml:space="preserve">
+    <value>Grupo de tesorería</value>
+  </data>
+  <data name="strGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="strGuardarComo" xml:space="preserve">
+    <value>Guardar como</value>
+  </data>
+  <data name="strGuardarFiltro" xml:space="preserve">
+    <value>Guardar filtro</value>
+  </data>
+  <data name="strGuardarTab" xml:space="preserve">
+    <value>Guardar en una nueva pestaña</value>
+  </data>
+  <data name="strGuardarVista" xml:space="preserve">
+    <value>Guardar vista</value>
+  </data>
+  <data name="strHisorico" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="strHistorial" xml:space="preserve">
+    <value>Historial</value>
+  </data>
+  <data name="strHistorico" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="strHoja" xml:space="preserve">
+    <value>Hoja</value>
+  </data>
+  <data name="strHora" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="strHoraEjecucion" xml:space="preserve">
+    <value>Hora Ejecución</value>
+  </data>
+  <data name="strIcono" xml:space="preserve">
+    <value>Icono</value>
+  </data>
+  <data name="strIdentificadorUnico" xml:space="preserve">
+    <value>Identificador Único</value>
+  </data>
+  <data name="strIdioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="strIDOAM" xml:space="preserve">
+    <value>ID OAM</value>
+  </data>
+  <data name="strImagen" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="strImagenGrande" xml:space="preserve">
+    <value>Imagen grande</value>
+  </data>
+  <data name="strImagenPequena" xml:space="preserve">
+    <value>Imagen pequeña</value>
+  </data>
+  <data name="strImportar" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="strImportarFlujo" xml:space="preserve">
+    <value>Importar Flujo</value>
+  </data>
+  <data name="strImposibleLegalizarLosSitios" xml:space="preserve">
+    <value>Imposible legalizar los sitios</value>
+  </data>
+  <data name="strImpuesto" xml:space="preserve">
+    <value>Impuesto</value>
+  </data>
+  <data name="strIn" xml:space="preserve">
+    <value>IN</value>
+  </data>
+  <data name="strIncidencia" xml:space="preserve">
+    <value>Incidencia</value>
+  </data>
+  <data name="strIncidencias" xml:space="preserve">
+    <value>Incidencias</value>
+  </data>
+  <data name="strIncidenciasTipos" xml:space="preserve">
+    <value>Tipos Incidencias</value>
+  </data>
+  <data name="strIncluirFiltros" xml:space="preserve">
+    <value>Incluir filtros</value>
+  </data>
+  <data name="strIncrementoPorcentaje" xml:space="preserve">
+    <value>Incremento Porcentaje</value>
+  </data>
+  <data name="strIndice" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="strIndoor" xml:space="preserve">
+    <value>Indoor</value>
+  </data>
+  <data name="strInflacion" xml:space="preserve">
+    <value>Inflación</value>
+  </data>
+  <data name="strInfoDoc" xml:space="preserve">
+    <value>Información Documento</value>
+  </data>
+  <data name="strInforme" xml:space="preserve">
+    <value>Informe</value>
+  </data>
+  <data name="strInformes" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="strInicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="strInicioExportacion" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="strInstalaciones" xml:space="preserve">
+    <value>Instalaciones</value>
+  </data>
+  <data name="strIntegracion" xml:space="preserve">
+    <value>Integración</value>
+  </data>
+  <data name="strInterno" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="strInventario" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="strInventarioCategoria" xml:space="preserve">
+    <value>Inventario Categoría</value>
+  </data>
+  <data name="strInventarioDiagrama" xml:space="preserve">
+    <value>Diagrama</value>
+  </data>
+  <data name="strInventarioElemento" xml:space="preserve">
+    <value>Inventario Elemento</value>
+  </data>
+  <data name="strInventarioElementoAtributo" xml:space="preserve">
+    <value>Inventario Elemento Atributo</value>
+  </data>
+  <data name="strInventarioElementoPadre" xml:space="preserve">
+    <value>Elemento Padre</value>
+  </data>
+  <data name="strInventarioElementosAtributosEstados" xml:space="preserve">
+    <value>Inventario Elementos Atributos Estados</value>
+  </data>
+  <data name="strInventariosElementos" xml:space="preserve">
+    <value>Inventarios Elementos</value>
+  </data>
+  <data name="strInventariosElementosAtributos" xml:space="preserve">
+    <value>Inventarios Elementos Atributos</value>
+  </data>
+  <data name="strInventarioTiposVinculaciones" xml:space="preserve">
+    <value>Inventario Tipos Vinculaciones</value>
+  </data>
+  <data name="strIP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="strIsReporting" xml:space="preserve">
+    <value>Is reporting</value>
+  </data>
+  <data name="strJSON" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="strJueves" xml:space="preserve">
+    <value>Jueves</value>
+  </data>
+  <data name="strJulio" xml:space="preserve">
+    <value>Julio</value>
+  </data>
+  <data name="strJunio" xml:space="preserve">
+    <value>Junio</value>
+  </data>
+  <data name="strKeyTraduccion" xml:space="preserve">
+    <value>Clave Traducción</value>
+  </data>
+  <data name="strKPI" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="strKPICategoria" xml:space="preserve">
+    <value>KPI Categoria</value>
+  </data>
+  <data name="strLabelTipoArchivo" xml:space="preserve">
+    <value>Tipo de archivo</value>
+  </data>
+  <data name="strLarge" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="strLatitud" xml:space="preserve">
+    <value>Latitud</value>
+  </data>
+  <data name="strLatitudGrados" xml:space="preserve">
+    <value>Latitud Grados</value>
+  </data>
+  <data name="strLatitudMinutos" xml:space="preserve">
+    <value>Latitud Minutos</value>
+  </data>
+  <data name="strLatitudSegundos" xml:space="preserve">
+    <value>Latitud Segundos</value>
+  </data>
+  <data name="strLDAP" xml:space="preserve">
+    <value>LDAP</value>
+  </data>
+  <data name="strLectura" xml:space="preserve">
+    <value>Lectura</value>
+  </data>
+  <data name="strLegalizaciones" xml:space="preserve">
+    <value>Legalizaciones</value>
+  </data>
+  <data name="strLicencias" xml:space="preserve">
+    <value>Licencias</value>
+  </data>
+  <data name="strLimite" xml:space="preserve">
+    <value>Límite</value>
+  </data>
+  <data name="strLimpiarFiltro" xml:space="preserve">
+    <value>Limpiar filtros</value>
+  </data>
+  <data name="strLocalidad" xml:space="preserve">
+    <value>Localidad</value>
+  </data>
+  <data name="strLocalidadCentroPoblado" xml:space="preserve">
+    <value>Localidad Centro Poblado</value>
+  </data>
+  <data name="strLocalizacion" xml:space="preserve">
+    <value>Localización</value>
+  </data>
+  <data name="strLogs" xml:space="preserve">
+    <value>Logs de Eventos</value>
+  </data>
+  <data name="strLogsServicio" xml:space="preserve">
+    <value>Logs Servicio</value>
+  </data>
+  <data name="strLogVacio" xml:space="preserve">
+    <value>No hay eventos. El archivo de registro está vacío.</value>
+  </data>
+  <data name="strLongitud" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="strLongitudCadena" xml:space="preserve">
+    <value>Longitud de la Cadena</value>
+  </data>
+  <data name="strLongitudGrados" xml:space="preserve">
+    <value>Longitud Grados</value>
+  </data>
+  <data name="strLongitudMinutos" xml:space="preserve">
+    <value>Longitud Minutos</value>
+  </data>
+  <data name="strLongitudSegundos" xml:space="preserve">
+    <value>Longitud Segundos</value>
+  </data>
+  <data name="strLunes" xml:space="preserve">
+    <value>Lunes</value>
+  </data>
+  <data name="strMantenimiento" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="strMapa" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="strMapaEmplazamientosCercanos" xml:space="preserve">
+    <value>Mapa Emplazamientos Cercanos</value>
+  </data>
+  <data name="strMarcarDefecto" xml:space="preserve">
+    <value>Marcar por defecto</value>
+  </data>
+  <data name="strMartes" xml:space="preserve">
+    <value>Martes</value>
+  </data>
+  <data name="strMarzo" xml:space="preserve">
+    <value>Marzo</value>
+  </data>
+  <data name="strMas" xml:space="preserve">
+    <value>Más</value>
+  </data>
+  <data name="strMasOpciones" xml:space="preserve">
+    <value>Más opciones</value>
+  </data>
+  <data name="strMaximo" xml:space="preserve">
+    <value>Máximo</value>
+  </data>
+  <data name="strMaxLengthText" xml:space="preserve">
+    <value>Ha superado el máximo número de caracteres</value>
+  </data>
+  <data name="strMayo" xml:space="preserve">
+    <value>Mayo</value>
+  </data>
+  <data name="strMedium" xml:space="preserve">
+    <value>Mediano</value>
+  </data>
+  <data name="strMensaje" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="strMensajeGenerico" xml:space="preserve">
+    <value>Error al realizar la operación</value>
+  </data>
+  <data name="strMensajeNombreAtributo" xml:space="preserve">
+    <value>El nombre de los atributos permiten 25 caracteres como máximo, incluyendo numeros, letras, parentesis, '/' y ','.</value>
+  </data>
+  <data name="strMensanjeGenerico" xml:space="preserve">
+    <value>Error al realizar la operación</value>
+  </data>
+  <data name="strMensual" xml:space="preserve">
+    <value>Mensual</value>
+  </data>
+  <data name="strMensualCustom" xml:space="preserve">
+    <value>Mensual Personalizado</value>
+  </data>
+  <data name="strMenuLateral" xml:space="preserve">
+    <value>Menú</value>
+  </data>
+  <data name="strMes" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="strMesesImpares" xml:space="preserve">
+    <value>Meses Impares</value>
+  </data>
+  <data name="strMesesPares" xml:space="preserve">
+    <value>Meses Pares</value>
+  </data>
+  <data name="strMesInicio" xml:space="preserve">
+    <value>Mes de Inicio</value>
+  </data>
+  <data name="strMetodo" xml:space="preserve">
+    <value>Método</value>
+  </data>
+  <data name="strMetodoPago" xml:space="preserve">
+    <value>Método de pago</value>
+  </data>
+  <data name="strMetodosPagos" xml:space="preserve">
+    <value>Metodos de pago</value>
+  </data>
+  <data name="strMiembro" xml:space="preserve">
+    <value>Miembro</value>
+  </data>
+  <data name="strMiembros" xml:space="preserve">
+    <value>Miembros</value>
+  </data>
+  <data name="strMiercoles" xml:space="preserve">
+    <value>Miercoles</value>
+  </data>
+  <data name="strMinutoEjecucion" xml:space="preserve">
+    <value>Minuto Ejecución</value>
+  </data>
+  <data name="strMisFiltros" xml:space="preserve">
+    <value>Mis filtros</value>
+  </data>
+  <data name="strMisTareas" xml:space="preserve">
+    <value>Mis Tareas</value>
+  </data>
+  <data name="strModelo" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="strModeloAyudaCargaDocumento" xml:space="preserve">
+    <value>DOCUMENTOS_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaDatosEmplazamientos" xml:space="preserve">
+    <value>EMPLAZAMIENTOS_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaDatosEntidades" xml:space="preserve">
+    <value>ENTIDADES_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaDatosInventario" xml:space="preserve">
+    <value>INVENTARIO_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaDatosProductCatalog" xml:space="preserve">
+    <value>CATALOGOS_PRODUCTOS_AYUDA_MODELOSDATOS</value>
+  </data>
+  <data name="strModeloAyudaDatosProductCatalogServicios" xml:space="preserve">
+    <value>SERVICIOS_CATALOGOS_PRODUCTOS_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaDatosRegional" xml:space="preserve">
+    <value>MODELOREGIONAL_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaDatosSubcategorias" xml:space="preserve">
+    <value>PLANTILLA_SUBCATEGORIAS_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaDatosVinculacionesElementos" xml:space="preserve">
+    <value>VICULACIONES_ELEMENTOS_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloAyudaUsuarios" xml:space="preserve">
+    <value>USUARIOS_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strModeloCargaDocumento" xml:space="preserve">
+    <value>DOCUMENTOS_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatos" xml:space="preserve">
+    <value>Modelo de Datos</value>
+  </data>
+  <data name="strModeloDatosEmplazamientos" xml:space="preserve">
+    <value>EMPLAZAMIENTOS_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosEntidades" xml:space="preserve">
+    <value>ENTIDADES_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosInventario" xml:space="preserve">
+    <value>INVENTARIO_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosProductCatalogs" xml:space="preserve">
+    <value>CATALOGOS_PRODUCTOS_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosProductCatalogServicios" xml:space="preserve">
+    <value>SERVICIOS_CATALOGOS_PRODUCTOS_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosRegional" xml:space="preserve">
+    <value>MODELOREGIONAL_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosSubcategorias" xml:space="preserve">
+    <value>PLANTILLAS_SUBCATEGORIAS_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosUsuarios" xml:space="preserve">
+    <value>USUARIOS_MODELODATOS_</value>
+  </data>
+  <data name="strModeloDatosVinculacionesElementos" xml:space="preserve">
+    <value>VINCULACIONES_ELEMENTOS_MODELODATOS_</value>
+  </data>
+  <data name="strModificacion" xml:space="preserve">
+    <value>Modificación</value>
+  </data>
+  <data name="strModificacionUsuarios" xml:space="preserve">
+    <value>Historial Cambios Usuarios</value>
+  </data>
+  <data name="strModificada" xml:space="preserve">
+    <value>Modificado</value>
+  </data>
+  <data name="strModificado" xml:space="preserve">
+    <value>Modificado</value>
+  </data>
+  <data name="strModulo" xml:space="preserve">
+    <value>Módulo</value>
+  </data>
+  <data name="strMoneda" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="strMonedas" xml:space="preserve">
+    <value>Monedas</value>
+  </data>
+  <data name="strMonitoring" xml:space="preserve">
+    <value>Monitoring</value>
+  </data>
+  <data name="strMonitoringDiario" xml:space="preserve">
+    <value>Monitoring Diario</value>
+  </data>
+  <data name="strMonitoringServicioWindows" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="strMostrarArchivo" xml:space="preserve">
+    <value>Mostrar Archivo</value>
+  </data>
+  <data name="strMostrarContraseña" xml:space="preserve">
+    <value>Mostrar Contraseña</value>
+  </data>
+  <data name="strMostrarInactivos" xml:space="preserve">
+    <value>Mostrar Inactivos</value>
+  </data>
+  <data name="strMostrarMapa" xml:space="preserve">
+    <value>Mostrar Mapa</value>
+  </data>
+  <data name="strMostrarPanelFiltros" xml:space="preserve">
+    <value>Mostrar Panel Filtros</value>
+  </data>
+  <data name="strMovil" xml:space="preserve">
+    <value>Movil</value>
+  </data>
+  <data name="strMsgDocumentoNoEncontrado" xml:space="preserve">
+    <value>Documento no encontrado</value>
+  </data>
+  <data name="strMsgMultihomingActivoNingunUsuarioConfigurado" xml:space="preserve">
+    <value>El mutihoming está activado pero no hay ningún usuario configurado.</value>
+  </data>
+  <data name="strMsgMultihomingActivoPermisoConcedido" xml:space="preserve">
+    <value>El multihoming está activado y el acceso se realiza desde una URL permitida.</value>
+  </data>
+  <data name="strMsgPaginaNoPermitida" xml:space="preserve">
+    <value>Echado por ir a una página no permitida: {0}</value>
+  </data>
+  <data name="strMsgSesionConcurrente" xml:space="preserve">
+    <value>Echado por iniciar sesión desde la IP: {0} mientras está conectado desde la IP: {1}</value>
+  </data>
+  <data name="strMsgSesionDuplicada" xml:space="preserve">
+    <value>Su sesión de trabajo en este equipo ha sido cerrada automáticamente debido a que se ha abierto una nueva sesión en otra ubicación. Cualquier duda, póngase en contacto con el Servicio de Asistencia Técnica (&lt;a href='mailto:XXX@XXX.es'&gt;XXX@XXXX.es&lt;/a&gt;)</value>
+  </data>
+  <data name="strMsgUsuarioClaveIncorrectos" xml:space="preserve">
+    <value>Usuario o Clave Incorrectos</value>
+  </data>
+  <data name="strMultiCliente" xml:space="preserve">
+    <value>Gestor Multicliente</value>
+  </data>
+  <data name="strMultiprocesos" xml:space="preserve">
+    <value>Multiprocesos</value>
+  </data>
+  <data name="strMunicipalidad" xml:space="preserve">
+    <value>Municipalidad</value>
+  </data>
+  <data name="strMunicipio" xml:space="preserve">
+    <value>Municipio</value>
+  </data>
+  <data name="strMunicipiosProvincias" xml:space="preserve">
+    <value>Municipio, Provincia (Pais)</value>
+  </data>
+  <data name="strNBI" xml:space="preserve">
+    <value>NBI %</value>
+  </data>
+  <data name="strNinguno" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="strNingunResultado" xml:space="preserve">
+    <value>Ningún resultado</value>
+  </data>
+  <data name="strNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strNoCategorias" xml:space="preserve">
+    <value>No hay categorias validas</value>
+  </data>
+  <data name="strNoEncuentra" xml:space="preserve">
+    <value>No encuentra</value>
+  </data>
+  <data name="strNombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="strNombreCarpeta" xml:space="preserve">
+    <value>Nombre de carpeta</value>
+  </data>
+  <data name="strNombreCodigo" xml:space="preserve">
+    <value>Nombre del Código</value>
+  </data>
+  <data name="strNombreCodigoRegla" xml:space="preserve">
+    <value>Nombre Código Regla</value>
+  </data>
+  <data name="strNombreColumna" xml:space="preserve">
+    <value>Nombre Columna</value>
+  </data>
+  <data name="strNombreCompleto" xml:space="preserve">
+    <value>Nombre Completo</value>
+  </data>
+  <data name="strNombreCompletoMod" xml:space="preserve">
+    <value>Nombre Completo Modificar</value>
+  </data>
+  <data name="strNombreContratos" xml:space="preserve">
+    <value>Nombre de Contratos</value>
+  </data>
+  <data name="strNombreDocumento" xml:space="preserve">
+    <value>Nombre Documento</value>
+  </data>
+  <data name="strNombreDuplicadoAtributo" xml:space="preserve">
+    <value>El nombre se está utilizando para un atributo</value>
+  </data>
+  <data name="strNombreElemento" xml:space="preserve">
+    <value>Nombre Elemento</value>
+  </data>
+  <data name="strNombreEntidad" xml:space="preserve">
+    <value>Nombre Entidad</value>
+  </data>
+  <data name="strNombreFiltro" xml:space="preserve">
+    <value>Nombre Filtro</value>
+  </data>
+  <data name="strNombreInventario" xml:space="preserve">
+    <value>Nombre Inventario</value>
+  </data>
+  <data name="strNombreMetodo" xml:space="preserve">
+    <value>Nombre Método</value>
+  </data>
+  <data name="strNombreObjeto" xml:space="preserve">
+    <value>Nombre Objeto</value>
+  </data>
+  <data name="strNombreProductCatalog" xml:space="preserve">
+    <value>Nombre Producto Catálogo</value>
+  </data>
+  <data name="strNombreRegla" xml:space="preserve">
+    <value>Nombre de la Regla</value>
+  </data>
+  <data name="strNombreSitio" xml:space="preserve">
+    <value>Nombre Sitio</value>
+  </data>
+  <data name="strNombreTabla" xml:space="preserve">
+    <value>Nombre Tabla</value>
+  </data>
+  <data name="strNombreTipo" xml:space="preserve">
+    <value>Nombre Tipo</value>
+  </data>
+  <data name="strNombreUsuario" xml:space="preserve">
+    <value>Nombre Usuario</value>
+  </data>
+  <data name="strNombreYaExisteParaElObjeto" xml:space="preserve">
+    <value>El nombre de documento ya existe para el objeto</value>
+  </data>
+  <data name="strNoMostrarAtributo" xml:space="preserve">
+    <value>No mostrar este atributo</value>
+  </data>
+  <data name="strNoSeRepite" xml:space="preserve">
+    <value>No se Repite</value>
+  </data>
+  <data name="strNotas" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="strNotificacion" xml:space="preserve">
+    <value>Notificación</value>
+  </data>
+  <data name="strNotificacionAñadida" xml:space="preserve">
+    <value>Notificación Añadida</value>
+  </data>
+  <data name="strNotificacionDuplicada" xml:space="preserve">
+    <value>Notificación Duplicada</value>
+  </data>
+  <data name="strNotificaciones" xml:space="preserve">
+    <value>Notificaciones</value>
+  </data>
+  <data name="strNotIn" xml:space="preserve">
+    <value>NOT IN</value>
+  </data>
+  <data name="strNoviembre" xml:space="preserve">
+    <value>Noviembre</value>
+  </data>
+  <data name="strNuevaCarpeta" xml:space="preserve">
+    <value>Nueva carpeta</value>
+  </data>
+  <data name="strNuevaCondicion" xml:space="preserve">
+    <value>Nueva Condición</value>
+  </data>
+  <data name="strNuevo" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="strNuevoAtributo" xml:space="preserve">
+    <value>Nuevo Atributo</value>
+  </data>
+  <data name="strNuevoFiltro" xml:space="preserve">
+    <value>Nuevo Filtro</value>
+  </data>
+  <data name="strNuevoNombre" xml:space="preserve">
+    <value>Nuevo nombre</value>
+  </data>
+  <data name="strNuevoTipoDocumento" xml:space="preserve">
+    <value>Nuevo Tipo Documento</value>
+  </data>
+  <data name="strNumber" xml:space="preserve">
+    <value>Introduzca el número</value>
+  </data>
+  <data name="strNumContrato" xml:space="preserve">
+    <value>Número Contrato</value>
+  </data>
+  <data name="strNumCorrectos" xml:space="preserve">
+    <value>Número Correctos</value>
+  </data>
+  <data name="strNumerico" xml:space="preserve">
+    <value>Numérico</value>
+  </data>
+  <data name="strNumeroInventario" xml:space="preserve">
+    <value>Número Inventario</value>
+  </data>
+  <data name="strNumErroneos" xml:space="preserve">
+    <value>Número Erróneos</value>
+  </data>
+  <data name="strNumIdentificacion" xml:space="preserve">
+    <value>Número de Identificación</value>
+  </data>
+  <data name="strNumMaximoUsuarios" xml:space="preserve">
+    <value>Número Máximo de Usuarios</value>
+  </data>
+  <data name="strNumMinimoFotos" xml:space="preserve">
+    <value>Min. Fotos</value>
+  </data>
+  <data name="strNumParametros" xml:space="preserve">
+    <value>Número de Parametros</value>
+  </data>
+  <data name="strObjeto" xml:space="preserve">
+    <value>Objeto</value>
+  </data>
+  <data name="strObjetoNegocio" xml:space="preserve">
+    <value>Objeto de Negocio</value>
+  </data>
+  <data name="strObjetoTipo" xml:space="preserve">
+    <value>Tipo de Objecto</value>
+  </data>
+  <data name="strObligatorio" xml:space="preserve">
+    <value>Obligatorio</value>
+  </data>
+  <data name="strObservaciones" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <data name="strOctubre" xml:space="preserve">
+    <value>Octubre</value>
+  </data>
+  <data name="strOcultar" xml:space="preserve">
+    <value>Ocultar</value>
+  </data>
+  <data name="strOcultarFechaFin" xml:space="preserve">
+    <value>Fecha Fin por Catalogo</value>
+  </data>
+  <data name="strOff" xml:space="preserve">
+    <value>No Mostrar</value>
+  </data>
+  <data name="strOnText" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="strOperacionRealizada" xml:space="preserve">
+    <value>Operación Realizada</value>
+  </data>
+  <data name="strOperador" xml:space="preserve">
+    <value>Operador</value>
+  </data>
+  <data name="strOperadores" xml:space="preserve">
+    <value>Operadores</value>
+  </data>
+  <data name="strOperadorInventario" xml:space="preserve">
+    <value>Operador Inventario</value>
+  </data>
+  <data name="strOrden" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="strOrdenacionASC" xml:space="preserve">
+    <value>Ordenación ascendente</value>
+  </data>
+  <data name="strOrdenacionDESC" xml:space="preserve">
+    <value>Ordenación descendiente</value>
+  </data>
+  <data name="strOtro" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="strPageTitle" xml:space="preserve">
+    <value>TREE CORE</value>
+  </data>
+  <data name="strPagina" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="strPago" xml:space="preserve">
+    <value>Pago</value>
+  </data>
+  <data name="strPais" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="strPais_En" xml:space="preserve">
+    <value>Pais_En</value>
+  </data>
+  <data name="strPais_Fr" xml:space="preserve">
+    <value>Pais_Fr</value>
+  </data>
+  <data name="strPaisCod" xml:space="preserve">
+    <value>Código País</value>
+  </data>
+  <data name="strPaises" xml:space="preserve">
+    <value>Paises</value>
+  </data>
+  <data name="strPaquetes" xml:space="preserve">
+    <value>Paquetes</value>
+  </data>
+  <data name="strParametro" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="strParametros" xml:space="preserve">
+    <value>Parámetros</value>
+  </data>
+  <data name="strParametrosExiste" xml:space="preserve">
+    <value>El nombre del parámentro ya existe</value>
+  </data>
+  <data name="strPartido" xml:space="preserve">
+    <value>Partido</value>
+  </data>
+  <data name="strPasswordStrengthEmptyText" xml:space="preserve">
+    <value>Al menos 8 caracteres</value>
+  </data>
+  <data name="strPasswordStrengthRegExp" xml:space="preserve">
+    <value>^(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#.;$&amp;*])(?=.*[0-9]).{8,}$</value>
+  </data>
+  <data name="strPasswordStrengthText" xml:space="preserve">
+    <value>La contraseña debe contener al menos un carácter en mayúscula, un carácter en minúscula, un número y un carácter especial (!@#.;$&amp;*)</value>
+  </data>
+  <data name="strPatron" xml:space="preserve">
+    <value>Patron</value>
+  </data>
+  <data name="strPegar" xml:space="preserve">
+    <value>Pegar</value>
+  </data>
+  <data name="strPegarComo" xml:space="preserve">
+    <value>Pegar como</value>
+  </data>
+  <data name="strPegarNombre" xml:space="preserve">
+    <value>Pegar nombre</value>
+  </data>
+  <data name="strPendienteAnalisis" xml:space="preserve">
+    <value>Pendiente Análisis</value>
+  </data>
+  <data name="strPenultima" xml:space="preserve">
+    <value>Penúltima</value>
+  </data>
+  <data name="strPenultimaVersion" xml:space="preserve">
+    <value>Penúltima versión</value>
+  </data>
+  <data name="strPerfil" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="strPerfiles" xml:space="preserve">
+    <value>Perfiles</value>
+  </data>
+  <data name="strPermisoContrato" xml:space="preserve">
+    <value>Permiso de Contrato</value>
+  </data>
+  <data name="strPermisoDescarga" xml:space="preserve">
+    <value>Permiso Descarga</value>
+  </data>
+  <data name="strPermisoEscritura" xml:space="preserve">
+    <value>Permiso Escritura</value>
+  </data>
+  <data name="strPermisoLectura" xml:space="preserve">
+    <value>Permiso Lectura</value>
+  </data>
+  <data name="strPermisos" xml:space="preserve">
+    <value>Permisos</value>
+  </data>
+  <data name="strPersonaFisica" xml:space="preserve">
+    <value>Persona Física</value>
+  </data>
+  <data name="strPiso" xml:space="preserve">
+    <value>Piso</value>
+  </data>
+  <data name="strPlantilla" xml:space="preserve">
+    <value>Plantilla</value>
+  </data>
+  <data name="strPlantillaAyudaEmpContactos" xml:space="preserve">
+    <value>CONTACTOS_AYUDA_MODELODATOS_</value>
+  </data>
+  <data name="strPlantillaEmpContactos" xml:space="preserve">
+    <value>CONTACTOS_MODELODATOS_</value>
+  </data>
+  <data name="strPlantillas" xml:space="preserve">
+    <value>Plantillas</value>
+  </data>
+  <data name="strPlantillaSeccion" xml:space="preserve">
+    <value>PLANTILLA SECCION</value>
+  </data>
+  <data name="strPorcentaje" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="strPorcentajeFijo" xml:space="preserve">
+    <value>Porcentaje Fijo</value>
+  </data>
+  <data name="strPosicion" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="strPrecio" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="strPrecios" xml:space="preserve">
+    <value>Precios</value>
+  </data>
+  <data name="strPrefijo" xml:space="preserve">
+    <value>Prefijo</value>
+  </data>
+  <data name="strPrevisualizar" xml:space="preserve">
+    <value>Previsualizar</value>
+  </data>
+  <data name="strProceso" xml:space="preserve">
+    <value>Proceso</value>
+  </data>
+  <data name="strProcesos" xml:space="preserve">
+    <value>Procesos</value>
+  </data>
+  <data name="strProduccion" xml:space="preserve">
+    <value>Produccion</value>
+  </data>
+  <data name="strProductCatalog" xml:space="preserve">
+    <value>Productos &amp; Servicios</value>
+  </data>
+  <data name="strProductCatalogServicios" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="strPropiedad" xml:space="preserve">
+    <value>Propiedad</value>
+  </data>
+  <data name="strPropietario" xml:space="preserve">
+    <value>Propietario</value>
+  </data>
+  <data name="strPropietarios" xml:space="preserve">
+    <value>Propietarios</value>
+  </data>
+  <data name="strProveedor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="strProveedores" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="strProvincia" xml:space="preserve">
+    <value>Provincia</value>
+  </data>
+  <data name="strProvincias" xml:space="preserve">
+    <value>Provincias</value>
+  </data>
+  <data name="strProyecto" xml:space="preserve">
+    <value>Proyecto</value>
+  </data>
+  <data name="strProyectoEstado" xml:space="preserve">
+    <value>Proyecto Estado</value>
+  </data>
+  <data name="strProyectos" xml:space="preserve">
+    <value>Proyectos</value>
+  </data>
+  <data name="strProyectosTipos" xml:space="preserve">
+    <value>Proyectos Tipos</value>
+  </data>
+  <data name="strProyectosTiposLibre" xml:space="preserve">
+    <value>Proyectos Tipos Libres</value>
+  </data>
+  <data name="strProyectoTipo" xml:space="preserve">
+    <value>Proyecto Tipo</value>
+  </data>
+  <data name="strPublicoEscritura" xml:space="preserve">
+    <value>Publico Escritura</value>
+  </data>
+  <data name="strPublicoLectura" xml:space="preserve">
+    <value>Publico Lectura</value>
+  </data>
+  <data name="strPuerta" xml:space="preserve">
+    <value>Puerta</value>
+  </data>
+  <data name="strPurchaseOrder" xml:space="preserve">
+    <value>Orden Compra</value>
+  </data>
+  <data name="strQuitar" xml:space="preserve">
+    <value>Quitar</value>
+  </data>
+  <data name="strQuitarFiltro" xml:space="preserve">
+    <value>Quitar filtros</value>
+  </data>
+  <data name="strRadio" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="strRaiz" xml:space="preserve">
+    <value>Raiz</value>
+  </data>
+  <data name="strRangoEtario" xml:space="preserve">
+    <value>Rango Etario</value>
+  </data>
+  <data name="strReajustes" xml:space="preserve">
+    <value>Reajuste de Precios</value>
+  </data>
+  <data name="strReasignarUsuario" xml:space="preserve">
+    <value>Reasignar Usuario</value>
+  </data>
+  <data name="strRecargarLista" xml:space="preserve">
+    <value>Recargar Lista</value>
+  </data>
+  <data name="strRegex" xml:space="preserve">
+    <value>Regex</value>
+  </data>
+  <data name="strRegexCaracter" xml:space="preserve">
+    <value>Solo caracteres alfabéticos.</value>
+  </data>
+  <data name="strRegexInvalido" xml:space="preserve">
+    <value>Formato Invalido</value>
+  </data>
+  <data name="strRegexNumerico" xml:space="preserve">
+    <value>Solo caracteres Numéricos.</value>
+  </data>
+  <data name="strRegExpExcelTabName" xml:space="preserve">
+    <value>Los siguientes caracteres son inválidos: \ , / , * , ? , : , [ , ]</value>
+  </data>
+  <data name="strRegexPrefijo" xml:space="preserve">
+    <value>Formato incorrecto. Ejemplo "+00" or "+000"</value>
+  </data>
+  <data name="strRegexSeparador" xml:space="preserve">
+    <value>Solo caracteres Especiales.</value>
+  </data>
+  <data name="strRegion" xml:space="preserve">
+    <value>Región</value>
+  </data>
+  <data name="strRegionComercial" xml:space="preserve">
+    <value>Región Comercial</value>
+  </data>
+  <data name="strRegionesPaises" xml:space="preserve">
+    <value>Regiones Paises</value>
+  </data>
+  <data name="strRegionPais" xml:space="preserve">
+    <value>Región País</value>
+  </data>
+  <data name="strRegla" xml:space="preserve">
+    <value>Regla</value>
+  </data>
+  <data name="strReglas" xml:space="preserve">
+    <value>Reglas</value>
+  </data>
+  <data name="strRegulaciones" xml:space="preserve">
+    <value>Regulaciones</value>
+  </data>
+  <data name="strRenegociable" xml:space="preserve">
+    <value>Renegociable</value>
+  </data>
+  <data name="strRequerido" xml:space="preserve">
+    <value>Requerido</value>
+  </data>
+  <data name="strRequeridoValidado" xml:space="preserve">
+    <value>Requerido/Validado</value>
+  </data>
+  <data name="strRequiereValor" xml:space="preserve">
+    <value>Requiere Valor</value>
+  </data>
+  <data name="strRestaurar" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="strRestriccionPerfiles" xml:space="preserve">
+    <value>Restricción Perfiles</value>
+  </data>
+  <data name="strRestriccionRoles" xml:space="preserve">
+    <value>Restricción Roles</value>
+  </data>
+  <data name="strResultado" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="strRiesgo" xml:space="preserve">
+    <value>Riesgo</value>
+  </data>
+  <data name="strRojo" xml:space="preserve">
+    <value>Rojo</value>
+  </data>
+  <data name="strRol" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="strRolAñadido" xml:space="preserve">
+    <value>Rol Añadido</value>
+  </data>
+  <data name="strRolDuplicado" xml:space="preserve">
+    <value>Rol Duplicado</value>
+  </data>
+  <data name="strRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="strRolesSeguimiento" xml:space="preserve">
+    <value>Roles Seguimiento</value>
+  </data>
+  <data name="strRolesSeguimientoEstados" xml:space="preserve">
+    <value>Estos roles podrán acceder a este seguimiento de estado</value>
+  </data>
+  <data name="strRutaModulo" xml:space="preserve">
+    <value>Ruta Modulo</value>
+  </data>
+  <data name="strSabado" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="strSaving" xml:space="preserve">
+    <value>Renegociaciones</value>
+  </data>
+  <data name="strSeccion" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="strSecciones" xml:space="preserve">
+    <value>Secciones</value>
+  </data>
+  <data name="strSeguimientos" xml:space="preserve">
+    <value>Seguimientos</value>
+  </data>
+  <data name="strSeleccionar" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="strSeleccionarImagen" xml:space="preserve">
+    <value>Seleccionar Imagen</value>
+  </data>
+  <data name="strSeleccionarPrefijo" xml:space="preserve">
+    <value>Teléfono (Seleccione un prefijo)</value>
+  </data>
+  <data name="strSeleccionarTodo" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="strSeleccionaUnaPlantilla" xml:space="preserve">
+    <value>Selecciona una plantilla</value>
+  </data>
+  <data name="strSeleccioneColumna" xml:space="preserve">
+    <value>Seleccione columna</value>
+  </data>
+  <data name="strSeleccioneDocumento" xml:space="preserve">
+    <value>Seleccione Documento</value>
+  </data>
+  <data name="strSeleccioneImagen" xml:space="preserve">
+    <value>Seleccione archivo jpeg,jpg,png,svg</value>
+  </data>
+  <data name="strSeleccioneOperador" xml:space="preserve">
+    <value>Seleccione un Operador</value>
+  </data>
+  <data name="strSeleccionePerfil" xml:space="preserve">
+    <value>Debe seleccionar un perfil mínimo.</value>
+  </data>
+  <data name="strSeleccioneTipoDato" xml:space="preserve">
+    <value>Seleccione tipo de dato</value>
+  </data>
+  <data name="strSeleccioneTipoDocumento" xml:space="preserve">
+    <value>Seleccione Tipo de Documento</value>
+  </data>
+  <data name="strSelecPais" xml:space="preserve">
+    <value>Seleccione un país</value>
+  </data>
+  <data name="strSemaforo" xml:space="preserve">
+    <value>Semáforo</value>
+  </data>
+  <data name="strSemanal" xml:space="preserve">
+    <value>Semanal</value>
+  </data>
+  <data name="strSemanalCustom" xml:space="preserve">
+    <value>Semanal Personalizado</value>
+  </data>
+  <data name="strSeparador" xml:space="preserve">
+    <value>Separador</value>
+  </data>
+  <data name="strSeptiembre" xml:space="preserve">
+    <value>Septiembre</value>
+  </data>
+  <data name="strServicio" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="strServicios" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="strServiciosFrecuencias" xml:space="preserve">
+    <value>Servicios Frecuencias</value>
+  </data>
+  <data name="strServiciosWeb" xml:space="preserve">
+    <value>Servicios Web</value>
+  </data>
+  <data name="strServidor" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="strSesionDuplicada" xml:space="preserve">
+    <value>Sesión Duplicada</value>
+  </data>
+  <data name="strSharing" xml:space="preserve">
+    <value>Comparticiones</value>
+  </data>
+  <data name="strSharingTecnico" xml:space="preserve">
+    <value>Comparticiones Tecnicas</value>
+  </data>
+  <data name="strSi" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="strSiguiente" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="strSiguientesFechas" xml:space="preserve">
+    <value>Siguientes Fechas</value>
+  </data>
+  <data name="strSimbolo" xml:space="preserve">
+    <value>Simbolo</value>
+  </data>
+  <data name="strSinDatosMostrar" xml:space="preserve">
+    <value>No hay datos que mostrar</value>
+  </data>
+  <data name="strSinIncremento" xml:space="preserve">
+    <value>Sin incremento</value>
+  </data>
+  <data name="strSitios" xml:space="preserve">
+    <value>Sitios</value>
+  </data>
+  <data name="strSLA" xml:space="preserve">
+    <value>SLA</value>
+  </data>
+  <data name="strSlug" xml:space="preserve">
+    <value>Slug</value>
+  </data>
+  <data name="strSmall" xml:space="preserve">
+    <value>Pequeño</value>
+  </data>
+  <data name="strSociedad" xml:space="preserve">
+    <value>Sociedad</value>
+  </data>
+  <data name="strSoloClientes" xml:space="preserve">
+    <value>Solo clientes</value>
+  </data>
+  <data name="strSoloLecturaAtributo" xml:space="preserve">
+    <value>Atributo solo lectura</value>
+  </data>
+  <data name="strSoloUnaVez" xml:space="preserve">
+    <value>Solo una vez</value>
+  </data>
+  <data name="strSoltarDocumentos" xml:space="preserve">
+    <value>Arrastre aquí sus archivos o haga click</value>
+  </data>
+  <data name="strSoporte" xml:space="preserve">
+    <value>Soporte</value>
+  </data>
+  <data name="strSpace" xml:space="preserve">
+    <value>Espacios</value>
+  </data>
+  <data name="strSubalm" xml:space="preserve">
+    <value>Subalm</value>
+  </data>
+  <data name="strSubcategoria" xml:space="preserve">
+    <value>Sección vacia</value>
+  </data>
+  <data name="strSubcategoriaAtributos" xml:space="preserve">
+    <value>Sección atributos</value>
+  </data>
+  <data name="strSubcategoriaNombreDuplicado" xml:space="preserve">
+    <value>La subcategoria contiene un nombre de atributo que ya se esta utilizando</value>
+  </data>
+  <data name="strSubcategoriaPlantillas" xml:space="preserve">
+    <value>Sección Plantillas</value>
+  </data>
+  <data name="strSubidaCorrecta" xml:space="preserve">
+    <value>Subida de Flujos de XML procesado</value>
+  </data>
+  <data name="strSubidaFallo" xml:space="preserve">
+    <value>Fallo en subida de flujos de XML</value>
+  </data>
+  <data name="strSubproceso" xml:space="preserve">
+    <value>Subproceso</value>
+  </data>
+  <data name="strSubprocesos" xml:space="preserve">
+    <value>Subprocesos</value>
+  </data>
+  <data name="strSubRegionComercial" xml:space="preserve">
+    <value>SubRegión Comercial</value>
+  </data>
+  <data name="strSuper" xml:space="preserve">
+    <value>Super</value>
+  </data>
+  <data name="strSwapping" xml:space="preserve">
+    <value>Intercambios</value>
+  </data>
+  <data name="strTabFinal" xml:space="preserve">
+    <value>Tab Final</value>
+  </data>
+  <data name="strTabInicial" xml:space="preserve">
+    <value>Tab Inicial</value>
+  </data>
+  <data name="strTabla" xml:space="preserve">
+    <value>Tabla</value>
+  </data>
+  <data name="strTabNombre" xml:space="preserve">
+    <value>Nombre Tab</value>
+  </data>
+  <data name="strTamano" xml:space="preserve">
+    <value>Tamaño</value>
+  </data>
+  <data name="strTarea" xml:space="preserve">
+    <value>Tarea</value>
+  </data>
+  <data name="strTareaAñadida" xml:space="preserve">
+    <value>Tarea Añadida</value>
+  </data>
+  <data name="strTareaDuplicada" xml:space="preserve">
+    <value>Tarea Duplicada</value>
+  </data>
+  <data name="strTelefono" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="strTelefono2" xml:space="preserve">
+    <value>Teléfono 2</value>
+  </data>
+  <data name="strTelefonoContacto" xml:space="preserve">
+    <value>Teléfono contacto</value>
+  </data>
+  <data name="strTexto" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="strTiempo" xml:space="preserve">
+    <value>Tiempo</value>
+  </data>
+  <data name="strTipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="strTipoArchivo" xml:space="preserve">
+    <value>El tipo de archivo no está permitido.</value>
+  </data>
+  <data name="strTipoCampo" xml:space="preserve">
+    <value>Tipo Campo</value>
+  </data>
+  <data name="strTipoCarga" xml:space="preserve">
+    <value>Tipo Carga</value>
+  </data>
+  <data name="strTipoCodigo" xml:space="preserve">
+    <value>Tipo Codigo</value>
+  </data>
+  <data name="strTipoCondicion" xml:space="preserve">
+    <value>Tipo Condición</value>
+  </data>
+  <data name="strTipoContacto" xml:space="preserve">
+    <value>Tipo Contacto</value>
+  </data>
+  <data name="strTipoContratacion" xml:space="preserve">
+    <value>Tipo Contratación</value>
+  </data>
+  <data name="strTipoContrato" xml:space="preserve">
+    <value>Tipo Contrato</value>
+  </data>
+  <data name="strTipoContratoSAP" xml:space="preserve">
+    <value>Tipo Contrato SAP</value>
+  </data>
+  <data name="strTipoContribuyente" xml:space="preserve">
+    <value>Tipo Contribuyente</value>
+  </data>
+  <data name="strTipoContribuyenteAsignado" xml:space="preserve">
+    <value>Tipo Contribuyente Asignado</value>
+  </data>
+  <data name="strTipoDato" xml:space="preserve">
+    <value>Tipo Dato</value>
+  </data>
+  <data name="strTipoDinamico" xml:space="preserve">
+    <value>Tipo Dinámico</value>
+  </data>
+  <data name="strTipoDocumento" xml:space="preserve">
+    <value>Tipo Documento</value>
+  </data>
+  <data name="strTipoEdificio" xml:space="preserve">
+    <value>Tipo Edificio</value>
+  </data>
+  <data name="strTipoEmplazamiento" xml:space="preserve">
+    <value>Tipo Emplazamiento</value>
+  </data>
+  <data name="strTipoEntidad" xml:space="preserve">
+    <value>Tipo de Entidad</value>
+  </data>
+  <data name="strTipoEstructura" xml:space="preserve">
+    <value>Tipo Estructura</value>
+  </data>
+  <data name="strTipoFuncionalidad" xml:space="preserve">
+    <value>Tipo Funcionalidad</value>
+  </data>
+  <data name="strTipoLicencia" xml:space="preserve">
+    <value>Tipo Licencia</value>
+  </data>
+  <data name="strTipoLista" xml:space="preserve">
+    <value>Tipo Lista</value>
+  </data>
+  <data name="strTipologias" xml:space="preserve">
+    <value>Tipologias</value>
+  </data>
+  <data name="strTipoNIF" xml:space="preserve">
+    <value>Tipo NIF</value>
+  </data>
+  <data name="strTipoPoblado" xml:space="preserve">
+    <value>Tipo Poblado</value>
+  </data>
+  <data name="strTipoPropiedad" xml:space="preserve">
+    <value>Tipo Propiedad</value>
+  </data>
+  <data name="strTipoPropietario" xml:space="preserve">
+    <value>Tipo Propietario</value>
+  </data>
+  <data name="strTipoProyecto" xml:space="preserve">
+    <value>Tipo de Proyecto</value>
+  </data>
+  <data name="strTiposContratos" xml:space="preserve">
+    <value>Tipos Contratos</value>
+  </data>
+  <data name="strTiposDocumentos" xml:space="preserve">
+    <value>Tipos de Documentos</value>
+  </data>
+  <data name="strTiposEdificios" xml:space="preserve">
+    <value>Tipos de Edificios</value>
+  </data>
+  <data name="strTiposEdificiosLibres" xml:space="preserve">
+    <value>Tipos Edificios Libres</value>
+  </data>
+  <data name="strTiposEmplazamientos" xml:space="preserve">
+    <value>Tipos Emplazamientos</value>
+  </data>
+  <data name="strTiposLicencias" xml:space="preserve">
+    <value>Tipos Licencias</value>
+  </data>
+  <data name="strTiposNIF" xml:space="preserve">
+    <value>Tipos NIF</value>
+  </data>
+  <data name="strTipoValor" xml:space="preserve">
+    <value>Tipo Valor</value>
+  </data>
+  <data name="strTipoVinculacion" xml:space="preserve">
+    <value>Tipo Vinculacion</value>
+  </data>
+  <data name="strTitulo" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="strTituloControlAcceso" xml:space="preserve">
+    <value>Configuraciones Globales</value>
+  </data>
+  <data name="strTituloDuplicado" xml:space="preserve">
+    <value>Datos Duplicados</value>
+  </data>
+  <data name="strTituloExportar" xml:space="preserve">
+    <value>Configuración Migrador</value>
+  </data>
+  <data name="strTituloFiltro" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="strTituloInventario" xml:space="preserve">
+    <value>INVENTARIO</value>
+  </data>
+  <data name="strTituloPlantillas" xml:space="preserve">
+    <value>PLANTILLAS</value>
+  </data>
+  <data name="strTodasCategorias" xml:space="preserve">
+    <value>Todas las categorías</value>
+  </data>
+  <data name="strTodasColumnas" xml:space="preserve">
+    <value>Todas las columnas</value>
+  </data>
+  <data name="strTodasEntidades" xml:space="preserve">
+    <value>Todas las Entidades</value>
+  </data>
+  <data name="strTodos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="strTokensPermitidos" xml:space="preserve">
+    <value>Número de accesos permitidos</value>
+  </data>
+  <data name="strToolTipFormatoFecha" xml:space="preserve">
+    <value>"d": El día del mes, de 1 a 31.&lt;br&gt;"dd": El día del mes, de 01 a 31.&lt;br&gt;"ddd": El nombre abreviado del día de la semana.&lt;br&gt;"dddd": El nombre completo del día de la semana.&lt;br&gt;"M": El mes, de 1 a 12.&lt;br&gt;"MM": El mes, de 01 a 12.&lt;br&gt;"MMM": El nombre abreviado del mes.&lt;br&gt;"MMMM": El nombre completo del mes.&lt;br&gt;"y": El año, de 0 a 99.&lt;br&gt;"yy":El año, de 00 a 99.&lt;br&gt;"yyy": El año, con un mínimo de tres dígitos.&lt;br&gt;"yyyy": El año como un número de cuatro dígitos.&lt;br&gt;"yyyyy": El año como un número de cinco dígitos.&lt;br&gt;"h": La hora, usando un reloj de 12 horas de 1 a 12.&lt;br&gt;"hh": La hora, usando un reloj de 12 horas de 01 a 12.&lt;br&gt;"H": La hora, usando un reloj de 24 horas de 0 a 23.&lt;br&gt;"HH": La hora, usando un reloj de 24 horas de 00 a 23.&lt;br&gt;"m": Minutos, de 0 a 59.&lt;br&gt;"mm": El minuto, de 00 a 59.&lt;br&gt;"s": El segundo, de 0 a 59.&lt;br&gt;"ss": El segundo, de 00 a 59.&lt;br&gt;"\": El carácter de escape.</value>
+  </data>
+  <data name="strTorreros" xml:space="preserve">
+    <value>Torreros</value>
+  </data>
+  <data name="strTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="strTotales" xml:space="preserve">
+    <value>Totales</value>
+  </data>
+  <data name="strTowerCustomer" xml:space="preserve">
+    <value>Tower Customer</value>
+  </data>
+  <data name="strTraduccion" xml:space="preserve">
+    <value>Traducción</value>
+  </data>
+  <data name="strTraducciones" xml:space="preserve">
+    <value>Traducciones</value>
+  </data>
+  <data name="strTrafficLight" xml:space="preserve">
+    <value>Semaforo</value>
+  </data>
+  <data name="strTrafico" xml:space="preserve">
+    <value>Tráfico</value>
+  </data>
+  <data name="strTratamiento" xml:space="preserve">
+    <value>Tratamiento</value>
+  </data>
+  <data name="strTratamientoPrevio" xml:space="preserve">
+    <value>Tratamiento Previo</value>
+  </data>
+  <data name="strTratamientos" xml:space="preserve">
+    <value>Tratamientos</value>
+  </data>
+  <data name="strTrueFalse" xml:space="preserve">
+    <value>True/False</value>
+  </data>
+  <data name="strTxtFiltro" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="strUltima" xml:space="preserve">
+    <value>Última</value>
+  </data>
+  <data name="strUltimaModificacionClave" xml:space="preserve">
+    <value>Ultima Modificación Clave</value>
+  </data>
+  <data name="strUltimas24h" xml:space="preserve">
+    <value>Últimas 24 horas</value>
+  </data>
+  <data name="strUltimaSemana" xml:space="preserve">
+    <value>Última semana</value>
+  </data>
+  <data name="strUltimaVersion" xml:space="preserve">
+    <value>Última Versión</value>
+  </data>
+  <data name="strUltimoAcceso" xml:space="preserve">
+    <value>Último Acceso</value>
+  </data>
+  <data name="strUltimoAño" xml:space="preserve">
+    <value>Último año</value>
+  </data>
+  <data name="strUltimoMes" xml:space="preserve">
+    <value>Último mes</value>
+  </data>
+  <data name="strUltimosSeisMeses" xml:space="preserve">
+    <value>Ultimos 6 meses</value>
+  </data>
+  <data name="strUltimoTrimestre" xml:space="preserve">
+    <value>Último trimestre</value>
+  </data>
+  <data name="strUnidades" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="strURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="strUrlDescarga" xml:space="preserve">
+    <value>URL descarga</value>
+  </data>
+  <data name="strUsuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="strUsuarioBloqueado" xml:space="preserve">
+    <value>Usuario bloqueado. Ha superado el limite de intentos.</value>
+  </data>
+  <data name="strUsuarioCaducado" xml:space="preserve">
+    <value>El usuario introducido a expirado.</value>
+  </data>
+  <data name="strUsuarioDestino" xml:space="preserve">
+    <value>Usuario Destino</value>
+  </data>
+  <data name="strUsuarioDuplicado" xml:space="preserve">
+    <value>Usuario Duplicado</value>
+  </data>
+  <data name="strUsuarioExpiracion" xml:space="preserve">
+    <value>Expiración Usuario</value>
+  </data>
+  <data name="strUsuarioInactivo" xml:space="preserve">
+    <value>Usuario desactivado. Comuníquese con su administrador para la reactivación.</value>
+  </data>
+  <data name="strUsuarioInterno" xml:space="preserve">
+    <value>Usuario Interno</value>
+  </data>
+  <data name="strUsuarioModificador" xml:space="preserve">
+    <value>Usuario modificador</value>
+  </data>
+  <data name="strUsuarios" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="strUsuariosClaveRepetida" xml:space="preserve">
+    <value>La clave indicada ya fue usada en anteriores ocasiones, por favor, utilice otra.</value>
+  </data>
+  <data name="strUsuariosClaveYaUsada" xml:space="preserve">
+    <value>La clave ya ha sido utilizada en los ultimos cambios, intente con una nueva.</value>
+  </data>
+  <data name="strUsuariosGrupo" xml:space="preserve">
+    <value>Usuarios Grupo</value>
+  </data>
+  <data name="strUsuarioSinRoles" xml:space="preserve">
+    <value>Este usuario no tiene ningún rol asignado aún. Por favor, contacte con su administrador.</value>
+  </data>
+  <data name="strUsuariosPerfiles" xml:space="preserve">
+    <value>Usuarios Perfiles</value>
+  </data>
+  <data name="strVacio" xml:space="preserve">
+    <value>Vacio</value>
+  </data>
+  <data name="strValidado" xml:space="preserve">
+    <value>Validado</value>
+  </data>
+  <data name="strValor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="strValorAlfanumerico" xml:space="preserve">
+    <value>Valor Alfanumérico</value>
+  </data>
+  <data name="strValorBoleano" xml:space="preserve">
+    <value>Valor Boleano</value>
+  </data>
+  <data name="strValorCeldaEs" xml:space="preserve">
+    <value>El valor de la celda es</value>
+  </data>
+  <data name="strValorDefecto" xml:space="preserve">
+    <value>Valor Defecto</value>
+  </data>
+  <data name="strValorDemasiadoGrande" xml:space="preserve">
+    <value>Valor demasiado grande</value>
+  </data>
+  <data name="strValorFinal" xml:space="preserve">
+    <value>Valor Final</value>
+  </data>
+  <data name="strValorMaximo" xml:space="preserve">
+    <value>Valor Maximo</value>
+  </data>
+  <data name="strValorMinimo" xml:space="preserve">
+    <value>Valor Minimo</value>
+  </data>
+  <data name="strValorNumerico" xml:space="preserve">
+    <value>Valor Numerico</value>
+  </data>
+  <data name="strValorPorDefectoRegla" xml:space="preserve">
+    <value>Else como regla de valor por defecto</value>
+  </data>
+  <data name="strValorPrevio" xml:space="preserve">
+    <value>Valor Previo</value>
+  </data>
+  <data name="strVandalismo" xml:space="preserve">
+    <value>Vandalismo</value>
+  </data>
+  <data name="strVer" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="strVerde" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="strVerMas" xml:space="preserve">
+    <value>Ver Más</value>
+  </data>
+  <data name="strVersion" xml:space="preserve">
+    <value>Versión: </value>
+  </data>
+  <data name="strVersion_" xml:space="preserve">
+    <value>Versión</value>
+  </data>
+  <data name="strVersiones" xml:space="preserve">
+    <value>Versiones</value>
+  </data>
+  <data name="strVersionesAnteriores" xml:space="preserve">
+    <value>Versiones Anteriores</value>
+  </data>
+  <data name="strVersionesAntiguas" xml:space="preserve">
+    <value>Versiones Antiguas</value>
+  </data>
+  <data name="strVersionesPrevias" xml:space="preserve">
+    <value>Versiones previas</value>
+  </data>
+  <data name="strVerWorkflow" xml:space="preserve">
+    <value>Ver flujo de trabajo</value>
+  </data>
+  <data name="strVexEntorno" xml:space="preserve">
+    <value>Vex Entorno</value>
+  </data>
+  <data name="strVexProyecto" xml:space="preserve">
+    <value>Vex Proyecto</value>
+  </data>
+  <data name="strViernes" xml:space="preserve">
+    <value>Viernes</value>
+  </data>
+  <data name="strVinculacion" xml:space="preserve">
+    <value>Vinculación</value>
+  </data>
+  <data name="strVisible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="strVisitarPagina" xml:space="preserve">
+    <value>Visitar Página</value>
+  </data>
+  <data name="strVista" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="strVistaActual" xml:space="preserve">
+    <value>Vista actual</value>
+  </data>
+  <data name="strVistaCategoria" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="strVistaDetalle" xml:space="preserve">
+    <value>Vista Detalle</value>
+  </data>
+  <data name="strVistaGrafica" xml:space="preserve">
+    <value>Vista Gráfica</value>
+  </data>
+  <data name="strVistaJeraquica" xml:space="preserve">
+    <value>Relaciones</value>
+  </data>
+  <data name="strWorkFlow" xml:space="preserve">
+    <value>WorkFlow</value>
+  </data>
+  <data name="strWorkFlows" xml:space="preserve">
+    <value>WorkFlows</value>
+  </data>
+  <data name="strWorkOrder" xml:space="preserve">
+    <value>WorkOrder</value>
+  </data>
+  <data name="strWorkOrders" xml:space="preserve">
+    <value>Ordenes de Trabajo</value>
+  </data>
+  <data name="strWorkOrdersEstados" xml:space="preserve">
+    <value>Estados WorkOrders</value>
+  </data>
+  <data name="strYaExisteRestriccion" xml:space="preserve">
+    <value>Ya existe una restricción general para el atributo</value>
+  </data>
+  <data name="strYes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="strZIC" xml:space="preserve">
+    <value>ZIC</value>
+  </data>
+  <data name="strZonas" xml:space="preserve">
+    <value>Zonas</value>
+  </data>
+  <data name="strZoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Title.winGestion" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="txtCIF.FieldLabel" xml:space="preserve">
+    <value>CIF</value>
+  </data>
+  <data name="winGestion.Title" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+</root>

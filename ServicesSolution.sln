@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDataQuality", "TreeCore.Web\ServiceDataQuality\ServiceDataQuality.csproj", "{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceImportExport", "TreeCore.Web\ServiceImportExport\ServiceImportExport.csproj", "{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		_Desarrollador_Fran|Any CPU = _Desarrollador_Fran|Any CPU
+		_Desarrollador_Pedro|Any CPU = _Desarrollador_Pedro|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Telenor_Nube_Olivo|Any CPU = Telenor_Nube_Olivo|Any CPU
+		Telenor_Nube_TiB|Any CPU = Telenor_Nube_TiB|Any CPU
+		Telenor_TiB|Any CPU = Telenor_TiB|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}._Desarrollador_Fran|Any CPU.ActiveCfg = _Desarrollador_Fran|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}._Desarrollador_Fran|Any CPU.Build.0 = _Desarrollador_Fran|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}._Desarrollador_Pedro|Any CPU.ActiveCfg = _Desarrollador_Pedro|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}._Desarrollador_Pedro|Any CPU.Build.0 = _Desarrollador_Pedro|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Telenor_Nube_Olivo|Any CPU.ActiveCfg = Telenor_Nube_Olivo|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Telenor_Nube_Olivo|Any CPU.Build.0 = Telenor_Nube_Olivo|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Telenor_Nube_TiB|Any CPU.ActiveCfg = Telenor_Nube_TiB|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Telenor_Nube_TiB|Any CPU.Build.0 = Telenor_Nube_TiB|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Telenor_TiB|Any CPU.ActiveCfg = Telenor_TiB|Any CPU
+		{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}.Telenor_TiB|Any CPU.Build.0 = Telenor_TiB|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}._Desarrollador_Fran|Any CPU.ActiveCfg = _Desarrollador_Fran|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}._Desarrollador_Fran|Any CPU.Build.0 = _Desarrollador_Fran|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}._Desarrollador_Pedro|Any CPU.ActiveCfg = _Desarrollador_Pedro|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}._Desarrollador_Pedro|Any CPU.Build.0 = _Desarrollador_Pedro|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Telenor_Nube_Olivo|Any CPU.ActiveCfg = Telenor_Nube_Olivo|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Telenor_Nube_Olivo|Any CPU.Build.0 = Telenor_Nube_Olivo|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Telenor_Nube_TiB|Any CPU.ActiveCfg = Telenor_Nube_TiB|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Telenor_Nube_TiB|Any CPU.Build.0 = Telenor_Nube_TiB|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Telenor_TiB|Any CPU.ActiveCfg = Telenor_TiB|Any CPU
+		{D71EA179-78E0-42DF-8EB0-C2DAC308F8F0}.Telenor_TiB|Any CPU.Build.0 = Telenor_TiB|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {168E9640-E4C1-404D-8585-4E31535FF08C}
+	EndGlobalSection
+EndGlobal

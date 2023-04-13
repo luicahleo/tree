@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00b596;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_4060" data-name="Group 4060" transform="translate(-5508 -1723)">
+    <circle id="Ellipse_365" data-name="Ellipse 365" class="cls-1" cx="8" cy="8" r="8" transform="translate(5508 1723)"/>
+    <g id="Group_4049" data-name="Group 4049" transform="translate(5520.21 1728.474) rotate(90)">
+      <path id="Path_678" data-name="Path 678" class="cls-2" d="M0,0,2.5,3.368,5.053,0" transform="translate(5.053 3.368) rotate(180)"/>
+      <line id="Line_352" data-name="Line 352" class="cls-3" y2="6.737" transform="translate(2.526 0.842)"/>
+    </g>
+  </g>
+</svg>

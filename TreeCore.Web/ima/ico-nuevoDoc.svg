@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke: #062743;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-width: 1.6px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: #062743;
+      }
+    </style>
+  </defs>
+  <g id="Group_3772" data-name="Group 3772" transform="translate(142 638)">
+    <rect id="Rectangle_274" data-name="Rectangle 274" class="cls-1" width="24" height="24" transform="translate(-142 -638)"/>
+    <line id="Line_359" data-name="Line 359" class="cls-2" x2="6.379" transform="translate(-135.879 -625.798)"/>
+    <line id="Line_362" data-name="Line 362" class="cls-2" x2="5.379" transform="translate(-135.879 -630.359)"/>
+    <line id="Line_361" data-name="Line 361" class="cls-2" x2="9.379" transform="translate(-135.879 -621.237)"/>
+    <g id="Path_2024" data-name="Path 2024" class="cls-3" transform="translate(-132 -637)">
+      <path class="cls-6" d="M7,0A7,7,0,1,1,0,7,7,7,0,0,1,7,0Z"/>
+      <path class="cls-7" d="M 6.999999523162842 1.59999942779541 C 4.022429466247559 1.59999942779541 1.59999942779541 4.022429466247559 1.59999942779541 6.999999523162842 C 1.59999942779541 9.977569580078125 4.022429466247559 12.39999961853027 6.999999523162842 12.39999961853027 C 9.977569580078125 12.39999961853027 12.39999961853027 9.977569580078125 12.39999961853027 6.999999523162842 C 12.39999961853027 4.022429466247559 9.977569580078125 1.59999942779541 6.999999523162842 1.59999942779541 M 6.999999523162842 -9.5367431640625e-07 C 10.86598968505859 -9.5367431640625e-07 14 3.13400936126709 14 6.999999523162842 C 14 10.86598968505859 10.86598968505859 14 6.999999523162842 14 C 3.13400936126709 14 -9.5367431640625e-07 10.86598968505859 -9.5367431640625e-07 6.999999523162842 C -9.5367431640625e-07 3.13400936126709 3.13400936126709 -9.5367431640625e-07 6.999999523162842 -9.5367431640625e-07 Z"/>
+    </g>
+    <g id="Group_3771" data-name="Group 3771" transform="translate(-128 -633)">
+      <line id="Line_558" data-name="Line 558" class="cls-4" y2="6" transform="translate(3)"/>
+      <line id="Line_559" data-name="Line 559" class="cls-4" y2="6" transform="translate(6 3) rotate(90)"/>
+    </g>
+    <path id="Path_2025" data-name="Path 2025" class="cls-5" d="M-120.866-634.585a14.857,14.857,0,0,1,0-2.1h-19.886V-614.9h19.886v-10.333"/>
+  </g>
+</svg>

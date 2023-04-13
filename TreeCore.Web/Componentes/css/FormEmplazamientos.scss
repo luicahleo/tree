@@ -1,0 +1,213 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+.nav-vistas {
+    height: auto;
+
+    a {
+        padding-bottom: .3rem
+    }
+
+    a:hover {
+        border-bottom: 3px solid $colPpal;
+    }
+
+    .x-autocontainer-innerCt {
+        display: flex;
+        height: 2rem;
+
+        span {
+            //padding-bottom:.5rem;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.comboForm .x-form-trigger-default::before {
+    top: auto !important;
+}
+
+.dateField .x-form-date-trigger::before {
+    position: initial !important;
+}
+
+/*[id*="_chkGrados"], [id*="_toolPosicionar"] {
+    display: flex;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}*/
+
+/*[id*="_cmbMunicipioProvincia"] {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    .x-field {
+        width: 96% !important;
+    }
+
+    .x-boundlist-item {
+        line-height: 10px !important;
+        font-size: 12px;
+    }
+}*/
+
+.winGestion-panel {
+    .x-field {
+        width: 95%;
+    }
+}
+
+.formGris {
+    background: #f6f6f6;
+    width: 100% !important;
+}
+
+.ctLocGeografica {
+    width: 100% !important;
+}
+
+
+[id*="_ctLocGeografica"] {
+    width: 100% !important;
+
+    .x-field {
+        width: 212px;
+        margin-left: .5rem;
+        margin-bottom: .5rem;
+    }
+}
+
+[id*="_btnsFormEmplazamiento"] {
+    float: right;
+    border: none;
+}
+
+[id*="_searchTel-bodyEl"] {
+    direction: rtl !important;
+
+    [id*="_searchTel-inputWrap"] {
+        direction: ltr !important;
+    }
+
+    [id*="_searchTel-trigger-_trigger2"] {
+        position: absolute;
+        right: 1px;
+        background-color: transparent;
+    }
+
+    [id*="_searchTel-trigger-_trigger1"] {
+        position: absolute;
+        right: 25px;
+        background-color: transparent;
+    }
+}
+
+/*#region Form */
+
+.ctForm-resp-col3 {
+    @include ctForm-nCol(3); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-col2 {
+    @include ctForm-nCol(2); //fijas el número máximo de columnas
+}
+
+.ctForm-content2-resp-col3 {
+    @include ctForm-content-nCol(3); //fijas el número máximo de columnas
+}
+
+@media (max-width:1024px) {
+
+    [class*="ctForm-resp-"] {
+
+        .x-autocontainer-innerCt {
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: stretch;
+            grid-column-gap: 1rem;
+        }
+
+        .x-box-inner {
+            width: 100% !important;
+        }
+    }
+
+    [class*="ctForm-content2-resp-"] {
+
+        [id*="_Content"] {
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: stretch;
+            grid-column-gap: 1rem;
+        }
+
+        .x-box-inner {
+            width: 90% !important;
+        }
+    }
+}
+
+
+@media (max-width:670px) {
+
+    [class*="ctForm-resp-"] {
+
+        .x-autocontainer-innerCt {
+            display: grid !important;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: stretch;
+            grid-column-gap: 1rem;
+        }
+
+        .x-box-inner {
+            width: 100% !important;
+        }
+    }
+
+    [class*="ctForm-content2-resp-"] {
+
+        [id*="_Content"] {
+            display: block !important;
+
+            [id*="_Container"] {
+                margin-bottom: .5rem;
+            }
+        }
+
+        .ctDegrees {
+            padding-top: 0;
+
+            .x-autocontainer-innerCt {
+                width: 100% !important;
+            }
+        }
+
+        .x-box-inner {
+            width: 90% !important;
+        }
+    }
+
+    [id*="_btnsFormEmplazamiento"] {
+
+        tr {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-auto-rows: 35px;
+            grid-column-gap: .5rem;
+            margin-right: .5rem;
+        }
+
+        .x-btn {
+            height: 32px !important;
+        }
+    }
+}
+
+.containerAttributes {
+    [id*="containerAttributes-innerCt"] > div {
+        width: unset !important;
+    }
+}
+
+/*#endregion Form*/

@@ -1,0 +1,15 @@
+<div id="fotos1"></div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>  
+<script>
+var folder = "ima/";
+$.ajax({
+    url : folder,
+    success: function (data) {
+        $(data).find("a").attr("href", function (i, val) {
+            if( val.match(/\.(svg)$/) ) { 
+                $("#fotos1").append( "<p>"+val+"</p><img src='"+ folder + val +"'><br>" );
+            } 
+        });
+    }
+});
+</script> 

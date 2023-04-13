@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="58" viewBox="0 0 74 58">
+  <g id="ic_modulos_Regulaciones" transform="translate(0 0)">
+    <rect id="Rectángulo_509" data-name="Rectángulo 509" width="74" height="58" fill="none"/>
+    <g id="Grupo_1099" data-name="Grupo 1099" transform="translate(-190 -503.161)">
+      <g id="Rectángulo_120" data-name="Rectángulo 120" transform="translate(197.864 546.837)" fill="none" stroke="#5b5c64" stroke-width="2">
+        <rect width="57.273" height="5.711" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="55.273" height="3.711" rx="1" fill="none"/>
+      </g>
+      <g id="Trazado_871" data-name="Trazado 871" transform="translate(195 550.643)" fill="none">
+        <path d="M2,0H61a2,2,0,0,1,2,2V7.518a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" stroke="none"/>
+        <path d="M 2 2.000004291534424 L 2 7.517504215240479 L 61 7.517504215240479 L 61 2.000004291534424 L 2 2.000004291534424 M 2 3.814697265625e-06 L 61 3.814697265625e-06 C 62.10456848144531 3.814697265625e-06 63 0.8954343795776367 63 2.000004291534424 L 63 7.517504215240479 C 63 8.622074127197266 62.10456848144531 9.517504692077637 61 9.517504692077637 L 2 9.517504692077637 C 0.8954315185546875 9.517504692077637 0 8.622074127197266 0 7.517504215240479 L 0 2.000004291534424 C 0 0.8954343795776367 0.8954315185546875 3.814697265625e-06 2 3.814697265625e-06 Z" stroke="none" fill="#5b5c64"/>
+      </g>
+      <g id="Rectángulo_124" data-name="Rectángulo 124" transform="translate(199.773 523.043)" fill="none" stroke="#5b5c64" stroke-width="2">
+        <rect width="8.591" height="5.711" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="6.591" height="3.711" rx="1" fill="none"/>
+      </g>
+      <g id="Rectángulo_121" data-name="Rectángulo 121" transform="translate(222.682 523.043)" fill="none" stroke="#5b5c64" stroke-width="2">
+        <rect width="8.591" height="5.711" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="6.591" height="3.711" rx="1" fill="none"/>
+      </g>
+      <g id="Rectángulo_118" data-name="Rectángulo 118" transform="translate(245.591 523.043)" fill="none" stroke="#5b5c64" stroke-width="2">
+        <rect width="8.591" height="5.711" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="6.591" height="3.711" rx="1" fill="none"/>
+      </g>
+      <g id="Rectángulo_119" data-name="Rectángulo 119" transform="translate(234.136 523.043)" fill="none" stroke="#5b5c64" stroke-width="2">
+        <rect width="8.591" height="5.711" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="6.591" height="3.711" rx="1" fill="none"/>
+      </g>
+      <g id="Rectángulo_123" data-name="Rectángulo 123" transform="translate(211.227 523.043)" fill="none" stroke="#5b5c64" stroke-width="2">
+        <rect width="8.591" height="5.711" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="6.591" height="3.711" rx="1" fill="none"/>
+      </g>
+      <g id="Trazado_801" data-name="Trazado 801" transform="translate(200.727 528.802)" fill="none">
+        <path d="M0-1H6.682V19.939H0Z" stroke="none"/>
+        <path d="M 1.999999046325684 1 L 1.999999046325684 17.93851852416992 L 4.681818962097168 17.93851852416992 L 4.681818962097168 1 L 1.999999046325684 1 M -9.5367431640625e-07 -1 L 6.681819438934326 -1 L 6.681819438934326 19.93851852416992 L -9.5367431640625e-07 19.93851852416992 L -9.5367431640625e-07 -1 Z" stroke="none" fill="#5b5c64"/>
+      </g>
+      <g id="Trazado_807" data-name="Trazado 807" transform="translate(212.182 528.802)" fill="none">
+        <path d="M0-1H6.682V19.939H0Z" stroke="none"/>
+        <path d="M 1.999999046325684 1 L 1.999999046325684 17.93851852416992 L 4.681818962097168 17.93851852416992 L 4.681818962097168 1 L 1.999999046325684 1 M -9.5367431640625e-07 -1 L 6.681819438934326 -1 L 6.681819438934326 19.93851852416992 L -9.5367431640625e-07 19.93851852416992 L -9.5367431640625e-07 -1 Z" stroke="none" fill="#5b5c64"/>
+      </g>
+      <g id="Trazado_808" data-name="Trazado 808" transform="translate(223.636 528.802)" fill="none">
+        <path d="M0-1H6.682V19.939H0Z" stroke="none"/>
+        <path d="M 1.999999046325684 1 L 1.999999046325684 17.93851852416992 L 4.681818962097168 17.93851852416992 L 4.681818962097168 1 L 1.999999046325684 1 M -9.5367431640625e-07 -1 L 6.681819438934326 -1 L 6.681819438934326 19.93851852416992 L -9.5367431640625e-07 19.93851852416992 L -9.5367431640625e-07 -1 Z" stroke="none" fill="#5b5c64"/>
+      </g>
+      <g id="Trazado_809" data-name="Trazado 809" transform="translate(235.091 528.802)" fill="none">
+        <path d="M0-1H6.682V19.939H0Z" stroke="none"/>
+        <path d="M 1.999999046325684 1 L 1.999999046325684 17.93851852416992 L 4.681818962097168 17.93851852416992 L 4.681818962097168 1 L 1.999999046325684 1 M -9.5367431640625e-07 -1 L 6.681819438934326 -1 L 6.681819438934326 19.93851852416992 L -9.5367431640625e-07 19.93851852416992 L -9.5367431640625e-07 -1 Z" stroke="none" fill="#5b5c64"/>
+      </g>
+      <g id="Trazado_810" data-name="Trazado 810" transform="translate(246.545 528.802)" fill="none">
+        <path d="M0-1H6.682V19.939H0Z" stroke="none"/>
+        <path d="M 1.999999046325684 1 L 1.999999046325684 17.93851852416992 L 4.681818962097168 17.93851852416992 L 4.681818962097168 1 L 1.999999046325684 1 M -9.5367431640625e-07 -1 L 6.681819438934326 -1 L 6.681819438934326 19.93851852416992 L -9.5367431640625e-07 19.93851852416992 L -9.5367431640625e-07 -1 Z" stroke="none" fill="#5b5c64"/>
+      </g>
+      <path id="Trazado_806" data-name="Trazado 806" d="M1335.664,431.822l29.952-15.661,30.184,16.18Z" transform="translate(-1139.076 88)" fill="none" stroke="#5b5c64" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Rectángulo_125" data-name="Rectángulo 125" transform="translate(197.864 519.236)" fill="none" stroke="#5b5c64" stroke-width="2">
+        <rect width="57.273" height="5.711" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="55.273" height="3.711" rx="1" fill="none"/>
+      </g>
+      <path id="Trazado_811" data-name="Trazado 811" d="M1337.433,423.686c.01,0,12.9-6.785,12.918-6.791a2.156,2.156,0,0,1,2.613,0c.015.012,13.04,6.933,13.025,6.925,1.352.74.53.989-.287.985.022-.027-28.261-.265-28.269-.246C1337.06,424.558,1336.391,424.286,1337.433,423.686Z" transform="translate(-1125.133 91.752)" fill="#58e5a9"/>
+      <line id="Línea_37" data-name="Línea 37" x2="53.455" transform="translate(200.25 555.878)" fill="none" stroke="#58e5a9" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

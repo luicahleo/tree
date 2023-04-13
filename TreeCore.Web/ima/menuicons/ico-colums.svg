@@ -1,0 +1,17 @@
+<svg id="ico-colums" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_211" data-name="Rectángulo 211" width="20" height="20" fill="none"/>
+  <g id="Grupo_1602" data-name="Grupo 1602" transform="translate(-104 -445)">
+    <g id="Rectángulo_5" data-name="Rectángulo 5" transform="translate(104 445)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="9" height="20" stroke="none"/>
+      <rect x="0.75" y="0.75" width="7.5" height="18.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_6" data-name="Rectángulo 6" transform="translate(115 445)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="9" height="20" stroke="none"/>
+      <rect x="0.75" y="0.75" width="7.5" height="18.5" fill="none"/>
+    </g>
+    <path id="Trazado_25" data-name="Trazado 25" d="M-1,0H6" transform="translate(106 450)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_1100" data-name="Trazado 1100" d="M0,0H7" transform="translate(105 456)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_24" data-name="Trazado 24" d="M-1,0H6" transform="translate(117 453)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <path id="Trazado_1101" data-name="Trazado 1101" d="M-1,0H6" transform="translate(117 460)" fill="none" stroke="#666" stroke-width="1.5"/>
+  </g>
+</svg>

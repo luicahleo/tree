@@ -1,0 +1,36 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+.btnPublic, .btnPrivate {
+    background-color: #E8E8E8 !important;
+    border: none;
+    border-radius: 17px;
+    opacity: 1;
+
+    .x-btn-inner-default-toolbar-small {
+        text-align: left;
+        font: normal normal 500 12px/16px Roboto;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+    }
+
+    &.x-btn-pressed {
+        background-color: #C7F3EB !important;
+        color: #205B84;
+
+        .x-btn-inner-default-toolbar-small {
+            color: #205B84;
+        }
+    }
+}
+
+.btnPublic {
+    border-radius: 17px 0px 0px 17px;
+    margin-left: 2px !important;
+}
+
+.btnPrivate {
+    border-radius: 0px 17px 17px 0px;
+    margin-left: -2px !important;
+}

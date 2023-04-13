@@ -1,0 +1,42 @@
+#ctOrderCols {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    li {
+        display: inline-flex;
+        min-width: max-content;
+        height: 100%;
+        margin: 0 20px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li.placeholder {
+        width: 2.5px;
+        height: 60px;
+        background-color: #144D7E;
+        border-bottom: unset !important;
+        position: absolute;
+        margin-left: -5px;
+    }
+}
+.dragDropCol {
+    display: inline-block;
+
+    div {
+        display: inline-block;
+        max-width: 150px;
+    }
+
+    .dragItem.ico-drag-horizontal {
+        background-size: cover;
+    }
+
+    .colName {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+}

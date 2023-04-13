@@ -1,0 +1,329 @@
+﻿/*#region WORKFLOWS*/
+.ctRolesWF .btnActivarDesactivarV2 {
+  background-color: transparent; }
+
+.ctRolesWF .x-item-disabled {
+  opacity: .6; }
+
+.cnRolesAmsifyWF [id*="_Content"], .cnRolesAmsifyWF .amsify-suggestags-area {
+  height: inherit; }
+
+.contCustomField {
+  overflow: hidden; }
+  .contCustomField .contLabel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+    .contCustomField .contLabel .contLabelField {
+      font: bold 13px "Roboto",sans-serif;
+      color: #6A6B75;
+      padding-left: 20px;
+      background-image: url(/ima/ico-treegrid.svg);
+      background-repeat: no-repeat;
+      background-size: 16px;
+      background-position: left;
+      align-self: center; }
+      .contCustomField .contLabel .contLabelField:hover {
+        color: #c3c3c3;
+        cursor: pointer; }
+    .contCustomField .contLabel .contLabelActive {
+      background-image: url(/ima/ico-dropdown.svg);
+      background-size: 10px; }
+    .contCustomField .contLabel .btnToggleWF {
+      display: inline-block;
+      margin: 0 7.5px; }
+    .contCustomField .contLabel .lblLabelField {
+      display: inline-block; }
+  .contCustomField .contAmsify {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s ease; }
+
+.contCustomFieldActive .contAmsify {
+  height: min-content;
+  margin-bottom: 20px; }
+
+.contCustomFieldActive .contLabelField {
+  background-image: url(/ima/ico-dropdown.svg) !important;
+  background-size: 10px !important; }
+
+.dispFlex .lblHeadForm {
+  align-self: center; }
+  .dispFlex .lblHeadForm span {
+    max-width: 300px; }
+
+.dispFlex .x-autocontainer-innerCt {
+  display: flex;
+  justify-content: space-between; }
+  .dispFlex .x-autocontainer-innerCt .x-autocontainer-innerCt {
+    display: block;
+    width: 150px !important;
+    float: right; }
+
+.txtAreaTask .x-form-textarea {
+  height: 113px; }
+
+.txtAreaTask .x-form-trigger-wrap-default {
+  height: auto !important; }
+
+/*#endregion*/
+/*#region BUSINESS PROCESS*/
+.tlbBusinessProcess {
+  border: solid 1px #D8D8D8 !important;
+  border-radius: 3px 3px 0 0 !important; }
+  .tlbBusinessProcess .boldPath span {
+    font-weight: bold; }
+  .tlbBusinessProcess .btnNext:hover {
+    background-color: transparent !important; }
+
+.SubHeaderLblVisor {
+  color: #3B8FD9 !important; }
+
+.tlbWorkflowBP {
+  border-right: solid 1px #D8D8D8 !important; }
+
+.borderBottom {
+  border-bottom: solid 1px #D8D8D8 !important; }
+
+.lbWFInitial {
+  font: 500 12px "Roboto",sans-serif;
+  line-height: 16px;
+  color: #9999A1; }
+
+.btnWFInitial {
+  font: bold 14px "Roboto",sans-serif;
+  line-height: 19px;
+  color: #9999A1;
+  top: 4.5px !important; }
+
+#btnMasOpciones .x-btn-arrow-right:after {
+  display: none; }
+
+.mnuBusinesProcess .x-menu-item-text-default {
+  margin-left: 10px; }
+
+.pnBPActivo {
+  background-color: #dddddd; }
+
+.contBusinessProcess {
+  overflow: hidden; }
+  .contBusinessProcess .dispInline {
+    display: inline-flex; }
+  .contBusinessProcess .contLabel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px; }
+    .contBusinessProcess .contLabel .contLabelWorkFlowBTN {
+      width: 20PX;
+      height: inherit;
+      background-image: url(/ima/ico-treegrid.svg);
+      background-repeat: no-repeat;
+      background-size: 16px;
+      background-position: left; }
+      .contBusinessProcess .contLabel .contLabelWorkFlowBTN:hover {
+        cursor: pointer; }
+    .contBusinessProcess .contLabel .btnMenuBP {
+      height: inherit;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0; }
+      .contBusinessProcess .contLabel .btnMenuBP:hover {
+        cursor: pointer;
+        background-color: #EDEDED; }
+      .contBusinessProcess .contLabel .btnMenuBP ul {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #EDEDED;
+        box-shadow: 1px 4px 8px #EDEDED; }
+        .contBusinessProcess .contLabel .btnMenuBP ul:hover {
+          cursor: initial; }
+        .contBusinessProcess .contLabel .btnMenuBP ul li {
+          display: inline-flex;
+          align-items: center;
+          float: left;
+          font: 500 13px "Roboto",sans-serif;
+          padding: 0 15px 0 0; }
+          .contBusinessProcess .contLabel .btnMenuBP ul li:hover {
+            cursor: pointer;
+            color: #c3c3c3; }
+      .contBusinessProcess .contLabel .btnMenuBP .ulActive {
+        display: grid !important; }
+        .contBusinessProcess .contLabel .btnMenuBP .ulActive li {
+          position: relative; }
+    .contBusinessProcess .contLabel .contLabelWorkFlowI {
+      font: bold 13px "Roboto",sans-serif;
+      color: #6A6B75;
+      align-self: center;
+      display: inline-block; }
+      .contBusinessProcess .contLabel .contLabelWorkFlowI:hover {
+        color: #c3c3c3;
+        cursor: pointer; }
+  .contBusinessProcess .contNextState {
+    height: 0;
+    padding: 0;
+    margin-left: 32px;
+    width: calc(100% - 64px);
+    overflow: hidden;
+    transition: all .5s ease;
+    display: flex;
+    justify-content: space-between; }
+    .contBusinessProcess .contNextState .contLabelWorkFlowN {
+      font: bold 13px "Roboto",sans-serif;
+      color: #6A6B75;
+      align-self: center;
+      display: inline-block; }
+  .contBusinessProcess .btnAdminStates {
+    display: inline-flex; }
+    .contBusinessProcess .btnAdminStates .selectState {
+      width: 200px;
+      border: none;
+      margin-right: .5rem;
+      font: 13px "Roboto",sans-serif;
+      color: #06A086; }
+
+.contBusinessProcessActive {
+  margin-bottom: 8px; }
+  .contBusinessProcessActive .contNextState {
+    height: min-content; }
+  .contBusinessProcessActive .contLabelWorkFlowBTN {
+    background-image: url(/ima/ico-dropdown.svg) !important;
+    background-size: 10px !important; }
+
+.contBusinessProcessInfo {
+  overflow: hidden; }
+  .contBusinessProcessInfo .contLabel {
+    display: flex;
+    height: 32px;
+    justify-content: space-between;
+    margin-bottom: 8px; }
+    .contBusinessProcessInfo .contLabel .contLabelWorkFlowI {
+      font: bold 13px "Roboto",sans-serif;
+      color: #6A6B75;
+      padding-left: 20px;
+      background-image: url(/ima/ico-treegrid.svg);
+      background-repeat: no-repeat;
+      background-size: 16px;
+      background-position: left;
+      align-self: center;
+      display: inline-block; }
+      .contBusinessProcessInfo .contLabel .contLabelWorkFlowI:hover {
+        color: #c3c3c3;
+        cursor: pointer; }
+    .contBusinessProcessInfo .contLabel .contLabelWorkFlowN {
+      font: bold 13px "Roboto",sans-serif;
+      color: #06A086;
+      align-self: center;
+      display: inline-block; }
+  .contBusinessProcessInfo .contAmsify {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s ease; }
+
+.contBusinessProcessInfoActive .contAmsify {
+  height: min-content;
+  margin-bottom: 8px; }
+
+.contBusinessProcessInfoActive .contLabelWorkFlowI {
+  background-image: url(/ima/ico-dropdown.svg) !important;
+  background-size: 10px !important; }
+
+.btnAddNextWorkFlow {
+  border: 2px dotted #06A086;
+  border-radius: 3px;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px; }
+  .btnAddNextWorkFlow:hover {
+    cursor: pointer; }
+  .btnAddNextWorkFlow .btnAddWorkFlowsN {
+    width: fit-content;
+    font: bold 13px "Roboto",sans-serif;
+    color: #06A086;
+    padding-left: 20px;
+    background-image: url(/ima/ico-plus-green.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left;
+    align-self: center; }
+
+.amsiBP .x-autocontainer-innerCt {
+  display: block !important;
+  padding: 30px 0 !important; }
+
+.amsiBP .amsify-suggestags-area .form-control {
+  max-height: 150px;
+  overflow: auto; }
+
+@media (max-width: 670px) {
+  .dosColumnas {
+    grid-row: span 3; } }
+
+/*#endregion*/
+/*#region TOGGLE*/
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 41px;
+  height: 20px; }
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/ima/ico-toggle-off.svg); }
+
+.slider:before {
+  position: absolute;
+  display: none;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+input:checked + .slider {
+  background-image: url(/ima/ico-toggle-on.svg); }
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px; }
+
+.slider.round:before {
+  border-radius: 50%; }
+
+/*#endregion*/
+.toast {
+  font-size: 0.8rem !important; }
+
+.search .txtSearchC {
+  max-width: 100% !important; }
+
+.btnPublicoPrivadoHTML {
+  position: absolute;
+  right: 0; }

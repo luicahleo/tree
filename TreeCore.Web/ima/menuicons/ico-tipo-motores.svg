@@ -1,0 +1,18 @@
+<svg id="ico-tipo-motores" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_333" data-name="Rectángulo 333" width="20" height="20" fill="none"/>
+  <g id="Grupo_1756" data-name="Grupo 1756" transform="translate(-4408 -558)">
+    <line id="Línea_190" data-name="Línea 190" y2="3.222" transform="translate(4412.5 559.5)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_192" data-name="Línea 192" y2="3.222" transform="translate(4415.5 559.5)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_193" data-name="Línea 193" y2="3.222" transform="translate(4420.5 559.5)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_191" data-name="Línea 191" y2="3.222" transform="translate(4423.5 559.5)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+    <g id="Rectángulo_140" data-name="Rectángulo 140" transform="translate(4408 562)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="20" height="16" stroke="none"/>
+      <rect x="0.75" y="0.75" width="18.5" height="14.5" fill="none"/>
+    </g>
+    <path id="Trazado_980" data-name="Trazado 980" d="M4210.8,196.181l-2.3,3.6h4l-2.3,3.81" transform="translate(207.656 370)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Elipse_89" data-name="Elipse 89" transform="translate(4411 563)" fill="none" stroke="#666" stroke-width="1">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6.5" fill="none"/>
+    </g>
+  </g>
+</svg>

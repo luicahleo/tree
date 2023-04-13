@@ -1,0 +1,352 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+//DEFAULT
+.layout {
+	border: 0px;
+	margin: 0;
+}
+
+
+
+.pnAsideLeft {
+	.x-accordion-layout-ct {
+		padding: 0;
+	}
+}
+
+#pnAsideLeft-placeholder {
+	pointer-events: none;
+}
+
+.x-keyboard-mode .x-splitter-focus:after { //no vemos el modoKeyboard al expandir el menú en el split
+	border: none;
+}
+
+
+.x-layout-split-left{ //Colapsa el menú ppal
+	top: 9%;
+	left: -26px;
+	margin-top: -26px;
+	width: 20px;
+	height: 20px;
+}
+
+
+.x-layout-split-left::before {
+	content: url('../../ima/ico-moveLeft.svg');
+	display: block;
+	margin-top:1px;
+}
+
+
+.x-collapse-el {
+	background-color: $Gris1;
+	color: $GrisNegro;
+	border-radius: 2px;
+}
+
+.x-tool-expand-right::before {
+	content: url('../../ima/ico-moveRight.svg');
+}
+
+
+.x-splitter-collapsed .x-layout-split-left::before {
+	display: none;
+	content: url('../../ima/ico-moveRight.svg');
+	margin-top: 1px;
+}
+
+.x-splitter-collapsed {
+	top: 9%;
+	left: -26px;
+	margin-top: -50px;
+	width: 20px;
+	height: 20px;
+}
+
+.x-tool-expand-right {
+	color: $GrisNegro;
+	background-color: $Gris1 !important;
+	width: 20px;
+	height: 20px;
+	padding-top: 2px;
+}
+
+
+.x-panel-header-default-vertical {
+	background-color: $blanco;
+	border: none;
+	padding-top: 3rem;
+}
+
+#pnlNorth-body {
+	background-color: $Verde2;
+}
+//Cabecera
+.cabecera {
+	height: 56px;
+	width: 100%;
+	background-color: $Verde2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+	overflow: visible;
+}
+
+
+#pnlNorth {
+	height: 56px;
+	background-color: $colPpal;
+}
+
+#pnlNorth.x-panel { //para mostrar submenús en cabecera
+	overflow: visible;
+
+	.x-panel-body, .x-panel-bodyWrap {
+		overflow: visible;
+	}
+}
+
+
+#logoTree {
+	img {
+		width: 167px;
+		margin-right: .5rem;
+	}
+}
+
+#lblModulo {
+	padding-left: .5rem;
+	border-left: 1px solid $AzulNegro;
+}
+
+
+
+#ulMenuCabecera {
+	li {
+		height: auto;
+
+
+		div { //boton
+			align-self: center;
+			margin: 0 auto;
+		}
+	}
+}
+
+#liUsuarios, #liModulos {
+	position: relative;
+}
+
+#mnModulos {
+	display: none;
+	position: absolute;
+	padding: .8rem;
+	width: 17rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: $blanco;
+	top: 56px;
+	right: 0px;
+	z-index: 99;
+	box-shadow: 1px 4px 8px $Gris1;
+	border-radius: 3px;
+
+	li {
+		width: 80px;
+		padding-bottom: .2rem;
+		margin-bottom: .3rem;
+	}
+}
+
+
+#mnUsuarios {
+	display: none;
+	padding: 0;
+	background-color: $blanco;
+	height: auto;
+	position: absolute;
+	top: 56px;
+	right: 0px;
+	z-index: 99;
+	box-shadow: 1px 4px 8px $Gris2;
+	border-radius: 3px;
+
+	li {
+		width: 12rem;
+		padding: .6rem 1.5rem .6rem 1rem;
+		color: $colSec;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $Gris1;
+		}
+	}
+}
+
+#mnUsuarios li:first-child {
+	background-color: $Verde2;
+	font-weight: 700;
+	font-size: 15px;
+	color: $GrisNegro;
+}
+
+#mnUsuarios li:last-child {
+	font-weight: 700;
+}
+
+#mnUsuarios span a {
+	text-decoration: none;
+	color: $colSec;
+	margin-left: .2rem;
+}
+
+#liModulos:hover #mnModulos {
+	display: flex;
+}
+
+#liUsuarios:hover #mnUsuarios {
+	display: block;
+}
+
+//Aside Left
+
+.cliente {
+	margin-top: 4rem;
+	height: 90px;
+}
+
+
+.logoCliente {
+	display: block;
+	width: 74px;
+	margin: 0 auto;
+}
+
+.nombreCliente {
+	color: $Gris4;
+	display: block;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: .5rem;
+}
+
+
+.info-entorno {
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	margin-left: .4rem;
+	z-index: 99;
+	margin-bottom: .4rem;
+
+	img {
+		margin-left: 0;
+	}
+}
+
+#lblVersion {
+	display: block;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
+}
+//Menú Principal
+#mnuAdmistracion {
+	top: 20px;
+}
+
+// fin Menú Ppal
+
+
+// Layout Default
+#hugeCtDefault{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#hdDefault {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 56px;
+	width: 100%;
+	background-color: $Verde2;
+	/*flex-grow: 0;
+	flex-shrink: 0;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0rem;
+	overflow: visible;
+}
+
+/*.cabecera {
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+	overflow: visible;
+}*/
+
+
+#ctDefault {
+	position: fixed;
+	top: 56px;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background-color: $colBg;
+	flex-grow: 1;
+	flex-shrink: 0;
+	display: flex;
+	justify-content:flex-start;
+}
+
+#asideLeft{
+	width: 250px;
+	background-color: $blanco;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+#centerDefault{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#navTabs {
+	position: fixed;
+	top: 56px;
+	height: 50px;
+	width: 100%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	background-color: $blanco;
+}
+
+#mainDefault{
+	position: fixed;
+	top: 106px;
+	min-height: 100vh;
+	width: 100%;
+	flex-grow: 1;
+}
+
+#pnAsideLeft {
+	height: 100vh !important;
+}
+
+#pnAsideLeft .x-panel-body{
+	height: 100vh !important;
+}
+
+//fin Layout Default

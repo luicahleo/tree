@@ -1,0 +1,13 @@
+<svg id="ico-validaciones" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_346" data-name="Rectángulo 346" width="20" height="20" fill="none"/>
+  <line id="Línea_363" data-name="Línea 363" x2="8" transform="translate(6.105 13.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_364" data-name="Línea 364" x2="4.395" transform="translate(6.105 10.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_365" data-name="Línea 365" x2="2.395" transform="translate(6.105 7.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_366" data-name="Línea 366" x2="2.395" transform="translate(6.105 4.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <g id="Elipse_173" data-name="Elipse 173" transform="translate(7.531 0.19)" fill="none" stroke="#666" stroke-width="1.5">
+    <ellipse cx="6.087" cy="6.087" rx="6.087" ry="6.087" stroke="none"/>
+    <ellipse cx="6.087" cy="6.087" rx="5.337" ry="5.337" fill="none"/>
+  </g>
+  <path id="Trazado_1351" data-name="Trazado 1351" d="M-303.613,373.8H-311.2V390.7h14v-8.3" transform="translate(314.296 -372.291)" fill="none" stroke="#666" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_1352" data-name="Trazado 1352" d="M-301.49,375.067v3.048h-2.315" transform="translate(494.411 -46.994) rotate(45)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+</svg>

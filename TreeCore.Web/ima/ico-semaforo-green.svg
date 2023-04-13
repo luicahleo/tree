@@ -1,0 +1,10 @@
+<svg id="ico-semaforo" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2442" data-name="Rectángulo 2442" width="20" height="20" fill="none"/>
+  <g id="Rectángulo_3073" data-name="Rectángulo 3073" transform="translate(17 1) rotate(90)" fill="none" stroke="#06a086" stroke-width="2">
+    <rect width="19" height="13" stroke="none"/>
+    <rect x="1" y="1" width="17" height="11" fill="none"/>
+  </g>
+  <circle id="Elipse_553" data-name="Elipse 553" cx="1.5" cy="1.5" r="1.5" transform="translate(9 4)" fill="#06a086"/>
+  <circle id="Elipse_554" data-name="Elipse 554" cx="1.5" cy="1.5" r="1.5" transform="translate(9 9)" fill="#06a086"/>
+  <circle id="Elipse_555" data-name="Elipse 555" cx="1.5" cy="1.5" r="1.5" transform="translate(9 14)" fill="#06a086"/>
+</svg>

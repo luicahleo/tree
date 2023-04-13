@@ -1,0 +1,21 @@
+<svg id="ico-obra-electrica" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_288" data-name="Rectángulo 288" width="20" height="20" fill="none" opacity="0.5"/>
+  <g id="Rectángulo_289" data-name="Rectángulo 289" transform="translate(3 5)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="14" height="11" stroke="none"/>
+    <rect x="0.75" y="0.75" width="12.5" height="9.5" fill="none"/>
+  </g>
+  <g id="Rectángulo_292" data-name="Rectángulo 292" transform="translate(4)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="4" height="6.456" stroke="none"/>
+    <rect x="0.75" y="0.75" width="2.5" height="4.956" fill="none"/>
+  </g>
+  <g id="Rectángulo_291" data-name="Rectángulo 291" transform="translate(12)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="4" height="6.456" stroke="none"/>
+    <rect x="0.75" y="0.75" width="2.5" height="4.956" fill="none"/>
+  </g>
+  <path id="Trazado_1287" data-name="Trazado 1287" d="M0,0V2.642" transform="translate(8 16)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <line id="Línea_313" data-name="Línea 313" y2="2.642" transform="translate(12 16)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <g id="Rectángulo_290" data-name="Rectángulo 290" transform="translate(2 5)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <rect width="16" height="5" stroke="none"/>
+    <rect x="0.75" y="0.75" width="14.5" height="3.5" fill="none"/>
+  </g>
+</svg>

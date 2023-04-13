@@ -1,0 +1,23 @@
+<svg id="ico-tecnica" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_1727" data-name="Grupo 1727" transform="translate(-1504 -320)">
+    <rect id="Rectángulo_108" data-name="Rectángulo 108" width="16" height="16" transform="translate(1506 322)" fill="none" opacity="0.3"/>
+    <g id="Grupo_1726" data-name="Grupo 1726" transform="translate(-336 -512)">
+      <g id="Elipse_34" data-name="Elipse 34" transform="translate(1846 833)" fill="none" stroke="#666" stroke-width="1.5">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.25" fill="none"/>
+      </g>
+      <g id="Elipse_35" data-name="Elipse 35" transform="translate(1855 840.516)" fill="none" stroke="#666" stroke-width="1.5">
+        <circle cx="2" cy="2" r="2" stroke="none"/>
+        <circle cx="2" cy="2" r="1.25" fill="none"/>
+      </g>
+      <line id="Línea_80" data-name="Línea 80" y2="9.688" transform="translate(1850 840.5)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Trazado_749" data-name="Trazado 749" d="M2,7.76V0H0" transform="translate(1845 842.261)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_751" data-name="Trazado 751" d="M0,7.8V0H2" transform="translate(1853 842.297)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Trazado_750" data-name="Trazado 750" transform="translate(1841 840.516)" fill="none">
+        <path d="M2,0A2,2,0,1,1,0,2,2,2,0,0,1,2,0Z" stroke="none"/>
+        <path d="M 2 1.5 C 1.724299907684326 1.5 1.5 1.724299907684326 1.5 2 C 1.5 2.275700092315674 1.724299907684326 2.5 2 2.5 C 2.275700092315674 2.5 2.5 2.275700092315674 2.5 2 C 2.5 1.724299907684326 2.275700092315674 1.5 2 1.5 M 2 0 C 3.104569911956787 0 4 0.8954300880432129 4 2 C 4 3.104569911956787 3.104569911956787 4 2 4 C 0.8954300880432129 4 0 3.104569911956787 0 2 C 0 0.8954300880432129 0.8954300880432129 0 2 0 Z" stroke="none" fill="#666"/>
+      </g>
+    </g>
+  </g>
+  <rect id="Rectángulo_319" data-name="Rectángulo 319" width="20" height="20" fill="none"/>
+</svg>

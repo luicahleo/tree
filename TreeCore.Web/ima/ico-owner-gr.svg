@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.109" height="20" viewBox="0 0 20.109 20">
+  <g id="ico-owner" transform="translate(0.055)">
+    <rect id="Rectángulo_248" data-name="Rectángulo 248" width="20" height="20" fill="none"/>
+    <path id="Trazado_20" data-name="Trazado 20" d="M815.954,276.377v9.568A1.964,1.964,0,0,0,818,288.251h10.847a2.35,2.35,0,0,0,1.835-2.307c-.008-1.923,0-9.018,0-9.018" transform="translate(-813.058 -269.142)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Trazado_19" data-name="Trazado 19" d="M814.522,264.834c.14-.083,9.193-7.458,9.193-7.458l8.805,7.458" transform="translate(-813.522 -256.376)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Grupo_1784" data-name="Grupo 1784" transform="translate(-625 -139.97)">
+      <path id="Trazado_65" data-name="Trazado 65" d="M-294.3,384.214c.01.015.009,1.2,0,1.223a1.129,1.129,0,0,1-1.183,1.084H-303.3a1.243,1.243,0,0,1-.984-1.193c-.022.01-.008-1.1,0-1.113,0-.549.136-.892.829-1.383s2.854-1.747,2.854-1.747h2.693a22.275,22.275,0,0,1,3.036,1.747A1.9,1.9,0,0,1-294.3,384.214Z" transform="translate(934.698 -227.571)" fill="none" stroke="#06a086" stroke-width="1.5"/>
+      <g id="Rectángulo_35" data-name="Rectángulo 35" transform="translate(632.056 145.97)" fill="none" stroke="#06a086" stroke-width="1.5">
+        <rect width="6.671" height="8.251" rx="3.335" stroke="none"/>
+        <rect x="0.75" y="0.75" width="5.171" height="6.751" rx="2.585" fill="none"/>
+      </g>
+      <path id="Trazado_70" data-name="Trazado 70" d="M-413.292,522.286l5.8-1.411" transform="translate(1045.741 -372.352)" fill="none" stroke="#06a086" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

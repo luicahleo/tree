@@ -1,0 +1,9 @@
+<svg id="ico-grid-regiones" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Elipse_14" data-name="Elipse 14" fill="none" stroke="#5f606a" stroke-width="1.5">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9.25" fill="none"/>
+  </g>
+  <path id="Trazado_675" data-name="Trazado 675" d="M360.589,395.823c.1.028-4.9,3.988-4.757,8.742s4.757,9.258,4.757,9.258,5.14-3.824,5.238-9.258S360.488,395.8,360.589,395.823Z" transform="translate(-350.828 -394.823)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+  <line id="Línea_32" data-name="Línea 32" x2="19" transform="translate(0 10)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+  <line id="Línea_33" data-name="Línea 33" y2="18" transform="translate(10 1)" fill="none" stroke="#5f606a" stroke-width="1.5"/>
+</svg>

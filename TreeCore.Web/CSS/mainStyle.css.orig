@@ -1,0 +1,72 @@
+﻿.ctColsSel {
+  width: calc(100% - 160px);
+  margin: 20px 80px;
+  height: 80px;
+  border: solid 1px black; }
+
+#ctColumns {
+  position: relative;
+  margin: 30px; }
+
+.ctCol {
+  display: inline-block;
+  position: relative;
+  width: 125px;
+  margin-top: 15px; }
+  .ctCol .lblNombre {
+    margin-left: 25px; }
+
+.Hidden {
+  display: none; }
+
+.btnColumna {
+  background-color: transparent;
+  border: 0; }
+<<<<<<< HEAD
+=======
+
+.btnSave {
+  background-color: blue !important;
+  border: 1px solid blue;
+  border-radius: 3px;
+  border-radius: 10px;
+  min-width: 120px;
+}
+.btnSave .x-btn-inner-default-small {
+  /*font-family: $font-ppal;*/
+  font-size: 14px;
+  color: #fff !important;
+}
+.btnSave:hover {
+  background-color: #0000cc !important;
+  border: 1px solid #0000cc;
+}
+.btnSave .x-btn-inner-default-small {
+  font: 400 14px/16px "Roboto", sans-serif;
+}
+.btnSave:hover {
+  background-color: green !important;
+}
+.btnSave .x-btn-inner-default-toolbar-small {
+  font: 400 14px/16px "Roboto", sans-serif !important;
+  color: #fff !important;
+  padding: 0 5px;
+  max-width: 100%;
+  font-weight: bold !important;
+}
+>>>>>>> 17ddd9eb8aa706773f595fb7880880fbabbebb79
+
+.gridGeneral .x-grid-item-over {
+  box-shadow: 5px 5px 11px rgba(33, 33, 33, 0.2);
+  z-index: 99999;
+  overflow: visible;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all ease 0.1s; }
+  .gridGeneral .x-grid-item-over .Hidden {
+    display: block; }
+  .gridGeneral .x-grid-item-over td:first-child .x-grid-cell-inner {
+    text-align: center;
+    width: min-content;
+    margin: 0 auto;
+    left: -5px; }

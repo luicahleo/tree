@@ -1,0 +1,13 @@
+<svg id="ico-balizamientos" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_225" data-name="Rectángulo 225" width="20" height="20" fill="none"/>
+  <g id="Grupo_1625" data-name="Grupo 1625" transform="translate(-124 -356)">
+    <g id="Trazado_953" data-name="Trazado 953" transform="translate(124 356)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M0,0H7l3,9.749L7,20H0L3,9.919Z" stroke="none"/>
+      <path d="M 2.020784854888916 1.5 L 4.435770034790039 9.484729766845703 C 4.520750045776367 9.765720367431641 4.521420001983643 10.06546020507812 4.437689781188965 10.34681987762451 L 2.011394023895264 18.5 L 5.876080513000488 18.5 L 8.433917999267578 9.760149002075195 L 5.892159461975098 1.5 L 2.020784854888916 1.5 M 0 0 L 7 0 L 10 9.749329566955566 L 7 20 L 0 20 L 3 9.918979644775391 L 0 0 Z" stroke="none" fill="#666"/>
+    </g>
+    <g id="Trazado_954" data-name="Trazado 954" transform="translate(134 356)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M0,0H7l3,9.749L7,20H0L3,9.919Z" stroke="none"/>
+      <path d="M 2.020784854888916 1.5 L 4.435770034790039 9.484729766845703 C 4.520750045776367 9.765720367431641 4.521420001983643 10.06546020507812 4.437689781188965 10.34681987762451 L 2.011394023895264 18.5 L 5.876080513000488 18.5 L 8.433917999267578 9.760149002075195 L 5.892159461975098 1.5 L 2.020784854888916 1.5 M 0 0 L 7 0 L 10 9.749329566955566 L 7 20 L 0 20 L 3 9.918979644775391 L 0 0 Z" stroke="none" fill="#666"/>
+    </g>
+  </g>
+</svg>

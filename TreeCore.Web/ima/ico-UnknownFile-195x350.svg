@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="350" viewBox="0 0 195 350">
+  <g id="Grupo_7649" data-name="Grupo 7649" transform="translate(-602.483 -105.806)">
+    <rect id="Rectángulo_3104" data-name="Rectángulo 3104" width="195" height="350" transform="translate(602.483 105.806)" fill="#fff"/>
+    <g id="Grupo_7648" data-name="Grupo 7648">
+      <g id="Grupo_7647" data-name="Grupo 7647">
+        <path id="Trazado_2769" data-name="Trazado 2769" d="M752.884,282.093v66.3H647.144V329.717l-17.618,7.935V348.4a17.63,17.63,0,0,0,17.618,17.619h105.74A17.629,17.629,0,0,0,770.471,348.4V274.172Z" fill="#ededed"/>
+        <path id="Trazado_2770" data-name="Trazado 2770" d="M647.144,295.946V195.666h58.748v38.177a8.793,8.793,0,0,0,8.773,8.814h38.219v5.665l17.587-7.922V226.469a17.709,17.709,0,0,0-5.107-12.481l-30.834-30.8a17.612,17.612,0,0,0-12.45-5.178H647.144a17.679,17.679,0,0,0-17.618,17.659V303.881ZM723.49,197.1l27.964,27.893H723.49Z" fill="#ededed"/>
+      </g>
+      <rect id="Rectángulo_3104-2" data-name="Rectángulo 3104" width="202.084" height="17.618" rx="8.809" transform="matrix(0.912, -0.411, 0.411, 0.912, 604.237, 322.427)" fill="#ededed"/>
+    </g>
+  </g>
+</svg>

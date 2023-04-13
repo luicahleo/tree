@@ -1,0 +1,11 @@
+<svg id="btn_noFilters_grid" xmlns="http://www.w3.org/2000/svg" width="20" height="20.012" viewBox="0 0 20 20.012">
+  <g id="Grupo_6396" data-name="Grupo 6396" transform="translate(-745.363 -436.097)">
+    <line id="Línea_1042" data-name="Línea 1042" x2="4.567" transform="translate(748.461 441.138)" fill="none" stroke="#6a6b75" stroke-width="1.6"/>
+    <g id="Grupo_6395" data-name="Grupo 6395" transform="translate(755.769 441.138)">
+      <line id="Línea_1040" data-name="Línea 1040" x2="7.308" y2="7.308" transform="translate(0)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+      <line id="Línea_1041" data-name="Línea 1041" x2="7.308" y2="7.308" transform="translate(7.308) rotate(90)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+    </g>
+    <path id="Trazado_2526" data-name="Trazado 2526" d="M590.132,401.072V402.9l-4,2.668.267-5.913-5.346-7.38v-3.957h13.705v1.931" transform="translate(167 49)" fill="none" stroke="#6a6b75" stroke-width="1.6"/>
+  </g>
+  <rect id="Rectángulo_2629" data-name="Rectángulo 2629" width="20" height="20" fill="none"/>
+</svg>

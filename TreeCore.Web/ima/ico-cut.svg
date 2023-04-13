@@ -1,0 +1,9 @@
+<svg id="Componente_1930_4" data-name="Componente 1930 – 4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2442" data-name="Rectángulo 2442" width="20" height="20" fill="none"/>
+  <g id="Grupo_7816" data-name="Grupo 7816" transform="translate(-395.33 -144.171)">
+    <path id="Rectángulo_3079" data-name="Rectángulo 3079" d="M3.407,0h0a0,0,0,0,1,0,0V16.038a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3.407A3.407,3.407,0,0,1,3.407,0Z" transform="translate(396.33 147.58) rotate(-45)" fill="#707070"/>
+    <circle id="Elipse_556" data-name="Elipse 556" cx="3.153" cy="3.153" r="3.153" transform="translate(407.952 156.793)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Rectángulo_3080" data-name="Rectángulo 3080" d="M0,0H3.407a0,0,0,0,1,0,0V16.038a0,0,0,0,1,0,0h0A3.407,3.407,0,0,1,0,12.631V0A0,0,0,0,1,0,0Z" transform="translate(402.981 158.921) rotate(-135)" fill="#707070"/>
+    <circle id="Elipse_557" data-name="Elipse 557" cx="3.153" cy="3.153" r="3.153" transform="translate(396.395 156.793)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

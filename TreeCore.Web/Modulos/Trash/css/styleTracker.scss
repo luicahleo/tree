@@ -1,0 +1,357 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+//El panel el seguimiento en tCore
+
+//SEGUIMIENTO DE EMPLAZAMIENTOS
+.relevantSeg{
+	margin-top:1rem;
+	margin-left:2rem;
+	margin-bottom: 1.5rem;
+	display:flex;
+	justify-content: flex-start;
+	max-width: 1050px;
+}
+
+.relevantSeg > div {
+	width: 500px;
+	
+	margin-right:1rem;
+}
+
+
+.pnlRelevantesSeg {
+	margin-right: 1rem;
+}
+
+
+.head-relevant {
+	font-family: $font-ppal;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+#lblDatosEmplazm {
+	margin-left: 25px;
+	position: relative;
+
+
+	&:before {
+		content: url('../ima/ico-datosEmplazm.svg');
+		position: absolute;
+		width: 20px;
+		left: -25px;
+	}
+
+	span {
+		padding-bottom: .5rem;
+		color: $Azul;
+		
+	}
+}
+
+#lblDatosCto {
+	position: relative;
+	margin-left: 25px;
+
+	&:before {
+		content: url('../ima/ico-datosCto.svg');
+		position: absolute;
+		width: 20px;
+		left: -25px;
+	}
+
+	span {
+		padding-bottom: .5rem;
+		color: $colPpal;
+		
+	}
+}
+
+.head-line {
+
+	img.head-line.lineAzHor {
+		background-image: url('../ima/line-azHor.svg');
+	}
+
+	img.head-line.lineVerHor {
+		background-image: url('../ima/line-verHor.svg');
+	}
+
+	background-repeat: repeat-x;
+	background-size: 500px;
+	height: 1px;
+	margin-bottom: 1rem;
+}
+
+
+
+.filaRelevSeg {
+	margin-bottom: 1rem;
+	.x-autocontainer-innerCt {
+		width: 520px;
+		height: auto;
+		display: flex;
+		
+	}
+
+}
+
+.cntDatosRelev {
+	flex: 1 1 calc(18% - .5rem);
+	margin-right: 1rem;
+	overflow: hidden;
+
+	.x-autocontainer-innerCt {
+		width:100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+#lblDirecc {
+	span.x-label-value {
+		text-overflow: ellipsis;
+		line-height: 10px;
+	}
+}
+
+.labelHead {
+	flex: 1 0 40%;
+
+	.x-autocontainer-innerCt {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.LabelDatosRelev {
+	font-family: $font-ppal;
+	font-weight: 900;
+	color: $colSec;
+}
+
+.datoRelevSeg {
+	font-family: $font-ppal;
+	font-weight: 900;
+	font-size: 12px;
+}
+
+
+.barraRelSeg{
+	width: 290px;
+}
+
+.cta-relevante {
+	height: 50px;
+
+}
+
+#cntDatosCompletados_Content{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+#cntProgCompletad_Content {
+	height:1.8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bgComplet {
+	flex: 1 0 60%;
+	margin-right: 2rem;
+	border-radius: 20px;
+	height: 10px;
+	background-color: $blanco;
+	border: 1px solid $Gris1;
+}
+
+.dataComplet {
+	height: 8px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.progDato {
+	width: 66%;
+	background-color: $Azul;
+	animation: dtoComplt 3s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes dtoComplt{
+	0%{
+		width: 5%;
+	}
+	100%{
+		width: 66%;
+	}
+}
+
+
+.progProces {
+	width: 40%;
+	background-color: $colPpal;
+	animation: progProces 3s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes progProces {
+	0% {
+		width: 5%;
+	}
+
+	100% {
+		width: 40%;
+	}
+}
+
+.cntProgesoSeg {
+	flex: 0 0 55%;
+
+	.x-autocontainer-innerCt {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.btnCompleta-seg{
+	background-color: $Azul;
+	border-color: $Azul;
+}
+
+.labelComplSeg{
+	color: $Azul;
+}
+
+.labelProgSeg{
+	color: $colPpal;
+}
+
+.main-sgmto {
+	display: flex;
+}
+
+.pnVerCambios {
+	background-color: $blanco;
+	border: 3px solid $Azul;
+	border-radius: 3px;
+	box-shadow: 1px 4px 8px $Gris3;
+	min-height: 300px;
+	width: 270px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 99;
+
+}
+
+.dvCambiosSeg {
+	padding: 1rem;
+
+	h4 {
+		margin-top: .5rem;
+		color: $Azul;
+	}
+
+	ul {
+		padding-left: 0rem;
+		margin-top: 0;
+		margin-bottom: 1rem;
+		width: 192px;
+
+		li {
+			font-family: $font-ppal;
+			font-size: 12px;
+			margin-bottom: .2rem;
+		}
+	}
+
+	.liHead {
+		color: $Azul;
+		border: none;
+		font-weight: 700;
+		margin-bottom: .2rem;
+	}
+
+	.liAnterior {
+		position: relative;
+		margin-left: 18px;
+		color: $Gris4;
+
+		&::after {
+			content: url('../ima/ico-cambioAnterior.svg');
+			position: absolute;
+			width: 16px;
+			left: -20px;
+		}
+	}
+
+	.liActual {
+		position: relative;
+		margin-left: 18px;
+		color: $colPpal;
+
+		&::after {
+			content: url('../ima/ico-cambioActual.svg');
+			position: absolute;
+			width: 16px;
+			left: -20px;
+		}
+	}
+}
+// Contrato y emplazamiento
+.pnSuperForm {
+	border-left: 1px solid $Gris2;
+	border-right: 1px solid $Gris2;
+	border-bottom: 1px solid $Gris2;
+	border-radius: 4px;
+	width: 702px;
+	min-height: 850px;
+}
+
+.pnCont-form {
+	padding: 1rem 1rem 3rem 1rem;
+	background-color: $colBg;
+
+
+	.x-panel-body-default {
+		background-color: $colBg;
+	}
+
+	.x-autocontainer-form-item {
+		margin-bottom: 0px;
+	}
+}
+
+.colFormCto {
+	margin-left: .5rem;
+	padding-left: 0;
+
+	label {
+		font-size: 10px;
+		font-weight: 700;
+		color: $colSec;
+
+
+		span {
+			padding-left: .2rem;
+		}
+	}
+}
+
+.txaForm-cto {
+	.x-form-text-wrap {
+		height: 6rem;
+	}
+}
+
+#btnGuardarForm{
+	margin-top: 2rem;
+	float:right;
+	margin-right: 1.6rem;
+}

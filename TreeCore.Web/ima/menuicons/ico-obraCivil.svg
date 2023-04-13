@@ -1,0 +1,15 @@
+<svg id="ico-obraCivil" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_285" data-name="Rectángulo 285" width="20" height="20" fill="none" opacity="0.5"/>
+  <path id="Trazado_1221" data-name="Trazado 1221" d="M-287.3,385.28c.017.021.016,1.451,0,1.488,0,1.59-1.324,1.543-3.248,1.6s-10.89.028-10.917,0c-1.373,0-2.8.038-2.8-1.6a14.8,14.8,0,0,1,0-1.488c0-.6.231-1.2,1.409-1.854s4.852-2.342,4.852-2.342h4.578a41.467,41.467,0,0,1,5.161,2.342A2.518,2.518,0,0,1-287.3,385.28Z" transform="translate(306.103 -369.407)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <g id="Sustracción_14" data-name="Sustracción 14" transform="translate(6.06 5.549)" fill="none">
+    <path d="M4.108,6.556A4.112,4.112,0,0,1,0,2.448V0H8.215V2.448A4.112,4.112,0,0,1,4.108,6.556Z" stroke="none"/>
+    <path d="M 4.107600212097168 5.055600166320801 C 5.545440196990967 5.055600166320801 6.715200424194336 3.885840177536011 6.715200424194336 2.448000192642212 L 6.715200424194336 1.50000011920929 L 1.500000238418579 1.50000011920929 L 1.500000238418579 2.448000192642212 C 1.500000238418579 3.885840177536011 2.669760227203369 5.055600166320801 4.107600212097168 5.055600166320801 M 4.107600212097168 6.555600166320801 C 1.842660188674927 6.555600166320801 2.120971629437918e-07 4.712940216064453 2.120971629437918e-07 2.448000192642212 L 2.120971629437918e-07 8.31604012319076e-08 L 8.215200424194336 8.31604012319076e-08 L 8.215200424194336 2.448000192642212 C 8.215200424194336 4.712940216064453 6.37253999710083 6.555600166320801 4.107600212097168 6.555600166320801 Z" stroke="none" fill="#666"/>
+  </g>
+  <path id="Trazado_1220" data-name="Trazado 1220" d="M1949.729,697.392a6.52,6.52,0,0,1,.409-2.6c.454-.69,1.452-.879,1.881-1.167.011.008-.023-1.312,0-1.291.616,0,3.721-.02,3.71,0,.032.005.071,1.431.086,1.438.24.062,2.183.289,2.127,3.719" transform="translate(-1943.615 -691.46)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_310" data-name="Línea 310" x2="10.27" transform="translate(5.086 6.266)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1222" data-name="Trazado 1222" d="M2044.141,707.8v5.438" transform="translate(-2038.713 -694.818)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1223" data-name="Trazado 1223" d="M2044.141,707.8v5.438" transform="translate(-2029.256 -694.818)" fill="none" stroke="#666" stroke-linecap="round" stroke-width="1.5"/>
+  <path id="Trazado_1224" data-name="Trazado 1224" d="M2041.9,705.807l4.088,1.986,4.128-1.986" transform="translate(-2035.788 -692.819)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_1225" data-name="Trazado 1225" d="M2046.014,709v3.572" transform="translate(-2035.793 -694.03)" fill="none" stroke="#666" stroke-width="1"/>
+  <path id="Trazado_1226" data-name="Trazado 1226" d="M1397.591-195.092v-2.228h3.46v2.228" transform="translate(-1389.051 198.32)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

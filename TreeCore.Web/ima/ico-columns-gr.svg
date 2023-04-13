@@ -1,0 +1,19 @@
+<svg id="btn_columns_grid" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_6273" data-name="Grupo 6273" transform="translate(-1246 -253)">
+    <rect id="Rectángulo_2050" data-name="Rectángulo 2050" width="20" height="20" transform="translate(1246 253)" fill="none"/>
+    <g id="Rectángulo_2051" data-name="Rectángulo 2051" transform="translate(1247 255)" fill="none" stroke="#06a086" stroke-width="2">
+      <rect width="8" height="16" stroke="none"/>
+      <rect x="1" y="1" width="6" height="14" fill="none"/>
+    </g>
+    <g id="Rectángulo_2052" data-name="Rectángulo 2052" transform="translate(1257 255)" fill="none" stroke="#06a086" stroke-width="2">
+      <rect width="8" height="16" stroke="none"/>
+      <rect x="1" y="1" width="6" height="14" fill="none"/>
+    </g>
+    <line id="Línea_850" data-name="Línea 850" x2="6" transform="translate(1248 267)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <line id="Línea_858" data-name="Línea 858" x2="6" transform="translate(1258 267)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <line id="Línea_859" data-name="Línea 859" x2="6" transform="translate(1258 263)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <line id="Línea_924" data-name="Línea 924" x2="6" transform="translate(1248 263)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <line id="Línea_857" data-name="Línea 857" x2="6" transform="translate(1248 259)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <line id="Línea_860" data-name="Línea 860" x2="6" transform="translate(1258 259)" fill="none" stroke="#06a086" stroke-width="2"/>
+  </g>
+</svg>

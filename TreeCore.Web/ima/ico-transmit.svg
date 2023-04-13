@@ -1,0 +1,13 @@
+<svg id="ico-transmisission-16p" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectángulo_338" data-name="Rectángulo 338" width="16" height="16" fill="none"/>
+  <g id="Grupo_1762" data-name="Grupo 1762" transform="translate(1.249 1.822)">
+    <path id="Trazado_852" data-name="Trazado 852" d="M1773.207,233.054c3.344-3.105,9.614-3.174,13.546,0" transform="translate(-1773.207 -231.699)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Trazado_853" data-name="Trazado 853" d="M1772.586,232.875c2.92-2.936,8.588-2.461,11.231,0" transform="translate(-1771.429 -228.687)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Trazado_855" data-name="Trazado 855" d="M1772.586,232.129h0c1.921-1.966,5.854-1.605,7.526,0" transform="translate(-1769.576 -225.323)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-width="1.5"/>
+    <g id="Sustracción_8" data-name="Sustracción 8" transform="translate(1.751 9.178)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9.98,5H.02C.007,4.859,0,4.719,0,4.583A4.811,4.811,0,0,1,5,0a4.81,4.81,0,0,1,5,4.583c0,.139-.007.279-.02.416Z" stroke="none"/>
+      <path d="M 8.27711009979248 3.5 C 7.778367519378662 2.332609891891479 6.49770975112915 1.5 5.000386238098145 1.5 C 3.502728939056396 1.5 2.2217857837677 2.332609891891479 1.722931623458862 3.5 L 8.27711009979248 3.5 M 9.979576110839844 5 L 9.978755950927734 5 L 0.02041618525981903 5 C 0.006566185504198074 4.859129905700684 -3.814697265625e-06 4.719120025634766 -3.814697265625e-06 4.5831298828125 C -3.814697265625e-06 2.055910110473633 2.243166208267212 0 5.000386238098145 0 C 7.757176399230957 0 9.999996185302734 2.055910110473633 9.999996185302734 4.5831298828125 C 9.999996185302734 4.721799850463867 9.993156433105469 4.861820220947266 9.979665756225586 4.999390125274658 L 9.979576110839844 5 Z" stroke="none" fill="#6a6b75"/>
+    </g>
+    <line id="Línea_224" data-name="Línea 224" y1="3" transform="translate(6.751 8.178)" fill="none" stroke="#6a6b75" stroke-width="1.5"/>
+  </g>
+</svg>

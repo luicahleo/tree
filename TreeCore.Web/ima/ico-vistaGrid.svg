@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Grupo_7584" data-name="Grupo 7584" transform="translate(-1130 -196)">
+    <g id="Grupo_7627" data-name="Grupo 7627" transform="translate(-46)">
+      <rect id="Rectángulo_3029" data-name="Rectángulo 3029" width="32" height="32" rx="2" transform="translate(1176 196)" fill="#06a086"/>
+    </g>
+    <g id="Componente_1927" data-name="Componente 1927" transform="translate(1136 202)">
+      <g id="Grupo_7636" data-name="Grupo 7636" transform="translate(-104 -445)">
+        <rect id="Rectángulo_5" data-name="Rectángulo 5" width="20" height="20" transform="translate(104 445)" fill="none"/>
+        <g id="Rectángulo_3032" data-name="Rectángulo 3032" transform="translate(104 446)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+          <rect width="20" height="18" stroke="none"/>
+          <rect x="0.75" y="0.75" width="18.5" height="16.5" fill="none"/>
+        </g>
+        <path id="Trazado_25" data-name="Trazado 25" d="M-1,0h.084" transform="translate(108.5 450.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Trazado_2663" data-name="Trazado 2663" d="M-1,0H2.129" transform="translate(111.5 450.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Trazado_2662" data-name="Trazado 2662" d="M-1,0h.084" transform="translate(121.5 450.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Trazado_2664" data-name="Trazado 2664" d="M-1,0h.084" transform="translate(118.5 450.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Trazado_2659" data-name="Trazado 2659" d="M-1,0H11.85" transform="translate(108.584 454.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Trazado_2655" data-name="Trazado 2655" d="M-1,0H11.85" transform="translate(108.584 457.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Trazado_2656" data-name="Trazado 2656" d="M-1,0H11.85" transform="translate(108.584 460.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

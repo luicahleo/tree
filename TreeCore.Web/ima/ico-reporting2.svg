@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e8e8e8;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #e8e8e8;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 2.5px;
+      }
+    </style>
+  </defs>
+  <g id="Group_3430" data-name="Group 3430" transform="translate(-1095 -13)">
+    <g id="Group_3421" data-name="Group 3421" transform="translate(54.5 3.933)">
+      <path id="Subtraction_12" data-name="Subtraction 12" class="cls-1" d="M12.124,23.331a12.289,12.289,0,0,1-8.573-3.417,11.356,11.356,0,0,1,0-16.5A12.289,12.289,0,0,1,12.124,0h.062V10.878c.054,0,5.733.016,9.5.016,1.128,0,1.981,0,2.538,0,.018.261.026.522.026.775A11.372,11.372,0,0,1,20.7,19.914,12.289,12.289,0,0,1,12.124,23.331Z" transform="translate(1042.5 13.737)"/>
+      <path id="Path_1858" data-name="Path 1858" class="cls-2" d="M1108.457,14.1V24.09h10.172a11.173,11.173,0,0,0-2.682-7.381C1113.066,13.593,1108.457,14.1,1108.457,14.1Z" transform="translate(-50.132 -3)"/>
+    </g>
+    <rect id="Rectangle_1605" data-name="Rectangle 1605" class="cls-3" width="30" height="30" transform="translate(1095 13)"/>
+  </g>
+</svg>

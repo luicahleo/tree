@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20.5" viewBox="0 0 21 20.5">
+  <g id="ico-globalStates-20px" transform="translate(0.5)">
+    <g id="Grupo_8117" data-name="Grupo 8117" transform="translate(0.203 0.518)">
+      <rect id="Rectángulo_3346" data-name="Rectángulo 3346" width="19.797" height="19.292" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </g>
+    <rect id="Rectángulo_2429" data-name="Rectángulo 2429" width="19.797" height="19.292" transform="translate(0 0.708)" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <circle id="Elipse_629" data-name="Elipse 629" cx="2.505" cy="2.505" r="2.505" transform="translate(3.189 9.888)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <circle id="Elipse_630" data-name="Elipse 630" cx="2.505" cy="2.505" r="2.505" transform="translate(10.276 5.473)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <circle id="Elipse_631" data-name="Elipse 631" cx="2.024" cy="2.024" r="2.024" transform="translate(11.821 14.779)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <line id="Línea_1205" data-name="Línea 1205" y1="2.265" x2="3.166" transform="translate(7.782 9.105)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <line id="Línea_1206" data-name="Línea 1206" x1="4.362" y1="2.384" transform="translate(7.254 13.595)" fill="none" stroke="#06a086" stroke-width="2"/>
+    <path id="Trazado_3011" data-name="Trazado 3011" d="M765.654,484.725a8.982,8.982,0,0,1,5.325,8.2,7.672,7.672,0,0,1-.874,3.445" transform="translate(-751.861 -482.313)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-width="2"/>
+    <path id="Trazado_3012" data-name="Trazado 3012" d="M753.068,491.975a8.987,8.987,0,0,1,5.276-7.251" transform="translate(-751.658 -482.313)" fill="none" stroke="#06a086" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Elipse_632" data-name="Elipse 632" cx="1.5" cy="1.5" r="1.5" transform="translate(8.6)" fill="#06a086"/>
+  </g>
+</svg>

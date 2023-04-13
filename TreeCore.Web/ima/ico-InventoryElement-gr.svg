@@ -1,0 +1,14 @@
+<svg id="ico-InventoryElement" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_3486" data-name="Rectángulo 3486" width="20" height="20" fill="none"/>
+  <g id="Grupo_8272" data-name="Grupo 8272" transform="translate(-876.794 -455.845)">
+    <g id="Grupo_8271" data-name="Grupo 8271">
+      <rect id="Rectángulo_3487" data-name="Rectángulo 3487" width="4.536" height="2" transform="translate(878.691 458.898)" fill="none"/>
+      <path id="Trazado_2983" data-name="Trazado 2983" d="M889.878,467.342l-3.187-1.5-2.813,1.5v-4.4h-3.187v10h12v-10h-2.813Z" fill="none"/>
+      <rect id="Rectángulo_3488" data-name="Rectángulo 3488" width="5.301" height="2" transform="translate(884.228 458.898)" fill="none"/>
+      <rect id="Rectángulo_3489" data-name="Rectángulo 3489" width="4.163" height="2" transform="translate(890.528 458.898)" fill="none"/>
+      <path id="Trazado_2984" data-name="Trazado 2984" d="M876.794,456.9v6h1.9v12.04h16V462.9h2.1v-6Zm7.434,2h5.3v2h-5.3Zm-5.537,0h4.537v2h-4.537Zm14,14.04h-12v-10h3.187v4.4l2.813-1.5,3.187,1.5v-4.4h2.813Zm2-12.04h-4.163v-2h4.163Z" fill="#06a086"/>
+    </g>
+    <path id="Trazado_2985" data-name="Trazado 2985" d="M885.633,471.37h-3.509a.5.5,0,0,1,0-1h3.509a.5.5,0,0,1,0,1Z" fill="#06a086"/>
+    <path id="Trazado_2986" data-name="Trazado 2986" d="M891.236,471.37h-1.208a.5.5,0,0,1,0-1h1.208a.5.5,0,0,1,0,1Z" fill="#06a086"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg id="ic_modulos_gestion_espacios" xmlns="http://www.w3.org/2000/svg" width="74" height="58" viewBox="0 0 74 58">
+  <rect id="Rectángulo_507" data-name="Rectángulo 507" width="74" height="58" fill="none"/>
+  <g id="Grupo_1072" data-name="Grupo 1072" transform="translate(127 482)">
+    <path id="Trazado_859" data-name="Trazado 859" d="M1606.109,228.3l15.782-7.427,15.143,7.427V246l-15.143,7.847L1606.109,246Z" transform="translate(-1711.676 -690.301)" fill="#58e5a9"/>
+    <g id="Elipse_58" data-name="Elipse 58" transform="translate(-95.786 -481)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <ellipse cx="6.268" cy="6.268" rx="6.268" ry="6.268" stroke="none"/>
+      <ellipse cx="6.268" cy="6.268" rx="5.268" ry="5.268" fill="none"/>
+    </g>
+    <g id="Elipse_59" data-name="Elipse 59" transform="translate(-117 -470.393)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <ellipse cx="6.268" cy="6.268" rx="6.268" ry="6.268" stroke="none"/>
+      <ellipse cx="6.268" cy="6.268" rx="5.268" ry="5.268" fill="none"/>
+    </g>
+    <g id="Elipse_60" data-name="Elipse 60" transform="translate(-117 -447.25)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <ellipse cx="6.268" cy="6.268" rx="6.268" ry="6.268" stroke="none"/>
+      <ellipse cx="6.268" cy="6.268" rx="5.268" ry="5.268" fill="none"/>
+    </g>
+    <g id="Elipse_61" data-name="Elipse 61" transform="translate(-95.786 -437.607)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <ellipse cx="6.268" cy="6.268" rx="6.268" ry="6.268" stroke="none"/>
+      <ellipse cx="6.268" cy="6.268" rx="5.268" ry="5.268" fill="none"/>
+    </g>
+    <g id="Elipse_62" data-name="Elipse 62" transform="translate(-76.5 -447.25)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <ellipse cx="6.268" cy="6.268" rx="6.268" ry="6.268" stroke="none"/>
+      <ellipse cx="6.268" cy="6.268" rx="5.268" ry="5.268" fill="none"/>
+    </g>
+    <g id="Elipse_63" data-name="Elipse 63" transform="translate(-75.536 -470.393)" fill="none" stroke="#5b5c64" stroke-width="2">
+      <ellipse cx="6.268" cy="6.268" rx="6.268" ry="6.268" stroke="none"/>
+      <ellipse cx="6.268" cy="6.268" rx="5.268" ry="5.268" fill="none"/>
+    </g>
+    <line id="Línea_150" data-name="Línea 150" y2="32.786" transform="translate(-89.518 -469.911)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <line id="Línea_151" data-name="Línea 151" x1="32.518" y2="18.804" transform="translate(-106.607 -462.196)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_860" data-name="Trazado 860" d="M0,0,16.706,9.79l14.741,8.638" transform="translate(-105.536 -462.304)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_861" data-name="Trazado 861" d="M-105.7-467.176l11.191-5.379" transform="translate(-0.404 -0.302)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_862" data-name="Trazado 862" d="M-83.191-472.555l10.935,5.489" transform="translate(-1.207 -0.302)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_863" data-name="Trazado 863" d="M-66.976-458.058v12.7" transform="translate(-1.786 -0.819)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_864" data-name="Trazado 864" d="M-73.924-436.467l-8.99,4.819" transform="translate(-1.217 -1.59)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_865" data-name="Trazado 865" d="M-94.506-431.654l-11.081-4.962" transform="translate(-0.408 -1.585)" fill="none" stroke="#5b5c64" stroke-width="2"/>
+    <path id="Trazado_866" data-name="Trazado 866" d="M-111.127-445.364v-12.751" transform="translate(-0.21 -0.817)" fill="none" stroke="#5c5c5c" stroke-width="2"/>
+  </g>
+</svg>

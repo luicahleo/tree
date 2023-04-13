@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #062743;
+        stroke-width: 1.6px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3639" data-name="Group 3639" transform="translate(-1352 -257)">
+    <rect id="Rectangle_274" data-name="Rectangle 274" class="cls-1" width="24" height="24" transform="translate(1352 257)"/>
+    <line id="Line_359" data-name="Line 359" class="cls-2" x2="8.4" transform="translate(1361 270.8)"/>
+    <line id="Line_362" data-name="Line 362" class="cls-2" x2="8.4" transform="translate(1361 267.2)"/>
+    <line id="Line_361" data-name="Line 361" class="cls-2" x2="8.4" transform="translate(1361 274.4)"/>
+    <g id="Rectangle_345" data-name="Rectangle 345" class="cls-3" transform="translate(1356.8 261.8)">
+      <rect class="cls-4" width="16.8" height="18"/>
+      <rect class="cls-1" x="0.8" y="0.8" width="15.2" height="16.4"/>
+    </g>
+    <path id="Path_1348" data-name="Path 1348" class="cls-3" d="M-301.491,338.554h-13.77v18.359" transform="translate(1669.348 -79.689)"/>
+  </g>
+</svg>

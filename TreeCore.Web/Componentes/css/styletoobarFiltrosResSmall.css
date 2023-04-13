@@ -1,0 +1,48 @@
+﻿.mainSearchBox {
+  margin-bottom: 6px !important; }
+
+.comboAdd100End {
+  width: 300px !important; }
+
+.tlbGridRes > .x-autocontainer-outerCt > .x-autocontainer-innerCt .filler {
+  display: none !important; }
+
+.tlbGridRes > .x-autocontainer-outerCt > .x-autocontainer-innerCt .mainSearchBox {
+  margin-bottom: 6px !important;
+  padding-right: 10px;
+  width: 100% !important; }
+
+.wrapBotonesYcmbFiltros {
+  width: 100%;
+  margin-bottom: 6px !important; }
+  .wrapBotonesYcmbFiltros div {
+    min-height: 28px !important; }
+  .wrapBotonesYcmbFiltros .x-box-inner {
+    width: 100% !important; }
+    .wrapBotonesYcmbFiltros .x-box-inner .x-box-target {
+      width: 100% !important; }
+
+.Combosadicionales {
+  width: 100%;
+  margin-bottom: 6px !important; }
+  .Combosadicionales div {
+    min-height: 28px !important; }
+  .Combosadicionales .x-box-inner {
+    width: 100% !important; }
+    .Combosadicionales .x-box-inner .x-box-target {
+      width: 100% !important; }
+
+.cmbMisfiltros {
+  width: 100% !important;
+  padding-right: 93px !important; }
+
+.comboAdd50 {
+  width: 50% !important; }
+
+.comboAdd50End {
+  width: 50% !important;
+  padding-right: 20px !important; }
+
+.comboAdd100End {
+  width: 100% !important;
+  padding-right: 10px !important; }

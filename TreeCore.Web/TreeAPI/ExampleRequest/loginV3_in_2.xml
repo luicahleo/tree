@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sit="http://sites.alteda.es/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sit:MobileLoginV3>
+         <sit:req>
+            <sit:Platform>Xamarin</sit:Platform>
+            <sit:Locale>es-ES</sit:Locale>
+            <sit:UserLogin>F9ba2mzbSFfBPs9wg5iNReXdqyc6CsBL+Wxq7qM4kng=</sit:UserLogin>
+            <sit:Password>bN/HvxhsVtmISkKBENPmzg==</sit:Password>
+            <sit:UniqueDeviceID>123456</sit:UniqueDeviceID>
+            <sit:GeneratedCodeDevice>Y032UH6XDQ6TO0L1HJHG123456</sit:GeneratedCodeDevice>
+            <sit:FCMKey></sit:FCMKey>
+            <sit:UserMAC>12345678998</sit:UserMAC>
+            <sit:ULLength>31</sit:ULLength>
+            <sit:PLength>9</sit:PLength>
+         </sit:req>
+      </sit:MobileLoginV3>
+   </soapenv:Body>
+</soapenv:Envelope>

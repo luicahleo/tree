@@ -1,0 +1,899 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+
+//LAYOUT
+#btnsForm {
+    background-color: $colBg;
+    border: none !important;
+    width: 655px;
+}
+
+#btnsForm.x-btn-group-default-framed {
+    border-color: rgba(0,0,0,0) !important;
+    -webkit-box-shadow: rgba(0,0,0,0) 0 1px 0px 0 inset,rgba(0,0,0,0) 0 -1px 0px 0 inset, rgba(0,0,0,0) -1px 0 0px 0 inset, rgba(0,0,0,0) 1px 0 0px 0 inset !important;
+    -moz-box-shadow: rgba(0,0,0,0) 0 1px 0px 0 inset, rgba(0,0,0,0) 0 -1px 0px 0 inset, rgba(0,0,0,0) -1px 0 0px 0 inset, rgba(0,0,0,0) 1px 0 0px 0 inset !important;
+    box-shadow: rgba(0,0,0,0) 0 1px 0px 0 inset, rgba(0,0,0,0) 0 -1px 0px 0 inset, rgba(0,0,0,0) -1px 0 0px 0 inset, rgba(0,0,0,0) 1px 0 0px 0 inset !important;
+}
+
+#btnsForm-table {
+    float: right;
+}
+
+
+//FIN LAYOUT
+//MODAL WINDOW - VENTANA MODAL FORM FORMULARIO
+#winGestion {
+    .x-window-body {
+        padding: .8rem 2rem;
+    }
+
+    .x-panel-body-default {
+        background: $colBg;
+    }
+    /*.x-form-trigger-wrap {
+		height: 2rem !important;
+	}*/
+    #formSite {
+        //margin-left: .5rem;
+    }
+
+    .item-form {
+        margin-right: .5rem;
+    }
+
+    .item-form:last-child {
+        margin-right: 0;
+    }
+}
+
+
+#btnGeo {
+    border: 1px solid $Gris2;
+    margin-top: 1.7rem;
+    margin-left: .3rem !important;
+    border-radius: 2px;
+    width: 30px;
+}
+
+#lblGeo {
+    margin-top: 2rem;
+    margin-left: .3rem !important;
+    font-weight: bold;
+    color: $colSec;
+}
+
+#chkDegreesF {
+    margin-top: 1.7rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+
+    .x-form-cb-wrap-default {
+        height: 1.9rem !important;
+    }
+}
+//FIN MODAL WINDOW - VENTANA MODAL FORM FORMULARIO
+#pnFltrActivo {
+    width: 200px;
+    margin-bottom: .5rem;
+
+    .x-panel-body {
+        padding: .3rem .5rem;
+        border-radius: 2px;
+        background-color: lighten($Amarillo,05);
+    }
+}
+
+
+#lblFltrActivoName span {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+#btnCleanFltrActv {
+    float: right;
+}
+//GRID
+.x-grid-cell-colProject { //seleccionamos la columna project
+    .cell-imagecommand {
+        float: left;
+        min-width: 20px;
+    }
+}
+
+.x-grid-cell-colContracts { //seleccionamos la columna Contracts
+    .cell-imagecommand {
+        float: left;
+        min-width: 20px;
+    }
+
+    .x-grid-cell-inner {
+        padding-left: 10px !important;
+    }
+}
+
+#lblToggle {
+    font-size: 11px;
+}
+//FIN GRID
+//ASIDE RIGHT FILTERS SEARCHING FILTROS BUSCAR
+#btnMoveRight {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    @include bgBtn-ico;
+    background-image: url(../../../ima/btn-moveRight.svg);
+    background-size: 20px;
+    z-index: 9;
+    transition: all .5s ease-out;
+}
+
+#btnMoveRight.x-btn-default-small {
+    border-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+}
+
+#headAsR {
+    margin-top: 1rem;
+}
+
+
+#lblHeadFilters, #lblHeadSearch {
+    font-weight: 700;
+    color: $colPpal;
+}
+// --- Filters Filtros
+#txtNameNwFltr {
+    margin-right: .5rem;
+}
+
+#btnNwFltr {
+    min-width: 80px;
+}
+
+#cmbFieldFltr {
+    margin-right: 1rem;
+}
+
+#btnAddFltr {
+    float: right;
+}
+
+
+#pnFltrAdd {
+    clear: right;
+
+    .x-panel-body {
+        padding: 0px;
+    }
+}
+
+.dvLbls-listF {
+    display: flex;
+    padding-left: .5rem;
+}
+
+#pnFltrAdd_Content {
+    height: 200px;
+}
+
+
+.flx-1 {
+    display: block;
+    flex: 0 0 calc(50% - .5rem );
+}
+
+.flx-2 {
+    display: block;
+    flex: 0 0 calc(40% - .5rem );
+}
+
+.flx-3 {
+    display: block;
+    flex: 0 0 calc(30% - .5rem );
+}
+
+.flx-4 {
+    display: block;
+    flex: 0 0 calc(16% - .5rem );
+}
+
+.cntListF {
+    width: 100%;
+    height: 135px;
+    background-color: $blanco;
+    border: 1px solid $Gris2;
+}
+
+.ulListF {
+    padding: .5rem .5rem;
+    margin: 0;
+}
+
+.liListF {
+    display: flex;
+    background-color: lighten($Azul, 38);
+    padding: .3rem .3rem .3rem .5rem;
+    border-radius: 3px;
+}
+
+.lblBox {
+    display: block;
+    margin-right: .5rem;
+}
+
+#ctBtnAdd {
+    margin-top: .5rem;
+    float: right;
+
+    .x-box-item {
+        height: 28px !important;
+    }
+}
+
+#btnSaveFltr {
+    margin-right: .5rem;
+}
+//--Mis Filtros My Filters
+#pnMyFltr {
+    clear: right;
+
+    .x-panel-body {
+        padding: 0px;
+    }
+}
+
+#lblHeadMyFiltr {
+    font-weight: 700;
+    color: $colPpal;
+}
+
+#ulMyFlt {
+    padding: 0;
+}
+
+.btn-item {
+    visibility: hidden;
+}
+
+.liFltr {
+    display: flex;
+    width: 100%;
+    background-color: $blanco;
+    border-radius: 2px;
+    padding: .5rem .6rem .0rem .6rem;
+    margin-bottom: .5rem;
+    align-content: center;
+    justify-content: space-between;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: lighten($Gris2, 05);
+
+        .btn-item {
+            visibility: visible;
+        }
+    }
+}
+
+.itemFltr-active {
+    border: 1px solid $colPpal;
+}
+
+.btn-remove-item {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-trash-bl-16p.svg') !important;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+/*
+.x-keyboard-mode .x-btn-focus.x-btn-default-small {
+	border-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
+	box-shadow: rgba(0,0,0,0) 0 1px 0 inset !important;
+}
+
+.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-default-small {
+	border-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
+	box-shadow: rgba(0,0,0,0) 0 1px 0 inset !important;
+}*/
+
+.btn-edit-item {
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('/ima/ico-edit-item-bl-16p.svg') !important;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.chk-item {
+    margin-top: -7px;
+}
+
+
+
+.btn-item {
+    margin-right: 1rem;
+}
+//----fin Filters Filtros
+// ---- Panel Search Panel Buscar
+#pnSearch {
+    clear: right;
+    margin-top: 1rem;
+
+    .x-panel-body {
+        padding: 0px;
+    }
+}
+
+.item-form {
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+}
+
+#btnSearchF {
+    float: right;
+    margin-right: .6rem;
+}
+// ---- fin Panel Search Panel Buscar
+//FIN ASIDE RIGHT FILTERS SEARCHING FILTROS BUSCAR
+
+//Layout responsive
+
+//-- para cambiar tamaños, editar variables --//
+$colSize768: 50%;
+$mobSize: 100%;
+
+$colPpal1440: 40%;
+$colSec1440: 30%;
+
+$colPpal1024: 60%;
+$colSec1024: 40%;
+
+//--no editar sin consultar --//
+#ctBtnSldr {
+    display: none;
+    width: 96%;
+    margin-bottom: .5rem;
+}
+
+#ctBtnSldr-innerCt {
+    float: right;
+    width: 80px;
+}
+
+#btnPrevSldr, #btnNextSldr {
+    @include btn-transp;
+    background-color: $Gris1 !important;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#btnPrevSldr {
+    margin-right: .3rem;
+}
+
+#btnPrevSldr.x-btn-default-small, #btnNextSldr.x-btn-default-small {
+    padding: 2px 2px 2px 2px;
+}
+
+.btnMainSldr-dis {
+    opacity: 0.5;
+    pointer-events: none !important;
+    cursor: none;
+}
+
+#pnAsideR-innerCt {
+    height: 100vh !important;
+    background-color: $colBg;
+}
+
+#hugeCt {
+    background-color: $Amarillo3;
+    width: 100%;
+    height: 100vh;
+}
+
+#lblAqui {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media (max-width:1024px) {
+
+    #ctBtnSldr {
+        display: block;
+    }
+
+    #ctMain1 {
+        margin-right: 1rem;
+        flex: 0 0 calc(#{$colPpal1024} - 1rem);
+    }
+
+    #ctMain2 {
+        margin-right: 1rem;
+        flex: 0 0 calc(#{$colSec1024} - 1rem);
+    }
+
+    #ctMain3 {
+        flex: 0 0 calc(#{$colSec1024} - 1rem);
+    }
+}
+
+
+@media (max-width:768px) {
+    #ctMain1, #ctMain2, #ctMain3 {
+        flex: 0 0 calc($colSize768 - 1rem);
+    }
+}
+
+@media (max-width:480px) {
+    #ctSlider {
+        margin: 0 auto;
+    }
+
+    #ctMain1, #ctMain2, #ctMain3 {
+        flex: 0 0 $mobSize;
+    }
+}
+
+@media (max-width:320px) {
+    #ctSlider {
+        margin: 0 auto;
+    }
+
+    #ctMain1, #ctMain2, #ctMain3 {
+        flex: 0 0 $mobSize;
+    }
+}
+
+
+//Layout responsive
+//ASIDE NOTIFICATIONS
+#headAsR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+#tlbNotifications, #tlbNotes {
+    background-color: $blanco;
+}
+
+
+#lblHeadNotes {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+#lblHeadNotif, #lblHeadNotes {
+    //display: block;
+    font-weight: 700;
+    color: $colPpal;
+}
+
+#btnNotes {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 99;
+}
+
+#btnNotes, #btnNotif {
+    @include bgBtn-ico;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: lighten($Gris2, 02);
+
+    &.x-btn-default-small {
+        border-color: rgba(0,0,0,0);
+    }
+
+    &:hover {
+        background-color: darken($Gris2, 03);
+    }
+}
+
+#pnNotifications, #pnNotes, #pnAlerts {
+    margin-top: 1.5rem;
+}
+
+#tlbNotifications-targetEl, #tlbNotes-targetEl, #tlbNotifications2-targetEl {
+    padding-right: .7rem;
+}
+
+#ctnLnkNotif.x-box-item, #ctnLnkNotes.x-box-item {
+    position: static !important;
+}
+
+#ctnLnkNotif2.x-box-item, #ctnLnkNotes.x-box-item {
+    position: static !important;
+}
+
+#ctnLnkNotif, #ctnLnkNotif2, #ctnLnkNotes {
+    float: right;
+}
+
+.lnkNot {
+    font-size: 11px;
+    color: $Gris4;
+
+    &:hover {
+        color: darken($Gris4, 10);
+    }
+}
+
+#lnkNoChecked, #lnkNoNoteChecked, #lnkNoChecked2, #lnkNoNoteChecked2 {
+    margin-right: .5rem;
+}
+
+
+#addNotific, #addNote {
+
+    .x-btn-inner-default-toolbar-small {
+        color: $blanco;
+    }
+}
+
+#addNotific2, #addNote {
+
+    .x-btn-inner-default-toolbar-small {
+        color: $blanco;
+    }
+}
+
+#ulNotif, #ulNote {
+    width: 100%;
+    padding: 0;
+    //height: 100vh;
+}
+
+
+.btnEdit-item {
+    display: none;
+}
+
+.grdPnColIcons {
+    @include grdPnColIcons;
+}
+
+.grdIntoAside {
+    @include gridIntoAside;
+}
+
+
+.x-keyboard-mode .x-btn-focus.x-btn-default-small { // color navegación teclado default
+    border-color: darken( $Gris1, 10) !important;
+    background-color: darken( $Gris1, 10) !important;
+}
+
+.liNot {
+    display: flex;
+    justify-content: flex-start;
+    background-color: $blanco;
+    padding: .8rem;
+    border-radius: 3px;
+    align-items: center;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $Gris1;
+
+
+
+    &:hover {
+        .btnEdit-item {
+            display: block;
+        }
+    }
+}
+
+
+.chkNot {
+    flex: 0 0 15%;
+    margin-right: .8rem;
+}
+
+.cntNot {
+    flex: 1 0 70%;
+    margin-right: .8rem;
+}
+
+.btnEdit {
+    flex: 0 0 15%;
+}
+
+.titNot {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: $GrisNegro;
+    margin-bottom: .4rem;
+}
+
+.txtNot {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: $GrisNegro;
+    margin-bottom: .4rem;
+    height: 2.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dateNot {
+    position: relative;
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: $colSec;
+    margin-left: 12px;
+}
+
+.dateNot:after {
+    position: absolute;
+    content: url('../../../ima/ico-calendar-min.svg');
+    left: -12px;
+    top: 1px;
+}
+
+.btnEdit-item {
+    width: 32px;
+    @include bgBtn-ico;
+    @include btn-transp;
+    background-image: url('../../../ima/ico-edit-item.svg') !important;
+    background-size: 16px;
+    border-radius: 50%;
+
+    &:hover {
+        background-image: url('../../../ima/ico-edit-item.svg');
+        background-color: $Gris1;
+    }
+}
+
+//PANEL LATERAL DERECHO
+
+.ctAsideR {
+    margin-top: 1rem;
+}
+
+#ctAsideR-innerCt {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#mnAsideR {
+    flex: 0 0 40px;
+    border-right: 1px solid $Gris1 !important;
+}
+
+#mnAsideR-innerCt {
+    height: 100vh;
+}
+
+#pnGridsAsideR, {
+    flex: 1 1 90%;
+    //height: 100vh;
+    #pnGridsAsideR-innerCt, {
+        //height: 100vh;
+    }
+}
+
+.tlbGrdAsR {
+    margin-top: 1rem;
+    padding-left: .5rem;
+}
+
+
+#frmEditNot {
+    //position: absolute !important;
+    //top: 2.6rem;
+    //z-index: 999;
+    //width: 99%;
+    //margin: 0 auto;
+    //border-radius: 5px;
+    //box-shadow: 1px 2px 8px $Gris3;
+    .x-panel-body {
+        background-color: $blanco;
+    }
+}
+
+#frmEditAlert {
+    //position: absolute !important;
+    //top: 2.6rem;
+    //z-index: 999;
+    //width: 99%;
+    //margin: 0 auto;
+    //border-radius: 5px;
+    //box-shadow: 1px 2px 8px $Gris3;
+    .x-panel-body {
+        background-color: $blanco;
+    }
+}
+
+#pnCFiltersContainer, #pnMFiltersContainer {
+    margin-left: .7rem;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+
+    .btn-add {
+        @include baseBoton($colPpal, 14px, $blanco);
+        margin-left: .5rem;
+    }
+}
+
+//CONTENT
+.chk-ctoTrck {
+    padding: 0 0rem;
+    border: 1px solid $Gris2;
+    border-radius: 2px;
+    margin-bottom: .7rem;
+    width: 100%;
+
+    label {
+        font: 500 12px/14px "Roboto", sans-serif;
+        color: #6a6b86 !important;
+    }
+}
+
+.checkboxes {
+    margin-left: 15rem;
+    margin-top: .5rem;
+}
+
+.chk-label {
+    position: absolute;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+#pnNewFilter {
+    float: left;
+    width: 58%;
+}
+
+#btnFilter {
+    float: left;
+    width: 38%;
+    margin-left: 4%;
+}
+
+.pnForm {
+    float: left;
+    width: 48%;
+
+    .x-form-trigger {
+        padding-top: 0rem;
+    }
+}
+
+#pnSearch {
+    margin-left: 4%;
+    margin-top: 0px;
+}
+
+#btnAdd {
+    float: right;
+    padding-right: .5rem;
+    margin-bottom: .7rem;
+}
+
+#pnFiltersBox {
+    min-height: 100px;
+}
+
+#pnContentTags {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.tagFilter {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.pnTag {
+    float: left;
+    width: 48%;
+
+    .x-form-trigger {
+        padding-top: 0rem;
+    }
+}
+
+.pnTagDrop {
+    float: left;
+    width: 48%;
+
+    .x-form-trigger {
+        padding-top: 0rem;
+    }
+}
+
+
+.btnProjectsNContracts {
+    span {
+        color: black !important;
+        margin-left: -10px !important;
+    }
+
+    transition: ease 0.2s;
+}
+
+.btnProjectsNContracts:hover {
+    background-color: $Gris1 !important;
+    border-color: $Gris1 !important;
+}
+
+
+/*#region Estilos ventanas popup docum y cambios */
+
+
+
+//WINDOW POPUP TRACKING
+
+.WinTrackDocum .x-title-text {
+    color: #06a086;
+}
+
+
+.WinTrackDocum .x-window-header-default {
+    background-color: white;
+    border-color: #DDD;
+}
+
+.WinTrackDocum .x-window-header-default-top {
+    background-color: white;
+    border-style: hidden;
+}
+
+
+.WinTrackChanges .x-title-text {
+    color: #06a086;
+}
+
+.WinTrackChanges .x-window-header-default {
+    background-color: white;
+    /*border-color: #DDD;*/
+    border: 1px solid $Gris1;
+}
+
+.WinTrackChanges .x-window-header-default-top {
+    background-color: white;
+    /*border-style: hidden;
+	border-bottom-style: solid !important;
+	border-bottom-width: thick;*/
+    border: 1px solid $Gris2 !important;
+}
+
+
+.sep-subtitulos-trackchanges {
+    margin: 0.25rem;
+}
+
+.WinTrackChanges .x-fieldset {
+    background-color: $blanco;
+    border: none !important;
+    //height: 25rem;
+    margin-bottom: 0;
+}
+
+/*#endregion */
+
+
+.x-tool-tool-el{
+    color:gray !important;
+}

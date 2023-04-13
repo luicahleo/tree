@@ -1,0 +1,522 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+@include newLayout_resp;
+#ctHuge-innerCt{
+
+	display:block !important;
+}
+.col-owner .x-column-header-text-inner {
+	@include colIcon;
+	background-image: url('../../../ima/ico-owner.svg');
+}
+
+.col-supplier .x-column-header-text-inner {
+	@include colIcon;
+	background-image: url('../../../ima/ico-supplier.svg');
+}
+
+.col-company .x-column-header-text-inner {
+	@include colIcon;
+	background-image: url('../../../ima/ico-company.svg');
+}
+
+.col-operator .x-column-header-text-inner {
+	@include colIcon;
+	background-image: url('../../../ima/ico-operator.svg');
+}
+
+
+/*#region Estilos ventanas popup docum y cambios */
+
+#grid {
+	.x-grid-item-container {
+		width: inherit !important;
+	}
+}
+
+//WINDOW POPUP TRACKING
+
+.x-form-trigger {
+	padding-top: 0 !important;
+}
+
+.WinTrackDocum .x-title-text {
+	color: #06a086;
+}
+
+
+.WinTrackDocum .x-window-header-default {
+	background-color: white;
+	border-color: #DDD;
+}
+
+.WinTrackDocum .x-window-header-default-top {
+	background-color: white;
+	border-style: hidden;
+}
+
+
+.WinTrackChanges .x-title-text {
+	color: #06a086;
+}
+
+.WinTrackDocum {
+	.x-tool-tool-el {
+		color: gray !important;
+	}
+}
+
+.WinTrackChanges .x-window-header-default {
+	background-color: white;
+	border: 1px solid $Gris1;
+}
+
+.WinTrackChanges .x-window-header-default-top {
+	background-color: white;
+	border: 1px solid $Gris2 !important;
+}
+
+
+.sep-subtitulos-trackchanges {
+	margin: 0.25rem;
+}
+
+.WinTrackChanges .x-fieldset {
+	background-color: $blanco;
+	border: none !important;
+	margin-bottom: 0;
+}
+
+/*#endregion */
+
+.col {
+	.x-autocontainer-innerCt {
+		height: unset !important;
+	}
+}
+
+#btnWinContactD{
+	position: static !important;
+	float: right;
+	margin-right: 1rem !important;
+}
+
+#btnEntitiesGrd {
+	position: static !important;
+	float: right;
+	margin-right: 1rem !important;
+
+}
+
+.formGris {
+	background: #f6f6f6;
+	width: 95% !important;
+	margin: 4% 4%;
+}
+
+/*#region GESTION ENTIDADES*/
+
+#ctFormEntidades {
+	.x-field {
+		//width: 94.5%;
+		width: 100%;
+	}
+}
+
+#ctFormEntidades_Content{
+	margin-right: 1rem;
+}
+
+.btn-contactos {
+	height: 30px;
+	margin-top: 27px;
+	width: 94.5%;
+	//width: 100%;
+}
+
+.botonesInferiores {
+	padding-top: 12.5%;
+
+	label {
+		color: #06A086;
+		font-weight: bold;
+	}
+
+	.x-box-inner {
+		width: 100% !important;
+	}
+
+	.x-btn.x-btn-disabled.x-btn-default-small {
+		background-color: transparent !important;
+	}
+
+	.x-box-target{
+		//display:flex;
+
+	}
+}
+
+.btn-check {
+	//right:50px !important;
+	top: -5px !important;
+	//right: 50px !important;
+}
+
+.btn-edit {
+	top: -5px !important;
+	//right: 0 !important;
+}
+
+#txtTelefono1-bodyEl {
+	direction: rtl !important;
+
+	#txtTelefono1-inputWrap {
+		direction: ltr !important;
+	}
+}
+
+/*#endregion*/
+
+/*#region GESTION CONTACTOS*/
+
+#formGestionContactos-body {
+	background: #f6f6f6;
+}
+
+#formGestionEntidad {
+	.x-panel-bodyWrap {
+		background-color: $colBg !important;
+	}
+}
+
+#formGestionEntidad-body{
+	width:100% !important;
+}
+
+#Busquedas-innerCt {
+	grid-auto-rows: 45px;
+}
+
+#btnAgregarContacto {
+	margin: 15px 0 15px;
+	width: 30%;
+	float: right;
+	background: #06A086;
+	border-radius: 3px;
+
+	&:hover {
+		background: #046f5d;
+	}
+}
+
+#txtBuscarMail {
+	height: 30px;
+}
+
+#searchTel-triggerWrap {
+	direction: rtl !important;
+
+	#searchTel-inputWrap {
+		direction: ltr;
+	}
+
+	#searchTel-trigger-_trigger1 {
+		position: absolute;
+		right: 0px;
+		background-color: transparent;
+	}
+}
+
+.iconoBuscar {
+	position: absolute;
+	height: 30px;
+}
+
+/*#endregion*/
+
+/*#region GESTION COMO COMPANIA PROVEEDORA*/
+
+#winGestionCompaniaProveedora-body {
+	width: 100% !important;
+}
+
+.cmbModulos {
+	width: 97% !important;
+}
+
+/*#endregion*/
+
+/*#region CHECKS*/
+
+.checks {
+	border: solid;
+	border-radius: 3px;
+	border-color: #D8D8D8;
+	height: 35px !important;
+	margin-bottom: 10%;
+	width: 97% !important;
+
+	.x-field {
+		margin-left: 8px !important;
+	}
+
+	label {
+		margin: 3.5px 0 0 8px !important;
+		font-weight: bold;
+		color: #6A6B75;
+	}
+}
+
+/*#endregion*/
+
+/*#region ENTIDAD COMO OPERADOR*/
+
+#winGestionOperador {
+	.x-window-body {
+		height: 100% !important;
+	}
+
+	#ctFormOp {
+		.x-autocontainer-innerCt {
+			grid-auto-rows: 50px !important;
+		}
+	}
+}
+
+/*#endregion*/
+
+/*#region Form */
+
+.ctForm-resp-col3 {
+	@include ctForm-nCol(3); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-col2 {
+	@include ctForm-nCol(2); //fijas el número máximo de columnas
+}
+
+.ctForm-resp-col1 {
+	@include ctForm-nCol(1); //fijas el número máximo de columnas
+}
+
+.ctForm-content-resp-col2 {
+	@include ctForm-content-nCol(2); //fijas el número máximo de columnas
+}
+
+/*#endregion Form*/
+
+
+
+
+
+
+
+
+
+@media (max-width:670px) {
+	[class*="ctForm-resp-"] {
+
+		.x-autocontainer-innerCt {
+			display: grid !important;
+			grid-template-columns: repeat(1, 1fr);
+			justify-content: stretch;
+			grid-column-gap: 1rem;
+		}
+
+		.x-box-inner {
+			width: 100% !important;
+		}
+	}
+
+	.formEntidad {
+		margin: 4% 5%;
+	}
+
+	#ctFormEntidades .x-field{
+		width:95%;
+	}
+
+
+	[class*="ctForm-content-resp-"] {
+
+		[id*="_Content"] {
+			display: grid !important;
+			grid-template-columns: repeat(1, 1fr);
+			justify-content: stretch;
+			grid-column-gap: 1rem;
+			margin-right: 1rem;
+
+		}
+
+		.x-box-inner {
+			width: 90% !important;
+		}
+
+		.btn-contactos {
+			width: 95% !important;
+		}
+	}
+
+	#FormProveedor {
+		.x-panel-body, .ctFormProveedor-resp {
+			width: 100% !important;
+		}
+	}
+
+	/*.botonesInferiores {
+		width: 300px !important;
+
+		.x-box-inner {
+			width: 300px !important;
+		}
+
+	
+		.x-box-target {
+			width: 300px !important;
+		}*/
+
+		.btn-check {
+			/*top: -5px !important;
+			left: 245px !important;*/
+		}
+
+		.btn-edit {
+			/*top: -5px !important;
+			left: 290px !important;*/
+		}
+	/*}*/
+
+	
+}
+
+#ctSupplier {
+	display: flex;
+	height: 30px;
+
+
+	[id="App.lblToggleProveedor_Container"] {
+		flex: 1 0 auto !important;
+	}
+
+
+	[id="App.btnProveedor_Container"] {
+		margin-right: 1rem;
+	}
+
+	[id="App.btnEditarProveedor_Container"] {
+	}
+
+
+}
+
+
+#ctOperator {
+	display: flex;
+	height: 30px;
+
+
+	[id="App.lblToggleOperador_Container"] {
+		flex: 1 0 auto !important;
+	}
+
+
+	[id="App.btnOperador_Container"] {
+		margin-right: 1rem;
+	}
+
+	[id="App.btnEditarOperador_Container"] {
+	}
+}
+
+
+#ctOwners {
+	display: flex;
+	height: 30px;
+
+
+	[id="App.lblTogglePropietario_Container"] {
+		flex: 1 0 auto !important;
+	}
+
+
+	[id="App.btnPropietario_Container"] {
+		margin-right: 3rem;
+	}
+
+
+}
+
+#ctCompany {
+	display: flex;
+	height: 30px;
+
+
+	[id="App.lblToggleCompania_Container"] {
+		flex: 1 0 auto !important;
+	}
+
+
+	[id="App.btnCompania_Container"] {
+		margin-right: 1rem;
+	}
+}
+
+
+.lbl-lastButtons {
+	color: #06A086;
+	font-weight: bold;
+	padding-top: 6px;
+	display: inline-block;
+}
+
+.edit-lastButtons.x-btn.x-btn-disabled.x-btn-default-small {
+	background-image: none;
+	background-color: rgba(0,0,0,0);
+}
+
+
+
+@media(max-width:950px) {
+	.botonesInferiores {
+		width: 345px !important;
+
+		.x-box-inner {
+			width: 345px !important;
+		}
+
+		.x-box-target {
+			width: 345px !important;
+		}
+	}
+}
+
+
+@media(max-width:850px) {
+	.botonesInferiores {
+		width: 265px !important;
+
+		.x-box-inner {
+			width: 265px !important;
+		}
+
+		.x-box-target {
+			width: 265px !important;
+		}
+	}
+}
+
+@media(max-width:670px) {
+	.botonesInferiores {
+		width: 320px !important;
+
+		.x-box-inner {
+			width: 320px !important;
+		}
+
+		.x-box-target {
+			width: 320px !important;
+		}
+	}
+}
+

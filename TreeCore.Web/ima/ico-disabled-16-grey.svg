@@ -1,0 +1,8 @@
+<svg id="Componente_3374" data-name="Componente 3374" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <path id="Trazado_2850" data-name="Trazado 2850" d="M0,0H16V16H0Z" fill="none"/>
+  <g id="Trazado_1467" data-name="Trazado 1467" fill="none">
+    <path d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0Z" stroke="none"/>
+    <path d="M 8 2 C 4.691590309143066 2 2 4.691590309143066 2 8 C 2 11.30841064453125 4.691590309143066 14 8 14 C 11.30841064453125 14 14 11.30841064453125 14 8 C 14 4.691590309143066 11.30841064453125 2 8 2 M 8 0 C 12.41827964782715 0 16 3.581720352172852 16 8 C 16 12.41827964782715 12.41827964782715 16 8 16 C 3.581720352172852 16 0 12.41827964782715 0 8 C 0 3.581720352172852 3.581720352172852 0 8 0 Z" stroke="none" fill="#6a6b75"/>
+  </g>
+  <line id="Línea_1113" data-name="Línea 1113" x2="9.699" y2="9.699" transform="translate(3.086 3.086)" fill="none" stroke="#6a6b75" stroke-width="2"/>
+</svg>

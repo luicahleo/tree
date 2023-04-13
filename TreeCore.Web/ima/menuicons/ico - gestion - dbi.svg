@@ -1,0 +1,29 @@
+<svg id="ico_-_gestion_-_dbi" data-name="ico - gestion - dbi" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3034" data-name="Rectángulo 3034" width="17.972" height="17.753" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_3038" data-name="Rectángulo 3038" width="17.972" height="17.753" fill="none" stroke="#666" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectángulo_339" data-name="Rectángulo 339" width="20" height="20" fill="none"/>
+  <g id="Grupo_7641" data-name="Grupo 7641" transform="translate(0.798 1)">
+    <path id="Trazado_2665" data-name="Trazado 2665" d="M8.825,6.825v2h-2" transform="translate(-0.325 -0.325)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Grupo_7638" data-name="Grupo 7638" transform="translate(0 0)">
+      <g id="Grupo_7637" data-name="Grupo 7637" clip-path="url(#clip-path)">
+        <path id="Trazado_2666" data-name="Trazado 2666" d="M2.665,8.74H.75V6.825" transform="translate(-0.032 -0.29)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_2667" data-name="Trazado 2667" d="M.75,2.665V.75H2.665" transform="translate(-0.032 -0.032)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_2668" data-name="Trazado 2668" d="M6.825.75H8.74V2.665" transform="translate(-0.29 -0.032)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <rect id="Rectángulo_3033" data-name="Rectángulo 3033" width="5.988" height="5.988" transform="translate(11.266 1.59)" fill="none" stroke="#666" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_3035" data-name="Rectángulo 3035" width="3.059" height="3.06" transform="translate(3.092 3.092)" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g id="Grupo_7640" data-name="Grupo 7640" transform="translate(0 0)">
+      <g id="Grupo_7639" data-name="Grupo 7639" clip-path="url(#clip-path-2)">
+        <rect id="Rectángulo_3036" data-name="Rectángulo 3036" width="5.988" height="5.988" transform="translate(1.589 11.047)" fill="none" stroke="#666" stroke-linejoin="round" stroke-width="1.5"/>
+        <rect id="Rectángulo_3037" data-name="Rectángulo 3037" width="5.988" height="5.988" transform="translate(11.266 11.047)" fill="none" stroke="#666" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

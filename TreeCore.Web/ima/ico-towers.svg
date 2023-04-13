@@ -1,0 +1,16 @@
+<svg id="ico_mod_towers" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_213" data-name="Rectángulo 213" width="20" height="20" fill="none"/>
+  <g id="Grupo_1614" data-name="Grupo 1614" transform="translate(-3269.735 -71.704)">
+    <line id="Línea_143" data-name="Línea 143" x2="16.47" transform="translate(3271.5 90.908)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_144" data-name="Línea 144" x1="4.844" y2="13.564" transform="translate(3273.922 76.86)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_145" data-name="Línea 145" x2="4.844" y2="13.564" transform="translate(3280.704 76.86)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+    <g id="Elipse_74" data-name="Elipse 74" transform="translate(3277.735 73.704)" fill="#3a3a40" stroke="#3a3a40" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.5" fill="none"/>
+    </g>
+    <line id="Línea_146" data-name="Línea 146" x2="4" transform="translate(3277.735 80.704)" fill="none" stroke="#3a3a40" stroke-width="1.5"/>
+    <line id="Línea_147" data-name="Línea 147" x1="8.22" y2="7.5" transform="translate(3274.235 82.704)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_148" data-name="Línea 148" x1="8.5" y1="7.5" transform="translate(3276.735 82.704)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_149" data-name="Línea 149" y1="2.907" transform="translate(3279.735 72.5)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

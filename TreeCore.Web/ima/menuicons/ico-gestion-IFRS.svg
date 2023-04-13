@@ -1,0 +1,15 @@
+<svg id="ico-gestion-IFRS" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_346" data-name="Rectángulo 346" width="20" height="20" fill="none"/>
+  <line id="Línea_364" data-name="Línea 364" x2="8.395" transform="translate(8.105 14.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_371" data-name="Línea 371" x2="2.395" transform="translate(8.105 11.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_366" data-name="Línea 366" x2="2.395" transform="translate(4.105 14.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_370" data-name="Línea 370" x2="2.395" transform="translate(4.105 11.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <line id="Línea_372" data-name="Línea 372" x2="2.395" transform="translate(4.105 8.895)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <path id="Trazado_1351" data-name="Trazado 1351" d="M-301.373,391.1H-311.2V373.8h14.727V382.3" transform="translate(-372.265 -292.882) rotate(-90)" fill="none" stroke="#666" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_1363" data-name="Trazado 1363" d="M-106.894,495.6h1.486v2.724" transform="translate(124.248 -492)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <g id="Elipse_174" data-name="Elipse 174" transform="translate(7.531 1.19)" fill="none" stroke="#666" stroke-width="1.5">
+    <ellipse cx="6.087" cy="6.087" rx="6.087" ry="6.087" stroke="none"/>
+    <ellipse cx="6.087" cy="6.087" rx="5.337" ry="5.337" fill="none"/>
+  </g>
+  <path id="Trazado_1364" data-name="Trazado 1364" d="M-301.49,375.067v3.048h-2.315" transform="translate(494.412 -45.994) rotate(45)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+</svg>

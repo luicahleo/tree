@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "p1/a+XTaLA7eZBw9AS6z58NkPDBo00qctBjB0D5RMZTNO7EQ8ih3OTQtmhp6WqlRnMXitAoy1tJXmO+AOpCB0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis.Cahuana\\source\\repos\\olivov1\\TreeCore.Shared.ApiScopes\\TreeCore.Shared.ApiScopes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\identityserver4.storage\\4.1.2\\identityserver4.storage.4.1.2.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,45 @@
+<svg id="ico-criticidades-tareas" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_243" data-name="Rectángulo 243" width="20" height="20" fill="none"/>
+  <g id="Grupo_1652" data-name="Grupo 1652" transform="translate(-1865 -67)">
+    <g id="Trazado_780" data-name="Trazado 780" transform="translate(1866 70)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M0,0H4V4.1H.764Z" stroke="none"/>
+      <path d="M 1.805362939834595 1.500001907348633 L 2.010444164276123 2.600461959838867 L 2.5 2.600461959838867 L 2.5 1.500001907348633 L 1.805362939834595 1.500001907348633 M 0 1.9073486328125e-06 L 4 1.9073486328125e-06 L 4 4.100461959838867 L 0.7641599178314209 4.100461959838867 L 0 1.9073486328125e-06 Z" stroke="none" fill="#666"/>
+    </g>
+    <g id="Trazado_781" data-name="Trazado 781" transform="translate(1880 70)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M4.161,0H0V4.1H3.366Z" stroke="none"/>
+      <path d="M 1.500002384185791 1.500001907348633 L 1.500002384185791 2.600461959838867 L 2.12863564491272 2.600461959838867 L 2.341953277587891 1.500001907348633 L 1.500002384185791 1.500001907348633 M 2.384185791015625e-06 1.9073486328125e-06 L 4.160642147064209 1.9073486328125e-06 L 3.365792274475098 4.100461959838867 L 2.384185791015625e-06 4.100461959838867 L 2.384185791015625e-06 1.9073486328125e-06 Z" stroke="none" fill="#666"/>
+    </g>
+    <g id="Trazado_782" data-name="Trazado 782" transform="translate(1866 75)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M0,0H4V4.1H.764Z" stroke="none"/>
+      <path d="M 1.805362939834595 1.500001907348633 L 2.010444164276123 2.600461959838867 L 2.5 2.600461959838867 L 2.5 1.500001907348633 L 1.805362939834595 1.500001907348633 M 0 1.9073486328125e-06 L 4 1.9073486328125e-06 L 4 4.100461959838867 L 0.7641599178314209 4.100461959838867 L 0 1.9073486328125e-06 Z" stroke="none" fill="#666"/>
+    </g>
+    <g id="Trazado_783" data-name="Trazado 783" transform="translate(1880 75)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M4.161,0H0V4.1H3.366Z" stroke="none"/>
+      <path d="M 1.500002384185791 1.500001907348633 L 1.500002384185791 2.600461959838867 L 2.12863564491272 2.600461959838867 L 2.341953277587891 1.500001907348633 L 1.500002384185791 1.500001907348633 M 2.384185791015625e-06 1.9073486328125e-06 L 4.160642147064209 1.9073486328125e-06 L 3.365792274475098 4.100461959838867 L 2.384185791015625e-06 4.100461959838867 L 2.384185791015625e-06 1.9073486328125e-06 Z" stroke="none" fill="#666"/>
+    </g>
+    <g id="Trazado_784" data-name="Trazado 784" transform="translate(1866 80)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M0,0H4V4.1H.764Z" stroke="none"/>
+      <path d="M 1.805362939834595 1.500001907348633 L 2.010444164276123 2.600461959838867 L 2.5 2.600461959838867 L 2.5 1.500001907348633 L 1.805362939834595 1.500001907348633 M 0 1.9073486328125e-06 L 4 1.9073486328125e-06 L 4 4.100461959838867 L 0.7641599178314209 4.100461959838867 L 0 1.9073486328125e-06 Z" stroke="none" fill="#666"/>
+    </g>
+    <g id="Trazado_785" data-name="Trazado 785" transform="translate(1880 80)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M4.161,0H0V4.1H3.366Z" stroke="none"/>
+      <path d="M 1.500002384185791 1.500001907348633 L 1.500002384185791 2.600461959838867 L 2.12863564491272 2.600461959838867 L 2.341953277587891 1.500001907348633 L 1.500002384185791 1.500001907348633 M 2.384185791015625e-06 1.9073486328125e-06 L 4.160642147064209 1.9073486328125e-06 L 3.365792274475098 4.100461959838867 L 2.384185791015625e-06 4.100461959838867 L 2.384185791015625e-06 1.9073486328125e-06 Z" stroke="none" fill="#666"/>
+    </g>
+    <g id="Rectángulo_99" data-name="Rectángulo 99" transform="translate(1869 67)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="12" height="20" stroke="none"/>
+      <rect x="0.75" y="0.75" width="10.5" height="18.5" fill="none"/>
+    </g>
+    <g id="Elipse_50" data-name="Elipse 50" transform="translate(1873 80)" fill="none" stroke="#666" stroke-width="1">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.5" fill="none"/>
+    </g>
+    <g id="Elipse_51" data-name="Elipse 51" transform="translate(1873 75)" fill="none" stroke="#666" stroke-width="1">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.5" fill="none"/>
+    </g>
+    <g id="Elipse_52" data-name="Elipse 52" transform="translate(1873 70)" fill="none" stroke="#666" stroke-width="1">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.5" fill="none"/>
+    </g>
+  </g>
+</svg>

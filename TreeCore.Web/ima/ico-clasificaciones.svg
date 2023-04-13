@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #333;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="Group_2905" data-name="Group 2905" transform="translate(-293 -241)">
+    <g id="Path_95" data-name="Path 95" class="cls-1" transform="translate(293 250.111)">
+      <path class="cls-4" d="M0,0H10.889V10.889H0Z"/>
+      <path class="cls-5" d="M 1.499997138977051 1.499997138977051 L 1.499997138977051 9.389296531677246 L 9.389296531677246 9.389296531677246 L 9.389296531677246 1.499997138977051 L 1.499997138977051 1.499997138977051 M -2.86102294921875e-06 -2.86102294921875e-06 L 10.88929653167725 -2.86102294921875e-06 L 10.88929653167725 10.88929653167725 L -2.86102294921875e-06 10.88929653167725 L -2.86102294921875e-06 -2.86102294921875e-06 Z"/>
+    </g>
+    <g id="Rectangle_44" data-name="Rectangle 44" class="cls-2" transform="translate(302.111 250.111)">
+      <rect class="cls-4" width="10.889" height="10.889"/>
+      <rect class="cls-6" x="0.75" y="0.75" width="9.389" height="9.389"/>
+    </g>
+    <g id="Rectangle_46" data-name="Rectangle 46" class="cls-2" transform="translate(297.356 241)">
+      <rect class="cls-4" width="10.526" height="10.526"/>
+      <rect class="cls-6" x="0.75" y="0.75" width="9.026" height="9.026"/>
+    </g>
+    <line id="Line_20" data-name="Line 20" class="cls-3" x1="3.158" transform="translate(296.684 254.158)"/>
+    <line id="Line_23" data-name="Line 23" class="cls-3" x1="3.158" transform="translate(306.158 254.158)"/>
+    <line id="Line_24" data-name="Line 24" class="cls-3" x1="2.105" transform="translate(301.421 245.211)"/>
+  </g>
+</svg>

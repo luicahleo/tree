@@ -1,0 +1,19 @@
+<svg id="ico-tipologia" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_205" data-name="Rectángulo 205" width="20" height="20" fill="none"/>
+  <g id="Grupo_1593" data-name="Grupo 1593" transform="translate(-595 -317)">
+    <g id="Elipse_12" data-name="Elipse 12" transform="translate(595 317)" fill="none" stroke="#666" stroke-width="1.5">
+      <ellipse cx="3.5" cy="3.52" rx="3.5" ry="3.52" stroke="none"/>
+      <ellipse cx="3.5" cy="3.52" rx="2.75" ry="2.77" fill="none"/>
+    </g>
+    <g id="Elipse_11" data-name="Elipse 11" transform="translate(608 317)" fill="none" stroke="#666" stroke-width="1.5">
+      <ellipse cx="3.5" cy="3.52" rx="3.5" ry="3.52" stroke="none"/>
+      <ellipse cx="3.5" cy="3.52" rx="2.75" ry="2.77" fill="none"/>
+    </g>
+    <line id="Línea_28" data-name="Línea 28" x2="7" transform="translate(601.5 320.52)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <line id="Línea_27" data-name="Línea 27" y2="8.49" transform="translate(605 320.017)" fill="none" stroke="#666" stroke-width="1.5"/>
+    <g id="Rectángulo_51" data-name="Rectángulo 51" transform="translate(600 332.035) rotate(-45)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="7.018" height="7.018" stroke="none"/>
+      <rect x="0.75" y="0.75" width="5.518" height="5.518" fill="none"/>
+    </g>
+  </g>
+</svg>

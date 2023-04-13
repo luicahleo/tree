@@ -1,0 +1,1180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFBBD6FE-7336-4FA1-B23F-B6578FE030D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ServiceDataQuality</RootNamespace>
+    <AssemblyName>ServiceDataQuality</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <WebGreaseLibPath>..\..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SERVICE_AS_PROGRAM,SERVICES,SERVICESETTINGS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SERVICES,SERVICESETTINGS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Telenor_Nube_TiB|AnyCPU'">
+    <OutputPath>bin\Telenor_Nube_TiB\</OutputPath>
+    <DefineConstants>TRACE;SERVICES,SERVICESETTINGS</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Telenor_Nube_Olivo|AnyCPU'">
+    <OutputPath>bin\Telenor_Nube_Olivo\</OutputPath>
+    <DefineConstants>TRACE;SERVICES,SERVICESETTINGS</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '_Desarrollador_Pedro|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\_Desarrollador_Pedro\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SERVICES,SERVICESETTINGS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '_Desarrollador_Fran|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\_Desarrollador_Fran\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SERVICES,SERVICESETTINGS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Telenor_TiB|AnyCPU'">
+    <OutputPath>bin\Telenor_TiB\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SERVICES,SERVICESETTINGS</DefineConstants>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.12.3.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DocumentFormat.OpenXml.2.12.3\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=5.7.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EPPlus.5.7.3\lib\net45\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.4.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ExcelDataReader.3.4.1\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.4.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ExcelDataReader.DataSet.3.4.1\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net, Version=5.3.0.0, Culture=neutral, PublicKeyToken=2e12ce3d0176cd87, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ext.NET.5.3.0\lib\net46\Ext.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net.Utilities, Version=2.5.0.0, Culture=neutral, PublicKeyToken=2c34ac34702a3c23, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Ext.NET.Utilities.2.5.0\lib\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.37.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.11.37\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Bcl.HashCode.1.1.0\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="NCrontab.Signed, Version=3.3.2.0, Culture=neutral, PublicKeyToken=5247b4370afff365, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NCrontab.Signed.3.3.2\lib\net35\NCrontab.Signed.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSmtp, Version=1.11.0.34196, Culture=neutral">
+      <HintPath>..\..\packages\OpenSmtp.1.11.0.34196\lib\OpenSmtp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transformer.NET, Version=2.1.1.22883, Culture=neutral, PublicKeyToken=e274d618e7c603a7, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Transformer.NET.2.1.1\lib\net35\Transformer.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="TreeEngine">
+      <HintPath>..\Librerias\TreeEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CapaDatos\Data.Acceso.cs">
+      <Link>CapaDatos\Data.Acceso.cs</Link>
+    </Compile>
+    <Compile Include="CapaNegocio\API\AppDireccionesController.cs" />
+    <Compile Include="CapaNegocio\Calidad\CalidadDQCategoriasController.cs" />
+    <Compile Include="CapaNegocio\Calidad\CalidadDQGruposController.cs" />
+    <Compile Include="CapaNegocio\Calidad\CalidadKPIController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQGroupsMonitoringController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQKpisController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQKpisFiltrosController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQKpisGroupsController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQKpisGroupsRulesController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQKpisMonitoringController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQSemaforosController.cs" />
+    <Compile Include="CapaNegocio\Calidad\DQTablasPaginasController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentalEstadosController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentalExtensionesController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentalTiposController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosCargasController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosCargasPlantillasController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosCargasPlantillasTabsController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosEmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosPerfilesController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosRolesController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosTiposExtensionesController.cs" />
+    <Compile Include="CapaNegocio\Documental\DocumentosTiposRolesController.cs" />
+    <Compile Include="CapaNegocio\Documental\HistoricoCoreDocumentos.cs" />
+    <Compile Include="CapaNegocio\Documental\ProyectosTiposDocumentosTiposController.cs" />
+    <Compile Include="CapaNegocio\ExportarImportar\CoreExportacionDatosPlantillasCeldasController.cs" />
+    <Compile Include="CapaNegocio\ExportarImportar\CoreExportacionDatosPlantillasColumnasController.cs" />
+    <Compile Include="CapaNegocio\ExportarImportar\CoreExportacionDatosPlantillasController.cs" />
+    <Compile Include="CapaNegocio\ExportarImportar\CoreExportacionDatosPlantillasFilasController.cs" />
+    <Compile Include="CapaNegocio\ExportarImportar\CoreExportacionDatosPlantillasHistoricosController.cs" />
+    <Compile Include="CapaNegocio\ExportarImportar\CoreExportacionDatosPlantillasReglasCeldasController.cs" />
+    <Compile Include="CapaNegocio\ExportarImportar\CoreExportacionDatosPlantillasReglasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ActivosClasesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ActivosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AgrupacionEstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresClasesActivosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresConceptosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresDetallesCamposAdicionalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresDetallesEquiposAdicionalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresDetallesImpuestosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresDetallesProveedoresController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresEstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresHistoricosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresTiposContratacionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresTiposContratacionesTiposContratosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresTiposContratosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresTiposContratosSAPController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AlquileresTiposPropietariosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AreasFuncionalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\AseguradorasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\BancosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CalidadController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CategoriasTablasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CentroCostesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ClientesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ClientesProyectosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ComponentesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ConceptosPagosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CondicionesPagosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ContactosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ContactosGlobalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ContactosGlobalesEmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ContactosGlobalesEmplazamientosVinculadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ContactosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ContratosMarcosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreEstadosGlobalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreEstadosNotificacionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreEstadosNotificacionesRolesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreEstadosNotificacionesUsuariosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreEstadosRolesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreFrecuenciasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreProductCatalogFrecuenciasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreProductCatalogServiciosAsignadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreProductCatalogServiciosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreProductCatalogServiciosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreProductCatalogUnidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreServiceSettingsController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreServiciosFrecuenciasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreTipologiasPerfilesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\CoreUnidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\DepartamentosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\DispositivosCategoriasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\DispositivosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\DispositivosFabricantesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\DispositivosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\DispositivosUnidadesMedidasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\DQSemaforosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosCamposAdicionalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosCategoriasSitiosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosProyectosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosRiesgosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosTamanosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosTiposEdificiosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosTiposEdificiosEmplazamientosTiposEstructurasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosTiposEdificiosPaisesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosTiposEmplazamientosTiposEdificiosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmplazamientosTiposEstructurasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmpresasProveedorasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EmpresasProveedorasProyectosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EstadosDocumentosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EstadosGlobalesBloqueadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EstadosGlobalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\EstadosSiguientesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GestionFiltrosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalAntenasFabricantesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalAntenasModelosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalAntenasTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalAreasOyMController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalBalizamientosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCasetasTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCentrosOperativosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCerradurasTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalColumnasModeloDatosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalColumnasTablasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCondicionesCodigosEmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCondicionesColumnasTablasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCondicionesReglasConfiguracionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCondicionesReglasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalCondicionesTablasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalConstruccionesTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalDireccionesAccesosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalDireccionesAccesosJornadasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalDireccionesEstadosCaminosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalDireccionesLugaresRetirosAccesosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalDireccionesTiposCaminosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalDireccionesTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalDireccionesTiposLlavesAccesosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalEmplazamientosPortafoliosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalFrecuenciasTelcoController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalImputacionesTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalInfraestructurasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalInfraestructurasMenusController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalLimitesCondicionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalLimitesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalLineasVidasTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalLocalidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalMediosTransmisionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalMotivosAdendasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalMotorGeneradorTipoController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalMunicipalidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalParcelasTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalPartidosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalProteccionesIndividualesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalSAPInterfazIndicesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalSoportesAntenasTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalSuministrosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalSuministrosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTablasModeloDatosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTipologiasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTiposAccesosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTiposGasesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTiposServiciosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTiposTecnologiasTelcoController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTiposTecnologiasTelcoFrecuenciasTelcoController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalTiposTransmisionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GlobalZonasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GruposAccesosWebController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GruposAccesosWebRolesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GruposAccesosWebUsuariosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\GruposAutorizacionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\IdiomasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\IFRS16PartesRescisorasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\IFRS16TratamientosPreviosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ImpuestosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ImpuestosDetallesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ImpuestosPaisesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ImpuestosProveedoresTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\InflacionesAplicacionesTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\InflacionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\InflacionesDetallesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\InfraestructurasSubServiciosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\IntegracionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\LicenciasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\LicenciasTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\LocalidadesAreasOYMController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MenuFavoritosUsuariosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MenusController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MenusModulosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MetodosPagosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MigradorController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ModulosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MonedasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MonedasEvolucionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MonedasGlobalesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\MunicipiosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\NotificacionesCadenciasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\NotificacionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\NotificacionesCorreosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\NotificacionesCriteriosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\NotificacionesGruposCriteriosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\OperadoresController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\PaisesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ParametrosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\PropietariosAlquileresController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\PropietariosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProveedoresController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProveedoresCuentasCorrientesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProveedoresCuentasCorrientesHistoricosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProveedoresFuncionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProveedoresHistoricoController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProvinciasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProyectosAgrupacionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProyectosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ProyectosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\RegionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\RegionesPaisesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SAPClavesClasificacionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SAPCuentasAsociadasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SAPGruposCuentasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SAPGruposTesoreriasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SAPIFRS16TratamientosPreviosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SAPTiposNIFController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SAPTratamientosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SociedadesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\SubContratasProyectosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\TipologiasController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\TiposContribuyentesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\TiposDatosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\TiposDatosOperadoresController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\TiposDatosPropiedadesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ToolConexionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ToolIntegracionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ToolIntregracionesAtributosMappingController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ToolMetodosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ToolMetodosParametrosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\ToolServiciosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\VexCriticidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\VexProyectosController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\VexSeccionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Administracion\Vw_GlobalCondicionesReglasConfiguracionesController.cs" />
+    <Compile Include="CapaNegocio\Global\AtributosDinamicos\CoreAtributosConfiguracionesController.cs" />
+    <Compile Include="CapaNegocio\Global\AtributosDinamicos\CoreAtributosConfiguracionListasColumnasAdicionalesController.cs" />
+    <Compile Include="CapaNegocio\Global\AtributosDinamicos\CoreAtributosConfiguracionRolesRestringidosController.cs" />
+    <Compile Include="CapaNegocio\Global\AtributosDinamicos\CoreAtributosConfiguracionTiposDatosPropiedadesController.cs" />
+    <Compile Include="CapaNegocio\Global\AvisosController.cs" />
+    <Compile Include="CapaNegocio\Global\ColumnasJsonController.cs" />
+    <Compile Include="CapaNegocio\Global\ColumnasModeloDatosController.cs" />
+    <Compile Include="CapaNegocio\Global\ContactosContratosMarcosController.cs" />
+    <Compile Include="CapaNegocio\Global\ContactosEmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Global\ContactosGlobalesEntidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\ContactosGlobalesEntidadesVinculadasController.cs" />
+    <Compile Include="CapaNegocio\Global\CoreConfiguracionHomeModulosController.cs" />
+    <Compile Include="CapaNegocio\Global\CoreGestionVistasController.cs" />
+    <Compile Include="CapaNegocio\Global\CoreProductCatalogsController.cs" />
+    <Compile Include="CapaNegocio\Global\CoreProductCatalogTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\DocumentosController.cs" />
+    <Compile Include="CapaNegocio\Global\DocumentosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Global\DocumentTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosCategoriasController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosConfiguracionController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosConfiguracionListasColumnasAdicionalesController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosConfiguracionPerfilesRestringidosController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosConfiguracionRolesRestringidosController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosConfiguracionTiposDatosPropiedadesController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosDinamicos\CoreEmplazamientosAtributosCategoriasConfiguracionesAtributosController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosDinamicos\CoreEmplazamientosAtributosCategoriasConfiguracionesController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosDinamicos\CoreEmplazamientosAtributosController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosJsonController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosAtributosRolesRestringidosController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Global\EmplazamientosHistoricosController.cs" />
+    <Compile Include="CapaNegocio\Global\EntidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\EntidadesOperadoresController.cs" />
+    <Compile Include="CapaNegocio\Global\EntidadesProveedoresController.cs" />
+    <Compile Include="CapaNegocio\Global\EntidadesTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\EstadisticasController.cs" />
+    <Compile Include="CapaNegocio\Global\EstadosVinculadosController.cs" />
+    <Compile Include="CapaNegocio\Global\ExcelController.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapaNegocio\Global\FacturasPrevisionesDetallesController.cs" />
+    <Compile Include="CapaNegocio\Global\FlujosController.cs" />
+    <Compile Include="CapaNegocio\Global\FuncionalidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\FuncionalidadesTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\GeneralBaseController.cs" />
+    <Compile Include="CapaNegocio\Global\Gestion\UsuariosProyectosController.cs" />
+    <Compile Include="CapaNegocio\Global\hdPageLoadController.cs" />
+    <Compile Include="CapaNegocio\Global\HistoricosCoreEmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Global\InstallTecnicaTareasController.cs" />
+    <Compile Include="CapaNegocio\Global\LogController.cs" />
+    <Compile Include="CapaNegocio\Global\MyFlowController.cs" />
+    <Compile Include="CapaNegocio\Global\PerfilesController.cs" />
+    <Compile Include="CapaNegocio\Global\PerfilesFuncionalidadesController.cs" />
+    <Compile Include="CapaNegocio\Global\PerfilesGruposController.cs" />
+    <Compile Include="CapaNegocio\Global\ProyectosController.cs" />
+    <Compile Include="CapaNegocio\Global\ProyectosEmpresasProveedorasController.cs" />
+    <Compile Include="CapaNegocio\Global\ProyectosFasesController.cs" />
+    <Compile Include="CapaNegocio\Global\ProyectosGlobalZonasController.cs" />
+    <Compile Include="CapaNegocio\Global\ProyectosProyectosTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\ReajustesPreciosController.cs" />
+    <Compile Include="CapaNegocio\Global\RolesController.cs" />
+    <Compile Include="CapaNegocio\Global\RolesPerfilesController.cs" />
+    <Compile Include="CapaNegocio\Global\SQLServerModelController.cs" />
+    <Compile Include="CapaNegocio\Global\TablasModeloDatosController.cs" />
+    <Compile Include="CapaNegocio\Global\ToolIntegracionesServiciosMetodosController.cs" />
+    <Compile Include="CapaNegocio\Global\UsuariosAccesosController.cs" />
+    <Compile Include="CapaNegocio\Global\UsuariosController.cs" />
+    <Compile Include="CapaNegocio\Global\UsuariosPerfilesController.cs" />
+    <Compile Include="CapaNegocio\Global\UsuariosRolesController.cs" />
+    <Compile Include="CapaNegocio\Global\UsuariosSesionesController.cs" />
+    <Compile Include="CapaNegocio\Global\Vw_DocumentTiposController.cs" />
+    <Compile Include="CapaNegocio\Global\Vw_EntidadesOperadoresController.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos\CoreInventarioCategoriasAtributosCategoriasConfiguracionesAtributosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos\CoreInventarioCategoriasAtributosCategoriasConfiguracionesController.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos\CoreInventarioCategoriasAtributosCategoriasController.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos\CoreInventarioElementosAtributosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos\CoreInventarioElementosPlantillasAtributosCategoriasAtributosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos\CoreInventarioPlantillasAtributosCategoriasAtributosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\AtributosDinamicos\CoreInventarioPlantillasAtributosCategoriasController.cs" />
+    <Compile Include="CapaNegocio\Inventario\CoreInventarioHistoricosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\FiltroInventarioElementos.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioActivosRepositoriosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioAtributosCategoriasController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioAtributosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioAtributosPerfilesRestringidosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioAtributosPredefinidosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioAtributosRolesRestringidosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioAtributosTiposDatosPropiedadesController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioCategoriasController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioCategoriasListasColumnasAdicionalesController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioCategoriasVinculacionesController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioCategoriasVinculacionesTiposVinculacionesController .cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosAtributosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosAtributosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosAtributosJsonController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosEmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosHistoricosController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosPlantillasJsonController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioElementosVinculacionesController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioPlantillasAtributosJsonController.cs" />
+    <Compile Include="CapaNegocio\Inventario\InventarioTiposVinculacionesController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoCorrectivosEmplazamientosEstadosSLA.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoCorrectivosEstadosSLAController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoCriticidadesController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosAgenciasController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosConflictividadController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosCorrectivosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosCorrectivosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosCorrectivosSeguimientosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosEstadosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosEstadosProyectosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosEstadosSiguientesController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosEstadosSLAController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosEstadosTiposDocumentosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosSeguimientosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoEmplazamientosZonasController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoIncidenciasController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoIncidenciasTipo.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoPreventivoEmplazamientosProcesosController.cs" />
+    <Compile Include="CapaNegocio\Mantenimiento\MantenimientoTipologiasController.cs" />
+    <Compile Include="CapaNegocio\Monitoring\MonitoringEstadosHistoricosController.cs" />
+    <Compile Include="CapaNegocio\Monitoring\MonitoringLogCargasController.cs" />
+    <Compile Include="CapaNegocio\Monitoring\MonitoringModificacionesUsuariosController.cs" />
+    <Compile Include="CapaNegocio\Monitoring\MonitoringServiciosTreeController.cs" />
+    <Compile Include="CapaNegocio\Monitoring\MonitoringServiciosWindowsController.cs" />
+    <Compile Include="CapaNegocio\Monitoring\MonitoringWSRegistrosController.cs" />
+    <Compile Include="Clases\BaseIHttpHandler.cs" />
+    <Compile Include="Clases\BasePageExtNet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clases\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clases\Comun.cs" />
+    <Compile Include="Clases\ComunServicios.cs" />
+    <Compile Include="Clases\Cron.cs" />
+    <Compile Include="Clases\DirectoryMapping.cs" />
+    <Compile Include="Clases\Email.cs" />
+    <Compile Include="Clases\EmplazamientosSeguimientosGenerico.cs" />
+    <Compile Include="Clases\EscritorLogs.cs" />
+    <Compile Include="Clases\Export.cs" />
+    <Compile Include="Clases\ImportExport.cs" />
+    <Compile Include="Clases\InfoResponse.cs" />
+    <Compile Include="Clases\InventarioFuncionesCargarStores.cs" />
+    <Compile Include="Clases\InventarioFuncionesCargaStores.cs" />
+    <Compile Include="Clases\LinkHandler.cs" />
+    <Compile Include="Clases\LinqEngine.cs" />
+    <Compile Include="Clases\Meses.cs" />
+    <Compile Include="Clases\Recursos.cs" />
+    <Compile Include="Clases\RegexUtilities.cs" />
+    <Compile Include="Clases\ResponseCreateController.cs" />
+    <Compile Include="Clases\ServicesCodes.cs" />
+    <Compile Include="Clases\Util.cs" />
+    <Compile Include="Clases\Valores.cs" />
+    <Compile Include="MyFlow\canvas\mxBasicCanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxGdiCanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxGdiCanvas2D.cs" />
+    <Compile Include="MyFlow\canvas\mxICanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxICanvas2D.cs" />
+    <Compile Include="MyFlow\canvas\mxImageCanvas.cs" />
+    <Compile Include="MyFlow\canvas\mxStencil.cs" />
+    <Compile Include="MyFlow\canvas\mxStencilRegistry.cs" />
+    <Compile Include="MyFlow\io\mxCellCodec.cs" />
+    <Compile Include="MyFlow\io\mxCodec.cs" />
+    <Compile Include="MyFlow\io\mxCodecRegistry.cs" />
+    <Compile Include="MyFlow\io\mxModelCodec.cs" />
+    <Compile Include="MyFlow\io\mxObjectCodec.cs" />
+    <Compile Include="MyFlow\io\mxStylesheetCodec.cs" />
+    <Compile Include="MyFlow\layout\mxFastOrganicLayout.cs" />
+    <Compile Include="MyFlow\layout\mxIGraphLayout.cs" />
+    <Compile Include="MyFlow\model\mxCell.cs" />
+    <Compile Include="MyFlow\model\mxCellPath.cs" />
+    <Compile Include="MyFlow\model\mxGeometry.cs" />
+    <Compile Include="MyFlow\model\mxGraphModel.cs" />
+    <Compile Include="MyFlow\model\mxICell.cs" />
+    <Compile Include="MyFlow\model\mxIGraphModel.cs" />
+    <Compile Include="MyFlow\reader\mxGraphViewImageReader.cs" />
+    <Compile Include="MyFlow\reader\mxGraphViewReader.cs" />
+    <Compile Include="MyFlow\reader\mxSaxOutputHandler.cs" />
+    <Compile Include="MyFlow\utils\mxCellRenderer.cs" />
+    <Compile Include="MyFlow\utils\mxConstants.cs" />
+    <Compile Include="MyFlow\utils\mxImageBundle.cs" />
+    <Compile Include="MyFlow\utils\mxPoint.cs" />
+    <Compile Include="MyFlow\utils\mxRectangle.cs" />
+    <Compile Include="MyFlow\utils\mxUtils.cs" />
+    <Compile Include="MyFlow\view\mxCellState.cs" />
+    <Compile Include="MyFlow\view\mxConnectionConstraint.cs" />
+    <Compile Include="MyFlow\view\mxEdgeStyle.cs" />
+    <Compile Include="MyFlow\view\mxGraph.cs" />
+    <Compile Include="MyFlow\view\mxGraphView.cs" />
+    <Compile Include="MyFlow\view\mxPerimeter.cs" />
+    <Compile Include="MyFlow\view\mxStyleRegistry.cs" />
+    <Compile Include="MyFlow\view\mxStylesheet.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceDataQuality.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ServiceDataQuality.Designer.cs">
+      <DependentUpon>ServiceDataQuality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\App_GlobalResources\Comun.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Comun.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Debug.config">
+      <DependentUpon>App.config</DependentUpon>
+    </None>
+    <None Include="App.Release.config">
+      <DependentUpon>App.config</DependentUpon>
+    </None>
+    <None Include="App.Telenor_Nube_TiB.config">
+      <DependentUpon>App.config</DependentUpon>
+    </None>
+    <None Include="App.Telenor_Nube_Olivo.config">
+      <DependentUpon>App.config</DependentUpon>
+    </None>
+    <None Include="App._Desarrollador_Pedro.config">
+      <DependentUpon>App.config</DependentUpon>
+    </None>
+    <None Include="App._Desarrollador_Fran.config">
+      <DependentUpon>App.config</DependentUpon>
+    </None>
+    <None Include="App.Telenor_TiB.config">
+      <DependentUpon>App.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Start\" />
+    <Folder Include="MyFlow\myflow\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CapaDatos\ProjectDataContext1.cs">
+      <Link>CapaDatos\ProjectDataContext1.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext2.cs">
+      <Link>CapaDatos\ProjectDataContext2.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext3.cs">
+      <Link>CapaDatos\ProjectDataContext3.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext4.cs">
+      <Link>CapaDatos\ProjectDataContext4.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext5.cs">
+      <Link>CapaDatos\ProjectDataContext5.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext6.cs">
+      <Link>CapaDatos\ProjectDataContext6.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext7.cs">
+      <Link>CapaDatos\ProjectDataContext7.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext8.cs">
+      <Link>CapaDatos\ProjectDataContext8.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ProjectDataContext9.cs">
+      <Link>CapaDatos\ProjectDataContext9.cs</Link>
+    </Compile>
+    <Compile Include="..\CapaDatos\ServerConnectionChooser-Generado.cs">
+      <Link>CapaDatos\ServerConnectionChooser-Generado.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\CapaDatos\service-tools-net4\InstallUtil.exe.config">
+      <Link>service-tools-net4\InstallUtil.exe.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="..\CapaDatos\service-tools-net4\InstallUtil.exe">
+      <Link>service-tools-net4\InstallUtil.exe</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\CapaDatos\service-tools-net4\InstallUtilLib.dll">
+      <Link>service-tools-net4\InstallUtilLib.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Base.config" />
+    <None Include="App.config" />
+    <None Include="App_Readme\Ext.NET\CHANGELOG.md" />
+    <None Include="App_Readme\Ext.NET\LICENSE" />
+    <None Include="App_Readme\Ext.NET\README.md" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="App_Readme\Ext.NET.Utilities\BREAKING_CHANGES.txt" />
+    <Content Include="App_Readme\Ext.NET.Utilities\LICENSE.txt" />
+    <Content Include="App_Readme\Ext.NET.Utilities\README.txt" />
+    <Content Include="App_Readme\Transformer.NET\LICENSE.txt" />
+    <Content Include="App_Readme\Transformer.NET\README.txt" />
+    <Content Include="Ext.NET.Default.aspx" />
+    <Content Include="MyFlow\css\common.css" />
+    <Content Include="MyFlow\css\explorer.css" />
+    <Content Include="MyFlow\images\button.gif" />
+    <Content Include="MyFlow\images\close.gif" />
+    <Content Include="MyFlow\images\collapsed.gif" />
+    <Content Include="MyFlow\images\error.gif" />
+    <Content Include="MyFlow\images\expanded.gif" />
+    <Content Include="MyFlow\images\maximize.gif" />
+    <Content Include="MyFlow\images\minimize.gif" />
+    <Content Include="MyFlow\images\normalize.gif" />
+    <Content Include="MyFlow\images\point.gif" />
+    <Content Include="MyFlow\images\resize.gif" />
+    <Content Include="MyFlow\images\separator.gif" />
+    <Content Include="MyFlow\images\submenu.gif" />
+    <Content Include="MyFlow\images\transparent.gif" />
+    <Content Include="MyFlow\images\warning.gif" />
+    <Content Include="MyFlow\images\warning.png" />
+    <Content Include="MyFlow\images\window-title.gif" />
+    <Content Include="MyFlow\images\window.gif" />
+    <Content Include="MyFlow\js\Actions.js" />
+    <Content Include="MyFlow\js\base64.js" />
+    <Content Include="MyFlow\js\canvas-toBlob.js" />
+    <Content Include="MyFlow\js\common.css" />
+    <Content Include="MyFlow\js\Dialogs.js" />
+    <Content Include="MyFlow\js\Editor.js" />
+    <Content Include="MyFlow\js\EditorUi.js" />
+    <Content Include="MyFlow\js\editor\mxDefaultKeyHandler.js" />
+    <Content Include="MyFlow\js\editor\mxDefaultPopupMenu.js" />
+    <Content Include="MyFlow\js\editor\mxDefaultToolbar.js" />
+    <Content Include="MyFlow\js\editor\mxEditor.js" />
+    <Content Include="MyFlow\js\explorer.css" />
+    <Content Include="MyFlow\js\FileSaver.js" />
+    <Content Include="MyFlow\js\Format.js" />
+    <Content Include="MyFlow\js\Graph.js" />
+    <Content Include="MyFlow\js\grapheditor.css" />
+    <Content Include="MyFlow\js\handler\mxCellHighlight.js" />
+    <Content Include="MyFlow\js\handler\mxCellMarker.js" />
+    <Content Include="MyFlow\js\handler\mxCellTracker.js" />
+    <Content Include="MyFlow\js\handler\mxConnectionHandler.js" />
+    <Content Include="MyFlow\js\handler\mxConstraintHandler.js" />
+    <Content Include="MyFlow\js\handler\mxEdgeHandler.js" />
+    <Content Include="MyFlow\js\handler\mxEdgeSegmentHandler.js" />
+    <Content Include="MyFlow\js\handler\mxElbowEdgeHandler.js" />
+    <Content Include="MyFlow\js\handler\mxGraphHandler.js" />
+    <Content Include="MyFlow\js\handler\mxHandle.js" />
+    <Content Include="MyFlow\js\handler\mxKeyHandler.js" />
+    <Content Include="MyFlow\js\handler\mxPanningHandler.js" />
+    <Content Include="MyFlow\js\handler\mxPopupMenuHandler.js" />
+    <Content Include="MyFlow\js\handler\mxRubberband.js" />
+    <Content Include="MyFlow\js\handler\mxSelectionCellsHandler.js" />
+    <Content Include="MyFlow\js\handler\mxTooltipHandler.js" />
+    <Content Include="MyFlow\js\handler\mxVertexHandler.js" />
+    <Content Include="MyFlow\js\Inicio.js" />
+    <Content Include="MyFlow\js\Init.js" />
+    <Content Include="MyFlow\js\io\mxCellCodec.js" />
+    <Content Include="MyFlow\js\io\mxChildChangeCodec.js" />
+    <Content Include="MyFlow\js\io\mxCodec.js" />
+    <Content Include="MyFlow\js\io\mxCodecRegistry.js" />
+    <Content Include="MyFlow\js\io\mxDefaultKeyHandlerCodec.js" />
+    <Content Include="MyFlow\js\io\mxDefaultPopupMenuCodec.js" />
+    <Content Include="MyFlow\js\io\mxDefaultToolbarCodec.js" />
+    <Content Include="MyFlow\js\io\mxEditorCodec.js" />
+    <Content Include="MyFlow\js\io\mxGenericChangeCodec.js" />
+    <Content Include="MyFlow\js\io\mxGraphCodec.js" />
+    <Content Include="MyFlow\js\io\mxGraphViewCodec.js" />
+    <Content Include="MyFlow\js\io\mxModelCodec.js" />
+    <Content Include="MyFlow\js\io\mxObjectCodec.js" />
+    <Content Include="MyFlow\js\io\mxRootChangeCodec.js" />
+    <Content Include="MyFlow\js\io\mxStylesheetCodec.js" />
+    <Content Include="MyFlow\js\io\mxTerminalChangeCodec.js" />
+    <Content Include="MyFlow\js\jscolor.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphAbstractHierarchyCell.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphHierarchyEdge.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphHierarchyModel.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxGraphHierarchyNode.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\model\mxSwimlaneModel.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\mxHierarchicalLayout.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\mxSwimlaneLayout.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxCoordinateAssignment.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxHierarchicalLayoutStage.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxMedianHybridCrossingReduction.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxMinimumCycleRemover.js" />
+    <Content Include="MyFlow\js\layout\hierarchical\stage\mxSwimlaneOrdering.js" />
+    <Content Include="MyFlow\js\layout\mxCircleLayout.js" />
+    <Content Include="MyFlow\js\layout\mxCompactTreeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxCompositeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxEdgeLabelLayout.js" />
+    <Content Include="MyFlow\js\layout\mxFastOrganicLayout.js" />
+    <Content Include="MyFlow\js\layout\mxGraphLayout.js" />
+    <Content Include="MyFlow\js\layout\mxParallelEdgeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxPartitionLayout.js" />
+    <Content Include="MyFlow\js\layout\mxRadialTreeLayout.js" />
+    <Content Include="MyFlow\js\layout\mxStackLayout.js" />
+    <Content Include="MyFlow\js\Menus.js" />
+    <Content Include="MyFlow\js\model\mxCell.js" />
+    <Content Include="MyFlow\js\model\mxCellPath.js" />
+    <Content Include="MyFlow\js\model\mxGeometry.js" />
+    <Content Include="MyFlow\js\model\mxGraphModel.js" />
+    <Content Include="MyFlow\js\mxAbstractCanvas2D.js" />
+    <Content Include="MyFlow\js\mxActor.js" />
+    <Content Include="MyFlow\js\mxAnimation.js" />
+    <Content Include="MyFlow\js\mxArrow.js" />
+    <Content Include="MyFlow\js\mxArrowConnector.js" />
+    <Content Include="MyFlow\js\mxAutoSaveManager.js" />
+    <Content Include="MyFlow\js\mxCell.js" />
+    <Content Include="MyFlow\js\mxCellCodec.js" />
+    <Content Include="MyFlow\js\mxCellEditor.js" />
+    <Content Include="MyFlow\js\mxCellHighlight.js" />
+    <Content Include="MyFlow\js\mxCellMarker.js" />
+    <Content Include="MyFlow\js\mxCellOverlay.js" />
+    <Content Include="MyFlow\js\mxCellPath.js" />
+    <Content Include="MyFlow\js\mxCellRenderer.js" />
+    <Content Include="MyFlow\js\mxCellState.js" />
+    <Content Include="MyFlow\js\mxCellStatePreview.js" />
+    <Content Include="MyFlow\js\mxCellTracker.js" />
+    <Content Include="MyFlow\js\mxChildChangeCodec.js" />
+    <Content Include="MyFlow\js\mxCircleLayout.js" />
+    <Content Include="MyFlow\js\mxClient.js" />
+    <Content Include="MyFlow\js\mxClipboard.js" />
+    <Content Include="MyFlow\js\mxCloud.js" />
+    <Content Include="MyFlow\js\mxCodec.js" />
+    <Content Include="MyFlow\js\mxCodecRegistry.js" />
+    <Content Include="MyFlow\js\mxCompactTreeLayout.js" />
+    <Content Include="MyFlow\js\mxCompositeLayout.js" />
+    <Content Include="MyFlow\js\mxConnectionConstraint.js" />
+    <Content Include="MyFlow\js\mxConnectionHandler.js" />
+    <Content Include="MyFlow\js\mxConnector.js" />
+    <Content Include="MyFlow\js\mxConstants.js" />
+    <Content Include="MyFlow\js\mxConstraintHandler.js" />
+    <Content Include="MyFlow\js\mxCoordinateAssignment.js" />
+    <Content Include="MyFlow\js\mxCylinder.js" />
+    <Content Include="MyFlow\js\mxDefaultKeyHandler.js" />
+    <Content Include="MyFlow\js\mxDefaultKeyHandlerCodec.js" />
+    <Content Include="MyFlow\js\mxDefaultPopupMenu.js" />
+    <Content Include="MyFlow\js\mxDefaultPopupMenuCodec.js" />
+    <Content Include="MyFlow\js\mxDefaultToolbar.js" />
+    <Content Include="MyFlow\js\mxDefaultToolbarCodec.js" />
+    <Content Include="MyFlow\js\mxDictionary.js" />
+    <Content Include="MyFlow\js\mxDivResizer.js" />
+    <Content Include="MyFlow\js\mxDoubleEllipse.js" />
+    <Content Include="MyFlow\js\mxDragSource.js" />
+    <Content Include="MyFlow\js\mxEdgeHandler.js" />
+    <Content Include="MyFlow\js\mxEdgeLabelLayout.js" />
+    <Content Include="MyFlow\js\mxEdgeSegmentHandler.js" />
+    <Content Include="MyFlow\js\mxEdgeStyle.js" />
+    <Content Include="MyFlow\js\mxEditor.js" />
+    <Content Include="MyFlow\js\mxEditorCodec.js" />
+    <Content Include="MyFlow\js\mxEffects.js" />
+    <Content Include="MyFlow\js\mxElbowEdgeHandler.js" />
+    <Content Include="MyFlow\js\mxEllipse.js" />
+    <Content Include="MyFlow\js\mxEvent.js" />
+    <Content Include="MyFlow\js\mxEventObject.js" />
+    <Content Include="MyFlow\js\mxEventSource.js" />
+    <Content Include="MyFlow\js\mxFastOrganicLayout.js" />
+    <Content Include="MyFlow\js\mxForm.js" />
+    <Content Include="MyFlow\js\mxGenericChangeCodec.js" />
+    <Content Include="MyFlow\js\mxGeometry.js" />
+    <Content Include="MyFlow\js\mxGraph.js" />
+    <Content Include="MyFlow\js\mxGraphAbstractHierarchyCell.js" />
+    <Content Include="MyFlow\js\mxGraphCodec.js" />
+    <Content Include="MyFlow\js\mxGraphHandler.js" />
+    <Content Include="MyFlow\js\mxGraphHierarchyEdge.js" />
+    <Content Include="MyFlow\js\mxGraphHierarchyModel.js" />
+    <Content Include="MyFlow\js\mxGraphHierarchyNode.js" />
+    <Content Include="MyFlow\js\mxGraphLayout.js" />
+    <Content Include="MyFlow\js\mxGraphModel.js" />
+    <Content Include="MyFlow\js\mxGraphSelectionModel.js" />
+    <Content Include="MyFlow\js\mxGraphView.js" />
+    <Content Include="MyFlow\js\mxGraphViewCodec.js" />
+    <Content Include="MyFlow\js\mxGuide.js" />
+    <Content Include="MyFlow\js\mxHandle.js" />
+    <Content Include="MyFlow\js\mxHexagon.js" />
+    <Content Include="MyFlow\js\mxHierarchicalLayout.js" />
+    <Content Include="MyFlow\js\mxHierarchicalLayoutStage.js" />
+    <Content Include="MyFlow\js\mxImage.js" />
+    <Content Include="MyFlow\js\mxImageBundle.js" />
+    <Content Include="MyFlow\js\mxImageExport.js" />
+    <Content Include="MyFlow\js\mxImageShape.js" />
+    <Content Include="MyFlow\js\mxKeyHandler.js" />
+    <Content Include="MyFlow\js\mxLabel.js" />
+    <Content Include="MyFlow\js\mxLayoutManager.js" />
+    <Content Include="MyFlow\js\mxLine.js" />
+    <Content Include="MyFlow\js\mxLog.js" />
+    <Content Include="MyFlow\js\mxMarker.js" />
+    <Content Include="MyFlow\js\mxMedianHybridCrossingReduction.js" />
+    <Content Include="MyFlow\js\mxMinimumCycleRemover.js" />
+    <Content Include="MyFlow\js\mxModelCodec.js" />
+    <Content Include="MyFlow\js\mxMorphing.js" />
+    <Content Include="MyFlow\js\mxMouseEvent.js" />
+    <Content Include="MyFlow\js\mxMultiplicity.js" />
+    <Content Include="MyFlow\js\mxObjectCodec.js" />
+    <Content Include="MyFlow\js\mxObjectIdentity.js" />
+    <Content Include="MyFlow\js\mxOutline.js" />
+    <Content Include="MyFlow\js\mxPanningHandler.js" />
+    <Content Include="MyFlow\js\mxPanningManager.js" />
+    <Content Include="MyFlow\js\mxParallelEdgeLayout.js" />
+    <Content Include="MyFlow\js\mxPartitionLayout.js" />
+    <Content Include="MyFlow\js\mxPerimeter.js" />
+    <Content Include="MyFlow\js\mxPoint.js" />
+    <Content Include="MyFlow\js\mxPolyline.js" />
+    <Content Include="MyFlow\js\mxPopupMenu.js" />
+    <Content Include="MyFlow\js\mxPopupMenuHandler.js" />
+    <Content Include="MyFlow\js\mxPrintPreview.js" />
+    <Content Include="MyFlow\js\mxRadialTreeLayout.js" />
+    <Content Include="MyFlow\js\mxRectangle.js" />
+    <Content Include="MyFlow\js\mxRectangleShape.js" />
+    <Content Include="MyFlow\js\mxResources.js" />
+    <Content Include="MyFlow\js\mxRhombus.js" />
+    <Content Include="MyFlow\js\mxRootChangeCodec.js" />
+    <Content Include="MyFlow\js\mxRubberband.js" />
+    <Content Include="MyFlow\js\mxSelectionCellsHandler.js" />
+    <Content Include="MyFlow\js\mxShape.js" />
+    <Content Include="MyFlow\js\mxStackLayout.js" />
+    <Content Include="MyFlow\js\mxStencil.js" />
+    <Content Include="MyFlow\js\mxStencilRegistry.js" />
+    <Content Include="MyFlow\js\mxStyleRegistry.js" />
+    <Content Include="MyFlow\js\mxStylesheet.js" />
+    <Content Include="MyFlow\js\mxStylesheetCodec.js" />
+    <Content Include="MyFlow\js\mxSvgCanvas2D.js" />
+    <Content Include="MyFlow\js\mxSwimlane.js" />
+    <Content Include="MyFlow\js\mxSwimlaneLayout.js" />
+    <Content Include="MyFlow\js\mxSwimlaneManager.js" />
+    <Content Include="MyFlow\js\mxSwimlaneModel.js" />
+    <Content Include="MyFlow\js\mxSwimlaneOrdering.js" />
+    <Content Include="MyFlow\js\mxTemporaryCellStates.js" />
+    <Content Include="MyFlow\js\mxTerminalChangeCodec.js" />
+    <Content Include="MyFlow\js\mxText.js" />
+    <Content Include="MyFlow\js\mxToolbar.js" />
+    <Content Include="MyFlow\js\mxTooltipHandler.js" />
+    <Content Include="MyFlow\js\mxTriangle.js" />
+    <Content Include="MyFlow\js\mxUndoableEdit.js" />
+    <Content Include="MyFlow\js\mxUndoManager.js" />
+    <Content Include="MyFlow\js\mxUrlConverter.js" />
+    <Content Include="MyFlow\js\mxUtils.js" />
+    <Content Include="MyFlow\js\mxVertexHandler.js" />
+    <Content Include="MyFlow\js\mxVmlCanvas2D.js" />
+    <Content Include="MyFlow\js\mxWindow.js" />
+    <Content Include="MyFlow\js\mxXmlCanvas2D.js" />
+    <Content Include="MyFlow\js\mxXmlRequest.js" />
+    <Content Include="MyFlow\js\pako.min.js" />
+    <Content Include="MyFlow\js\sanitizer.min.js" />
+    <Content Include="MyFlow\js\Shapes.js" />
+    <Content Include="MyFlow\js\shape\mxActor.js" />
+    <Content Include="MyFlow\js\shape\mxArrow.js" />
+    <Content Include="MyFlow\js\shape\mxArrowConnector.js" />
+    <Content Include="MyFlow\js\shape\mxCloud.js" />
+    <Content Include="MyFlow\js\shape\mxConnector.js" />
+    <Content Include="MyFlow\js\shape\mxCylinder.js" />
+    <Content Include="MyFlow\js\shape\mxDoubleEllipse.js" />
+    <Content Include="MyFlow\js\shape\mxEllipse.js" />
+    <Content Include="MyFlow\js\shape\mxHexagon.js" />
+    <Content Include="MyFlow\js\shape\mxImageShape.js" />
+    <Content Include="MyFlow\js\shape\mxLabel.js" />
+    <Content Include="MyFlow\js\shape\mxLine.js" />
+    <Content Include="MyFlow\js\shape\mxMarker.js" />
+    <Content Include="MyFlow\js\shape\mxPolyline.js" />
+    <Content Include="MyFlow\js\shape\mxRectangleShape.js" />
+    <Content Include="MyFlow\js\shape\mxRhombus.js" />
+    <Content Include="MyFlow\js\shape\mxShape.js" />
+    <Content Include="MyFlow\js\shape\mxStencil.js" />
+    <Content Include="MyFlow\js\shape\mxStencilRegistry.js" />
+    <Content Include="MyFlow\js\shape\mxSwimlane.js" />
+    <Content Include="MyFlow\js\shape\mxText.js" />
+    <Content Include="MyFlow\js\shape\mxTriangle.js" />
+    <Content Include="MyFlow\js\Sidebar.js" />
+    <Content Include="MyFlow\js\Toolbar.js" />
+    <Content Include="MyFlow\js\util\mxAbstractCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxAnimation.js" />
+    <Content Include="MyFlow\js\util\mxAutoSaveManager.js" />
+    <Content Include="MyFlow\js\util\mxClipboard.js" />
+    <Content Include="MyFlow\js\util\mxConstants.js" />
+    <Content Include="MyFlow\js\util\mxDictionary.js" />
+    <Content Include="MyFlow\js\util\mxDivResizer.js" />
+    <Content Include="MyFlow\js\util\mxDragSource.js" />
+    <Content Include="MyFlow\js\util\mxEffects.js" />
+    <Content Include="MyFlow\js\util\mxEvent.js" />
+    <Content Include="MyFlow\js\util\mxEventObject.js" />
+    <Content Include="MyFlow\js\util\mxEventSource.js" />
+    <Content Include="MyFlow\js\util\mxForm.js" />
+    <Content Include="MyFlow\js\util\mxGuide.js" />
+    <Content Include="MyFlow\js\util\mxImage.js" />
+    <Content Include="MyFlow\js\util\mxImageBundle.js" />
+    <Content Include="MyFlow\js\util\mxImageExport.js" />
+    <Content Include="MyFlow\js\util\mxLog.js" />
+    <Content Include="MyFlow\js\util\mxMorphing.js" />
+    <Content Include="MyFlow\js\util\mxMouseEvent.js" />
+    <Content Include="MyFlow\js\util\mxObjectIdentity.js" />
+    <Content Include="MyFlow\js\util\mxPanningManager.js" />
+    <Content Include="MyFlow\js\util\mxPoint.js" />
+    <Content Include="MyFlow\js\util\mxPopupMenu.js" />
+    <Content Include="MyFlow\js\util\mxRectangle.js" />
+    <Content Include="MyFlow\js\util\mxResources.js" />
+    <Content Include="MyFlow\js\util\mxSvgCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxToolbar.js" />
+    <Content Include="MyFlow\js\util\mxUndoableEdit.js" />
+    <Content Include="MyFlow\js\util\mxUndoManager.js" />
+    <Content Include="MyFlow\js\util\mxUrlConverter.js" />
+    <Content Include="MyFlow\js\util\mxUtils.js" />
+    <Content Include="MyFlow\js\util\mxVmlCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxWindow.js" />
+    <Content Include="MyFlow\js\util\mxXmlCanvas2D.js" />
+    <Content Include="MyFlow\js\util\mxXmlRequest.js" />
+    <Content Include="MyFlow\js\view\mxCellEditor.js" />
+    <Content Include="MyFlow\js\view\mxCellOverlay.js" />
+    <Content Include="MyFlow\js\view\mxCellRenderer.js" />
+    <Content Include="MyFlow\js\view\mxCellState.js" />
+    <Content Include="MyFlow\js\view\mxCellStatePreview.js" />
+    <Content Include="MyFlow\js\view\mxConnectionConstraint.js" />
+    <Content Include="MyFlow\js\view\mxEdgeStyle.js" />
+    <Content Include="MyFlow\js\view\mxGraph.js" />
+    <Content Include="MyFlow\js\view\mxGraphSelectionModel.js" />
+    <Content Include="MyFlow\js\view\mxGraphView.js" />
+    <Content Include="MyFlow\js\view\mxLayoutManager.js" />
+    <Content Include="MyFlow\js\view\mxMultiplicity.js" />
+    <Content Include="MyFlow\js\view\mxOutline.js" />
+    <Content Include="MyFlow\js\view\mxPerimeter.js" />
+    <Content Include="MyFlow\js\view\mxPrintPreview.js" />
+    <Content Include="MyFlow\js\view\mxStyleRegistry.js" />
+    <Content Include="MyFlow\js\view\mxStylesheet.js" />
+    <Content Include="MyFlow\js\view\mxSwimlaneManager.js" />
+    <Content Include="MyFlow\js\view\mxTemporaryCellStates.js" />
+    <Content Include="MyFlow\resources\editor.txt" />
+    <Content Include="MyFlow\resources\editor_de.txt" />
+    <Content Include="MyFlow\resources\editor_zh.txt" />
+    <Content Include="MyFlow\resources\graph.txt" />
+    <Content Include="MyFlow\resources\grapheditor.txt" />
+    <Content Include="MyFlow\resources\grapheditor_de.txt" />
+    <Content Include="MyFlow\resources\grapheditor_se.txt" />
+    <Content Include="MyFlow\resources\graph_de.txt" />
+    <Content Include="MyFlow\resources\graph_zh.txt" />
+    <Content Include="MyFlow\stencils\arrows.xml" />
+    <Content Include="MyFlow\stencils\basic.xml" />
+    <Content Include="MyFlow\stencils\bpmn.xml" />
+    <Content Include="MyFlow\stencils\flowchart.xml" />
+    <Content Include="MyFlow\stencils\myflow-old.xml" />
+    <Content Include="MyFlow\stencils\myflow.xml" />
+    <Content Include="MyFlow\styles\default.xml" />
+    <Content Include="MyFlow\styles\down.gif" />
+    <Content Include="MyFlow\styles\grapheditor.css" />
+    <Content Include="MyFlow\styles\help.css" />
+    <Content Include="MyFlow\styles\sprites.png" />
+    <Content Include="MyFlow\styles\thumb_horz.png" />
+    <Content Include="MyFlow\styles\thumb_vertical.png" />
+    <Content Include="MyFlow\styles\up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="App_GlobalResources" AfterTargets="BeforeBuild">
+    <Copy SourceFiles="../App_GlobalResources/Comun.Designer.cs" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/Comun.en.designer.cs" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/Comun.en.resx" DestinationFolder="App_GlobalResources" />
+    <Copy SourceFiles="../App_GlobalResources/Comun.resx" DestinationFolder="App_GlobalResources" />
+  </Target>
+  <UsingTask TaskName="TransformXml" AssemblyFile="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Web\Microsoft.Web.Publishing.Tasks.dll" />
+  <Target Name="BeforeBuild">
+    <TransformXml Source="App.Base.config" Transform="App.$(Configuration).config" Destination="App.config" />
+  </Target>
+  <PropertyGroup>
+    <PostBuildEvent>echo "service-tools-net4/installutil.exe" $(TargetFileName) &gt; $(TargetDir)_Service_Install.bat
+echo "service-tools-net4/installutil.exe" /u $(TargetFileName) &gt; $(TargetDir)_Service_Uninstall.bat</PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="AfterCompile" Condition="Exists('App.$(Configuration).config')">
+    <!--Generate transformed app config in the intermediate directory-->
+    <TransformXml Source="App.config" Destination="$(IntermediateOutputPath)$(TargetFileName).config" Transform="App.$(Configuration).config" />
+    <!--Force build process to use the transformed configuration file from now on.-->
+    <ItemGroup>
+      <AppConfigWithTargetPath Remove="App.config" />
+      <AppConfigWithTargetPath Include="$(IntermediateOutputPath)$(TargetFileName).config">
+        <TargetPath>$(TargetFileName).config</TargetPath>
+      </AppConfigWithTargetPath>
+    </ItemGroup>
+  </Target>
+  <!--Override After Publish to support ClickOnce AfterPublish. Target replaces the untransformed config file copied to the deployment directory with the transformed one.-->
+  <Target Name="AfterPublish">
+    <PropertyGroup>
+      <DeployedConfig>$(_DeploymentApplicationDir)$(TargetName)$(TargetExt).config$(_DeploymentFileMappingExtension)</DeployedConfig>
+    </PropertyGroup>
+    <!--Publish copies the untransformed App.config to deployment directory so overwrite it-->
+    <Copy Condition="Exists('$(DeployedConfig)')" SourceFiles="$(IntermediateOutputPath)$(TargetFileName).config" DestinationFiles="$(DeployedConfig)" />
+  </Target>
+  <Target Name="App_config_AfterCompile" AfterTargets="AfterCompile" Condition="Exists('App.$(Configuration).config')">
+    <!--Generate transformed app config in the intermediate directory-->
+    <TransformXml Source="App.config" Destination="$(IntermediateOutputPath)$(TargetFileName).config" Transform="App.$(Configuration).config" />
+    <!--Force build process to use the transformed configuration file from now on.-->
+    <ItemGroup>
+      <AppConfigWithTargetPath Remove="App.config" />
+      <AppConfigWithTargetPath Include="$(IntermediateOutputPath)$(TargetFileName).config">
+        <TargetPath>$(TargetFileName).config</TargetPath>
+      </AppConfigWithTargetPath>
+    </ItemGroup>
+  </Target>
+  <!--Override After Publish to support ClickOnce AfterPublish. Target replaces the untransformed config file copied to the deployment directory with the transformed one.-->
+  <Target Name="App_config_AfterPublish" AfterTargets="AfterPublish" Condition="Exists('App.$(Configuration).config')">
+    <PropertyGroup>
+      <DeployedConfig>$(_DeploymentApplicationDir)$(TargetName)$(TargetExt).config$(_DeploymentFileMappingExtension)</DeployedConfig>
+    </PropertyGroup>
+    <!--Publish copies the untransformed App.config to deployment directory so overwrite it-->
+    <Copy Condition="Exists('$(DeployedConfig)')" SourceFiles="$(IntermediateOutputPath)$(TargetFileName).config" DestinationFiles="$(DeployedConfig)" />
+  </Target>
+</Project>

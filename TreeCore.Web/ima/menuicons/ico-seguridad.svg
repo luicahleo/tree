@@ -1,0 +1,11 @@
+<svg id="ico-seguridad" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="Trazado_822" data-name="Trazado 822" d="M1780.449,234.309c.525.511,1.75,1.446,1.75,1.446l2.25-2.667" transform="translate(-1772.305 -225.931)" fill="none" stroke="#666" stroke-width="1.5"/>
+  <rect id="Rectángulo_308" data-name="Rectángulo 308" width="20" height="20" fill="none" opacity="0.5"/>
+  <g id="Grupo_1714" data-name="Grupo 1714" transform="translate(2 1.003)">
+    <path id="Trazado_820" data-name="Trazado 820" d="M1772.913,232.427c0,7.781,7.85,9.716,7.947,9.713s8.053-2.322,8.053-10.139l-.034-6.529a35.919,35.919,0,0,1-8.019-1.248,36.2,36.2,0,0,1-7.947,1.269Z" transform="translate(-1772.913 -224.224)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+  <g id="Trazado_1243" data-name="Trazado 1243" transform="translate(4.01 3.013)" fill="none">
+    <path d="M6,0A6,6,0,1,1,0,6,6,6,0,0,1,6,0Z" stroke="none"/>
+    <path d="M 6 1.5 C 3.51869010925293 1.5 1.5 3.51869010925293 1.5 6 C 1.5 8.48130989074707 3.51869010925293 10.5 6 10.5 C 8.48130989074707 10.5 10.5 8.48130989074707 10.5 6 C 10.5 3.51869010925293 8.48130989074707 1.5 6 1.5 M 6 0 C 9.31371021270752 0 12 2.68628978729248 12 6 C 12 9.31371021270752 9.31371021270752 12 6 12 C 2.68628978729248 12 0 9.31371021270752 0 6 C 0 2.68628978729248 2.68628978729248 0 6 0 Z" stroke="none" fill="#666"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+﻿@import '../../CSS/variables.scss';
+@import '../../CSS/mixins.scss';
+
+
+.ctDegrees {
+	padding-left: .5rem;
+	padding-top: 1.5rem;
+
+	.x-autocontainer-innerCt {
+		width: 100% !important;
+		display: flex;
+		align-items: center;
+	}
+
+	.btn-toggleGrid-withLabel {
+		margin-left: .3rem;
+		margin-right: 6rem;
+		flex-shrink:0;
+		
+	}
+
+	span.x-label-value {
+		color: $colSec;
+		font: 500 12px/14px "Roboto", sans-serif;
+		font-family: "Roboto", sans-serif;
+	}
+}
+.btnGeoposicion.x-btn.x-btn-disabled.x-btn-default-small {
+			background-image: none;
+			background-color: rgba(0,0,0,0);
+		}
+
+.txtLatitud {
+	grid-column-start: 1;
+}
+
+.btnAsignar {
+	right: 0 !important;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 40px;
+	color: white;
+}
+
+.btnMap {
+	height: 32px;
+	/*margin: 0 .5rem;*/
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.pac-container {
+	z-index: 100000 !important;
+}

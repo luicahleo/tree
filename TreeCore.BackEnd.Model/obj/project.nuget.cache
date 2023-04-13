@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "D0kIjsHB3Lz1RWlksW729FwVjOJbBK+zR0UiZ3n0baG6fThx/+i5ESAT3XPh9wN+BsKrmekAxL1oohkffvMQaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis.Cahuana\\source\\repos\\olivov1\\TreeCore.BackEnd.Model\\TreeCore.BackEnd.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Luis.Cahuana\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

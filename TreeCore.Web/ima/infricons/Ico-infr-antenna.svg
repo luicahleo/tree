@@ -1,0 +1,18 @@
+<svg id="Ico-inv-antenna" xmlns="http://www.w3.org/2000/svg" width="20" height="20.02" viewBox="0 0 20 20.02">
+  <rect id="Rectángulo_213" data-name="Rectángulo 213" width="20" height="20" fill="none"/>
+  <g id="Grupo_1614" data-name="Grupo 1614" transform="translate(3.63 7.293)">
+    <path id="Trazado_2548" data-name="Trazado 2548" d="M0,0H12.261" transform="translate(0.479 12.147)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Línea_144" data-name="Línea 144" x1="4.11" y2="11.772" transform="translate(2.352)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_145" data-name="Línea 145" x2="4.109" y2="11.772" transform="translate(6.757)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_146" data-name="Línea 146" x2="4" transform="translate(4.37 4.707)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <line id="Línea_147" data-name="Línea 147" x1="6.358" y2="5.801" transform="translate(2.436 5.801)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_148" data-name="Línea 148" x1="5.918" y1="5.395" transform="translate(4.87 6.207)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+  <path id="Trazado_2549" data-name="Trazado 2549" d="M2.075,0A2.075,2.075,0,1,1,0,2.075,2.075,2.075,0,0,1,2.075,0Z" transform="translate(8 4.041)" fill="#707070"/>
+  <g id="Grupo_7087" data-name="Grupo 7087" transform="translate(-914.867 -223.056)">
+    <path id="Trazado_2544" data-name="Trazado 2544" d="M0,3.32A5.183,5.183,0,0,1,4.742,0a5.045,5.045,0,0,1,4.5,3.32" transform="translate(918.868 233.79) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_2545" data-name="Trazado 2545" d="M0,0A5.183,5.183,0,0,0,4.742,3.32,5.045,5.045,0,0,0,9.243,0" transform="translate(928.111 233.79) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_2546" data-name="Trazado 2546" d="M0,1.66A3.252,3.252,0,0,1,2.959,0,3.169,3.169,0,0,1,5.81,1.66" transform="translate(920.992 232.077) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_2547" data-name="Trazado 2547" d="M0,0A3.252,3.252,0,0,0,2.959,1.66,3.169,3.169,0,0,0,5.81,0" transform="translate(927.625 232.077) rotate(-90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

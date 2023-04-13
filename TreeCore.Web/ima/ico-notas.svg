@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #6a6b75;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 1.6px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3991" data-name="Group 3991" transform="translate(-507 637)">
+    <rect id="Rectangle_1610" data-name="Rectangle 1610" class="cls-1" width="20" height="20" transform="translate(507 -637)"/>
+    <rect id="Rectangle_274" data-name="Rectangle 274" class="cls-1" width="20" height="20" transform="translate(507 -637)"/>
+    <line id="Line_359" data-name="Line 359" class="cls-2" x2="7" transform="translate(513.5 -625.5)"/>
+    <line id="Line_362" data-name="Line 362" class="cls-2" x2="7" transform="translate(513.5 -628.5)"/>
+    <line id="Line_361" data-name="Line 361" class="cls-2" x2="7" transform="translate(513.5 -622.5)"/>
+    <g id="Rectangle_345" data-name="Rectangle 345" class="cls-3" transform="translate(510 -635)">
+      <rect class="cls-5" width="14" height="17"/>
+      <rect class="cls-1" x="0.8" y="0.8" width="12.4" height="15.4"/>
+    </g>
+    <line id="Line_630" data-name="Line 630" class="cls-4" y1="5" transform="translate(514 -636.5)"/>
+    <line id="Line_631" data-name="Line 631" class="cls-4" y1="5" transform="translate(517 -636.5)"/>
+    <line id="Line_632" data-name="Line 632" class="cls-4" y1="5" transform="translate(520 -636.5)"/>
+  </g>
+</svg>

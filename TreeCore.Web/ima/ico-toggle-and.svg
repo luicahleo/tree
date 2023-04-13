@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.564" height="20" viewBox="0 0 50.564 20">
+  <g id="Componente_1929_3" data-name="Componente 1929 – 3" transform="translate(0.564)">
+    <g id="ico-toggle-on" transform="translate(-0.564)">
+      <path id="Trazado_2684" data-name="Trazado 2684" d="M.436,0H31a10,10,0,0,1,0,20H.436a10,10,0,0,1,0-20Z" transform="translate(9.564)" fill="#06a086"/>
+      <path id="Trazado_2532" data-name="Trazado 2532" d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0Z" transform="translate(2.564 2)" fill="#fff"/>
+    </g>
+    <text id="And" transform="translate(42.564 14)" fill="#fff" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-17.729" y="0">And</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="ico-quality" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_229" data-name="Rectángulo 229" width="20" height="20" fill="none"/>
+  <g id="Grupo_1630" data-name="Grupo 1630" transform="translate(-304 -694)">
+    <path id="Trazado_1038" data-name="Trazado 1038" d="M4164.948,1670.918v7.543l4.146-2.9,4.147,2.9v-7.543" transform="translate(-3855 -965.366)" fill="none" stroke="#3a3a40" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Elipse_134" data-name="Elipse 134" transform="translate(307 694)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6.25" fill="none"/>
+    </g>
+    <circle id="Elipse_135" data-name="Elipse 135" cx="2" cy="2" r="2" transform="translate(312 699)" fill="#3a3a40"/>
+  </g>
+</svg>

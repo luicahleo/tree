@@ -1,0 +1,19 @@
+﻿@import '../../../CSS/variables.scss';
+@import '../../../CSS/mixins.scss';
+
+@include layoutRes(100%, 50%, 30%, 70%, 30%, 70%);
+
+.alturaPn {
+    height: min-content !important;
+}
+
+.image-title {
+    display: inline-block;
+}
+
+    @media (max-width:667px) {
+        #Contacts .x-panel-body-default, #controles .x-panel-body-default {
+            background-color: $colBg !important;
+            max-width: 100%;
+        }
+    }

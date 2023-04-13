@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="NLog" Version="4.7.13" />
+    <PackageReference Include="System.Text.Json" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TreeCore.BackEnd.Data\TreeCore.BackEnd.Data.csproj" />
+    <ProjectReference Include="..\TreeCore.BackEnd.Model\TreeCore.BackEnd.Model.csproj" />
+    <ProjectReference Include="..\TreeCore.BackEnd.ServiceDependencies\TreeCore.BackEnd.ServiceDependencies.csproj" />
+    <ProjectReference Include="..\TreeCore.BackEnd.Translations\TreeCore.BackEnd.Translations.csproj" />
+    <ProjectReference Include="..\TreeCore.BackEnd.WorkerService\TreeCore.BackEnd.WorkerServices.csproj" />
+    <ProjectReference Include="..\TreeCore.Shared.DTO\TreeCore.Shared.DTO.csproj" />
+    <ProjectReference Include="..\TreeCore.Shared.ROP\TreeCore.Shared.ROP.csproj" />
+    <ProjectReference Include="..\TreeCore.Shared.Utilities\TreeCore.Shared.Utilities.csproj" />
+
+  </ItemGroup>
+
+</Project>

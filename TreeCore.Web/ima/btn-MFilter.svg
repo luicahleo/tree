@@ -1,0 +1,13 @@
+<svg id="btn-MFilter" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_7664" data-name="Grupo 7664">
+    <g id="Grupo_7646" data-name="Grupo 7646">
+      <g id="ico_mn_agencias">
+        <rect id="Rectángulo_184" data-name="Rectángulo 184" width="20" height="20" fill="none"/>
+        <path id="Trazado_1104" data-name="Trazado 1104" d="M808.435,298.224h2.837l5.541-1a1.453,1.453,0,0,1,.681,2.821c-.9.465-2.842,1.355-2.842,1.355s7.339-1.481,8.319-1.618,1.836.057,2.156.871a1.664,1.664,0,0,1-.981,2.355,17.846,17.846,0,0,1-6.651,1.6l-7.653-.009-1.406.009Z" transform="translate(-806.666 -285.544)" fill="none" stroke="#6a6b75" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <path id="Trazado_2670" data-name="Trazado 2670" d="M3139.05,157.562h10v2.364L3145.5,165.2v1.844l-2.712.192v-2.087l-3.743-5.226Z" transform="translate(-3134.05 -155.562)" fill="none" stroke="#6a6b75" stroke-width="1.6"/>
+    </g>
+    <line id="Línea_1206" data-name="Línea 1206" y2="7" transform="translate(4.5 12.5)" fill="none" stroke="#6a6b75" stroke-width="1"/>
+  </g>
+  <line id="Línea_1446" data-name="Línea 1446" x2="10" transform="translate(4.5 4.5)" fill="none" stroke="#6a6b75" stroke-width="1"/>
+</svg>

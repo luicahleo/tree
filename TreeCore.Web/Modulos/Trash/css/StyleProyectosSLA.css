@@ -1,0 +1,398 @@
+﻿#ctBtnSldr {
+  display: none;
+  width: 96%;
+  margin-bottom: .5rem; }
+
+#ctBtnSldr-innerCt {
+  float: right;
+  width: 80px; }
+
+#btnPrevSldr, #btnNextSldr {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  box-shadow: transparent 0 1px 0 inset !important;
+  background-color: #EDEDED !important;
+  border-radius: 50px;
+  display: inline-block; }
+  #btnPrevSldr.x-btn-default-small, #btnNextSldr.x-btn-default-small {
+    border-color: transparent;
+    background-color: transparent; }
+  #btnPrevSldr:hover, #btnNextSldr:hover {
+    background-color: #c3c3c3; }
+
+#btnPrevSldr {
+  margin-right: .3rem; }
+
+#btnPrevSldr.x-btn-default-small, #btnNextSldr.x-btn-default-small {
+  padding: 2px 2px 2px 2px; }
+
+.btnMainSldr-dis {
+  opacity: 0.5;
+  pointer-events: none !important;
+  cursor: none; }
+
+#ctSlider {
+  width: 96%; }
+
+#ctSlider-innerCt {
+  display: flex;
+  height: 100vh !important;
+  overflow: hidden; }
+
+#ctMain1 {
+  flex: 0 0 calc(40% - 1rem); }
+
+#ctMain2 {
+  flex: 0 0 calc(30% - 1rem); }
+
+#ctMain3 {
+  flex: 0 0 calc(30% - 1rem); }
+
+#btnCollapseAsR {
+  position: fixed;
+  display: block;
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  right: 8px;
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("/ima/ico-moveRight.svg");
+  background-color: #D8D8D8;
+  border-radius: 2px;
+  transition: all 0.3s ease-out; }
+  #btnCollapseAsR.x-btn-default-small {
+    border-color: transparent; }
+
+#btnCollapseAsRClosed {
+  position: fixed;
+  display: block;
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  right: 8px;
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("/ima/ico-moveLeft.svg");
+  background-color: #D8D8D8;
+  border-radius: 2px;
+  transition: all 0.3s ease-out; }
+  #btnCollapseAsRClosed.x-btn-default-small {
+    border-color: transparent; }
+
+#pnAsideR {
+  position: fixed;
+  width: 360px;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #D8D8D8 !important;
+  box-shadow: none;
+  z-index: 9;
+  transition: margin ease 0.3s; }
+
+#pnAsideR-innerCt {
+  height: 100vh !important;
+  background-color: #f6f6f6;
+  padding: 1rem; }
+
+.lblHeadAside {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: #06A086;
+  font-size: 16px;
+  font-weight: bold; }
+
+@media (max-width: 1024px) {
+  #ctBtnSldr {
+    display: block; }
+  #ctMain1 {
+    flex: 0 0 calc(60% - 1rem); }
+  #ctMain2 {
+    flex: 0 0 calc(40% - 1rem); }
+  #ctMain3 {
+    flex: 0 0 calc(40% - 1rem); } }
+
+@media (max-width: 768px) {
+  #ctBtnSldr {
+    display: block; }
+  #ctMain1, #ctMain2, #ctMain3 {
+    flex: 0 0 calc(50% - 1rem); } }
+
+@media (max-width: 480px) {
+  #ctSlider {
+    margin: 0 auto; }
+  #ctMain1, #ctMain2, #ctMain3 {
+    flex: 0 0 100%; } }
+
+@media (max-width: 320px) {
+  #ctSlider {
+    margin: 0 auto; }
+  #ctMain1, #ctMain2, #ctMain3 {
+    flex: 0 0 100%; } }
+
+.grdPnColIcons .ulGrid {
+  padding: 1rem 0 .5rem 0;
+  width: 75%;
+  margin-bottom: 0 !important;
+  align-self: center; }
+
+.grdPnColIcons .ulGridCol2 {
+  width: 25% !important;
+  margin-left: 2rem;
+  text-align: center; }
+  .grdPnColIcons .ulGridCol2 li {
+    display: contents !important; }
+  .grdPnColIcons .ulGridCol2 li:last-child {
+    float: right !important; }
+
+.grdPnColIcons .ulGrid h5 {
+  margin: 0; }
+
+.grdPnColIcons .ctIcons {
+  display: flex;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  justify-content: space-between; }
+  .grdPnColIcons .ctIcons .icoGridItem {
+    flex: 1 0 calc(33% - 0.2rem);
+    margin-right: .5rem;
+    align-self: center; }
+
+.grdPnColIcons .ctIconSolo {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center; }
+
+.grdPnColIcons .ulGrid .code {
+  font-size: 10px;
+  display: block;
+  text-decoration: underline;
+  margin-top: .5rem;
+  color: #6A6B75; }
+
+.grJustOne .ulGrid {
+  padding: 1rem 0 .5rem 0;
+  width: 75%;
+  margin-bottom: 0 !important;
+  align-self: center; }
+
+.grJustOne .ulGridCol2 {
+  width: 25% !important;
+  margin-left: 2rem;
+  text-align: center; }
+  .grJustOne .ulGridCol2 li {
+    display: contents !important; }
+  .grJustOne .ulGridCol2 li:last-child {
+    float: right !important; }
+
+.grJustOne .ulGrid h5 {
+  margin: 0; }
+
+.grJustOne .ctIcons {
+  display: flex;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  justify-content: space-between; }
+  .grJustOne .ctIcons .icoGridItem {
+    flex: 1 0 calc(33% - 0.2rem);
+    margin-right: .5rem;
+    align-self: center; }
+
+.grJustOne .ctIconSolo {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center; }
+
+.grJustOne .ulGrid .code {
+  font-size: 10px;
+  display: block;
+  text-decoration: underline;
+  margin-top: .5rem;
+  color: #6A6B75; }
+
+.grJustOne .x-grid-cell-inner {
+  background-color: #fff;
+  padding-top: 0; }
+
+.grJustOne .ul100w {
+  margin-top: 0;
+  width: 100%;
+  padding: 0; }
+  .grJustOne .ul100w h5 {
+    margin: 0; }
+
+.grJustOne li {
+  border-bottom: 1px solid #EDEDED; }
+
+.grJustOne li:last-child {
+  border-bottom: 0; }
+
+.grJustOne li span {
+  align-self: center;
+  margin-right: .2rem;
+  line-height: 1.5rem; }
+
+.grJustOne li h5 {
+  align-self: center;
+  line-height: 1.5rem;
+  padding-bottom: 2px; }
+
+.grJustOne .autoH {
+  line-height: unset; }
+
+.grJustOne p {
+  margin: 0; }
+
+#grdTime li {
+  height: 40px; }
+
+#spDays {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-left: .1rem;
+  align-self: center;
+  padding-bottom: 2px; }
+
+#grdPenalties li {
+  height: 60px; }
+
+#grdPenalties li {
+  margin-top: 1rem; }
+
+#grdPenalties span {
+  margin-right: 1rem; }
+
+#liToOk {
+  position: relative;
+  padding-left: 18px; }
+  #liToOk:before {
+    position: absolute;
+    content: url("../../ima/ico-pointGr.svg");
+    width: 14px;
+    left: 0px;
+    top: 12px; }
+
+#liToWarning {
+  position: relative;
+  padding-left: 18px; }
+  #liToWarning:before {
+    position: absolute;
+    content: url("../../ima/ico-pointYe.svg");
+    width: 14px;
+    left: 0px;
+    top: 12px; }
+
+#liTime {
+  position: relative;
+  padding-left: 22px; }
+  #liTime span {
+    padding-top: 2px; }
+  #liTime:before {
+    position: absolute;
+    content: url("../../ima/ico-historial.svg");
+    width: 14px;
+    left: -2px;
+    top: 10px; }
+
+.radioGr .x-form-cb-label-default {
+  color: #06A086;
+  font-weight: 700; }
+
+#ctRadioTime {
+  margin-right: 1rem !important; }
+
+#radDays {
+  margin-left: 1rem; }
+
+.progBar-wr {
+  width: 80px;
+  height: 14px;
+  background-color: #EDEDED;
+  border-radius: 10px; }
+  .progBar-wr .progBar {
+    height: 14px;
+    border-radius: 10px;
+    background-color: #06A086; }
+
+#grdProjects {
+  height: 100vh !important;
+  /*.x-panel-body, .x-grid-view {
+		height: 100vh !important;
+	}*/ }
+  #grdProjects .x-panel-body-default-framed, #grdProjects .x-panel-bodyWrap {
+    background-color: #ffffff !important; }
+
+#grdPhases {
+  margin-bottom: 1rem; }
+
+#grdPenalties {
+  margin-top: 1rem; }
+
+.grBodyNoborder .x-grid-body {
+  border-width: 0px !important; }
+
+.ctCardSlider .x-toolbar-default {
+  border-width: 0; }
+
+.ctCardSlider .x-container-default {
+  margin-bottom: 2rem; }
+
+.ctCardSlider .lblCardSlider {
+  display: block;
+  font-size: 15px;
+  color: #6A6B75;
+  font-weight: bold;
+  margin-top: .5rem; }
+
+.ctCardSlider .txtCardSlider {
+  max-height: 3rem; }
+
+.ctCardSlider .lblToogle-gr {
+  color: #06A086;
+  font-weight: bold; }
+
+.ctCardSlider .pnCardSlider {
+  padding: 1rem; }
+
+.ctCardSlider #btnEntireMessage {
+  display: block; }
+
+.ctCardSlider #btnPrvCardSldr {
+  position: static !important;
+  float: right;
+  margin-right: .5rem !important; }
+
+.ctCardSlider #btnNxtCardSldr {
+  position: static !important;
+  float: right; }
+
+.ctCardSlider .txtRecipientSlider {
+  display: block; }
+
+.pageTitle {
+  margin-bottom: 1rem;
+  position: relative; }
+
+.btnPrev, .btnNext {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  box-shadow: transparent 0 1px 0 inset !important;
+  background-color: #EDEDED !important;
+  border-radius: 50px;
+  display: inline-block;
+  min-width: 30px !important;
+  width: 30px !important;
+  height: 30px; }
+  .btnPrev.x-btn-default-small, .btnNext.x-btn-default-small {
+    border-color: transparent;
+    background-color: transparent; }
+  .btnPrev:hover, .btnNext:hover {
+    background-color: #c3c3c3; }
+  .btnPrev .x-btn-tooltip, .btnNext .x-btn-tooltip {
+    pointer-events: unset; }

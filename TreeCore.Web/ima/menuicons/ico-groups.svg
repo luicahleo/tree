@@ -1,0 +1,15 @@
+<svg id="ico-groups" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_250" data-name="Rectángulo 250" width="20" height="20" fill="none"/>
+  <g id="Grupo_1669" data-name="Grupo 1669" transform="translate(-302 -341)">
+    <g id="Rectángulo_62" data-name="Rectángulo 62" transform="translate(302 342)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="20" height="10" stroke="none"/>
+      <rect x="0.75" y="0.75" width="18.5" height="8.5" fill="none"/>
+    </g>
+    <line id="Línea_43" data-name="Línea 43" x2="9.199" transform="translate(310.5 355.5)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_44" data-name="Línea 44" x2="9.199" transform="translate(310.5 359.5)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+    <circle id="Elipse_22" data-name="Elipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(305 354)" fill="#3a3a40"/>
+    <circle id="Elipse_23" data-name="Elipse 23" cx="1.5" cy="1.5" r="1.5" transform="translate(305 358)" fill="#3a3a40"/>
+    <path id="Trazado_687" data-name="Trazado 687" d="M477,609.684l1,1,1-1" transform="translate(-161 -262.684)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_688" data-name="Trazado 688" d="M6,0H0" transform="translate(306 347)" fill="none" stroke="#3a3a40" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>
